@@ -1,0 +1,17 @@
+{
+  "name": "gita-app",
+  "version": "1.0.0",
+  "description": "Bhagavad Gita Progressive Web App",
+  "scripts": {
+    "native:init": "npx cap init 'Bhagavad Gita' 'com.yourdomain.gita' --web-dir .",
+    "native:android": "npm install @capacitor/android && npx cap add android && npx cap sync android",
+    "native:ios": "npm install @capacitor/ios && npx cap add ios && npx cap sync ios",
+    "native:sync": "npx cap sync",
+    "native:open-android": "npx cap open android",
+    "native:open-ios": "npx cap open ios",
+    "serve": "python3 -m http.server 8000"
+  },
+  "keywords": ["bhagavad-gita", "pwa", "spiritual", "hindu", "philosophy"],
+  "author": "Your Name",
+  "license": "MIT"
+}

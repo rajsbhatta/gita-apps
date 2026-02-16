@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="Bhagavad Gita for modern times - Sanskrit, English, and relatable explanations">
+    <meta name="theme-color" content="#1a1a2e">
+    
+    <!-- PWA -->
+    <link rel="manifest" href="./manifest.json">
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    <link rel="icon" type="image/png" sizes="192x192" href="./icon-192.png">
+    <link rel="apple-touch-icon" href="./icon-192.png">
+    
+    <title>Bhagavad Gita | Modern Guide</title>
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- App Container -->
+    <div id="app">
+        <!-- Header -->
+        <header class="header">
+            <button id="menuBtn" class="icon-btn" aria-label="Menu">
+                <span class="menu-icon"></span>
+            </button>
+            <h1 class="app-title">Bhagavad Gita</h1>
+            <button id="themeToggle" class="icon-btn" aria-label="Toggle theme">
+                <span class="theme-icon">🌙</span>
+            </button>
+        </header>
+
+        <!-- Navigation Sidebar -->
+        <nav id="sidebar" class="sidebar">
+            <div class="sidebar-header">
+                <h2>Chapters</h2>
+                <button id="closeSidebar" class="icon-btn">✕</button>
+            </div>
+            <div id="chapterList" class="chapter-list">
+                <!-- Generated dynamically -->
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main id="mainContent" class="main-content">
+            <!-- Home View -->
+            <div id="homeView" class="view active">
+                <div class="hero">
+                    <h2 class="hero-title">ॐ</h2>
+                    <p class="hero-subtitle">Timeless Wisdom for Modern Life</p>
+                </div>
+
+                <div class="daily-shloka">
+                    <h3>Shloka of the Day</h3>
+                    <div id="dailyShloka" class="shloka-card">
+                        <div class="loading">Loading...</div>
+                    </div>
+                </div>
+
+                <div class="quick-actions">
+                    <button class="action-btn" onclick="app.showChapters()">
+                        📖 Browse Chapters
+                    </button>
+                    <button class="action-btn" onclick="app.showBookmarks()">
+                        ⭐ My Bookmarks
+                    </button>
+                    <button class="action-btn" onclick="app.showSearch()">
+                        🔍 Search
+                    </button>
+                </div>
+
+                <div class="about">
+                    <p>The Bhagavad Gita reimagined for our generation. Ancient Sanskrit wisdom with modern, relatable explanations.</p>
+                    <p class="storage-info">💾 Lightweight • Works Offline • No Ads</p>
+                </div>
+            </div>
+
+            <!-- Chapter View -->
+            <div id="chapterView" class="view">
+                <button class="back-btn" onclick="app.goHome()">← Back</button>
+                <div id="chapterContent">
+                    <!-- Generated dynamically -->
+                </div>
+            </div>
+
+            <!-- Shloka Detail View -->
+            <div id="shlokaView" class="view">
+                <button class="back-btn" onclick="app.goBack()">← Back</button>
+                <div id="shlokaContent">
+                    <!-- Generated dynamically -->
+                </div>
+            </div>
+
+            <!-- Search View -->
+            <div id="searchView" class="view">
+                <button class="back-btn" onclick="app.goHome()">← Back</button>
+                <div class="search-container">
+                    <input type="text" id="searchInput" placeholder="Search by keyword, theme, or verse..." class="search-input">
+                    <div id="searchResults" class="search-results">
+                        <!-- Generated dynamically -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bookmarks View -->
+            <div id="bookmarksView" class="view">
+                <button class="back-btn" onclick="app.goHome()">← Back</button>
+                <h2>My Bookmarks</h2>
+                <div id="bookmarksList" class="bookmarks-list">
+                    <!-- Generated dynamically -->
+                </div>
+            </div>
+        </main>
+
+        <!-- Install Prompt (for PWA) -->
+        <div id="installPrompt" class="install-prompt hidden">
+            <p>Install app for offline access</p>
+            <button id="installBtn" class="install-btn">Install</button>
+            <button id="dismissInstall" class="icon-btn">✕</button>
+        </div>
+
+        <!-- Loading Overlay -->
+        <div id="loadingOverlay" class="loading-overlay hidden">
+            <div class="spinner"></div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+    <script>
+        // Register Service Worker
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('sw.js')
+                    .then(reg => console.log('Service Worker registered'))
+                    .catch(err => console.log('Service Worker registration failed'));
+            });
+        }
+    </script>
+</body>
+</html>

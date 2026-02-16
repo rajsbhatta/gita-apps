@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PWA Installation Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .test-item {
+            background: white;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 8px;
+            border-left: 4px solid #ccc;
+        }
+        .test-item.pass {
+            border-left-color: #4caf50;
+        }
+        .test-item.fail {
+            border-left-color: #f44336;
+        }
+        .test-item.warn {
+            border-left-color: #ff9800;
+        }
+        h1 { color: #333; }
+        .icon { font-size: 24px; margin-right: 10px; }
+        button {
+            background: #ff6b6b;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 5px;
+        }
+        button:hover {
+            background: #ee5a52;
+        }
+        #results { margin-top: 30px; }
+    </style>
+</head>
+<body>
+    <h1>🕉️ Bhagavad Gita PWA - Installation Test</h1>
+    
+    <p>This page checks if your app is properly configured for installation.</p>
+    
+    <button onclick="runTests()">🧪 Run Tests</button>
+    <button onclick="testInstall()">📱 Test Install</button>
+    <button onclick="clearAndRetry()">🔄 Clear Cache & Retry</button>
+    
+    <div id="results"></div>
+
+    <script>
+        const results = document.getElementById('results');
+
+        async function runTests() {
+            results.innerHTML = '<h2>Running Tests...</h2>';
+            const tests = [];
+
+            // Test 1: HTTPS
+            const isHttps = window.location.protocol === 'https:';
+            tests.push({
+                name: 'HTTPS Connection',
+                pass: isHttps,
+                message: isHttps ? 'Site is served over HTTPS ✓' : 'Site must be HTTPS for PWA',
+                critical: true
+            });
+
+            // Test 2: Service Worker Support
+            const swSupport = 'serviceWorker' in navigator;
+            tests.push({
+                name: 'Service Worker Support',
+                pass: swSupport,
+                message: swSupport ? 'Browser supports Service Workers ✓' : 'Browser does not support Service Workers',
+                critical: true
+            });
+
+            // Test 3: Service Worker Registration
+            let swRegistered = false;
+            if (swSupport) {
+                try {
+                    const registration = await navigator.serviceWorker.getRegistration();
+                    swRegistered = !!registration;
+                    tests.push({
+                        name: 'Service Worker Registration',
+                        pass: swRegistered,
+                        message: swRegistered ? 'Service Worker is registered ✓' : 'Service Worker not registered',
+                        critical: true
+                    });
+
+                    if (swRegistered && registration.active) {
+                        tests.push({
+                            name: 'Service Worker Status',
+                            pass: true,
+                            message: 'Service Worker is active ✓',
+                            critical: false
+                        });
+                    }
+                } catch (e) {
+                    tests.push({
+                        name: 'Service Worker Registration',
+                        pass: false,
+                        message: 'Error checking Service Worker: ' + e.message,
+                        critical: true
+                    });
+                }
+            }
+
+            // Test 4: Manifest
+            const manifestLink = document.querySelector('link[rel="manifest"]');
+            tests.push({
+                name: 'Manifest Link',
+                pass: !!manifestLink,
+                message: manifestLink ? 'Manifest link found ✓' : 'No manifest link in HTML',
+                critical: true
+            });
+
+            // Test 5: Fetch Manifest
+            if (manifestLink) {
+                try {
+                    const response = await fetch(manifestLink.href);
+                    const manifest = await response.json();
+                    
+                    tests.push({
+                        name: 'Manifest File',
+                        pass: true,
+                        message: `Manifest loaded: "${manifest.name}" ✓`,
+                        critical: true
+                    });
+
+                    // Test icons
+                    const hasIcons = manifest.icons && manifest.icons.length > 0;
+                    tests.push({
+                        name: 'Manifest Icons',
+                        pass: hasIcons,
+                        message: hasIcons ? `${manifest.icons.length} icons defined ✓` : 'No icons in manifest',
+                        critical: true
+                    });
+
+                    // Test display mode
+                    const isStandalone = manifest.display === 'standalone';
+                    tests.push({
+                        name: 'Display Mode',
+                        pass: isStandalone,
+                        message: isStandalone ? 'Display mode is standalone ✓' : `Display mode is ${manifest.display}`,
+                        critical: false
+                    });
+
+                    // Test start_url
+                    const hasStartUrl = !!manifest.start_url;
+                    tests.push({
+                        name: 'Start URL',
+                        pass: hasStartUrl,
+                        message: hasStartUrl ? `Start URL: ${manifest.start_url} ✓` : 'No start URL defined',
+                        critical: true
+                    });
+
+                } catch (e) {
+                    tests.push({
+                        name: 'Manifest File',
+                        pass: false,
+                        message: 'Error loading manifest: ' + e.message,
+                        critical: true
+                    });
+                }
+            }
+
+            // Test 6: Icons exist
+            try {
+                const icon192Response = await fetch('./icon-192.png', { method: 'HEAD' });
+                const icon512Response = await fetch('./icon-512.png', { method: 'HEAD' });
+                
+                tests.push({
+                    name: 'App Icons',
+                    pass: icon192Response.ok && icon512Response.ok,
+                    message: icon192Response.ok && icon512Response.ok ? 
+                        'Both icon files exist ✓' : 
+                        'One or more icon files missing',
+                    critical: true
+                });
+            } catch (e) {
+                tests.push({
+                    name: 'App Icons',
+                    pass: false,
+                    message: 'Error checking icons: ' + e.message,
+                    critical: true
+                });
+            }
+
+            // Test 7: Install Prompt Available
+            tests.push({
+                name: 'Install Prompt',
+                pass: 'BeforeInstallPromptEvent' in window || 
+                      navigator.userAgent.includes('iPhone') || 
+                      navigator.userAgent.includes('iPad'),
+                message: 'Install capability detected ✓',
+                critical: false
+            });
+
+            // Display results
+            displayResults(tests);
+        }
+
+        function displayResults(tests) {
+            const passCount = tests.filter(t => t.pass).length;
+            const totalCount = tests.length;
+            const criticalFails = tests.filter(t => !t.pass && t.critical).length;
+
+            let html = `<h2>Test Results: ${passCount}/${totalCount} Passed</h2>`;
+            
+            if (criticalFails === 0) {
+                html += '<p style="color: green; font-weight: bold;">✓ Your app is ready for installation!</p>';
+            } else {
+                html += `<p style="color: red; font-weight: bold;">✗ ${criticalFails} critical issue(s) found</p>`;
+            }
+
+            tests.forEach(test => {
+                const status = test.pass ? 'pass' : (test.critical ? 'fail' : 'warn');
+                const icon = test.pass ? '✓' : '✗';
+                html += `
+                    <div class="test-item ${status}">
+                        <span class="icon">${icon}</span>
+                        <strong>${test.name}:</strong> ${test.message}
+                    </div>
+                `;
+            });
+
+            html += `
+                <h3>📱 Next Steps:</h3>
+                <div class="test-item">
+                    <strong>Android (Chrome):</strong><br>
+                    • Look for "Install app" banner at bottom<br>
+                    • Or tap menu (⋮) → "Install app"<br>
+                    • Or "Add to Home screen"
+                </div>
+                <div class="test-item">
+                    <strong>iPhone (Safari only):</strong><br>
+                    • Tap Share button (square with arrow)<br>
+                    • Scroll down and tap "Add to Home Screen"<br>
+                    • Tap "Add" in top right
+                </div>
+            `;
+
+            results.innerHTML = html;
+        }
+
+        function testInstall() {
+            alert('Testing install functionality...\n\nOn Android: Check if "Install" appears in the menu.\nOn iPhone: Check if Share → "Add to Home Screen" is available.');
+            
+            // Try to trigger install prompt (Android)
+            if (window.deferredPrompt) {
+                window.deferredPrompt.prompt();
+            } else {
+                console.log('No deferred prompt available. Check menu for install option.');
+            }
+        }
+
+        async function clearAndRetry() {
+            if (confirm('This will clear cache and unregister service worker. Continue?')) {
+                // Unregister service worker
+                if ('serviceWorker' in navigator) {
+                    const registrations = await navigator.serviceWorker.getRegistrations();
+                    for (const registration of registrations) {
+                        await registration.unregister();
+                    }
+                }
+                
+                // Clear caches
+                if ('caches' in window) {
+                    const cacheNames = await caches.keys();
+                    for (const name of cacheNames) {
+                        await caches.delete(name);
+                    }
+                }
+                
+                alert('Cache cleared and service worker unregistered.\n\nReloading page...');
+                location.reload();
+            }
+        }
+
+        // Capture install prompt event
+        window.addEventListener('beforeinstallprompt', (e) => {
+            e.preventDefault();
+            window.deferredPrompt = e;
+            console.log('Install prompt captured!');
+        });
+
+        // Run tests on load
+        window.addEventListener('load', () => {
+            setTimeout(runTests, 500);
+        });
+    </script>
+</body>
+</html>

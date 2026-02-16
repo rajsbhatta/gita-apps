@@ -1,0 +1,58 @@
+{
+  "number": 1,
+  "title": "Arjuna's Dilemma",
+  "sanskrit": "अर्जुनविषादयोग",
+  "verses": 47,
+  "introduction": "The scene is set on the battlefield of Kurukshetra. Two armies stand ready for war. Arjuna, a great warrior, asks Krishna to position his chariot between the armies. What happens next changes everything.",
+  "shlokas": [
+    {
+      "verse": 1,
+      "sanskrit": "धृतराष्ट्र उवाच |\nधर्मक्षेत्रे कुरुक्षेत्रे समवेता युयुत्सवः |\nमामकाः पाण्डवाश्चैव किमकुर्वत सञ्जय ||",
+      "transliteration": "dhṛtarāṣṭra uvāca\ndharma-kṣetre kuru-kṣetre samavetā yuyutsavaḥ\nmāmakāḥ pāṇḍavāś caiva kim akurvata sañjaya",
+      "translation": "Dhritarashtra said: O Sanjaya, after my sons and the sons of Pandu assembled in the place of pilgrimage at Kurukshetra, desiring to fight, what did they do?",
+      "modern": "Think of this as the opening scene of an epic movie. A blind king (Dhritarashtra) is asking his assistant for a play-by-play of the battle because he can't see it himself. But here's the deeper meaning: he's spiritually blind too. He knows his sons (the Kauravas) are in the wrong, but he's asking anyway, hoping somehow they'll win. Classic denial. It's like when you know you're making a bad decision but you're hoping someone will validate it anyway. We've all been there."
+    },
+    {
+      "verse": 28,
+      "sanskrit": "अर्जुन उवाच |\nदृष्ट्वेमं स्वजनं कृष्ण युयुत्सुं समुपस्थितम् |\nसीदन्ति मम गात्राणि मुखं च परिशुष्यति ||",
+      "transliteration": "arjuna uvāca\ndṛṣṭvemaṁ sva-janaṁ kṛṣṇa yuyutsuṁ samupasthitam\nsīdanti mama gātrāṇi mukhaṁ ca pariśuṣyati",
+      "translation": "Arjuna said: My dear Krishna, seeing my friends and relatives present before me in such a fighting spirit, I feel the limbs of my body quivering and my mouth drying up.",
+      "modern": "This is REAL. Arjuna's having a full-blown panic attack. His body is literally shaking, mouth dry, probably sweating. Why? Because he's about to fight his own family. Imagine being forced to compete against your cousins, teachers, and friends for something huge - and you know someone's going to lose everything. The anxiety is real. This isn't weakness - it's being human. Krishna's about to teach him (and us) how to navigate these impossible situations."
+    },
+    {
+      "verse": 30,
+      "sanskrit": "वेपथुश्च शरीरे मे रोमहर्षश्च जायते |\nगाण्डीवं स्रंसते हस्तात्त्वक्चैव परिदह्यते ||",
+      "transliteration": "vepathuś ca śarīre me roma-harṣaś ca jāyate\ngāṇḍīvaṁ sraṁsate hastāt tvak caiva paridahyate",
+      "translation": "My whole body is trembling, my hair is standing on end, my bow Gandiva is slipping from my hand, and my skin is burning.",
+      "modern": "Full meltdown mode. Physical symptoms of anxiety/stress: trembling, goosebumps (hair standing up), can't even hold his weapon, skin feels like it's on fire. This is what severe anxiety feels like. Athletes call it 'choking under pressure.' Students feel it during finals. Anyone facing a huge decision knows this feeling. The point? Even the greatest warriors have moments of complete overwhelm. You're not alone in feeling this way when stakes are high."
+    },
+    {
+      "verse": 31,
+      "sanskrit": "निमित्तानि च पश्यामि विपरीतानि केशव |\nन च श्रेयोऽनुपश्यामि हत्वा स्वजनमाहवे ||",
+      "transliteration": "nimittāni ca paśyāmi viparītāni keśava\nna ca śreyo 'nupaśyāmi hatvā sva-janam āhave",
+      "translation": "I see only causes of misfortune, O Krishna, killer of the Kesi demon. I do not see how any good can come from killing my own kinsmen in this battle.",
+      "modern": "Catastrophizing 101. 'Nothing good can come from this.' When you're anxious, your brain literally can't see positive outcomes - it's wired for survival, so it focuses on threats. Arjuna's stuck in this loop: fighting = bad, killing family = worse. He can't see past the immediate horror to understand the bigger picture. It's like turning down a great opportunity because you're scared of change, or staying in a toxic situation because leaving feels scarier. Sometimes the right path looks terrifying from where you're standing."
+    },
+    {
+      "verse": 32,
+      "sanskrit": "न काङ्क्षे विजयं कृष्ण न च राज्यं सुखानि च |\nकिं नो राज्येन गोविन्द किं भोगैर्जीवितेन वा ||",
+      "transliteration": "na kāṅkṣe vijayaṁ kṛṣṇa na ca rājyaṁ sukhāni ca\nkiṁ no rājyena govinda kiṁ bhogair jīvitena vā",
+      "translation": "O Krishna, I do not desire victory, nor kingdom, nor pleasures. Of what use is a kingdom, or enjoyments, or even life itself?",
+      "modern": "Depression has entered the chat. 'What's the point of any of this?' Classic existential crisis. Success, power, pleasure - none of it matters when you're in this headspace. This is that 3 AM feeling when you question everything. 'Why am I even trying?' Whether it's your career, relationship, or life goals - when you're overwhelmed, nothing seems worth it. The key insight: This feeling is temporary, but decisions made during it can be permanent. That's why you shouldn't make life choices when you're in crisis mode."
+    },
+    {
+      "verse": 45,
+      "sanskrit": "कार्पण्यदोषोपहतस्वभावः पृच्छामि त्वां धर्मसम्मूढचेताः |\nयच्छ्रेयः स्यान्निश्चितं ब्रूहि तन्मे शिष्यस्तेऽहं शाधि मां त्वां प्रपन्नम् ||",
+      "transliteration": "kārpaṇya-doṣopahata-svabhāvaḥ pṛcchāmi tvāṁ dharma-sammūḍha-cetāḥ\nyac chreyaḥ syān niścitaṁ brūhi tan me śiṣyas te 'haṁ śādhi māṁ tvāṁ prapannam",
+      "translation": "Now I am confused about my duty and have lost all composure because of miserly weakness. In this condition I am asking You to tell me for certain what is best for me. Now I am Your disciple, and a soul surrendered unto You. Please instruct me.",
+      "modern": "This is the turning point. Arjuna stops arguing and says 'I need help. I don't know what to do. Teach me.' This is HUGE. Admitting you don't have all the answers? That's strength, not weakness. Asking for guidance when you're lost? That's wisdom. We live in a culture that celebrates 'figuring it out yourself,' but sometimes the smartest thing you can do is say 'I'm confused, I need perspective.' This is where the real teaching begins - when the student is finally ready to listen."
+    },
+    {
+      "verse": 47,
+      "sanskrit": "सञ्जय उवाच |\nएवमुक्त्वार्जुनः सङ्ख्ये रथोपस्थ उपाविशत् |\nविसृज्य सशरं चापं शोकसंविग्नमानसः ||",
+      "transliteration": "sañjaya uvāca\nevam uktvārjunaḥ saṅkhye rathopastha upāviśat\nvisṛjya sa-śaraṁ cāpaṁ śoka-saṁvigna-mānasaḥ",
+      "translation": "Sanjaya said: Having spoken thus, Arjuna cast aside his bow and arrows and sat down on the chariot, his mind overwhelmed with grief.",
+      "modern": "End of Chapter 1. Arjuna literally drops his weapons and sits down. He's done. Tapped out. Can't even. This is rock bottom - when you're so overwhelmed that you just... stop. Maybe you've been there: couldn't get out of bed, couldn't face responsibilities, just shut down. The good news? This is often right before the breakthrough. When you finally stop fighting and admit you need help, that's when transformation becomes possible. Chapter 2 is where Krishna starts dropping the wisdom that will change Arjuna's (and our) life."
+      }
+  ]
+}
