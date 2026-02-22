@@ -250,6 +250,14 @@ body {
     color: var(--accent);
 }
 
+.copyright {
+    margin-top: 2rem;
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    opacity: 0.7;
+    text-align: center;
+}
+
 /* Shloka Display */
 .shloka-detail {
     background: var(--bg-card);
