@@ -29,7 +29,7 @@ class GitaApp {
         this.renderChapterList();
         
         // Show daily shloka
-        this.showDailyShloka();
+        await this.showDailyShloka();
         
         // Check for install prompt
         this.setupInstallPrompt();
@@ -105,6 +105,11 @@ class GitaApp {
         // Fetch from server
         try {
             const response = await fetch(`data/chapters/chapter-${chapterNum}.json`);
+            // Check if response is ok
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            
             const chapter = await response.json();
             
             // Store in IndexedDB
