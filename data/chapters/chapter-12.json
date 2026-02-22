@@ -1,0 +1,23 @@
+{
+  "number": 12,
+  "title": "The Path of Devotion",
+  "sanskrit": "भक्तियोग",
+  "verses": 20,
+  "introduction": "Krishna explains the qualities of true devotees and the path of loving devotion as superior to other spiritual practices.",
+  "shlokas": [
+    {
+      "verse": 13,
+      "sanskrit": "अद्वेष्टा सर्वभूतानां मैत्रः करुण एव च | निर्ममो निरहंकारः समदुःखसुखः क्षमी ||",
+      "transliteration": "adveṣṭā sarva-bhūtānāṁ maitraḥ karuṇa eva ca | nirmamo nirahaṅkāraḥ sama-duḥkha-sukhaḥ kṣamī",
+      "translation": "One who is not envious but is a kind friend to all, who does not think of possessing, free from ego, equal in happiness and distress, forgiving.",
+      "modern": "The evolved person: Doesn't hate anyone. Is friendly and compassionate. Doesn't need to own or control everything. Has no ego trips. Handles good times and bad times the same. Forgives easily. Most of us fail at least 3 of these on any given day. But this is the goal. Imagine being this person. Imagine everyone being this person. That's paradise."
+    },
+    {
+      "verse": 16,
+      "sanskrit": "अनपेक्षः शुचिर्दक्ष उदासीनो गतव्यथः | सर्वारम्भपरित्यागी यो मद्भक्तः स मे प्रियः ||",
+      "transliteration": "anapekṣaḥ śucir dakṣa udāsīno gata-vyathaḥ | sarvārambha-parityāgī yo mad-bhaktaḥ sa me priyaḥ",
+      "translation": "One who is free from desires, pure, expert, without cares, free from pain, renouncing all undertakings - such a devotee is dear to Me.",
+      "modern": "Someone who: Doesn't constantly want more. Stays clean in body and mind. Is skilled but not attached to being skilled. Doesn't stress about everything. Feels no anxiety. Isn't always starting ambitious projects to prove something. This person has inner peace. They've figured it out. They're not trying to fill a void with achievements or possessions. They just ARE. Goals."
+    }
+  ]
+}

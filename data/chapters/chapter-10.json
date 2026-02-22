@@ -1,0 +1,23 @@
+{
+  "number": 10,
+  "title": "Divine Manifestations",
+  "sanskrit": "विभूतियोग",
+  "verses": 42,
+  "introduction": "Krishna describes His divine manifestations and glories in the world, showing how the Supreme pervades all of creation.",
+  "shlokas": [
+    {
+      "verse": 20,
+      "sanskrit": "अहमात्मा गुडाकेश सर्वभूताशयस्थितः | अहमादिश्च मध्यं च भूतानामन्त एव च ||",
+      "transliteration": "aham ātmā guḍākeśa sarva-bhūtāśaya-sthitaḥ | aham ādiś ca madhyaṁ ca bhūtānām anta eva ca",
+      "translation": "I am the Self seated in the hearts of all beings. I am the beginning, the middle and the end of all beings.",
+      "modern": "That inner voice, that consciousness observing your thoughts, that awareness - that's the divine in you. It was there when you were born, it'll be there when you die. It's in everyone you meet too. When you realize we're all connected by this same consciousness, you can't hate anyone. How can you hate yourself? We're all one at the deepest level."
+    },
+    {
+      "verse": 41,
+      "sanskrit": "यद्यद्विभूतिमत्सत्त्वं श्रीमदूर्जितमेव वा | तत्तदेवावगच्छ त्वं मम तेजोंऽशसम्भवम् ||",
+      "transliteration": "yad yad vibhūtimat sattvaṁ śrīmad ūrjitam eva vā | tat tad evāvagaccha tvaṁ mama tejo 'ṁśa-sambhavam",
+      "translation": "Know that all beautiful, glorious, and mighty creations spring from but a spark of My splendor.",
+      "modern": "Everything awesome you see - a stunning sunset, incredible music, a brilliant mind, natural beauty, human courage - it's all a tiny glimpse of the divine. When you're moved by beauty or excellence anywhere, you're experiencing God. Art, nature, love, genius - it's all the universe showing off. Appreciate it. That's worship."
+    }
+  ]
+}

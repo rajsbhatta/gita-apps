@@ -1,0 +1,23 @@
+{
+  "number": 13,
+  "title": "Field and Knower",
+  "sanskrit": "क्षेत्रक्षेत्रज्ञविभागयोग",
+  "verses": 35,
+  "introduction": "Krishna explains the distinction between the body (field) and the soul (knower of the field), and the knowledge needed for liberation.",
+  "shlokas": [
+    {
+      "verse": 8,
+      "sanskrit": "अमानित्वमदम्भित्वमहिंसा क्षान्तिरार्जवम् | आचार्योपासनं शौचं स्थैर्यमात्मविनिग्रहः ||",
+      "transliteration": "amānitvam adambhitvam ahiṁsā kṣāntir ārjavam | ācāryopāsanaṁ śaucaṁ sthairyam ātma-vinigrahaḥ",
+      "translation": "Humility, modesty, nonviolence, tolerance, simplicity, approaching a bona fide spiritual master, cleanliness, steadiness, self-control.",
+      "modern": "The traits of wisdom: Don't need everyone's approval. Don't pretend to be what you're not. Don't hurt others. Be patient with people. Keep it simple. Learn from those wiser than you. Take care of yourself. Stay consistent. Control your impulses. Most self-help books are just variations of this 5000-year-old list. These never go out of style."
+    },
+    {
+      "verse": 28,
+      "sanskrit": "समं सर्वेषु भूतेषु तिष्ठन्तं परमेश्वरम् | विनश्यत्स्वविनश्यन्तं यः पश्यति स पश्यति ||",
+      "transliteration": "samaṁ sarveṣu bhūteṣu tiṣṭhantaṁ parameśvaram | vinaśyatsv avinaśyantaṁ yaḥ paśyati sa paśyati",
+      "translation": "One who sees the Supreme Lord existing equally in all beings, the imperishable within the perishable, actually sees.",
+      "modern": "Real vision is seeing the divine in everyone - the homeless person, the CEO, your annoying coworker, the person who cut you off in traffic. Everyone's carrying the same spark of consciousness. Their body and personality will die, but that awareness is eternal. When you see everyone this way, you can't be an asshole. You treat everyone with basic dignity because you recognize yourself in them."
+    }
+  ]
+}

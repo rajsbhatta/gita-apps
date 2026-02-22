@@ -1,0 +1,23 @@
+{
+  "number": 7,
+  "title": "Knowledge and Wisdom",
+  "sanskrit": "ज्ञानविज्ञानयोग",
+  "verses": 30,
+  "introduction": "Krishna describes His divine nature and the knowledge by which one can know Him completely.",
+  "shlokas": [
+    {
+      "verse": 3,
+      "sanskrit": "मनुष्याणां सहस्रेषु कश्चिद्यतति सिद्धये | यततामपि सिद्धानां कश्चिन्मां वेत्ति तत्त्वतः ||",
+      "transliteration": "manuṣyāṇāṁ sahasreṣu kaścid yatati siddhaye | yatatām api siddhānāṁ kaścin māṁ vetti tattvataḥ",
+      "translation": "Out of many thousands of men, one may endeavor for perfection, and of those who achieve perfection, hardly one knows Me in truth.",
+      "modern": "Most people never even try to level up. Of those who try, most quit. Of those who persist, most plateau. And of those rare few who actually achieve mastery, almost none understand the deeper truth. This isn't elitist - it's just reality. Excellence is rare because it's hard and most people choose comfort. If you're serious about growth, you're already in the minority. Keep going."
+    },
+    {
+      "verse": 14,
+      "sanskrit": "दैवी ह्येषा गुणमयी मम माया दुरत्यया | मामेव ये प्रपद्यन्ते मायामेतां तरन्ति ते ||",
+      "transliteration": "daivī hy eṣā guṇa-mayī mama māyā duratyayā | mām eva ye prapadyante māyām etāṁ taranti te",
+      "translation": "This divine energy of Mine is difficult to overcome. But those who surrender to Me cross beyond it easily.",
+      "modern": "The illusions of life - chasing status, accumulating stuff, endless distractions - are super hard to break free from. Everyone's caught in the matrix. But when you surrender to something bigger than yourself (call it God, the universe, your highest values, whatever), you break through. You see the game for what it is. It's not about willpower alone - it's about connecting to something transcendent."
+    }
+  ]
+}

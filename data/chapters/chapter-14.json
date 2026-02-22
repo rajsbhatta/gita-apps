@@ -1,0 +1,23 @@
+{
+  "number": 14,
+  "title": "Three Qualities of Nature",
+  "sanskrit": "गुणत्रयविभागयोग",
+  "verses": 27,
+  "introduction": "Krishna describes the three modes of material nature - goodness, passion, and ignorance - and how they bind the soul.",
+  "shlokas": [
+    {
+      "verse": 6,
+      "sanskrit": "तत्र सत्त्वं निर्मलत्वात्प्रकाशकमनामयम् | सुखसङ्गेन बध्नाति ज्ञानसङ्गेन चानघ ||",
+      "transliteration": "tatra sattvaṁ nirmalatvāt prakāśakam anāmayam | sukha-saṅgena badhnāti jñāna-saṅgena cānagha",
+      "translation": "Goodness, being purer than the others, is illuminating and freeing from all sinful reactions. It binds one by attachment to happiness and knowledge.",
+      "modern": "Even being 'good' can trap you if you're attached to it. The person who's proud of being healthy, smart, or virtuous is still trapped - just in a nicer cage. 'I meditate every day, I'm so spiritual' - that's ego. 'I eat clean, I'm superior' - still ego. Even positive traits become prisons when you identify with them. True freedom is beyond good and bad."
+    },
+    {
+      "verse": 22,
+      "sanskrit": "प्रकाशं च प्रवृत्तिं च मोहमेव च पाण्डव | न द्वेष्टि सम्प्रवृत्तानि न निवृत्तानि काङ्क्षति ||",
+      "transliteration": "prakāśaṁ ca pravṛttiṁ ca moham eva ca pāṇḍava | na dveṣṭi sampravṛttāni na nivṛttāni kāṅkṣati",
+      "translation": "One who neither hates illumination, activity, nor delusion when they are present, nor longs for them when they are absent.",
+      "modern": "The free person doesn't resist their current state. Feeling clear and motivated? Cool. Feeling lazy and confused? Also cool. They don't fight reality or wish things were different. This is radical acceptance. Most people are either chasing good feelings or running from bad ones. The wise just experience what is, without judgment. That's peace."
+    }
+  ]
+}

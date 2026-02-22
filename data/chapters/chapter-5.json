@@ -1,0 +1,23 @@
+{
+  "number": 5,
+  "title": "Action and Renunciation",
+  "sanskrit": "कर्मसंन्यासयोग",
+  "verses": 29,
+  "introduction": "Krishna explains the relationship between renunciation and action, showing they lead to the same goal.",
+  "shlokas": [
+    {
+      "verse": 10,
+      "sanskrit": "ब्रह्मण्याधाय कर्माणि सङ्गं त्यक्त्वा करोति यः | लिप्यते न स पापेन पद्मपत्रमिवाम्भसा ||",
+      "transliteration": "brahmaṇy ādhāya karmāṇi saṅgaṁ tyaktvā karoti yaḥ | lipyate na sa pāpena padma-patram ivāmbhasā",
+      "translation": "One who performs their duty without attachment, surrendering the results, is unaffected by sinful action, as the lotus leaf is untouched by water.",
+      "modern": "Do your work without getting emotionally entangled in it. Be like a lotus leaf - in the water but not wet. You can be in the world, handling messy situations, without being corrupted by them. Work in a toxic office without becoming toxic. Deal with difficult people without becoming difficult. Stay clean while getting your hands dirty. That's the skill."
+    },
+    {
+      "verse": 22,
+      "sanskrit": "ये हि संस्पर्शजा भोगा दुःखयोनय एव ते | आद्यन्तवन्तः कौन्तेय न तेषु रमते बुधः ||",
+      "transliteration": "ye hi saṁsparśa-jā bhogā duḥkha-yonaya eva te | ādy-antavantaḥ kaunteya na teṣu ramate budhaḥ",
+      "translation": "Pleasures from material contact are sources of misery. They have a beginning and end. The wise do not rejoice in them.",
+      "modern": "All that stuff you think will make you happy - the new phone, the relationship, the promotion, the likes - they feel good for a minute then wear off. And you're back to baseline, wanting the next hit. Wise people see through this treadmill. They're not impressed by temporary highs because they know the comedown is coming. Real contentment doesn't depend on external things changing."
+    }
+  ]
+}

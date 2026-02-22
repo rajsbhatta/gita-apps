@@ -1,0 +1,30 @@
+{
+  "number": 18,
+  "title": "Liberation Through Renunciation",
+  "sanskrit": "मोक्षसंन्यासयोग",
+  "verses": 78,
+  "introduction": "The final chapter summarizes the entire Gita, culminating in Krishna's ultimate instruction to Arjuna.",
+  "shlokas": [
+    {
+      "verse": 48,
+      "sanskrit": "सहजं कर्म कौन्तेय सदोषमपि न त्यजेत् | सर्वारम्भा हि दोषेण धूमेनाग्निरिवावृताः ||",
+      "transliteration": "saha-jaṁ karma kaunteya sa-doṣam api na tyajet | sarvārambhā hi doṣeṇa dhūmenāgnir ivāvṛtāḥ",
+      "translation": "One should not give up work born of one's nature, even if it has faults. All endeavors are covered by some fault, as fire is covered by smoke.",
+      "modern": "Don't quit your thing just because it's imperfect. Everything has flaws. Every job has downsides. Every relationship has issues. Every path has obstacles. That's life. Perfectionism is just an excuse to avoid commitment. Do your work despite the imperfections. The fire is still there under the smoke. Keep going."
+    },
+    {
+      "verse": 66,
+      "sanskrit": "सर्वधर्मान्परित्यज्य मामेकं शरणं व्रज | अहं त्वां सर्वपापेभ्यो मोक्षयिष्यामि मा शुचः ||",
+      "transliteration": "sarva-dharmān parityajya mām ekaṁ śaraṇaṁ vraja | ahaṁ tvāṁ sarva-pāpebhyo mokṣayiṣyāmi mā śucaḥ",
+      "translation": "Abandon all varieties of dharma and surrender unto Me alone. I shall deliver you from all sinful reactions. Do not fear.",
+      "modern": "This is the final word: Let go of everything you think you know, all your rules and should's and have-to's, and just surrender to what IS. Trust the process. Trust life. Trust the universe. Stop trying to control everything. You don't have to figure it all out. Just be open, be present, do your best, and let go. Everything will be okay. Stop worrying."
+    },
+    {
+      "verse": 78,
+      "sanskrit": "यत्र योगेश्वरः कृष्णो यत्र पार्थो धनुर्धरः | तत्र श्रीर्विजयो भूतिर्ध्रुवा नीतिर्मतिर्मम ||",
+      "transliteration": "yatra yogeśvaraḥ kṛṣṇo yatra pārtho dhanur-dharaḥ | tatra śrīr vijayo bhūtir dhruvā nītir matir mama",
+      "translation": "Wherever there is Krishna, the master of yoga, and Arjuna, the wielder of the bow, there will certainly be opulence, victory, power and morality.",
+      "modern": "When you combine higher wisdom (Krishna) with disciplined action (Arjuna), success is inevitable. When your spiritual practice meets your real-world hustle, magic happens. You need both - the vision AND the execution. Meditation without action is escapism. Action without wisdom is exhausting. Put them together? You're unstoppable. That's the whole teaching right there."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "number": 4,
+  "title": "The Path of Wisdom",
+  "sanskrit": "ज्ञानकर्मसंन्यासयोग",
+  "verses": 42,
+  "introduction": "Krishna reveals the divine nature of His appearance and actions, and explains the ancient tradition of spiritual knowledge.",
+  "shlokas": [
+    {
+      "verse": 7,
+      "sanskrit": "यदा यदा हि धर्मस्य ग्लानिर्भवति भारत | अभ्युत्थानमधर्मस्य तदात्मानं सृजाम्यहम् ||",
+      "transliteration": "yadā yadā hi dharmasya glānir bhavati bhārata | abhyutthānam adharmasya tadātmānaṁ sṛjāmy aham",
+      "translation": "Whenever there is a decline in righteousness and a rise in unrighteousness, O Arjuna, at that time I manifest Myself.",
+      "modern": "When things get really bad - when corruption is everywhere, when people have lost their moral compass - that's when change comes. It's like how social movements emerge when injustice peaks. The darkest hour is before the dawn. When you see society falling apart, know that transformation is coming. History proves this over and over."
+    },
+    {
+      "verse": 18,
+      "sanskrit": "कर्मण्यकर्म यः पश्येदकर्मणि च कर्म यः | स बुद्धिमान्मनुष्येषु स युक्तः कृत्स्नकर्मकृत् ||",
+      "transliteration": "karmaṇy akarma yaḥ paśyed akarmaṇi ca karma yaḥ | sa buddhimān manuṣyeṣu sa yuktaḥ kṛtsna-karma-kṛt",
+      "translation": "One who sees inaction in action, and action in inaction, is intelligent among men.",
+      "modern": "The wise person understands that meditation IS action (you're training your mind) and that some 'action' is actually doing nothing (busy-work that goes nowhere). It's not about how much you're doing, but whether what you're doing actually matters. Someone scrolling social media for hours looks busy but accomplishes nothing. Someone sitting quietly might be solving their biggest problem. Quality over quantity."
+    },
+    {
+      "verse": 38,
+      "sanskrit": "न हि ज्ञानेन सदृशं पवित्रमिह विद्यते | तत्स्वयं योगसंसिद्धः कालेनात्मनि विन्दति ||",
+      "transliteration": "na hi jñānena sadṛśaṁ pavitram iha vidyate | tat svayaṁ yoga-saṁsiddhaḥ kālenātmani vindati",
+      "translation": "In this world, there is nothing as purifying as knowledge. One who is perfected in yoga finds this within themselves in due course of time.",
+      "modern": "Real knowledge - not just information, but actual wisdom - is the most powerful thing there is. It literally transforms you from the inside. You can't buy it, inherit it, or fake it. You have to earn it through experience and practice. And when it comes, it changes everything. This is why education (real education, not just credentials) is so valuable. It's the one thing nobody can take from you."
+    }
+  ]
+}

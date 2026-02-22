@@ -1,0 +1,23 @@
+{
+  "number": 6,
+  "title": "The Path of Meditation",
+  "sanskrit": "आत्मसंयमयोग",
+  "verses": 47,
+  "introduction": "Krishna describes the practice of meditation and the characteristics of a yogi who has attained self-realization.",
+  "shlokas": [
+    {
+      "verse": 5,
+      "sanskrit": "उद्धरेदात्मनात्मानं नात्मानमवसादयेत् | आत्मैव ह्यात्मनो बन्धुरात्मैव रिपुरात्मनः ||",
+      "transliteration": "uddhared ātmanātmānaṁ nātmānam avasādayet | ātmaiva hy ātmano bandhur ātmaiva ripur ātmanaḥ",
+      "translation": "One must elevate, not degrade, oneself. The mind is the friend of the conditioned soul, and his enemy as well.",
+      "modern": "You're your own best friend or worst enemy. Your mind can lift you up or destroy you. Nobody else has as much power over your life as you do. Stop waiting for someone to save you - you have to save yourself. And stop sabotaging yourself either. You're the main character in your life. Act like it."
+    },
+    {
+      "verse": 35,
+      "sanskrit": "श्रीभगवानुवाच | असंशयं महाबाहो मनो दुर्निग्रहं चलम् | अभ्यासेन तु कौन्तेय वैराग्येण च गृह्यते ||",
+      "transliteration": "śrī-bhagavān uvāca | asaṁśayaṁ mahā-bāho mano durnigrahaṁ calam | abhyāsena tu kaunteya vairāgyeṇa ca gṛhyate",
+      "translation": "The mind is restless and difficult to control. But it can be controlled through practice and detachment.",
+      "modern": "Yeah, your mind is wild and hard to tame. That's normal. Everyone's mind is a circus. But you CAN train it, same way you'd train a puppy. It takes practice (meditation, mindfulness, whatever works) and letting go of attachments. It won't happen overnight. But it will happen if you keep at it. Every time you catch your mind spiraling and bring it back, you're getting stronger."
+    }
+  ]
+}
