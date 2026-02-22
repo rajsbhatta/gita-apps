@@ -472,3 +472,38 @@ body {
     from { transform: translateX(0); }
     to { transform: translateX(100%); }
 }
+
+/* Navigation Buttons for Verse Navigation */
+.nav-btn {
+    padding: 0.75rem 1.5rem;
+    border: 2px solid var(--accent);
+    background: var(--bg-card);
+    color: var(--accent);
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-size: 0.95rem;
+}
+
+.nav-btn:hover {
+    background: var(--accent);
+    color: white;
+    transform: translateY(-2px);
+}
+
+.prev-btn {
+    margin-right: auto;
+}
+
+.next-btn {
+    margin-left: auto;
+}
+
+/* Make buttons responsive on mobile */
+@media (max-width: 768px) {
+    .nav-btn {
+        padding: 0.6rem 1rem;
+        font-size: 0.9rem;
+    }
+}
