@@ -1,0 +1,338 @@
+{
+  "number": 1,
+  "title": "Arjuna's Dilemma",
+  "sanskrit": "अर्जुनविषादयोग",
+  "verses": 47,
+  "introduction": "The scene is set on the battlefield of Kurukshetra. Arjuna, one of the greatest warriors, suddenly faces a moral crisis when he sees his own relatives, teachers, and friends on the opposing side. This chapter captures the universal human experience of being torn between duty and emotion.",
+  "shlokas": [
+    {
+      "verse": 1,
+      "sanskrit": "धृतराष्ट्र उवाच | धर्मक्षेत्रे कुरुक्षेत्रे समवेता युयुत्सवः | मामकाः पाण्डवाश्चैव किमकुर्वत सञ्जय ||",
+      "transliteration": "dhṛtarāṣṭra uvāca | dharma-kṣetre kuru-kṣetre samavetā yuyutsavaḥ | māmakāḥ pāṇḍavāś caiva kim akurvata sañjaya",
+      "translation": "Dhritarashtra said: O Sanjaya, after assembling in the place of pilgrimage at Kurukshetra, what did my sons and the sons of Pandu do, being desirous to fight?",
+      "modern": "The first words of the Gita. A blind king asking his advisor what's happening on the battlefield. He literally can't see, but he's also spiritually blind - he knows his sons are wrong but still hopes they'll win. Classic parental bias. We all have blind spots about people we love."
+    },
+    {
+      "verse": 2,
+      "sanskrit": "सञ्जय उवाच | दृष्ट्वा तु पाण्डवानीकं व्यूढं दुर्योधनस्तदा | आचार्यमुपसङ्गम्य राजा वचनमब्रवीत् ||",
+      "transliteration": "sañjaya uvāca | dṛṣṭvā tu pāṇḍavānīkaṁ vyūḍhaṁ duryodhanas tadā | ācāryam upasaṅgamya rājā vacanam abravīt",
+      "translation": "Sanjaya said: At that time, seeing the army of the Pandavas drawn up for battle, King Duryodhana approached his teacher Drona and spoke the following words.",
+      "modern": "Duryodhana (the antagonist) sees the opposition and immediately runs to his teacher, trying to rally support. It's like when you're about to do something risky and you need validation from authority figures. He's nervous and covering it up with bravado."
+    },
+    {
+      "verse": 3,
+      "sanskrit": "पश्यैतां पाण्डुपुत्राणामाचार्य महतीं चमूम् | व्यूढां द्रुपदपुत्रेण तव शिष्येण धीमता ||",
+      "transliteration": "paśyaitāṁ pāṇḍu-putrāṇām ācārya mahatīṁ camūm | vyūḍhāṁ drupada-putreṇa tava śiṣyeṇa dhīmatā",
+      "translation": "O Teacher, behold the great army of the sons of Pandu, arrayed by your intelligent disciple, the son of Drupada.",
+      "modern": "Duryodhana's trying to manipulate his teacher: 'Look how strong THEY are, and it's YOUR student who organized them!' Classic guilt trip. When you're insecure, you try to make others feel responsible or threatened."
+    },
+    {
+      "verse": 4,
+      "sanskrit": "अत्र शूरा महेष्वासा भीमार्जुनसमा युधि | युयुधानो विराटश्च द्रुपदश्च महारथः ||",
+      "transliteration": "atra śūrā maheṣvāsā bhīmārjuna-samā yudhi | yuyudhāno virāṭaś ca drupadaś ca mahā-rathaḥ",
+      "translation": "Here in this army there are many heroic bowmen equal in fighting to Bhima and Arjuna; there are also great fighters like Yuyudhana, Virata and Drupada.",
+      "modern": "He's listing all the strong opponents, psyching himself out. It's like scrolling through your competition's Instagram before a big event and getting intimidated. Sometimes we manifest our own defeats by focusing too much on what's against us."
+    },
+    {
+      "verse": 5,
+      "sanskrit": "धृष्टकेतुश्चेकितानः काशिराजश्च वीर्यवान् | पुरुजित्कुन्तिभोजश्च शैब्यश्च नरपुङ्गवः ||",
+      "transliteration": "dhṛṣṭaketuś cekitānaḥ kāśirājaś ca vīryavān | purujit kuntibhojaś ca śaibyaś ca nara-puṅgavaḥ",
+      "translation": "There are also great, heroic, powerful fighters like Dhrishtaketu, Chekitana, the valiant king of Kashi, Purujit, Kuntibhoja and Shaibya.",
+      "modern": "More name-dropping of opponents. He's spiraling, convincing himself he's doomed. Anxiety does this - makes you catastrophize. One problem becomes ten problems in your mind."
+    },
+    {
+      "verse": 6,
+      "sanskrit": "युधामन्युश्च विक्रान्त उत्तमौजाश्च वीर्यवान् | सौभद्रो द्रौपदेयाश्च सर्व एव महारथाः ||",
+      "transliteration": "yudhāmanyuś ca vikrānta uttamaujāś ca vīryavān | saubhadro draupadeyāś ca sarva eva mahā-rathāḥ",
+      "translation": "There are the mighty Yudhamanyu, the powerful Uttamauja, the son of Subhadra, and the sons of Draupadi - all of them great chariot warriors.",
+      "modern": "Still going. This is classic overthinking - analyzing every possible threat until you're paralyzed. Sometimes you just need to stop the mental spiral and act."
+    },
+    {
+      "verse": 7,
+      "sanskrit": "अस्माकं तु विशिष्टा ये तान्निबोध द्विजोत्तम | नायका मम सैन्यस्य संज्ञार्थं तान्ब्रवीमि ते ||",
+      "transliteration": "asmākaṁ tu viśiṣṭā ye tān nibodha dvi-jottama | nāyakā mama sainyasya saṁjñārthaṁ tān bravīmi te",
+      "translation": "O best of the brahmanas, for your information, let me tell you about the captains of my army, who are especially qualified to lead.",
+      "modern": "Now he switches to talking up HIS team. Classic insecurity - first you doom-scroll about others being better, then you overcompensate by bragging. Neither mindset is grounded in reality."
+    },
+    {
+      "verse": 8,
+      "sanskrit": "भवान्भीष्मश्च कर्णश्च कृपश्च समितिञ्जयः | अश्वत्थामा विकर्णश्च सौमदत्तिस्तथैव च ||",
+      "transliteration": "bhavān bhīṣmaś ca karṇaś ca kṛpaś ca samitiñjayaḥ | aśvatthāmā vikarṇaś ca saumadattis tathaiva ca",
+      "translation": "There are yourself, Bhishma, Karna, Kripa, Ashwatthama, Vikarna and the son of Somadatta - all victorious in battle.",
+      "modern": "Hyping up his supporters. But notice he's trying to convince his teacher to support him. When you're on the wrong side, you constantly need external validation."
+    },
+    {
+      "verse": 9,
+      "sanskrit": "अन्ये च बहवः शूरा मदर्थे त्यक्तजीविताः | नानाशस्त्रप्रहरणाः सर्वे युद्धविशारदाः ||",
+      "transliteration": "anye ca bahavaḥ śūrā mad-arthe tyakta-jīvitāḥ | nānā-śastra-praharaṇāḥ sarve yuddha-viśāradāḥ",
+      "translation": "And there are many other heroes who are prepared to lay down their lives for my sake. All are well equipped with various weapons and all are experienced in military science.",
+      "modern": "People willing to die for him. Sounds impressive, but is it? When your cause isn't just, even loyalty becomes tragic. Not everyone willing to follow you means you're going the right way."
+    },
+    {
+      "verse": 10,
+      "sanskrit": "अपर्याप्तं तदस्माकं बलं भीष्माभिरक्षितम् | पर्याप्तं त्विदमेतेषां बलं भीमाभिरक्षितम् ||",
+      "transliteration": "aparyāptaṁ tad asmākaṁ balaṁ bhīṣmābhirakṣitam | paryāptaṁ tv idam eteṣāṁ balaṁ bhīmābhirakṣitam",
+      "translation": "Our strength is unlimited, and we are protected by Bhishma, whereas their strength is limited, being protected by Bhima.",
+      "modern": "False confidence. 'We have unlimited strength!' No you don't. This is toxic positivity mixed with denial. Just because you say you're winning doesn't make it true. Reality check needed."
+    },
+    {
+      "verse": 11,
+      "sanskrit": "अयनेषु च सर्वेषु यथाभागमवस्थिताः | भीष्ममेवाभिरक्षन्तु भवन्तः सर्व एव हि ||",
+      "transliteration": "ayaneṣu ca sarveṣu yathā-bhāgam avasthitāḥ | bhīṣmam evābhirakṣantu bhavantaḥ sarva eva hi",
+      "translation": "Therefore, all of you stationed in your respective positions, give full support to Bhishma.",
+      "modern": "Rally the troops around the strongest person. In toxic systems, everyone protects the power structure even when it's wrong. Group loyalty over individual conscience."
+    },
+    {
+      "verse": 12,
+      "sanskrit": "तस्य सञ्जनयन्हर्षं कुरुवृद्धः पितामहः | सिंहनादं विनद्योच्चैः शङ्खं दध्मौ प्रतापवान् ||",
+      "transliteration": "tasya sañjanayan harṣaṁ kuru-vṛddhaḥ pitāmahaḥ | siṁha-nādaṁ vinadyoccaiḥ śaṅkhaṁ dadhmau pratāpavān",
+      "translation": "Then Bhishma, the great grandfather of the Kuru dynasty, blew his conchshell very loudly like the roar of a lion, giving joy to Duryodhana.",
+      "modern": "The respected elder backs the wrong side. This happens - good people supporting bad causes out of loyalty, family, or tradition. Just because someone wise supports something doesn't make it right."
+    },
+    {
+      "verse": 13,
+      "sanskrit": "ततः शङ्खाश्च भेर्यश्च पणवानकगोमुखाः | सहसैवाभ्यहन्यन्त स शब्दस्तुमुलोऽभवत् ||",
+      "transliteration": "tataḥ śaṅkhāś ca bheryaś ca paṇavānaka-gomukhāḥ | sahasaivābhyahanyanta sa śabdas tumulo 'bhavat",
+      "translation": "After that, conches, kettledrums, tabors, trumpets and cow horns were all suddenly sounded, and the combined sound was tumultuous.",
+      "modern": "War sounds. The noise, the chaos, the adrenaline. This is the point of no return. All the buildup to conflict reaching its peak. The moment before everything changes."
+    },
+    {
+      "verse": 14,
+      "sanskrit": "ततः श्वेतैर्हयैर्युक्ते महति स्यन्दने स्थितौ | माधवः पाण्डवश्चैव दिव्यौ शङ्खौ प्रदध्मतुः ||",
+      "transliteration": "tataḥ śvetair hayair yukte mahati syandane sthitau | mādhavaḥ pāṇḍavaś caiva divyau śaṅkhau pradadhmatuḥ",
+      "translation": "On the other side, Krishna and Arjuna, stationed in a great chariot yoked with white horses, blew their divine conches.",
+      "modern": "Enter our protagonists. Krishna (the divine guide) and Arjuna (the hero with doubts) together. Notice they're in the SAME chariot - that's the point. Your higher wisdom and your struggling self aren't separate."
+    },
+    {
+      "verse": 15,
+      "sanskrit": "पाञ्चजन्यं हृषीकेशो देवदत्तं धनञ्जयः | पौण्ड्रं दध्मौ महाशङ्खं भीमकर्मा वृकोदरः ||",
+      "transliteration": "pāñcajanyaṁ hṛṣīkeśo devadattaṁ dhanañjayaḥ | pauṇḍraṁ dadhmau mahā-śaṅkhaṁ bhīma-karmā vṛkodaraḥ",
+      "translation": "Krishna blew His conch called Panchajanya; Arjuna blew his, Devadatta; and Bhima, the voracious eater and performer of Herculean tasks, blew his conch Paundra.",
+      "modern": "Each person's conch has a name - each person's voice is unique. When you show up authentically (blow your own conch), you contribute your unique sound to the collective."
+    },
+    {
+      "verse": 16,
+      "sanskrit": "अनन्तविजयं राजा कुन्तीपुत्रो युधिष्ठिरः | नकुलः सहदेवश्च सुघोषमणिपुष्पकौ ||",
+      "transliteration": "ananta-vijayaṁ rājā kuntī-putro yudhiṣṭhiraḥ | nakulaḥ sahadevaś ca sughoṣa-maṇipuṣpakau",
+      "translation": "King Yudhishthira blew his conch Anantavijaya, and Nakula and Sahadeva blew theirs, Sughosa and Manipushpaka.",
+      "modern": "Everyone's announcing themselves. In life, you have to show up and make yourself known. You can't be passive and expect recognition. Blow your conch."
+    },
+    {
+      "verse": 17,
+      "sanskrit": "काश्यश्च परमेष्वासः शिखण्डी च महारथः | धृष्टद्युम्नो विराटश्च सात्यकिश्चापराजितः ||",
+      "transliteration": "kāśyaś ca parameṣvāsaḥ śikhaṇḍī ca mahā-rathaḥ | dhṛṣṭadyumno virāṭaś ca sātyakiś cāparājitaḥ",
+      "translation": "The king of Kashi, an expert archer; Shikhandi, the great chariot warrior; Dhrishtadyumna; Virata and the unconquerable Satyaki.",
+      "modern": "More names. The point is everyone's there - all the players assembled. In your life's major moments, all your various parts show up - your fears, hopes, strengths, weaknesses."
+    },
+    {
+      "verse": 18,
+      "sanskrit": "द्रुपदो द्रौपदेयाश्च सर्वशः पृथिवीपते | सौभद्रश्च महाबाहुः शङ्खान्दध्मुः पृथक्पृथक् ||",
+      "transliteration": "drupado draupadeyāś ca sarvaśaḥ pṛthivī-pate | saubhadraś ca mahā-bāhuḥ śaṅkhān dadhmuḥ pṛthak pṛthak",
+      "translation": "Drupada, the sons of Draupadi, and the mighty-armed son of Subhadra, all blew their respective conches, O King.",
+      "modern": "Each person their own conch, their own note. We're all individuals but together we create the symphony. Your unique contribution matters."
+    },
+    {
+      "verse": 19,
+      "sanskrit": "स घोषो धार्तराष्ट्राणां हृदयानि व्यदारयत् | नभश्च पृथिवीं चैव तुमुलोऽभ्यनुनादयन् ||",
+      "transliteration": "sa ghoṣo dhārtarāṣṭrāṇāṁ hṛdayāni vyadārayat | nabhaś ca pṛthivīṁ caiva tumulo 'bhyanunādayan",
+      "translation": "The tumultuous sound vibrated throughout the sky and earth, shattering the hearts of Dhritarashtra's sons.",
+      "modern": "The sound breaks the opposition's hearts. Truth has power. When you show up authentic and united, it shakes those who are living in denial or fighting for the wrong things."
+    },
+    {
+      "verse": 20,
+      "sanskrit": "अथ व्यवस्थितान्दृष्ट्वा धार्तराष्ट्रान्कपिध्वजः | प्रवृत्ते शस्त्रसम्पाते धनुरुद्यम्य पाण्डवः ||",
+      "transliteration": "atha vyavasthitān dṛṣṭvā dhārtarāṣṭrān kapi-dhvajaḥ | pravṛtte śastra-sampāte dhanur udyamya pāṇḍavaḥ",
+      "translation": "At that time, seeing the sons of Dhritarashtra standing arrayed and the discharge of weapons about to begin, Arjuna took up his bow.",
+      "modern": "Here's where it gets real. Arjuna's ready to fight. He's prepared, skilled, righteous cause - everything's lined up. Then..."
+    },
+    {
+      "verse": 21,
+      "sanskrit": "हृषीकेशं तदा वाक्यमिदमाह महीपते | अर्जुन उवाच | सेनयोरुभयोर्मध्ये रथं स्थापय मेऽच्युत ||",
+      "transliteration": "hṛṣīkeśaṁ tadā vākyam idam āha mahī-pate | arjuna uvāca | senayor ubhayor madhye rathaṁ sthāpaya me 'cyuta",
+      "translation": "O King, Arjuna then spoke to Krishna: O infallible one, please place my chariot between the two armies.",
+      "modern": "Arjuna asks Krishna to position him between the armies. He wants to see exactly what he's up against. Sometimes we think we're ready until we really LOOK at the challenge."
+    },
+    {
+      "verse": 22,
+      "sanskrit": "यावदेतान्निरीक्षेऽहं योद्धुकामानवस्थितान् | कैर्मया सह योद्धव्यमस्मिन्रणसमुद्यमे ||",
+      "transliteration": "yāvad etān nirīkṣe 'haṁ yoddhu-kāmān avasthitān | kair mayā saha yoddhavyam asmin raṇa-samudyame",
+      "translation": "So that I may see those who have assembled here, who are eager to fight, and with whom I must contend in this great battle.",
+      "modern": "He wants to see who he's fighting. Makes sense strategically. But what he's about to see will break him. Sometimes knowing too much is the problem."
+    },
+    {
+      "verse": 23,
+      "sanskrit": "योत्स्यमानानवेक्षेऽहं य एतेऽत्र समागताः | धार्तराष्ट्रस्य दुर्बुद्धेर्युद्धे प्रियचिकीर्षवः ||",
+      "transliteration": "yotsyamānān avekṣe 'haṁ ya ete 'tra samāgatāḥ | dhārtarāṣṭrasya durbuddher yuddhe priya-cikīrṣavaḥ",
+      "translation": "Let me see those who have come here to fight, wishing to please the evil-minded son of Dhritarashtra.",
+      "modern": "He's clear about who's wrong - calling out Duryodhana as evil-minded. He knows the cause is just. His head is right. But his heart is about to complicate everything."
+    },
+    {
+      "verse": 24,
+      "sanskrit": "सञ्जय उवाच | एवमुक्तो हृषीकेशो गुडाकेशेन भारत | सेनयोरुभयोर्मध्ये स्थापयित्वा रथोत्तमम् ||",
+      "transliteration": "sañjaya uvāca | evam ukto hṛṣīkeśo guḍākeśena bhārata | senayor ubhayor madhye sthāpayitvā rathottamam",
+      "translation": "Sanjaya said: O descendant of Bharata, being thus addressed by Arjuna, Krishna drew up the fine chariot in the midst of the armies of both parties.",
+      "modern": "Krishna does what Arjuna asks - positions him right in the middle. Your higher self will give you what you ask for, even if it's going to be hard. Free will."
+    },
+    {
+      "verse": 25,
+      "sanskrit": "भीष्मद्रोणप्रमुखतः सर्वेषां च महीक्षिताम् | उवाच पार्थ पश्यैतान्समवेतान्कुरूनिति ||",
+      "transliteration": "bhīṣma-droṇa-pramukhataḥ sarveṣāṁ ca mahī-kṣitām | uvāca pārtha paśyaitān samavetān kurūn iti",
+      "translation": "In the presence of Bhishma, Drona and all the world's rulers, Krishna said: Just behold, Partha, all the Kurus assembled here.",
+      "modern": "Krishna points out who's there. Specifically the people Arjuna loves most - his grandfather Bhishma, his teacher Drona. This is intentional. Your crisis will involve the people you can't bear to hurt."
+    },
+    {
+      "verse": 26,
+      "sanskrit": "तत्रापश्यत्स्थितान्पार्थः पितॄनथ पितामहान् | आचार्यान्मातुलान्भ्रातॄन्पुत्रान्पौत्रान्सखींस्तथा ||",
+      "transliteration": "tatrāpaśyat sthitān pārthaḥ pitṝn atha pitāmahān | ācāryān mātulān bhrātṝn putrān pautrān sakhīṁs tathā",
+      "translation": "There Arjuna saw fathers, grandfathers, teachers, maternal uncles, brothers, sons, grandsons, friends.",
+      "modern": "Everyone he loves. His family. His teachers. His friends. This isn't an abstract fight against evil - these are real people he cares about. Suddenly it's not so simple."
+    },
+    {
+      "verse": 27,
+      "sanskrit": "श्वशुरान्सुहृदश्चैव सेनयोरुभयोरपि | तान्समीक्ष्य स कौन्तेयः सर्वान्बन्धूनवस्थितान् ||",
+      "transliteration": "śvaśurān suhṛdaś caiva senayor ubhayor api | tān samīkṣya sa kaunteyaḥ sarvān bandhūn avasthitān",
+      "translation": "He saw fathers-in-law, well-wishers and friends in both armies. Seeing all his kinsmen thus assembled, Arjuna...",
+      "modern": "On BOTH sides. People he loves on both sides. There's no clean victory here. Someone he cares about will die no matter what. This is the real world - messy, complicated, no perfect choices."
+    },
+    {
+      "verse": 28,
+      "sanskrit": "कृपया परयाविष्टो विषीदन्निदमब्रवीत् | अर्जुन उवाच | दृष्ट्वेमं स्वजनं कृष्ण युयुत्सुं समुपस्थितम् ||",
+      "transliteration": "kṛpayā parayāviṣṭo viṣīdann idam abravīt | arjuna uvāca | dṛṣṭvemaṁ sva-janaṁ kṛṣṇa yuyutsuṁ samupasthitam",
+      "translation": "Overcome with compassion, despondent, Arjuna said: O Krishna, seeing my own kinsmen assembled here, eager to fight...",
+      "modern": "Compassion overwhelms him. Notice it's not fear or cowardice - it's LOVE. He cares too much. This is a crisis of the heart, not courage. Sometimes being too empathetic paralyzes you."
+    },
+    {
+      "verse": 29,
+      "sanskrit": "सीदन्ति मम गात्राणि मुखं च परिशुष्यति | वेपथुश्च शरीरे मे रोमहर्षश्च जायते ||",
+      "transliteration": "sīdanti mama gātrāṇi mukhaṁ ca pariśuṣyati | vepathuś ca śarīre me roma-harṣaś ca jāyate",
+      "translation": "My limbs fail and my mouth is drying up. My whole body trembles and my hair is standing on end.",
+      "modern": "Full-blown panic attack. Physical symptoms: weak limbs, dry mouth, trembling, goosebumps. This is what severe anxiety feels like. His body is screaming 'NO' even though his mind knows what he should do."
+    },
+    {
+      "verse": 30,
+      "sanskrit": "गाण्डीवं स्रंसते हस्तात्त्वक्चैव परिदह्यते | न च शक्नोम्यवस्थातुं भ्रमतीव च मे मनः ||",
+      "transliteration": "gāṇḍīvaṁ sraṁsate hastāt tvak caiva paridahyate | na ca śaknomy avasthātuṁ bhramatīva ca me manaḥ",
+      "translation": "My bow Gandiva slips from my hand, and my skin burns. I cannot stand steady; my mind is reeling.",
+      "modern": "Can't even hold his weapon. Skin burning (adrenaline). Can't stand straight. Mind spinning. Complete breakdown. When you're having a crisis, your body gives out before your mind does."
+    },
+    {
+      "verse": 31,
+      "sanskrit": "निमित्तानि च पश्यामि विपरीतानि केशव | न च श्रेयोऽनुपश्यामि हत्वा स्वजनमाहवे ||",
+      "transliteration": "nimittāni ca paśyāmi viparītāni keśava | na ca śreyo 'nupaśyāmi hatvā sva-janam āhave",
+      "translation": "I see only omens of misfortune, O Krishna. I do not see how any good can come from killing my own kinsmen in this battle.",
+      "modern": "Catastrophizing. Brain in anxiety mode can ONLY see bad outcomes. Can't imagine any scenario where this ends well. When you're overwhelmed, your mind loses the ability to see possibilities."
+    },
+    {
+      "verse": 32,
+      "sanskrit": "न काङ्क्षे विजयं कृष्ण न च राज्यं सुखानि च | किं नो राज्येन गोविन्द किं भोगैर्जीवितेन वा ||",
+      "transliteration": "na kāṅkṣe vijayaṁ kṛṣṇa na ca rājyaṁ sukhāni ca | kiṁ no rājyena govinda kiṁ bhogair jīvitena vā",
+      "translation": "I do not desire victory, O Krishna, nor kingdom, nor pleasures. Of what use is a kingdom, enjoyments, or even life itself?",
+      "modern": "Depression mode activated. 'What's the point of anything?' Nothing matters anymore. Classic existential crisis. Success, power, pleasure - all meaningless when you're in this headspace. This is that 3 AM feeling."
+    },
+    {
+      "verse": 33,
+      "sanskrit": "येषामर्थे काङ्क्षितं नो राज्यं भोगाः सुखानि च | त इमेऽवस्थिता युद्धे प्राणांस्त्यक्त्वा धनानि च ||",
+      "transliteration": "yeṣām arthe kāṅkṣitaṁ no rājyaṁ bhogāḥ sukhāni ca | ta ime 'vasthitā yuddhe prāṇāṁs tyaktvā dhanāni ca",
+      "translation": "Those for whose sake we desired kingdom, enjoyments and pleasures - they now stand before us in battle, ready to give up their lives and wealth.",
+      "modern": "The people he was fighting FOR are the people he has to fight AGAINST. The ultimate irony. It's like working yourself to death to provide for your family, then realizing you've lost your family in the process."
+    },
+    {
+      "verse": 34,
+      "sanskrit": "आचार्याः पितरः पुत्रास्तथैव च पितामहाः | मातुलाः श्वशुराः पौत्राः श्यालाः सम्बन्धिनस्तथा ||",
+      "transliteration": "ācāryāḥ pitaraḥ putrās tathaiva ca pitāmahāḥ | mātulāḥ śvaśurāḥ pautrāḥ śyālāḥ sambandhinas tathā",
+      "translation": "Teachers, fathers, sons, grandfathers, maternal uncles, fathers-in-law, grandsons, brothers-in-law and other relatives.",
+      "modern": "Listing everyone again. When you're anxious, you ruminate - going over the same painful facts repeatedly, making it worse. Your mind becomes a broken record."
+    },
+    {
+      "verse": 35,
+      "sanskrit": "एतान्न हन्तुमिच्छामि घ्नतोऽपि मधुसूदन | अपि त्रैलोक्यराज्यस्य हेतोः किं नु महीकृते ||",
+      "transliteration": "etān na hantum icchāmi ghnato 'pi madhusūdana | api trailokya-rājyasya hetoḥ kiṁ nu mahī-kṛte",
+      "translation": "I do not wish to kill them, even if they attack me, O Krishna, not even for the kingdom of the three worlds - what to speak of this earth.",
+      "modern": "He'd rather die than fight them. Even if they attack first. Even for the whole universe. This isn't cowardice - this is love so strong it would rather accept death than cause pain. Noble? Or delusional?"
+    },
+    {
+      "verse": 36,
+      "sanskrit": "निहत्य धार्तराष्ट्रान्नः का प्रीतिः स्याज्जनार्दन | पापमेवाश्रयेदस्मान्हत्वैतानाततायिनः ||",
+      "transliteration": "nihatya dhārtarāṣṭrān naḥ kā prītiḥ syāj janārdana | pāpam evāśrayed asmān hatvaitān ātatāyinaḥ",
+      "translation": "What pleasure can we derive from killing the sons of Dhritarashtra? Only sin will accrue to us if we kill these aggressors.",
+      "modern": "Killing them would feel like sin, even though they're the aggressors. Sometimes doing the right thing feels wrong. Your emotions and your ethics can be in direct conflict. That's when you need wisdom, not just feelings."
+    },
+    {
+      "verse": 37,
+      "sanskrit": "तस्मान्नार्हा वयं हन्तुं धार्तराष्ट्रान्स्वबान्धवान् | स्वजनं हि कथं हत्वा सुखिनः स्याम माधव ||",
+      "transliteration": "tasmān nārhā vayaṁ hantuṁ dhārtarāṣṭrān sva-bāndhavān | sva-janaṁ hi kathaṁ hatvā sukhinaḥ syāma mādhava",
+      "translation": "Therefore we should not kill our own relatives. How can we be happy after killing our own kinsmen, O Krishna?",
+      "modern": "How can you be happy after hurting the people you love? Valid question. Even if it's necessary, even if they're wrong - how do you live with that? Some wounds never heal."
+    },
+    {
+      "verse": 38,
+      "sanskrit": "यद्यप्येते न पश्यन्ति लोभोपहतचेतसः | कुलक्षयकृतं दोषं मित्रद्रोहे च पातकम् ||",
+      "transliteration": "yady apy ete na paśyanti lobhopahata-cetasaḥ | kula-kṣaya-kṛtaṁ doṣaṁ mitra-drohe ca pātakam",
+      "translation": "Although those whose minds are overpowered by greed see no fault in destroying the family or betraying friends...",
+      "modern": "They don't see the problem because greed has blinded them. That's how people justify terrible things - they're so focused on what they want that they can't see the harm they're causing."
+    },
+    {
+      "verse": 39,
+      "sanskrit": "कथं न ज्ञेयमस्माभिः पापादस्मान्निवर्तितुम् | कुलक्षयकृतं दोषं प्रपश्यद्भिर्जनार्दन ||",
+      "transliteration": "kathaṁ na jñeyam asmābhiḥ pāpād asmān nivartitum | kula-kṣaya-kṛtaṁ doṣaṁ prapaśyadbhir janārdana",
+      "translation": "Why shouldn't we, who can clearly see the fault in destroying the family, turn away from this sin, O Krishna?",
+      "modern": "We can SEE the harm, so shouldn't we avoid it? Logical argument. But life isn't always logical. Sometimes you have to choose between two harmful outcomes and pick the less harmful one."
+    },
+    {
+      "verse": 40,
+      "sanskrit": "कुलक्षये प्रणश्यन्ति कुलधर्माः सनातनाः | धर्मे नष्टे कुलं कृत्स्नमधर्मोऽभिभवत्युत ||",
+      "transliteration": "kula-kṣaye praṇaśyanti kula-dharmāḥ sanātanāḥ | dharme naṣṭe kulaṁ kṛtsnam adharmo 'bhibhavaty uta",
+      "translation": "When the family is destroyed, eternal family traditions perish. When dharma is lost, adharma overwhelms the entire family.",
+      "modern": "Breakdown of social order. When families fall apart, values disappear, and chaos takes over. He's not wrong - war destroys everything, even the winners. The social fabric gets shredded."
+    },
+    {
+      "verse": 41,
+      "sanskrit": "अधर्माभिभवात्कृष्ण प्रदुष्यन्ति कुलस्त्रियः | स्त्रीषु दुष्टासु वार्ष्णेय जायते वर्णसङ्करः ||",
+      "transliteration": "adharmābhibhavāt kṛṣṇa praduṣyanti kula-striyaḥ | strīṣu duṣṭāsu vārṣṇeya jāyate varṇa-saṅkaraḥ",
+      "translation": "When adharma prevails, O Krishna, the women of the family become corrupted, and when women are corrupted, social chaos arises.",
+      "modern": "This verse has problematic undertones by modern standards (blaming women for social chaos), but the core point is about social breakdown during war. When protective structures collapse, vulnerable people suffer most. War's collateral damage."
+    },
+    {
+      "verse": 42,
+      "sanskrit": "सङ्करो नरकायैव कुलघ्नानां कुलस्य च | पतन्ति पितरो ह्येषां लुप्तपिण्डोदकक्रियाः ||",
+      "transliteration": "saṅkaro narakāyaiva kula-ghnānāṁ kulasya ca | patanti pitaro hy eṣāṁ lupta-piṇḍodaka-kriyāḥ",
+      "translation": "Social chaos leads to hell for the destroyers of the family and the family itself. Their ancestors fall because their funeral rites are not performed.",
+      "modern": "When traditions break down, even the dead are dishonored. It's about continuity being lost. Think about cultural genocide - when people lose their language, rituals, identity. That's what he's describing."
+    },
+    {
+      "verse": 43,
+      "sanskrit": "दोषैरेतैः कुलघ्नानां वर्णसङ्करकारकैः | उत्साद्यन्ते जातिधर्माः कुलधर्माश्च शाश्वताः ||",
+      "transliteration": "doṣair etaiḥ kula-ghnānāṁ varṇa-saṅkara-kārakaiḥ | utsādyante jāti-dharmāḥ kula-dharmāś ca śāśvatāḥ",
+      "translation": "By the evil deeds of those who destroy the family and create social chaos, eternal community and family dharmas are destroyed.",
+      "modern": "The ripple effects of destruction. One bad action cascades into destruction of entire systems that took generations to build. Like how one war can set a region back centuries."
+    },
+    {
+      "verse": 44,
+      "sanskrit": "उत्सन्नकुलधर्माणां मनुष्याणां जनार्दन | नरके नियतं वासो भवतीत्यनुशुश्रुम ||",
+      "transliteration": "utsanna-kula-dharmāṇāṁanuṣyāṇāṁ janārdana | narake niyataṁ vāso bhavatīty anuśuśruma",
+      "translation": "O Krishna, we have heard that those who destroy family dharma must dwell in hell for an unknown period of time.",
+      "modern": "People who destroy their families end up in hell. Hell might not be literal - living with the guilt, the broken relationships, the generational trauma. That's hell on earth."
+    },
+    {
+      "verse": 45,
+      "sanskrit": "अहो बत महत्पापं कर्तुं व्यवसिता वयम् | यद्राज्यसुखलोभेन हन्तुं स्वजनमुद्यताः ||",
+      "transliteration": "aho bata mahat pāpaṁ kartuṁ vyavasitā vayam | yad rājya-sukha-lobhena hantuṁ sva-janam udyatāḥ",
+      "translation": "Alas! We are prepared to commit great sin, driven by greed for royal pleasures, we are ready to kill our own relatives.",
+      "modern": "Self-awareness hitting. He sees himself clearly now - about to commit violence out of greed for power. When you step back and really look at what you're doing and why, it can be horrifying."
+    },
+    {
+      "verse": 46,
+      "sanskrit": "यदि मामप्रतीकारमशस्त्रं शस्त्रपाणयः | धार्तराष्ट्रा रणे हन्युस्तन्मे क्षेमतरं भवेत् ||",
+      "transliteration": "yadi mām apratīkāram aśastraṁ śastra-pāṇayaḥ | dhārtarāṣṭrā raṇe hanyus tan me kṣema-taraṁ bhavet",
+      "translation": "It would be better for me if the sons of Dhritarashtra killed me unarmed and unresisting in battle.",
+      "modern": "I'd rather die than fight. Passive acceptance of death seems easier than active participation in killing. Sometimes dying feels easier than living with hard choices. Depression's favorite lie."
+    },
+    {
+      "verse": 47,
+      "sanskrit": "सञ्जय उवाच | एवमुक्त्वार्जुनः सङ्ख्ये रथोपस्थ उपाविशत् | विसृज्य सशरं चापं शोकसंविग्नमानसः ||",
+      "transliteration": "sañjaya uvāca | evam uktvārjunaḥ saṅkhye rathopastha upāviśat | visṛjya sa-śaraṁ cāpaṁ śoka-saṁvigna-mānasaḥ",
+      "translation": "Sanjaya said: Having spoken thus on the battlefield, Arjuna cast aside his bow and arrows and sat down on the chariot, his mind overwhelmed with grief.",
+      "modern": "He drops his weapons and sits down. Completely done. Tapped out. Can't even. This is rock bottom - when you're so overwhelmed that you just... stop. Everything freezes. Now the real teaching can begin. Sometimes you have to break down completely before you can break through."
+    }
+  ]
+}
