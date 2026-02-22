@@ -325,7 +325,7 @@ class GitaApp {
                 
                 ${shloka.modern ? `
                     <div class="modern-explanation">
-                        <div class="section-title">For Our Generation</div>
+                        <div class="section-title">What it means</div>
                         ${shloka.modern}
                     </div>
                 ` : ''}
