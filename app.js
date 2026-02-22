@@ -348,25 +348,60 @@ class GitaApp {
 
     // Daily Shloka
     async showDailyShloka() {
-        // Generate random shloka or use date-based
-        const dayOfYear = Math.floor((new Date() - new Date(new Date().getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
-        const chapterNum = (dayOfYear % 18) + 1;
-        const chapter = await this.loadChapter(chapterNum);
+        try {
+            // Use date-based selection for consistency (same verse all day)
+            const dayOfYear = Math.floor((new Date() - new Date(new Date().getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
+            const chapterNum = (dayOfYear % 18) + 1;
+            const chapter = await this.loadChapter(chapterNum);
         
-        if (chapter && chapter.shlokas.length > 0) {
-            const verseNum = (dayOfYear % chapter.shlokas.length) + 1;
-            const shloka = chapter.shlokas[verseNum - 1];
+            if (chapter && chapter.shlokas && chapter.shlokas.length > 0) {
+                const verseNum = (dayOfYear % chapter.shlokas.length) + 1;
+                const shloka = chapter.shlokas[verseNum - 1];
             
+                // Store current daily shloka info
+                this.dailyShlokaInfo = { chapter: chapterNum, verse: verseNum };
+            
+                // Truncate translation to 150 characters
+                const truncatedTranslation = shloka.translation.length > 150 
+                    ? shloka.translation.substring(0, 150) + '...' 
+                    : shloka.translation;
+            
+                document.getElementById('dailyShloka').innerHTML = `
+                    <div class="verse-number" style="font-size: 0.9rem; color: var(--accent); margin-bottom: 0.5rem;">
+                        Chapter ${chapterNum}, Verse ${verseNum}
+                    </div>
+                    <div class="sanskrit" style="font-size: 1.2rem; line-height: 1.8; text-align: center;">
+                        ${shloka.sanskrit}
+                    </div>
+                    <div class="translation" style="margin-top: 1rem; padding: 1rem; background: var(--bg-secondary); border-radius: 8px;">
+                        ${truncatedTranslation}
+                    </div>
+                    <button class="action-btn" style="margin-top: 1rem; width: 100%;" 
+                            onclick="app.showShloka(${chapterNum}, ${verseNum})">
+                        📖 Read Full Verse
+                    </button>
+            `    ;
+            } else {
+                // Fallback if chapter doesn't load
+                document.getElementById('dailyShloka').innerHTML = `
+                    <div class="loading">Loading daily verse...</div>
+                    <button class="action-btn" style="margin-top: 1rem;" 
+                            onclick="app.showDailyShloka()">
+                        🔄 Retry
+                    </button>
+            `    ;
+            }
+        } catch (error) {
+            console.error('Error loading daily shloka:', error);
             document.getElementById('dailyShloka').innerHTML = `
-                <div class="sanskrit" style="font-size: 1.2rem;">${shloka.sanskrit}</div>
-                <div class="translation" style="margin-top: 1rem;">
-                    ${shloka.translation.substring(0, 150)}...
+                <div class="loading" style="color: var(--text-secondary);">
+                    Unable to load daily verse. Please try again.
                 </div>
                 <button class="action-btn" style="margin-top: 1rem;" 
-                        onclick="app.showShloka(${chapterNum}, ${verseNum})">
-                    Read Full Verse
+                        onclick="app.showDailyShloka()">
+                    🔄 Retry
                 </button>
-            `;
+        `    ;
         }
     }
 
