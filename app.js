@@ -335,7 +335,7 @@ class GitaApp {
                     </div>
                 ` : ''}
                 
-                <div style="margin-top: 2rem; display: flex; gap: 1rem;">
+                <div style="margin-top: 2rem; display: flex; gap: 1rem; flex-wrap: wrap;">
                     <button class="bookmark-btn ${isBookmarked ? 'bookmarked' : ''}" 
                             onclick="app.toggleBookmark(${chapterNum}, ${shlokaNum})">
                         ${isBookmarked ? '⭐ Bookmarked' : '☆ Bookmark'}
@@ -344,11 +344,41 @@ class GitaApp {
                         📤 Share
                     </button>
                 </div>
+
+                <!-- NEW: Navigation Buttons -->
+                <div style="margin-top: 1.5rem; display: flex; gap: 1rem; justify-content: space-between;">
+                    ${shlokaNum > 1 ? `
+                        <button class="nav-btn prev-btn" onclick="app.previousVerse()">
+                            ← Previous Verse
+                        </button>
+                    ` : '<div></div>'}
+                    
+                    ${shlokaNum < chapter.shlokas.length ? `
+                        <button class="nav-btn next-btn" onclick="app.nextVerse()">
+                            Next Verse →
+                        </button>
+                    ` : '<div></div>'}
+                </div>
             </div>
         `;
         
         this.showView('shloka');
         this.showLoading(false);
+    }
+    // Navigate to previous verse
+    previousVerse() {
+        if (!this.currentShloka) return;
+        const { chapter, verse } = this.currentShloka;
+        if (verse > 1) {
+            this.showShloka(chapter, verse - 1);
+        }
+    }
+
+    //Navigate to next verse
+    nextVerse() {
+        if (!this.currentShloka) return;
+        const { chapter, verse } = this.currentShloka;
+        this.showShloka(chapter, verse + 1);
     }
 
     // Daily Shloka
