@@ -1,114 +1,513 @@
 {
-  "number": 2,
-  "title": "The Path of Knowledge",
-  "sanskrit": "सांख्ययोग",
-  "verses": 72,
-  "introduction": "In this chapter, Krishna teaches Arjuna about the eternal nature of the soul and introduces the fundamental concepts of yoga and selfless action. This is where the real teaching begins.",
-  "shlokas": [
-    {
-      "verse": 1,
-      "sanskrit": "सञ्जय उवाच |\nतं तथा कृपयाविष्टमश्रुपूर्णाकुलेक्षणम् |\nविषीदन्तमिदं वाक्यमुवाच मधुसूदनः ||",
-      "transliteration": "sañjaya uvāca\ntaṁ tathā kṛpayāviṣṭam aśru-pūrṇākulekṣaṇam\nviṣīdantam idaṁ vākyam uvāca madhusūdanaḥ",
-      "translation": "Sanjaya said: Seeing Arjuna full of compassion, his mind depressed, his eyes full of tears, Krishna spoke these words.",
-      "modern": "Think of this like your best friend finding you crying over a tough decision. Maybe you're torn between your dream job and taking care of family. Or choosing between what's expected of you and what feels right. That's Arjuna right now - completely overwhelmed. And Krishna? He's about to drop some serious wisdom. This is that moment when your mentor says 'Let's talk' when you need it most."
-    },
-    {
-      "verse": 2,
-      "sanskrit": "श्रीभगवानुवाच |\nकुतस्त्वा कश्मलमिदं विषमे समुपस्थितम् |\nअनार्यजुष्टमस्वर्ग्यमकीर्तिकरमर्जुन ||",
-      "transliteration": "śrī-bhagavān uvāca\nkutas tvā kaśmalam idaṁ viṣame samupasthitam\nanārya-juṣṭam asvargyam akīrti-karam arjuna",
-      "translation": "The Supreme Lord said: My dear Arjuna, how have these impurities come upon you? They are not at all befitting a person who knows the value of life. They lead not to higher planets but to infamy.",
-      "modern": "Krishna's basically saying: 'Dude, why are you spiraling right now?' It's like when you're about to give a big presentation or take an exam, and suddenly you're like 'I can't do this.' Krishna's not being harsh - he's challenging Arjuna (and us) to think: Is this fear really who you are? Or is it just your anxiety talking? Sometimes we need that push to recognize when we're letting fear drive the bus instead of our true self."
-    },
-    {
-      "verse": 3,
-      "sanskrit": "क्लैब्यं मा स्म गमः पार्थ नैतत्त्वय्युपपद्यते |\nक्षुद्रं हृदयदौर्बल्यं त्यक्त्वोत्तिष्ठ परन्तप ||",
-      "transliteration": "klaibyaṁ mā sma gamaḥ pārtha naitat tvayy upapadyate\nkṣudraṁ hṛdaya-daurbalyaṁ tyaktvottiṣṭha parantapa",
-      "translation": "Do not yield to this degrading impotence. It does not become you. Give up such petty weakness of heart and arise, O chastiser of the enemy.",
-      "modern": "This hits different when you think about all the times we tell ourselves we're not good enough. Failed a test? 'I'm stupid.' Got rejected? 'I'm unlovable.' Lost your job? 'I'm worthless.' Krishna's telling Arjuna (and us): Stop with the self-defeating narrative. You're bigger than this moment. That voice in your head that says you can't? That's not the real you. Get up. Keep going. You've got this."
-    },
-    {
-      "verse": 11,
-      "sanskrit": "श्रीभगवानुवाच |\nअशोच्यानन्वशोचस्त्वं प्रज्ञावादांश्च भाषसे |\nगतासूनगतासूंश्च नानुशोचन्ति पण्डिताः ||",
-      "transliteration": "śrī-bhagavān uvāca\naśocyān anvaśocas tvaṁ prajñā-vādāṁś ca bhāṣase\ngatāsūn agatāsūṁś ca nānuśocanti paṇḍitāḥ",
-      "translation": "The Supreme Personality of Godhead said: While speaking learned words, you are mourning for what is not worthy of grief. Those who are wise lament neither for the living nor for the dead.",
-      "modern": "Here's where Krishna drops the mic. You're worried about all the wrong things. We spend so much energy stressing about stuff that, in the grand scheme, doesn't really matter. That Instagram post that didn't get enough likes? That embarrassing thing you said three years ago that you still think about at 3 AM? The wise ones don't sweat that stuff. They're focused on what actually moves the needle in life - growth, purpose, real connection. Stop mourning things that were never meant to last forever anyway."
-    },
-    {
-      "verse": 12,
-      "sanskrit": "न त्वेवाहं जातु नासं न त्वं नेमे जनाधिपाः |\nन चैव न भविष्यामः सर्वे वयमतः परम् ||",
-      "transliteration": "na tv evāhaṁ jātu nāsaṁ na tvaṁ neme janādhipāḥ\nna caiva na bhaviṣyāmaḥ sarve vayam ataḥ param",
-      "translation": "Never was there a time when I did not exist, nor you, nor all these kings; nor in the future shall any of us cease to be.",
-      "modern": "Mind. Blown. 🤯 You've always existed and you always will. Not your body, not your Instagram profile - but the real YOU. That consciousness, that awareness, that spark - it's eternal. Before you were born, you existed. After you die, you'll still exist. This isn't some woo-woo stuff - think about it: energy can't be created or destroyed, just transformed. You're not your job title, your relationship status, or your GPA. You're something way deeper, way more permanent. That's actually comforting when you're going through changes."
-    },
-    {
-      "verse": 13,
-      "sanskrit": "देहिनोऽस्मिन्यथा देहे कौमारं यौवनं जरा |\nतथा देहान्तरप्राप्तिर्धीरस्तत्र न मुह्यति ||",
-      "transliteration": "dehino 'smin yathā dehe kaumāraṁ yauvanaṁ jarā\ntathā dehāntara-prāptir dhīras tatra na muhyati",
-      "translation": "As the embodied soul continuously passes, in this body, from boyhood to youth to old age, the soul similarly passes into another body at death. A sober person is not bewildered by such a change.",
-      "modern": "Remember looking at your middle school photos and cringing? That's not you anymore. Neither is the toddler version, or the version from last year. Your body and mind keep changing, but there's something in you that's always been you - that observer, that awareness. Death is just another wardrobe change. Your body gets old and worn out like your favorite hoodie, so you get a new one. The real you? Still there. This actually takes the fear out of aging and dying when you realize you're not the container, you're what's inside."
-    },
-    {
-      "verse": 20,
-      "sanskrit": "न जायते म्रियते वा कदाचिन्नायं भूत्वा भविता वा न भूयः |\nअजो नित्यः शाश्वतोऽयं पुराणो न हन्यते हन्यमाने शरीरे ||",
-      "transliteration": "na jāyate mriyate vā kadācin nāyaṁ bhūtvā bhavitā vā na bhūyaḥ\najo nityaḥ śāśvato 'yaṁ purāṇo na hanyate hanyamāne śarīre",
-      "translation": "For the soul there is neither birth nor death at any time. He has not come into being, does not come into being, and will not come into being. He is unborn, eternal, ever-existing and primeval. He is not slain when the body is slain.",
-      "modern": "You can't be destroyed. Period. All your existential anxiety? Based on a misunderstanding. You think you're this fragile thing that can be broken, but you're actually indestructible. When your body gets wrecked - and it will eventually - the real you is totally fine. It's like worrying your car is totaled when you're safe inside. This is probably the most freeing truth in the entire Gita. Once you really get this, a lot of your fears just... dissolve. You're literally eternal. How cool is that?"
-    },
-    {
-      "verse": 22,
-      "sanskrit": "वासांसि जीर्णानि यथा विहाय नवानि गृह्णाति नरोऽपराणि |\nतथा शरीराणि विहाय जीर्णान्यन्यानि संयाति नवानि देही ||",
-      "transliteration": "vāsāṁsi jīrṇāni yathā vihāya navāni gṛhṇāti naro 'parāṇi\ntathā śarīrāṇi vihāya jīrṇāny anyāni saṁyāti navāni dehī",
-      "translation": "As a person puts on new garments, giving up old ones, the soul similarly accepts new material bodies, giving up the old and useless ones.",
-      "modern": "Best analogy ever. You don't cry when you throw away old, torn clothes and get new ones, right? That's death. Your soul is like 'These jeans are ripped beyond repair, time for a fresh fit.' We get so attached to this particular body, this life, these circumstances - but it's all temporary anyway. Everything you're stressed about keeping? You're gonna leave it all behind one day. So maybe chill a bit about the material stuff and focus on leveling up your actual self - your character, wisdom, and inner peace. That's what carries over."
-    },
-    {
-      "verse": 27,
-      "sanskrit": "जातस्य हि ध्रुवो मृत्युर्ध्रुवं जन्म मृतस्य च |\nतस्मादपरिहार्येऽर्थे न त्वं शोचितुमर्हसि ||",
-      "transliteration": "jātasya hi dhruvo mṛtyur dhruvaṁ janma mṛtasya ca\ntasmād aparihārye 'rthe na tvaṁ śocitum arhasi",
-      "translation": "One who has taken his birth is sure to die, and after death one is sure to take birth again. Therefore, in the unavoidable discharge of your duty, you should not lament.",
-      "modern": "Real talk: Everyone dies. 100% guaranteed. No exceptions. And guess what? That makes it not a big deal. It's like stressing about whether the sun will rise tomorrow - it's just what happens. So stop treating death like this huge scary monster. It's just part of the cycle. Born → Live → Die → Repeat. What IS worth worrying about? How you live. Are you doing what you're supposed to be doing? Are you showing up for your life? Focus on that, not on the inevitable end. Live so fully that when it's time to go, you have zero regrets."
-    },
-    {
-      "verse": 47,
-      "sanskrit": "कर्मण्येवाधिकारस्ते मा फलेषु कदाचन |\nमा कर्मफलहेतुर्भूर्मा ते सङ्गोऽस्त्वकर्मणि ||",
-      "transliteration": "karmaṇy evādhikāras te mā phaleṣu kadācana\nmā karma-phala-hetur bhūr mā te saṅgo 'stv akarmaṇi",
-      "translation": "You have a right to perform your prescribed duty, but you are not entitled to the fruits of action. Never consider yourself the cause of the results of your activities, and never be attached to not doing your duty.",
-      "modern": "THIS is the verse everyone quotes, and for good reason. Do your thing, but don't obsess over the outcome. Study hard, but don't tie your self-worth to your grades. Apply for jobs, but don't spiral if you get rejected. Post your art, but don't let likes define you. Focus on what you can control - your effort, your intentions, your process. The results? Not actually in your hands. This isn't about not caring - it's about caring about the right things. When you detach from outcomes, you're free to do your best work without the paralyzing fear of failure. That's where magic happens."
-    },
-    {
-      "verse": 48,
-      "sanskrit": "योगस्थः कुरु कर्माणि सङ्गं त्यक्त्वा धनञ्जय |\nसिद्ध्यसिद्ध्योः समो भूत्वा समत्वं योग उच्यते ||",
-      "transliteration": "yoga-sthaḥ kuru karmāṇi saṅgaṁ tyaktvā dhanañjaya\nsiddhy-asiddhyoḥ samo bhūtvā samatvaṁ yoga ucyate",
-      "translation": "Perform your duty equipoised, O Arjuna, abandoning all attachment to success or failure. Such equanimity is called yoga.",
-      "modern": "The secret to not burning out? This right here. Stay balanced whether you win or lose. Got into your dream school? Cool. Didn't? Also cool. You're still you either way. This doesn't mean be apathetic - it means don't let external results wreck your internal peace. Social media makes this SO hard because we're constantly comparing. But real strength is when you can post something that flops and not spiral, or when something goes viral and not let it inflate your ego. Success and failure are both just data points. Your worth is constant. That's real yoga - mental and emotional stability regardless of circumstances."
-    },
-    {
-      "verse": 56,
-      "sanskrit": "दुःखेष्वनुद्विग्नमनाः सुखेषु विगतस्पृहः |\nवीतरागभयक्रोधः स्थितधीर्मुनिरुच्यते ||",
-      "transliteration": "duḥkheṣv anudvigna-manāḥ sukheṣu vigata-spṛhaḥ\nvīta-rāga-bhaya-krodhaḥ sthita-dhīr munir ucyate",
-      "translation": "One who is not disturbed in mind even amidst the threefold miseries or elated when there is happiness, and who is free from attachment, fear and anger, is called a sage of steady mind.",
-      "modern": "Goals. This is literally describing the most mentally healthy person ever. Anxiety doesn't own them. Drama doesn't phase them. They're not addicted to highs or crushed by lows. They just... are. In a world of constant emotional whiplash (thanks, social media and news cycles), this is the ultimate flex. Not being numb - being stable. Not being cold - being free. Imagine scrolling through your feed and not feeling triggered by literally anything. Someone doing better than you? You're genuinely happy for them. Someone talking trash? Doesn't even register. That's the level of inner peace we should all be working toward."
-    },
-    {
-      "verse": 62,
-      "sanskrit": "ध्यायतो विषयान्पुंसः सङ्गस्तेषूपजायते |\nसङ्गात्सञ्जायते कामः कामात्क्रोधोऽभिजायते ||",
-      "transliteration": "dhyāyato viṣayān puṁsaḥ saṅgas teṣūpajāyate\nsaṅgāt sañjāyate kāmaḥ kāmāt krodho 'bhijāyate",
-      "translation": "While contemplating the objects of the senses, a person develops attachment for them, and from such attachment lust develops, and from lust anger arises.",
-      "modern": "The downward spiral, explained. You see something you want → You can't stop thinking about it → You NEED it → You're pissed when you can't get it. This is literally every consumer ad ever, and it's how social media algorithms keep you hooked. You see someone's perfect life → You want that → You become obsessed → You get bitter when your life doesn't measure up. Krishna diagnosed our dopamine-addiction culture 5,000 years ago. The way out? Stop obsessively thinking about what you don't have. Easier said than done, but awareness is the first step."
-    },
-    {
-      "verse": 63,
-      "sanskrit": "क्रोधाद्भवति सम्मोहः सम्मोहात्स्मृतिविभ्रमः |\nस्मृतिभ्रंशाद् बुद्धिनाशो बुद्धिनाशात्प्रणश्यति ||",
-      "transliteration": "krodhād bhavati sammohaḥ sammohāt smṛti-vibhramaḥ\nsmṛti-bhraṁśād buddhi-nāśo buddhi-nāśāt praṇaśyati",
-      "translation": "From anger, complete delusion arises, and from delusion bewilderment of memory. When memory is bewildered, intelligence is lost, and when intelligence is lost one falls down again into the material pool.",
-      "modern": "Ever send a text you regret when you're mad? That's this. Anger → You lose perspective → You forget who you are and what matters → You do something stupid → Your life gets worse. We've all been there. The guy who loses his cool in a meeting and torpedoes his career. The person who blows up a good relationship over something minor. The protester who gets arrested and ruins future job prospects. When you're angry, your IQ drops like 50 points. So the move? Pause. Breathe. Don't let anger hijack your brain. Future you will be grateful."
-    },
-    {
-      "verse": 71,
-      "sanskrit": "विहाय कामान्यः सर्वान्पुमांश्चरति निःस्पृहः |\nनिर्ममो निरहङ्कारः स शान्तिमधिगच्छति ||",
-      "transliteration": "vihāya kāmān yaḥ sarvān pumāṁś carati niḥspṛhaḥ\nnirmamo nirahaṅkāraḥ sa śāntim adhigacchati",
-      "translation": "A person who has given up all desires for sense gratification, who lives free from desires, who has given up all sense of proprietorship and is devoid of false ego—he alone can attain real peace.",
-      "modern": "The ultimate anti-consumerism message. Real peace comes when you stop needing stuff to feel complete. Not because you're broke and pretending you don't want things - but because you genuinely realize that external stuff can't fill internal voids. No possessiveness ('this is mine'). No ego ('I'm special'). Just... being. This is what every minimalist influencer is trying to explain but usually just ends up bragging about their aesthetically pleasing emptiness. Real contentment is when you could have everything or nothing and be equally at peace. That's freedom. That's the goal."
-    }
-  ]
+"number": 2,
+"title": "Sankhya Yoga",
+"sanskrit": "सांख्ययोग",
+"verses": 72,
+"introduction": "Chapter 2 of the Bhagavad Gita dives into the core philosophy, where Krishna responds to Arjuna's despair with profound teachings on the soul, duty, and detachment. Known as Sankhya Yoga, it lays the foundation for understanding the eternal self versus the temporary body, much like distinguishing your core identity from your job title or social media persona. In today's fast-paced world, this chapter resonates with anyone juggling work stress, personal growth, and existential questions—think of it as Krishna's masterclass on resilience, helping you navigate career setbacks or life changes without losing your cool.",
+"shlokas": [
+{
+"verse": 1,
+"sanskrit": "सञ्जय उवाच |\nतं तथा कृपयाविष्टमश्रुपूर्णाकुलेक्षणम् |\nविषीदन्तमिदं वाक्यमुवाच मधुसूदनः ||",
+"transliteration": "sañjaya uvāca\ntaṁ tathā kṛpayāviṣṭam aśru-pūrṇākulekṣaṇam\nviṣīdantam idaṁ vākyam uvāca madhusūdanaḥ",
+"translation": "Sanjaya said: Seeing Arjuna full of compassion, his mind depressed, his eyes full of tears, Madhusudana, Krishna, spoke the following words.",
+"modern": "Sanjaya narrates Arjuna's breakdown—tears, overwhelm, the works. It's like that moment after a brutal workday when you crash on the couch, questioning your life choices. Krishna steps in as the ultimate life coach, ready to drop truths. In modern terms, think of a mentor spotting your burnout and saying, 'Let's unpack this.' Seriously, it shows vulnerability isn't weakness; it's the doorway to wisdom, especially when work-life balance feels impossible."
+},
+{
+"verse": 2,
+"sanskrit": "श्रीभगवानुवाच |\nकुतस्त्वा कश्मलमिदं विषमे समुपस्थितम् |\nअनार्यजुष्टमस्वर्ग्यमकीर्तिकरमर्जुन ||",
+"transliteration": "śrī-bhagavān uvāca\nkutas tvā kaśmalam idaṁ viṣame samupasthitam\nanārya-juṣṭam asvargyam akīrti-karam arjuna",
+"translation": "The Supreme Personality of Godhead said: My dear Arjuna, how have these impurities come upon you? They are not at all befitting a man who knows the value of life. They lead not to higher planets but to infamy.",
+"modern": "Krishna calls out Arjuna's despair: 'Where's this coming from? It's not you.' Picture your boss or friend snapping you out of a pity party during a project crisis—'This mindset won't get you promoted; it'll tank your rep.' Funny how we all have those 'why me' moments, but Krishna reminds us: True leaders rise above emotional slumps, focusing on long-term growth over short-term feels. In work, it's like shaking off a failed pitch to prep for the next big win."
+},
+{
+"verse": 3,
+"sanskrit": "क्लैब्यं मा स्म गमः पार्थ नैतत्त्वय्युपपद्यते |\nक्षुद्रं हृदयदौर्बल्यं त्यक्त्वोत्तिष्ठ परन्तप ||",
+"transliteration": "klaibyaṁ mā sma gamaḥ pārtha naitat tvayy upapadyate\nkṣudraṁ hṛdaya-daurbalyaṁ tyaktvottiṣṭha parantapa",
+"translation": "O son of Pritha, do not yield to this degrading impotence. It does not become you. Give up such petty weakness of heart and arise, O chastiser of the enemy.",
+"modern": "Krishna urges: 'Don't go weak now; snap out of it and stand up.' It's that tough love from a trainer when you're about to quit the gym mid-set. Seriously, in career terms, it's like overcoming imposter syndrome—ditch the self-doubt, rise to the challenge. Humorous side: We all have days where Netflix seems better than networking, but Krishna's push is the essence of grit, essential for climbing the corporate ladder or pursuing passions."
+},
+{
+"verse": 4,
+"sanskrit": "अर्जुन उवाच |\nकथं भीष्ममहं सङ्ख्ये द्रोणं च मधुसूदन |\nइषुभिः प्रतियोत्स्यामि पूजार्हावरिसूदन ||",
+"transliteration": "arjuna uvāca\nkathaṁ bhīṣmam ahaṁ saṅkhye droṇaṁ ca madhusūdana\niṣubhiḥ pratiyotsyāmi pūjārhāv ari-sūdana",
+"translation": "Arjuna said: O killer of enemies, O killer of Madhu, how can I counterattack with arrows in battle men like Bhishma and Drona, who are worthy of my worship?",
+"modern": "Arjuna protests: 'How can I fight my respected elders?' Like refusing to compete against a mentor in business. It highlights ethical dilemmas—loyalty vs. duty. In daily life, think negotiating with a former boss; funny how respect complicates things, but Krishna will teach balancing honor with responsibility."
+},
+{
+"verse": 5,
+"sanskrit": "गुरूनहत्वा हि महानुभावान् श्रेयो भोक्तुं भैक्ष्यमपीह लोके |\nहत्वार्थकामांस्तु गुरूनिहैव भुञ्जीय भोगान् रुधिरप्रदिग्धान् ||",
+"transliteration": "gurūn ahatvā hi mahānubhāvān śreyo bhoktuṁ bhaikṣyam apīha loke\nhatvārtha-kāmāṁs tu gurūn ihaiva bhuñjīya bhogān rudhira-pradigdhān",
+"translation": "It would be better to live in this world by begging than to kill the great souls who are my teachers. Even though desiring worldly gain, they are superiors. If they are killed, everything we enjoy will be tainted with blood.",
+"modern": "Arjuna prefers begging over killing gurus for gains. Relatable to quitting a job rather than stepping on toes for a raise. Essence: True success isn't bloodied by betrayal; in work, it's building without burning bridges."
+},
+{
+"verse": 6,
+"sanskrit": "न चैतद्विद्मः कतरन्नो गरीयो यद्वा जयेम यदि वा नो जयेयुः |\nयानेव हत्वा न जिजीविषामस् तेऽवस्थिताः प्रमुखे धार्तराष्ट्राः ||",
+"transliteration": "na caitad vidmaḥ kataran no garīyo yad vā jayema yadi vā no jayeyuḥ\nyān eva hatvā na jijīviṣāmas te 'vasthitāḥ pramukhe dhārtarāṣṭrāḥ",
+"translation": "Nor do we know which is better—conquering them or being conquered by them. If we killed the sons of Dhritarashtra, we should not care to live. Yet they are now standing before us on the battlefield.",
+"modern": "Arjuna's torn: Win or lose, what's the point? Like a no-win scenario in a merger where friends lose jobs. Teaches evaluating true victory beyond material wins."
+},
+{
+"verse": 7,
+"sanskrit": "कार्पण्यदोषोपहतस्वभावः पृच्छामि त्वां धर्मसम्मूढचेताः |\nयच्छ्रेयः स्यान्निश्चितं ब्रूहि तन्मे शिष्यस्तेऽहं शाधि मां त्वां प्रपन्नम् ||",
+"transliteration": "kārpaṇya-doṣopahata-svabhāvaḥ pṛcchāmi tvāṁ dharma-sammūḍha-cetāḥ\nyac chreyaḥ syān niścitaṁ brūhi tan me śiṣyas te 'haṁ śādhi māṁ tvāṁ prapannam",
+"translation": "Now I am confused about my duty and have lost all composure because of miserly weakness. In this condition I am asking You to tell me for certain what is best for me. Now I am Your disciple, and a soul surrendered unto You. Please instruct me.",
+"modern": "Arjuna surrenders: 'I'm lost; teach me.' Like seeking a career coach during a mid-life crisis. Key: Humility opens doors to guidance; in work, admitting confusion leads to clarity."
+},
+{
+"verse": 8,
+"sanskrit": "न हि प्रपश्यामि ममापनुद्याद् यच्छोकमुच्छोषणमिन्द्रियाणाम् |\nअवाप्य भूमावसपत्नमृद्धं राज्यं सुराणामपि चाधिपत्यम् ||",
+"transliteration": "na hi prapaśyāmi mamāpanudyād yac chokam ucchoṣaṇam indriyāṇām\navāpya bhūmāv asapatnam ṛddhaṁ rājyaṁ surāṇām api cādhipatyam",
+"translation": "I can find no means to drive away this grief which is drying up my senses. I will not be able to dispel it even if I win a prosperous, unrivaled kingdom on earth with sovereignty like the demigods in heaven.",
+"modern": "No kingdom can cure his sorrow—like money not fixing burnout. Relates to chasing titles without inner peace; funny how promotions often amplify stress."
+},
+{
+"verse": 9,
+"sanskrit": "सञ्जय उवाच |\nएवमुक्त्वा हृषीकेशं गुडाकेशः परन्तप |\nन योत्स्य इति गोविन्दमुक्त्वा तूष्णीं बभूव ह ||",
+"transliteration": "sañjaya uvāca\nevam uktvā hṛṣīkeśaṁ guḍākeśaḥ parantapa\nna yotsya iti govindam uktvā tūṣṇīṁ babhūva ha",
+"translation": "Sanjaya said: Having spoken thus, Arjuna, chastiser of enemies, told Krishna, 'Govinda, I shall not fight,' and fell silent.",
+"modern": "Arjuna quits verbally. Like declaring 'I quit' in a heated meeting, then silence. Sets stage for Krishna's response."
+},
+{
+"verse": 10,
+"sanskrit": "तमुवाच हृषीकेशः प्रहसन्निव भारत |\nसेनयोरुभयोर्मध्ये विषीदन्तमिदं वचः ||",
+"transliteration": "tam uvāca hṛṣīkeśaḥ prahasann iva bhārata\nsenayor ubhayor madhye viṣīdantam idaṁ vacaḥ",
+"translation": "O descendant of Bharata, at that time Krishna, in the midst of both armies, spoke the following words to Arjuna, who was filled with grief.",
+"modern": "Krishna smiles amid the armies—like a calm exec in a crisis. His gentle humor eases tension, showing wisdom starts with perspective."
+},
+{
+"verse": 11,
+"sanskrit": "श्रीभगवानुवाच |\nअशोच्यानन्वशोचस्त्वं प्रज्ञावादांश्च भाषसे |\nगतासूनगतासूंश्च नानुशोचन्ति पण्डिताः ||",
+"transliteration": "śrī-bhagavān uvāca\naśocyān anvaśocas tvaṁ prajñā-vādāṁś ca bhāṣase\ngatāsūn agatāsūṁś ca nānuśocanti paṇḍitāḥ",
+"translation": "The Supreme Personality of Godhead said: While speaking learned words, you are mourning for what is not worthy of grief. Those who are wise lament neither for the living nor for the dead.",
+"modern": "Krishna: 'You're grieving the ungrievable.' Like worrying about a lost phone when life's bigger. Wise ones don't mourn the inevitable; in work, it's letting go of failed projects to focus on growth. Detailed: Death is change, not end—relates to career shifts, where 'dying' to old roles births new opportunities."
+},
+{
+"verse": 12,
+"sanskrit": "न त्वेवाहं जातु नासं न त्वं नेमे जनाधिपाः |\nन चैव न भविष्यामः सर्वे वयमतः परम् ||",
+"transliteration": "na tv evāhaṁ jātu nāsaṁ na tvaṁ neme janādhipāḥ\nna caiva na bhaviṣyāmaḥ sarve vayam ataḥ param",
+"translation": "Never was there a time when I did not exist, nor you, nor all these kings; nor in the future shall any of us cease to be.",
+"modern": "We're eternal. Mind-blowing: Your soul predates your resume. In daily life, it's comforting during layoffs—'This job isn't me; I'm timeless.' Funny: Explains why Monday blues feel ancient. Essence: Detach from temporary identities for true stability."
+},
+{
+"verse": 13,
+"sanskrit": "देहिनोऽस्मिन्यथा देहे कौमारं यौवनं जरा |\nतथा देहान्तरप्राप्तिर्धीरस्तत्र न मुह्यति ||",
+"transliteration": "dehino 'smin yathā dehe kaumāraṁ yauvanaṁ jarā\ntathā dehāntara-prāptir dhīras tatra na muhyati",
+"translation": "As the embodied soul continuously passes, in this body, from boyhood to youth to old age, the soul similarly passes into another body at death. A sober person is not bewildered by such a change.",
+"modern": "Body changes like outfits; soul remains. Relate to aging in career—from intern to exec, then retirement. Wise don't freak; they adapt. Humorous: Like upgrading phones—old one crashes, get a new model. Teaches resilience in life's transitions."
+},
+{
+"verse": 14,
+"sanskrit": "मात्रास्पर्शास्तु कौन्तेय शीतोष्णसुखदुःखदाः |\nआगमापायिनोऽनित्यास्तांस्तितिक्षस्व भारत ||",
+"transliteration": "mātrā-sparśās tu kaunteya śītoṣṇa-sukha-duḥkha-dāḥ\nāgamāpāyino 'nityās tāṁs titikṣasva bhārata",
+"translation": "O son of Kunti, the nonpermanent appearance of happiness and distress, and their disappearance in due course, are like the appearance and disappearance of winter and summer seasons. They arise from sense perception, O scion of Bharata, and one must learn to tolerate them without being disturbed.",
+"modern": "Pleasure and pain come and go like seasons. In work, think market highs and crashes—tolerate without panic. Detailed: Build emotional intelligence; don't quit over one bad review. Funny: Like coffee—hot joy, then cold regret. Essence: Equanimity for sustained success."
+},
+{
+"verse": 15,
+"sanskrit": "यं हि न व्यथयन्त्येते पुरुषं पुरुषर्षभ |\nसमदुःखसुखं धीरं सोऽमृतत्वाय कल्पते ||",
+"transliteration": "yaṁ hi na vyathayanty ete puruṣaṁ puruṣarṣabha\nsama-duḥkha-sukhaṁ dhīraṁ so 'mṛtatvāya kalpate",
+"translation": "O best among men [Arjuna], the person who is not disturbed by happiness and distress and is steady in both is certainly eligible for liberation.",
+"modern": "Balanced in ups and downs? You're liberation-bound. Like a steady stock in volatile markets. In life, it's the colleague who stays calm during deadlines— they thrive. Serious: Cultivate this for mental health; funny: No more road rage commutes."
+},
+{
+"verse": 16,
+"sanskrit": "नासतो विद्यते भावो नाभावो विद्यते सतः |\nउभयोरपि दृष्टोऽन्तस्त्वनयोस्तत्त्वदर्शिभिः ||",
+"transliteration": "nāsato vidyate bhāvo nābhāvo vidyate sataḥ\nubhayor api dṛṣṭo 'ntas tv anayos tattva-darśibhiḥ",
+"translation": "Those who are seers of the truth have concluded that of the nonexistent [the material body] there is no endurance and of the eternal [the soul] there is no change. This they have concluded by studying the nature of both.",
+"modern": "Temporary doesn't last; eternal doesn't change. Body: fleeting like trends; soul: constant like gravity. Relate to fads in tech vs. core skills. Wise see this, avoiding attachment to passing phases."
+},
+{
+"verse": 17,
+"sanskrit": "अविनाशि तु तद्विद्धि येन सर्वमिदं ततम् |\nविनाशमव्ययस्यास्य न कश्चित्कर्तुमर्हति ||",
+"transliteration": "avināśi tu tad viddhi yena sarvam idaṁ tatam\nvināśam avyayasyāsya na kaścit kartum arhati",
+"translation": "That which pervades the entire body you should know to be indestructible. No one is able to destroy that imperishable soul.",
+"modern": "Soul's indestructible, permeating all. Like Wi-Fi everywhere but unbreakable. In work, your creativity survives failures. Funny: Body's a rental; soul owns the property."
+},
+{
+"verse": 18,
+"sanskrit": "अन्तवन्त इमे देहा नित्यस्योक्ताः शरीरिणः |\nअनाशिनोऽप्रमेयस्य तस्माद्युध्यस्व भारत ||",
+"transliteration": "antavanta ime dehā nityasyoktāḥ śarīriṇaḥ\nanāśino 'prameyasya tasmād yudhyasva bhārata",
+"translation": "The material body of the indestructible, immeasurable and eternal living entity is sure to come to an end; therefore, fight, O descendant of Bharata.",
+"modern": "Bodies end; souls don't—so fight. Duty calls despite loss. In life, pursue goals knowing change is constant; don't fear endings."
+},
+{
+"verse": 19,
+"sanskrit": "य एनं वेत्ति हन्तारं यश्चैनं मन्यते हतम् |\nउभौ तौ न विजानीतो नायं हन्ति न हन्यते ||",
+"transliteration": "ya enaṁ vetti hantāraṁ yaś cainaṁ manyate hatam\nubhau tau na vijānīto nāyaṁ hanti na hanyate",
+"translation": "Neither he who thinks the living entity the slayer nor he who thinks it slain is in knowledge, for the self slays not nor is slain.",
+"modern": "Soul neither kills nor dies. Beyond violence. Relates to guilt in tough decisions—like firing someone; it's roles, not essence."
+},
+{
+"verse": 20,
+"sanskrit": "न जायते म्रियते वा कदाचिन्नायं भूत्वा भविता वा न भूयः |\nअजो नित्यः शाश्वतोऽयं पुराणो न हन्यते हन्यमाने शरीरे ||",
+"transliteration": "na jāyate mriyate vā kadācin nāyaṁ bhūtvā bhavitā vā na bhūyaḥ\najo nityaḥ śāśvato 'yaṁ purāṇo na hanyate hanyamāne śarīre",
+"translation": "For the soul there is neither birth nor death at any time. He has not come into being, does not come into being, and will not come into being. He is unborn, eternal, ever-existing and primeval. He is not slain when the body is slain.",
+"modern": "Soul's eternal, unborn, undying. Like software updating hardware. In career, you're more than your current role; transcend changes. Detailed: Frees from fear of failure or aging, empowering bold moves."
+},
+{
+"verse": 21,
+"sanskrit": "वेदाविनाशिनं नित्यं य एनमजमव्ययम् |\nकथं स पुरुषः पार्थ कं घातयति हन्ति कम् ||",
+"transliteration": "vedāvināśinaṁ nityaṁ ya enam ajam avyayam\nkathaṁ sa puruṣaḥ pārtha kaṁ ghātayati hanti kam",
+"translation": "O Partha, how can a person who knows that the soul is indestructible, eternal, unborn and immutable kill anyone or cause anyone to kill?",
+"modern": "Knowing soul's eternal, no real killing. Shifts perspective on actions; duty without guilt. In work, make tough calls knowing they're temporary."
+},
+{
+"verse": 22,
+"sanskrit": "वासांसि जीर्णानि यथा विहाय नवानि गृह्णाति नरोऽपराणि |\nतथा शरीराणि विहाय जीर्णान्यन्यानि संयाति नवानि देही ||",
+"transliteration": "vāsāṁsi jīrṇāni yathā vihāya navāni gṛhṇāti naro 'parāṇi\ntathā śarīrāṇi vihāya jīrṇāny anyāni saṁyāti navāni dehī",
+"translation": "As a person puts on new garments, giving up old ones, the soul similarly accepts new material bodies, giving up the old and useless ones.",
+"modern": "Soul changes bodies like clothes. Relate to career switches—outgrow old job, embrace new. Funny: Death's a wardrobe refresh. Essence: Don't cling; evolve."
+},
+{
+"verse": 23,
+"sanskrit": "नैनं छिन्दन्ति शस्त्राणि नैनं दहति पावकः |\nन चैनं क्लेदयन्त्यापो न शोषयति मारुतः ||",
+"transliteration": "nainaṁ chindanti śastrāṇi nainaṁ dahati pāvakaḥ\nna cainaṁ kledayanty āpo na śoṣayati mārutaḥ",
+"translation": "The soul can never be cut to pieces by any weapon, nor burned by fire, nor moistened by water, nor withered by the wind.",
+"modern": "Soul's invincible to elements. Like data in the cloud—untouchable. In life, your essence survives crises; build on that."
+},
+{
+"verse": 24,
+"sanskrit": "अच्छेद्योऽयमदाह्योऽयमक्लेद्योऽशोष्य एव च |\nनित्यः सर्वगतः स्थाणुरचलोऽयं सनातनः ||",
+"transliteration": "acchedyo 'yam adāhyo 'yam akledyo 'śoṣya eva ca\nnityaḥ sarva-gataḥ sthāṇur acalo 'yaṁ sanātanaḥ",
+"translation": "This individual soul is unbreakable and insoluble, and can be neither burned nor dried. He is everlasting, present everywhere, unchangeable, immovable and eternally the same.",
+"modern": "Soul's qualities: Eternal, omnipresent. Foundation for self-confidence; you're unchanging amid chaos."
+},
+{
+"verse": 25,
+"sanskrit": "अव्यक्तोऽयमचिन्त्योऽयमविकार्योऽयमुच्यते |\nतस्मादेवं विदित्वैनं नानुशोचितुमर्हसि ||",
+"transliteration": "avyakto 'yam acintyo 'yam avikāryo 'yam ucyate\ntasmād evaṁ viditvainaṁ nānuśocitum arhasi",
+"translation": "It is said that the soul is invisible, inconceivable and immutable. Knowing this, you should not grieve for the body.",
+"modern": "Soul's beyond senses; no grief for body. Like not mourning a crashed laptop if data's backed up."
+},
+{
+"verse": 26,
+"sanskrit": "अथ चैनं नित्यजातं नित्यं वा मन्यसे मृतम् |\nतथापि त्वं महाबाहो नैवं शोचितुमर्हसि ||",
+"transliteration": "atha cainaṁ nitya-jātaṁ nityaṁ vā manyase mṛtam\ntathāpi tvaṁ mahā-bāho naivaṁ śocitum arhasi",
+"translation": "If, however, you think that the soul [or the symptoms of life] will always be born and die forever, you still have no reason to lament, O mighty-armed.",
+"modern": "Even if soul's not eternal, no lament—life's cycle. Perspective shift for atheists too."
+},
+{
+"verse": 27,
+"sanskrit": "जातस्य हि ध्रुवो मृत्युर्ध्रुवं जन्म मृतस्य च |\nतस्मादपरिहार्येऽर्थे न त्वं शोचितुमर्हसि ||",
+"transliteration": "jātasya hi dhruvo mṛtyur dhruvaṁ janma mṛtasya ca\ntasmād aparihārye 'rthe na tvaṁ śocitum arhasi",
+"translation": "One who has taken his birth is sure to die, and after death one is sure to take birth again. Therefore, in the unavoidable discharge of your duty, you should not lament.",
+"modern": "Birth leads to death, death to birth—inevitable. Don't grieve; do duty. Like taxes: Unavoidable, so focus on living well."
+},
+{
+"verse": 28,
+"sanskrit": "अव्यक्तादीनि भूतानि व्यक्तमध्यानि भारत |\nअव्यक्तनिधनान्येव तत्र का परिदेवना ||",
+"transliteration": "avyaktādīni bhūtāni vyakta-madhyāni bhārata\navyakta-nidhanāny eva tatra kā paridevanā",
+"translation": "All created beings are unmanifest in their beginning, manifest in their interim state, and unmanifest again when annihilated. So what need is there for lamentation?",
+"modern": "Beings start invisible, appear, vanish. Cycle of existence; no point in sorrow. Relates to startups: Idea, launch, exit."
+},
+{
+"verse": 29,
+"sanskrit": "आश्चर्यवत्पश्यति कश्चिदेनमाश्चर्यवद्वदति तथैव चान्यः |\nआश्चर्यवच्चैनमन्यः शृणोति श्रुत्वाप्येनं वेद न चैव कश्चित् ||",
+"transliteration": "āścarya-vat paśyati kaścid enam āścarya-vad vadati tathaiva cānyaḥ\nāścarya-vac cainam anyaḥ śṛṇoti śrutvāpy enaṁ veda na caiva kaścit",
+"translation": "Some look on the soul as amazing, some describe him as amazing, and some hear of him as amazing, while others, even after hearing about him, cannot understand him at all.",
+"modern": "Soul's wondrous; few grasp it. Like quantum physics—mind-bending. Encourages study for understanding."
+},
+{
+"verse": 30,
+"sanskrit": "देही नित्यमवध्योऽयं देहे सर्वस्य भारत |\nतस्मात्सर्वाणि भूतानि न त्वं शोचितुमर्हसि ||",
+"transliteration": "dehī nityam avadhyo 'yaṁ dehe sarvasya bhārata\ntasmāt sarvāṇi bhūtāni na tvaṁ śocitum arhasi",
+"translation": "O descendant of Bharata, he who dwells in the body can never be slain. Therefore you need not grieve for any living being.",
+"modern": "Indweller can't be killed; no grief. Reinforces acting without fear."
+},
+{
+"verse": 31,
+"sanskrit": "स्वधर्ममपि चावेक्ष्य न विकम्पितुमर्हसि |\nधर्म्याद्धि युद्धाच्छ्रेयोऽन्यत्क्षत्रियस्य न विद्यते ||",
+"transliteration": "sva-dharmam api cāvekṣya na vikampitum arhasi\ndharmyād dhi yuddhāc chreyo 'nyat kṣatriyasya na vidyate",
+"translation": "Considering your specific duty as a ksatriya, you should know that there is no better engagement for you than fighting on religious principles; and so there is no need for hesitation.",
+"modern": "Do your duty; for a warrior, righteous fight's best. In modern: Pursue your calling—don't waver. Relates to vocational purpose."
+},
+{
+"verse": 32,
+"sanskrit": "यदृच्छया चोपपन्नं स्वर्गद्वारमपावृतम् |\nसुखिनः क्षत्रियाः पार्थ लभन्ते युद्धमीदृशम् ||",
+"transliteration": "yadṛcchayā copapannaṁ svarga-dvāram apāvṛtam\nsukhinaḥ kṣatriyāḥ pārtha labhante yuddham īdṛśam",
+"translation": "O Partha, happy are the ksatriyas to whom such fighting opportunities come unsought, opening for them the doors of the heavenly planets.",
+"modern": "Such battles are gateways to heaven for warriors. Like rare opportunities in career—grab them."
+},
+{
+"verse": 33,
+"sanskrit": "अथ चेत्त्वमिमं धर्म्यं सङ्ग्रामं न करिष्यसि |\nततः स्वधर्मकीर्ती च हित्वा पापमवाप्स्यसि ||",
+"transliteration": "atha cet tvam imaṁ dharmyaṁ saṅgrāmaṁ na kariṣyasi\ntataḥ sva-dharma-kīrtī ca hitvā pāpam avāpsyasi",
+"translation": "If, however, you do not perform your religious duty of fighting, then you will certainly incur sins for neglecting your duties and thus lose your reputation as a fighter.",
+"modern": "Shirk duty, lose rep and incur sin. Like backing out of a commitment—damages credibility."
+},
+{
+"verse": 34,
+"sanskrit": "अकीर्तिं चापि भूतानि कथयिष्यन्ति तेऽव्ययाम् |\nसम्भावितस्य चाकीर्तिर्मरणादतिरिच्यते ||",
+"transliteration": "akīrtiṁ cāpi bhūtāni kathayiṣyanti te 'vyayām\nsambhāvitasya cākīrtir maraṇād atiricyate",
+"translation": "People will always speak of your infamy, and for a respectable person, dishonor is worse than death.",
+"modern": "Bad rep worse than death. In social media age, viral shame's hell. Protect integrity."
+},
+{
+"verse": 35,
+"sanskrit": "भयाद्रणादुपरतं मंस्यन्ते त्वां महारथाः |\nयेषां च त्वं बहुमतो भूत्वा यास्यसि लाघवम् ||",
+"transliteration": "bhayād raṇād uparataṁ maṁsyante tvāṁ mahā-rathāḥ\nyeṣāṁ ca tvaṁ bahu-mato bhūtvā yāsyasi lāghavam",
+"translation": "The great generals who have highly esteemed your name and fame will think that you have left the battlefield out of fear only, and thus they will consider you insignificant.",
+"modern": "Peers will think you chickened out. Loss of respect in professional circles."
+},
+{
+"verse": 36,
+"sanskrit": "अवाच्यवादांश्च बहून्वदिष्यन्ति तवाहिताः |\nनिन्दन्तस्तव सामर्थ्यं ततो दुःखतरं नु किम् ||",
+"transliteration": "avācya-vādāṁś ca bahūn vadiṣyanti tavāhitāḥ\nnindantas tava sāmarthyaṁ tato duḥkhataraṁ nu kim",
+"translation": "Your enemies will describe you in many unkind words and scorn your ability. What could be more painful for you?",
+"modern": "Enemies trash-talk your skills. Worse pain than failure? Public humiliation."
+},
+{
+"verse": 37,
+"sanskrit": "हतो वा प्राप्स्यसि स्वर्गं जित्वा वा भोक्ष्यसे महीम् |\nतस्मादुत्तिष्ठ कौन्तेय युद्धाय कृतनिश्चयः ||",
+"transliteration": "hato vā prāpsyasi svargaṁ jitvā vā bhokṣyase mahīm\ntasmād uttiṣṭha kaunteya yuddhāya kṛta-niścayaḥ",
+"translation": "O son of Kunti, either you will be killed on the battlefield and attain the heavenly planets, or you will conquer and enjoy the earthly kingdom. Therefore, get up with determination and fight.",
+"modern": "Win: Kingdom; die: Heaven. No loss. Like high-risk investments—potential rewards justify action."
+},
+{
+"verse": 38,
+"sanskrit": "सुखदुःखे समे कृत्वा लाभालाभौ जयाजयौ |\nततो युद्धाय युज्यस्व नैवं पापमवाप्स्यसि ||",
+"transliteration": "sukha-duḥkhe same kṛtvā lābhālābhau jayājayau\ntato yuddhāya yujyasva naivaṁ pāpam avāpsyasi",
+"translation": "Do thou fight for the sake of fighting, without considering happiness or distress, loss or gain, victory or defeat—and by so doing you shall never incur sin.",
+"modern": "Equate pleasure/pain, gain/loss—then act. Detached action avoids sin. In work: Focus on process, not outcomes."
+},
+{
+"verse": 39,
+"sanskrit": "एषा तेऽभिहिता साङ्ख्ये बुद्धिर्योग उपाश्रितः |\nबुद्ध्या युक्तो यया पार्थ कर्मबन्धं प्रहास्यसि ||",
+"transliteration": "eṣā te 'bhihitā sāṅkhye buddhir yoge upāśritaḥ\nbuddhyā yukto yayā pārtha karma-bandhaṁ prahāsyasi",
+"translation": "Thus far I have described this knowledge to you through analytical study. Now listen as I explain it in terms of working without fruitive results. O son of Pritha, when you act in such knowledge you can free yourself from the bondage of works.",
+"modern": "Sankhya knowledge; now Karma Yoga. Act without attachment to free from karma."
+},
+{
+"verse": 40,
+"sanskrit": "नेहाभिक्रमनाशोऽस्ति प्रत्यवायो न विद्यते |\nस्वल्पमप्यस्य धर्मस्य त्रायते महतो भयात् ||",
+"transliteration": "nehābhikrama-nāśo 'sti pratyavāyo na vidyate\nsvalpam apy asya dharmasya trāyate mahato bhayāt",
+"translation": "In this endeavor there is no loss or diminution, and a little advancement on this path can protect one from the most dangerous type of fear.",
+"modern": "No loss in this path; even little progress saves from fear. Like investing in skills—small steps yield big security."
+},
+{
+"verse": 41,
+"sanskrit": "व्यवसायात्मिका बुद्धिरेकेह कुरुनन्दन |\nबहुशाखा ह्यनन्ताश्च बुद्धयोऽव्यवसायिनाम् ||",
+"transliteration": "vyavasāyātmikā buddhir ekeha kuru-nandana\nbahu-śākhā hy anantāś ca buddhayo 'vyavasāyinām",
+"translation": "Those who are on this path are resolute in purpose, and their aim is one. O beloved child of the Kurus, the intelligence of those who are irresolute is many-branched.",
+"modern": "Resolute mind: Single focus; irresolute: Scattered. In work, multitaskers burn out; focused ones succeed."
+},
+{
+"verse": 42,
+"sanskrit": "यामिमां पुष्पितां वाचं प्रवदन्त्यविपश्चितः |\nवेदवादरताः पार्थ नान्यदस्तीति वादिनः ||",
+"transliteration": "yām imāṁ puṣpitāṁ vācaṁ pravadanty avipaścitaḥ\nveda-vāda-ratāḥ pārtha nānyad astīti vādinaḥ",
+"translation": "Men of small knowledge are very much attached to the flowery words of the Vedas, which recommend various fruitive activities for elevation to heavenly planets, resultant good birth, power, and so forth. Being desirous of sense gratification and opulent life, they say that there is nothing more than this.",
+"modern": "Shallow folks chase Vedic rewards. Like materialists pursuing luxury without depth."
+},
+{
+"verse": 43,
+"sanskrit": "कामात्मानः स्वर्गपरा जन्मकर्मफलप्रदा |\nक्रियाविशेषबहुलां भोगैश्वर्यगतिं प्रति ||",
+"transliteration": "kāmātmānaḥ svarga-parā janma-karma-phala-pradā\nkriyā-viśeṣa-bahulāṁ bhogaiśvarya-gatiṁ prati",
+"translation": "In the minds of those who are too attached to sense enjoyment and material opulence, and who are bewildered by such things, the resolute determination for devotional service to the Supreme Lord does not take place.",
+"modern": "Desire-driven miss higher purpose. Consumer culture trap—chase gadgets, miss fulfillment."
+},
+{
+"verse": 44,
+"sanskrit": "भोगैश्वर्यप्रसक्तानां तयापहृतचेतसाम् |\nव्यवसायात्मिका बुद्धिः समाधौ न विधीयते ||",
+"transliteration": "bhogaiśvarya-prasaktānāṁ tayāpahṛta-cetasām\nvyavasāyātmikā buddhiḥ samādhau na vidhīyate",
+"translation": "In the minds of those who are too attached to sense enjoyment and material opulence, and who are bewildered by such things, the resolute determination for devotional service to the Supreme Lord does not take place.",
+"modern": "Attachment blocks focus. Like distractions derailing goals."
+},
+{
+"verse": 45,
+"sanskrit": "त्रैगुण्यविषया वेदा निस्त्रैगुण्यो भवार्जुन |\nनिर्द्वन्द्वो नित्यसत्त्वस्थो निर्योगक्षेम आत्मवान् ||",
+"transliteration": "traiguṇya-viṣayā vedā nistraiguṇyo bhavārjuna\nnirdvandvo nitya-sattva-stho niryoga-kṣema ātmavān",
+"translation": "The Vedas deal mainly with the subject of the three modes of material nature. O Arjuna, become transcendental to these three modes. Be free from all dualities and from all anxieties for gain and safety, and be established in the self.",
+"modern": "Rise above material modes; free from dualities. In life, transcend good/bad, secure self-reliance."
+},
+{
+"verse": 46,
+"sanskrit": "यावानर्थ उदपाने सर्वतः सम्प्लुतोदके |\nतावान्सर्वेषु वेदेषु ब्राह्मणस्य विजानतः ||",
+"transliteration": "yāvān artha udapāne sarvataḥ samplutodake\ntāvān sarveṣu vedeṣu brāhmaṇasya vijānataḥ",
+"translation": "All purposes served by a small well can at once be served by a great reservoir of water. Similarly, all the purposes of the Vedas can be served to one who knows the purpose behind them.",
+"modern": "Know the essence; no need for all details. Like mastering principles over memorizing rules."
+},
+{
+"verse": 47,
+"sanskrit": "कर्मण्येवाधिकारस्ते मा फलेषु कदाचन |\nमा कर्मफलहेतुर्भूर्मा ते सङ्गोऽस्त्वकर्मणि ||",
+"transliteration": "karmaṇy evādhikāras te mā phaleṣu kadācana\nmā karma-phala-hetur bhūr mā te saṅgo 'stv akarmaṇi",
+"translation": "You have a right to perform your prescribed duty, but you are not entitled to the fruits of action. Never consider yourself the cause of the results of your activities, and never be attached to not doing your duty.",
+"modern": "Act but detach from results. Iconic: Do your job, let go of bonuses. In work, prevents burnout; funny: Like cooking without obsessing over compliments. Detailed: Fosters excellence through intrinsic motivation, key for long-term success."
+},
+{
+"verse": 48,
+"sanskrit": "योगस्थः कुरु कर्माणि सङ्गं त्यक्त्वा धनञ्जय |\nसिद्ध्यसिद्ध्योः समो भूत्वा समत्वं योग उच्यते ||",
+"transliteration": "yoga-sthaḥ kuru karmāṇi saṅgaṁ tyaktvā dhanañjaya\nsiddhy-asiddhyoḥ samo bhūtvā samatvaṁ yoga ucyate",
+"translation": "Perform your duty equipoised, O Arjuna, abandoning all attachment to success or failure. Such equanimity is called yoga.",
+"modern": "Balanced in success/failure—that's yoga. Like not gloating over wins or sulking losses. Essential for leadership stability."
+},
+{
+"verse": 49,
+"sanskrit": "दूरेण ह्यवरं कर्म बुद्धियोगाद्धनञ्जय |\nबुद्धौ शरणमन्विच्छ कृपणाः फलहेतवः ||",
+"transliteration": "dūreṇa hy avaraṁ karma buddhi-yogād dhanañjaya\nbuddhau śaraṇam anviccha kṛpaṇāḥ phala-hetavaḥ",
+"translation": "O Dhananjaya, keep all abominable activities far distant by devotional service, and in that consciousness surrender unto the Lord. Those who want to enjoy the fruits of their work are misers.",
+"modern": "Fruitive work inferior; seek wisdom. Result-chasers are misers—hoarding temporary gains."
+},
+{
+"verse": 50,
+"sanskrit": "बुद्धियुक्तो जहातीह उभे सुकृतदुष्कृते |\nतस्माद्योगाय युज्यस्व योगः कर्मसु कौशलम् ||",
+"transliteration": "buddhi-yukto jahātīha ubhe sukṛta-duṣkṛte\ntasmād yogāya yujyasva yogaḥ karmasu kauśalam",
+"translation": "A man engaged in devotional service rids himself of both good and bad reactions even in this life. Therefore strive for yoga, which is the art of all work.",
+"modern": "Wisdom frees from karma. Yoga: Skill in action. Masterful work without bondage."
+},
+{
+"verse": 51,
+"sanskrit": "कर्मजं बुद्धियुक्ता हि फलं त्यक्त्वा मनीषिणः |\nजन्मबन्धविनिर्मुक्ताः पदं गच्छन्त्यनामयम् ||",
+"transliteration": "karma-jaṁ buddhi-yuktā hi phalaṁ tyaktvā manīṣiṇaḥ\njanma-bandha-vinirmuktāḥ padaṁ gacchanty anāmayam",
+"translation": "By thus engaging in devotional service to the Lord, great sages or devotees free themselves from the results of work in the material world. In this way they become free from the cycle of birth and death and attain the state beyond all miseries [by going back to Godhead].",
+"modern": "Detach fruits, break cycle, reach peace. Ultimate goal: Beyond suffering."
+},
+{
+"verse": 52,
+"sanskrit": "यदा ते मोहकलिलं बुद्धिर्व्यतितरिष्यति |\nतदा गन्तासि निर्वेदं श्रोतव्यस्य श्रुतस्य च ||",
+"transliteration": "yadā te moha-kalilaṁ buddhir vyatitariṣyati\ntadā gantāsi nirvedaṁ śrotavyasya śrutasya ca",
+"translation": "When your intelligence has passed out of the dense forest of delusion, you shall become indifferent to all that has been heard and all that is to be heard.",
+"modern": "Overcome delusion, transcend knowledge. Like graduating beyond basics."
+},
+{
+"verse": 53,
+"sanskrit": "श्रुतिविप्रतिपन्ना ते यदा स्थास्यति निश्चला |\nसमाधावचला बुद्धिस्तदा योगमवाप्स्यसि ||",
+"transliteration": "śruti-vipratipannā te yadā sthāsyati niścalā\nsamādhāv acalā buddhis tadā yogam avāpsyasi",
+"translation": "When your mind is no longer disturbed by the flowery language of the Vedas, and when it remains fixed in the trance of self-realization, then you will have attained the divine consciousness.",
+"modern": "Fixed mind in realization: Attain yoga. Steady focus amid distractions."
+},
+{
+"verse": 54,
+"sanskrit": "अर्जुन उवाच |\nस्थितप्रज्ञस्य का भाषा समाधिस्थस्य केशव |\nस्थितधीः किं प्रभाषेत किमासीत व्रजेत किम् ||",
+"transliteration": "arjuna uvāca\nsthita-prajñasya kā bhāṣā samādhi-sthasya keśava\nsthita-dhīḥ kiṁ prabhāṣeta kim āsīta vrajeta kim",
+"translation": "Arjuna said: O Krishna, what are the symptoms of one whose consciousness is thus absorbed in transcendence? How does he speak, and what is his language? How does he sit, and how does he walk?",
+"modern": "Arjuna asks for signs of enlightened. Practical: How to spot inner peace in action."
+},
+{
+"verse": 55,
+"sanskrit": "श्रीभगवानुवाच |\nप्रजहाति यदा कामान्सर्वान्पार्थ मनोगतान् |\nआत्मन्येवात्मना तुष्टः स्थितप्रज्ञस्तदोच्यते ||",
+"transliteration": "śrī-bhagavān uvāca\nprajahāti yadā kāmān sarvān pārtha mano-gatān\nātmany evātmanā tuṣṭaḥ sthita-prajñas tadocyate",
+"translation": "The Supreme Personality of Godhead said: O Partha, when a man gives up all varieties of desire for sense gratification, which arise from mental concoction, and when his mind, thus purified, finds satisfaction in the self alone, then he is said to be in pure transcendental consciousness.",
+"modern": "Drops desires, self-satisfied. Like finding joy in being, not having."
+},
+{
+"verse": 56,
+"sanskrit": "दुःखेष्वनुद्विग्नमनाः सुखेषु विगतस्पृहः |\nवीतरागभयक्रोधः स्थितधीर्मुनिरुच्यते ||",
+"transliteration": "duḥkheṣv anudvigna-manāḥ sukheṣu vigata-spṛhaḥ\nvīta-rāga-bhaya-krodhaḥ sthita-dhīr munir ucyate",
+"translation": "One who is not disturbed in mind even amidst the threefold miseries or elated when there is happiness, and who is free from attachment, fear and anger, is called a sage of steady mind.",
+"modern": "Undisturbed by misery/joy, free from attachment/fear/anger. Ideal mental state for decision-making."
+},
+{
+"verse": 57,
+"sanskrit": "यः सर्वत्रानभिस्नेहस्तत्तत्प्राप्य शुभाशुभम् |\nनाभिनन्दति न द्वेष्टि तस्य प्रज्ञा प्रतिष्ठिता ||",
+"transliteration": "yaḥ sarvatrānabhisnehas tat tat prāpya śubhāśubham\nnābhinandati na dveṣṭi tasya prajñā pratiṣṭhitā",
+"translation": "In the material world, one who is unaffected by whatever good or evil he may obtain, neither praising it nor despising it, is firmly fixed in perfect knowledge.",
+"modern": "Neutral to good/bad—fixed wisdom. Like unbiased reviews."
+},
+{
+"verse": 58,
+"sanskrit": "यदा संहरते चायं कूर्मोऽङ्गानीव सर्वशः |\nइन्द्रियाणीन्द्रियार्थेभ्यस्तस्य प्रज्ञा प्रतिष्ठिता ||",
+"transliteration": "yadā saṁharate cāyaṁ kūrmo 'ṅgānīva sarvaśaḥ\nindriyāṇīndriyārthebhyas tasya prajñā pratiṣṭhitā",
+"translation": "One who is able to withdraw his senses from sense objects, as the tortoise draws its limbs within the shell, is firmly fixed in perfect consciousness.",
+"modern": "Withdraw senses like tortoise. Sense control for focus; vital in distracting workspaces."
+},
+{
+"verse": 59,
+"sanskrit": "विषया विनिवर्तन्ते निराहारस्य देहिनः |\nरसवरजं रसोऽप्यस्य परं दृष्ट्वा निवर्तते ||",
+"transliteration": "viṣayā vinivartante nirāhārasya dehinaḥ\nrasa-varjaṁ raso 'py asya paraṁ dṛṣṭvā nivartate",
+"translation": "Though the embodied soul may be restricted from sense enjoyment, the taste for sense objects remains. But, ceasing such engagements by experiencing a higher taste, he is fixed in consciousness.",
+"modern": "Abstinence leaves taste; higher taste erases it. Like upgrading hobbies for fulfillment."
+},
+{
+"verse": 60,
+"sanskrit": "यततो ह्यपि कौन्तेय पुरुषस्य विपश्चितः |\nइन्द्रियाणि प्रमाथीनि हरन्ति प्रसभं मनः ||",
+"transliteration": "yatato hy api kaunteya puruṣasya vipaścitaḥ\nindriyāṇi pramāthīni haranti prasabhaṁ manaḥ",
+"translation": "The senses are so strong and impetuous, O Arjuna, that they forcibly carry away the mind even of a man of discrimination who is endeavoring to control them.",
+"modern": "Senses overpower even the wise. Like notifications derailing focus."
+},
+{
+"verse": 61,
+"sanskrit": "तानि सर्वाणि संयम्य युक्त आसीत मत्परः |\nवशे हि यस्येन्द्रियाणि तस्य प्रज्ञा प्रतिष्ठिता ||",
+"transliteration": "tāni sarvāṇi saṁyamya yukta āsīta mat-paraḥ\nvaśe hi yasyendriyāṇi tasya prajñā pratiṣṭhitā",
+"translation": "One who restrains his senses, keeping them under full control, and fixes his consciousness upon Me, is known as a man of steady intelligence.",
+"modern": "Control senses, focus on divine—steady wisdom."
+},
+{
+"verse": 62,
+"sanskrit": "ध्यायतो विषयान्पुंसः सङ्गस्तेषूपजायते |\nसङ्गात्सञ्जायते कामः कामात्क्रोधोऽभिजायते ||",
+"transliteration": "dhyāyato viṣayān puṁsaḥ saṅgas teṣūpajāyate\nsaṅgāt sañjāyate kāmaḥ kāmāt krodho 'bhijāyate",
+"translation": "While contemplating the objects of the senses, a person develops attachment for them, and from such attachment lust develops, and from lust anger arises.",
+"modern": "Contemplation leads to attachment, desire, anger. Like scrolling leads to envy, rage. Chain reaction warning."
+},
+{
+"verse": 63,
+"sanskrit": "क्रोधाद्भवति सम्मोहः सम्मोहात्स्मृतिविभ्रमः |\nस्मृतिभ्रंशाद् बुद्धिनाशो बुद्धिनाशात्प्रणश्यति ||",
+"transliteration": "krodhād bhavati sammohaḥ sammohāt smṛti-vibhramaḥ\nsmṛti-bhraṁśād buddhi-nāśo buddhi-nāśāt praṇaśyati",
+"translation": "From anger, complete delusion arises, and from delusion bewilderment of memory. When memory is bewildered, intelligence is lost, and when intelligence is lost one falls down.",
+"modern": "Anger to delusion, memory loss, ruined intellect, downfall. Road rage to bad decisions."
+},
+{
+"verse": 64,
+"sanskrit": "रागद्वेषवियुक्तैस्तु विषयानिन्द्रियैश्चरन् |\nआत्मवश्यैर्विधेयात्मा प्रसादमधिगच्छति ||",
+"transliteration": "rāga-dveṣa-viyuktais tu viṣayān indriyaiś caran\nātma-vaśyair vidheyātmā prasādam adhigacchati",
+"translation": "But a person free from all attachment and aversion and able to control his senses through regulative principles of freedom can obtain the complete mercy of the Lord.",
+"modern": "Free from like/dislike, control senses—attain peace."
+},
+{
+"verse": 65,
+"sanskrit": "प्रसादे सर्वदुःखानां हानिरस्योपजायते |\nप्रसन्नचेतसो ह्याशु बुद्धिः पर्यवतिष्ठते ||",
+"transliteration": "prasāde sarva-duḥkhānāṁ hānir asyopajāyate\nprasanna-cetaso hy āśu buddhiḥ paryavatiṣṭhate",
+"translation": "For one thus satisfied [in Krishna consciousness], the threefold miseries of material existence exist no longer; in such satisfied consciousness, one's intelligence is soon well established.",
+"modern": "Peace ends miseries, establishes intellect. Calm mind for better choices."
+},
+{
+"verse": 66,
+"sanskrit": "नास्ति बुद्धिरयुक्तस्य न चायुक्तस्य भावना |\nन चाभावयतः शान्तिरशान्तस्य कुतः सुखम् ||",
+"transliteration": "nāsti buddhir ayuktasya na cāyuktasya bhāvanā\nna cābhāvayataḥ śāntir aśāntasya kutaḥ sukham",
+"translation": "One who is not connected with the Supreme [in Krishna consciousness] can have neither transcendental intelligence nor a steady mind, without which there is no possibility of peace. And how can there be any happiness without peace?",
+"modern": "No connection, no intellect/peace/happiness. Spiritual anchor for stability."
+},
+{
+"verse": 67,
+"sanskrit": "इन्द्रियाणां हि चरतां यन्मनोऽनुविधीयते |\nतदस्य हरति प्रज्ञां वायुर्नावमिवाम्भसि ||",
+"transliteration": "indriyāṇāṁ hi caratāṁ yan mano 'nuvidhīyate\ntad asya harati prajñāṁ vāyur nāvam ivāmbhasi",
+"translation": "As a strong wind sweeps away a boat on the water, even one of the roaming senses on which the mind focuses can carry away a man's intelligence.",
+"modern": "Senses hijack mind like wind boat. One distraction derails focus."
+},
+{
+"verse": 68,
+"sanskrit": "तस्माद्यस्य महाबाहो निगृहीतानि सर्वशः |\nइन्द्रियाणीन्द्रियार्थेभ्यस्तस्य प्रज्ञा प्रतिष्ठिता ||",
+"transliteration": "tasmād yasya mahā-bāho nigṛhītāni sarvaśaḥ\nindriyāṇīndriyārthebhyas tasya prajñā pratiṣṭhitā",
+"translation": "Therefore, O mighty-armed, one whose senses are restrained from their objects is certainly of steady intelligence.",
+"modern": "Restrain senses—steady wisdom."
+},
+{
+"verse": 69,
+"sanskrit": "या निशा सर्वभूतानां तस्यां जागर्ति संयमी |\nयस्यां जाग्रति भूतानि सा निशा पश्यतो मुनेः ||",
+"transliteration": "yā niśā sarva-bhūtānāṁ tasyāṁ jāgarti saṁyamī\nyasyāṁ jāgrati bhūtāni sā niśā paśyato muneḥ",
+"translation": "What is night for all beings is the time of awakening for the self-controlled; and the time of awakening for all beings is night for the introspective sage.",
+"modern": "Sage awake when others sleep—metaphorical: Sees truth in illusion."
+},
+{
+"verse": 70,
+"sanskrit": "आपूर्यमाणमचलप्रतिष्ठं समुद्रमापः प्रविशन्ति यद्वत् |\nतद्वत्कामा यं प्रविशन्ति सर्वे स शान्तिमाप्नोति न कामकामी ||",
+"transliteration": "āpūryamāṇam acala-pratiṣṭhaṁ samudram āpaḥ praviśanti yadvat\ntadvat kāmā yaṁ praviśanti sarve sa śāntim āpnoti na kāma-kāmī",
+"translation": "A person who is not disturbed by the incessant flow of desires—that enter like rivers into the ocean, which is ever being filled but is always still—can alone achieve peace, and not the man who strives to satisfy such desires.",
+"modern": "Peace like ocean absorbing rivers—undisturbed by desires."
+},
+{
+"verse": 71,
+"sanskrit": "विहाय कामान्यः सर्वान्पुमांश्चरति निःस्पृहः |\nनिर्ममो निरहङ्कारः स शान्तिमधिगच्छति ||",
+"transliteration": "vihāya kāmān yaḥ sarvān pumāṁś carati niḥspṛhaḥ\nnirmamo nirahaṅkāraḥ sa śāntim adhigacchati",
+"translation": "A person who has given up all desires for sense gratification, who lives free from desires, who has given up all sense of proprietorship and is devoid of false ego—he alone can attain real peace.",
+"modern": "Drop desires, ownership, ego—attain peace. Minimalism's spiritual root."
+},
+{
+"verse": 72,
+"sanskrit": "एषा ब्राह्मी स्थितिः पार्थ नैनां प्राप्य विमुह्यति |\nस्थित्वास्यामन्तकालेऽपि ब्रह्मनिर्वाणमृच्छति ||",
+"transliteration": "eṣā brāhmī sthitiḥ pārtha naināṁ prāpya vimuhyati\nsthitvāsyām anta-kāle 'pi brahma-nirvāṇam ṛcchati",
+"translation": "This is the way of the spiritual and godly life, after attaining which a man is not bewildered. If one is thus situated even at the hour of death, one can enter into the kingdom of God.",
+"modern": "Brahmi state: No delusion, leads to nirvana. Ultimate attainment, even at death."
+}
+]
 }
