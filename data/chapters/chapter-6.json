@@ -1,23 +1,338 @@
 {
   "number": 6,
   "title": "The Path of Meditation",
-  "sanskrit": "आत्मसंयमयोग",
+  "sanskrit": "ध्यानयोग",
   "verses": 47,
-  "introduction": "Krishna describes the practice of meditation and the characteristics of a yogi who has attained self-realization.",
+  "introduction": "Chapter 6 of the Bhagavad Gita, Dhyana Yoga (The Yoga of Meditation), is one of the most practical and beloved chapters for modern seekers. Krishna shifts from philosophy to technique: how to actually still the restless mind, sit in meditation, and live as a yogi in the middle of everyday chaos. This is the chapter that answers the GenZ and Millennial cry: 'I know I should meditate, but my brain won't shut up!' Krishna gives clear instructions on posture, diet, routine, and — most importantly — how to befriend the mind instead of fighting it. He also addresses what happens if you fall off the path and reassures Arjuna (and us) that sincere effort is never wasted. In today's world of endless notifications, doom-scrolling, burnout, and 24/7 hustle, this chapter is pure gold: it shows how to turn meditation into a lifestyle, not just a 10-minute app session. The essence remains intact — meditation is not escape; it is the highest form of action that leads to unbreakable inner peace and self-mastery.",
   "shlokas": [
     {
+      "verse": 1,
+      "sanskrit": "श्रीभगवानुवाच |\nअनाश्रितः कर्मफलं कार्यं कर्म करोति यः |\nस संन्यासी च योगी च न निरग्निर्न चाक्रियः ||",
+      "transliteration": "śrī-bhagavān uvāca\nanāśritaḥ karma-phalaṁ kāryaṁ karma karoti yaḥ\nsa saṁnyāsī ca yogī ca na niragnir na cākriyaḥ",
+      "translation": "The Supreme Personality of Godhead said: One who is unattached to the fruits of his work and who works as he is obligated is in the renounced order of life, and he is the true mystic, not he who lights no fire and performs no duty.",
+      "modern": "Krishna starts strong: the real sannyasi (renunciate) and yogi is not the guy who quits his job, moves to the mountains, and lights no fire. The real one is the person who keeps working — full-time job, side hustle, family responsibilities — but does it without being attached to the results. Think of the founder who builds a company not for the exit or the likes, but because it’s the right thing to do. Or the employee who shows up every day, gives 100%, but doesn’t tie their self-worth to the promotion or bonus. In 2026 life, this is the ultimate flex: staying in the arena but playing without being owned by the scoreboard. Krishna is saying meditation isn’t about running away from life — it’s about showing up fully while staying internally free. That’s the path."
+    },
+    {
+      "verse": 2,
+      "sanskrit": "यं संन्यासमिति प्राहुर्योगं तं विद्धि पाण्डव |\nन ह्यसंन्यस्तसङ्कल्पो योगी भवति कश्चन ||",
+      "transliteration": "yaṁ saṁnyāsam iti prāhur yogaṁ taṁ viddhi pāṇḍava\nna hy asaṁnyasta-saṅkalpo yogī bhavati kaścana",
+      "translation": "What is called renunciation is the same as yoga, or linking oneself with the Supreme, O son of Pandu, for one can never become a yogi unless he renounces the desire for sense gratification.",
+      "modern": "Krishna equates true renunciation with yoga itself. You’re not a yogi if you’re still chasing every dopamine hit — likes, validation, new gadgets, status. In today’s world, this is the person who deletes Instagram for 30 days but still obsessively checks LinkedIn for validation. Or the one who 'quits' sugar but replaces it with another craving. True meditation starts when you renounce the constant mental chasing. It’s not about never enjoying life — it’s about not being enslaved by the next hit. This is why so many meditation apps fail long-term: they don’t address the root desire machine. Krishna is giving the real prerequisite: let go of the 'I need this to feel okay' mindset. That’s when the mind finally settles."
+    },
+    {
+      "verse": 3,
+      "sanskrit": "आरुरुक्षोर्मुनिर्योगं कर्म कारणमुच्यते |\nयोगारूढस्य तस्यैव शमः कारणमुच्यते ||",
+      "transliteration": "ārurukṣor muner yogaṁ karma kāraṇam ucyate\nyogārūḍhasya tasyaiva śamaḥ kāraṇam ucyate",
+      "translation": "For one who is a neophyte in the eightfold yoga system, work is said to be the means; and for one who is already elevated in yoga, cessation of all material activities is said to be the means.",
+      "modern": "Beginners need action (karma) to prepare the mind. Advanced yogis can sit in pure stillness. This is the perfect roadmap for 2026: if your mind is scattered (most of us), start with disciplined action — consistent meditation routine, ethical work, service. Don’t try to force 2-hour sits when your brain is a popcorn machine. Do the work first. Once the mind is steady, then pure meditation becomes natural. Think of it like gym progression: beginners lift weights to build strength; advanced athletes can do isometrics or just rest in awareness. Krishna is realistic — meet yourself where you are. No spiritual bypassing."
+    },
+    {
+      "verse": 4,
+      "sanskrit": "यदा हि नेन्द्रियार्थेषु न कर्मस्वनुषज्जते |\nसर्वसङ्कल्पसंन्यासी योगारूढस्तदोच्यते ||",
+      "transliteration": "yadā hi nendriyārtheṣu na karmasv anuṣajjate\nsarva-saṅkalpa-saṁnyāsī yogārūḍhas tadocyate",
+      "translation": "A person is said to be elevated in yoga when, having renounced all material desires, he neither acts for sense gratification nor engages in fruitive activities.",
+      "modern": "The sign you’ve reached the next level: you no longer do things just for the dopamine rush or the outcome. You work, create, help others — but the 'what’s in it for me?' voice is quiet. In practice: posting content because it helps people, not for likes. Working on a project because it’s meaningful, not for the promotion. Helping a friend without keeping score. This is the shift from 'hustle for validation' to 'action as expression of who I am.' Krishna is describing the liberated doer — fully active yet internally free. This is the state every mindful entrepreneur and conscious creator is chasing."
+    },
+    {
       "verse": 5,
-      "sanskrit": "उद्धरेदात्मनात्मानं नात्मानमवसादयेत् | आत्मैव ह्यात्मनो बन्धुरात्मैव रिपुरात्मनः ||",
-      "transliteration": "uddhared ātmanātmānaṁ nātmānam avasādayet | ātmaiva hy ātmano bandhur ātmaiva ripur ātmanaḥ",
-      "translation": "One must elevate, not degrade, oneself. The mind is the friend of the conditioned soul, and his enemy as well.",
-      "modern": "You're your own best friend or worst enemy. Your mind can lift you up or destroy you. Nobody else has as much power over your life as you do. Stop waiting for someone to save you - you have to save yourself. And stop sabotaging yourself either. You're the main character in your life. Act like it."
+      "sanskrit": "उद्धरेदात्मनात्मानं नात्मानमवसादयेत् |\nआत्मैव ह्यात्मनो बन्धुरात्मैव रिपुरात्मनः ||",
+      "transliteration": "uddhared ātmanātmānaṁ nātmānam avasādayet\nātmaiva hy ātmano bandhur ātmaiva ripur ātmanaḥ",
+      "translation": "One must deliver himself with the help of his mind, and not degrade himself. The mind is the friend of the conditioned soul, and his enemy as well.",
+      "modern": "The mind is both your best friend and your worst enemy — classic Krishna wisdom that hits different in the age of anxiety. If you train it, it lifts you up. If you let it run wild, it drags you down. In 2026: your phone is the external mind — endless notifications pulling you into comparison, FOMO, rage. But the real battlefield is inside. The same mind that spirals at 3 AM with 'I’m not enough' can be trained to say 'I’m growing.' This verse is your daily reminder: you are the coach. Stop blaming circumstances and start coaching your mind like an athlete. Meditation is mind training. Your mind can be your biggest supporter or your biggest saboteur — the choice is yours every single day."
+    },
+    {
+      "verse": 6,
+      "sanskrit": "बन्धुरात्मात्मनस्तस्य येनात्मैवात्मना जितः |\nअनात्मनस्तु शत्रुत्वे वर्तेतात्मैव शत्रुवत् ||",
+      "transliteration": "bandhur ātmātmanas tasya yenātmaivātmanā jitaḥ\nanātmanas tu śatrutve vartetātmaiva śatru-vat",
+      "translation": "For him who has conquered the mind, the mind is the best of friends; but for one who has failed to do so, the mind will remain the greatest enemy.",
+      "modern": "Conquer the mind = best friend. Fail = worst enemy. This is the ultimate life hack. The person who has trained their mind wakes up excited, handles rejection like data, and stays calm in chaos. The person who hasn’t is at war with themselves 24/7 — scrolling, comparing, overthinking. In work: the colleague who stays cool during layoffs vs. the one who spirals. In relationships: the one who communicates calmly vs. the one who explodes. Krishna is saying the war is internal first. Win there and everything external becomes manageable. This is why meditation isn’t 'nice to have' — it’s the operating system upgrade for life."
+    },
+    {
+      "verse": 7,
+      "sanskrit": "जितात्मनः प्रशान्तस्य परमात्मा समाहितः |\nशीतोष्णसुखदुःखेषु तथा मानापमानयोः ||",
+      "transliteration": "jitātmanaḥ praśāntasya paramātmā samāhitaḥ\nśītoṣṇa-sukha-duḥkheṣu tathā mānāpamānayoḥ",
+      "translation": "For one who has conquered the mind, the Supersoul is already reached, for he has attained tranquillity. To such a man happiness and distress, heat and cold, honor and dishonor are all the same.",
+      "modern": "Once the mind is conquered, the higher Self is right there. Heat/cold, pleasure/pain, praise/blame — all the same. This is the description of someone who is unshakeable. In 2026: the person who gets a bad performance review and says 'thank you for the feedback' instead of spiraling. The creator who gets ratio’d on Twitter and doesn’t delete the app. The student who fails an exam and still shows up the next day. This equanimity isn’t numbness — it’s freedom. Krishna is promising: train the mind and you become weatherproof. Life’s storms still come, but you don’t get wet inside. That’s the real glow-up."
+    },
+    {
+      "verse": 8,
+      "sanskrit": "ज्ञानविज्ञानतृप्तात्मा कूटस्थो विजितेन्द्रियः |\nयुक्त इत्युच्यते योगी समलोष्टाश्मकाञ्चनः ||",
+      "transliteration": "jñāna-vijñāna-tṛptātmā kūṭa-stho vijitendriyaḥ\nyukta ity ucyate yogī sama-loṣṭāśma-kāñcanaḥ",
+      "translation": "A person is said to be established in self-realization and is called a yogi when he is fully satisfied by virtue of acquired knowledge and realization. Such a person is situated in transcendence and is self-controlled. He sees everything — whether it be pebbles, stones, or gold — as the same.",
+      "modern": "The yogi is content with knowledge and self-realization. Gold, dirt, pebbles — same value. This is the ultimate anti-consumerism mindset. In today’s world: the person who doesn’t chase the new iPhone or the bigger house because they know happiness isn’t in things. The founder who turns down VC money that would compromise values. The influencer who posts less because they’re already full inside. Krishna is describing the person who has graduated from the 'more is better' game. They see the same divine spark in everything. That vision makes them unshakable and deeply peaceful. This is the state we all secretly want — content, free, seeing beauty everywhere."
+    },
+    {
+      "verse": 9,
+      "sanskrit": "सुहृन्मित्रार्युदासीनमध्यस्थद्वेष्यबन्धुषु |\nसाधुष्वपि च पापेषु समबुद्धिर्विशिष्यते ||",
+      "transliteration": "suhṛn-mitrāry-udāsīna-madhyastha-dveṣya-bandhuṣu\nsādhuṣv api ca pāpeṣu sama-buddhir viśiṣyate",
+      "translation": "A person is considered still further advanced when he regards honest well-wishers, affectionate benefactors, the neutral, mediators, the envious, friends and enemies, the pious and the sinners all with an equal mind.",
+      "modern": "Advanced level: same attitude toward friends, enemies, saints, sinners, strangers. No favorites, no enemies — just equal vision. In 2026: the person who treats the rude customer the same as the loyal one, the colleague who betrayed them the same as the one who helped. Not because they’re naive — because they see the same divine spark. This is the end of cancel culture and tribalism. It’s radical love and radical clarity. This vision ends 90% of drama in life. Krishna is saying the highest yogi has no 'us vs them.' Everyone is family at the soul level. That’s the real superpower."
+    },
+    {
+      "verse": 10,
+      "sanskrit": "योगी युञ्जीत सततमात्मानं रहसि स्थितः |\nएकाकी यतचित्तात्मा निराशीरपरिग्रहः ||",
+      "transliteration": "yogī yuñjīta satatam ātmānaṁ rahasi sthitaḥ\nekākī yata-cittātmā nirāśīr aparigrahaḥ",
+      "translation": "A transcendentalist should always engage in meditation on the Supreme Self, remaining alone in a secluded place, free from desires and material possessions.",
+      "modern": "Practical meditation instruction begins: sit alone, in a quiet place, mind controlled, no desires, no possessions weighing you down. In 2026: put the phone in another room, sit on the floor or chair, spine straight, and just be. No agenda, no 'I need to feel peaceful.' Just show up daily. Krishna is realistic — you need solitude and simplicity to train the mind. The 'always' (satatam) means make it a lifestyle, not a once-a-week thing. This is why morning routines and digital minimalism work — they create the container for real meditation. Start small, but be consistent. The mind will fight at first — that’s normal. Keep showing up."
+    },
+    {
+      "verse": 11,
+      "sanskrit": "शुचौ देशे प्रतिष्ठाप्य स्थिरमासनमात्मनः |\nनात्युच्छ्रितं नातिनीचं चैलाजिनकुशोत्तरम् ||",
+      "transliteration": "śucau deśe pratiṣṭhāpya sthiram āsanam ātmanaḥ\nnāty-ucchritaṁ nātinīcaṁ cailājina-kuśottaram",
+      "translation": "To practice yoga, one should go to a secluded place and should lay kusha grass on the ground and then cover it with a deerskin and a soft cloth. The seat should be neither too high nor too low and should be situated in a sacred place.",
+      "modern": "Set up your meditation spot: clean, quiet, not too high or low, simple cushion (kusha grass, deer skin, cloth in ancient times — today a yoga mat or cushion is fine). In 2026: create a corner in your room — plant, candle, cushion, no phone. The physical setup signals to the mind 'this is practice time.' Consistency of place helps the brain associate it with stillness. Krishna is giving practical UX design for the mind. Make it inviting but simple. No fancy meditation room needed — just intentional space. This is why people who have a dedicated spot meditate more consistently."
+    },
+    {
+      "verse": 12,
+      "sanskrit": "तत्रैकाग्रं मनः कृत्वा यतचित्तेन्द्रियक्रियः |\nउपविश्यासने युञ्ज्याद्योगमात्मविशुद्धये ||",
+      "transliteration": "tatraikāgraṁ manaḥ kṛtvā yata-cittendriya-kriyaḥ\nupaviśyāsane yuñjyād yogam ātma-viśuddhaye",
+      "translation": "Sitting firmly on the seat, one should practice yoga by controlling the mind and senses, purifying the heart, and fixing the mind on one point.",
+      "modern": "Sit steady, control mind and senses, focus on one point — for self-purification. This is the core technique: single-pointed focus. In modern terms: choose an anchor (breath, mantra, flame, or just awareness) and gently return when the mind wanders. The goal isn’t to stop thinking — it’s to purify the heart by not following every thought. This is how you clean the mental closet. Daily practice (even 10 minutes) starts rewiring the brain. Krishna is giving the ancient version of mindfulness training that science now confirms reduces anxiety, improves focus, and increases emotional regulation. Show up, sit, focus, return. That’s it."
+    },
+    {
+      "verse": 13,
+      "sanskrit": "समं कायशिरोग्रीवं धारयन्नचलं स्थिरः |\nसम्प्रेक्ष्य नासिकाग्रं स्वं दिशश्चानवलोकयन् ||",
+      "transliteration": "samaṁ kāya-śiro-grīvaṁ dhārayann acalaṁ sthiraḥ\nsamprekṣya nāsikāgraṁ svaṁ diśaś cānavalokayan",
+      "translation": "One should hold one's body, neck and head erect in a straight line and stare steadily at the tip of the nose.",
+      "modern": "Posture: spine straight, neck aligned, gaze gently at the tip of the nose (or between eyebrows). This is the classic meditation posture that prevents drowsiness and keeps energy flowing. In 2026: whether on a chair or floor, keep the back supported but straight — like sitting tall in a meeting but relaxed. Gaze soft. This simple alignment does wonders for focus and prevents the 'meditation slump.' Science backs it: good posture improves oxygenation and alertness. Krishna is giving biohacking advice 5000 years early."
+    },
+    {
+      "verse": 14,
+      "sanskrit": "प्रशान्तात्मा विगतभीर्ब्रह्मचारिव्रते स्थितः |\nमनः संयम्य मच्चित्तो युक्त आसीत मत्परः ||",
+      "transliteration": "praśāntātmā vigata-bhīr brahmacāri-vrate sthitaḥ\nmanaḥ saṁyamya mac-citto yukta āsīta mat-paraḥ",
+      "translation": "One should practice yoga with an undisturbed mind, free from fear, and in a state of celibacy, fixing the mind on Me and thinking of Me as the ultimate goal.",
+      "modern": "Calm mind, fearless, sense-controlled (including brahmacharya — moderation in all senses), fix mind on the Divine. In modern terms: meditate with the intention of connecting to something bigger than your to-do list. Fearless means no pressure to 'succeed' at meditation. Moderation in senses (less scrolling, balanced eating, mindful speech) supports the practice. The key: make the Divine (or your higher self, or pure awareness) the focus. This turns meditation from self-improvement hack to sacred connection. Krishna is saying the highest meditation is relational — remembering the Source. That makes it joyful, not a chore."
+    },
+    {
+      "verse": 15,
+      "sanskrit": "युञ्जन्नेवं सदात्मानं योगी नियतमानसः |\nशान्तिं निर्वाणपरमां मत्संस्थामधिगच्छति ||",
+      "transliteration": "yuñjann evaṁ sadātmānaṁ yogī niyata-mānasaḥ\nśāntiṁ nirvāṇa-paramāṁ mat-saṁsthām adhigacchati",
+      "translation": "Thus practicing constant control of the body, mind and activities, the mystic transcendentalist, his mind controlled, attains to the kingdom of God, or the abode of Krishna, by cessation of material existence.",
+      "modern": "Consistent practice leads to the highest peace — nirvana, the state of being established in the Divine. This is the promise: daily meditation + sense control + focus on the higher = unbreakable peace. In 2026: the person who has a non-negotiable 10-20 minute practice, lives moderately, and keeps returning to awareness throughout the day. They become the calm one in every room. Krishna is saying the payoff is massive — not just stress relief, but a permanent shift to a higher state of being. This is the real 'manifestation' — becoming the peace you seek."
+    },
+    {
+      "verse": 16,
+      "sanskrit": "नात्यश्नतस्तु योगोऽस्ति न चैकान्तमनश्नतः |\nन चातिस्वप्नशीलस्य जाग्रतो नैव चार्जुन ||",
+      "transliteration": "nātyaśnatastu yogo 'sti na caikāntam anaśnataḥ\nna cāti-svapna-śīlasya jāgrato naiva cārjuna",
+      "translation": "There is no possibility of one's becoming a yogi, O Arjuna, if one eats too much or eats too little, sleeps too much or does not sleep enough.",
+      "modern": "Balance is everything. Overeating or starving, oversleeping or insomnia — none support yoga. Krishna is the original biohacker: moderation in food and sleep is non-negotiable for meditation. In 2026: no all-nighters before important meetings, no crash diets, no 4-hour sleep 'hustle culture.' Balanced meals, consistent sleep schedule. The mind needs a stable body. This verse kills the extremes — both toxic productivity and toxic wellness. Find your sweet spot and meditation becomes sustainable. Simple but profound."
+    },
+    {
+      "verse": 17,
+      "sanskrit": "युक्ताहारविहारस्य युक्तचेष्टस्य कर्मसु |\nयुक्तस्वप्नावबोधस्य योगो भवति दुःखहा ||",
+      "transliteration": "yuktāhāra-vihārasya yukta-ceṣṭasya karmasu\nyukta-svapnāvabodhasya yogo bhavati duḥkha-hā",
+      "translation": "He who is regulated in his habits of eating, sleeping, recreation and work can mitigate all material pains by practicing the yoga system.",
+      "modern": "Balanced eating, sleep, recreation, and work — this person’s yoga destroys suffering. This is the complete lifestyle package. In modern terms: the person who eats mindfully, sleeps 7-8 hours, exercises, works focused hours, and has real rest. They don’t burn out. Their meditation sticks because the foundation is solid. Krishna is saying yoga is not just sitting — it’s a way of living. Get the basics right and the higher practices flow naturally. This is why so many successful mindful leaders emphasize routine. Balance is the secret sauce."
+    },
+    {
+      "verse": 18,
+      "sanskrit": "यदा विनियतं चित्तमात्मन्येवावतिष्ठते |\nनिःस्पृहः सर्वकामेभ्यो युक्त इत्युच्यते तदा ||",
+      "transliteration": "yadā viniyataṁ cittam ātmany evāvatiṣṭhate\nniḥspṛhaḥ sarva-kāmebhyo yukta ity ucyate tadā",
+      "translation": "When the yogi, by practice of yoga, disciplines his mental activities and becomes situated in transcendence — devoid of all material desires — he is said to be well established in yoga.",
+      "modern": "When the mind is controlled and rests in the Self, free from all desires — that’s real yoga. This is the state where you sit and the mind doesn’t run to the to-do list or the ex or the next notification. In practice: you finish meditation and feel quietly full, no craving. This is the goal. Krishna is describing the moment the mind becomes your ally instead of your tormentor. It takes practice, but it’s attainable. This is the peace that social media, shopping, or success can’t give. Once you taste it, you know."
+    },
+    {
+      "verse": 19,
+      "sanskrit": "यथा दीपो निवातस्थो नेङ्गते सोपमा स्मृता |\nयोगिनो यतचित्तस्य युञ्जतो योगमात्मनः ||",
+      "transliteration": "yathā dīpo nivāta-stho neṅgate sopamā smṛtā\nyogino yata-cittasya yuñjato yogam ātmanaḥ",
+      "translation": "As a lamp in a windless place does not waver, so the transcendentalist, whose mind is controlled, remains steady in his meditation on the transcendent Self.",
+      "modern": "The mind of the yogi is like a flame in a windless room — steady, unwavering. This is the famous analogy. In 2026: your mind during meditation doesn’t flicker to every notification or worry. It stays on the breath or the mantra. This steadiness is the marker of progress. The wind is the world — distractions, emotions, thoughts. When the mind stops reacting to every breeze, you’ve built inner shelter. This is why consistent practice matters — you’re building that windless room inside. Once the flame is steady, the light is clear and bright. That’s self-realization."
+    },
+    {
+      "verse": 20,
+      "sanskrit": "यत्रोपरमते चित्तं निरुद्धं योगसेवया |\nयत्र चैवात्मनात्मानं पश्यन्नात्मनि तुष्यति ||",
+      "transliteration": "yatroparamate cittaṁ niruddhaṁ yoga-sevayā\nyatra caivātmanātmānaṁ paśyann ātmani tuṣyati",
+      "translation": "In the stage of perfection called trance, or samadhi, one's mind is completely restrained from material mental activities by practice of yoga. This perfection is characterized by one's ability to see the self by the pure mind and to relish and rejoice in the self.",
+      "modern": "When the mind is fully restrained through yoga practice, you see the Self with the pure mind and rejoice in it. This is samadhi — the state where the meditator, the meditation, and the object become one. In modern experience: those rare moments in deep meditation or flow where you forget 'I' and just are. Bliss arises from within. Krishna is promising that persistent practice leads to this inner joy that doesn’t depend on anything external. This is the real 'high' that replaces all artificial ones. Once tasted, nothing else compares."
+    },
+    {
+      "verse": 21,
+      "sanskrit": "सुखमात्यन्तिकं यत्तद् बुद्धिग्राह्यमतीन्द्रियम् |\nवेत्ति यत्र न चैवायं स्थितश्चलति तत्त्वतः ||",
+      "transliteration": "sukham ātyantikaṁ yat tad buddhi-grāhyam atīndriyam\nvetti yatra na caivāyaṁ sthitaś calati tattvataḥ",
+      "translation": "In that joyous state, one is situated in boundless transcendental happiness, realized through transcendental senses. Established thus, one never departs from the truth.",
+      "modern": "The happiness is beyond the senses — pure, unlimited, grasped by the intellect. Once established, you never fall back. This is the permanent upgrade. In life: the peace that stays even when the job ends, the relationship changes, the body ages. This is what people chase in all the wrong places. Krishna is saying it’s available inside through practice. Once you taste this boundless joy, the old cravings lose power. This is the real freedom."
+    },
+    {
+      "verse": 22,
+      "sanskrit": "यं लब्ध्वा चापरं लाभं मन्यते नाधिकं ततः |\nयस्मिन्स्थितो न दुःखेन गुरुणापि विचाल्यते ||",
+      "transliteration": "yaṁ labdhvā cāparaṁ lābhaṁ manyate nādhikaṁ tataḥ\nyasmin sthito na duḥkhena guruṇāpi vicālyate",
+      "translation": "Upon gaining this, one thinks there is no greater gain. Being situated in such a position, one is never shaken, even in the midst of the greatest difficulty.",
+      "modern": "Once you have this inner joy, nothing else feels like a bigger gain. Even in massive crises, you don’t shake. This is the unshakeable peace. In 2026: the person who loses their job and still has inner calm. The one who gets terrible news and doesn’t collapse. This is the goal of meditation — not just stress relief, but crisis-proof peace. Krishna is promising the ultimate insurance policy: inner stability that no external event can take away. That’s the real wealth."
+    },
+    {
+      "verse": 23,
+      "sanskrit": "तं विद्याद् दुःखसंयोगवियोगं योगसञ्ज्ञितम् |\nस निश्चयेन योक्तव्यो योगोऽनिर्विण्णचेतसा ||",
+      "transliteration": "taṁ vidyād duḥkha-saṁyoga-viyogaṁ yoga-saṁjñitam\nsa niścayena yoktavyo yogo 'nirviṇṇa-cetasā",
+      "translation": "This is the real yoga — the disconnection from all contact with suffering. This yoga should be practiced with determination and without discouragement.",
+      "modern": "Yoga is the state of being disconnected from suffering. Practice it with firm resolve and without giving up when the mind wanders. This is the definition: yoga = freedom from suffering. Not that pain disappears, but identification with it does. In practice: when anxiety arises, you don’t become the anxiety — you watch it. This takes determination. The mind will wander a thousand times — keep bringing it back. Krishna is encouraging persistence. Don’t quit on day 3 because 'it’s not working.' The benefits compound. This is the long game."
+    },
+    {
+      "verse": 24,
+      "sanskrit": "सङ्कल्पप्रभवान्कामांस्त्यक्त्वा सर्वानशेषतः |\nमनसैवेन्द्रियग्रामं विनियम्य समन्ततः ||",
+      "transliteration": "saṅkalpa-prabhavān kāmāṁs tyaktvā sarvān aśeṣataḥ\nmanasaivendriya-grāmaṁ viniyamya samantataḥ",
+      "translation": "One should engage oneself in the practice of yoga with determination and faith, and abandon all material desires born of mental concoction by controlling all the senses on all sides with the mind.",
+      "modern": "Drop all mental desires completely, control the senses with the mind from all sides. This is the active part of practice: notice the craving thought and don’t feed it. In 2026: when the urge to check phone arises, pause. When the desire for validation hits, observe it. This is sense control in real time. The mind creates the desires — don’t believe every story it tells. This verse is your daily practice manual: determination + faith + sense control. Do this and meditation becomes powerful."
+    },
+    {
+      "verse": 25,
+      "sanskrit": "शनैः शनैरुपरमेद् बुद्ध्या धृतिगृहीतया |\nआत्मसंस्थं मनः कृत्वा न किञ्चिदपि चिन्तयेत् ||",
+      "transliteration": "śanaiḥ śanair uparamed buddhyā dhṛti-gṛhītayā\nātma-saṁsthaṁ manaḥ kṛtvā na kiñcid api cintayet",
+      "translation": "Gradually, step by step, one should become detached from the material world by controlling the senses with the help of the intelligence, and one should fix the mind on the Self alone, without thinking of anything else.",
+      "modern": "Step by step, gradually, with steady intellect, withdraw the mind from the world and fix it on the Self. No sudden cold turkey — gentle, consistent withdrawal. In practice: start with 5 minutes, then 10. Slowly reduce distractions. Use the intellect to say 'this thought is not me.' This is how you rewire habits. Krishna is realistic — change is gradual. This verse is your permission to go slow and steady. The tortoise wins the meditation race."
+    },
+    {
+      "verse": 26,
+      "sanskrit": "यतो यतो निश्चरति मनश्चञ्चलमस्थिरम् |\nततस्ततो नियम्यैतदात्मन्येव वशं नयेत् ||",
+      "transliteration": "yato yato niścarati manaś cañcalam asthiram\ntatas tato niyamyaitad ātmany eva vaśaṁ nayet",
+      "translation": "From wherever the mind wanders due to its flickering and unsteady nature, one must certainly withdraw it and bring it back under the control of the Self.",
+      "modern": "The mind wanders — bring it back. Again and again. This is the entire practice in one verse. The mind is like a puppy — it runs. Your job is gentle redirection, not punishment. In 2026: every time you notice you’re lost in thought during meditation (or in a meeting, or while driving), gently return to the breath or the present. This single instruction is why meditation works. The returning is the training. Every return strengthens the muscle of awareness. This is why even 'bad' meditation sessions are good — the returning is the practice."
+    },
+    {
+      "verse": 27,
+      "sanskrit": "प्रशान्तमनसं ह्येनं योगिनं सुखमुत्तमम् |\nउपैति शान्तरजसं ब्रह्मभूतमकल्मषम् ||",
+      "transliteration": "praśānta-manasaṁ hy enaṁ yoginaṁ sukham uttamam\nupaiti śānta-rajasam brahma-bhūtam akalmaṣam",
+      "translation": "The yogi whose mind is fixed on Me verily attains the highest happiness. By virtue of his identity with Brahman, he is liberated; his mind is peaceful, his passions quieted, and he is free from sin.",
+      "modern": "The yogi with peaceful mind attains supreme happiness, becomes Brahman, free from passion and sin. This is the payoff. In practice: after consistent practice, you feel a quiet joy that doesn’t depend on anything. Passions calm, guilt dissolves. This is the state where you’re no longer at war with yourself. Krishna is promising the highest happiness is inside — and it’s attainable. This is the real 'happily ever after' — not from external success, but from inner union."
+    },
+    {
+      "verse": 28,
+      "sanskrit": "युञ्जन्नेवं सदात्मानं योगी विगतकल्मषः |\nसुखेन ब्रह्मसंस्पर्शमत्यन्तं सुखमश्नुते ||",
+      "transliteration": "yuñjann evaṁ sadātmānaṁ yogī vigata-kalmaṣaḥ\nsukhena brahma-saṁsparśam atyantaṁ sukham aśnute",
+      "translation": "The yogi who is engaged in constant practice of yoga, free from all sins, easily attains the infinite bliss of contact with the Supreme Brahman.",
+      "modern": "Constant practice, sins dissolved, easy attainment of infinite bliss through touch with Brahman. This is the promise: keep showing up and the bliss comes naturally. In life: the quiet joy that fills you after a good meditation session or a day lived mindfully. This is what people chase in relationships, success, substances — but it’s already inside. Krishna is saying the path is simple: practice steadily, let go of guilt, and the contact with the Divine happens. The bliss is infinite and easy once the obstacles are cleared. This is the encouragement we all need on the days the mind is wild."
+    },
+    {
+      "verse": 29,
+      "sanskrit": "सर्वभूतस्थमात्मानं सर्वभूतानि चात्मनि |\nईक्षते योगयुक्तात्मा सर्वत्र समदर्शनः ||",
+      "transliteration": "sarva-bhūta-stham ātmānaṁ sarva-bhūtāni cātmani\nīkṣate yoga-yuktātmā sarvatra sama-darśanaḥ",
+      "translation": "A true yogi observes Me in all beings and also sees every being in Me. Indeed, the self-realized person sees Me, the Supreme Lord, everywhere.",
+      "modern": "The yogi sees the Divine in everyone and everything, and everything in the Divine. This is the vision of oneness. In 2026: the person who sees the same spark in the homeless person, the CEO, the tree, the stranger on the train. No separation. This ends judgment and loneliness. This is the real unity consciousness that social media 'connection' can never give. Krishna is saying the highest meditation culminates in this seeing. Suddenly the world is not 'other' — it’s all One playing. This vision makes love natural and fear impossible."
+    },
+    {
+      "verse": 30,
+      "sanskrit": "यो मां पश्यति सर्वत्र सर्वं च मयि पश्यति |\nतस्याहं न प्रणश्यामि स च मे न प्रणश्यति ||",
+      "transliteration": "yo māṁ paśyati sarvatra sarvaṁ ca mayi paśyati\ntasyāhaṁ na praṇaśyāmi sa ca me na praṇaśyati",
+      "translation": "For one who sees Me everywhere and sees everything in Me, I am never lost, nor is he ever lost to Me.",
+      "modern": "The one who sees the Divine everywhere never loses the Divine, and the Divine never loses him. This is the ultimate relationship — inseparable. In practice: the person who feels the presence of the higher in every moment — in nature, in people, in challenges. No more feeling abandoned by God or the universe. This is the end of spiritual loneliness. Krishna is promising eternal companionship to the one who sees rightly. This is the real 'never alone' state."
+    },
+    {
+      "verse": 31,
+      "sanskrit": "सर्वभूतस्थितं यो मां भजत्येकत्वमास्थितः |\nसर्वथा वर्तमानोऽपि स योगी मयि वर्तते ||",
+      "transliteration": "sarva-bhūta-sthitaṁ yo māṁ bhajaty ekatvam āsthitaḥ\nsarvathā vartamāno 'pi sa yogī mayi vartate",
+      "translation": "Such a yogi, who engages in the worship of the Supreme with the vision of oneness, remains always in Me, even while performing all kinds of activities.",
+      "modern": "The yogi who worships the Divine with the vision of oneness stays in the Divine even while doing everything. This is the peak: living in the world but not of it. In 2026: the person who is in meetings, traffic, parenting, work — but never leaves the inner connection. Action continues, but the awareness of oneness remains. This is the highest state — karma yoga and dhyana yoga merged. You can be fully engaged and fully free. This is the goal Krishna has been leading to."
+    },
+    {
+      "verse": 32,
+      "sanskrit": "आत्मौपम्येन सर्वत्र समं पश्यति योऽर्जुन |\nसुखं वा यदि वा दुःखं स योगी परमो मतः ||",
+      "transliteration": "ātmaupamyena sarvatra samaṁ paśyati yo 'rjuna\nsukhaṁ vā yadi vā duḥkhaṁ sa yogī paramo mataḥ",
+      "translation": "O Arjuna, he who sees the same Self in all beings, whether in happiness or distress, is the highest yogi.",
+      "modern": "The highest yogi sees the same Self in everyone — happy or suffering. This is empathy at the ultimate level. In practice: the person who feels the pain of others as their own but doesn’t collapse, and rejoices in others’ joy without envy. This is the end of 'me vs them.' This vision makes compassion natural. Krishna declares this the highest state. In a divided world, this is the real revolution — seeing everyone as yourself. That’s the supreme yoga."
+    },
+    {
+      "verse": 33,
+      "sanskrit": "अर्जुन उवाच |\nयोऽयं योगस्त्वया प्रोक्तः साम्येन मधुसूदन |\nएतस्याहं न पश्यामि चञ्चलत्वात्स्थितिं स्थिराम् ||",
+      "transliteration": "arjuna uvāca\nyo 'yaṁ yogas tvayā proktaḥ sāmyena madhusūdana\netasya ahaṁ na paśyāmi cañcalatvāt sthitiṁ sthirām",
+      "translation": "Arjuna said: O Madhusudana, the system of yoga which You have summarized appears impractical and unendurable to me, for the mind is restless and unsteady.",
+      "modern": "Arjuna is honest: 'This sounds great, Krishna, but my mind is too restless — I don’t see how I can steady it.' This is every beginner’s exact thought. In 2026: 'I tried meditating but my brain won’t stop.' Arjuna speaks for all of us. The beauty is that Krishna doesn’t scold — he empathizes and gives practical solutions. This verse validates the struggle. The mind is restless — that’s normal. The path is to work with it, not against it."
+    },
+    {
+      "verse": 34,
+      "sanskrit": "चञ्चलं हि मनः कृष्ण प्रमाथि बलवद् दृढम् |\nतस्याहं निग्रहं मन्ये वायोरिव सुदुष्करम् ||",
+      "transliteration": "cañcalaṁ hi manaḥ kṛṣṇa pramāthi balavad dṛḍham\ntasyāhaṁ nigrahaṁ manye vāyor iva su-duṣkaram",
+      "translation": "For the mind is restless, turbulent, obstinate and very strong, O Krishna, and to subdue it, I think, is more difficult than controlling the wind.",
+      "modern": "Arjuna doubles down: the mind is wild, strong, turbulent — controlling it feels harder than controlling the wind. This is the universal complaint. In modern terms: trying to meditate while thoughts of emails, exes, dinner, and tomorrow’s meeting bombard you. Krishna’s response is coming, but first he validates the difficulty. This is why so many give up. Arjuna is speaking the truth we all feel. The mind is like a hurricane — but even hurricanes can be navigated with the right approach."
     },
     {
       "verse": 35,
-      "sanskrit": "श्रीभगवानुवाच | असंशयं महाबाहो मनो दुर्निग्रहं चलम् | अभ्यासेन तु कौन्तेय वैराग्येण च गृह्यते ||",
-      "transliteration": "śrī-bhagavān uvāca | asaṁśayaṁ mahā-bāho mano durnigrahaṁ calam | abhyāsena tu kaunteya vairāgyeṇa ca gṛhyate",
-      "translation": "The mind is restless and difficult to control. But it can be controlled through practice and detachment.",
-      "modern": "Yeah, your mind is wild and hard to tame. That's normal. Everyone's mind is a circus. But you CAN train it, same way you'd train a puppy. It takes practice (meditation, mindfulness, whatever works) and letting go of attachments. It won't happen overnight. But it will happen if you keep at it. Every time you catch your mind spiraling and bring it back, you're getting stronger."
+      "sanskrit": "श्रीभगवानुवाच |\nअसंशयं महाबाहो मनो दुर्निग्रहं चलम् |\nअभ्यासेन तु कौन्तेय वैराग्येण च गृह्यते ||",
+      "transliteration": "śrī-bhagavān uvāca\nasaṁśayaṁ mahā-bāho mano durnigrahaṁ calam\nabhyāsena tu kaunteya vairāgyeṇa ca gṛhyate",
+      "translation": "Lord Krishna said: O mighty-armed son of Kunti, it is undoubtedly very difficult to curb the restless mind, but it is possible by suitable practice and by detachment.",
+      "modern": "Krishna agrees: yes, the mind is hard to control — but two things work: abhyasa (consistent practice) and vairagya (detachment). This is the practical formula. In 2026: show up every day (even if 5 minutes) and practice letting go of attachment to thoughts and outcomes. No magic pill — just repetition and non-attachment. This is why streaks in meditation apps work. Krishna is the ultimate coach: he acknowledges the difficulty and gives the method. Practice + detachment = progress. No one masters it overnight. Keep going."
+    },
+    {
+      "verse": 36,
+      "sanskrit": "असंयतात्मना योगो दुष्प्राप इति मे मतिः |\nवश्यात्मना तु यतता शक्योऽवाप्तुमुपायतः ||",
+      "transliteration": "asaṁyatātmanā yogo duṣprāpa iti me matiḥ\nvaśyātmanā tu yatatā śakyo 'vāptum upāyataḥ",
+      "translation": "For one whose mind is unbridled, self-realization is difficult work. But he whose mind is controlled and who strives by appropriate means is assured of success. That is My opinion.",
+      "modern": "Uncontrolled mind = hard path. Controlled mind + right effort = success guaranteed. Krishna’s opinion is clear. In practice: if your mind is all over the place, start small — control what you can (sleep, diet, phone time) and the meditation will get easier. This is encouragement: it’s not impossible. The right means (daily practice, detachment, good habits) make it achievable. Krishna believes in you. Keep striving — success is assured for the sincere."
+    },
+    {
+      "verse": 37,
+      "sanskrit": "अर्जुन उवाच |\nअयति: श्रद्धयोपेतो योगाच्चलितमानसः |\nअप्राप्य योगसंसिद्धिं कां गतिं कृष्ण गच्छति ||",
+      "transliteration": "arjuna uvāca\nayatiḥ śraddhayopeto yogāc calita-mānasaḥ\naprāpya yoga-saṁsiddhiṁ kāṁ gatiṁ kṛṣṇa gacchati",
+      "translation": "Arjuna said: O Krishna, what is the destination of a person who has faith but whose mind wanders and who fails to achieve perfection in yoga?",
+      "modern": "Arjuna asks the question every practitioner fears: what if I try sincerely but fall short? What happens to the one who has faith but whose mind keeps wandering and never reaches the goal? This is the fear of 'I’m not good enough' or 'I keep failing at meditation.' Krishna’s answer is coming — and it’s one of the most compassionate verses in the Gita. This shows Arjuna’s caring heart — he’s thinking of all of us who struggle."
+    },
+    {
+      "verse": 38,
+      "sanskrit": "कच्चिन्नोभयविभ्रष्टश्च्छिन्नाभ्रमिव नश्यति |\nअप्रतिष्ठो महाबाहो विमूढो ब्रह्मणः पथि ||",
+      "transliteration": "kac cin nobhaya-vibhraṣṭaś chinna-bhram iva naśyati\napratiṣṭho mahā-bāho vimūḍho brahmaṇaḥ pathi",
+      "translation": "O mighty-armed Krishna, does not such a person, who is bewildered on the path of transcendence, fall away from both material and spiritual success and perish like a riven cloud?",
+      "modern": "Arjuna’s fear: the person who falls from the path — do they end up with nothing? Like a cloud torn apart, lost between worlds. This is the classic 'what if I start spiritual practice but fail?' fear — lose the material world and not gain the spiritual one. Many people hesitate to begin meditation or yoga because of this exact doubt. Krishna will give the most reassuring answer in the next verses."
+    },
+    {
+      "verse": 39,
+      "sanskrit": "एतन्मे संशयं कृष्ण छेत्तुमर्हस्यशेषतः |\nत्वदन्यः संशयस्यास्य छेत्ता न ह्युपपद्यते ||",
+      "transliteration": "etan me saṁśayaṁ kṛṣṇa chettum arhasy aśeṣataḥ\ntvad-anyaḥ saṁśayasyāsya chettā na hy upapadyate",
+      "translation": "This is my doubt, O Krishna, and I ask You to dispel it completely. But for You, no one is to be found who can destroy this doubt.",
+      "modern": "Arjuna pleads: please clear this doubt completely — only You can. This is the sincere seeker’s prayer. In modern terms: 'I have this big fear about failing on the spiritual path — please tell me the truth.' Krishna loves this honesty. The entire Gita is built on such sincere questions. This verse shows the importance of asking from the heart."
+    },
+    {
+      "verse": 40,
+      "sanskrit": "श्रीभगवानुवाच |\nपार्थ नैवेह नामुत्र विनाशस्तस्य विद्यते |\nन हि कल्याणकृत्कश्चिद् दुर्गतिं तात गच्छति ||",
+      "transliteration": "śrī-bhagavān uvāca\npārtha naiveha nāmutra vināśas tasya vidyate\nna hi kalyāṇa-kṛt kaścid durgatiṁ tāta gacchati",
+      "translation": "The Supreme Personality of Godhead said: Son of Pritha, a transcendentalist engaged in auspicious activities does not meet with destruction either in this world or in the spiritual world; one who does good is never overcome by evil.",
+      "modern": "Krishna’s compassionate reply: no destruction for the one who does good — neither here nor hereafter. No one who walks the path sincerely is ever lost. This is the ultimate reassurance. In 2026: even if you fall off meditation for months, even if you relapse, even if you feel you failed — the effort was never wasted. Every sincere step counts. The universe (or the Divine) keeps the score in your favor. This verse removes the fear of failure that stops so many from starting or continuing. Keep going — you are protected."
+    },
+    {
+      "verse": 41,
+      "sanskrit": "प्राप्य पुण्यकृतां लोकानुषित्वा शाश्वतीः समाः |\nशुचीनां श्रीमतां गेहे योगभ्रष्टोऽभिजायते ||",
+      "transliteration": "prāpya puṇya-kṛtāṁ lokān uṣitvā śāśvatīḥ samāḥ\nśucīnāṁ śrīmatāṁ gehe yoga-bhraṣṭo 'bhijāyate",
+      "translation": "The unsuccessful yogi, after many, many years of enjoyment on the planets of the pious living entities, is born into a family of pious people, or into a family of rich aristocracy.",
+      "modern": "Even if you don’t reach perfection in this life, you enjoy higher realms for a long time, then take birth in a good, spiritual, or prosperous family — giving you another great chance. This is the safety net. In modern terms: the effort you put in meditation or spiritual practice is never lost. Even if you don’t become enlightened this lifetime, you get better conditions next time — more supportive environment, natural inclination toward practice. This is why some children seem 'old souls' or naturally drawn to meditation. Krishna is saying: keep trying — the universe has your back across lifetimes. No effort is wasted."
+    },
+    {
+      "verse": 42,
+      "sanskrit": "अथवा योगिनामेव कुले भवति धीमताम् |\nएतद्धि दुर्लभतरं लोके जन्म यदीदृशम् ||",
+      "transliteration": "athavā yoginām eva kule bhavati dhīmatām\netad dhi durlabhataraṁ loke janma yad īdṛśam",
+      "translation": "Or [if born on earth] he takes birth in a family of transcendentalists who are surely great in wisdom. Certainly such a birth is rare in this world.",
+      "modern": "Or even better — birth in a family of yogis or wise people. Such birth is very rare. This is the bonus level. In modern terms: being born into a family that already practices meditation, values inner growth, or has spiritual inclination. Many people today feel they were 'born into the wrong family' for spiritual growth. Krishna is saying sincere effort from past lives can give you this golden ticket. If you’re reading the Gita or practicing meditation, chances are you already have some of this good karma. Celebrate it and continue."
+    },
+    {
+      "verse": 43,
+      "sanskrit": "तत्र तं बुद्धिसंयोगं लभते पौर्वदेहिकम् |\nयतते च ततो भूयः संसिद्धौ कुरुनन्दन ||",
+      "transliteration": "tatra taṁ buddhi-saṁyogaṁ labhate paurva-dehikam\nyatate ca tato bhūyaḥ saṁsiddhau kuru-nandana",
+      "translation": "On taking such a birth, he revives the divine consciousness of his previous life, and he again tries to make further progress in order to achieve complete success, O son of Kuru.",
+      "modern": "In that good birth, you naturally remember or feel the pull from past practice and strive even harder for perfection. This explains why some people take to meditation or spirituality so naturally — it’s continuation from before. In 2026: the child who asks deep questions or the adult who feels 'I’ve done this before.' Krishna is saying your past sincere efforts create momentum across lives. So even if you feel you’re starting late, you’re actually continuing. This is encouraging: keep striving — the previous work is helping you now."
+    },
+    {
+      "verse": 44,
+      "sanskrit": "पूर्वाभ्यासेन तेनैव ह्रियते ह्यवशोऽपि सः |\nजिज्ञासुरपि योगस्य शब्दब्रह्मातिवर्तते ||",
+      "transliteration": "pūrvābhyāsena tenaiva hriyate hy avaśo 'pi saḥ\njijñāsur api yogasya śabda-brahmātivartate",
+      "translation": "By virtue of the divine consciousness of his previous life, he automatically becomes attracted to the yogic principles — even without seeking them. Such an inquisitive transcendentalist stands always above the ritualistic principles of the scriptures.",
+      "modern": "The momentum from past practice pulls you automatically toward yoga, even if you resist. The seeker transcends mere ritual and scripture. In modern terms: the person who feels inexplicably drawn to meditation or spiritual books, even if they grew up in a non-spiritual family. Or the one who outgrows dogmatic religion and seeks direct experience. This is the grace of past effort. Krishna is saying: if you feel the pull, honor it — it’s your soul remembering. You’re already ahead."
+    },
+    {
+      "verse": 45,
+      "sanskrit": "प्रयत्नाद्यतमानस्तु योगी संशुद्धकिल्बिषः |\nअनेकजन्मसंसिद्धस्ततो याति परां गतिम् ||",
+      "transliteration": "prayatnād yatamānas tu yogī saṁśuddha-kilbiṣaḥ\naneka-janma-saṁsiddhas tato yāti parāṁ gatim",
+      "translation": "And when the yogi engages himself with sincere endeavor in making further progress, being washed of all contaminations, then ultimately, after many, many births of practice, he attains the supreme goal.",
+      "modern": "With sincere effort, the yogi purifies completely and, after many births, reaches the highest goal. This is the long-view encouragement. In 2026: even if progress feels slow, every sincere day counts across lifetimes. The journey is beautiful and the destination is assured for the persistent. Krishna is saying don’t worry about quick results — the effort is compounding. This lifetime’s practice is building the foundation for ultimate freedom. Keep going — you’re on the path."
+    },
+    {
+      "verse": 46,
+      "sanskrit": "तपस्विभ्योऽधिको योगी ज्ञानिभ्योऽपि मतोऽधिकः |\nकर्मिभ्यश्चाधिको योगी तस्माद्योगी भवार्जुन ||",
+      "transliteration": "tapasvibhyo 'dhiko yogī jñānibhyo 'pi mato 'dhikaḥ\nkarmibhyaś cādhiko yogī tasmād yogī bhavārjuna",
+      "translation": "A yogi is greater than the ascetic, greater than the empiricist and greater than the fruitive worker. Therefore, O Arjuna, in all circumstances, be a yogi.",
+      "modern": "The yogi is higher than the ascetic (tapasvi), the knower (jnani), and the doer (karmi). So, Arjuna, become a yogi in all situations. This is Krishna’s final instruction for this chapter: be a yogi no matter what. In modern terms: the meditator who has integrated practice into life is higher than the extreme ascetic, the intellectual, or the hard worker. Balance wins. Krishna is saying: don’t just do yoga — be a yogi in traffic, in meetings, in parenting, in everything. That’s the highest path. This verse is the call to action: make your whole life meditation."
+    },
+    {
+      "verse": 47,
+      "sanskrit": "योगिनामपि सर्वेषां मद्गतेनान्तरात्मना |\nश्रद्धावान्भजते यो मां स मे युक्ततमो मतः ||",
+      "transliteration": "yoginām api sarveṣāṁ mad-gatenāntar-ātmanā\nśraddhāvān bhajate yo māṁ sa me yuktatamo mataḥ",
+      "translation": "And of all yogis, the one with great faith who always abides in Me, thinks of Me within himself, and renders transcendental loving service to Me — he is the most intimately united with Me in yoga and is the highest of all. That is My opinion.",
+      "modern": "Of all yogis, the one who has faith, abides in Me, thinks of Me constantly, and loves Me with devotion — that one is the highest. Krishna’s final opinion: the devotee yogi who combines meditation with love and remembrance of the Divine is the best. In 2026: the person who meditates and also feels a living connection, gratitude, and love for the higher power (however they conceive it). This is bhakti + dhyana. The heart and the mind together. This is the sweetest path. Krishna is saying the technical meditator is good, but the one who adds love and devotion reaches the highest. Make your practice relational — talk to the Divine, feel the connection. That’s the supreme yoga."
     }
   ]
 }
