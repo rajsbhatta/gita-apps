@@ -1,23 +1,149 @@
 {
   "number": 15,
-  "title": "The Supreme Person",
+  "title": "The Yoga of the Supreme Person",
   "sanskrit": "पुरुषोत्तमयोग",
   "verses": 20,
-  "introduction": "Krishna describes the imperishable nature of the Supreme and how the enlightened person understands this truth.",
+  "introduction": "Chapter 15 of the Bhagavad Gita, Puruṣottama-yoga (The Yoga of the Supreme Person), is one of the shortest yet most profound and conclusive chapters in the entire scripture. After analyzing the field & knower (Ch. 13) and the three modes that bind the soul (Ch. 14), Krishna now gives the famous metaphor of the inverted aśvattha tree (cosmic banyan) whose roots are above and branches below — symbolizing the inverted nature of material existence (rooted in the spiritual world yet appearing upside-down here). He explains how to cut this tree with the axe of detachment, describes the four kinds of beings, the glories of the Supreme Person (Puruṣottama), and ends with one of the most famous verses in the Gita: whoever knows Krishna as the Supreme Person, the source of everything, attains Him. For modern readers — especially those who have felt trapped in the endless cycle of striving, achievement, burnout and still asking 'what is the point of all this?', 'who am I really beyond roles and conditioning?', 'is there something higher than this inverted world?' — this chapter feels like Krishna finally lifting the veil completely. The essence remains untouched: the material world is an inverted reflection of the spiritual reality; liberation comes from cutting attachment to the branches (sense objects) and turning upward to the root (the Supreme Person); Krishna is not just another deity or concept — He is Puruṣottama, the Supreme Person beyond even the imperishable Brahman, the ultimate object of knowledge and devotion.",
   "shlokas": [
     {
+      "verse": 1,
+      "sanskrit": "श्रीभगवानुवाच |\nऊर्ध्वमूलमधःशाखमश्वत्थं प्राहुरव्ययम् |\nछन्दांसि यस्य पर्णानि यस्तं वेद स वेदवित् ||",
+      "transliteration": "śrī-bhagavān uvāca\nūrdhva-mūlam adhaḥ-śākham aśvatthaṁ prāhur avyayam\nchandāṁsi yasya parṇāni yas taṁ veda sa veda-vit",
+      "translation": "The Supreme Personality of Godhead said: There is a banyan tree which has its roots upward and its branches down and of which the Vedic hymns are the leaves. One who knows this tree is the knower of the Vedas.",
+      "modern": "Krishna opens with the famous inverted aśvattha (banyan) metaphor: roots above (in the spiritual world), branches below (material manifestation), Vedic hymns as leaves. Knowing this tree = knowing the Vedas. In 2026 life: the material world looks 'right-side up' to us (we chase money, status, pleasure down here), but spiritually it is upside-down — its real root/support is above (in the Divine). The Vedas are the leaves giving nourishment. This verse is the entire chapter in one image: see the world as inverted, trace everything back to its real root (Krishna), and you understand reality."
+    },
+    {
+      "verse": 2,
+      "sanskrit": "अधश्चोर्ध्वं प्रसृतास्तस्य शाखा गुणप्रवृद्धा विषयप्रवालाः |\nअधश्च मूलान्यनुसन्ततानि कर्मानुबन्धीनि मनुष्यलोके ||",
+      "transliteration": "adhaś cordhvaṁ prasṛtās tasya śākhā guṇa-pravṛddhā viṣaya-pravālāḥ\nadhaś ca mūlāny anusantatāni karmānubandhīni manuṣya-loke",
+      "translation": "The branches of this tree extend downward and upward, nourished by the three modes of material nature. The buds are the sense objects, and in the human world the roots are spread in all directions, binding one by the fruits of action.",
+      "modern": "The tree’s branches go both ways, fed by the three guṇas; sense objects are the sprouting buds; in the human realm roots spread everywhere, tying one through karma. In practice: our desires (guṇa-driven) create more branches (activities); sense gratification produces new buds (cravings); karma creates deeper roots binding us here. Krishna is showing how identification with the body and senses perpetuates the cycle — every action plants more roots downward. This is the mechanism of bondage visualized as a tree."
+    },
+    {
+      "verse": 3,
+      "sanskrit": "न रूपमस्येह तथोपलभ्यते न चान्तं न चादिर्न च संप्रतिष्ठा |\nअश्वत्थमेनं सुविरूढमूलमसङ्गशस्त्रेण दृढेन छित्त्वा ||",
+      "transliteration": "na rūpam asyeha tathopalabhyate na cāntaṁ na cādir na ca saṁpratiṣṭhā\n aśvattham enaṁ suvirūḍha-mūlam asaṅga-śastreṇa dṛḍhena chittvā",
+      "translation": "The real form of this tree cannot be perceived in this world. No one can understand where it ends, where it begins, or where its foundation is. But with determination one must cut down this strongly rooted tree with the weapon of detachment.",
+      "modern": "The true form of this tree is not visible here — its beginning, end and support are hidden. Cut this deeply rooted tree with the strong axe of detachment (asaṅga). In practice: the material world appears solid and endless, but its real root is invisible (spiritual). Detachment (non-identification, renunciation of fruits) is the axe that severs the identification. Krishna is giving the practical method: don’t try to understand the tree intellectually forever — cut the attachment. This is the turning point from analysis to action."
+    },
+    {
+      "verse": 4,
+      "sanskrit": "ततः पदं तत्परिमार्गितव्यं यस्मिन् गता न निवर्तन्ति भूयः |\nतमेव चाद्यं पुरुषं प्रपद्ये यतः प्रवृत्तिः प्रसृता पुराणी ||",
+      "transliteration": "tataḥ padaṁ tat parimārgitavyaṁ yasmin gatā na nivartanti bhūyaḥ\ntam eva cādyaṁ puruṣaṁ prapadye yataḥ pravṛttiḥ prasṛtā purāṇī",
+      "translation": "Thereafter one must seek the path from which, having gone, one never returns. I surrender unto that original Supreme Person from whom everything has emanated and by whom everything is maintained since time immemorial.",
+      "modern": "After cutting the tree, seek that place from which there is no return. I take refuge in that original Puruṣa from whom the ancient flow of creation has come. This is the goal after detachment: surrender to the Supreme Person. In practice: renunciation alone is not enough — it must lead to positive attachment to Krishna. The 'no return' place is His abode. Krishna is saying: cut the material tree, then take shelter in Me — the eternal root. This verse is the bridge from vairāgya (detachment) to bhakti (surrender)."
+    },
+    {
+      "verse": 5,
+      "sanskrit": "निर्मानमोहा जितसङ्गदोषा अध्यात्मनित्या विनिवृत्तकामाः |\nद्वन्द्वैर्विमुक्ताः सुखदुःखसंज्ञैर्गच्छन्त्यमूढाः पदमव्ययं तत् ||",
+      "transliteration": "nirmāna-mohā jita-saṅga-doṣā adhyātma-nityā vinivṛtta-kāmāḥ\ndvandvair vimuktāḥ sukha-duḥkha-saṁjñair gacchanty amūḍhāḥ padam avyayaṁ tat",
+      "translation": "Those who are free from false prestige, illusion, false association, who are situated in eternal spiritual knowledge, who have conquered material desires, who are free from the dualities of happiness and distress, and who are not bewildered — such great souls attain that eternal kingdom.",
+      "modern": "The liberated ones: free from pride & delusion, conquered attachment, always in spiritual knowledge, desireless, beyond duality of pleasure/pain, undeluded — they reach the imperishable abode. In practice: this is the profile of one who has cut the tree and surrendered. No ego, no illusion, no clinging, steady in Self-knowledge, desire-free, balanced, clear-seeing. Krishna is describing the perfected devotee/jñānī — their destination is the eternal realm (Vaikuṇṭha). This verse gives the destination after transcendence."
+    },
+    {
+      "verse": 6,
+      "sanskrit": "न तद्भासयते सूर्यो न शशाङ्को न पावकः |\nयद्गत्वा न निवर्तन्ते तद्धाम परमं मम ||",
+      "transliteration": "na tad bhāsayate sūryo na śaśāṅko na pāvakaḥ\nyad gatvā na nivartante tad dhāma paramaṁ mama",
+      "translation": "That abode of Mine is not illumined by the sun or moon, nor by fire, and anyone who reaches it never returns to this material world.",
+      "modern": "My supreme abode is not lit by sun, moon or fire — once reached, no return. This is the famous description of the spiritual sky (Vaikuṇṭha). In practice: it’s beyond material light sources (self-luminous), beyond duality, eternal. The key promise: no return — final liberation. Krishna is giving the ultimate destination — a realm of pure existence, consciousness, bliss, lit by its own light. This verse inspires longing for the eternal home."
+    },
+    {
       "verse": 7,
-      "sanskrit": "ममैवांशो जीवलोके जीवभूतः सनातनः | मनःषष्ठानीन्द्रियाणि प्रकृतिस्थानि कर्षति ||",
-      "transliteration": "mamaivāṁśo jīva-loke jīva-bhūtaḥ sanātanaḥ | manaḥ-ṣaṣṭhānīndriyāṇi prakṛti-sthāni karṣati",
-      "translation": "The living entities in this world are My eternal parts. But bound by material nature, they struggle with the six senses, which include the mind.",
-      "modern": "You're literally a piece of the divine, just caught up in the material world. Your senses (sight, sound, taste, touch, smell, plus mind) are constantly pulling you around like dogs on leashes. 'I need that.' 'I hate this.' 'I want more.' Your senses run your life unless you train them. Most people are slaves to their senses. Masters are rare."
+      "sanskrit": "ममैवांशो जीवलोके जीवभूतः सनातनः |\nमनःषष्ठानीन्द्रियाणि प्रकृतिस्थानि कर्षति ||",
+      "transliteration": "mamaivāṁśo jīva-loke jīva-bhūtaḥ sanātanaḥ\nmanaḥ-ṣaṣṭhānīndriyāṇi prakṛti-sthāni karṣati",
+      "translation": "The living entities in this conditioned world are My eternal fragmental parts. Due to conditioned life, they are struggling very hard with the six senses, which include the mind.",
+      "modern": "All living beings are eternal fragments of Me. In the material world they struggle with the six senses (including mind) conditioned by nature. This is the famous 'mamaivāṁśaḥ' verse. In practice: every soul is qualitatively one with God (part and parcel), yet quantitatively different — eternal fragment. The struggle comes from identifying with the senses/mind in material nature. Krishna is revealing our original nature (part of Him) and why we suffer (sense-identification). This verse is both comforting (we are divine) and diagnostic (attachment causes pain)."
+    },
+    {
+      "verse": 8,
+      "sanskrit": "शरीरं यदवाप्नोति यच्चाप्युत्क्रामतीश्वरः |\nगृहीत्वैतानि संयाति वायुर्गन्धानिवाशयात् ||",
+      "transliteration": "śarīraṁ yad avāpnoti yac cāpy utkrāmatīśvaraḥ\ngṛhītvaitāni saṁyāti vāyur gandhān ivāśayāt",
+      "translation": "The living entity in the material world carries his different conceptions of life from one body to another as the air carries aromas. Thus he takes one kind of body and again quits it to enter another.",
+      "modern": "The soul carries its subtle impressions (vāsanās) from one body to another like wind carrying fragrance. This explains reincarnation mechanistically. In practice: your desires, habits, attachments travel with you — shaping the next body. Krishna is saying: nothing is lost; your inner tendencies determine future embodiment. This verse removes fear of death — the real 'you' (soul + impressions) continues. Liberation comes from purifying those impressions through devotion."
+    },
+    {
+      "verse": 9,
+      "sanskrit": "श्रोत्रं चक्षुः स्पर्शनं च रसनं घ्राणमेव च |\nअधिष्ठाय मनश्चायं विषयानुपसेवते ||",
+      "transliteration": "śrotraṁ cakṣuḥ sparśanaṁ ca rasanaṁ ghrāṇam eva ca\nadhiṣṭhāya manaś cāyaṁ viṣayān upasevate",
+      "translation": "The living entity, thus taking another gross body, obtains a new set of senses, which are like the senses of the sun and other luminous bodies, and enjoys various sense objects.",
+      "modern": "The soul takes new senses (like the sun taking new rays) and enjoys sense objects in the new body. This continues the reincarnation explanation. In practice: each birth brings a new sense apparatus, but the enjoyer (soul) remains the same. Krishna is showing continuity of consciousness across bodies. The goal is to stop this migration by detaching from sense objects and turning inward to the Supreme."
+    },
+    {
+      "verse": 10,
+      "sanskrit": "उत्क्रामन्तं स्थितं वापि भुञ्जानं वा गुणान्वितम् |\nविमूढा नानुपश्यन्ति पश्यन्ति ज्ञानचक्षुषः ||",
+      "transliteration": "utkrāmaṇtaṁ sthitaṁ vāpi bhuñjānaṁ vā guṇānvitam\nvimūḍhā nānupaśyanti paśyanti jñāna-cakṣuṣaḥ",
+      "translation": "The foolish cannot understand how a living entity can quit his body, nor can they understand what sort of body he enjoys under the spell of the modes of nature. But one whose eyes are trained in knowledge can see all this.",
+      "modern": "The ignorant cannot see the soul departing, staying, or enjoying through the guṇas — but those with the eye of knowledge see clearly. In practice: most people don’t perceive the soul’s transmigration or its conditioning by guṇas — they see only the body. The jñānī sees the soul moving between bodies, influenced by modes. This verse contrasts material vision (body-only) with spiritual vision (soul + guṇas). Knowledge gives the higher sight."
+    },
+    {
+      "verse": 11,
+      "sanskrit": "यतन्तो योगिनश्चैनं पश्यन्त्यात्मन्यवस्थितम् |\nयतन्तोऽप्यकृतात्मानो नैनं पश्यन्त्यचेतसः ||",
+      "transliteration": "yatanto yoginaś cainaṁ paśyanty ātmani avasthitam\nyatanto ’py akṛtātmāno nainaṁ paśyanty acetasaḥ",
+      "translation": "The endeavoring yogīs who are cleansed of impurities can see the soul within themselves, but those whose minds are not purified and who are devoid of intelligence cannot see Him even though they try very hard.",
+      "modern": "Purified yogīs see the soul within; impure, unintelligent ones cannot, even with effort. This explains why some people have spiritual insight and others don’t despite practice. In practice: purification (of mind, senses, heart) is required — not just technique. Krishna is saying: effort alone is not enough — purity and intelligence (discrimination) are necessary. This verse motivates inner cleansing through devotion and discipline."
+    },
+    {
+      "verse": 12,
+      "sanskrit": "यदादित्यगतं तेजो जगद्भासयतेऽखिलम् |\nयच्चन्द्रमसि यच्चाग्नौ तत्तेजो विद्धि मामकम् ||",
+      "transliteration": "yad āditya-gataṁ tejo jagad bhāsayate ’khilam\nyac candramasi yac cāgnau tat tejo viddhi māmakam",
+      "translation": "The splendor of the sun, which dissipates the darkness of this whole world, comes from Me. And the splendor of the moon and the splendor of fire are also from Me.",
+      "modern": "The light of the sun that illumines the entire world, the light of the moon, the light of fire — all come from Me. Krishna claims the source of all illumination. In practice: every perception of light (literal or metaphorical) is a reflection of divine light. This verse turns everyday experience devotional — sunrise, moonlight, candle flame — all are His energy. This is vibhūti (opulence) in the simplest elements."
+    },
+    {
+      "verse": 13,
+      "sanskrit": "गामाविश्य च भूतानि धारयाम्यहमोजसा |\nपुष्णामि चौषधीः सर्वाः सोमो भूत्वा रसात्मकः ||",
+      "transliteration": "gām āviśya ca bhūtāni dhārayāmy aham ojasā\npuṣṇāmi cauṣadhīḥ sarvāḥ somo bhūtvā rasātmakaḥ",
+      "translation": "I enter into each planet, and by My energy they are maintained. I become the moon and thereby supply the juice of life to all vegetables.",
+      "modern": "I enter every planet and sustain them with My energy; becoming the moon, I nourish all plants with their essence. Krishna reveals His presence in cosmic and biological processes. In practice: gravity holding planets, sap rising in plants — all His energy. This verse makes science devotional — the laws of nature are His power. The Divine is not separate from the ecosystem; He is its maintainer."
+    },
+    {
+      "verse": 14,
+      "sanskrit": "अहं वैश्वानरो भूत्वा प्राणिनां देहमाश्रितः |\nप्राणापानसमायुक्तः पचाम्यन्नं चतुर्विधम् ||",
+      "transliteration": "ahaṁ vaiśvānaro bhūtvā prāṇināṁ deham āśritaḥ\nprāṇāpāna-samāyuktaḥ pacāmy annaṁ catur-vidham",
+      "translation": "I am the fire of digestion in the bodies of all living entities, and I mix with the incoming and outgoing air to digest the four kinds of food.",
+      "modern": "I become the digestive fire (vaiśvānara) in every living body, uniting with prāṇa and apāna to digest the four kinds of food. This is intimate immanence. In practice: every time you digest a meal — Krishna is the fire doing it. This turns eating into sacrament. The Divine is present in the most mundane bodily process. This verse makes physiology devotional — God is the energy behind metabolism."
+    },
+    {
+      "verse": 15,
+      "sanskrit": "सर्वस्य चाहं हृदि सन्निविष्टो मतः स्मृतिर्ज्ञानमपोहनं च |\nवेदैश्च सर्वैरहमेव वेद्यो वेदान्तकृद्वेदविदेव चाहम् ||",
+      "transliteration": "sarvasya cāhaṁ hṛdi sanniviṣṭo mattaḥ smṛtir jñānam apohanaṁ ca\nvedaiś ca sarvair aham eva vedyo vedānta-kṛd veda-vid eva cāham",
+      "translation": "I am seated in everyone’s heart, and from Me come remembrance, knowledge and forgetfulness. By all the Vedas, I am to be known; indeed, I am the compiler of Vedānta, and I am the knower of the Vedas.",
+      "modern": "I sit in every heart; from Me come memory, knowledge, forgetfulness. I am to be known through all Vedas; I am the maker of Vedānta and the knower of the Vedas. This is one of the most intimate and conclusive verses. In practice: every thought, memory, insight, even forgetting — comes from Krishna in your heart. The scriptures ultimately point to Him. Krishna is both the content and the compiler of all sacred knowledge. This verse ends the search — the Divine is the inner witness, the source of mind, and the goal of all scripture."
+    },
+    {
+      "verse": 16,
+      "sanskrit": "द्वाविमौ पुरुषौ लोके क्षरश्चाक्षर एव च |\nक्षरः सर्वाणि भूतानि कूटस्थोऽक्षर उच्यते ||",
+      "transliteration": "dvāv imau puruṣau loke kṣaraś cākṣara eva ca\nkṣaraḥ sarvāṇi bhūtāni kūṭa-stho ’kṣara ucyate",
+      "translation": "There are two classes of beings in this world: the fallible and the infallible. All living entities are fallible; the infallible is called the Supersoul.",
+      "modern": "Two kinds of puruṣa: kṣara (perishable — all individual souls in material world) and akṣara (infallible — the Supersoul). In practice: every embodied being is fallible (subject to change and death); the eternal, unchanging witness in all is the Supreme Soul. This is the distinction between jīvātmā (changing) and Paramātmā (unchanging). Krishna is clarifying the hierarchy — individual souls are eternal but conditioned; the Supreme is eternally free."
+    },
+    {
+      "verse": 17,
+      "sanskrit": "उत्तमः पुरुषस्त्वन्यः परमात्मेत्युदाहृतः |\nयो लोकत्रयमाविश्य बिभर्त्यव्यय ईश्वरः ||",
+      "transliteration": "uttamaḥ puruṣas tv anyaḥ paramātmety udāhṛtaḥ\nyo loka-trayam āviśya bibharty avyaya īśvaraḥ",
+      "translation": "Yet there is another, a transcendental Person, called the Supreme Soul, who is the eternal master and who pervades the three worlds and maintains them.",
+      "modern": "There is a third — the Supreme Person (Puruṣottama), the imperishable Lord who enters and sustains the three worlds. This is the chapter’s key revelation. Krishna introduces Himself as the third puruṣa — beyond both perishable and imperishable. In practice: beyond changing souls and the unchanging Supersoul is the Supreme Person who enters, supports and transcends both. This is the personal God beyond impersonal Brahman. Krishna is saying: I am that Supreme Person — the ultimate reality."
+    },
+    {
+      "verse": 18,
+      "sanskrit": "यस्मात्क्षरमतीतोऽहमक्षरादपि चोत्तमः |\nअतोऽस्मि लोके वेदे च प्रथितः पुरुषोत्तमः ||",
+      "transliteration": "yasmāt kṣaram atīto ’ham akṣarād api cottamaḥ\nato ’smi loke vede ca prathitaḥ puruṣottamaḥ",
+      "translation": "Because I am transcendental to the perishable and even to the imperishable, I am known in the Vedas and in this world as the Supreme Person (Puruṣottama).",
+      "modern": "I transcend both the perishable and the imperishable — therefore I am celebrated in the world and the Vedas as Puruṣottama. This is the chapter’s title verse. Krishna declares Himself the Supreme Person — above both kṣara and akṣara. In practice: He is not just the witness or the Absolute — He is the personal source of both. This is the Gita’s ultimate self-revelation — Krishna is Puruṣottama. This verse is the climax of the chapter and one of the most important identity statements in the entire text."
     },
     {
       "verse": 19,
-      "sanskrit": "यो मामेवमसम्मूढो जानाति पुरुषोत्तमम् | स सर्वविद्भजति मां सर्वभावेन भारत ||",
-      "transliteration": "yo mām evam asammūḍho jānāti puruṣottamam | sa sarva-vid bhajati māṁ sarva-bhāvena bhārata",
-      "translation": "Whoever knows Me as the Supreme Person, without doubting, knows everything and engages in complete devotion to Me.",
-      "modern": "When you truly get that there's something infinitely bigger than yourself, everything clicks. You stop thinking you're the center of the universe. You relax into being part of something vast and mysterious. This isn't about blind belief - it's about understanding your place in the cosmos. And paradoxically, that's when you actually become free."
+      "sanskrit": "यो मामेवमसंमूढो जानाति पुरुषोत्तमम् |\nस सर्वविद्भजति मां सर्वभावेन भारत ||",
+      "transliteration": "yo mām evam asaṁmūḍho jānāti puruṣottamam\nsa sarva-vid bhajati māṁ sarva-bhāvena bhārata",
+      "translation": "Anyone who knows Me as the Supreme Personality of Godhead, without being misled, is the knower of everything. He engages himself in full devotional service to Me, O son of Bharata.",
+      "modern": "Whoever knows Me without confusion as Puruṣottama knows everything and worships Me with all his heart. This is the fruit of the chapter. In practice: correct knowledge of Krishna as the Supreme Person leads to complete devotion. Knowing Him truly = knowing all; loving Him fully = highest yoga. Krishna is saying: understand Me as Puruṣottama → bhakti becomes natural and total. This verse connects jñāna and bhakti — true knowledge ripens into love."
+    },
+    {
+      "verse": 20,
+      "sanskrit": "इति गुह्यतमं शास्त्रमिदमुक्तं मयानघ |\nएतद्बुद्ध्वा बुद्धिमान्स्यात्कृतकृत्यश्च भारत ||",
+      "transliteration": "iti guhyatamaṁ śāstram idam uktaṁ mayānagha\netad buddhvā buddhimān syāt kṛta-kṛtyaś ca bhārata",
+      "translation": "This is the most confidential part of the Vedic scriptures, O sinless one, and it is disclosed by Me. One who understands this becomes wise, and his endeavors are complete, O son of Bharata.",
+      "modern": "Krishna concludes: this is the most secret teaching of the scriptures, revealed by Me. Whoever understands it becomes wise and his work is accomplished. This is the chapter’s seal of perfection. In practice: grasping Krishna as Puruṣottama completes the spiritual journey — all duties fulfilled, highest wisdom attained. This verse is the Gita’s promise: know Me as the Supreme Person → everything is done. The seeker’s quest ends in loving recognition of the Divine."
     }
   ]
 }
