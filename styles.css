@@ -507,3 +507,68 @@ body {
         font-size: 0.9rem;
     }
 }
+
+/* Header Actions Group */
+.header-actions {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+/* Refresh Button Animation */
+.refresh-icon {
+    display: inline-block;
+    font-size: 1.2rem;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Refresh button disabled state */
+#refreshBtn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+/* Toast Notification */
+.toast {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%) translateY(100px);
+    background: var(--bg-card);
+    color: var(--text);
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    z-index: 10000;
+    font-weight: 600;
+    opacity: 0;
+    transition: all 0.3s ease;
+    border: 2px solid var(--accent);
+}
+
+.toast.show {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+    .header-actions {
+        gap: 0.3rem;
+    }
+    
+    .toast {
+        bottom: 10px;
+        max-width: 90%;
+        font-size: 0.9rem;
+        padding: 0.8rem 1.2rem;
+    }
+}
