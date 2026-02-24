@@ -1,30 +1,555 @@
 {
   "number": 18,
-  "title": "Liberation Through Renunciation",
+  "title": "The Perfection of Renunciation",
   "sanskrit": "मोक्षसंन्यासयोग",
   "verses": 78,
-  "introduction": "The final chapter summarizes the entire Gita, culminating in Krishna's ultimate instruction to Arjuna.",
+  "introduction": "Chapter 18 of the Bhagavad Gita, Mokṣa-saṁnyāsa-yoga (The Yoga of Liberation by Renunciation), is the grand finale and longest chapter of the entire scripture — a masterful synthesis of everything taught before. Krishna systematically classifies knowledge, action, understanding, determination, happiness, renunciation, and liberation according to the three guṇas, explains the five causes of action, the four varṇas (social orders) and their duties arising from guṇas, describes the paths of knowledge, karma-yoga, dhyāna-yoga and bhakti-yoga, reveals the supreme secret of surrender to Him, and ends with Arjuna’s final declaration of resolve and Sanjaya’s ecstatic summary of the dialogue. For modern readers — especially those who have journeyed through the Gita asking 'how do I actually live all this?', 'what is true renunciation in daily life?', 'how do I find freedom while still working and relating?', 'what is the ultimate teaching?' — this chapter feels like Krishna tying every thread together into one clear, practical, liberating bow. The essence remains perfectly preserved: true renunciation is not external escape but internal freedom from doership and attachment; all paths converge in loving surrender to the Supreme Person; Krishna is the goal, the means, and the destination; one who understands and lives this attains supreme peace and eternal union with Him.",
   "shlokas": [
     {
+      "verse": 1,
+      "sanskrit": "अर्जुन उवाच |\nसंन्यासस्य महाबाहो तत्त्वमिच्छामि वेदितुम् |\nत्यागस्य च हृषीकेश पृथक्केशिनिषूदन ||",
+      "transliteration": "arjuna uvāca\nsaṁnyāsasya mahā-bāho tattvam icchāmi veditum\ntyāgasya ca hṛṣīkeśa pṛthak keśi-niṣūdana",
+      "translation": "Arjuna said: O mighty-armed one, I desire to understand the purpose of renunciation (saṁnyāsa) and the purpose of renunciation of fruitive activities (tyāga), O slayer of Keśī.",
+      "modern": "Arjuna opens the final chapter with the perfect closing question: what exactly is the difference between saṁnyāsa (complete renunciation) and tyāga (renunciation of results)? In 2026 life this is the householder’s dilemma: do I have to quit my job/family/city to be spiritual, or can I stay engaged while dropping attachment to outcomes? Krishna will answer with crystal clarity — true renunciation is internal, not external."
+    },
+    {
+      "verse": 2,
+      "sanskrit": "श्रीभगवानुवाच |\nकाम्यानां कर्मणां न्यासं संन्यासं कवयो विदुः |\nसर्वकर्मफलत्यागं प्राहुस्त्यागं विचक्षणाः ||",
+      "transliteration": "śrī-bhagavān uvāca\nkāmyānāṁ karmaṇāṁ nyāsaṁ saṁnyāsaṁ kavayo viduḥ\nsarva-karma-phala-tyāgaṁ prāhus tyāgaṁ vicakṣaṇāḥ",
+      "translation": "The Supreme Personality of Godhead said: The sages declare that renunciation (saṁnyāsa) means giving up work performed for sense gratification. The wise say that renunciation of the fruits of all work is called tyāga.",
+      "modern": "Krishna clarifies: real saṁnyāsa = giving up selfish/desire-driven actions; real tyāga = giving up attachment to results of all actions. In practice: saṁnyāsa is renouncing the 'I want' motive; tyāga is renouncing the 'I deserve the outcome' attitude. This distinction is revolutionary — one can remain active in the world while practicing perfect renunciation internally. This sets the tone for the entire chapter: freedom is not about what you do externally, but how you relate to it internally."
+    },
+    {
+      "verse": 3,
+      "sanskrit": "त्याज्यं कर्मफलं प्राहुस्त्यागं सर्वे विचक्षणाः |\nयज्ञदानतपःकर्म न त्याज्यमिति चापरे ||",
+      "transliteration": "tyājyaṁ karma-phalaṁ prāhus tyāgaṁ sarve vicakṣaṇāḥ\nyajña-dāna-tapaḥ-karma na tyājyam iti cāpare",
+      "translation": "All learned scholars declare that renunciation means renouncing all kinds of work for the sake of fruitive results. Some declare that acts of sacrifice, charity and penance are not to be given up.",
+      "modern": "Some say tyāga means giving up all fruitive work; others say yajña (sacrifice), dāna (charity), tapaḥ (austerity) should never be abandoned. Krishna acknowledges the debate — different schools interpret renunciation differently. In practice: this reflects the real-world confusion many seekers face: 'Should I drop everything or keep doing good works?' Krishna will now resolve it authoritatively."
+    },
+    {
+      "verse": 4,
+      "sanskrit": "निश्चयं शृणु मे तत्र त्यागे भरतसत्तम |\nत्यागो हि पुरुषव्याघ्र त्रिविधः सम्प्रकीर्तितः ||",
+      "transliteration": "niścayaṁ śṛṇu me tatra tyāge bharata-sattama\ntyāgo hi puruṣa-vyāghra tri-vidhaḥ samprakīrtitaḥ",
+      "translation": "O best of the Bharatas, hear from Me the conclusion regarding renunciation. O tiger among men, renunciation is declared to be of three kinds.",
+      "modern": "Krishna promises clarity: listen to My definite conclusion — tyāga is threefold (by guṇa). In practice: renunciation is not one-size-fits-all — it too is conditioned by sattva, rajas, tamas. This verse prepares for the guna-based classification that runs through the chapter."
+    },
+    {
+      "verse": 5,
+      "sanskrit": "यज्ञदानतपःकर्म न त्याज्यं कार्यमेव तत् |\nयज्ञो दानं तपश्चैव पावनानि मनीषिणाम् ||",
+      "transliteration": "yajña-dāna-tapaḥ-karma na tyājyaṁ kāryam eva tat\nyajño dānaṁ tapaś caiva pāvanāni manīṣiṇām",
+      "translation": "Acts of sacrifice, charity and penance are not to be given up; they must be performed. Indeed, sacrifice, charity and penance purify even the great sages.",
+      "modern": "Yajña, dāna, tapaḥ should never be abandoned — they purify even the wise. Krishna establishes the baseline: these three are always purifying and should continue in some form. In practice: spiritual discipline, giving, austerity — these are non-negotiable for inner cleansing. This verse protects against total rejection of activity — even the liberated continue these in sattvic spirit."
+    },
+    {
+      "verse": 6,
+      "sanskrit": "एतान्यपि तु कर्माणि सङ्गं त्यक्त्वा फलानि च |\nकर्तव्यानीति मे पार्थ निश्चितं मतमुत्तमम् ||",
+      "transliteration": "etāny api tu karmāṇi saṅgaṁ tyaktvā phalāni ca\nkartavyānīti me pārtha niścitaṁ matam uttamam",
+      "translation": "All these activities should be performed without attachment and without any expectation of result. This is My final and most confidential opinion, O son of Pritha.",
+      "modern": "Do these (yajña, dāna, tapaḥ) without attachment or desire for fruit — this is My highest, most secret conclusion. Krishna gives the golden rule of karma-yoga. In practice: keep performing purifying acts, but drop doership and craving for reward. This is the perfection of renunciation — action continues, ego dissolves. This verse is the practical heart of the chapter — live in the world but without bondage to it."
+    },
+    {
+      "verse": 7,
+      "sanskrit": "नियतस्य तु संन्यासः कर्मणो नोपपद्यते |\nमोहात्तस्य परित्यागस्तामसः परिकीर्तितः ||",
+      "transliteration": "niyatasya tu saṁnyāsaḥ karmaṇo nopapadyate\nmohāt tasya parityāgas tāmasaḥ parikīrtitaḥ",
+      "translation": "Prescribed duties should never be renounced. If one gives up his prescribed duties because of illusion, that renunciation is said to be in the mode of ignorance.",
+      "modern": "Never abandon prescribed (svadharma) duties. Renouncing them out of delusion is tamasic. In practice: quitting responsibilities because 'I’m too spiritual' is tamasic — it creates tamas, not freedom. Krishna is protecting against spiritual bypassing — true renunciation is internal; external duty continues."
+    },
+    {
+      "verse": 8,
+      "sanskrit": "दुःखमित्येव यत्कर्म कायक्लेशभयात्त्यजेत् |\nस कृत्वा राजसं त्यागं नैव त्यागफलं लभेत् ||",
+      "transliteration": "duḥkham ity eva yat karma kāya-kleśa-bhayāt tyajet\nsa kṛtvā rājasaṁ tyāgaṁ naiva tyāga-phalaṁ labhet",
+      "translation": "Anyone who gives up prescribed duties as troublesome or out of fear of bodily discomfort is said to have renounced in the mode of passion. Such action never leads to the elevation which comes from renunciation.",
+      "modern": "Giving up duty because it’s painful or inconvenient is rajasic — it brings no benefit of true renunciation. In practice: quitting a job/family/duty because it’s hard/stressful — that’s rajasic escapism, not spiritual progress. Krishna is warning against comfort-seeking disguised as renunciation."
+    },
+    {
+      "verse": 9,
+      "sanskrit": "कार्यमित्येव यत्कर्म नियतं क्रियतेऽर्जुन |\nसङ्गं त्यक्त्वा फलं चैव स त्यागः सात्त्विको मतः ||",
+      "transliteration": "kāryam ity eva yat karma niyataṁ kriyate ’rjuna\nsaṅgaṁ tyaktvā phalaṁ caiva sa tyāgaḥ sāttviko mataḥ",
+      "translation": "O Arjuna, renunciation in the mode of goodness is performed as an act of duty, when all attachment to the fruit of action and to the work itself is abandoned.",
+      "modern": "Sattvic tyāga: doing prescribed duty because it should be done, without attachment to action or result. In practice: fulfill responsibilities with full effort yet inner freedom — no clinging to 'I must succeed' or 'this defines me'. This is the perfection of karma-yoga — duty without doership. Krishna declares this the highest form of renunciation."
+    },
+    {
+      "verse": 10,
+      "sanskrit": "न द्वेष्ट्यकुशलं कर्म कुशलं नानुषज्जते |\nत्यागी सत्त्वसमाविष्टो मेधावी छिन्नसंशयः ||",
+      "transliteration": "na dveṣṭy akuśalaṁ karma kuśalaṁ nānuṣajjate\ntyāgī sattva-samāviṣṭo medhāvī chinna-saṁśayaḥ",
+      "translation": "A person in the mode of goodness, who is intelligent and free from doubts, neither hates disagreeable work nor is attached to an agreeable one.",
+      "modern": "The sattvic tyāgī: doesn’t hate unpleasant duty or cling to pleasant duty — intelligent, doubt-free, immersed in goodness. In practice: equanimity toward all work — no aversion, no preference. This is emotional mastery — duty is duty. Krishna is describing the inner state of one who has truly renounced doership."
+    },
+    {
+      "verse": 11,
+      "sanskrit": "न हि देहभृता शक्यं त्यक्तुं कर्माण्यशेषतः |\nयस्तु कर्मफलत्यागी स त्यागीत्यभिधीयते ||",
+      "transliteration": "na hi deha-bhṛtā śakyaṁ tyaktuṁ karmāṇy aśeṣataḥ\nyas tu karma-phala-tyāgī sa tyāgīty abhidhīyate",
+      "translation": "It is not possible for an embodied being to completely renounce all actions. But he who renounces the fruits of action is called a true renouncer.",
+      "modern": "No embodied person can renounce all action — but one who renounces the fruits is the true tyāgī. This is the chapter’s central teaching. In practice: complete inaction is impossible (even breathing is action); true renunciation is dropping attachment to results. Krishna is giving the practical definition of saṁnyāsa for householders — live actively, but without claiming ownership of outcomes. This verse liberates millions from the false idea that spirituality requires quitting the world."
+    },
+    {
+      "verse": 12,
+      "sanskrit": "अनिष्टमिष्टं मिश्रं च त्रिविधं कर्मणः फलम् |\nभवत्यत्यागिनां प्रेत्य न तु संन्यासिनां क्वचित् ||",
+      "transliteration": "aniṣṭam iṣṭaṁ miśraṁ ca tri-vidhaṁ karmaṇaḥ phalam\nbhavaty atyāgināṁ pretya na tu saṁnyāsināṁ kvacit",
+      "translation": "For one who is not renounced, the threefold fruit of action — desirable, undesirable and mixed — accrues after death. But for the renouncer there is never any such result.",
+      "modern": "Non-renouncers get three kinds of fruit (good, bad, mixed) after death; true renouncers get none. This is the karmic consequence. In practice: attachment to results binds one to future births; renunciation of fruits frees one completely. Krishna is showing the long-term benefit — drop fruitive motive → end karmic cycle. This verse motivates internal renunciation — the highest form of freedom."
+    },
+    {
+      "verse": 13,
+      "sanskrit": "पञ्चैतानि महाबाहो कारणानि निबोध मे |\nसाङ्ख्ये कृतान्ते प्रोक्तानि सिद्धये सर्वकर्मणाम् ||",
+      "transliteration": "pañcaitāni mahā-bāho kāraṇāni nibodha me\nsāṅkhye kṛtānte proktāni siddhaye sarva-karmaṇām",
+      "translation": "O mighty-armed one, learn from Me the five causes for the accomplishment of all action as declared in the Sāṅkhya system.",
+      "modern": "Krishna introduces the five causes of action according to Sāṅkhya. In practice: this is the metaphysical breakdown of why anything happens — understanding these five ends the illusion of sole doership. This verse prepares for the famous list that follows."
+    },
+    {
+      "verse": 14,
+      "sanskrit": "अधिष्ठानं तथा कर्ता करणं च पृथग्विधम् |\nविविधाश्च पृथक्चेष्टा दैवं चैवात्र पञ्चमम् ||",
+      "transliteration": "adhiṣṭhānaṁ tathā kartā karaṇaṁ ca pṛthag-vidham\nvividhāś ca pṛthak ceṣṭā daivaṁ caivātra pañcamam",
+      "translation": "The body, the enjoyer, the various senses, the many kinds of endeavor, and divine providence — these are the five causes of action.",
+      "modern": "Five causes: the body (field), the doer (ego), the instruments (senses), the efforts, and daiva (divine will/higher providence). In practice: action arises from physical base + ego-sense of agency + sensory tools + personal effort + higher unseen will. Krishna is dismantling sole doership — no action is purely 'mine'. This insight frees one from pride/guilt."
+    },
+    {
+      "verse": 15,
+      "sanskrit": "शरीरवाङ्मनोभिर्वत् कर्म प्रारभते नरः |\nन्याय्यं वा विपरीतं वा पञ्चैते तस्य हेतवः ||",
+      "transliteration": "śarīra-vāṅ-manobhir yat karma prārabhate naraḥ\nnyāyyaṁ vā viparītaṁ vā pañcaite tasya hetavaḥ",
+      "translation": "Whatever right or wrong action a man performs with body, speech and mind — these five are its causes.",
+      "modern": "All actions (good or bad) done by body, speech, mind — have these five causes. Krishna universalizes the teaching — no exceptions. In practice: every deed, word, thought arises from this five-fold combination. This verse reinforces non-doership — understand the causes, drop identification with being the sole agent."
+    },
+    {
+      "verse": 16,
+      "sanskrit": "तत्रैवं सति कर्तारमात्मानं केवलं तु यः |\nपश्यत्यकृतबुद्धित्वान्न स पश्यति दुर्मतिः ||",
+      "transliteration": "tatraivaṁ sati kartāram ātmānaṁ kevalaṁ tu yaḥ\npaśyaty akṛta-buddhitvān na sa paśyati durmatiḥ",
+      "translation": "One who, due to impure intelligence, thinks himself the only doer, not seeing the five causes — that foolish person does not see at all.",
+      "modern": "The fool with impure understanding thinks 'I alone do everything' — he doesn’t see the five causes. This is the root delusion. In practice: ego claims sole authorship — true vision sees the multiplicity of causes. Krishna is diagnosing spiritual blindness — thinking 'I am the doer' is the fundamental ignorance."
+    },
+    {
+      "verse": 17,
+      "sanskrit": "यस्य नाहङ्कृतो भावो बुद्धिर्यस्य न लिप्यते |\nहतोऽपि स इमाँल्लोकान्न हन्ति न निबध्यते ||",
+      "transliteration": "yasya nāhaṅkṛto bhāvo buddhir yasya na lipyate\nnato ’pi sa imāṁl lokān na hanti na nibadhyate",
+      "translation": "One who is not motivated by false ego, whose intelligence is not contaminated — even if he kills people in this world, he is not the killer, nor is he bound by his actions.",
+      "modern": "The one free from ego-sense and whose intellect is unattached — even if he kills in battle, he neither kills nor is bound. This is the famous verse justifying Arjuna’s duty. In practice: when action is performed without doership or attachment, there is no karmic bondage. Krishna is liberating Arjuna from guilt — fight without ego, and you remain free. This is the perfection of karma-yoga."
+    },
+    {
+      "verse": 18,
+      "sanskrit": "ज्ञानं ज्ञेयं परिज्ञाता त्रिविधा कर्मचोदना |\nकरणं कर्म कर्तेति त्रिविधः कर्मसङ्ग्रहः ||",
+      "transliteration": "jñānaṁ jñeyaṁ parijñātā tri-vidhā karma-codanā\nkaraṇaṁ karma karteti tri-vidhaḥ karma-saṅgrahaḥ",
+      "translation": "Knowledge, the object of knowledge, and the knower are the three factors that motivate action; the instrument, the object, and the agent are the three constituents of action.",
+      "modern": "Three impellers of action: knowledge, knowable, knower. Three components: instrument, object, agent. Krishna is giving a complete taxonomy of action. In practice: every act involves knowing (jñāna), known (jñeya), knower (parijñātā); plus tools (karaṇa), target (karma), doer (kartā). This verse systematizes karma — understanding these three sets ends the illusion of simple doership."
+    },
+    {
+      "verse": 19,
+      "sanskrit": "ज्ञानं कर्म च कर्ता च भिदा गुणतः श्रृणु |\nप्रोच्यमानं गुणान्वैभक्तं यथावत् त्रिविधं मे शृणु ||",
+      "transliteration": "jñānaṁ karma ca kartā ca bhidā guṇataḥ śṛṇu\nprocyamānaṁ guṇānvibhaktaṁ yathāvat tri-vidhaṁ me śṛṇu",
+      "translation": "Hear now from Me the threefold distinctions of knowledge, action, and the doer according to the modes of material nature, as described in the Vedic literature.",
+      "modern": "Krishna announces: now hear knowledge, action, doer classified by the three guṇas — as taught in scripture. In practice: everything is threefold by guṇa — even knowledge and agency. This verse sets up the next major section — the guna-classification of jñāna, karma, kartā."
+    },
+    {
+      "verse": 20,
+      "sanskrit": "सर्वभूतेषु येनैकं भावमव्ययमीक्षते |\nअविभक्तं विभक्तेषु तज्ज्ञानं विद्धि सात्त्विकम् ||",
+      "transliteration": "sarva-bhūteṣu yenaikaṁ bhāvam avyayam īkṣate\navibhaktaṁ vibhakteṣu taj jñānaṁ viddhi sāttvikam",
+      "translation": "That knowledge by which one sees the one imperishable being in all diverse living entities, undivided in the divided — know that knowledge to be in the mode of goodness.",
+      "modern": "Sattvic knowledge: sees the one unchanging Self in all diverse beings, undivided amid division. In practice: perceiving unity in diversity, the eternal in the changing — this is clear, non-dual vision. Krishna is describing the knowledge that liberates — seeing the same Paramātmā everywhere."
+    },
+    {
+      "verse": 21,
+      "sanskrit": "पृथक्त्वेन तु यज्ज्ञानं नानाभावान् पृथग्विधान् |\nवetti सर्वेषु भूतेषु तज्ज्ञानं विद्धि राजसम् ||",
+      "transliteration": "pṛthaktvena tu yaj jñānaṁ nānā-bhāvān pṛthag-vidhān\nvetti sarveṣu bhūteṣu taj jñānaṁ viddhi rājasam",
+      "translation": "But that knowledge by which one sees multiplicity of living entities in different bodies — know that knowledge to be in the mode of passion.",
+      "modern": "Rajasic knowledge: sees only separateness, different beings in different bodies. In practice: perceiving only diversity, individuality, difference — without underlying unity. This is fragmented, ego-centered vision. Krishna is showing how rajasic mind creates division and conflict."
+    },
+    {
+      "verse": 22,
+      "sanskrit": "यत्तु कृत्स्नवदेकस्मिन् कार्ये सक्तमहैतुकम् |\nअतत्त्वार्थवदल्पं च तत्तामसमुदाहृतम् ||",
+      "transliteration": "yat tu kṛtsnavad ekasmin kārye saktam ahaitukam\natattvārthavad alpaṁ ca tat tāmasam udāhṛtam",
+      "translation": "And that knowledge by which one is attached to one kind of work as if it were the whole, without real understanding, narrow and without a basis in truth — that is said to be in the mode of ignorance.",
+      "modern": "Tamasic knowledge: fixated on one small thing as if it were everything, without logic or truth. In practice: obsession with one idea, fanaticism, narrow-mindedness, superstition. Krishna is describing dogmatic, limited, irrational thinking — tamasic vision. This verse warns against tunnel vision and blind belief."
+    },
+    {
+      "verse": 23,
+      "sanskrit": "नियतं सङ्गरहितमरागद्वेषतः कृतम् |\nसाफलं कामैरहितं तत्सात्त्विकमुदाहृतम् ||",
+      "transliteration": "niyataṁ saṅga-rahitam arāga-dveṣataḥ kṛtam\nāphalaṁ kāmair ahitaṁ tat sāttvikam udāhṛtam",
+      "translation": "That action which is regulated, performed without attachment, without love or hatred, and without desire for fruitive results — that is said to be in the mode of goodness.",
+      "modern": "Sattvic action: prescribed duty, without attachment, without liking/disliking, without fruitive motive. In practice: doing what should be done, with neutrality and purity. This is karma-yoga in essence — duty without ego. Krishna is giving the gold standard for action."
+    },
+    {
+      "verse": 24,
+      "sanskrit": "यत्तु कामैस्तु कर्म पार्थ रागद्वेषतः कृतम् |\nसङ्गं त्यक्त्वा फलं वा पुनस्तद्राजसमुदाहृतम् ||",
+      "transliteration": "yat tu kāmais tu karma pārtha rāga-dveṣataḥ kṛtam\nsaṅgaṁ tyaktvā phalaṁ vā punas tad rājasam udāhṛtam",
+      "translation": "But action performed with attachment, with desire or hatred, or for some fruitive result — that is said to be in the mode of passion.",
+      "modern": "Rajasic action: driven by desire/hatred, attached, seeking result. In practice: motivated by personal gain, emotion, or aversion — binding. Krishna is showing how rajasic motive turns even good acts into bondage."
+    },
+    {
+      "verse": 25,
+      "sanskrit": "अनुबन्धं क्षयं हिंसामनपेक्ष्य च पौरुषम् |\nमोहात् आरभ्यते कर्म यत्तत्तामसमुच्यते ||",
+      "transliteration": "anubandhaṁ kṣayaṁ hiṁsām anapekṣya ca pauruṣam\nmohāt ārabhyate karma yat tat tāmasam ucyate",
+      "translation": "Action undertaken from delusion, without regard to consequence, loss, injury to others, or one’s own ability — that is said to be in the mode of ignorance.",
+      "modern": "Tamasic action: begun in delusion, ignoring results, destruction, harm to others, one’s own capacity. In practice: reckless, harmful, blind action — destructive. Krishna is describing impulsive, ignorant behavior — tamasic karma creates suffering for self and others."
+    },
+    {
+      "verse": 26,
+      "sanskrit": "मुक्तसङ्गोऽनहंवादी धृत्युत्साहसमन्वितः |\nसिद्ध्यसिद्ध्योर्निर्विकारः कर्ता सात्त्विक उच्यते ||",
+      "transliteration": "mukta-saṅgo ’nahaṁvādī dhṛty-utsāha-samanvitaḥ\nsiddhy-asiddhyor nirvikāraḥ kartā sāttvika ucyate",
+      "translation": "One who is free from attachment, non-boastful, endowed with fortitude and enthusiasm, unaffected by success or failure — such a doer is said to be in the mode of goodness.",
+      "modern": "Sattvic kartā: unattached, humble, determined + enthusiastic, undisturbed by success/failure. In practice: ego-free, steady, joyful effort, balanced in outcome. Krishna is describing the emotionally mature, spiritually aligned doer — the ideal karma-yogī."
+    },
+    {
+      "verse": 27,
+      "sanskrit": "रागी कर्मफलप्रेप्सुर्लुब्धो हिंसात्मकोऽशुचिः |\nहर्षशोकान्वितः कर्ता राजसः परिकीर्तितः ||",
+      "transliteration": "rāgī karma-phala-prepsur lubdho hiṁsātmako ’śuciḥ\nharṣa-śokānvitaḥ kartā rājasaḥ parikīrtitaḥ",
+      "translation": "The doer who is passionate, desirous of fruitive results, greedy, violent, impure, and affected by joy and sorrow — is said to be in the mode of passion.",
+      "modern": "Rajasic kartā: attached, craving results, greedy, harmful, impure, swinging between elation and despair. In practice: ego-driven, outcome-obsessed, selfish, aggressive, emotionally volatile. Krishna is showing the inner state behind rajasic action — restless and binding."
+    },
+    {
+      "verse": 28,
+      "sanskrit": "अयुक्तः प्राकृतः स्तब्धः शठो नैकृतिकोऽलसः |\nविषादी दीर्घसूत्री च कर्ता तामस उच्यते ||",
+      "transliteration": "ayuktaḥ prākṛtaḥ stabdhaḥ śaṭho naikṛtiko ’lasaḥ\nviṣādī dīrgha-sūtrī ca kartā tāmasa ucyate",
+      "translation": "The doer who is undisciplined, vulgar, obstinate, deceitful, malicious, lazy, despondent, and procrastinating — is said to be in the mode of ignorance.",
+      "modern": "Tamasic kartā: undisciplined, crude, stubborn, dishonest, malicious, lazy, depressed, procrastinating. In practice: chaotic, low, resistant, manipulative, harmful, inert, gloomy, delaying. Krishna is describing the inner state that produces destructive or useless action — tamasic doership."
+    },
+    {
+      "verse": 29,
+      "sanskrit": "भेदं गुणानां कर्तृत्वं गुणानां च यथाविधि |\nप्रोच्यमानं शृणु मे पार्थ बुद्धेर्भेदं धृतेः तथा ||",
+      "transliteration": "bhedaṁ guṇānāṁ kartṛtvaṁ guṇānāṁ ca yathā-vidhi\nprocyamānaṁ śṛṇu me pārtha buddher bhedaṁ dhṛteḥ tathā",
+      "translation": "O son of Pritha, now please hear from Me in detail about the threefold distinctions of intellect and determination according to the modes of material nature.",
+      "modern": "Krishna announces: now hear the threefold division of intellect (buddhi) and steadiness (dhṛti) by guṇa. In practice: even thinking and resolve are colored by the modes. This verse prepares for the next classification — how guṇas affect decision-making and perseverance."
+    },
+    {
+      "verse": 30,
+      "sanskrit": "प्रवृत्तिं च निवृत्तिं च कार्याकार्ये भयाभये |\nबन्धं मोक्षं च या वेत्ति बुद्धिः सा पार्थ सात्त्विकी ||",
+      "transliteration": "pravṛttiṁ ca nivṛttiṁ ca kāryākārye bhayābhaye\nbandhaṁ mokṣaṁ ca yā vetti buddhiḥ sā pārtha sāttvikī",
+      "translation": "O son of Pritha, that understanding which knows when to act and when not to act, what is to be done and what is not to be done, what is to be feared and what is not to be feared, what is binding and what is liberating — is in the mode of goodness.",
+      "modern": "Sattvic buddhi: knows action/inaction, duty/non-duty, fear/fearlessness, bondage/liberation. In practice: clear discernment — right/wrong, timely/untimely, what leads to freedom vs bondage. Krishna is describing spiritual intelligence — the ability to see consequences and choose liberation."
+    },
+    {
+      "verse": 31,
+      "sanskrit": "यया तु धर्मकर्मेति यया चैव यथा स्थितम् |\nअन्यथा वा विजानाति बुद्धिः सा पार्थ राजसी ||",
+      "transliteration": "yayā tu dharma-karmeti yayā caiva yathā sthitam\nanyathā vā vijānāti buddhiḥ sā pārtha rājasī",
+      "translation": "And that understanding which cannot distinguish between religion and irreligion, between action that should be done and action that should not be done — that imperfect understanding, O son of Pritha, is in the mode of passion.",
+      "modern": "Rajasic buddhi: confuses dharma/adharma, right/wrong action. In practice: moral confusion, situational ethics, clouded judgment. Krishna is showing how rajasic mind distorts right and wrong — often justifying selfish action as 'necessary'."
+    },
+    {
+      "verse": 32,
+      "sanskrit": "अधर्मं धर्ममिति या मन्यते तमसावृता |\nसर्वार्थान् विपरीतांश्च बुद्धिः सा पार्थ तामसी ||",
+      "transliteration": "adharmaṁ dharmam iti yā manyate tamasāvṛtā\nsarvārthān viparītāmś ca buddhiḥ sā pārtha tāmasī",
+      "translation": "Understanding which is covered by illusion and which sees adharma as dharma and all things perverted — that understanding, O son of Pritha, is in the mode of ignorance.",
+      "modern": "Tamasic buddhi: sees wrong as right, everything upside-down. In practice: delusion, inversion of values, complete moral/spiritual confusion. Krishna is describing the darkened intellect — calling evil good and good evil. This verse warns against tamasic distortion of reality."
+    },
+    {
+      "verse": 33,
+      "sanskrit": "अव्यभिचारिणी धृतिर्हठेन नियता तथा |\nयोगेन धारयते यदा मनःप्राणेन्द्रियक्रियाः ||",
+      "transliteration": "avyabhicāriṇī dhṛtir haṭhena niyatā tathā\nyogena dhārayate yadā manaḥ-prāṇendriya-kriyāḥ",
+      "translation": "Unwavering determination, fixed by yoga, by which one controls the activities of the mind, life force and senses — that determination, O son of Pritha, is in the mode of goodness.",
+      "modern": "Sattvic dhṛti: unwavering, sustained by yoga, controls mind, breath, senses. In practice: steady, focused resolve directed toward spiritual goals. Krishna is describing disciplined concentration — the sattvic mind stays on track."
+    },
+    {
+      "verse": 34,
+      "sanskrit": "यया तु धर्मकामार्थान् धृत्या धारयतेऽर्जुन |\nप्रसङ्गेन फलाकाङ्क्षी धृतिः सा पार्थ राजसी ||",
+      "transliteration": "yayā tu dharma-kāmārthān dhṛtyā dhārayate ’rjuna\nprasaṅgena phalākāṅkṣī dhṛtiḥ sā pārtha rājasī",
+      "translation": "But the determination by which one holds fast to fruitive results in religion, economic development and sense gratification — that determination, O son of Pritha, is in the mode of passion.",
+      "modern": "Rajasic dhṛti: clinging to dharma/kāma/artha for their fruits. In practice: stubborn pursuit of personal goals, even religious ones, for reward. Krishna is showing how rajasic resolve is goal-oriented and binding."
+    },
+    {
+      "verse": 35,
+      "sanskrit": "यया स्वप्नं भयं शोकं विषादं मदमेव च |\nन विमुञ्चति दुर्मेधा धृतिः सा पार्थ तामसी ||",
+      "transliteration": "yayā svapnaṁ bhayaṁ śokaṁ viṣādaṁ madam eva ca\nna vimuñcati durmedhā dhṛtiḥ sā pārtha tāmasī",
+      "translation": "And that determination which is not capable of being broken — clinging to sleep, fear, lamentation, moroseness and illusion — such unintelligent determination, O son of Pritha, is in the mode of ignorance.",
+      "modern": "Tamasic dhṛti: obstinately holding onto sleep, fear, grief, depression, delusion. In practice: stubborn negativity, refusal to change, clinging to tamasic states. Krishna is describing the stubbornness of inertia — refusing to wake up or improve."
+    },
+    {
+      "verse": 36,
+      "sanskrit": "सुखं त्विदानीं त्रिविधं शृणु मे भरतर्षभ |\nअभ्यासाद्रमते यत्र दुःखान्तं च निगच्छति ||",
+      "transliteration": "sukhaṁ tv idānīṁ tri-vidhaṁ śṛṇu me bharatarṣabha\nabhyāsād ramate yatra duḥkhāntaṁ ca nigacchati",
+      "translation": "O best of the Bharatas, now please hear from Me about the three kinds of happiness which the embodied soul enjoys, and by which he sometimes comes to the end of all pain.",
+      "modern": "Krishna now classifies happiness by guṇa — three kinds, some of which end suffering. In practice: not all happiness is equal — some is temporary, some binding, some liberating. This verse sets up the final classification — sukha by guṇa."
+    },
+    {
+      "verse": 37,
+      "sanskrit": "यत्तदग्रे विषमिव परिणामेऽमृतोपमम् |\nतत्सुखं सात्त्विकं प्रोक्तमात्मबुद्धिप्रसादजम् ||",
+      "transliteration": "yat tad agre viṣam iva pariṇāme ’mṛtopamam\ntat sukhaṁ sāttvikaṁ proktam ātma-buddhi-prasāda-jam",
+      "translation": "That happiness which in the beginning is like poison but in the end is like nectar, which is born of the serenity of one’s own mind — that is said to be in the mode of goodness.",
+      "modern": "Sattvic happiness: initially bitter/hard (discipline), eventually nectar-like (bliss), born of mental clarity. In practice: the joy of self-mastery, meditation, truth — hard at first, sweet forever. Krishna is describing long-term, soul-nourishing happiness."
+    },
+    {
+      "verse": 38,
+      "sanskrit": "विषयेन्द्रियसंयोगाद्यत्तदग्रेऽमृतोपमम् |\nपरिणामे विषमिव तत्सुखं राजसं स्मृतम् ||",
+      "transliteration": "viṣayendriya-saṁyogād yat tad agre ’mṛtopamam\npariṇāme viṣam iva tat sukhaṁ rājasaṁ smṛtam",
+      "translation": "That happiness which is derived from contact of the senses with their objects and which appears like nectar at first but poison at the end — that is said to be in the mode of passion.",
+      "modern": "Rajasic happiness: sweet at first (pleasure), poisonous later (hangover, loss, addiction). In practice: sensory highs — sex, food, drugs, scrolling — feel great initially, then bring suffering. Krishna is explaining why pleasure-seeking ultimately fails."
+    },
+    {
+      "verse": 39,
+      "sanskrit": "यदग्रे चानुबन्धं च सुखं मोहनमात्मनः |\nनिद्रालस्यप्रमादोत्थं तत्तामसमुदाहृतम् ||",
+      "transliteration": "yad agre cānubandhaṁ ca sukhaṁ mohanam ātmanaḥ\nnidrālasya-pramādotthaṁ tat tāmasam udāhṛtam",
+      "translation": "And that happiness which is blind to self-realization, which is delusion from beginning to end, and which arises from sleep, laziness and illusion — that is said to be in the mode of ignorance.",
+      "modern": "Tamasic happiness: delusive from start to finish, born of sleep, laziness, carelessness. In practice: binge-watching, oversleeping, escapism — feels good momentarily, but deepens confusion and inertia. Krishna is describing numbing pleasure — ultimately destructive to the soul."
+    },
+    {
+      "verse": 40,
+      "sanskrit": "न तदस्ति पृथिव्यां वा दिवि देवेषु वा पुनः |\nसत्त्वं प्रकृतिजैर्मुक्तं यदेभिः स्यात्त्रिभिर्गुणैः ||",
+      "transliteration": "na tad asti pṛthivyāṁ vā divi deveṣu vā punaḥ\nsattvaṁ prakṛti-jair muktaṁ yad ebhiḥ syāt tribhir guṇaiḥ",
+      "translation": "There is no being existing, either here or among the demigods in the higher planetary systems, who is free from these three modes born of material nature.",
+      "modern": "No being on earth or among the gods is free from the three guṇas born of nature. This is the universal scope. In practice: everyone and everything in manifestation is under guna influence — no escape within prakriti. Krishna is saying: transcendence is the only way out — rise above the three modes."
+    },
+    {
+      "verse": 41,
+      "sanskrit": "ब्राह्मणक्षत्रियविशां शूद्राणां च परन्तप |\nकर्माणि प्रविभक्तानि स्वभावप्रभवैर्गुणैः ||",
+      "transliteration": "brāhmaṇa-kṣatriya-viśāṁ śūdrāṇāṁ ca parantapa\nkarmāṇi pravibhaktāni svabhāva-prabhavair guṇaiḥ",
+      "translation": "O chastiser of the enemy, the duties of the brāhmaṇas, kṣatriyas, vaiśyas and śūdras are distributed according to the qualities born of their own nature.",
+      "modern": "The duties of the four varṇas (brāhmaṇa, kṣatriya, vaiśya, śūdra) are divided according to guṇas born of their nature. Krishna introduces varṇa-dharma. In practice: social roles arise from natural guṇa constitution — not arbitrary or birth-based in essence. This verse explains varṇa as guna-based division of labor."
+    },
+    {
+      "verse": 42,
+      "sanskrit": "शमो दमस्तपः शौचं क्षान्तिरार्जवमेव च |\nज्ञानं विज्ञानमास्तिक्यं ब्रह्मकर्म स्वभावजम् ||",
+      "transliteration": "śamo damas tapaḥ śaucaṁ kṣāntir ārjavam eva ca\njñānaṁ vijñānam āstikyaṁ brahma-karma svabhāva-jam",
+      "translation": "Peacefulness, self-control, austerity, purity, tolerance, honesty, knowledge, wisdom and religiousness — these are the natural qualities by which the brāhmaṇas work.",
+      "modern": "Brāhmaṇa qualities: serenity, sense control, austerity, purity, forgiveness, simplicity, knowledge, realization, faith. In practice: the contemplative/intellectual temperament — inner discipline, wisdom, spiritual orientation. Krishna is describing the sattva-dominant nature suited to teaching, counseling, research, priesthood."
+    },
+    {
+      "verse": 43,
+      "sanskrit": "शौर्यं तेजो धृतिर्दाक्ष्यं युद्धे चाप्यपलायनम् |\nदानमीश्वरभावश्च क्षात्रं कर्म स्वभावजम् ||",
+      "transliteration": "śauryaṁ tejo dhṛtir dākṣyaṁ yuddhe cāpy apalāyanam\ndānam īśvara-bhāvaś ca kṣātraṁ karma svabhāva-jam",
+      "translation": "Heroism, power, determination, resourcefulness, courage in battle, generosity and leadership — these are the natural qualities of work for the kṣatriyas.",
+      "modern": "Kṣatriya qualities: valor, energy, steadiness, skill, not fleeing in battle, generosity, leadership. In practice: the protective/administrative temperament — courage, responsibility, protection of dharma. Krishna describes the rajas-dominant nature suited to governance, defense, management."
+    },
+    {
+      "verse": 44,
+      "sanskrit": "कृषिगौरक्ष्यवाणिज्यं वैश्यकर्म स्वभावजम् |\nपरिचर्यामात्मकं कर्म शूद्रस्यापि स्वभावजम् ||",
+      "transliteration": "kṛṣi-gaurakṣya-vāṇijyaṁ vaiśya-karma svabhāva-jam\nparicaryātmakaṁ karma śūdrasyāpi svabhāva-jam",
+      "translation": "Farming, cow protection and business are the natural work for the vaiśyas, and for the śūdras there are labor and service to others.",
+      "modern": "Vaiśya: agriculture, animal care, trade. Śūdra: service and labor. In practice: vaiśya — production, commerce, sustenance; śūdra — support, service, execution. Krishna describes the practical, service-oriented natures — sattva-rajas mix for vaiśya, tamas-rajas for śūdra. This verse completes the varṇa classification by guṇa."
+    },
+    {
+      "verse": 45,
+      "sanskrit": "स्वे स्वे कर्मण्यभिरतः संसिद्धिं लभते नरः |\nस्वकर्मनिरतः सिद्धिं यथा विन्दति तच्छृणु ||",
+      "transliteration": "sve sve karmaṇy abhirataḥ saṁsiddhiṁ labhate naraḥ\nsva-karma-nirataḥ siddhiṁ yathā vindati tac chṛṇu",
+      "translation": "By following his qualities of work, every man can become perfect. Now hear from Me how this can be done.",
+      "modern": "By engaging in one’s own prescribed duty, a person attains perfection. Krishna promises: follow your svadharma → reach siddhi. In practice: don’t imitate others’ roles — do your own with excellence and detachment. This verse is the key to social harmony and personal fulfillment — right action in right role leads to liberation."
+    },
+    {
+      "verse": 46,
+      "sanskrit": "यतः प्रवृत्तिर्भूतानां येन सर्वमिदं ततम् |\nस्वकर्मणा तमभ्यर्च्य सिद्धिं विन्दति मानवः ||",
+      "transliteration": "yataḥ pravṛttir bhūtānāṁ yena sarvam idaṁ tatam\nsva-karmaṇā tam abhyarcya siddhiṁ vindati mānavaḥ",
+      "translation": "By worship of the Lord, who is the source of all beings and who is all-pervading, a man can attain perfection through performing his own work.",
+      "modern": "Worship the source of all beings, who pervades everything, by doing your own duty — attain perfection. This is karma-yoga + bhakti. In practice: offer your svadharma to the Supreme — work becomes worship. Krishna is saying: your daily job, when offered to Me, becomes the path to liberation. This verse transforms ordinary life into yoga."
+    },
+    {
+      "verse": 47,
+      "sanskrit": "श्रेयान्स्वधर्मो विगुणः परधर्मात्स्वनुष्ठितात् |\nस्वभावनियतः कर्म कुर्वन्नाप्नोति किल्बिषम् ||",
+      "transliteration": "śreyān sva-dharmo viguṇaḥ para-dharmāt sv-anuṣṭhitāt\nsvabhāva-niyataḥ karma kurvannāpnoti kilbiṣam",
+      "translation": "It is better to engage in one’s own occupation, even though one may perform it imperfectly, than to accept another’s occupation and perform it perfectly. Duties prescribed according to one’s nature are never affected by sinful reactions.",
+      "modern": "Better one’s own duty (even imperfectly) than another’s perfectly. Duty according to nature incurs no sin. This is the famous svadharma verse. In practice: don’t abandon your natural role for something 'better-looking' — do your own with sincerity. Krishna is giving permission to be authentic — imperfect svadharma is better than perfect paradharma. This ends comparison and career envy."
+    },
+    {
       "verse": 48,
-      "sanskrit": "सहजं कर्म कौन्तेय सदोषमपि न त्यजेत् | सर्वारम्भा हि दोषेण धूमेनाग्निरिवावृताः ||",
-      "transliteration": "saha-jaṁ karma kaunteya sa-doṣam api na tyajet | sarvārambhā hi doṣeṇa dhūmenāgnir ivāvṛtāḥ",
-      "translation": "One should not give up work born of one's nature, even if it has faults. All endeavors are covered by some fault, as fire is covered by smoke.",
-      "modern": "Don't quit your thing just because it's imperfect. Everything has flaws. Every job has downsides. Every relationship has issues. Every path has obstacles. That's life. Perfectionism is just an excuse to avoid commitment. Do your work despite the imperfections. The fire is still there under the smoke. Keep going."
+      "sanskrit": "सहजं कर्म कौन्तेय सदोषमपि न त्यजेत् |\nसर्वारम्भा हि दोषेण धूमेनाग्निरिवावृताः ||",
+      "transliteration": "saha-jaṁ karma kaunteya sadoṣam api na tyajet\nsarvārambhā hi doṣeṇa dhūmenāgnir ivāvṛtāḥ",
+      "translation": "Every endeavor is covered by some fault, just as fire is covered by smoke. Therefore one should not give up the work born of his nature, O son of Kunti, even though such work is full of fault.",
+      "modern": "All undertakings have some defect, like fire covered by smoke — don’t abandon svabhāva-born work because of flaws. In practice: every job/role has downsides — do yours anyway. Krishna is giving realistic encouragement — perfection is not the goal; sincere performance is. This verse liberates from perfectionism."
+    },
+    {
+      "verse": 49,
+      "sanskrit": "असक्तबुद्धिः सर्वत्र जितात्मा विगतस्पृहः |\nनैष्कर्म्यसिद्धिं परमां संन्यासेनाधिगच्छति ||",
+      "transliteration": "asakta-buddhiḥ sarvatra jitātmā vigata-spṛhaḥ\nnaiṣkarmya-siddhiṁ paramāṁ saṁnyāsenādhigacchati",
+      "translation": "One whose mind is unattached to everything, who has conquered the self, who is free from desire — by such renunciation he attains the supreme perfection of freedom from karma.",
+      "modern": "Unattached intellect, self-controlled, desireless — through such renunciation one attains the highest perfection of actionlessness. In practice: inner detachment + self-mastery + desire-freedom → true saṁnyāsa. Krishna is describing the state of one who has transcended karma — liberated while acting. This is jīvanmukti."
+    },
+    {
+      "verse": 50,
+      "sanskrit": "सिद्धिं प्राप्तो यथा ब्रह्म तथाप्नोति निबोध मे |\nसमासेनैव कौन्तेय निष्ठा ज्ञानस्य या परा ||",
+      "transliteration": "siddhiṁ prāpto yathā brahma tathāpnoti nibodha me\nsamāsenaiva kaunteya niṣṭhā jñānasya yā parā",
+      "translation": "O son of Kunti, learn from Me in brief how one who has attained perfection also attains Brahman, the supreme stage of knowledge.",
+      "modern": "Krishna promises to explain briefly how the perfected one reaches Brahman — the highest state of knowledge. In practice: this is the transition to jñāna — how action leads to wisdom. The chapter now moves from karma to jñāna."
+    },
+    {
+      "verse": 51,
+      "sanskrit": "बुद्ध्या विशुद्धया युक्तो धृत्याऽऽत्मानं नियम्य च |\nशब्दादीन् विषयांस्त्यक्त्वा रागद्वेषौ व्युदस्य च ||",
+      "transliteration": "buddhyā viśuddhayā yukto dhṛtyā ātmānaṁ niyamya ca\nśabdādīn viṣayāṁs tyaktvā rāga-dveṣau vyudasya ca",
+      "translation": "Being purified by his intelligence and constantly controlling the mind with determination, giving up the objects of sense gratification and being freed from attachment and hatred —",
+      "modern": "Purified intellect, steady mind-control, renouncing sense objects, abandoning liking/disliking. In practice: clear thinking, firm resolve, sense withdrawal, emotional neutrality. Krishna is describing the preparatory discipline for jñāna — inner purification and detachment."
+    },
+    {
+      "verse": 52,
+      "sanskrit": "विविक्तदेशसेवित्वमरतिर्जनसंसदि |\nध्यानं चैव तथात्मानं संन्यस्य परमं गतिम् ||",
+      "transliteration": "vivikta-deśa-sevitvam aratir jana-saṁsadi\ndhyānaṁ caiva tathātmānaṁ saṁnyasya paramaṁ gatim",
+      "translation": "Living in a secluded place, not taking pleasure in the company of ordinary men, meditating constantly on the Supreme Truth — thus one attains the supreme goal.",
+      "modern": "Solitude, disinterest in mundane socializing, constant meditation on the Self — thus reaching the supreme goal. In practice: withdrawal from distractions, preference for contemplation, unbroken focus on the Divine. Krishna is describing the contemplative life that ripens jñāna."
+    },
+    {
+      "verse": 53,
+      "sanskrit": "बुद्धिं विशुद्धां युक्त्वा धृत्याऽऽत्मानं नियम्य च |\nशब्दादीन् विषयांस्त्यक्त्वा रागद्वेषौ व्युदस्य च ||",
+      "transliteration": "buddhiṁ viśuddhāṁ yuktvā dhṛtyā ātmānaṁ niyamya ca\nśabdādīn viṣayāṁs tyaktvā rāga-dveṣau vyudasya ca",
+      "translation": "Being purified by his intelligence and constantly controlling the mind with determination, giving up the objects of sense gratification and being freed from attachment and hatred —",
+      "modern": "(This verse repeats elements from v. 51 for emphasis.) Purified intellect, steady self-control, renouncing sense objects, abandoning rāga/dveṣa. Krishna is reinforcing the prerequisites — inner purity and detachment are non-negotiable for true knowledge."
+    },
+    {
+      "verse": 54,
+      "sanskrit": "मद्भक्तिं लभते परां यतः सिद्धिं परां गतः |\nमद्भक्तिं लभते पार्थ ततो मां वेत्ति तत्त्वतः ||",
+      "transliteration": "mad-bhaktiṁ labhate parāṁ yataḥ siddhiṁ parāṁ gataḥ\nmad-bhaktiṁ labhate pārtha tato māṁ vetti tattvataḥ",
+      "translation": "One who has attained the supreme perfection through such knowledge attains pure devotional service unto Me. Thereafter, being fully established in devotional service, he knows Me in truth.",
+      "modern": "From this perfection arises supreme devotion to Me. Through that devotion one knows Me in truth. This is the chapter’s bhakti climax. In practice: jñāna perfected leads to bhakti; bhakti perfected leads to true knowledge of Krishna. Krishna is saying: knowledge culminates in love; love reveals Me as I am. This verse unites jñāna and bhakti — the path of wisdom ends in loving relationship with the Supreme Person."
+    },
+    {
+      "verse": 55,
+      "sanskrit": "भक्त्या मामभिजानाति यावान्यश्चास्मि तत्त्वतः |\nततो मां तत्त्वतो ज्ञात्वा विशते तदनन्तरम् ||",
+      "transliteration": "bhaktyā mām abhijānāti yāvān yaś cāsmi tattvataḥ\ntato māṁ tattvato jñātvā viśate tad-anantaram",
+      "translation": "One can understand Me as I am, as the Supreme Personality of Godhead, only by devotional service. And when one is in full consciousness of Me by such devotion, he can enter into My kingdom.",
+      "modern": "Only by bhakti can one truly know Me as I am. Knowing Me in truth through devotion, one enters My abode. This is one of the most famous verses in the Gita. In practice: intellectual knowledge alone cannot grasp the personal God — only loving devotion does. Krishna is saying: bhakti is the only way to know Me completely and enter Vaikuṇṭha. This verse is the Gita’s ultimate declaration — devotion is the supreme path."
+    },
+    {
+      "verse": 56,
+      "sanskrit": "सर्वकर्माण्यपि सदा कुर्वाणो मद्व्यपाश्रयः |\nमत्प्रसादादवाप्नोति शाश्वतं पदमव्ययम् ||",
+      "transliteration": "sarva-karmāṇy api sadā kurvāṇo mad-vyapāśrayaḥ\nmat-prasādād avāpnoti śāśvataṁ padam avyayam",
+      "translation": "Though always engaged in all kinds of activities, one who is under My protection, by My grace attains the eternal, imperishable abode.",
+      "modern": "Even while performing all duties, one who takes refuge in Me attains the eternal abode by My grace. This is the promise of bhakti-yoga. In practice: stay active in the world, but depend on Krishna — His grace carries you home. This verse reassures householders — you don’t need to quit life; just take shelter in Me."
+    },
+    {
+      "verse": 57,
+      "sanskrit": "चेतसा सर्वकर्माणि मयि संन्यस्य मत्परः |\nबुद्धियोगमुपाश्रित्य मच्चित्तः सततं भव ||",
+      "transliteration": "cetasā sarva-karmāṇi mayi saṁnyasya mat-paraḥ\nbuddhi-yogam upāśritya mac-cittaḥ satataṁ bhava",
+      "translation": "In all activities just depend upon Me, work always under My protection. In such devotional service, be fully conscious of Me.",
+      "modern": "Krishna’s direct instruction: offer every action to Me with your mind, take refuge in buddhi-yoga (yoga of intelligence), always keep your consciousness fixed on Me. In practice: this is the essence of bhakti-karma-yoga — act, but mentally surrender everything to Krishna. No separation between work and worship. This verse is the practical heart of surrender — live with constant awareness of Him."
+    },
+    {
+      "verse": 58,
+      "sanskrit": "मच्चित्तः सर्वदुर्गाणि मत्प्रसादात्तरिष्यसि |\nअथ चेत्त्वमहङ्कारान्न श्रोष्यसि विनङ्क्ष्यसि ||",
+      "transliteration": "mac-cittaḥ sarva-durgāṇi mat-prasādāt tariṣyasi\natha cet tvam ahaṅkārān na śroṣyasi vinaṅkṣyasi",
+      "translation": "If you become conscious of Me, you will pass over all the obstacles of conditioned life by My grace. If, however, you do not work in such consciousness but act through false ego, not hearing Me, you will be lost.",
+      "modern": "With mind fixed on Me, by My grace you will overcome all difficulties. But if ego makes you ignore Me, you will be ruined. This is Krishna’s promise and warning. In practice: devotion + grace = safe passage through life’s storms. Ego + disobedience = downfall. This verse is both reassurance and ultimatum — surrender brings protection; pride brings destruction."
+    },
+    {
+      "verse": 59,
+      "sanskrit": "यदहङ्कारमाश्रित्य न योत्स्य इति मन्यसे |\nमिथ्यैष व्यवसायस्ते प्रकृतिस्त्वां नियोक्ष्यति ||",
+      "transliteration": "yad ahaṅkāram āśritya na yotsya iti manyase\nmithyaiṣa vyavasāyas te prakṛtis tvāṁ niyokṣyati",
+      "translation": "If you do not act according to My direction and do not fight, then you will be falsely directed. By your nature, you will have to be engaged in warfare.",
+      "modern": "If ego makes you think 'I won’t fight', that resolve is false — your nature (svabhāva) will compel you anyway. Krishna reminds Arjuna: your kṣatriya nature will force action regardless. In practice: you cannot escape duty by egoistic refusal — prakṛti (nature) acts through you. This verse teaches inevitability of svadharma — better to act consciously than be dragged unconsciously."
+    },
+    {
+      "verse": 60,
+      "sanskrit": "स्वभावजेन कौन्तेय निबद्धः स्वेन कर्मणा |\nकर्तुं नेच्छसि यन्मोहात्तत्करिष्यस्यवश्यः ||",
+      "transliteration": "svabhāva-jena kaunteya nibaddhaḥ svena karmaṇā\nkartuṁ necchasi yan mohāt tat kariṣyasy avaśyaḥ",
+      "translation": "Under illusion you are now declining to act according to My direction. But, compelled by the work born of your own nature, you will act all the same, O son of Kunti.",
+      "modern": "Under delusion you refuse My instruction — but bound by your own nature-born karma, you will act anyway. Krishna is showing Arjuna the futility of resistance. In practice: you can’t really 'quit' your svadharma — nature compels. Better to act with surrender than be forced by karma. This verse removes illusion of free will in the conditioned state."
+    },
+    {
+      "verse": 61,
+      "sanskrit": "ईश्वरः सर्वभूतानां हृद्देशेऽर्जुन तिष्ठति |\nभ्रामयन्सर्वभूतानि यन्त्रारूढानि मायया ||",
+      "transliteration": "īśvaraḥ sarva-bhūtānāṁ hṛd-deśe ’rjuna tiṣṭhati\nbhrāmayan sarva-bhūtāni yantrārūḍhāni māyayā",
+      "translation": "The Supreme Lord is situated in everyone’s heart, O Arjuna, and is directing the wanderings of all living entities, who are seated as on a machine, made of the material energy.",
+      "modern": "The Lord dwells in every heart, directing all beings as if they are seated on a machine, turned by māyā. This is the famous 'yantra' verse. In practice: we are not independent — the Supreme controls all movements through māyā. This ends egoic pride and fear — surrender to the inner Controller. Krishna is revealing divine providence."
+    },
+    {
+      "verse": 62,
+      "sanskrit": "तमेव शरणं गच्छ सर्वभावेन भारत |\nतत्प्रसादात्परां शान्तिं स्थानं प्राप्स्यसि शाश्वतम् ||",
+      "transliteration": "tam eva śaraṇaṁ gaccha sarva-bhāvena bhārata\ntat-prasādāt parāṁ śāntiṁ sthānaṁ prāpsyasi śāśvatam",
+      "translation": "Surrender exclusively unto Him with all your being, O Bharata. By His grace you will attain transcendental peace and the eternal abode.",
+      "modern": "Take refuge in Him with all your heart — by His grace attain supreme peace and the eternal abode. This is the Gita’s repeated call to surrender. In practice: full-hearted śaraṇāgati → divine grace → peace + Vaikuṇṭha. Krishna is giving the simplest, surest path — total surrender. This verse is pure bhakti essence."
+    },
+    {
+      "verse": 63,
+      "sanskrit": "इति ते ज्ञानमाख्यातं गुह्याद्गुह्यतरं मया |\nविमृश्यैतदशेषेण यथेच्छसि तथा कुरु ||",
+      "transliteration": "iti te jñānam ākhyātaṁ guhyād guhyataraṁ mayā\nvimṛśyaitad aśeṣeṇa yathecchasi tathā kuru",
+      "translation": "Thus I have explained to you knowledge still more confidential. Deliberate on this fully, and then do what you wish to do.",
+      "modern": "I have given you the most secret knowledge — reflect on it completely, then do as you choose. Krishna gives Arjuna full freedom after full teaching. In practice: the Gita is not dogmatic — understand deeply, then decide. This verse respects free will — Krishna teaches, but never forces."
+    },
+    {
+      "verse": 64,
+      "sanskrit": "सर्वगुह्यतमं भूयः शृणु मे परमं वचः |\nइष्टोऽसि मे दृढमिति ततो वक्ष्यामि ते हितम् ||",
+      "transliteration": "sarva-guhyatamaṁ bhūyaḥ śṛṇu me paramaṁ vacaḥ\niṣṭo ’si me dṛḍham iti tato vakṣyāmi te hitam",
+      "translation": "Because you are My very dear friend, I am speaking to you My supreme instruction, the most confidential knowledge of all. Hear this from Me for your benefit.",
+      "modern": "Because you are so dear to Me, I tell you again My most confidential words — for your highest good. Krishna reaffirms friendship and love. In practice: this is not cold philosophy — it is a friend speaking heart-to-heart. This verse melts the heart — the Supreme is speaking personally for Arjuna’s (and our) benefit."
+    },
+    {
+      "verse": 65,
+      "sanskrit": "मन्मना भव मद्भक्तो मद्याजी मां नमस्कुरु |\nमामेवैष्यसि सत्यं ते प्रतिजाने प्रियोऽसि मे ||",
+      "transliteration": "man-manā bhava mad-bhakto mad-yājī māṁ namaskuru\nmām evaiṣyasi satyaṁ te pratijāne priyo ’si me",
+      "translation": "Always think of Me, become My devotee, worship Me and offer your homage unto Me. Thus you will come to Me without fail. I promise you this because you are My very dear friend.",
+      "modern": "Fix your mind on Me, be My devotee, worship Me, bow to Me — you will come to Me. I promise this truly — you are dear to Me. This is the famous fourfold path of bhakti. In practice: constant remembrance + devotion + worship + surrender = guaranteed union. Krishna swears by His friendship — this is the simplest, surest promise in the Gita."
     },
     {
       "verse": 66,
-      "sanskrit": "सर्वधर्मान्परित्यज्य मामेकं शरणं व्रज | अहं त्वां सर्वपापेभ्यो मोक्षयिष्यामि मा शुचः ||",
-      "transliteration": "sarva-dharmān parityajya mām ekaṁ śaraṇaṁ vraja | ahaṁ tvāṁ sarva-pāpebhyo mokṣayiṣyāmi mā śucaḥ",
-      "translation": "Abandon all varieties of dharma and surrender unto Me alone. I shall deliver you from all sinful reactions. Do not fear.",
-      "modern": "This is the final word: Let go of everything you think you know, all your rules and should's and have-to's, and just surrender to what IS. Trust the process. Trust life. Trust the universe. Stop trying to control everything. You don't have to figure it all out. Just be open, be present, do your best, and let go. Everything will be okay. Stop worrying."
+      "sanskrit": "सर्वधर्मान्परित्यज्य मामेकं शरणं व्रज |\nअहं त्वा सर्वपापेभ्यो मोक्षयिष्यामि मा शुचः ||",
+      "transliteration": "sarva-dharmān parityajya mām ekaṁ śaraṇaṁ vraja\nahaṁ tvā sarva-pāpebhyo mokṣayiṣyāmi mā śucaḥ",
+      "translation": "Abandon all varieties of dharma and just surrender unto Me. I shall deliver you from all sinful reactions. Do not fear.",
+      "modern": "Give up all other dharmas — take exclusive refuge in Me. I will liberate you from all sins. Fear not. This is the most famous verse in the Gita — the śaraṇāgati verse. In practice: ultimate surrender — drop everything else, rely only on Krishna. He promises complete protection and liberation. This verse is the Gita’s climax — pure grace, pure love, pure fearlessness."
+    },
+    {
+      "verse": 67,
+      "sanskrit": "इदं ते नातपस्काय नाभक्ताय कदाचन |\nन चाशुश्रूषवे वाच्यं न च मां योऽभ्यसूयति ||",
+      "transliteration": "idaṁ te nātapaskāya nābhaktāya kadācana\nna cāśuśrūṣave vācyaṁ na ca māṁ yo ’bhyasūyati",
+      "translation": "This confidential knowledge may never be explained to those who are not austere, devoted, engaged in devotional service, nor to one who is envious of Me.",
+      "modern": "Never speak this secret teaching to the non-austere, non-devoted, non-service-oriented, or to one who envies Me. Krishna gives the qualifications for receiving the Gita. In practice: this knowledge is sacred — share only with sincere, humble, devoted seekers. This verse protects the teaching from misuse or ridicule."
+    },
+    {
+      "verse": 68,
+      "sanskrit": "य इदं परमं गुह्यं मद्भक्तेष्वभिधास्यति |\nभक्तिं मयि परां कृत्वा मामेवैष्यत्यसंशयः ||",
+      "transliteration": "ya idaṁ paramaṁ guhyaṁ mad-bhakteṣv abhidhāsyati\nbhaktiṁ mayi parāṁ kṛtvā mām evaiṣyaty asaṁśayaḥ",
+      "translation": "For one who explains this supreme secret to the devotees, pure devotional service is guaranteed, and at the end he will come back to Me without fail.",
+      "modern": "Whoever shares this supreme secret with My devotees, with supreme devotion to Me, will undoubtedly come to Me. Krishna promises the reward for preaching. In practice: teaching the Gita to sincere devotees brings liberation. This verse encourages sharing — spread the knowledge with love."
+    },
+    {
+      "verse": 69,
+      "sanskrit": "न च तस्मान्मनुष्येषु कश्चिन्मे प्रियकृत्तमः |\nभविता न च मे तस्मादन्यः प्रियतरो भुवि ||",
+      "transliteration": "na ca tasmān manuṣyeṣu kaścin me priya-kṛttamaḥ\nbhavitā na ca me tasmād anyaḥ priyataro bhuvi",
+      "translation": "There is no servant in this world more dear to Me than he, nor will there ever be one more dear to Me.",
+      "modern": "No one is more dear to Me than the one who teaches this secret — nor will there ever be. Krishna declares the highest love for the Gita-preacher. In practice: sharing the Gita sincerely makes you supremely dear to the Divine. This verse is the ultimate encouragement — become a teacher of this knowledge."
+    },
+    {
+      "verse": 70,
+      "sanskrit": "अध्येष्यते च य इमं धर्म्यं संवादमावयोः |\nज्ञानयज्ञेन तेनाहमिष्टः स्यामिति मे मतिः ||",
+      "transliteration": "adhyeṣyate ca ya imaṁ dharmyaṁ saṁvādam āvayoḥ\njñāna-yajñena tenāham iṣṭaḥ syām iti me matiḥ",
+      "translation": "And one who studies this sacred dialogue between us will worship Me through the sacrifice of knowledge. This is My opinion.",
+      "modern": "Whoever studies our sacred conversation worships Me through jñāna-yajña (sacrifice of knowledge). Krishna values even study as worship. In practice: reading, reflecting, discussing the Gita is itself devotion — a form of sacrifice. This verse makes Gita study sacred."
+    },
+    {
+      "verse": 71,
+      "sanskrit": "श्रद्धावाननसूयश्च शृणुयादपि यो नरः |\nसोऽपि मुक्तः शुभाँल्लोकान्प्राप्नुयात्पुण्यकर्मणाम् ||",
+      "transliteration": "śraddhāvān anasūyaś ca śṛṇuyād api yo naraḥ\nso ’pi muktaḥ śubhāṁl lokān prāpnuyāt puṇya-karmaṇām",
+      "translation": "And one who listens with faith and without envy becomes free from sinful reactions and attains to the auspicious planets where the pious dwell.",
+      "modern": "Whoever hears with faith and without envy becomes free from sin and reaches the pious worlds. Krishna extends grace to listeners too. In practice: sincere hearing (śravaṇa) purifies and elevates — even without deep practice. This verse is inclusive — faith + non-envy = liberation."
+    },
+    {
+      "verse": 72,
+      "sanskrit": "कच्चिदेतच्छ्रुतं पार्थ त्वयैकाग्रेण चेतसा |\nकच्चिदज्ञानसंमोहः प्रणष्टस्ते धनञ्जय ||",
+      "transliteration": "kaccid etac chrutaṁ pārtha tvayaikāgreṇa cetasā\nkaccid ajñāna-saṁmohaḥ praṇaṣṭas te dhanañjaya",
+      "translation": "My dear Arjuna, O son of Pritha, have you heard this with single-minded attention? Have your ignorance and illusions been dispelled?",
+      "modern": "Krishna checks: have you heard with full focus? Has your ignorance and delusion gone? This is the guru’s loving inquiry. In practice: after deep teaching, the teacher asks — are you transformed? Krishna is ensuring Arjuna has truly understood."
+    },
+    {
+      "verse": 73,
+      "sanskrit": "अर्जुन उवाच |\nनष्टो मोहः स्मृतिर्लब्धा त्वत्प्रसादान्मयाच्युत |\nस्थितोऽस्मि गतसन्देहः करिष्ये वचनं तव ||",
+      "transliteration": "arjuna uvāca\nnaṣṭo mohaḥ smṛtir labdhā tvat-prasādān mayācyuta\nsthito ’smi gata-sandehaḥ kariṣye vacanaṁ tava",
+      "translation": "Arjuna said: My dear Krishna, O infallible one, my illusion is now gone. I have regained my memory by Your mercy. I am now firm and free from doubt and am prepared to act according to Your instructions.",
+      "modern": "Arjuna’s final declaration: illusion gone, memory restored by Your grace, doubt dispelled, I stand firm — I will do as You say. This is Arjuna’s complete surrender. In practice: the Gita has worked — confusion ends, resolve returns. Arjuna is ready to fight as Krishna’s instrument. This verse is the fruit of the dialogue — transformation through divine grace."
+    },
+    {
+      "verse": 74,
+      "sanskrit": "सञ्जय उवाच |\nइत्यहं वासुदेवस्य पार्थस्य च महात्मनः |\nसंवादमिममश्रौषं रोमहर्षणम् ||",
+      "transliteration": "sañjaya uvāca\nity ahaṁ vāsudevasya pārthasya ca mahātmanaḥ\nsaṁvādam imam aśrauṣaṁ roma-harṣaṇam",
+      "translation": "Sañjaya said: Thus I have heard the wonderful conversation between Vāsudeva and the great-souled Arjuna, which causes the hair to stand on end.",
+      "modern": "Sañjaya reports: I have heard this thrilling dialogue between Krishna and noble Arjuna — hair-raising. In practice: the Gita is not ordinary talk — it is divine revelation that thrills the soul. Sañjaya’s awe mirrors the reader’s."
+    },
+    {
+      "verse": 75,
+      "sanskrit": "व्यासप्रसादात् श्रुतवान् एतद् गुह्यमहं परम् |\nयोगं योगेश्वरात् कृष्णात् साक्षात् कथयतः स्वयम् ||",
+      "transliteration": "vyāsa-prasādāt śrutavān etad guhyam ahaṁ param\nyogaṁ yogeśvarāt kṛṣṇāt sākṣāt kathayataḥ svayam",
+      "translation": "By the mercy of Vyāsa I have heard this most confidential yoga directly from the master of all mystics, Lord Krishna, as He was speaking personally.",
+      "modern": "By Vyāsa’s mercy, I heard this supreme secret yoga directly from Krishna Himself. Sañjaya acknowledges divine grace. In practice: the Gita is heard through guru-paramparā (Vyāsa → Sañjaya). This verse reminds us of transmission — knowledge comes by grace."
+    },
+    {
+      "verse": 76,
+      "sanskrit": "राजन्संस्मृत्य संस्मृत्य संवादमिममद्भुतम् |\nकेशवार्जुनयोः पुण्यं हृष्यामि च मुहुर्मुहुः ||",
+      "transliteration": "rājan saṁsmṛtya saṁsmṛtya saṁvādam imam adbhutam\nkeśavārjunayoḥ puṇyaṁ hṛṣyāmi ca muhur muhuḥ",
+      "translation": "O King, as I repeatedly recall this wonderful and holy dialogue between Krishna and Arjuna, I take pleasure again and again.",
+      "modern": "O King, remembering this sacred, wondrous conversation between Keśava and Arjuna, I rejoice again and again. Sañjaya’s ecstasy. In practice: the Gita is not just knowledge — it is joy-giving. Repeated remembrance brings bliss. This verse invites us to keep returning to the text."
+    },
+    {
+      "verse": 77,
+      "sanskrit": "तच्च संस्मृत्य संस्मृत्य रूपमत्यद्भुतं हरेः |\nविस्मयो मे महान् राजन् हृष्यामि च पुनः पुनः ||",
+      "transliteration": "tac ca saṁsmṛtya saṁsmṛtya rūpam atyadbhutaṁ hareḥ\nvismayo me mahān rājan hṛṣyāmi ca punaḥ punaḥ",
+      "translation": "O King, as I remember again and again this astonishing form of Lord Hari, great is my wonder, and I rejoice again and again.",
+      "modern": "Recalling repeatedly Hari’s astonishing universal form, I am filled with wonder and joy again and again. Sañjaya remembers Ch. 11. In practice: the cosmic vision lingers — wonder and bliss. This verse shows the lasting impact of divine revelation."
     },
     {
       "verse": 78,
-      "sanskrit": "यत्र योगेश्वरः कृष्णो यत्र पार्थो धनुर्धरः | तत्र श्रीर्विजयो भूतिर्ध्रुवा नीतिर्मतिर्मम ||",
-      "transliteration": "yatra yogeśvaraḥ kṛṣṇo yatra pārtho dhanur-dharaḥ | tatra śrīr vijayo bhūtir dhruvā nītir matir mama",
-      "translation": "Wherever there is Krishna, the master of yoga, and Arjuna, the wielder of the bow, there will certainly be opulence, victory, power and morality.",
-      "modern": "When you combine higher wisdom (Krishna) with disciplined action (Arjuna), success is inevitable. When your spiritual practice meets your real-world hustle, magic happens. You need both - the vision AND the execution. Meditation without action is escapism. Action without wisdom is exhausting. Put them together? You're unstoppable. That's the whole teaching right there."
+      "sanskrit": "यत्र योगेश्वरः कृष्णो यत्र पार्थो धनुर्धरः |\nतत्र श्रीर्विजयो भूतिर्ध्रुवा नीतिर्मतिर्मम ||",
+      "transliteration": "yatra yogeśvaraḥ kṛṣṇo yatra pārtho dhanur-dharaḥ\ntatra śrīr vijayo bhūtir dhruvā nītir matir mama",
+      "translation": "Wherever there is Krishna, the master of all mystics, and wherever there is Arjuna, the supreme archer, there will also certainly be opulence, victory, extraordinary power, and morality. That is my opinion.",
+      "modern": "Where Krishna (yogeśvara) and Arjuna (archer) are present — there is śrī (fortune), vijaya (victory), bhūti (prosperity), dhruvā nīti (firm morality). Sañjaya’s final benediction. In practice: Krishna + surrendered devotee = success, wealth, power, righteousness. This is the Gita’s closing blessing — wherever divine grace and human surrender meet, all good things follow. The scripture ends on this triumphant, hopeful note."
     }
   ]
 }
