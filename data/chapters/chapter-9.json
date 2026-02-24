@@ -1,23 +1,247 @@
 {
   "number": 9,
-  "title": "Royal Knowledge",
+  "title": "The Most Confidential Knowledge",
   "sanskrit": "राजविद्याराजगुह्ययोग",
   "verses": 34,
-  "introduction": "Krishna reveals the most confidential knowledge - the path of devotion and how to remember Him in all circumstances.",
+  "introduction": "Chapter 9 of the Bhagavad Gita, Raja Vidya Raja Guhya Yoga (The Yoga of the Most Confidential Knowledge), is widely regarded as one of the most intimate, direct, and emotionally powerful chapters in the entire text. Krishna now reveals the royal secret — the highest, most hidden knowledge — to Arjuna because of his sincere friendship and devotion. This chapter is Krishna’s loving declaration: 'I am going to tell you the most confidential truth about Myself, about how I pervade everything yet remain untouched, about why most people miss Me, and about the simplest, surest way back to Me.' For modern readers — especially those tired of complicated spiritual systems, dry philosophy, endless self-help loops, or feeling distant from the Divine — Chapter 9 is pure nectar. Krishna explains His opulent, all-pervading nature while simultaneously revealing His personal, loving, approachable side. He contrasts the paths of impersonalism and devotion, shows why even great souls sometimes fall, and ends with the famous promise of protection and deliverance for anyone who turns to Him with love. In 2026 life — full of isolation, identity confusion, performance anxiety, and spiritual consumerism — this chapter feels like Krishna personally sitting next to you, saying: 'Here is the secret. Just love Me. That’s enough.' The essence is preserved intact: the highest knowledge is relational — knowing the Supreme Person as the source of everything, yet loving Him as your dearest friend and protector.",
   "shlokas": [
     {
+      "verse": 1,
+      "sanskrit": "श्रीभगवानुवाच |\nइदं तु ते गुह्यतमं प्रवक्ष्याम्यनसूयवे |\nज्ञानं विज्ञानसहितं यज्ज्ञात्वा मोक्ष्यसेऽशुभात् ||",
+      "transliteration": "śrī-bhagavān uvāca\nidaṁ tu te guhyatamaṁ pravakṣyāmy anasūyave\njñānaṁ vijñāna-sahitaṁ yaj jñātvā mokṣyase ’śubhāt",
+      "translation": "The Supreme Personality of Godhead said: My dear Arjuna, because you are never envious of Me, I shall impart to you this most confidential knowledge and realization, knowing which you shall be freed from the miseries of material existence.",
+      "modern": "Krishna begins with affection and trust: 'Because you are free from envy, I’m going to share the most secret knowledge with you — knowledge combined with direct realization — and once you truly know it, all suffering ends.' This is the tone of a best friend opening his heart. In 2026 life: most people approach spirituality with envy ('why does that person have peace/success/devotion and I don’t?'), competition, or skepticism. Krishna says: drop envy — sincere, open-hearted listening allows the deepest truths to enter. This verse sets the emotional safety needed for revelation. When the heart is non-envious, the highest knowledge flows easily. This is why humility and friendship with the Divine matter more than intellectual sharpness."
+    },
+    {
+      "verse": 2,
+      "sanskrit": "राजविद्या राजगुह्यं पवित्रमिदमुत्तमम् |\nप्रत्यक्षावगमं धर्म्यं सुसुखं कर्तुमव्ययम् ||",
+      "transliteration": "rāja-vidyā rāja-guhyaṁ pavitram idam uttamam\npratyakṣāvagamaṁ dharmyaṁ su-sukhaṁ kartum avyayam",
+      "translation": "This knowledge is the king of education, the most secret of all secrets. It is the purest, and because it gives direct perception of the self by realization, it is the perfection of religion. It is everlasting, and it is joyfully performed.",
+      "modern": "Krishna calls this teaching the royal knowledge, the royal secret — purest, directly experiential, righteous, eternally joyful to practice, and imperishable. In today’s world of information overload and spiritual consumerism, this is the claim: here is the highest education — not more data, but direct realization that brings joy and lasts forever. Most self-help or philosophy feels effortful or temporary; Krishna says this path is naturally joyful and never lost. This verse creates excitement and trust: what I’m about to tell you is the crown jewel — simple, joyful, direct, eternal. Listen with your whole heart."
+    },
+    {
+      "verse": 3,
+      "sanskrit": "अश्रद्दधानाः पुरुषा धर्मस्यास्य परन्तप |\nअप्राप्य मां निवर्तन्ते मृत्युसंसारवर्त्मनि ||",
+      "transliteration": "aśraddadhānāḥ puruṣā dharmasyāsya parantapa\naprāpya māṁ nivartante mṛtyu-saṁsāra-vartmani",
+      "translation": "Those who are not faithful in this devotional service cannot attain Me, O conqueror of enemies. Therefore they return to the path of birth and death in this material world.",
+      "modern": "Without faith in this path of devotion, one cannot reach Me — they remain trapped in the cycle of birth and death. Krishna is clear: faith is the entry ticket. In 2026 life: many people read spiritual books, meditate, do yoga — but without trust/surrender, they stay stuck in the same loops of anxiety, comparison, and temporary highs. Faith here means confident trust that the Divine is real, loving, and approachable. Without it, even good practices remain superficial. This verse is gentle but firm: faith opens the door. Doubt keeps it closed. Krishna invites trust — not blind belief, but the willingness to lean in and test the relationship."
+    },
+    {
+      "verse": 4,
+      "sanskrit": "मया ततमिदं सर्वं जगदव्यक्तमूर्तिना |\nमत्स्थानि सर्वभूतानि न चाहं तेष्ववस्थितः ||",
+      "transliteration": "mayā tatam idaṁ sarvaṁ jagad avyakta-mūrtinā\nmat-sthāni sarva-bhūtāni na cāhaṁ teṣv avasthitaḥ",
+      "translation": "By Me, in My unmanifested form, this entire universe is pervaded. All beings are in Me, but I am not in them.",
+      "modern": "Krishna reveals the paradox of divine omnipresence: I permeate everything in My unmanifest form — all beings exist in Me — yet I am not limited by them. In 2026 terms: the Divine is the field in which everything appears, like space containing all objects without being touched by them. You are in God, but God is not confined to you. This ends the idea of a distant deity. Everything is soaked in the Divine — yet the Divine transcends everything. This is non-dual yet personal. Knowing this brings both intimacy ('I’m never alone') and awe ('the Divine is infinite beyond me')."
+    },
+    {
+      "verse": 5,
+      "sanskrit": "न च मत्स्थानि भूतानि पश्य मे योगमैश्वरम् |\nभूतभृन्न च भूतस्थो ममात्मा भूतभावनः ||",
+      "transliteration": "na ca mat-sthāni bhūtāni paśya me yogam aiśvaram\nbhūta-bhṛn na ca bhūta-stho mamātmā bhūta-bhāvanaḥ",
+      "translation": "And yet everything that is created does not rest in Me. Behold My mystic opulence! Although I am the maintainer of all living entities and although I am everywhere, I am not part of this cosmic manifestation, for My Self is the very source of creation.",
+      "modern": "Nothing actually rests in Me — see My divine power! I support all beings, I’m everywhere, yet I’m not limited by the creation — My Self is the source. This deepens the paradox: the Divine is the ground of being yet untouched by it. In practice: everything happens within the Divine field, but the Divine is not affected by the happenings. This gives radical freedom — your mistakes, sufferings, achievements don’t taint the Supreme. Krishna invites wonder: 'Look at My mystic opulence!' This verse evokes awe and surrender — the Divine is simultaneously the closest reality and the most transcendent mystery."
+    },
+    {
+      "verse": 6,
+      "sanskrit": "यथाकाशस्थितो नित्यं वायुः सर्वत्रगो महान् |\nतथा सर्वाणि भूतानि मत्स्थानीत्युपधारय ||",
+      "transliteration": "yathākāśa-sthito nityaṁ vāyuḥ sarvatra-go mahān\ntathā sarvāṇi bhūtāni mat-sthānīty upadhāraya",
+      "translation": "Understand that as the mighty wind, blowing everywhere, rests always in the sky, all created beings rest in Me.",
+      "modern": "Just as the vast wind moves everywhere yet always rests in space, all beings rest in Me. This is a beautiful analogy for divine immanence. In 2026: everything — your thoughts, feelings, actions, the entire universe — moves within the infinite space of the Divine. Nothing is separate. You are held, supported, contained every moment. This ends existential loneliness. Krishna is saying: relax — you are already resting in Me. The wind doesn’t fall out of the sky; you don’t fall out of the Divine. This verse brings deep comfort and security."
+    },
+    {
+      "verse": 7,
+      "sanskrit": "सर्वभूतानि कौन्तेय प्रकृतिं यान्ति मामिकाम् |\nकल्पक्षये पुनस्तानि कल्पादौ विसृजाम्यहम् ||",
+      "transliteration": "sarva-bhūtāni kaunteya prakṛtiṁ yānti māmikām\nkalpa-kṣaye punas tāni kalpādau visṛjāmy aham",
+      "translation": "O son of Kunti, at the end of the millennium all material manifestations enter into My nature, and at the beginning of another millennium I create them again.",
+      "modern": "At the end of cosmic cycles, all beings enter My material energy; at the beginning, I send them forth again. This describes the breathing of the universe — creation, maintenance, dissolution. In 2026 terms: everything is cyclic — universes expand and contract, just like breaths or heartbeats. Krishna is the eternal constant amid cosmic change. This verse puts human life in vast perspective: our dramas are tiny within infinite cycles. Knowing this brings detachment and wonder — the Divine orchestrates it all."
+    },
+    {
+      "verse": 8,
+      "sanskrit": "प्रकृतिं स्वामवष्टभ्य विसृजामि पुनः पुनः |\nभूतग्राममिमं कृत्स्नमवशं प्रकृतेर्वशात् ||",
+      "transliteration": "prakṛtiṁ svām avaṣṭabhya visṛjāmi punaḥ punaḥ\nbhūta-grāmam imaṁ kṛtsnam avaśaṁ prakṛter vaśāt",
+      "translation": "The whole cosmic order is under Me. Under My will it is automatically manifested again and again, and under My will it is annihilated at the end.",
+      "modern": "Under My control, I manifest and dissolve the entire cosmos repeatedly. Everything happens under My will — automatically through nature. This is divine sovereignty. In practice: nothing is random or out of control. The Divine is the supreme orchestrator. This ends victim consciousness — even suffering is part of a larger divine rhythm. Krishna is revealing lordship over creation. Knowing this brings surrender and peace: the universe is in good hands."
+    },
+    {
+      "verse": 9,
+      "sanskrit": "न च मां तानि कर्माणि निबध्नन्ति धनञ्जय |\nउदासीनवदासीनमसक्तं तेष्वकर्मसु ||",
+      "transliteration": "na ca māṁ tāni karmāṇi nibadhnanti dhanañjaya\nudāsīnavad āsīnam asaktaṁ teṣv akarmasu",
+      "translation": "O Dhananjaya, all these activities cannot bind Me. I am ever detached, seated as though neutral.",
+      "modern": "These cosmic actions do not bind Me — I remain detached, neutral, uninvolved. This is divine transcendence. In 2026 terms: the Supreme is the witness of all drama — creator yet untouched by creation. This gives the ultimate role model: act in the world but remain free inside. Krishna shows it’s possible to be fully engaged (creating universes) yet completely detached. This is the goal of karma yoga — do everything, own nothing. Knowing the Divine is never bound inspires us to aspire for the same freedom."
+    },
+    {
+      "verse": 10,
+      "sanskrit": "मयाध्यक्षेण प्रकृतिः सूयते सचाराचरम् |\nहेतुनानेन कौन्तेय जगद्विपरिवर्तते ||",
+      "transliteration": "mayādhyakṣeṇa prakṛtiḥ sūyate sa-carācaram\nhetunānena kaunteya jagad viparivartate",
+      "translation": "This material nature, which is one of My energies, is working under My direction, O son of Kunti, producing all moving and nonmoving beings. Under its rule this manifestation is created and annihilated again and again.",
+      "modern": "Material nature (prakriti) works under My supervision, creating and dissolving all beings repeatedly. Krishna is the overseer — nature is the executive force. In practice: evolution, physics, biology, birth/death — all operate under divine intelligence. This ends materialistic reductionism. The universe is not blind chance — it’s intelligently directed. This brings wonder and trust: even chaos has purpose. Krishna is revealing cosmic governance — everything is managed from the top."
+    },
+    {
+      "verse": 11,
+      "sanskrit": "अवजानन्ति मां मूढा मानुषीं तनुमाश्रितम् |\nपरं भावमजानन्तो मम सर्वं परं तपः ||",
+      "transliteration": "avajānanti māṁ mūḍhā mānuṣīṁ tanum āśritam\nparaṁ bhāvam ajānanto mama sarvaṁ paraṁ tapaḥ",
+      "translation": "Fools deride Me when I descend in the human form. They do not know My transcendental nature as the Supreme Lord of all that be.",
+      "modern": "Fools mock Me when I appear in human form, not knowing My supreme nature and lordship over everything. This addresses the common disbelief: 'How can God be a person? How can the infinite take a body?' Krishna is saying: when the Divine descends personally (avatars), many miss it because they see only the human form and not the divine reality behind it. In 2026: people dismiss spiritual figures, avatars, or even sincere devotees because 'they’re just human.' Krishna is explaining the veil: the supreme hides in plain sight. This verse invites humility — don’t judge by appearances. The Divine can appear in human form and still be infinite."
+    },
+    {
+      "verse": 12,
+      "sanskrit": "मोघाशा मोघकर्माणो मोघज्ञाना विचेतसः |\nराक्षसीमासुरीं चैव प्रकृतिं मोहिनीं श्रिताः ||",
+      "transliteration": "mogha-āśā mogha-karmāṇo mogha-jñānā vicetasaḥ\nrākṣasīm āsurīṁ caiva prakṛtiṁ mohinīṁ śritāḥ",
+      "translation": "Those who are thus bewildered are attracted to demonic and atheistic views. In that deluded condition, their hopes for liberation, their fruitive activities, and their culture of knowledge are all defeated.",
+      "modern": "Those who mock the Divine form end up with demonic/atheistic views — their hopes, actions, and knowledge become fruitless. This is the consequence of rejection. In practice: dismissing the personal Divine leads to emptiness — even good actions become mechanical, knowledge becomes dry, hope fades. Krishna is compassionate but clear: rejecting the personal aspect blocks the heart. This verse warns against cynicism and arrogance toward divine revelation. Stay open — mockery closes doors."
+    },
+    {
+      "verse": 13,
+      "sanskrit": "महात्मानस्तु मां पार्थ दैवीं प्रकृतिमाश्रिताः |\nभजन्त्यनन्यमनसो ज्ञात्वा भूतादिमव्ययम् ||",
+      "transliteration": "mahātmānastu māṁ pārtha daivīṁ prakṛtim āśritāḥ\nbhajanty ananya-manaso jñātvā bhūtādim avyayam",
+      "translation": "O son of Pritha, those who are not deluded, the great souls, are under the protection of the divine nature. They are fully engaged in devotional service because they know Me as the Supreme Personality of Godhead, original and inexhaustible.",
+      "modern": "The great souls take refuge in divine nature, worship Me single-mindedly, knowing Me as the eternal origin of all beings. This is the portrait of the mahatma. In 2026: the rare person who sees beyond appearances, takes shelter in the Divine, and loves with undivided heart — that’s the great soul. They are protected by divine energy. Krishna is saying: the ones who truly know Me as the imperishable source naturally love and serve Me exclusively. This is the natural state of the awakened heart. This verse inspires aspiration — become one of these great souls."
+    },
+    {
+      "verse": 14,
+      "sanskrit": "सततं कीर्तयन्तो मां यतन्तश्च दृढव्रताः |\nनमस्यन्तश्च मां भक्त्या नित्ययुक्ता उपासते ||",
+      "transliteration": "satataṁ kīrtayanto māṁ yatantaś ca dṛḍha-vratāḥ\nnamasyantaś ca māṁ bhaktyā nitya-yuktā upāsate",
+      "translation": "Always chanting My glories, endeavoring with great determination, bowing down before Me, these great souls perpetually worship Me with devotion.",
+      "modern": "The great souls constantly glorify Me, strive with firm resolve, bow to Me, and worship Me with steady devotion. This is the daily life of the devotee. In practice: chant (kirtan, mantra, gratitude), effort with determination, humility (bowing), loving worship — always connected. In 2026: sing bhajans in the car, strive ethically at work, practice gratitude daily, offer everything with love. This is not complicated — it’s joyful constancy. Krishna is describing the rhythm of a heart in love with the Divine. This verse makes devotion feel alive and accessible."
+    },
+    {
+      "verse": 15,
+      "sanskrit": "ज्ञानयज्ञेन चाप्यन्ये यजन्तो मामुपासते |\nएकत्वेन पृथक्त्वेन बहुधा विश्वतोमुखम् ||",
+      "transliteration": "jñāna-yajñena cāpy anye yajanto mām upāsate\nekatvena pṛthaktvena bahudhā viśvato-mukham",
+      "translation": "Others, who engage in the cultivation of knowledge, worship the Supreme Lord as the one without a second, or as diverse in many forms, or as the universal form.",
+      "modern": "Some worship through knowledge — seeing the Divine as one, as many, or as the cosmic form. Krishna accepts all sincere approaches. In 2026: some love the personal form (bhakti), some prefer impersonal oneness (jnana), some see divinity in multiplicity or the whole universe. All are valid when sincere. Krishna is inclusive — He meets every sincere seeker in their chosen way. This ends sectarianism. Whether you chant names, meditate on formless awareness, or see God in nature — if it’s with love and knowledge, it reaches Him."
+    },
+    {
+      "verse": 16,
+      "sanskrit": "अहं क्रतुरहं यज्ञः स्वधाहमहौषधम् |\nमन्त्रोऽहमहमीज्यं हुतमग्निरहं हविः ||",
+      "transliteration": "ahaṁ kratur ahaṁ yajñaḥ svadhāham ahoṣadham\nmantro ’ham aham ijyam hutam agnir ahaṁ haviḥ",
+      "translation": "But it is I who am the ritual, I the sacrifice, the offering to the ancestors, the medicinal herb, the transcendental chant. I am the butter, the fire, and the act of offering.",
+      "modern": "Krishna declares: I am the ritual, the sacrifice, the offering, the mantra, the ghee, the fire, the oblation — everything in worship is Me. This is total divine immanence in devotion. In practice: every puja, prayer, meditation, act of service — the Divine is both the doer and the done. This removes separation in worship. When you light incense, chant, offer food — it’s the Divine offering to the Divine. This verse makes every spiritual act intimate and complete. Krishna is everywhere in the path of love."
+    },
+    {
+      "verse": 17,
+      "sanskrit": "पिताहमस्य जगतो माता धाता पितामहः |\nवेद्यं पवित्रमोङ्कार ऋक्साम यजुरेव च ||",
+      "transliteration": "pitāham asya jagato mātā dhātā pitāmahaḥ\nvedyaṁ pavitram oṅkāra ṛk sāma yajur eva ca",
+      "translation": "I am the father of this universe, the mother, the support and the grandsire. I am the object of knowledge, the purifier and the syllable om. I am also the Rig, the Sama and the Yajur Vedas.",
+      "modern": "Krishna claims all parental and sacred roles: father, mother, sustainer, grandfather, object of knowledge, purifier, Om, and all Vedas. This is comprehensive divinity — personal, nurturing, scriptural, vibrational. In practice: the Divine is both the cosmic parent who cares for you and the sacred sound/ knowledge you seek. This ends the distant-God concept. Krishna is the loving source and the goal of all seeking. This verse evokes deep trust and gratitude — you are held by the One who is everything sacred."
+    },
+    {
+      "verse": 18,
+      "sanskrit": "गतिर्भर्ता प्रभुः साक्षी निवासः शरणं सुहृत् |\nप्रभवः प्रलयः स्थानं निधानं बीजमव्ययम् ||",
+      "transliteration": "gatir bhartā prabhuḥ sākṣī nivāsaḥ śaraṇaṁ suhṛt\nprabhavaḥ pralayaḥ sthānaṁ nidhānaṁ bījam avyayam",
+      "translation": "I am the goal, the sustainer, the master, the witness, the abode, the refuge, and the most dear friend. I am the creation and the annihilation, the basis of everything, the resting place and the eternal seed.",
+      "modern": "Krishna lists His roles: goal, maintainer, lord, witness, home, shelter, dearest friend, origin, dissolution, foundation, storehouse, imperishable seed. This is the most intimate self-revelation. In 2026 life: the Divine is your purpose, your support, your silent observer, your true home, your safe refuge, your closest friend. When you feel lost, unsupported, alone — Krishna says: I am all these for you. This verse heals loneliness, abandonment, and purposelessness. The Supreme is not distant — He is your everything. Rest in that."
+    },
+    {
+      "verse": 19,
+      "sanskrit": "तपाम्यहमहं वर्षं निगृह्णाम्युत्सृजामि च |\nअमृतं चैव मृत्युश्च सदसच्चाहमर्जुन ||",
+      "transliteration": "tapāmy aham ahaṁ varṣaṁ nigṛhṇāmy utsṛjāmi ca\namṛtaṁ caiva mṛtyuś ca sad-asac cāham arjuna",
+      "translation": "O Arjuna, I give heat, and I withhold and send forth the rain. I am immortality, and I am also death personified. Both spirit and matter are in Me.",
+      "modern": "I send heat (sun), control rain, I am both immortality and death, existence and non-existence. Krishna claims both poles — life/death, spirit/matter. This ends dualistic thinking. In practice: heat of summer, refreshing rain, birth, death — all are divine expressions. The Divine includes opposites. This brings acceptance: don’t fear death — it’s part of Me. Don’t cling to life — it’s also Me. Everything is held in the Supreme. This verse gives cosmic peace."
+    },
+    {
+      "verse": 20,
+      "sanskrit": "त्रैविद्या मां सोमपाः पूतपापा यज्ञैरिष्ट्वा स्वर्गति प्रार्थयन्ति |\nते पुण्यमासाद्य सुरेन्द्रलोकमश्नन्ति दिव्यान्दिवि देवभोगान् ||",
+      "transliteration": "trai-vidyā māṁ soma-pāḥ pūta-pāpā yajñair iṣṭvā svar-gatiṁ prārthayanti\nte puṇyam āsādya surendra-lokam aśnanti divyān divi deva-bhogān",
+      "translation": "Those who study the Vedas and drink soma juice, seeking the heavenly planets, worship Me indirectly. Purified of sinful reactions, they take birth on the pious, heavenly planet of Indra, where they enjoy godly delights.",
+      "modern": "Vedic ritualists who seek heaven through sacrifice reach heavenly planets and enjoy divine pleasures. Krishna acknowledges this path — it’s valid but indirect and temporary. In 2026: many spiritual practices aim for better circumstances, health, success, or afterlife rewards. Krishna says: those work — you get what you ask for. But they’re secondary. The higher path is direct devotion to Me, not for rewards. This verse is non-judgmental but clear: heaven is nice, but not the final goal."
+    },
+    {
+      "verse": 21,
+      "sanskrit": "ते तं भुक्त्वा स्वर्गलोकं विशालं क्षीणे पुण्ये मर्त्यलोकं विशन्ति |\nएवं त्रयीधर्ममनुप्रपन्ना गतागतं कामकामा लभन्ते ||",
+      "transliteration": "te taṁ bhuktvā svarga-lokaṁ viśālaṁ kṣīṇe puṇye martya-lokaṁ viśanti\nevaṁ trayī-dharmam anuprapannā gatāgataṁ kāma-kāmā labhante",
+      "translation": "After enjoying such a vast heavenly pleasure and when their merit is exhausted, they return to this mortal planet again. Thus those who seek sense enjoyment by adhering to the principles of the three Vedas achieve only repeated birth and death.",
+      "modern": "Heavenly enjoyment ends when merit runs out — then return to earth. Those attached to Vedic rituals for desire-fulfillment cycle between heaven and earth. This explains why even good people keep returning. In practice: desire-driven spirituality (even religious) gives temporary highs but not liberation. Krishna is saying: if your practice is motivated by wanting better experiences, you stay in the cycle. Aim higher — desire only Me. This verse motivates transcendence of reward-based spirituality."
+    },
+    {
       "verse": 22,
-      "sanskrit": "अनन्याश्चिन्तयन्तो मां ये जनाः पर्युपासते | तेषां नित्याभियुक्तानां योगक्षेमं वहाम्यहम् ||",
-      "transliteration": "ananyāś cintayanto māṁ ye janāḥ paryupāsate | teṣāṁ nityābhiyuktānāṁ yoga-kṣemaṁ vahāmy aham",
-      "translation": "To those who worship Me with devotion, meditating on Me constantly, I preserve what they have and provide what they lack.",
-      "modern": "When you're fully committed to your purpose, the universe conspires to help you. Not in a magical way, but because single-minded focus creates opportunities you'd otherwise miss. When you're 100% in, resources appear, people show up, doors open. It's not that you're lucky - it's that you're paying attention and ready. Commitment attracts support."
+      "sanskrit": "अनन्याश्चिन्तयन्तो मां ये जनाः पर्युपासते |\nतेषां नित्याभियुक्तानां योगक्षेमं वहाम्यहम् ||",
+      "transliteration": "ananyāś cintayanto māṁ ye janāḥ paryupāsate\nteṣāṁ nityābhiyuktānāṁ yoga-kṣemaṁ vahāmy aham",
+      "translation": "But those who always worship Me with exclusive devotion, meditating on My transcendental form — to them I carry what they lack, and I preserve what they have.",
+      "modern": "The famous yoga-kshema verse: to those who are constantly devoted, thinking only of Me, I personally carry what they lack and preserve what they have. This is Krishna’s personal promise of protection and provision. In 2026 life: the one who loves and remembers the Divine single-pointedly — the Divine takes responsibility for their needs and security. No more anxiety about 'how will I manage?' Krishna says: I’ve got you. This verse is the heart-melter — the Divine offers to be your caretaker. Trust + exclusive devotion = divine provision. This is the simplest path to peace."
+    },
+    {
+      "verse": 23,
+      "sanskrit": "येऽप्यन्यदेवता भक्ता यजन्ते श्रद्धयान्विताः |\nतेऽपि मामेव कौन्तेय यजन्त्यविधिपूर्वकम् ||",
+      "transliteration": "ye ’py anya-devatā bhaktā yajante śraddhayānvitāḥ\nte ’pi mām eva kaunteya yajanty avidhi-pūrvakam",
+      "translation": "Those who are devotees of other demigods worship them with faith, but their worship actually goes to Me alone, though it is not in the proper way.",
+      "modern": "Even those who worship other deities with faith are actually worshiping Me — but imperfectly. Krishna is inclusive and honest. In 2026: people pray to various forms, saints, angels, forces — Krishna says: all sincere worship reaches Me. But the direct path is better. This removes religious conflict — all true devotion flows to the same Source. Krishna accepts all — yet invites direct relationship. This verse promotes unity without compromising truth."
+    },
+    {
+      "verse": 24,
+      "sanskrit": "अहं हि सर्वयज्ञानां भोक्ता च प्रभुरेव च |\nन तु मामभिजानन्ति तत्त्वेनातश्च्यवन्ति ते ||",
+      "transliteration": "ahaṁ hi sarva-yajñānāṁ bhoktā ca prabhur eva ca\nna tu mām abhijānanti tattvenātaś cyavanti te",
+      "translation": "I am the only enjoyer and master of all sacrifices. Therefore, those who do not recognize My true transcendental nature fall down.",
+      "modern": "I alone am the enjoyer and lord of all worship. Those who don’t know Me in truth fall away. Krishna clarifies: all offerings ultimately reach Him — He is the true recipient. Misunderstanding this leads to downfall. In practice: don’t think your prayers go to a separate deity — they reach the Supreme. Knowing Krishna as the ultimate enjoyer aligns everything. This verse reinforces monotheism in a polytheistic context — all worship converges on One. Know the truth and stay steady."
+    },
+    {
+      "verse": 25,
+      "sanskrit": "यान्ति देवव्रता देवान्पितृन्यान्ति पितृव्रताः |\nभूतानि यान्ति भूतेज्या यान्ति मद्याजिनोऽपि माम् ||",
+      "transliteration": "yānti deva-vratā devān pitṛn yānti pitṛ-vratāḥ\nbhūtāni yānti bhūtejyā yānti mad-yājino ’pi mām",
+      "translation": "Those who worship the demigods will take birth among the demigods; those who worship the ancestors go to the ancestors; those who worship ghosts and spirits will take birth among such beings; and those who worship Me will live with Me.",
+      "modern": "You go to whatever you worship. Worship devas → reach devas. Worship ancestors → reach ancestors. Worship spirits → reach spirits. Worship Me → reach Me. This is the law of attraction at the soul level. In 2026: what you focus on grows — spiritually too. Obsess over money, fame, power → stay bound to those realms. Focus on the Supreme → reach the Supreme. Krishna is saying: choose your destination by choosing your object of love. This verse is empowering — your devotion shapes your destiny. Choose wisely — aim for the highest."
+    },
+    {
+      "verse": 26,
+      "sanskrit": "पत्रं पुष्पं फलं तोयं यो मे भक्त्या प्रयच्छति |\nतदहं भक्त्युपहृतमश्नामि प्रयतात्मनः ||",
+      "transliteration": "patraṁ puṣpaṁ phalaṁ toyaṁ yo me bhaktyā prayacchati\ntad ahaṁ bhakty-upahṛtam aśnāmi prayatātmanaḥ",
+      "translation": "If one offers Me with love and devotion a leaf, a flower, fruit or water, I will accept it.",
+      "modern": "The most famous and beloved verse in the Gita: offer even a leaf, flower, fruit, or water with love — I accept it. This is divine accessibility. In 2026: you don’t need grand rituals or wealth — a simple offering with pure heart is enough. The Divine doesn’t need your gifts — He needs your love. This verse removes all barriers: rich or poor, educated or not, anyone can approach with a sincere offering. Krishna is saying: 'Just give Me your heart — that’s all I want.' This is the sweetest invitation in spiritual literature."
     },
     {
       "verse": 27,
-      "sanskrit": "यत्करोषि यदश्नासि यज्जुहोषि ददासि यत् | यत्तपस्यसि कौन्तेय तत्कुरुष्व मदर्पणम् ||",
-      "transliteration": "yat karoṣi yad aśnāsi yaj juhoṣi dadāsi yat | yat tapasyasi kaunteya tat kuruṣva mad-arpaṇam",
-      "translation": "Whatever you do, whatever you eat, whatever you offer or give away, and whatever austerities you perform - do that as an offering to Me.",
-      "modern": "Make everything sacred. Cooking dinner? Do it with love. Going to work? See it as service. Even brushing your teeth can be an act of self-care and gratitude for your body. When you shift your perspective to see ordinary actions as meaningful, your whole life becomes spiritual practice. You don't need to be in a temple 24/7. You're always in the temple."
+      "sanskrit": "यत्करोषि यदश्नासि यज्जुहोषि ददासि यत् |\nयत्तपस्यसि कौन्तेय तत्कुरुष्व मदर्पणम् ||",
+      "transliteration": "yat karoṣi yad aśnāsi yaj juhoṣi dadāsi yat\nyat tapasyasi kaunteya tat kuruṣva mad-arpaṇam",
+      "translation": "Whatever you do, whatever you eat, whatever you offer or give away, and whatever austerities you perform — do that, O son of Kunti, as an offering to Me.",
+      "modern": "Offer everything to Me — every action, meal, gift, austerity. This is the complete karma yoga + bhakti integration. In daily life: eat offering the food, work offering the effort, give offering the help, practice offering the discipline. Turn ordinary life into continuous worship. Krishna is saying: you don’t need special time for devotion — make all time devotional. This verse transforms routine into sacredness. No separation between life and spirituality. Offer it all — and live free."
+    },
+    {
+      "verse": 28,
+      "sanskrit": "शुभाशुभफलैरेवं मोक्ष्यसे कर्मबन्धनैः |\nसंन्यासयोगयुक्तात्मा विमुक्तो मामुपैष्यसि ||",
+      "transliteration": "śubhāśubha-phalair evaṁ mokṣyase karma-bandhanaiḥ\nsaṁnyāsa-yoga-yuktātmā vimukto mām upaiṣyasi",
+      "translation": "In this way you will be freed from bondage to work and its auspicious and inauspicious results. With the mind fixed in renunciation and yoga, you will be liberated and come to Me.",
+      "modern": "By offering everything, you become free from karma bondage (good or bad results). With mind in renunciation and union, you reach Me liberated. This is the payoff. In practice: offer actions → no attachment to results → no bondage → freedom → union. Krishna is giving the complete method: offer + detach + unite = liberation. This verse promises the highest goal through the simplest practice. The path is joyful offering — the result is eternal relationship. This is the chapter’s climax — love Me, offer everything, and come home to Me."
+    },
+    {
+      "verse": 29,
+      "sanskrit": "समोऽहं सर्वभूतेषु न मे द्वेष्योऽस्ति न प्रियः |\nये भजन्ति तु मां भक्त्या मयि ते तेषु चाप्यहम् ||",
+      "transliteration": "samo ’haṁ sarva-bhūteṣu na me dveṣyo ’sti na priyaḥ\nye bhajanti tu māṁ bhaktyā mayi te teṣu cāpy aham",
+      "translation": "I envy no one, nor am I partial to anyone. I am equal to all. But whoever renders service unto Me in devotion is a friend, is in Me, and I am also a friend to him.",
+      "modern": "I am equal to all — no envy, no favoritism. But the one who serves Me with devotion is My friend, is in Me, and I am in them. This is the intimate mutual friendship. Krishna loves everyone equally — but the devotee enters a special reciprocal relationship. In 2026: the Divine is impartial — no one is rejected. But loving devotion creates a two-way bond. This is the essence of bhakti — friendship with God. You become dear to the Divine, and the Divine becomes dear to you. This verse melts separation forever."
+    },
+    {
+      "verse": 30,
+      "sanskrit": "अपि चेत्सुदुराचारो भजते मां अनन्यभाक् |\nसाधुरेव स मन्तव्यः सम्यग्व्यवसितो हि सः ||",
+      "transliteration": "api cet su-durācāro bhajate māṁ ananya-bhāk\nsādhur eva sa mantavyaḥ samyag vyavasito hi saḥ",
+      "translation": "Even if one commits the most abominable action, if he is engaged in devotional service he is to be considered saintly because he is properly situated in his determination.",
+      "modern": "Even if someone has the worst behavior — if they are devoted to Me exclusively, consider them saintly — their resolve is perfect. This is radical grace. In 2026: the person struggling with addiction, anger, past mistakes — if they turn to the Divine with sincere love, they are already on the path. Krishna judges the heart’s direction, not the external record. This verse gives hope to everyone — no one is disqualified. Sincere devotion overrides everything. This is why bhakti is called the easiest and highest path."
+    },
+    {
+      "verse": 31,
+      "sanskrit": "क्षिप्रं भवति धर्मात्मा शश्वच्छान्तिं निगच्छति |\nकौन्तेय प्रतिजानीहि न मे भक्तः प्रणश्यति ||",
+      "transliteration": "kṣipraṁ bhavati dharmātmā śaśvac chāntiṁ nigacchati\nkaunteya pratijānīhi na me bhaktaḥ praṇaśyati",
+      "translation": "He quickly becomes righteous and attains lasting peace. O son of Kunti, declare it boldly that My devotee never perishes.",
+      "modern": "They quickly become virtuous and attain eternal peace. Krishna’s solemn promise: My devotee never falls. This is the ultimate security. In practice: sincere devotion transforms character fast and brings unbreakable peace. Krishna swears: your devotion guarantees protection — you will not be lost. This verse is the Gita’s great comfort — once you turn to Him, He never lets go. This ends fear of failure or abandonment. The Divine says: 'You are Mine — and I never lose what is Mine.' Rest in that promise."
+    },
+    {
+      "verse": 32,
+      "sanskrit": "मां हि पार्थ व्यपाश्रित्य येऽपि स्युः पापयोनयः |\nस्त्रियो वैश्यास्तथा शूद्रास्तेऽपि यान्ति परां गतिम् ||",
+      "transliteration": "māṁ hi pārtha vyapāśritya ye ’pi syuḥ pāpa-yonayaḥ\nstriyo vaiśyās tathā śūdrās te ’pi yānti parāṁ gatim",
+      "translation": "O son of Pritha, those who take shelter in Me, though they be of lower birth — women, vaishyas [merchants] and shudras [workers] — can attain the supreme destination.",
+      "modern": "Even those considered of lower birth — women, merchants, laborers — by taking refuge in Me, reach the highest goal. Krishna breaks all social/spiritual barriers. In 2026: no one is excluded — regardless of gender, caste, class, education, past sins. Devotion equalizes everything. This verse was revolutionary then and remains revolutionary now. The Divine is open to all — the only qualification is sincere refuge. This ends elitism and opens the path to everyone. Krishna is saying: come as you are — I accept all who turn to Me."
+    },
+    {
+      "verse": 33,
+      "sanskrit": "किं पुनर्ब्राह्मणाः पुण्या भक्ता राजर्षयस्तथा |\nअनित्यमसुखं लोकमिमं प्राप्य भजस्व माम् ||",
+      "transliteration": "kiṁ punar brāhmaṇāḥ puṇyā bhaktā rājarṣayas tathā\nanityam asukhaṁ lokam imaṁ prāpya bhajasva mām",
+      "translation": "How much more this is so of the righteous brahmanas, the devotees and the saintly kings. Therefore, having come to this temporary, miserable world, engage in loving service unto Me.",
+      "modern": "If even the so-called 'lower' reach Me, then how much more the pure brahmanas, devoted kings, and saintly souls? Since this world is temporary and full of suffering, worship Me. Krishna is urging: this world is fleeting and painful — don’t waste it on temporary pursuits. Turn to loving service now. In practice: life is short and often hard — use it to build the eternal relationship. This verse combines urgency and invitation. Krishna is saying: you’re here in this difficult place — make the best use of it by loving Me. That’s the highest purpose."
+    },
+    {
+      "verse": 34,
+      "sanskrit": "मन्मना भव मद्भक्तो मद्याजी मां नमस्कुरु |\nमामेवैष्यसि युक्त्वैवमात्मानं मत्परायणः ||",
+      "transliteration": "man-manā bhava mad-bhakto mad-yājī māṁ namaskuru\nmām evaiṣyasi yuktvaivam ātmānaṁ mat-parāyaṇaḥ",
+      "translation": "Engage your mind always in thinking of Me, become My devotee, offer obeisances to Me and worship Me. Being completely absorbed in Me, surely you will come to Me.",
+      "modern": "The chapter’s beautiful conclusion — Krishna’s fourfold instruction: fix your mind on Me, be My devotee, bow to Me, worship Me. Absorbed in Me, you will come to Me. This is the essence of bhakti. In 2026 life: think of the Divine constantly, love Him, show respect, serve Him — that’s the path home. No complexity — just relationship. Krishna ends with the promise: do this and you reach Me. This verse is the simplest, most direct call to love. The entire Gita leads here — love Me with all your heart. That’s enough. That’s everything."
     }
   ]
 }
