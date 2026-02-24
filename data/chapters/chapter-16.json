@@ -1,23 +1,177 @@
 {
   "number": 16,
-  "title": "Divine and Demonic Natures",
+  "title": "The Divine and Demonic Natures",
   "sanskrit": "दैवासुरसम्पद्विभागयोग",
   "verses": 24,
-  "introduction": "Krishna describes the divine and demonic qualities in human beings, and the importance of following scriptural wisdom.",
+  "introduction": "Chapter 16 of the Bhagavad Gita, Daivāsura-sampad-vibhāga-yoga (The Yoga of the Division Between the Divine and Demonic Natures), is one of the most morally diagnostic and urgently practical chapters in the entire scripture. After revealing the Supreme Person and the path beyond the gunas (Ch. 15), Krishna now draws a stark, uncompromising line between two kinds of human character — the divine (daivi) and the demonic (asuri). He lists in detail the twenty-six qualities of the divine nature and the six hallmarks of the demonic nature, explains how each leads to opposite destinations (liberation vs bondage), warns against the three gates to hell (lust, anger, greed), and ends by urging Arjuna to follow scriptural authority rather than personal desire. For modern readers — especially those navigating cancel culture, moral relativism, social-media virtue-signaling, burnout from performative goodness, toxic positivity, and the quiet despair of 'everyone is just doing their best' — this chapter feels like a clear-eyed, no-nonsense mirror. Krishna does not sugar-coat: certain traits lead to freedom and joy; others lead to self-destruction and repeated suffering. The essence remains perfectly intact: the divine qualities arise naturally in one who is turning toward the Supreme; the demonic qualities arise from disconnection and self-centeredness; liberation comes from cultivating the former and rejecting the latter through surrender to scriptural guidance and devotion to the Divine.",
   "shlokas": [
     {
+      "verse": 1,
+      "sanskrit": "श्रीभगवानुवाच |\nअभयं सत्त्वसंशुद्धिर्ज्ञानयोगव्यवस्थितिः |\nदानं दमश्च यज्ञश्च स्वाध्यायस्तप आर्जवम् ||",
+      "transliteration": "śrī-bhagavān uvāca\nabhayaṁ sattva-saṁśuddhir jñāna-yoga-vyavasthitiḥ\ndānaṁ damaś ca yajñaś ca svādhyāyas tapa ārjavam",
+      "translation": "The Supreme Personality of Godhead said: Fearlessness, purification of one’s existence, cultivation of spiritual knowledge, charity, self-control, performance of sacrifice, study of the Vedas, austerity, simplicity —",
+      "modern": "Krishna begins the list of divine qualities: fearlessness, inner purity, steady practice of jñāna-yoga, generosity, sense control, regular sacrifice, scriptural study, austerity, straightforwardness. In 2026 life: courage (no fear of truth or loss), clean motives, consistent spiritual discipline, giving without strings, mastery over impulses, ritual/gratitude practice, lifelong learning from wisdom texts, simplicity of life, honesty without games. These are not optional virtues — they are natural expressions of a soul turning toward the Divine."
+    },
+    {
+      "verse": 2,
+      "sanskrit": "अहिंसा सत्यमक्रोधस्त्यागः शान्तिरपैशुनम् |\nदया भूतेष्वलोलुप्त्वा मार्दवं ह्रीरचापलम् ||",
+      "transliteration": "ahiṁsā satyam akrodhas tyāgaḥ śāntir apaiśunam\ndayā bhūteṣv aloluptvā mārdavaṁ hrīr acāpalam",
+      "translation": "Nonviolence, truthfulness, freedom from anger, renunciation, tranquility, aversion to faultfinding, compassion for all living entities, freedom from covetousness, gentleness, modesty, and steady determination —",
+      "modern": "Non-harm (physical/verbal/mental), truth in speech & action, angerlessness, letting go (of possessiveness), inner peace, no gossip/backbiting, kindness to all beings, non-greed, softness of heart, humility/shame at wrong, firm resolve. In practice: these are the interpersonal & inner signs of daivi sampad — harmless, honest, calm, generous, compassionate, content, gentle, humble, steady. Krishna is painting the character of one whose heart is aligned with the Divine."
+    },
+    {
+      "verse": 3,
+      "sanskrit": "तेजः क्षमा धृतिः शौचमद्रोहो नातिमानिता |\nभवन्ति सम्पदं दैवीमभिजातस्य भारत ||",
+      "transliteration": "tejaḥ kṣamā dhṛtiḥ śaucam adroho nātimānitā\nbhavanti sampadaṁ daivīm abhijātasya bhārata",
+      "translation": "Vigor, forgiveness, fortitude, cleanliness, freedom from envy, and the passion for honor — these transcendental qualities belong to godly men endowed with divine nature, O son of Bharata.",
+      "modern": "Radiance/energy, forgiveness, perseverance, purity (inner/outer), non-enviousness, appropriate sense of dignity — these complete the divine qualities. In 2026 terms: inner fire without burnout, quick to forgive, resilience, cleanliness of body/mind/space, no jealousy, healthy self-respect without arrogance. Krishna finishes the list of twenty-six divine traits — the character profile of one born with (or cultivating) daivi sampad. This is not moralizing — these qualities arise naturally when one turns toward the Supreme."
+    },
+    {
+      "verse": 4,
+      "sanskrit": "दम्भो दर्पोऽभिमानश्च क्रोधः पारुष्यमेव च |\nअज्ञानं चाभिजातस्य पार्थ सम्पदमासुरीम् ||",
+      "transliteration": "dambho darpo ’bhimānaś ca krodhaḥ pāruṣyam eva ca\najñānaṁ cābhijātasya pārtha sampadam āsurīm",
+      "translation": "Pride, arrogance, conceit, anger, harshness, and ignorance — these qualities belong to those who are born with the demonic nature, O son of Pritha.",
+      "modern": "Hypocrisy, pride, conceit, anger, rudeness, ignorance — these mark the asuri sampad. Krishna gives the six root demonic traits. In practice: pretense for image, inflated ego, entitlement, quick anger, harsh speech/behavior, willful ignorance. These are not occasional flaws — they are the default operating system of one disconnected from the Divine. This verse is diagnostic honesty — if these dominate, the trajectory is downward."
+    },
+    {
+      "verse": 5,
+      "sanskrit": "दैवी सम्पद्विमोक्षाय निबन्धायासुरी मता |\nमा शुचः सम्पदं दैवीमभिजातोऽसि पाण्डव ||",
+      "transliteration": "daivī sampad vimokṣāya nibandhāyāsurī matā\nmā śucaḥ sampadaṁ daivīm abhijāto ’si pāṇḍava",
+      "translation": "The transcendental qualities are conducive to liberation, whereas the demonic qualities are the cause of bondage. Do not lament, O son of Pandu, for you are born with the divine qualities.",
+      "modern": "Divine qualities → liberation; demonic → bondage. Krishna reassures Arjuna: don’t worry — you are born with daivi sampad. This is both diagnosis and encouragement. In practice: the two natures lead to opposite destinations — freedom vs entrapment. Krishna affirms Arjuna’s character — he has the divine traits. This verse removes fear and self-doubt: if you recognize and cultivate these qualities, you are already on the liberating path."
+    },
+    {
+      "verse": 6,
+      "sanskrit": "द्वौ भूतसर्गौ लोकेस्मिन् दैव आसुर एव च |\nदैवो विस्तरशः प्रोक्त आसुरं पार्थ मे शृणु ||",
+      "transliteration": "dvau bhūta-sargau loke ’smin daiva āsura eva ca\ndaivo vistaraśaḥ prokta āsuraṁ pārtha me śṛṇu",
+      "translation": "O son of Pritha, in this world there are two kinds of created beings. One is called the divine and the other is called the demonic. I have already explained to you at length the divine qualities. Now hear from Me of the demonic.",
+      "modern": "Two kinds of beings in this world: divine and demonic. I’ve explained the divine in detail — now hear about the demonic. Krishna is systematic — first the positive model, now the cautionary one. In practice: humanity divides into two trajectories — one toward light/freedom, one toward darkness/bondage. This verse frames the rest of the chapter as a warning against the asuri path."
+    },
+    {
+      "verse": 7,
+      "sanskrit": "असुर्यं प्रवृत्तिं न विदुर्न च निवृत्तिं च भारत |\nन शौचमस्ति नापि चाचारो न सत्यं तेषु विद्यते ||",
+      "transliteration": "āsuryaṁ pravṛttiṁ na vidur na ca nivṛttiṁ ca bhārata\nna śaucam asti nāpi cācāro na satyaṁ teṣu vidyate",
+      "translation": "Those who are demoniac do not know what is to be done and what is not to be done. Neither cleanliness nor proper behavior nor truth is found in them.",
+      "modern": "The demonic do not know right action from wrong, lack purity, proper conduct, and truth. Krishna lists the foundational defects. In practice: moral confusion, impurity (physical/mental), unethical behavior, dishonesty — these are the roots of the asuri nature. This is not judgment — it is observation. Krishna is showing how disconnection from dharma manifests."
+    },
+    {
+      "verse": 8,
+      "sanskrit": "असत्यमप्रतिष्ठं ते जगदाहुरनीश्वरम् |\nअपरस्परसम्भूतं किमन्यत्कामहैतुकम् ||",
+      "transliteration": "asatyam apratiṣṭhaṁ te jagad āhur anīśvaram\naparaspara-sambhūtaṁ kim anyat kāma-haitukam",
+      "translation": "They say that this world is unreal, with no foundation, no God in control. It is produced of sex desire and has no cause other than lust.",
+      "modern": "The demonic worldview: the world is false, baseless, godless, born only of lust, driven by desire alone. This is pure materialism/nihilism. In 2026 terms: 'life is just biology + chance + hedonism — no meaning, no higher power, no accountability.' Krishna is describing the philosophical foundation of the asuri nature — rejection of the Divine and ultimate meaning. This worldview naturally produces the behaviors that follow."
+    },
+    {
+      "verse": 9,
+      "sanskrit": "एतां दृष्टिमवष्टभ्य नष्टात्मानोऽल्पबुद्धयः |\nप्रभवन्त्युग्रकर्माणः क्षयाय जगतोऽहिताः ||",
+      "transliteration": "etāṁ dṛṣṭim avaṣṭabhya naṣṭātmāno ’lpa-buddhayaḥ\nprabhavanty ugra-karmāṇaḥ kṣayāya jagato ’hitāḥ",
+      "translation": "Following such a view, the demoniac, who are lost to themselves and have little intelligence, engage in unbeneficial, horrible works meant to destroy the world.",
+      "modern": "Embracing this vision, the demonic — self-lost, small-minded — perform cruel actions that harm and destroy the world. In practice: when meaning is denied, destruction follows — selfish, violent, exploitative behavior. Krishna is explaining cause-effect: reject the Divine → lose self → low intelligence → harmful actions. This verse warns of the societal danger of widespread demonic mentality."
+    },
+    {
+      "verse": 10,
+      "sanskrit": "काममाश्रित्य दुष्पूरं दम्भमानमदान्विताः |\nमोहात् गृहीत्वासद्ग्राह्यान् प्रवर्तन्तेऽशुचिव्रताः ||",
+      "transliteration": "kāmam āśritya duṣpūraṁ dambha-māna-madānvitāḥ\nmohāt gṛhītvāsad-grāhān pravartante ’śuci-vratāḥ",
+      "translation": "Taking shelter of insatiable lust, hypocrisy, pride and arrogance, the deluded demonic engage in unclean vows and actions.",
+      "modern": "Fueled by endless desire, pretense, pride, intoxication — deluded, they follow impure principles. In practice: insatiable craving + ego-posturing + arrogance = unethical, impure behavior. Krishna is showing how inner demonic traits manifest outwardly as immoral vows/actions. This is the psychology of corruption — desire without limit breeds hypocrisy and degradation."
+    },
+    {
+      "verse": 11,
+      "sanskrit": "चिन्तामपरिमेयां च प्रलयान्तामुपाश्रिताः |\nकामोपभोगपरमा एतावदिति निश्चिताः ||",
+      "transliteration": "cintām aparimeyāṁ ca pralayāntām upāśritāḥ\nkāmopabhoga-paramā etāvad iti niścitāḥ",
+      "translation": "They believe that to gratify the senses is the prime necessity of human civilization. Thus until the end of life their anxiety is immeasurable.",
+      "modern": "They think sense gratification is the highest goal of life — anxiety without limit until death. This is hedonistic materialism. In practice: 'eat, drink, enjoy, post, repeat' — endless craving creates endless worry. Krishna is describing the modern pursuit of pleasure as ultimate meaning — it produces perpetual anxiety. This verse diagnoses the root of collective restlessness."
+    },
+    {
+      "verse": 12,
+      "sanskrit": "आशापाशशतैर्बद्धाः कामक्रोधपरायणाः |\nईहन्ते कामभोगार्थमनन्यार्थार्थसंयुताः ||",
+      "transliteration": "āśā-pāśa-śatair baddhāḥ kāma-krodha-parāyaṇāḥ\nīhante kāma-bhogārtham ananyārthārtha-saṁyutāḥ",
+      "translation": "Bound by a network of hundreds of desires and absorbed in lust and anger, they strive to accumulate wealth by illegal means for sense gratification.",
+      "modern": "Tied by countless hopes, driven by lust & anger, they pursue wealth by unjust means for enjoyment. In practice: greed + rage → unethical accumulation → more desire → more bondage. Krishna is showing the vicious cycle of materialism. This verse explains much of modern corruption — desire and anger fuel illegal/unfair pursuit of pleasure."
+    },
+    {
+      "verse": 13,
+      "sanskrit": "इदमद्य मया लब्धमिदं प्राप्स्ये मनोरथम् |\nइदमस्तीदमपि मे भविष्यति पुनर्धनम् ||",
+      "transliteration": "idam adya mayā labdham idaṁ prāpsye manoratham\nidam astīdam api me bhaviṣyati punar dhanam",
+      "translation": "The demoniac person thinks: 'So much wealth do I have today, and I will gain more according to my schemes. So much is mine now, and it will increase in the future, more and more.'",
+      "modern": "The demonic mindset: 'I have this much today, I’ll get what I want; this is mine now, and more will come.' This is endless accumulation mentality. In practice: the illusion of security through more — more money, more status, more stuff. Krishna is exposing the delusion: there is never enough. This verse captures the inner monologue of greed."
+    },
+    {
+      "verse": 14,
+      "sanskrit": "असौ मया हतः शत्रुरहं हनिष्ये चापरान् |\nअहं भोक्ता सिद्धोऽहं बलवान् सुखी च न ||",
+      "transliteration": "asau mayā hataḥ śatrur ahaṁ haniṣye cāparān\nahaṁ bhoktā siddho ’haṁ balavān sukhī ca na",
+      "translation": "He thinks: 'I have killed this enemy, and I shall kill others also. I am the lord, I am the enjoyer, I am perfect, powerful and happy.'",
+      "modern": "The demonic ego: 'I destroyed this rival, I’ll destroy others; I am the master, the enjoyer, successful, strong, happy.' This is pure narcissism. In practice: the illusion of control, domination, self-sufficiency. Krishna is showing the inner voice of asuri pride — everything is about 'me winning.' This mindset leads to destruction of self and others."
+    },
+    {
+      "verse": 15,
+      "sanskrit": "आढ्योऽभिजनवानस्मि कोऽन्योऽस्ति सदृशो मया |\nयक्ष्ये दास्यामि मोदिष्य इत्यज्ञानविमोहिताः ||",
+      "transliteration": "āḍhyo ’bhijanavān asmi ko ’nyo ’sti sadṛśo mayā\nyakṣye dāsyāmi modiṣya ity ajñāna-vimohitāḥ",
+      "translation": "The deluded are bewildered by ignorance and think: 'I am so wealthy and aristocratic. Who else is equal to me? I shall perform sacrifices, I shall give charity, and I shall rejoice.'",
+      "modern": "Deluded by ignorance: 'I am rich and high-born — who compares to me? I’ll do rituals, give charity, enjoy.' This is arrogant self-worship disguised as virtue. In practice: using wealth/status for show — 'look at my generosity' — while remaining self-centered. Krishna exposes performative spirituality and philanthropy driven by ego."
+    },
+    {
+      "verse": 16,
+      "sanskrit": "अनेकचित्तविभ्रान्ता मोहजालसमावृताः |\nप्रसक्ताः कामभोगेषु पतन्ति नरकेऽशुचौ ||",
+      "transliteration": "aneka-citta-vibhrāntā moha-jāla-samāvṛtāḥ\nprasaktāḥ kāma-bhogeṣu patanti narake ’śucau",
+      "translation": "Thus perplexed by various anxieties and bound by a network of illusions, they become too strongly attached to sense enjoyment and fall down into hell.",
+      "modern": "Confused by many thoughts, trapped in illusion, addicted to pleasure — they fall into impure hellish conditions. This is the destination of the demonic path. In practice: scattered mind + delusion + sense addiction = self-created hell (here and hereafter). Krishna is showing the end result of asuri life — inner chaos and outer suffering."
+    },
+    {
+      "verse": 17,
+      "sanskrit": "आत्मसंभाविताः स्तब्धा धनमानमदान्विताः |\nयजन्ते नामयज्ञैस्ते दम्भेनाविधिपूर्वकम् ||",
+      "transliteration": "ātma-saṁbhāvitāḥ stabdhā dhana-māna-madānvitāḥ\nyajante nāma-yajñais te dambhenāvidhi-pūrvakam",
+      "translation": "Self-complacent and always impudent, bewildered by wealth and false prestige, they sometimes perform sacrifices in name only, with ostentatious show and without following the rules.",
+      "modern": "Self-satisfied, arrogant, intoxicated by wealth & pride — they perform so-called sacrifices ostentatiously, without proper method. This is hypocritical religion. In practice: showy charity, performative spirituality, rituals for status — not genuine devotion. Krishna exposes ego-driven 'worship' as demonic."
+    },
+    {
+      "verse": 18,
+      "sanskrit": "अहङ्कारं बलं दर्पं कामं क्रोधं च संश्रिताः |\nमामात्मपरदेहेषु प्रद्विषन्तोऽभ्यसूयकाः ||",
+      "transliteration": "ahaṅkāraṁ balaṁ darpaṁ kāmaṁ krodhaṁ ca saṁśritāḥ\nmām ātma-para-deheṣu pradviṣanto ’bhyasūyakāḥ",
+      "translation": "Bewildered by false ego, strength, pride, lust and anger, the demons become envious of the Supreme Lord, who is situated in their own bodies and in the bodies of others.",
+      "modern": "Embracing ego, power, pride, desire, anger — they envy and hate Me, who resides in their own bodies and in all others. This is the core demonic fault — envy of the Divine within. In practice: arrogance + lust + anger → resentment toward God (in self and others). Krishna is revealing the deepest asuri defect — hatred of the indwelling Supreme. This turns inward violence outward."
+    },
+    {
+      "verse": 19,
+      "sanskrit": "तानहं द्विषतः क्रूरान् संसारेषु नराधमान् |\nक्षिपाम्यजस्रमशुभानासुरीष्वेव योनिषु ||",
+      "transliteration": "tān ahaṁ dviṣataḥ krūrān saṁsāreṣu narādhamān\nkṣipāmy ajasram aśubhān āsurīṣv eva yoniṣu",
+      "translation": "Those who are envious and mischievous, who are the lowest among men, I perpetually cast into the demonic species of life in the various hellish worlds.",
+      "modern": "Those who hate Me, are cruel, the lowest of men — I repeatedly cast them into demonic births in hellish conditions. This is karmic consequence. In practice: persistent envy/hatred of the Divine leads to lower births. Krishna is not punishing — He is stating natural consequence. This verse warns of the trajectory of the asuri path — repeated descent."
+    },
+    {
+      "verse": 20,
+      "sanskrit": "आसुरीं योनिमापन्ना मूढा जन्मनि जन्मनि |\nमामप्राप्यैव कौन्तेय ततो यान्त्यधमां गतिम् ||",
+      "transliteration": "āsurīṁ yonim āpannā mūḍhā janmani janmani\nmām aprāpyaiva kaunteya tato yānty adhamāṁ gatim",
+      "translation": "Attaining repeated demonic births, the bewildered, never attaining Me, O son of Kunti, sink to the most abominable forms of existence.",
+      "modern": "Born again and again as demonic, deluded, never reaching Me — they sink to the lowest states. This is the final destination of the asuri path. In practice: repeated demonic births → progressive degradation. Krishna is showing the long-term outcome — disconnection from the Divine leads to ever-lower consciousness. This verse is a sobering warning — choose the divine path to avoid this fate."
+    },
+    {
       "verse": 21,
-      "sanskrit": "त्रिविधं नरकस्येदं द्वारं नाशनमात्मनः | कामः क्रोधस्तथा लोभस्तस्मादेतत्त्रयं त्यजेत् ||",
-      "transliteration": "tri-vidhaṁ narakasyedaṁ dvāraṁ nāśanam ātmanaḥ | kāmaḥ krodhas tathā lobhas tasmād etat trayaṁ tyajet",
-      "translation": "There are three gates leading to self-destruction: lust, anger, and greed. Therefore, one should abandon these three.",
-      "modern": "The trinity of self-sabotage: wanting what you don't have (lust), being mad when you don't get it (anger), and never having enough (greed). These three will absolutely wreck your life. Check any disaster in your life - guaranteed one of these three was driving. Addiction, bad relationships, financial ruin, whatever - trace it back and you'll find lust, anger, or greed. Avoid these like your life depends on it. Because it does."
+      "sanskrit": "त्रिविधं नरकस्येदं द्वारं नाशनमात्मनः |\nकामः क्रोधस्तथा लोभस्तस्मादेतत्त्रयं त्यजेत् ||",
+      "transliteration": "tri-vidhaṁ narakasyedaṁ dvāraṁ nāśanam ātmanaḥ\nkāmaḥ krodhas tathā lobhas tasmād etat trayaṁ tyajet",
+      "translation": "There are three gates leading to this hell — lust, anger, and greed. Every sane man should give these up, for they lead to the degradation of the soul.",
+      "modern": "Three gates to hell: lust (kāma), anger (krodha), greed (lobha) — abandon them, they destroy the self. This is the famous 'three gates to hell' verse. In practice: desire, rage, avarice — these three ruin everything. Krishna gives the practical antidote — renounce these three. This verse is direct moral guidance — cut these at the root to avoid downfall."
+    },
+    {
+      "verse": 22,
+      "sanskrit": "एतैर्विमुक्तः कौन्तेय तमोद्वारैस्त्रिभिर्नरः |\nआचरत्यात्मनः श्रेयस्ततो याति परां गतिम् ||",
+      "transliteration": "etair vimuktaḥ kaunteya tamo-dvārais tribhir naraḥ\nācaraty ātmanaḥ śreyas tato yāti parāṁ gatim",
+      "translation": "The man who has escaped these three gates of hell, O son of Kunti, performs acts conducive to self-realization and thus gradually attains the supreme destination.",
+      "modern": "Free from these three gates of darkness, one acts for self-good and gradually reaches the highest goal. This is the positive path. In practice: renounce lust, anger, greed → act for true welfare → ascend. Krishna is giving the upward trajectory — freedom from these three opens the divine path. This verse is encouragement — liberation is possible by closing these gates."
+    },
+    {
+      "verse": 23,
+      "sanskrit": "यः शास्त्रविधिमुत्सृज्य वर्तते कामकारतः |\nन स सिद्धिमवाप्नोति न सुखं न परां गतिम् ||",
+      "transliteration": "yaḥ śāstra-vidhim utsṛjya vartate kāma-kārataḥ\nna sa siddhim avāpnoti na sukhaṁ na parāṁ gatim",
+      "translation": "He who discards scriptural injunctions and acts according to his own whims attains neither perfection, nor happiness, nor the supreme goal.",
+      "modern": "Whoever rejects scriptural rules and follows personal desire achieves neither success, happiness, nor the highest goal. This is the warning against self-will. In practice: ignoring dharma (scriptural guidance) for whim leads to failure on all levels. Krishna is saying: desire unchecked by wisdom destroys everything. This verse emphasizes the necessity of shastra (authority) — personal desire alone misleads."
     },
     {
       "verse": 24,
-      "sanskrit": "तस्माच्छास्त्रं प्रमाणं ते कार्याकार्यव्यवस्थितौ | ज्ञात्वा शास्त्रविधानोक्तं कर्म कर्तुमिहार्हसि ||",
-      "transliteration": "tasmāc chāstraṁ pramāṇaṁ te kāryākārya-vyavasthitau | jñātvā śāstra-vidhānoktaṁ karma kartum ihārhasi",
-      "translation": "One should understand what is duty and what is not duty by the regulations of the scriptures. Knowing such rules, one should act so that they may gradually be elevated.",
-      "modern": "You need a moral framework. Whether it's scripture, philosophy, or values you've developed - you need principles to guide you. Without them, you'll just do whatever feels good in the moment, which usually leads to disaster. Have a code. Live by it. Doesn't mean you're rigid or close-minded. It means you have standards. Everyone needs an operating system for life."
+      "sanskrit": "तस्माच्छास्त्रं प्रमाणं ते कार्याकार्यव्यवस्थितौ |\nज्ञात्वा शास्त्रविधानोक्तं कर्म कर्तुमिहार्हसि ||",
+      "transliteration": "tasmāc chāstraṁ pramāṇaṁ te kāryākārya-vyavasthitau\njñātvā śāstra-vidhānoktaṁ karma kartum ihārhasi",
+      "translation": "One should therefore understand what is duty and what is not duty by the regulations of the scriptures. Knowing such rules and regulations, one should act so that he may gradually be elevated.",
+      "modern": "Therefore let scripture be your authority in determining what should and should not be done. Understanding scriptural injunctions, act accordingly to rise gradually. This is the chapter’s final instruction. In practice: use shastra (authentic wisdom/teachings) as the guide for right/wrong. Krishna is saying: don’t follow personal desire — follow dharma. This leads to elevation. This verse ends the chapter with practical guidance — align with scriptural authority and progress steadily toward the Divine."
     }
   ]
 }
