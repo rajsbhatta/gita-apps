@@ -161,6 +161,11 @@ class GitaApp {
             this.toggleTheme();
         });
 
+        // Refresh button
+        document.getElementById('refreshBtn').addEventListener('click', () => {
+            this.refreshData();
+        });
+
         // Search
         const searchInput = document.getElementById('searchInput');
         if (searchInput) {
@@ -213,6 +218,93 @@ class GitaApp {
     toggleTheme() {
         const newTheme = this.theme === 'dark' ? 'light' : 'dark';
         this.setTheme(newTheme);
+    }
+
+    // Refresh all data from server
+    async refreshData() {
+        const refreshBtn = document.getElementById('refreshBtn');
+        const refreshIcon = refreshBtn.querySelector('.refresh-icon');
+    
+        // Show loading state
+        refreshIcon.style.animation = 'spin 1s linear infinite';
+        refreshBtn.disabled = true;
+    
+        try {
+            // Clear all caches
+            if ('caches' in window) {
+                const cacheNames = await caches.keys();
+                await Promise.all(
+                    cacheNames.map(cacheName => caches.delete(cacheName))
+                );
+            }
+        
+            // Clear IndexedDB
+            await this.clearDB();
+        
+            // Clear localStorage (preserve theme preference)
+            const currentTheme = this.theme;
+            localStorage.clear();
+            this.theme = currentTheme;
+            localStorage.setItem('theme', this.theme);
+        
+            // Unregister service worker
+            if ('serviceWorker' in navigator) {
+                const registrations = await navigator.serviceWorker.getRegistrations();
+                await Promise.all(
+                    registrations.map(registration => registration.unregister())
+                );
+            }
+        
+            // Show success message
+            this.showToast('✅ Data refreshed! Reloading app...');
+        
+            // Wait a moment for toast to show
+            setTimeout(() => {
+                // Reload page to fetch fresh data
+                window.location.reload(true);
+            }, 1000);
+        
+        } catch (error) {
+            console.error('Error refreshing data:', error);
+            this.showToast('❌ Error refreshing data. Please try again.');
+        
+            // Reset button state
+            refreshIcon.style.animation = '';
+            refreshBtn.disabled = false;
+        }
+    }
+
+    // Helper: Clear IndexedDB
+    async clearDB() {
+        return new Promise((resolve, reject) => {
+            const request = indexedDB.deleteDatabase('GitaDB');
+            request.onsuccess = () => resolve();
+            request.onerror = () => reject(request.error);
+        });
+    }
+
+    // Helper: Show toast notification
+    showToast(message) {
+        // Remove existing toast if any
+        const existingToast = document.querySelector('.toast');
+        if (existingToast) {
+            existingToast.remove();
+        }
+    
+        // Create toast element
+        const toast = document.createElement('div');
+        toast.className = 'toast';
+        toast.textContent = message;
+        document.body.appendChild(toast);
+    
+        // Show toast with animation
+        setTimeout(() => toast.classList.add('show'), 100);
+    
+        // Remove toast after 3 seconds
+        setTimeout(() => {
+            toast.classList.remove('show');
+            setTimeout(() => toast.remove(), 300);
+        }, 3000);
     }
 
     // Navigation
