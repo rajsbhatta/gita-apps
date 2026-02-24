@@ -1,23 +1,198 @@
 {
   "number": 14,
-  "title": "Three Qualities of Nature",
+  "title": "The Three Modes of Material Nature",
   "sanskrit": "गुणत्रयविभागयोग",
   "verses": 27,
-  "introduction": "Krishna describes the three modes of material nature - goodness, passion, and ignorance - and how they bind the soul.",
+  "introduction": "Chapter 14 of the Bhagavad Gita, Guṇatraya-vibhāga-yoga (The Yoga of the Division of the Three Modes), is one of the most psychologically insightful and practically useful chapters in the entire scripture. After explaining the distinction between the field and its knower (Ch. 13), Krishna now zooms into the actual machinery that drives every thought, emotion, desire, action and life outcome — the three guṇas (sattva, rajas, tamas). He describes their characteristics, their effects on perception, behavior and rebirth, how they bind the soul, signs of transcendence, and ultimately how to rise above them through devotion to the Supreme. For modern readers — living in an era of mood tracking apps, productivity hacks, dopamine culture, burnout epidemics, therapy-speak about regulation, and endless self-observation — this chapter feels like an ancient yet startlingly accurate operating system manual for the human mind. Krishna explains why you feel clear and peaceful one day (sattva), restless and ambitious the next (rajas), and lazy or depressed the day after (tamas); why the same event can make one person grateful, another angry, and another numb; and how your dominant guṇa literally shapes your next birth. The essence remains perfectly preserved: the guṇas are not moral categories — they are energetic qualities of material nature; real freedom is not suppressing them but transcending them through knowledge, discipline and loving surrender to the One who is above all guṇas.",
   "shlokas": [
     {
+      "verse": 1,
+      "sanskrit": "श्रीभगवानुवाच |\nपरं भूयः प्रवक्ष्यामि ज्ञानानां ज्ञानमुत्तमम् |\nयज्ज्ञात्वा मुनयः सर्वे परां सिद्धिमितो गताः ||",
+      "transliteration": "śrī-bhagavān uvāca\nparaṁ bhūyaḥ pravakṣyāmi jñānānāṁ jñānam uttamam\nyaj jñātvā munayaḥ sarve parāṁ siddhim ito gatāḥ",
+      "translation": "The Supreme Personality of Godhead said: Once again I shall declare to you this supreme wisdom, the best of all knowledge, by knowing which all the sages have attained the supreme perfection.",
+      "modern": "Krishna begins with gentle excitement: 'Let me tell you again the highest knowledge — knowing this, all great sages reached the ultimate goal.' This is not repetition for repetition’s sake — it’s a promise of the most liberating insight yet. In 2026 life: after many chapters of theory and practice, Krishna is about to give the operating manual for why the mind behaves the way it does and how to go beyond it entirely. This verse creates anticipation — what follows is considered by many commentators the single most practical chapter for daily self-understanding."
+    },
+    {
+      "verse": 2,
+      "sanskrit": "इदं ज्ञानमुपाश्रित्य मम साधर्म्यमागताः |\nसर्गेऽपि नोपजायन्ते प्रलये न व्यथन्ति च ||",
+      "transliteration": "idaṁ jñānam upāśritya mama sādharmyam āgatāḥ\nsarge ’pi nopajāyante pralaye na vyathanti ca",
+      "translation": "By taking refuge in this knowledge, people attain My nature. They are not born at the time of creation, nor do they suffer at the time of dissolution.",
+      "modern": "Krishna promises the payoff: those who take shelter in this knowledge attain My own nature — beyond birth at creation and fear at dissolution. In practice: this knowledge doesn’t just give peace of mind — it liberates from the entire cycle of manifestation and destruction. In 2026 terms: understanding the guṇas takes you beyond the existential anxiety of 'beginning and ending' — you realize your true nature is eternal and untouched by cosmic events. This is the ultimate security — not surviving death, but transcending the need to be born again."
+    },
+    {
+      "verse": 3,
+      "sanskrit": "मम योनिर्महद्ब्रह्म तस्मिन् गर्भं दधाम्यहम् |\nसंभवः सर्वभूतानां ततो भवति भारत ||",
+      "transliteration": "mama yonir mahad brahma tasmin garbhaṁ dadhāmy aham\nsambhavaḥ sarva-bhūtānāṁ tato bhavati bhārata",
+      "translation": "O descendant of Bharata, the material nature (prakriti), which is My womb, accepts the seed-giving process, and thus all living entities are born.",
+      "modern": "Krishna describes cosmic creation poetically: My material energy (prakriti) is the womb; I cast the seed (purusha/consciousness); from that union all beings are born. In 2026 terms: matter/energy is the fertile field; consciousness is the impregnating principle; every living form arises from their interaction. This is a devotional re-statement of Sāṅkhya cosmology — prakriti + purusha = manifestation. Krishna is saying: I am the origin of both; the entire universe is My play of union and separation."
+    },
+    {
+      "verse": 4,
+      "sanskrit": "सर्वयोनिषु कौन्तेय मूर्तयः सम्भवन्ति याः |\nतासां ब्रह्म महद्योनिरहं बीजप्रदः पिता ||",
+      "transliteration": "sarva-yoniṣu kaunteya mūrtayaḥ sambhavanti yāḥ\ntāsāṁ brahma mahad yonir ahaṁ bīja-pradaḥ pitā",
+      "translation": "O son of Kunti, in all species of life the seed-giving father is I, and the material nature is the mother that gives birth to all forms.",
+      "modern": "Krishna declares: in every womb/species, I am the seed-giving father; material nature is the mother giving form. This is universal paternity. In practice: every creature — human, animal, plant — is born from the same divine seed planted in nature’s womb. This ends hierarchy of species and brings reverence for all life. Krishna is claiming cosmic fatherhood — every birth is His child. This verse evokes deep intimacy with creation — nothing is alien or accidental."
+    },
+    {
+      "verse": 5,
+      "sanskrit": "सत्त्वं रजस्तम इति गुणाः प्रकृतिसम्भवाः |\nनिबध्नन्ति महाबाहो देहे देहिनमव्ययम् ||",
+      "transliteration": "sattvaṁ rajas tama iti guṇāḥ prakṛti-sambhavāḥ\nnibadhnanti mahā-bāho dehe dehinam avyayam",
+      "translation": "O mighty-armed one, the modes of goodness, passion and ignorance — qualities born of material nature — bind the eternal living entity to the perishable body.",
+      "modern": "The three guṇas — sattva, rajas, tamas — born from prakriti, bind the imperishable soul to the perishable body. This is the core mechanism of bondage. In 2026 terms: clarity/harmony (sattva), activity/desire (rajas), inertia/delusion (tamas) are the three forces that keep consciousness identified with matter. The soul is eternal — but guṇas create the illusion of limitation. Krishna is revealing the operating system: your entire experience is colored by whichever guṇa dominates at any moment."
+    },
+    {
       "verse": 6,
-      "sanskrit": "तत्र सत्त्वं निर्मलत्वात्प्रकाशकमनामयम् | सुखसङ्गेन बध्नाति ज्ञानसङ्गेन चानघ ||",
-      "transliteration": "tatra sattvaṁ nirmalatvāt prakāśakam anāmayam | sukha-saṅgena badhnāti jñāna-saṅgena cānagha",
-      "translation": "Goodness, being purer than the others, is illuminating and freeing from all sinful reactions. It binds one by attachment to happiness and knowledge.",
-      "modern": "Even being 'good' can trap you if you're attached to it. The person who's proud of being healthy, smart, or virtuous is still trapped - just in a nicer cage. 'I meditate every day, I'm so spiritual' - that's ego. 'I eat clean, I'm superior' - still ego. Even positive traits become prisons when you identify with them. True freedom is beyond good and bad."
+      "sanskrit": "तत्र सत्त्वं निर्मलत्वात्प्रकाशकमनामयम् |\nसुखसङ्गेन बध्नाति ज्ञानसङ्गेन चानघ ||",
+      "transliteration": "tatra sattvaṁ nirmalatvāt prakāśakam anāmayam\nsukha-saṅgena badhnāti jñāna-saṅgena cānagha",
+      "translation": "O sinless one, the mode of goodness, being purer than the others, is illuminating, and it frees one from all sinful reactions. Those situated in that mode become conditioned by a sense of happiness and knowledge.",
+      "modern": "Sattva — purest, illuminating, free from sin — binds by attachment to happiness and knowledge. In practice: when sattva dominates, you feel clear, peaceful, wise — but even that binds if you cling to the feeling of 'I am happy' or 'I am knowledgeable.' Krishna is precise: even positive states create identification. True freedom is transcending all three, not preferring one. This verse warns against spiritual materialism — even sattvic ego ('I am so enlightened') is bondage."
+    },
+    {
+      "verse": 7,
+      "sanskrit": "रजो रागात्मकं विद्धि तृष्णासङ्गसमुद्भवम् |\nतन्निबध्नाति कौन्तेय कर्मसङ्गेन देहिनम् ||",
+      "transliteration": "rajo rāgātmakaṁ viddhi tṛṣṇā-saṅga-samudbhavam\ntan nibadhnāti kaunteya karma-saṅgena dehinam",
+      "translation": "The mode of passion is born of unlimited desires and longings, O son of Kunti, and because of this the embodied living entity is bound to material fruitive actions.",
+      "modern": "Rajas — full of passion, born of desire and attachment — binds through karma (fruitive action). In 2026 terms: restlessness, ambition, craving, endless wanting — this is rajas. It keeps you running on the achievement treadmill, always chasing the next goal, relationship, high. Krishna explains why modern life feels exhausting — rajas dominates, producing endless activity and bondage. The soul gets trapped chasing outcomes it can never permanently possess."
+    },
+    {
+      "verse": 8,
+      "sanskrit": "तमस्त्वज्ञानजं विद्धि मोहनं सर्वदेहिनाम् |\nप्रमादालस्यनिद्राभिस्तन्निबध्नाति भारत ||",
+      "transliteration": "tamas tv ajñāna-jaṁ viddhi mohanaṁ sarva-dehinām\npramādālasya-nidrābhis tan nibadhnāti bhārata",
+      "translation": "O son of Bharata, know that the mode of darkness, born of ignorance, is the delusion of all embodied living entities. The results of this mode are madness, indolence and sleep, which bind the conditioned soul.",
+      "modern": "Tamas — born of ignorance — deludes all beings through madness, laziness, sleep. In practice: dullness, confusion, procrastination, escapism, depression — this is tamas. It binds by inertia and delusion. Krishna is describing the state many recognize as burnout, dissociation, doom-scrolling, oversleeping — tamas keeps the soul asleep to its own nature. This verse is diagnostic compassion — these states are not 'you'; they are tamas covering the light."
+    },
+    {
+      "verse": 9,
+      "sanskrit": "सत्त्वं सुखे सञ्जयति रजः कर्मणि भारत |\nज्ञानमावृत्य तु तमः प्रमादे सञ्जयत्युत ||",
+      "transliteration": "sattvaṁ sukhe sañjayati rajaḥ karmaṇi bhārata\njñānam āvṛtya tu tamaḥ pramāde sañjayaty uta",
+      "translation": "O son of Bharata, the mode of goodness conditions one to happiness; passion conditions one to fruitive action; and ignorance, covering one’s knowledge, binds one to madness.",
+      "modern": "Sattva → happiness; rajas → action/achievement; tamas → delusion/laziness. Krishna gives the signature effects. In 2026 life: when you feel calm and content — sattva; when driven, restless, goal-oriented — rajas; when foggy, procrastinating, self-destructive — tamas. This is the daily guṇa report. Understanding these signatures lets you observe which quality is running the show at any moment."
+    },
+    {
+      "verse": 10,
+      "sanskrit": "रजस्तमश्चाभिभूय सत्त्वं भवति भारत |\nरजः सत्त्वं तमश्चैव तमः सत्त्वं रजस्तथा ||",
+      "transliteration": "rajas tamaś cābhibhūya sattvaṁ bhavati bhārata\nrajaḥ sattvaṁ tamaś caiva tamaḥ sattvaṁ rajas tathā",
+      "translation": "Sometimes passion overcomes goodness, O descendant of Bharata, and sometimes goodness overcomes passion, and sometimes passion overcomes ignorance, and sometimes ignorance overcomes passion, and sometimes goodness overcomes ignorance, and sometimes ignorance overcomes goodness.",
+      "modern": "The guṇas constantly compete — one rises, another falls. In practice: no one stays in one mode forever — they alternate. Morning clarity (sattva) → afternoon hustle (rajas) → evening tiredness (tamas) → repeat. This verse normalizes fluctuation — life is a guṇa dance. Awareness of this movement is the beginning of mastery. Krishna is teaching dynamic observation — watch the play without getting lost in it."
+    },
+    {
+      "verse": 11,
+      "sanskrit": "सर्वद्वारेषु देहेऽस्मिन्प्रकाश उपजायते |\nज्ञानं यदा तदा विद्याद्विवृद्धं सत्त्वमित्युत ||",
+      "transliteration": "sarva-dvāreṣu dehe ’smin prakāśa upajāyate\njñānaṁ yadā tadā vidyād vivṛddhaṁ sattvam ity uta",
+      "translation": "O descendant of Bharata, when there is an increase of illumination and knowledge in all the gates of the body, then one should know that the mode of goodness is predominant.",
+      "modern": "When light and knowledge increase in all senses/body — know sattva is dominant. In practice: clarity of perception, inner light, sharp understanding — sattva rising. This is the diagnostic sign. Krishna gives observable markers — when your mind feels bright and perceptive, sattva is up. This turns self-awareness into guṇa science."
+    },
+    {
+      "verse": 12,
+      "sanskrit": "लोभः प्रवृत्तिरारम्भः कर्मणामशमः स्पृहा |\nरजस्येतानि जायन्ते विवृद्धे भरतर्षभ ||",
+      "transliteration": "lobhaḥ pravṛttir ārambhaḥ karmāṇām aśamaḥ spṛhā\nrajasy etāni jāyante vivṛddhe bharatarṣabha",
+      "translation": "O chief of the Bharatas, when passion increases, greed, intense activity, undertaking of work, restlessness, and hankering develop.",
+      "modern": "Rajas dominant → greed, hyperactivity, starting endless projects, no calm, craving. In 2026 terms: the classic hustle/burnout state — more, more, more; restless energy; can’t sit still; always chasing. Krishna is describing modern productivity culture perfectly. When you’re wired, ambitious, dissatisfied — rajas is ruling."
+    },
+    {
+      "verse": 13,
+      "sanskrit": "अप्रकाशोऽप्रवृत्तिश्च प्रमादो मोहौ एव च |\nतमस्येतानि जायन्ते विवृद्धे कुरुनन्दन ||",
+      "transliteration": "aprakāśo ’pravṛttiś ca pramādo moha eva ca\ntamasy etāni jāyante vivṛddhe kuru-nandana",
+      "translation": "O descendant of Kuru, when ignorance is predominant, darkness, inertia, madness and illusion develop.",
+      "modern": "Tamas dominant → darkness, laziness, carelessness, delusion. In practice: foggy mind, procrastination, confusion, distorted thinking. Krishna is describing depression, dissociation, addiction fog, denial. When life feels heavy and foggy — tamas is strong. This verse is diagnostic compassion — these states are not 'you'; they are tamas covering the light."
+    },
+    {
+      "verse": 14,
+      "sanskrit": "यदा सत्त्वे प्रवृद्धे तु प्रलयं याति देहभृत् |\nतदोत्तमविदां लोकानमलान्प्रतिपद्यते ||",
+      "transliteration": "yadā sattve pravṛddhe tu pralayaṁ yāti deha-bhṛt\ntadottama-vidāṁ lokān amalān pratipadyate",
+      "translation": "When one dies in the mode of goodness, he attains to the pure higher planets of the great sages.",
+      "modern": "Death in sattva → higher, pure worlds of the wise. Krishna describes post-death destinations by guṇa. In practice: dominant guṇa at death shapes next birth. Sattva leads to elevated, harmonious realms. This is karmic momentum — live in clarity → continue in clarity. This verse motivates sattvic living — it literally upgrades your trajectory."
+    },
+    {
+      "verse": 15,
+      "sanskrit": "रजसि प्रलयं गत्वा कर्मसङ्गिषु जायते |\nतथा प्रलीनस्तमसि मूढयोनिषु जायते ||",
+      "transliteration": "rajasi pralayaṁ gatvā karma-saṅgiṣu jāyate\ntathā pralīnas tamasi mūḍha-yoniṣu jāyate",
+      "translation": "When one dies in the mode of passion, he takes birth among those engaged in fruitive activities; and when one dies in the mode of ignorance, he takes birth in the animal kingdom.",
+      "modern": "Death in rajas → birth among action-oriented/ambitious people; death in tamas → birth in lower/deluded species. This is the guṇa-rebirth map. In practice: your inner state at death determines the quality of next life. Rajasic people return to human hustle; tamasic to duller forms. This isn’t punishment — it’s resonance. Krishna is giving the incentive structure — cultivate sattva for higher evolution."
+    },
+    {
+      "verse": 16,
+      "sanskrit": "कर्मणः सुकृतस्याहुः सात्त्विकं निर्मलं फलम् |\nरजसस्तु फलं दुःखमज्ञानं तमसः फलम् ||",
+      "transliteration": "karmaṇaḥ su-kṛtasyāhuḥ sāttvikaṁ nirmalaṁ phalam\nrajasas tu phalaṁ duḥkham ajñānaṁ tamasaḥ phalam",
+      "translation": "The result of pious action is pure and is said to be in the mode of goodness. But the result of passionate action is misery, and the result of ignorant action is darkness.",
+      "modern": "Good (sattvic) actions → pure happiness; rajasic → pain; tamasic → ignorance. Krishna gives the karmic return policy. In 2026 terms: actions aligned with clarity bring joy; driven by desire bring suffering; rooted in delusion bring confusion. This is cause-effect clarity — every action seeds its matching fruit. This verse motivates conscious living — choose sattvic actions for lasting happiness."
+    },
+    {
+      "verse": 17,
+      "sanskrit": "सत्त्वात्सञ्जायते ज्ञानं रजसो लोभ एव च |\nप्रमादमोहौ तमसो भवतोऽज्ञानमेव च ||",
+      "transliteration": "sattvāt sañjāyate jñānaṁ rajaso lobha eva ca\npramāda-mohau tamaso bhavato ’jñānam eva ca",
+      "translation": "From the mode of goodness comes knowledge; from passion comes greed; from ignorance comes madness, illusion and ignorance.",
+      "modern": "Sattva → knowledge; rajas → greed; tamas → madness, delusion, deeper ignorance. This is the psychological signature. In practice: clarity produces wisdom; passion produces craving; dullness produces confusion. Krishna is giving a diagnostic tool — look at your dominant state and see what it produces. This verse turns self-observation into guṇa science."
+    },
+    {
+      "verse": 18,
+      "sanskrit": "ऊर्ध्वं गच्छन्ति सत्त्वस्था मध्ये तिष्ठन्ति राजसाः |\nजघन्यगुणवृत्तिस्था अधो गच्छन्ति तामसाः ||",
+      "transliteration": "ūrdhvaṁ gacchanti sattva-sthā madhye tiṣṭhanti rājasāḥ\njaghanya-guṇa-vṛtti-sthā adho gacchanti tāmasāḥ",
+      "translation": "Those situated in the mode of goodness gradually go upward to the higher planets; those in the mode of passion live on the earthly planets; and those in the mode of ignorance go down to the lower, hellish worlds.",
+      "modern": "Sattva → higher realms; rajas → human/earth plane; tamas → lower states. This is the evolutionary map. In practice: cultivate sattva for ascent; rajas keeps you cycling here; tamas leads downward. Krishna is giving the long-term incentive — guṇa quality determines trajectory across lifetimes. This motivates conscious guṇa management — aim upward."
+    },
+    {
+      "verse": 19,
+      "sanskrit": "नान्यं गुणेभ्यः कर्तारं यदा द्रष्टानुपश्यति |\nगुणेभ्यश्च परं वेत्ति मद्भावं सोऽधिगच्छति ||",
+      "transliteration": "nānyaṁ guṇebhyaḥ kartāraṁ yadā draṣṭānupaśyati\nguṇebhyaś ca paraṁ vetti mad-bhāvaṁ so ’dhigacchati",
+      "translation": "When one sees that there is no other doer besides the three modes of nature and knows that which is transcendental to them, he attains My nature.",
+      "modern": "When you see that only the guṇas act — and know the Self beyond them — you attain My nature. This is the liberating insight. In practice: stop claiming 'I did it' — see guṇas operating through the body-mind. Then recognize the witness beyond guṇas. This double vision (guṇas act + I am beyond) takes you to Krishna’s nature. This verse is the key to transcendence — disidentify from guṇa play, rest in the unchanging witness."
+    },
+    {
+      "verse": 20,
+      "sanskrit": "गुणानेतानतीत्य त्रीन्देही देहसमुद्भवान् |\nजन्ममृत्युजरादुःखैर्विमुक्तोऽमृतमश्नुते ||",
+      "transliteration": "guṇān etān atītya trīn dehī deha-samudbhavān\njanma-mṛtyu-jarā-duḥkhair vimukto ’mṛtam aśnute",
+      "translation": "When the embodied being transcends these three modes associated with the body, he is freed from birth, death, old age and their distresses and attains nectar.",
+      "modern": "Transcend the three guṇas born of the body — free from birth, death, aging, suffering — taste immortality. This is the promise. In practice: go beyond sattva-rajas-tamas identification — liberation from the cycle. Krishna is saying: the guṇas are the engine of saṁsāra; transcend them → jīvanmukti. This verse is the goal statement — freedom from all limitation through guṇa-transcendence."
+    },
+    {
+      "verse": 21,
+      "sanskrit": "अर्जुन उवाच |\nकैर्लिङ्गैस्त्रीन्गुणानेतानतीतो भवति प्रभो |\nकैराचारैः स्थितोऽतीतो भवति प्रभो ||",
+      "transliteration": "arjuna uvāca\nkair liṅgais trīn guṇān etān atīto bhavati prabho\nkair ācāraiḥ sthito ’tīto bhavati prabho",
+      "translation": "Arjuna said: O my Lord, by which symptoms is one to understand that he has transcended the three modes? What is his behavior, and how does he transcend them?",
+      "modern": "Arjuna asks the practical question: what are the signs of transcendence? How does one act? How does one rise above? This is the seeker’s intelligence — not satisfied with theory, wanting observable markers and lifestyle. Krishna will now give the famous description of the guṇātīta (one beyond the guṇas)."
     },
     {
       "verse": 22,
-      "sanskrit": "प्रकाशं च प्रवृत्तिं च मोहमेव च पाण्डव | न द्वेष्टि सम्प्रवृत्तानि न निवृत्तानि काङ्क्षति ||",
-      "transliteration": "prakāśaṁ ca pravṛttiṁ ca moham eva ca pāṇḍava | na dveṣṭi sampravṛttāni na nivṛttāni kāṅkṣati",
-      "translation": "One who neither hates illumination, activity, nor delusion when they are present, nor longs for them when they are absent.",
-      "modern": "The free person doesn't resist their current state. Feeling clear and motivated? Cool. Feeling lazy and confused? Also cool. They don't fight reality or wish things were different. This is radical acceptance. Most people are either chasing good feelings or running from bad ones. The wise just experience what is, without judgment. That's peace."
+      "sanskrit": "श्रीभगवानुवाच |\nप्रकाशं च प्रवृत्तिं च मोहमेव च पाण्डव |\nन द्वेष्टि सम्प्रवृत्तानि न निवृत्तानि काङ्क्षति ||",
+      "transliteration": "śrī-bhagavān uvāca\nprakāśaṁ ca pravṛttiṁ ca moham eva ca pāṇḍava\nna dveṣṭi sampravṛttāni na nivṛttāni kāṅkṣati",
+      "translation": "The Supreme Personality of Godhead said: O son of Pandu, he who does not hate illumination, activity and delusion when they are present or long for them when they disappear —",
+      "modern": "Krishna begins: doesn’t hate or crave sattva (light), rajas (activity), tamas (delusion) when they appear or disappear. This is equanimity toward all states. In practice: when clarity comes — no pride; when restlessness — no craving; when dullness — no aversion. The guṇātīta remains a neutral witness — no push/pull. This is the first sign — non-reactivity to inner weather."
+    },
+    {
+      "verse": 23,
+      "sanskrit": "समः शत्रौ च मित्रे च तथा मानापमानयोः |\nशीतोष्णसुखदुःखेषु समः सङ्गविवर्जितः ||",
+      "transliteration": "samaḥ śatrau ca mitre ca tathā mānāpamānayoḥ\nśītoṣṇa-sukha-duḥkheṣu samaḥ saṅga-vivarjitaḥ",
+      "translation": "One who is equal to friends and enemies, who is equipoised in honor and dishonor, heat and cold, happiness and distress, fame and infamy, and is free from all attachment —",
+      "modern": "Equal to friend/enemy, praise/blame, heat/cold, joy/sorrow, fame/infamy — unattached. This is external equanimity. In practice: no favoritism, no reactivity to reputation or conditions — free from clinging. Krishna is describing the emotionally sovereign person — nothing disturbs inner balance. This is the lived expression of transcendence."
+    },
+    {
+      "verse": 24,
+      "sanskrit": "तुल्यनिन्दास्तुतिर्मौनी सन्तुष्टो येन केनचित् |\nअनिकेतः स्थिरमतिर्भक्तिमान्मे प्रियो नरः ||",
+      "transliteration": "tulya-nindā-stutir maunī santuṣṭo yena kenacit\naniketaḥ sthira-matir bhaktimān me priyo naraḥ",
+      "translation": "One who is equal in blame and praise, who is silent (speaks only what is necessary), satisfied with anything, homeless (not attached to any place), steady-minded, and full of devotion — such a person is very dear to Me.",
+      "modern": "Same in criticism/praise, speaks sparingly, content with whatever, unattached to places, steady intellect, devoted — that person is very dear to Me. This is the portrait of the perfected guṇātīta bhakta. In 2026 life: no defensiveness, mindful speech, radical contentment, inner homelessness (freedom), unwavering mind, constant love for the Divine. Krishna says: this is My favorite kind of person. This verse is the chapter’s emotional peak — transcendence expressed as quiet, radiant love."
+    },
+    {
+      "verse": 25,
+      "sanskrit": "ये तु धर्म्यामृतमिदं यथोक्तं पर्युपासते |\nश्रद्दधाना मत्परमा भक्तास्तेऽतीव मे प्रियाः ||",
+      "transliteration": "ye tu dharmyāmṛtam idaṁ yathoktaṁ paryupāsate\nśraddadhānā mat-paramā bhaktās te ’tīva me priyāḥ",
+      "translation": "Those who follow this immortal dharma as described above, endowed with faith, regarding Me as the Supreme goal — such devotees are exceedingly dear to Me.",
+      "modern": "Whoever lives this immortal teaching with faith, making Me the supreme goal — those devotees are extremely dear to Me. Krishna ends with a loving embrace. In practice: follow these guṇātīta qualities, trust the path, keep Me as the center — that makes you extraordinarily beloved. This is the chapter’s closing affirmation — the Divine has personal preferences, and the life beyond guṇas is at the top. This verse brings deep comfort and motivation — the guṇātīta devotee is Krishna’s favorite."
+    },
+    {
+      "verse": 26,
+      "sanskrit": "मां च यः पर्युपासते योगेनाव्यभिचारिणा |\nस गुणान्समतीत्यैतान् ब्रह्मभूयाय कल्पते ||",
+      "transliteration": "māṁ ca yaḥ paryupāsate yogena avyabhicāriṇā\nsa guṇān samatītya etān brahma-bhūyāya kalpate",
+      "translation": "One who engages in full devotional service, who does not deviate from the path of devotional service, and who transcends the three modes of nature quickly attains the Brahman platform.",
+      "modern": "Whoever worships Me with unwavering yoga/devotion transcends these three guṇas and becomes qualified for Brahman-realization. This is the practical key. In practice: steady, exclusive bhakti is the fastest elevator above the guṇas. Krishna is saying: devotion is the surest way to transcend — not just understanding, but loving relationship. This verse reaffirms bhakti’s supremacy — love Me constantly and the guṇas lose their grip."
+    },
+    {
+      "verse": 27,
+      "sanskrit": "ब्रह्मणो हि प्रतिष्ठाहममृतस्याव्ययस्य च |\nशाश्वतस्य च धर्मस्य सुखस्यैकान्तिकस्य च ||",
+      "transliteration": "brahmaṇo hi pratiṣṭhāham amṛtasyāvyayasya ca\nśāśvatasya ca dharmasya sukhasyaikāntikasya ca",
+      "translation": "I am the basis of the impersonal Brahman, which is immortal, imperishable and eternal, and is the constitutional position of ultimate happiness.",
+      "modern": "Krishna ends with the ultimate revelation: I am the foundation of Brahman — the immortal, imperishable, eternal reality — and of everlasting dharma and absolute happiness. In practice: the formless Brahman rests upon Krishna. The highest peace, dharma, immortality, joy — all are supported by the personal Supreme. This verse is the Gita’s final non-dual-yet-personal statement: Brahman is real, but Krishna is its basis. Devotion to the Person gives access to the impersonal Absolute and beyond — to eternal bliss."
     }
   ]
 }
