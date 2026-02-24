@@ -1,30 +1,303 @@
 {
-  "number": 4,
-  "title": "The Path of Wisdom",
-  "sanskrit": "ज्ञानकर्मसंन्यासयोग",
-  "verses": 42,
-  "introduction": "Krishna reveals the divine nature of His appearance and actions, and explains the ancient tradition of spiritual knowledge.",
-  "shlokas": [
-    {
-      "verse": 7,
-      "sanskrit": "यदा यदा हि धर्मस्य ग्लानिर्भवति भारत | अभ्युत्थानमधर्मस्य तदात्मानं सृजाम्यहम् ||",
-      "transliteration": "yadā yadā hi dharmasya glānir bhavati bhārata | abhyutthānam adharmasya tadātmānaṁ sṛjāmy aham",
-      "translation": "Whenever there is a decline in righteousness and a rise in unrighteousness, O Arjuna, at that time I manifest Myself.",
-      "modern": "When things get really bad - when corruption is everywhere, when people have lost their moral compass - that's when change comes. It's like how social movements emerge when injustice peaks. The darkest hour is before the dawn. When you see society falling apart, know that transformation is coming. History proves this over and over."
-    },
-    {
-      "verse": 18,
-      "sanskrit": "कर्मण्यकर्म यः पश्येदकर्मणि च कर्म यः | स बुद्धिमान्मनुष्येषु स युक्तः कृत्स्नकर्मकृत् ||",
-      "transliteration": "karmaṇy akarma yaḥ paśyed akarmaṇi ca karma yaḥ | sa buddhimān manuṣyeṣu sa yuktaḥ kṛtsna-karma-kṛt",
-      "translation": "One who sees inaction in action, and action in inaction, is intelligent among men.",
-      "modern": "The wise person understands that meditation IS action (you're training your mind) and that some 'action' is actually doing nothing (busy-work that goes nowhere). It's not about how much you're doing, but whether what you're doing actually matters. Someone scrolling social media for hours looks busy but accomplishes nothing. Someone sitting quietly might be solving their biggest problem. Quality over quantity."
-    },
-    {
-      "verse": 38,
-      "sanskrit": "न हि ज्ञानेन सदृशं पवित्रमिह विद्यते | तत्स्वयं योगसंसिद्धः कालेनात्मनि विन्दति ||",
-      "transliteration": "na hi jñānena sadṛśaṁ pavitram iha vidyate | tat svayaṁ yoga-saṁsiddhaḥ kālenātmani vindati",
-      "translation": "In this world, there is nothing as purifying as knowledge. One who is perfected in yoga finds this within themselves in due course of time.",
-      "modern": "Real knowledge - not just information, but actual wisdom - is the most powerful thing there is. It literally transforms you from the inside. You can't buy it, inherit it, or fake it. You have to earn it through experience and practice. And when it comes, it changes everything. This is why education (real education, not just credentials) is so valuable. It's the one thing nobody can take from you."
-    }
-  ]
+"number": 4,
+"title": "The Path of Wisdom",
+"sanskrit": "ज्ञानकर्मसंन्यासयोग",
+"verses": 42,
+"introduction": "Chapter 4 of the Bhagavad Gita, known as Jnana Karma Sanyasa Yoga (The Yoga of Knowledge and Renunciation of Action), is Krishna’s masterclass on blending wisdom with everyday work. Here, Krishna reveals the ancient lineage of this knowledge, explains His own divine appearances (avatars) to restore dharma, and shows how true knowledge transforms ordinary actions into liberation. It’s the ultimate upgrade for modern life: understanding that your job, side hustle, or daily grind isn’t just “work” – it’s a sacred opportunity when done with awareness. Think of it as moving from burnout mode to flow state, where you act without being owned by results, ego, or drama. Perfect for GenZ and Millennials juggling careers, purpose, and endless notifications.",
+"shlokas": [
+{
+"verse": 1,
+"sanskrit": "श्रीभगवानुवाच |\nइमं विवस्वते योगं प्रोक्तवानहमव्ययम् |\nविवस्वान्मनवे प्राह मनुरिक्ष्वाकवेऽब्रवीत् ||",
+"transliteration": "śrī-bhagavān uvāca\nimaṁ vivasvate yogaṁ proktavān aham avyayam\nvivasvān manave prāha manur ikṣvākave ’bravīt",
+"translation": "The Supreme Lord said: I instructed this imperishable science of yoga to the sun-god, Vivasvān. Vivasvān instructed it to Manu, the father of mankind, and Manu in turn instructed it to Ikṣvāku.",
+"modern": "Krishna drops the mic: ‘This wisdom I’m giving you? It’s ancient – I taught it to the Sun God himself at the dawn of time, who passed it to the first human king, and so on.’ Imagine your company’s founding CEO sharing the original vision document from 2005 that still runs the culture today. In today’s world, it’s like discovering that the productivity hack your mentor gave you was actually passed down from Steve Jobs through your boss’s boss. The point? Real wisdom isn’t TikTok trends that vanish in 24 hours – it’s timeless knowledge preserved through genuine teacher-student lineages (think genuine mentors, not LinkedIn influencers). When you tap into this chain, your 9-to-5 stops feeling random and starts feeling purposeful."
+},
+{
+"verse": 2,
+"sanskrit": "एवं परम्पराप्राप्तमिमं राजर्षयो विदुः |\nस कालेनेह महता योगो नष्टः परन्तप ||",
+"transliteration": "evaṁ paramparā-prāptam imaṁ rājarṣayo viduḥ\nsa kāleneha mahatā yogo naṣṭaḥ parantapa",
+"translation": "This supreme science was thus received through the chain of disciplic succession, and the saintly kings understood it in that way. But in course of time the succession was broken, and therefore the science as it is appears to be lost.",
+"modern": "The royal sages kept this knowledge alive through guru-shishya tradition, but over centuries it got diluted – like how original company culture gets lost when the founder steps down and middle management takes over. Ever joined a startup that felt magical in Year 1 but became corporate bureaucracy by Year 5? Same vibe. Krishna is saying: ‘Don’t worry, Arjuna – I’m restoring the pure version right now.’ In 2026 life, it’s your reminder to seek real mentors (not just career coaches selling courses) who still carry the original fire. When the chain breaks, we end up with diluted versions – hustle culture without soul, mindfulness apps without depth. Reconnect to the source and watch your work transform."
+},
+{
+"verse": 3,
+"sanskrit": "स एवायं मया तेऽद्य योगः प्रोक्तः पुरातनः |\nभक्तोऽसि मे सखा चेति रहस्यं ह्येतदुत्तमम् ||",
+"transliteration": "sa evāyaṁ mayā te ’dya yogaḥ proktaḥ purātanaḥ\nbhakto ’si me sakhā ceti rahasyaṁ hy etad uttamam",
+"translation": "That very ancient science of the relationship with the Supreme is today told by Me to you because you are My devotee as well as My friend and can therefore understand the transcendental mystery of this science.",
+"modern": "Krishna basically says: ‘Arjuna, you’re not just a student – you’re My friend and devotee, so I’m trusting you with the real secret sauce.’ It’s like your favorite senior at work pulling you aside during lunch and sharing the undocumented playbook that actually makes the company run. In modern terms: this wisdom isn’t for casual scrollers; it’s for those who show up with sincerity. Whether you’re a founder burning out or an employee questioning ‘what’s the point?’, Krishna is saying ‘I see your heart – here’s the cheat code.’ The funniest part? The ultimate life hack was always free and ancient, but we keep buying $97 courses instead."
+},
+{
+"verse": 4,
+"sanskrit": "अर्जुन उवाच |\nअपरं भवतो जन्म परं जन्म विवस्वतः |\nकथमेतद्विजानीयां त्वमादौ प्रोक्तवानिति ||",
+"transliteration": "arjuna uvāca\naparaṁ bhavato janma paraṁ janma vivasvataḥ\nkatham etad vijānīyāṁ tvam ādau proktavān iti",
+"translation": "Arjuna said: The sun-god Vivasvān is senior by birth to You. How am I to understand that in the beginning You instructed this science to him?",
+"modern": "Arjuna’s confused: ‘Krishna, you look my age – how could you have taught the Sun God eons ago?’ Classic human logic. It’s like your 28-year-old colleague claiming they invented the internet. But here’s the mind-bender: Krishna is about to reveal He’s not bound by linear time. In today’s world, think of it as meeting a young founder who somehow carries 50 years of industry wisdom. Or scrolling an old mentor’s LinkedIn and realizing their advice predicted trends years ahead. This verse captures our limited perception – we judge by appearance and age, but real wisdom operates on a different timeline. Arjuna’s question is ours: ‘How is this possible?’ Krishna’s answer is coming – and it will blow your existential framework."
+},
+{
+"verse": 5,
+"sanskrit": "श्रीभगवानुवाच |\nबहूनि मे व्यतीतानि जन्मानि तव चार्जुन |\nतान्यहं वेद सर्वाणि न त्वं वेत्थ परन्तप ||",
+"transliteration": "śrī-bhagavān uvāca\nbahūni me vyatītāni janmāni tava cārjuna\ntāny ahaṁ veda sarvāṇi na tvaṁ vettha parantapa",
+"translation": "The Supreme Personality of Godhead said: Many, many births both you and I have passed. I can remember all of them, but you cannot, O subduer of the enemy.",
+"modern": "Krishna smiles and says: ‘Bro, we’ve both had countless lives – I remember every single one, you’ve forgotten.’ It’s the ultimate plot twist. Like realizing your “new” boss was actually your colleague in a previous startup (metaphorically). In real life, think of déjà vu moments, inexplicable talents, or that one friend who just “gets” you on a soul level. This verse kills the “one life, one chance” anxiety that fuels hustle culture. Your current job struggles, breakup drama, or quarter-life crisis? Just one chapter in a very long story. The relief is massive: you’re not starting from zero – you’re continuing an eternal journey. Suddenly Monday meetings feel less apocalyptic."
+},
+{
+"verse": 6,
+"sanskrit": "अजोऽपि सन्नव्ययात्मा भूतानामीश्वरोऽपि सन् |\nप्रकृतिं स्वामधिष्ठाय संभवाम्यात्ममायया ||",
+"transliteration": "ajo ’pi sann avyayātmā bhūtānām īśvaro ’pi san\nprakṛtiṁ svām adhiṣṭhāya sambhavāmy ātma-māyayā",
+"translation": "Although I am unborn and My transcendental body never deteriorates, and although I am the Lord of all living entities, I still appear in every millennium in My original transcendental form.",
+"modern": "Krishna reveals: ‘I’m unborn, indestructible, the boss of everything – yet I choose to show up in the world through My divine energy.’ It’s God doing incognito mode. Like Elon Musk quietly joining a random Twitter Space or a billionaire working undercover at their own company. In daily life, it’s that moment when the quietest person in the meeting drops the game-changing insight. Or when “random” opportunities align perfectly. The deeper point: the universe isn’t random chaos – there’s a conscious intelligence choosing to participate in the mess to help us. When you’re stuck in traffic or a toxic project, remember: even the Divine chooses to “log in” to this simulation to restore balance. Suddenly your bad day feels part of something bigger."
+},
+{
+"verse": 7,
+"sanskrit": "यदा यदा हि धर्मस्य ग्लानिर्भवति भारत |\nअभ्युत्थानमधर्मस्य तदात्मानं सृजाम्यहम् ||",
+"transliteration": "yadā yadā hi dharmasya glānir bhavati bhārata\nabhyutthānam adharmasya tadātmānaṁ sṛjāmy aham",
+"translation": "Whenever and wherever there is a decline in religious practice, O descendant of Bharata, and a predominant rise of irreligion—at that time I descend Myself.",
+"modern": "The famous avatar promise: ‘Whenever dharma (righteousness) declines and adharma rises, I manifest.’ Think of it as the universe’s emergency update patch. In modern terms: when corporate greed tanks employee mental health, a whistleblower or ethical leader suddenly appears. When social media turns toxic, a new movement for digital wellness rises. When climate denial peaks, Greta or young activists show up. Krishna isn’t promising a superhero landing – sometimes the “avatar” is the quiet colleague who starts the mental health initiative, or the founder who chooses values over valuation. Funny how we wait for dramatic saviors while the real ones are often the ordinary people saying ‘enough.’ This verse gives hope: the system self-corrects. Your generation’s burnout? The response is already being born."
+},
+{
+"verse": 8,
+"sanskrit": "परित्राणाय साधूनां विनाशाय च दुष्कृताम् |\nधर्मसंस्थापनार्थाय संभवामि युगे युगे ||",
+"transliteration": "paritrāṇāya sādhūnāṁ vināśāya ca duṣkṛtām\ndharma-saṁsthāpanārthāya sambhavāmi yuge yuge",
+"translation": "To deliver the pious and to annihilate the miscreants, as well as to reestablish the principles of religion, I Myself appear, millennium after millennium.",
+"modern": "Krishna’s mission statement: protect the good, destroy evil, restore balance – age after age. It’s not revenge; it’s cosmic HR doing performance reviews. In today’s world: when big tech exploits users, regulators or ethical alternatives emerge. When cancel culture goes too far, voices for nuance appear. When your toxic workplace drains everyone, someone (maybe you) finally speaks up or quits to start something better. The funny part? We expect fireworks and blue avatars, but often the “annihilation of evil” is just quiet accountability – that manager getting exposed, that harmful trend dying naturally. This verse is empowering: you don’t have to be perfect to play a part in restoring dharma. Your honest feedback in a meeting, your ethical side project, your boundary-setting – that’s participating in the divine mission right now."
+},
+{
+"verse": 9,
+"sanskrit": "जन्म कर्म च मे दिव्यमेवं यो वेत्ति तत्त्वतः |\nत्यक्त्वा देहं पुनर्जन्म नैति मामेति सोऽर्जुन ||",
+"transliteration": "janma karma ca me divyam evaṁ yo vetti tattvataḥ\ntyaktvā dehaṁ punar janma naiti mām eti so ’rjuna",
+"translation": "One who knows the transcendental nature of My appearance and activities does not, upon leaving the body, take birth again in this material world, but attains My eternal abode, O Arjuna.",
+"modern": "Know My birth and actions as divine → break the rebirth cycle and come to Me. This is the ultimate exit strategy from samsara. In practical terms: when you truly get that life’s challenges are divine curriculum (not random punishment), you stop accumulating new karma. Like finally understanding your toxic ex was a growth lesson, not “why me?” – suddenly you’re free. In career: that layoff you thought ruined you? Divine redirection to your real path. The relief is insane – no more fearing “what if I mess up this life?” because you realize the real You is eternal and the game is rigged in favor of learning. GenZ especially resonates: we’re tired of performative success. This verse says real success is understanding the game itself. Once you do, even death is just “logging off” to the main server."
+},
+{
+"verse": 10,
+"sanskrit": "वीतरागभयक्रोधा मन्मया मामुपाश्रिताः |\nबहवो ज्ञानतपसा पूता मद्भावमागताः ||",
+"transliteration": "vīta-rāga-bhaya-krodhā man-mayā mām upāśritāḥ\nbahavo jñāna-tapasā pūtā mad-bhāvam āgatāḥ",
+"translation": "Being free from attachment, fear, and anger, becoming fully absorbed in Me and taking refuge in Me, many persons in the past became purified by knowledge of Me, and thus attained My divine love.",
+"modern": "Drop attachment, fear, anger → absorb in the Divine → get purified and reach God. It’s the ancient 3-step detox. Modern version: unfollow toxic accounts (attachment), stop doom-scrolling (fear), quit rage-tweeting (anger), and instead focus on purpose bigger than yourself. Think of every successful person who seemed “untouchable” – they stopped being controlled by likes, FOMO, or haters. In work: the colleague who stays calm during layoffs because their identity isn’t their title. The founder who pivots without panic. Funny how we chase therapy, supplements, and productivity apps when the real protocol has been here for 5000+ years. This verse is your permission slip: you don’t need to be perfect – just sincerely try. The purification happens automatically."
+},
+{
+"verse": 11,
+"sanskrit": "ये यथा मां प्रपद्यन्ते तांस्तथैव भजाम्यहम् |\nमम वर्त्मानुवर्तन्ते मनुष्याः पार्थ सर्वशः ||",
+"transliteration": "ye yathā māṁ prapadyante tāṁs tathaiva bhajāmy aham\nmama vartmānuvartante manuṣyāḥ pārtha sarvaśaḥ",
+"translation": "As all surrender unto Me, I reward them accordingly. Everyone follows My path in all respects, O son of Pritha.",
+"modern": "You approach Me however you want – I meet you exactly there. Atheist doing good work? Devout praying daily? Overworked parent just trying to be kind? All valid. It’s the ultimate non-judgmental Divine Customer Service. In today’s polarized world, this is revolutionary – no “my path is the only path.” Your skeptical friend who volunteers at animal shelters is on the path. The spiritual girl doing sound baths is on the path. The corporate guy who mentors juniors quietly is on the path. Krishna doesn’t gatekeep. The only requirement? Sincerity in your approach. This verse kills spiritual superiority complex and gives everyone hope. Whatever your current version of “surrender” looks like (even if it’s just choosing kindness over cynicism today), it counts."
+},
+{
+"verse": 12,
+"sanskrit": "काङ्क्षन्तः कर्मणां सिद्धिं यजन्त इह देवताः |\nक्षिप्रं हि मानुषे लोके सिद्धिर्भवति कर्मजा ||",
+"transliteration": "kāṅkṣantaḥ karmaṇāṁ siddhiṁ yajanta iha devatāḥ\nkṣipraṁ hi mānuṣe loke siddhir bhavati karmajā",
+"translation": "Those who desire the fruits of their work worship the demigods here in this world. The results of such work come quickly in the material world.",
+"modern": "People chase quick results by worshipping “demigods” (money, fame, algorithms, bosses). And yes, it often works short-term – viral post gets likes, brown-nosing gets promotion. But Krishna is gently pointing out: that’s low-level worship. Like grinding only for quarterly bonuses instead of building something meaningful. In 2026, it’s chasing 10k followers, IPO dreams, or that one viral reel. The results come fast… and so does the emptiness when they fade. This verse is your reminder that quick karma is real, but so is the law of diminishing returns. Want lasting fulfillment? Level up your worship to the Source, not the middlemen."
+},
+{
+"verse": 13,
+"sanskrit": "चातुर्वर्ण्यं मया सृष्टं गुणकर्मविभागशः |\nतस्य कर्तारमपि मां विद्ध्यकर्तारमव्ययम् ||",
+"transliteration": "cātur-varṇyaṁ mayā sṛṣṭaṁ guṇa-karma-vibhāgaśaḥ\ntasya kartāram api māṁ viddhy akartāram avyayam",
+"translation": "According to the three modes of material nature and the work associated with them, the four divisions of human society were created by Me. And although I am the creator of this system, you should know that I am yet the nondoer, being unchangeable.",
+"modern": "The four varnas (broadly: leaders/teachers, protectors/administrators, business/creators, service providers) based on qualities and work – not birth. Krishna created the system but remains untouched. In modern terms: society needs visionaries, executors, innovators, and supporters. But caste-by-birth nonsense corrupted it. Today it’s like natural roles in teams – some are strategic, some operational, some creative, some relational. The key line: Krishna is the source but not bound by it. You can be a CEO with a service heart, or a gig worker with kingly wisdom. Don’t let society’s boxes define you. Your varna is your current dharma – play it fully, but remember you’re not defined by the role. That’s freedom."
+},
+{
+"verse": 14,
+"sanskrit": "न मां कर्माणि लिम्पन्ति न मे कर्मफले स्पृहा |\nइति मां योऽभिजानाति कर्मभिर्न स बध्यते ||",
+"transliteration": "na māṁ karmāṇi limpanti na me karma-phale spṛhā\niti māṁ yo ’bhijānāti karmabhir na sa badhyate",
+"translation": "There is no work that affects Me; nor do I aspire for the fruits of action. One who understands this truth about Me also does not become entangled in the fruitive reactions of work.",
+"modern": "Krishna does infinite work but stays untouched – like a CEO who builds empires but doesn’t get ego-attached to quarterly results. The secret: know this truth and you too become free while working. In practice: you can close that huge deal, launch the product, or help your team crush goals – and still sleep peacefully because your self-worth isn’t in the outcome. Ever seen someone who works insanely hard but never burns out or brags? That’s this. Funny how we chase “work-life balance” when the real hack is “work-soul detachment.” Do the work fully, but don’t let the results own you. That’s how you become un-fireable in the cosmic sense."
+},
+{
+"verse": 15,
+"sanskrit": "एवं ज्ञात्वा कृतं कर्म पूर्वैरपि मुमुक्षुभिः |\nकुरु कर्मैव तस्मात्त्वं पूर्वैः पूर्वतरं कृतम् ||",
+"transliteration": "evaṁ jñātvā kṛtaṁ karma pūrvair api mumukṣubhiḥ\nkuru karmaiva tasmāt tvaṁ pūrvaiḥ pūrvataraṁ kṛtam",
+"translation": "All the liberated souls in ancient times acted with this understanding of My transcendental nature. Therefore you should perform your duty, following in their footsteps.",
+"modern": "The great ones of the past knew this and still acted. So you should too – follow their example. It’s not “quit your job and meditate in the Himalayas.” It’s “do your job like the liberated ones did theirs.” Think of historical figures who achieved massively without losing their soul – Gandhi, MLK, modern ones like Satya Nadella turning Microsoft around with humility. In your life: that senior who mentors without needing credit, the founder who gives equity to early employees. This verse destroys the excuse “spirituality means dropping out.” Real spirituality is showing up fully, doing excellent work, but from freedom, not fear or greed. Your Excel sheets and Zoom calls can be as sacred as ancient rituals when done with this awareness."
+},
+{
+"verse": 16,
+"sanskrit": "किं कर्म किमकर्मेति कवयोऽप्यत्र मोहिताः |\nतत्ते कर्म प्रवक्ष्यामि यज्ज्ञात्वा मोक्ष्यसेऽशुभात् ||",
+"transliteration": "kiṁ karma kim akarmeti kavayo ’py atra mohitāḥ\ntat te karma pravakṣyāmi yaj jñātvā mokṣyase ’śubhāt",
+"translation": "Even the intelligent are bewildered in determining what is action and what is inaction. Now I shall explain to you what action is, knowing which you shall be liberated from all misfortune.",
+"modern": "Even smart people get confused: what counts as real action vs. busywork? Krishna is about to drop the definitive guide. In 2026: is answering 200 Slack messages “work” or just motion? Is deep thinking “doing nothing”? Is scrolling research “productive”? This verse validates the confusion we all feel in always-on culture. The coming teachings will give you X-ray vision to see which actions bind you and which free you. Spoiler: you can be in back-to-back meetings all day and still be in “inaction” (detached), or sit quietly and be in heavy karma. This is the discernment that turns overwhelmed professionals into calm powerhouses."
+},
+{
+"verse": 17,
+"sanskrit": "कर्मणो ह्यपि बोद्धव्यं बोद्धव्यं च विकर्मणः |\nअकर्मणश्च बोद्धव्यं गहना कर्मणो गतिः ||",
+"transliteration": "karmaṇo hy api boddhavyaṁ boddhavyaṁ ca vikarmaṇaḥ\nakarmaṇaś ca boddhavyaṁ gahanā karmaṇo gatiḥ",
+"translation": "The intricacies of action are very hard to understand. Therefore one should know properly what action is, what forbidden action is, and what inaction is.",
+"modern": "Action, forbidden action, inaction – all super subtle. Like distinguishing helpful feedback from passive-aggressive Slack, or knowing when “rest” is actually avoidance. In work: replying to that email immediately might be “action” but create more mess (forbidden). Sitting in silence before a big decision might look like “inaction” but is actually the highest action. This verse is your permission to stop the productivity guilt trip. The path is nuanced – not black-and-white hustle. Master this discernment and you’ll work smarter, not harder, while staying ethically clean."
+},
+{
+"verse": 18,
+"sanskrit": "कर्मण्यकर्म यः पश्येदकर्मणि च कर्म यः |\nस बुद्धिमान्मनुष्येषु स युक्तः कृत्स्नकर्मकृत् ||",
+"transliteration": "karmaṇy akarma yaḥ paśyed akarmaṇi ca karma yaḥ\nsa buddhimān manuṣyeṣu sa yuktaḥ kṛtsna-karma-kṛt",
+"translation": "One who sees inaction in action and action in inaction is intelligent among men. He is a perfect yogi and has accomplished everything.",
+"modern": "The ultimate productivity paradox: the person who seems busiest might be most detached (inaction in action), while the one who seems to do “nothing” (deep strategy, meditation, visioning) is actually driving massive results (action in inaction). Think of the CEO who delegates everything and plays golf but whose company 10x’s – vs. the micromanager working 80 hours who burns out. In your life: that focused 2-hour deep work block with phone off might achieve more than 8 hours of distracted multitasking. This verse is your permission to look unproductive while being extremely effective. The smartest people in any room have mastered this. Master it and you become the calm center in every storm."
+},
+{
+"verse": 19,
+"sanskrit": "यस्य सर्वे समारम्भाः कामसङ्कल्पवर्जिताः |\nज्ञानाग्निदग्धकर्माणं तमाहुः पण्डितं बुधाः ||",
+"transliteration": "yasya sarve samārambhāḥ kāma-saṅkalpa-varjitāḥ\njñānāgni-dagdha-karmāṇaṁ tam āhuḥ paṇḍitaṁ budhāḥ",
+"translation": "One whose every endeavor is devoid of desire for sense gratification and whose actions are burned by the fire of knowledge is called a sage by the wise.",
+"modern": "All your projects, side hustles, and to-do lists – when done without craving for validation, money, or dopamine hits – get “burned clean” by wisdom. The wise call you enlightened. In practice: you launch the product because it serves people, not because you need the funding round to feel successful. You help your colleague because it’s right, not for promotion points. This is how you escape the hedonic treadmill. Funny how we think “I’ll be happy when…” but the sages are happy while doing. Your 2026 resolution: audit your motivations. The ones free of “I need this to feel worthy” become pure offerings. That’s when work becomes worship and stress evaporates."
+},
+{
+"verse": 20,
+"sanskrit": "त्यक्त्वा कर्मफलासङ्गं नित्यतृप्तो निराश्रयः |\nकर्मण्यभिप्रवृत्तोऽपि नैव किञ्चित्करोति सः ||",
+"transliteration": "tyaktvā karma-phalāsaṅgaṁ nitya-tṛpto nirāśrayaḥ\nkarmaṇy abhipravṛtto ’pi naiva kiñcit karoti saḥ",
+"translation": "Abandoning all attachment to the results of his activities, ever satisfied and independent, he performs no fruitive action, although engaged in all kinds of undertakings.",
+"modern": "The paradox master: works like crazy but is internally doing nothing (no attachment). Always content, no dependency. Think of the rare employee who delivers stellar results but doesn’t chase praise or panic over feedback. Or the creator who posts consistently without checking analytics obsessively. In startups: the founder who builds for the mission, not the exit. This is peak mental health – you show up fully, give your best, but your peace isn’t held hostage by outcomes. The secret sauce? Daily practice of “I did my part; the rest isn’t mine.” Suddenly performance reviews, client feedback, even stock prices lose their power over your mood. This is how legends stay humble and unstoppable."
+},
+{
+"verse": 21,
+"sanskrit": "निराशीर्यतचित्तात्मा त्यक्तसर्वपरिग्रहः |\nशारीरं केवलं कर्म कुर्वन्नाप्नोति किल्बिषम् ||",
+"transliteration": "nirāśīr yata-cittātmā tyakta-sarva-parigrahaḥ\nśārīraṁ kevalaṁ karma kurvann āpnoti kilbiṣam",
+"translation": "Such a person, free from expectations, with controlled mind and intelligence, having given up all sense of proprietorship, performs actions only with the body and incurs no sinful reactions.",
+"modern": "No expectations, mind controlled, owns nothing mentally – works only with the body. No guilt or karma sticks. Imagine closing the laptop at 6 PM without carrying the project home in your head. Or delegating without secretly wanting credit. In relationships: giving without keeping score. This is how you do “body work, soul free.” The modern trap is mental ownership – “my project,” “my reputation,” “my numbers.” Drop that and you become untouchable. You still crush it, but without the invisible weight. This verse is the antidote to Sunday scaries and imposter syndrome. Work happens through you, not by you owning it."
+},
+{
+"verse": 22,
+"sanskrit": "यदृच्छालाभसन्तुष्टो द्वन्द्वातीतो विमत्सरः |\nसमः सिद्धावसिद्धौ च कृत्वापि न निबध्यते ||",
+"transliteration": "yadṛcchā-lābha-santuṣṭo dvandvātīto vimatsaraḥ\nsamaḥ siddhāv asiddhau ca kṛtvāpi na nibadhyate",
+"translation": "He is satisfied with whatever comes by chance, is free from duality, envy, and is equipoised in success and failure. Though he acts, he is never entangled.",
+"modern": "Happy with whatever comes, beyond pairs of opposites (win/lose, praise/blame), no envy, balanced in success and failure – acts but never bound. This is the description of someone who is impossible to rattle. In today’s world: gets promoted? Cool. Gets passed over? Also cool. Colleague gets viral success? Genuinely happy for them. Your launch flops? Data point, not identity. Think of athletes who smile after losing because they played well, or creators who post consistently regardless of likes. This mindset is rare gold – it makes you antifragile. The funny part? Society rewards this exact detachment with the biggest wins, but only those who aren’t chasing win it. Practice this and watch opportunities chase you."
+},
+{
+"verse": 23,
+"sanskrit": "गतसङ्गस्य मुक्तस्य ज्ञानावस्थितचेतसः |\nयज्ञायाचरतः कर्म समग्रं प्रविलीयते ||",
+"transliteration": "gata-saṅgasya muktasya jñānāvasthita-cetasaḥ\nyajñāyācarataḥ karma samagraṁ pravilīyate",
+"translation": "The work of a man who is unattached to the modes of material nature and who is fully situated in transcendental knowledge merges entirely into transcendence.",
+"modern": "When you’re free from material attachments and established in knowledge, all your work becomes an offering that dissolves into the divine. No leftover karma. In practice: your code, your content, your client work – when done as service rather than ego – leaves no trace of stress or binding. Like writing an email not to impress but to truly help. Or building a product that solves real pain, not just for metrics. This is how some people work decades and retire light, while others retire bitter. The work itself becomes worship, and worship leaves no residue. In 2026 terms: your Notion tasks, your Canva designs, your sales calls – when offered with this spirit, they purify rather than drain you. This is the real “manifestation” hack – align with the flow and everything integrates perfectly."
+},
+{
+"verse": 24,
+"sanskrit": "ब्रह्मार्पणं ब्रह्म हविर्ब्रह्माग्नौ ब्रह्मणा हुतम् |\nब्रह्मैव तेन गन्तव्यं ब्रह्मकर्मसमाधिना ||",
+"transliteration": "brahmārpaṇaṁ brahma havir brahmāgnau brahmaṇā hutam\nbrahmaiva tena gantavyaṁ brahma-karma-samādhinā",
+"translation": "A person who is fully absorbed in Krishna consciousness is sure to attain the spiritual kingdom because of his full contribution to spiritual activities, in which the consummation is absolute and that which is offered is of the same spiritual nature.",
+"modern": "Everything – the offering, the offered, the fire, the act – is Brahman (divine). When you see this, you reach the divine. The ultimate non-dual vision. In daily life: your morning coffee becomes sacred, your standup meeting an offering, your code review an act of love. When you eat, it’s not just calories – it’s divine sustaining divine. When you reply to that annoying email, it’s divine communicating with divine. This shifts everything from mundane to miraculous. The funniest part? Your 9 AM meeting can be as spiritual as temple bells if you remember this. This verse collapses the sacred/secular divide. Once you live it, work stops being “have to” and becomes “get to.” That’s when real magic (and real results) happen."
+},
+{
+"verse": 25,
+"sanskrit": "दैवमेवापरे यज्ञं योगिनः पर्युपासते |\nब्रह्माग्नावपरे यज्ञं यज्ञेनैवोपजुह्वति ||",
+"transliteration": "daivam evāpare yajñaṁ yoginaḥ paryupāsate\nbrahmāgnāv apare yajñaṁ yajñenaivopajuhvati",
+"translation": "Some yogis worship the demigods by offering various sacrifices, and some of them offer sacrifices in the fire of the Supreme Brahman.",
+"modern": "Some worship external gods/forces for results (think manifesting with crystals or networking for favors). Others offer everything into the fire of ultimate reality. Both valid paths, but the second is direct. In modern life: some “sacrifice” by grinding for promotions (worshipping career gods). Others offer their work as service to the whole. The second group often ends up with deeper fulfillment and ironically better results. This verse validates different approaches while pointing to the highest. Whether you light incense or just set a mindful intention before work, the key is offering. Your daily standup can be a yajna if done consciously."
+},
+{
+"verse": 26,
+"sanskrit": "श्रोत्रादीनिन्द्रियाण्यन्ये संयमाग्निषु जुह्वति |\nशब्दादीन्विषयानन्य इन्द्रियाग्निषु जुह्वति ||",
+"transliteration": "śrotrādīnīndriyāṇy anye saṁyamāgniṣu juhvati\nśabdādīn viṣayān anya indriyāgniṣu juhvati",
+"translation": "Some [yogis] sacrifice the hearing process and the senses in the fire of the controlled mind, and others sacrifice the objects of the senses, such as sound, in the fire of sacrifice.",
+"modern": "Some sacrifice senses into mind-control fire (meditation, digital minimalism). Others offer sense objects into sense fire (mindful enjoyment). Both are valid yajnas. In 2026: one person does dopamine detox and silent retreats. Another listens to music or eats mindfully as offering. The point? Intention turns anything into spiritual practice. Doom-scrolling becomes sacrifice when you consciously offer it and learn. This verse liberates us from “all or nothing” spirituality. Your Netflix can be sacred if watched with presence. Your coffee break too. Everything can be an offering."
+},
+{
+"verse": 27,
+"sanskrit": "सर्वाणीन्द्रियकर्माणि प्राणकर्माणि चापरे |\nआत्मसंयमयोगाग्नौ जुह्वति ज्ञानदीपिते ||",
+"transliteration": "sarvāṇīndriya-karmāṇi prāṇa-karmāṇi cāpare\nātma-saṁyama-yogāgnau juhvati jñāna-dīpite",
+"translation": "Those who are interested in self-realization, in the strength of their renunciation and in the practice of yoga, offer the functions of all the senses and the vital airs as oblations into the fire of the controlled mind.",
+"modern": "Advanced yogis offer all sense activities and life force into the fire of self-controlled mind, lit by knowledge. It’s total integration. In practice: every notification, every breath, every conversation becomes fuel for inner growth. Think of elite athletes or top performers who channel everything into their craft. In spiritual terms: your entire day – emails, calls, commute – becomes practice when offered consciously. This is how busy professionals still reach high states. No need to renounce the world; renounce the attachment while staying in it. Your chaotic calendar can be your monastery."
+},
+{
+"verse": 28,
+"sanskrit": "द्रव्ययज्ञास्तपोयज्ञा योगयज्ञास्तथापरे |\nस्वाध्यायज्ञानयज्ञाश्च यतयः संशितव्रताः ||",
+"transliteration": "dravya-yajñās tapo-yajñā yoga-yajñās tathāpare\nsvādhyāya-jñāna-yajñāś ca yatayaḥ saṁśita-vratāḥ",
+"translation": "There are others who, enlightened by sacrificing their material possessions in severe austerities, take strict vows and practice the yoga of eightfold mysticism, and others study the Vedas for the advancement of transcendental knowledge.",
+"modern": "Different sacrifices: giving wealth, practicing austerity, doing ashtanga yoga, studying scriptures with knowledge. All valid for serious practitioners. In 2026: donating to causes (dravya), intermittent fasting or cold plunges (tapas), consistent yoga practice, or daily reading/learning (svadhyaya). The key is discipline with knowledge. This verse shows spirituality has multiple tracks – you don’t have to do all. Pick what resonates and go deep. Your monthly charity, your gym discipline, your book-a-week habit – all count as yajna when done consciously. No one path is superior; sincerity is."
+},
+{
+"verse": 29,
+"sanskrit": "अपाने जुह्वति प्राणं प्राणेऽपानं तथापरे |\nप्राणापानगती रुद्ध्वा प्राणायामपरायणाः ||",
+"transliteration": "apāne juhvati prāṇaṁ prāṇe ’pānaṁ tathāpare\nprāṇāpāna-gatī ruddhvā prāṇāyāma-parāyaṇāḥ",
+"translation": "Still others, who are inclined to the process of breath restraint to remain in trance, practice by offering the movement of the outgoing breath into the incoming, and the incoming breath into the outgoing, and thus at last remain in trance, stopping all breathing.",
+"modern": "Pranayama practitioners offer outgoing breath into incoming and vice versa, controlling life force. Modern science now validates what ancients knew – breathwork changes your nervous system, reduces anxiety, boosts focus. In 2026: that 4-7-8 breathing before a meeting, or box breathing during stress. Or full pranayama apps. This verse shows even breath can be a complete spiritual path. You don’t need to be a monk – 5 conscious breaths before opening your laptop can reset your entire day. The controlled mind follows controlled breath. Your most powerful (and free) tool is always with you."
+},
+{
+"verse": 30,
+"sanskrit": "अपरे नियताहाराः प्राणान्प्राणेषु जुह्वति |\nसर्वेऽप्येते यज्ञविदो यज्ञक्षपितकल्मषाः ||",
+"transliteration": "apare niyatāhārāḥ prāṇān prāṇeṣu juhvati\nsarve ’py ete yajña-vido yajña-kṣapita-kalmaṣāḥ",
+"translation": "Others, curtailing their food intake, offer the outgoing breath into the incoming breath as a sacrifice. All these knowers of sacrifice are cleansed of sinful reactions by the performance of such sacrifices.",
+"modern": "Some practice controlled eating and offer breath into breath. All these yajna-knowers get purified. Intermittent fasting, mindful eating, breath synchronization – all ancient techniques now trending as biohacks. The point: when done as offering (not just for six-pack), they burn karma. In practice: your meal becomes sacred when you eat with gratitude and awareness. Your fasting day becomes spiritual discipline. This verse validates the wellness industry while reminding us of the deeper why. Do it for purification, not just aesthetics, and watch real transformation happen. Your body itself becomes the temple and the offering."
+},
+{
+"verse": 31,
+"sanskrit": "यज्ञशिष्टामृतभुजो यान्ति ब्रह्म सनातनम् |\nनायं लोकोऽस्त्ययज्ञस्य कुतोऽन्यः कुरुसत्तम ||",
+"transliteration": "yajña-śiṣṭāmṛta-bhujo yānti brahma sanātanam\nnāyaṁ loko ’sty ayajñasya kuto ’nyaḥ kuru-sattama",
+"translation": "O best of the Kuru dynasty, those who eat the remnants of yajña (sacrifice) attain the eternal Brahman. But those who do not perform yajña have no place even in this world, what to speak of the next.",
+"modern": "Those who partake of the “nectar” left from sacrifice reach the eternal. Those who never sacrifice have no place here or hereafter. Harsh but true: a life with zero giving, service, or offering becomes empty. In modern terms: the person who only consumes (content, experiences, resources) without contributing eventually feels hollow – no community, no purpose, no legacy. While the one who regularly “offers” (volunteers, mentors, creates value) gets the nectar – deeper connections, fulfillment, opportunities. This verse explains why generous people often seem luckier. Your time, skills, money – when offered regularly, create a feedback loop of abundance. Live as consumer only and even this life feels meaningless. Offer daily and you taste the eternal even now."
+},
+{
+"verse": 32,
+"sanskrit": "एवं बहुविधा यज्ञा वितता ब्रह्मणो मुखे |\nकर्मजान्विद्धि तान्सर्वानेवं ज्ञात्वा विमोक्ष्यसे ||",
+"transliteration": "evaṁ bahu-vidhā yajñā vitatā brahmaṇo mukhe\nkarma-jān viddhi tān sarvān evaṁ jñātvā vimokṣyase",
+"translation": "All these different types of sacrifice are approved by the Vedas, and they all are born of different types of work. Knowing them as such, you will become liberated.",
+"modern": "Many kinds of yajna, all born of action, all leading to freedom when understood. This verse is inclusive AF – no one path is mandatory. Your unique combination (charity + breathwork + ethical business + daily gratitude) is valid. The key: know they’re all forms of offering action. In 2026, whether your yajna is building open-source tools, raising conscious kids, or running sustainable business – it counts. This liberates us from “I’m not spiritual enough” syndrome. Once you see all positive action as yajna, life itself becomes the path. No more separating “spiritual time” from “real life.” Everything integrates. That realization alone is liberation."
+},
+{
+"verse": 33,
+"sanskrit": "श्रेयान्द्रव्यमयाद्यज्ञाज्ज्ञानयज्ञः परन्तप |\nसर्वं कर्माखिलं पार्थ ज्ञाने परिसमाप्यते ||",
+"transliteration": "śreyān dravya-mayād yajñāj jñāna-yajñaḥ parantapa\nsarvaṁ karmākhilaṁ pārtha jñāne parisamāpyate",
+"translation": "O subduer of the enemy, the sacrifice performed in knowledge is better than the mere sacrifice of material possessions. After all, O son of Pritha, all sacrifices of work culminate in transcendental knowledge.",
+"modern": "Knowledge yajna > material yajna. All actions ultimately lead to knowledge. Giving money is good, but understanding why you give is better. In career: grinding for money is fine, but understanding the deeper purpose behind your work is the real upgrade. This verse ranks inner work highest. You can donate lakhs, but if done for tax benefits or image, it’s lower. Do it with knowledge (seeing the recipient as divine) and it transforms you. All your KPIs, deadlines, and deliverables? They’re all stepping stones to wisdom if you reflect. The end goal of all hustle is not more stuff – it’s realizing who you really are. That’s when work becomes play and life becomes light."
+},
+{
+"verse": 34,
+"sanskrit": "तद्विद्धि प्रणिपातेन परिप्रश्नेन सेवया |\nउपदेक्ष्यन्ति ते ज्ञानं ज्ञानिनस्तत्त्वदर्शिनः ||",
+"transliteration": "tad viddhi praṇipātena paripraśnena sevayā\nupadekṣyanti te jñānaṁ jñāninas tattva-darśinaḥ",
+"translation": "Just try to learn the truth by approaching a spiritual master. Inquire from him submissively and render service unto him. The self-realized souls can impart knowledge unto you because they have seen the truth.",
+"modern": "The famous guru instruction: approach with humility, ask sincere questions, serve – then real knowledge flows. In 2026 terms: don’t just consume free content. Find a living mentor (coach, teacher, senior) you respect, show up consistently, ask real questions, and contribute value. The best knowledge isn’t in books or YouTube – it’s transmitted through relationship and trust. This explains why some people read 100 self-help books and stay stuck, while others with one genuine mentor transform. Service is key – interns who help without expecting immediately often get the real secrets. This verse is your career (and life) hack: invest in relationships with those who’ve walked the path. The transmission is worth more than any course."
+},
+{
+"verse": 35,
+"sanskrit": "यज्ज्ञात्वा न पुनर्मोहमेवं यास्यसि पाण्डव |\nयेन भूतान्यशेषेण द्रक्ष्यस्यात्मन्यथो मयि ||",
+"transliteration": "yaj jñātvā na punar moham evaṁ yāsyasi pāṇḍava\nyena bhūtāny aśeṣeṇa drakṣyasy ātmani atho mayi",
+"translation": "Having obtained real knowledge from a self-realized soul, you will never fall again into such illusion, for by this knowledge you will see that all living beings are but parts of the Supreme, or, in other words, that they are Mine.",
+"modern": "Once you get this knowledge, no more delusion. You’ll see every person – annoying colleague, rude customer, stranger on metro – as part of the same divine whole, ultimately connected to the Source. This ends “us vs them.” In office: that difficult stakeholder? Also divine. In traffic: that guy cutting you off? Same consciousness. In relationships: your ex? Part of the play. This vision kills loneliness and judgment. Suddenly the world feels like family. You stop taking things personally because it’s all One playing. This is the perspective that turns ordinary life into constant wonder. Once seen, it can’t be unseen – and you’re free."
+},
+{
+"verse": 36,
+"sanskrit": "अपि चेदसि पापेभ्यः सर्वेभ्यः पापकृत्तमः |\nसर्वं ज्ञानप्लवेनैव वृजिनं सन्तरिष्यसि ||",
+"transliteration": "api ced asi pāpebhyaḥ sarvebhyaḥ pāpa-kṛt-tamaḥ\nsarvaṁ jñāna-plavenaiva vṛjinaṁ santariṣyasi",
+"translation": "Even if you are considered to be the most sinful of all sinners, when you are situated in the boat of transcendental knowledge, you will be able to cross over the ocean of miseries.",
+"modern": "Even the worst sinner can cross the ocean of suffering on the boat of knowledge. No one is disqualified. This is the ultimate redemption arc. In 2026: that person with the darkest past, biggest mistakes, worst reputation – one genuine shift in understanding can change everything. Your own regrets? Covered. This verse destroys shame culture. Knowledge isn’t for “good” people only – it’s the lifeboat for everyone. The guy who messed up his career, the one with addiction history, the one who hurt people – all can board. The boat is always available. This is why transformation stories hit so hard – they prove it works. Your past doesn’t define your future when knowledge is the sail."
+},
+{
+"verse": 37,
+"sanskrit": "यथैधांसि समिद्धोऽग्निर्भस्मसात्कुरुतेऽर्जुन |\nज्ञानाग्निः सर्वकर्माणि भस्मसात्कुरुते तथा ||",
+"transliteration": "yathaidhāṁsi samiddho ’gnir bhasmasāt kurute ’rjuna\njñānāgniḥ sarva-karmāṇi bhasmasāt kurute tathā",
+"translation": "As a blazing fire turns firewood to ashes, O Arjuna, so does the fire of knowledge burn to ashes all reactions to material activities.",
+"modern": "Knowledge fire burns all karma to ashes, like fire burning wood completely. Past mistakes, guilt, “what ifs” – gone. In practical life: that one insight from a book, mentor, or meditation that suddenly makes you see your entire history differently – and the weight lifts. You stop carrying old failures. This is why people cry happy tears in therapy or retreats. The fire doesn’t just forgive – it erases the binding power. Your failed startup? Burned. Toxic relationship patterns? Ashes. Suddenly you’re light enough to fly. This verse is your assurance: no karma is too big for knowledge. Light the fire through sincere seeking and watch freedom happen."
+},
+{
+"verse": 38,
+"sanskrit": "न हि ज्ञानेन सदृशं पवित्रमिह विद्यते |\nतत्स्वयं योगसंसिद्धः कालेनात्मनि विन्दति ||",
+"transliteration": "na hi jñānena sadṛśaṁ pavitramiha vidyate\ntat svayaṁ yoga-saṁsiddhaḥ kālenātmani vindati",
+"translation": "In this world, there is nothing as purifying as transcendental knowledge. Such knowledge is automatically revealed to the pure-hearted after prolonged practice of yoga.",
+"modern": "Nothing purifies like knowledge. It reveals itself naturally to the sincere practitioner over time. This is why forced spirituality fails but gentle consistent practice succeeds. In 2026: you can’t buy enlightenment on Amazon Prime, but daily small practices (10 min meditation, reflective journaling, ethical choices) compound like interest. One day you realize “I just don’t react the same anymore.” The knowledge wasn’t forced – it bloomed. This verse is patient encouragement for all of us who feel we’re not “there” yet. Keep showing up. The purification is happening even when you don’t see it. Your yoga (whatever your practice is) is working. Trust the timeline."
+},
+{
+"verse": 39,
+"sanskrit": "श्रद्धावाँल्लभते ज्ञानं तत्परः संयतेन्द्रियः |\nज्ञानं लब्ध्वा परां शान्तिमचिरेणाधिगच्छति ||",
+"transliteration": "śraddhāvāṁl labhate jñānaṁ tat-paraḥ saṁyatendriyaḥ\njñānaṁ labdhvā parāṁ śāntim acireṇādhigacchati",
+"translation": "A faithful man who is dedicated to transcendental knowledge and who subdues his senses is eligible to achieve such knowledge, and having achieved it he quickly attains the supreme spiritual peace.",
+"modern": "Faith + dedication + sense control = knowledge → supreme peace, fast. Faith here isn’t blind belief – it’s sincere trust that there’s more. Dedication is showing up. Sense control is not being ruled by impulses. In modern life: trust the process, do the daily work, manage your phone/social media instead of letting it manage you. Then peace arrives quicker than expected. This is why some people transform in months while others take years – the combination of these three. Your consistent 1% better each day compounds into unshakable calm. This verse is your roadmap: faith keeps you going when results aren’t visible, dedication builds the muscle, control protects the gains. Peace isn’t the destination – it’s the natural result."
+},
+{
+"verse": 40,
+"sanskrit": "अज्ञश्चाश्रद्दधानश्च संशयात्मा विनश्यति |\nनायं लोकोऽस्ति न परो न सुखं संशयात्मनः ||",
+"transliteration": "ajñaś cāśraddadhānaś ca saṁśayātmā vinaśyati\nnāyaṁ loko ’sti na paro na sukhaṁ saṁśayātmanaḥ",
+"translation": "But ignorant and faithless persons who doubt the revealed scriptures do not attain God consciousness; they fall into the material pool again and again.",
+"modern": "Doubting without sincere seeking leads to repeated suffering – no happiness here or hereafter. This isn’t threatening; it’s compassionate warning. The chronic skeptic who never tries anything deeply stays stuck in the same loops. In 2026: the person who dismisses all self-help/spirituality as “woo” but stays anxious and unfulfilled. Or the one who tries one meditation app for 3 days and declares “doesn’t work.” Krishna is saying: doubt is fine as starting point, but without faith (willingness to test) and knowledge-seeking, you keep cycling the same problems. The happy middle: healthy skepticism + sincere experiment. Test the teachings like a scientist. Those who do, break the cycle. Those who stay in perpetual “yeah but…” stay in samsara."
+},
+{
+"verse": 41,
+"sanskrit": "योगसन्न्यस्तकर्माणं ज्ञानसञ्छिन्नसंशयम् |\nआत्मवन्तं न कर्माणि निबध्नन्ति धनञ्जय ||",
+"transliteration": "yoga-sannyasta-karmāṇaṁ jñāna-sañchinna-saṁśayam\nātmavantaṁ na karmāṇi nibadhnanti dhanañjaya",
+"translation": "One who acts in devotional service, renouncing the fruits of his actions, and whose doubts have been destroyed by transcendental knowledge, is bound by no karmic reactions, O conqueror of wealth.",
+"modern": "Renounce results through yoga, cut doubts with knowledge, stay established in self – no karma binds you. This is the final freedom formula. In career: you deliver the project excellently but aren’t crushed if it doesn’t get the applause. Doubts about “is this my path?” get resolved through insight. You know who you are beyond the role. Then work becomes play – no binding, no burnout. This is how some people achieve massively and still seem untouched. The actions happen, results come, but you remain free. This verse is the graduation certificate: you’ve done the inner work, now live liberated while fully engaged. Your wealth (dhanañjaya) is now internal – unstealable."
+},
+{
+"verse": 42,
+"sanskrit": "तस्मादज्ञानसम्भूतं हृत्स्थं ज्ञानासिनात्मनः |\nछित्त्वैनं संशयं योगमातिष्ठोत्तिष्ठ भारत ||",
+"transliteration": "tasmād ajñāna-sambhūtaṁ hṛt-sthaṁ jñānāsinātmanaḥ\nchittvainaṁ saṁśayaṁ yogam ātiṣṭhottiṣṭha bhārata",
+"translation": "Therefore the doubts which have arisen in your heart out of ignorance should be slashed by the weapon of knowledge. O Arjuna, situated in yoga, stand up and fight!",
+"modern": "Krishna’s closing command: cut the heart-doubts born of ignorance with the sword of knowledge. Then stand up and do your dharma! This is the ultimate pep talk. All your “what if I fail?”, “am I enough?”, “is this worth it?” – slash them with understanding. Then get back in the arena. In 2026: after that insightful podcast, book, or deep conversation, don’t just feel inspired – act. Apply it in your next meeting, your next decision, your next creation. Knowledge without action is useless. Krishna doesn’t say “now quit and meditate forever.” He says “now fight – but as a wise warrior.” Your battles (deadlines, tough conversations, big launches) are waiting. Armed with this wisdom, go win them. The chapter ends with a call to action – exactly what we need after deep philosophy. Stand up. You’ve got this."
+}
+]
 }
