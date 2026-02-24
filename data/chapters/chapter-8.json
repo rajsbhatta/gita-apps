@@ -1,23 +1,205 @@
 {
   "number": 8,
-  "title": "The Eternal Brahman",
+  "title": "The Path to the Supreme",
   "sanskrit": "अक्षरब्रह्मयोग",
   "verses": 28,
-  "introduction": "Krishna explains the imperishable Absolute Truth and the importance of remembering the Supreme at the time of death.",
+  "introduction": "Chapter 8 of the Bhagavad Gita, Akshara Brahma Yoga (The Yoga of the Imperishable Brahman), is one of the most concise yet profound chapters on the nature of death, the afterlife, liberation, and how to reach the Supreme at the moment of departure. Arjuna asks seven direct, existential questions: What is Brahman? What is adhyatma? What is karma? What is adhibhuta? What is adhidaiva? What is adhiyajna? And — most importantly — how can one remember You (Krishna) at the time of death? Krishna answers each clearly, then reveals the two paths after death (the path of light leading to no return, and the path of darkness leading to return), explains how constant remembrance ensures one reaches Him, and ends with the famous promise: whoever remembers Me at death attains Me. For modern readers — especially those wrestling with mortality anxiety, fear of the unknown, legacy concerns, or the question 'what happens when we die?' — this chapter is direct medicine. In an age of medical prolonging of life, sudden losses, existential podcasts, and near-death experience stories, Krishna offers certainty: your state of consciousness at death determines your destination, and loving remembrance of the Divine is the safest passage. The essence remains intact: the imperishable Brahman is the ultimate goal, and single-minded devotion to the Supreme Person is the easiest way to reach that goal even amid the chaos of life and the mystery of death.",
   "shlokas": [
     {
+      "verse": 1,
+      "sanskrit": "अर्जुन उवाच |\nकिं तद्ब्रह्म किमध्यात्मं किं कर्म पुरुषोत्तम |\nअधिभूतं च किं प्रोक्तमधिदैवं किमुच्यते ||",
+      "transliteration": "arjuna uvāca\nkiṁ tad brahma kim adhyātmaṁ kiṁ karma puruṣottama\nadhibhūtaṁ ca kiṁ proktam adhidaivaṁ kim ucyate",
+      "translation": "Arjuna said: O my Lord, O Supreme Person, what is Brahman? What is the self? What is fruitive action? And what is said to be the material manifestation? Who is the Lord of sacrifice, and how does He live in the body?",
+      "modern": "Arjuna asks the seven ultimate questions — the same ones most thoughtful people ask at some point: What is ultimate reality (Brahman)? What am I really (the self)? What is the meaning of action? What is this material world? Who/what governs it all? How is the Divine present in the body and in sacrifice? In 2026 life, this is the late-night spiral: 'What’s the point of all this work? Who am I beyond my resume? What happens after death? Is there a higher intelligence running the show?' Arjuna is not asking for philosophy — he wants clarity so he can live and die well. Krishna’s answers in this chapter will give exactly that."
+    },
+    {
+      "verse": 2,
+      "sanskrit": "अधियज्ञः कथं कोऽत्र देहेऽस्मिन्मधुसूदन |\nप्रयाणकाले च कथं ज्ञेयोऽसि नियतात्मभिः ||",
+      "transliteration": "adhiyajñaḥ kathaṁ ko ’tra dehe ’smin madhusūdana\nprayāṇa-kāle ca kathaṁ jñeyo ’si niyatātmabhiḥ",
+      "translation": "O Madhusudana, how does this Lord of sacrifice live in the body, and how can those whose minds are fixed on You know You at the time of death?",
+      "modern": "The most urgent question: how can disciplined people remember You at the moment of death? This is the core human fear — not just dying, but dying unconsciously, lost in confusion or fear. In today’s world: people worry about sudden accidents, prolonged illness, dementia, or simply being too distracted by pain/medication to focus. Arjuna is asking for the practical method to ensure conscious, loving remembrance at the end. Krishna’s answer will be one of the most famous and comforting verses in spiritual literature."
+    },
+    {
+      "verse": 3,
+      "sanskrit": "श्रीभगवानुवाच |\nअक्षरं ब्रह्म परमं स्वभावोऽध्यात्ममुच्यते |\nभूतभावोद्भवकरो विसर्गः कर्मसंज्ञितः ||",
+      "transliteration": "śrī-bhagavān uvāca\nakṣaraṁ brahma paramaṁ svabhāvo ’dhyātmam ucyate\nbhūta-bhāvodbhava-karo visargaḥ karma-saṁjñitaḥ",
+      "translation": "The Supreme Personality of Godhead said: The indestructible, transcendental living entity is called Brahman, and his eternal nature is called the self (adhyatma). Action pertaining to the development of the material bodies of the living entities is called karma, or fruitive activities.",
+      "modern": "Krishna answers the first questions clearly: Brahman = the imperishable Supreme Reality. Adhyatma = the eternal nature of the individual soul. Karma = the creative force that produces material bodies and their experiences. In simple terms: ultimate reality is eternal (Brahman), you are an eternal soul (adhyatma), and your actions shape your embodied journey (karma). This demystifies existence. In 2026 life: your soul is not your personality, job, or body — it’s eternal. Your actions matter because they create the next chapter. Krishna is giving the basic ontology — the map of reality. Everything else builds on this foundation."
+    },
+    {
+      "verse": 4,
+      "sanskrit": "अधिभूतं क्षरो भावः पुरुषश्चाधिदैवतम् |\nअधियज्ञोऽहमेवात्र देहे देहभृतां वर ||",
+      "transliteration": "adhibhūtaṁ kṣaro bhāvaḥ puruṣaś cādhidaivatam\nadhiyajño ’ham evātra dehe deha-bhṛtāṁ vara",
+      "translation": "O best of the embodied beings, the physical nature, which undergoes constant change, is called adhibhuta [the material manifestation]. The universal form of the Lord, which includes all the demigods and is the source of their existence, is called adhidaiva. And I, the Supreme Lord, present in the body of every living being, am called adhiyajna [the Lord of all sacrifices].",
+      "modern": "Krishna completes the answers: Adhibhuta = perishable matter/nature. Adhidaiva = the cosmic Purusha (universal form/source of all deities). Adhiyajna = the Supreme Lord residing in every heart as the indweller. In 2026 terms: the changing world (matter) is adhibhuta. The intelligent design behind all forces/laws is adhidaiva. And the personal Divine presence inside every being — that’s Me (adhiyajna). This is Krishna revealing He is both transcendent (source of everything) and immanent (present in every heart). No one is ever truly alone. This ends isolation and gives security: the Divine is closer than your own breath."
+    },
+    {
       "verse": 5,
-      "sanskrit": "अन्तकाले च मामेव स्मरन्मुक्त्वा कलेवरम् | यः प्रयाति स मद्भावं याति नास्त्यत्र संशयः ||",
-      "transliteration": "anta-kāle ca mām eva smaran muktvā kalevaram | yaḥ prayāti sa mad-bhāvaṁ yāti nāsty atra saṁśayaḥ",
-      "translation": "Whoever, at the time of death, quits their body remembering Me alone, at once attains My nature.",
-      "modern": "What you think about in your final moment matters. But really, this is about what you think about ALL the time. Because your last thought will be whatever dominated your life. If you lived for money, you'll die thinking about money. If you lived for love, you'll die thinking about love. Your death thought reveals your life's focus. So choose wisely what you obsess over now."
+      "sanskrit": "अन्तकाले च मामेव स्मरन्मुक्त्वा कलेवरम् |\nयः प्रयाति स मद्भावं याति नास्त्यत्र संशयः ||",
+      "transliteration": "anta-kāle ca mām eva smaran muktvā kalevaram\nyaḥ prayāti sa mad-bhāvaṁ yāti nāsty atra saṁśayaḥ",
+      "translation": "And whoever, at the time of death, quits his body remembering Me alone, attains My nature immediately. Of this there is no doubt.",
+      "modern": "The famous death verse: whoever leaves the body remembering Me alone reaches Me — no doubt. This is the ultimate life insurance. In 2026: people fear dying in pain, confusion, or unconsciousness. Krishna says: cultivate constant remembrance now, and it will be there at the end. This isn’t about last-minute panic prayers — it’s about lifelong habit. The person who thinks of the Divine in daily joys, challenges, commutes, workouts — that remembrance becomes natural at death. This verse brings immense comfort: your relationship with the Divine is the only thing that travels with you. Build it now."
+    },
+    {
+      "verse": 6,
+      "sanskrit": "यं यं वापि स्मरन्भावं त्यजत्यन्ते कलेवरम् |\nतं तमेवैति कौन्तेय सदा तद्भावभावितः ||",
+      "transliteration": "yaṁ yaṁ vāpi smaran bhāvaṁ tyajaty ante kalevaram\ntaṁ tam evaiti kaunteya sadā tad-bhāva-bhāvitaḥ",
+      "translation": "Whatever state of being one remembers when he quits his body, that state he will attain without fail, O son of Kunti.",
+      "modern": "Your last conscious thought/state shapes your next destination. This is the law of momentum in consciousness. In practice: if you die angry, fearful, attached, or remembering the Divine — that vibration carries forward. This explains why spiritual teachers emphasize constant remembrance. In 2026: most people die thinking of unfinished work, family worries, or Netflix. Krishna is saying: train the mind now so the default is higher. This verse is both sobering and empowering — you have agency over your exit state. Practice daily so the mind naturally turns upward at the end."
     },
     {
       "verse": 7,
-      "sanskrit": "तस्मात्सर्वेषु कालेषु मामनुस्मर युध्य च | मय्यर्पितमनोबुद्धिर्मामेवैष्यस्यसंशयः ||",
-      "transliteration": "tasmāt sarveṣu kāleṣu mām anusmara yudhya ca | mayy arpita-mano-buddhir mām evaiṣyasy asaṁśayaḥ",
-      "translation": "Therefore, remember Me at all times and fight. With mind and intelligence dedicated to Me, you will surely come to Me.",
-      "modern": "Stay connected to your higher purpose while handling your daily battles. Meditate AND take action. Pray AND do the work. Be spiritual AND practical. People think it's either/or, but it's both/and. You can be deeply spiritual while crushing it in the material world. In fact, that's the whole point - bring that elevated consciousness INTO your regular life."
+      "sanskrit": "तस्मात्सर्वेषु कालेषु मामनुस्मर युध्य च |\nमय्यर्पितमनोबुद्धिर्मामेवैष्यसि संशयम् ||",
+      "transliteration": "tasmāt sarveṣu kāleṣu mām anusmara yudhya ca\nmayy arpita-mano-buddhir mām evaiṣyasi saṁśayam",
+      "translation": "Therefore, Arjuna, you should always think of Me and at the same time carry out your prescribed duty of fighting. With your activities dedicated to Me and your mind and intelligence fixed on Me, you will attain Me without doubt.",
+      "modern": "The practical prescription: remember Me always + do your duty. Fix mind and intellect on Me — no doubt you’ll reach Me. In 2026 life: this is the integration formula — don’t separate spiritual practice from daily action. Remember the Divine while working, parenting, driving, exercising. Make it continuous. Krishna is saying: you don’t need to quit your life to remember Me — remember Me inside your life. This ends the 'spiritual vs worldly' split. Your job, your battles — they become the field of remembrance. This is karma yoga + bhakti yoga combined. Simple, powerful, doable."
+    },
+    {
+      "verse": 8,
+      "sanskrit": "अभ्यासयोगयुक्तेन चेतसा नान्यगामिना |\nपरमं पुरुषं दिव्यं याति पार्थानुचिन्तयन् ||",
+      "transliteration": "abhyāsa-yoga-yuktena cetasā nānya-gāminā\nparamaṁ puruṣaṁ divyaṁ yāti pārthānucintayan",
+      "translation": "He who meditates on the Supreme Personality of Godhead, his mind constantly engaged in remembering Me, without deviation — he, O Partha, is sure to reach Me.",
+      "modern": "Steady, unbroken remembrance through practice — no wandering — takes you to the Supreme Person. In practice: abhyasa (consistent repetition) + yoga (union) + one-pointed mind = success. Krishna is saying: make remembrance a habit, not an occasional thought. In 2026: set reminders, use breath as anchor, chant while walking, think of the Divine during commutes. The key is continuity. Wandering mind = diluted results. Focused mind = guaranteed arrival. This verse is the encouragement for consistency — the quiet daily practice compounds into liberation."
+    },
+    {
+      "verse": 9,
+      "sanskrit": "कविं पुराणमनुशासितारमणोरणीयांसमनुस्मरेद्यः |\nसर्वस्य धातारमचिन्त्यरूपमादित्यवर्णं तमसः परस्तात् ||",
+      "transliteration": "kaviṁ purāṇam anuśāsitāram aṇor aṇīyāṁsam anusmared yaḥ\nsarvasya dhātāram acintya-rūpam āditya-varṇaṁ tamasaḥ parastāt",
+      "translation": "One should meditate upon the Supreme Person as the one who knows everything, as He who is the oldest, who is the controller, who is smaller than the smallest, who is the maintainer of everything, whose form is inconceivable, who is luminous like the sun, and who is transcendental, beyond this material nature.",
+      "modern": "Meditate on the Supreme as omniscient, ancient, controller, subtlest, sustainer, inconceivable, radiant like the sun, beyond darkness/matter. This is a beautiful meditation object. In practice: visualize or contemplate these qualities during remembrance. Krishna is giving attributes to focus on — not to limit Him, but to train the mind. In 2026: when the mind wanders to problems, return to 'He who knows all, sustains all, is subtler than atoms, brighter than suns.' This shifts perspective from small self to vast Divine. This verse is a ready-made contemplative practice — use it daily."
+    },
+    {
+      "verse": 10,
+      "sanskrit": "प्रयाणकाले मनसाचलेन भक्त्या युक्तो योगबलेन चैव |\nभ्रुवोर्मध्ये प्राणमावेश्य सम्यक् स तं परं पुरुषमुपैति दिव्यम् ||",
+      "transliteration": "prayāṇa-kāle manasācalena bhaktyā yukto yoga-balena caiva\nbhruvor madhye prāṇam āveśya samyak sa taṁ paraṁ puruṣam upaiti divyam",
+      "translation": "One who, at the time of death, fixes his life air between the eyebrows with full attention on Me, and with steady devotion and the strength of yoga practice, reaches the Supreme Person.",
+      "modern": "At death, the yogi with steady mind, devotion, and yogic power fixes prana between the eyebrows and reaches the Divine Person. This describes conscious departure through ajna chakra focus. In practice: lifelong devotion + meditation practice creates the momentum so at death the mind naturally goes upward. This is why consistent remembrance matters — it becomes automatic. Krishna is giving the technical + devotional method for a divine exit. For most, devotion alone suffices — the technique is for advanced practitioners. The promise: steady remembrance ensures safe passage."
+    },
+    {
+      "verse": 11,
+      "sanskrit": "यदक्षरं वेदविदो वदन्ति विशन्ति यद्यतयो वीतरागाः |\nयदिच्छन्तो ब्रह्मचर्यं चरन्ति तत्ते पदं संग्रहेण प्रवक्ष्ये ||",
+      "transliteration": "yad akṣaraṁ veda-vido vadanti viśanti yad yatayo vīta-rāgāḥ\nyad icchanto brahmacaryaṁ caranti tat te padaṁ saṅgraheṇa pravakṣye",
+      "translation": "Persons learned in the Vedas, who chant the syllable om and who are great sages in the renounced order, enter into Brahman. Desirous of achieving that state, they practice celibacy and other austerities. Now I shall briefly explain to you that abode.",
+      "modern": "The knowers of Vedas, ascetics free from desire, enter the imperishable by chanting Om and practicing brahmacharya. Krishna will now describe that supreme abode. In practice: Om is the primordial sound — chanting it attunes to the imperishable. Brahmacharya (moderation in senses) conserves energy for higher focus. This verse honors the traditional path while Krishna prepares to reveal something even higher — His personal abode. For modern seekers: sound (mantra) + sense control = attunement to the eternal. Krishna is building toward the personal revelation."
+    },
+    {
+      "verse": 12,
+      "sanskrit": "सर्वद्वाराणि संयम्य मनो हृदि निधाय च |\nमूर्ध्न्याधायात्मनः प्राणमास्थितो योगधारणाम् ||",
+      "transliteration": "sarva-dvārāṇi saṁyamya mano hṛdi nidhāya ca\nmūrdhny ādhāyātmanaḥ prāṇam āsthito yoga-dhāraṇām",
+      "translation": "The yogic situation is that of detachment from all sensual engagements. Closing the doors of perception and fixing the mind on the heart and the life air at the top of the head, one establishes himself in trance.",
+      "modern": "Close all sense doors, fix mind in heart, raise prana to crown — this is yogic trance. This describes advanced pranayama + dharana for conscious exit. In 2026: most people don’t need this technical method — simple loving remembrance suffices (as Krishna will say). But for serious practitioners, this is the 'exit strategy' through sahasrara. Krishna is giving the full toolkit: devotion for most, technical yoga for some. The goal is the same — conscious union at death."
+    },
+    {
+      "verse": 13,
+      "sanskrit": "ओमित्येकाक्षरं ब्रह्म व्याहरन्मामनुस्मरन् |\nयः प्रयाति त्यजन्देहं स याति परमां गतिम् ||",
+      "transliteration": "om ity ekākṣaraṁ brahma vyāharan mām anusmaran\nyaḥ prayāti tyajan dehaṁ sa yāti paramāṁ gatim",
+      "translation": "After being situated in this yoga practice and vibrating the sacred syllable om, the supreme combination of letters, if one thinks of the Supreme Personality of Godhead and quits his body, he will certainly reach the spiritual planets.",
+      "modern": "Chant Om (the syllable of Brahman), remember Me, and leave the body — you reach the supreme goal. This is the simplest, most powerful death practice. In practice: lifelong chanting of Om + remembrance of the Divine ensures safe passage. Krishna is giving a fail-safe method. For most people in 2026 — no need for complex pranayama — just Om + loving thought of the Divine at the end. Build the habit now so it’s natural then. This verse is pure reassurance: a simple sound + remembrance = liberation."
+    },
+    {
+      "verse": 14,
+      "sanskrit": "अनन्यचेताः सततं यो मां स्मरति नित्यशः |\nतस्याहं सुलभः पार्थ नित्ययुक्तस्य योगिनः ||",
+      "transliteration": "ananya-cetāḥ satataṁ yo māṁ smarati nityaśaḥ\ntasyāhaṁ sulabhaḥ pārtha nitya-yuktasya yoginaḥ",
+      "translation": "For one who remembers Me without deviation, I am easy to obtain, O son of Pritha, because he is always engaged in devotional service.",
+      "modern": "The one who remembers Me constantly, without distraction — I am easily attainable for that yogi. This is the most encouraging verse in the Gita. Krishna says: constant, exclusive remembrance makes Me easy to reach. In 2026 life: no need for extreme austerities — just unbroken loving remembrance. The simplest path is the highest. This ends the idea that liberation is for monks only. The busy parent, the stressed professional, the student — if they keep turning the mind to the Divine throughout the day — they reach Him easily. This is grace through devotion. Krishna is accessible — make Him your constant companion."
+    },
+    {
+      "verse": 15,
+      "sanskrit": "मामुपेत्य पुनर्जन्म दुःखालयमशाश्वतम् |\nनाप्नुवन्ति महात्मानः संसिद्धिं परमां गताः ||",
+      "transliteration": "mām upetya punar janma duḥkhālayam aśāśvatam\nnāpnuvanti mahātmānāḥ saṁsiddhiṁ paramāṁ gatāḥ",
+      "translation": "After attaining Me, the great souls, who are yogis in devotion, never return to this temporary world, which is full of miseries, because they have attained the highest perfection.",
+      "modern": "Once they reach Me, the great souls never return to this world of suffering — they’ve attained supreme perfection. This is the promise of no return. In practice: the one who reaches the Divine through devotion is done with the cycle. No more birth/death, joy/sorrow rollercoaster. This is the ultimate security. Krishna is saying: aim for Me — that ends all limitation. This verse inspires long-term vision: don’t settle for temporary highs — go for eternal union."
+    },
+    {
+      "verse": 16,
+      "sanskrit": "आब्रह्मभुवनाल्लोकाः पुनरावर्तिनोऽर्जुन |\nमामुपेत्य तु कौन्तेय पुनर्जन्म न विद्यते ||",
+      "transliteration": "ā-brahma-bhuvanāl lokāḥ punar āvartino ’rjuna\nmām upetya tu kaunteya punar janma na vidyate",
+      "translation": "From the highest planet in the material world down to the lowest, all are places of misery wherein repeated birth and death take place. But one who attains to My abode never takes birth again.",
+      "modern": "All material worlds — even the highest heavens — involve return (rebirth). But reaching My abode = no more birth. This is the distinction between temporary heavens and eternal Divine realm. In 2026: even peak experiences, success, or subtle astral states are temporary. Only union with the Supreme is permanent. Krishna is expanding the vision: don’t aim for better material worlds — aim for transcendence. This verse gives ultimate perspective — nothing in the changing realms lasts. Go for the changeless."
+    },
+    {
+      "verse": 17,
+      "sanskrit": "सहस्रयुगपर्यन्तमहर्यद्ब्रह्मणो विदुः |\nरात्रिं युगसहस्रान्तां ते ऽहोरात्रविदो जनाः ||",
+      "transliteration": "sahasra-yuga-paryantam ahar yad brahmaṇo viduḥ\nrātriṁ yuga-sahasrāntāṁ te ’horātra-vido janāḥ",
+      "translation": "By human calculation, a thousand ages taken together is the duration of Brahma’s one day. And such also is the duration of his night.",
+      "modern": "Cosmic time scale: one day of Brahma = 1000 yuga cycles (4.32 billion human years). His night is the same. This is the mind-bending Vedic cosmology. In practice: even the longest human life or civilization is a blink in cosmic time. This verse humbles the ego — our dramas are tiny. Krishna is expanding perspective: time itself is cyclic and vast. Don’t cling to temporary things — they’re insignificant in the grand scale."
+    },
+    {
+      "verse": 18,
+      "sanskrit": "अव्यक्ताद्व्यक्तयः सर्वाः प्रभवन्त्यहरागमे |\nरात्र्यागमे प्रलीयन्ते तत्रैवाव्यक्तसंज्ञके ||",
+      "transliteration": "avyaktād vyaktayaḥ sarvāḥ prabhavanty ahar-āgame\nrātry-āgame pralīyante tatraivāvyakta-saṁjñake",
+      "translation": "When Brahma’s day is manifest, all created entities become visible; with the coming of night they are merged into the unmanifest.",
+      "modern": "During Brahma’s day, all beings manifest; at night, they dissolve back into the unmanifest. This is cosmic creation/dissolution cycle. In 2026 terms: universes expand and contract like breaths. Everything that appears eventually disappears — nothing material is permanent. This verse reinforces detachment: don’t cling to what is cyclically dissolved. The wise see the play of manifestation and rest in the unchanging source."
+    },
+    {
+      "verse": 19,
+      "sanskrit": "भूतग्रामः स एवायं भूत्वा भूत्वा प्रलीयते |\nरात्र्यागमेऽवशः पार्थ प्रभवत्यहरागमे ||",
+      "transliteration": "bhūta-grāmaḥ sa evāyaṁ bhūtvā bhūtvā pralīyate\nrātry-āgame ’vaśaḥ pārtha prabhavaty ahar-āgame",
+      "translation": "Again and again the living entities manifest and are dissolved at the arrival of Brahma’s day and night, O son of Pritha, helplessly due to their own karma.",
+      "modern": "Beings are repeatedly born and dissolved at Brahma’s day/night — helplessly, due to karma. This explains reincarnation as cosmic rhythm + karmic momentum. In practice: we’re not victims — our desires and actions drive the cycle. Krishna is compassionate: it’s not punishment, it’s consequence. The way out: break the cycle through devotion and knowledge. This verse inspires urgency — don’t waste lifetimes repeating the same patterns. Use this life to end the repetition."
+    },
+    {
+      "verse": 20,
+      "sanskrit": "परस्तस्मात्तु भावोऽन्योऽव्यक्तोऽव्यक्तात्सनातनः |\nयः स सर्वेषु भूतेषु नश्यत्सु न विनश्यति ||",
+      "transliteration": "paras tasmāt tu bhāvo ’nyo ’vyakto ’vyaktāt sanātanaḥ\nyaḥ sa sarveṣu bhūteṣu naśyatsu na vinaśyati",
+      "translation": "Yet there is another nature, which is eternal and is transcendental to this manifested and unmanifested matter. It is supreme and is never annihilated. When all in this world is annihilated, that remains as it is.",
+      "modern": "Beyond even the unmanifest is the eternal, supreme nature — never destroyed even when everything else is. This is the imperishable Brahman. In practice: when universes dissolve, when bodies die, when civilizations end — that eternal reality remains untouched. This is the ultimate security. Krishna is pointing to the unchanging background of all change. Knowing this ends existential fear. You are part of that eternal — not the temporary waves. This verse gives unshakable ground."
+    },
+    {
+      "verse": 21,
+      "sanskrit": "अव्यक्तोऽक्षर इत्युक्तस्तमाहुः परमां गतिम् |\nयं प्राप्य न निवर्तन्ते तद्धाम परमं मम ||",
+      "transliteration": "avyakto ’kṣara ity uktas tam āhuḥ paramāṁ gatim\nyaṁ prāpya na nivartante tad dhāma paramaṁ mama",
+      "translation": "That supreme abode is called unmanifested and infallible, and it is the supreme destination. When one goes there, he never returns. That is My supreme abode.",
+      "modern": "That imperishable, unmanifest realm is the highest goal — once reached, no return. That is My supreme abode. Krishna is revealing His eternal home — the place of no return. In practice: this is the ultimate destination for the soul. Not temporary heavens — the eternal Divine realm. Reaching it ends rebirth. Krishna is saying: aim here. Devotion takes you there. This verse inspires ultimate aspiration — don’t settle for lesser goals. The highest home is waiting."
+    },
+    {
+      "verse": 22,
+      "sanskrit": "पुरुषः स परः पार्थ भक्त्या लभ्यस्त्वनन्यया |\nयस्यान्तःस्थानि भूतानि येन सर्वमिदं ततम् ||",
+      "transliteration": "puruṣaḥ sa paraḥ pārtha bhaktyā labhyas tv ananyayā\nyasyāntaḥ-sthāni bhūtāni yena sarvam idaṁ tatam",
+      "translation": "The Supreme Personality of Godhead, who is greater than all, is attainable by unswerving devotion. Although He is present in every being as the Supersoul, He can be known only by devotion.",
+      "modern": "The Supreme Person — who pervades and contains everything — is attained only by exclusive devotion. This is the climax of the chapter. Krishna says: I am everywhere, yet I am known only through bhakti. In 2026: no amount of intellectual analysis, meditation techniques, or austerities alone can reveal Me fully — only loving, one-pointed devotion does. This is bhakti’s supremacy. Krishna is accessible through love. This verse ends the search: stop complicating — love Me with all your heart. That’s the key."
+    },
+    {
+      "verse": 23,
+      "sanskrit": "यत्र काले त्वनावृत्तिमावृत्तिं चैव योगिनः |\nप्रयाता यान्ति तं कालं वक्ष्यामि भरतर्षभ ||",
+      "transliteration": "yatra kāle tv anāvṛttim āvṛttiṁ caiva yoginaḥ\nprayātā yānti taṁ kālaṁ vakṣyāmi bharatarṣabha",
+      "translation": "O best of the Bharatas, I shall now explain to you the different times at which, passing away from this world, one does or does not return.",
+      "modern": "Krishna now explains the two paths at death — one with return, one without. This is the famous 'path of light' vs 'path of darkness.' In practice: your state at death determines whether you return or reach the eternal. Krishna is giving cosmic navigation — how to ensure no return. This is practical mysticism for the end of life."
+    },
+    {
+      "verse": 24,
+      "sanskrit": "अग्निर्ज्योतिरहः शुक्लः षण्मासा उत्तरायणम् |\nतत्र प्रयाता गच्छन्ति ब्रह्म ब्रह्मविदो जनाः ||",
+      "transliteration": "agnir jyotir ahaḥ śuklaḥ ṣaṇ-māsā uttarāyaṇam\ntatra prayātā gacchanti brahma brahma-vido janāḥ",
+      "translation": "Those who pass away at the time of fire, during the day, in the fortnight of the moon’s increase, during the six months of the sun’s northern course — those yogis who know Brahman go to Brahman.",
+      "modern": "The path of light: departing during fire (energy), day (clarity), bright fortnight (increasing light), northern solstice (ascending). Yogis who know Brahman take this path to Brahman. In practice: this is symbolic of higher states — clarity, ascent, light. Krishna is describing the auspicious exit for the enlightened. For most, it’s not literal timing — it’s inner state. The one established in light/knowledge takes the no-return path."
+    },
+    {
+      "verse": 25,
+      "sanskrit": "धूमो रात्रिस्तथा कृष्णः षण्मासा दक्षिणायनम् |\nतत्र चन्द्रमसं ज्योतिर्योगी प्राप्य निवर्तते ||",
+      "transliteration": "dhūmo rātris tathā kṛṣṇaḥ ṣaṇ-māsā dakṣiṇāyanam\ntatra candramasaṁ jyotir yogī prāpya nivartate",
+      "translation": "The mystic who passes away during smoke, at night, during the fortnight of the moon’s decrease, during the sun’s southern course — reaches the moon planet and returns.",
+      "modern": "The path of darkness: smoke (obscurity), night (ignorance), dark fortnight (decreasing light), southern solstice (descending). Yogis on this path reach moon (temporary heaven) and return. This is the cycle of rebirth. Krishna is explaining: lower states lead to temporary rewards and return. The wise aim for the higher path. This verse clarifies why some experiences are pleasant but not final."
+    },
+    {
+      "verse": 26,
+      "sanskrit": "शुक्लकृष्णे गती ह्येते जगतः शाश्वते मते |\nएकया यात्यनावृत्तिमन्ययावर्तते पुनः ||",
+      "transliteration": "śukla-kṛṣṇe gatī hy ete jagataḥ śāśvate mate\nekayā yāty anāvṛttim anyayāvartate punaḥ",
+      "translation": "According to Vedic opinion, there are two ways of passing from this world — one in the light and one in the darkness. When one passes in light, he does not come back; but when one passes in darkness, he returns.",
+      "modern": "Two eternal paths: light (no return), darkness (return). This is the cosmic fork at death. In practice: live in light (knowledge, devotion, clarity) to take the no-return path. Live in darkness (ignorance, attachment) and you cycle back. Krishna is giving the ultimate navigation. Choose light now — through practice — so the path is clear at the end."
+    },
+    {
+      "verse": 27,
+      "sanskrit": "नैते सृती पार्थ जानन्योगी मुह्यति कश्चन |\nतस्मात्सर्वेषु कालेषु योगयुक्तो भवार्जुन ||",
+      "transliteration": "naite sṛtī pārtha jānan yogī muhyati kaścana\ntasmāt sarveṣu kāleṣu yoga-yukto bhavārjuna",
+      "translation": "The devotees who know these two paths, O Arjuna, are never bewildered. Therefore be always fixed in devotion.",
+      "modern": "The yogi who knows these two paths is never deluded. Therefore always be established in yoga. Krishna concludes: understanding the paths ends confusion. Stay fixed in yoga (union with Me). In practice: knowing the stakes — return vs no return — inspires constant practice. This is the call to lifelong remembrance. Krishna is saying: now that you know, don’t waver. Be steady in devotion. This verse brings closure and urgency — live every moment as preparation for the final moment."
+    },
+    {
+      "verse": 28,
+      "sanskrit": "वेदेषु यज्ञेषु तपःसु चैव दानेषु यत्पुण्यफलं प्रदिष्टम् |\nअत्येति तत्सर्वमिदं विदित्वा योगी परं स्थानमुपैति चाद्यम् ||",
+      "transliteration": "vedeṣu yajñeṣu tapaḥsu caiva dāneṣu yat puṇya-phalaṁ pradiṣṭam\natyeti tat sarvam idaṁ viditvā yogī paraṁ sthānam upaiti cādyam",
+      "translation": "A person who accepts the path of devotional service is not deprived of the results obtained even by studying the Vedas, performing sacrifices, undergoing austerities, giving charity, and so on. Such a devotee reaches the supreme abode.",
+      "modern": "The yogi/devotee surpasses all the results of Vedic study, sacrifices, austerities, charity — and reaches the supreme original abode. This is the grand finale: bhakti/devotion gives everything and more. In 2026: no need to master every scripture, ritual, or practice — sincere loving remembrance of the Divine transcends them all. Krishna is saying: the path of love is complete. It includes and exceeds all other paths. This verse ends the chapter with supreme reassurance — choose devotion, reach the highest. The journey is complete in Me."
     }
   ]
 }
