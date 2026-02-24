@@ -3,50 +3,308 @@
   "title": "The Path of Action",
   "sanskrit": "कर्मयोग",
   "verses": 43,
-  "introduction": "After hearing about the eternal soul and knowledge in Chapter 2, Arjuna is confused why Krishna is pushing him to fight if knowledge is superior. Krishna clarifies that selfless action (Karma Yoga) is the path for most people - not renunciation of action, but action without attachment to results.",
+  "introduction": "Chapter 3 of the Bhagavad Gita, Karma Yoga (The Yoga of Action), is one of the most practical and urgently needed teachings for modern life. After Arjuna expresses his desire to renounce action in Chapter 1 and Krishna introduces knowledge and detachment in Chapter 2, Arjuna now asks the direct question almost every spiritually inclined person asks today: 'If knowledge is superior and the mind should be detached, then why should I act at all — especially in this messy, stressful, often corrupt world?' Krishna’s answer is revolutionary: action is not the problem — attachment to results is. You cannot escape action (even renunciation is an action), but you can act without bondage. This chapter is the Gita’s blueprint for living powerfully in the world without being crushed by it. For GenZ and Millennials juggling 9-to-5s, side hustles, family pressure, social media comparison, burnout, and the search for purpose — Karma Yoga is the operating system upgrade: do your work excellently, offer it selflessly, detach from outcomes, and let the action itself become meditation. The essence is preserved: action done with the right inner attitude purifies the mind faster than renunciation for most people in the active stage of life.",
   "shlokas": [
-    {"verse": 1, "sanskrit": "अर्जुन उवाच | ज्यायसी चेत्कर्मणस्ते मता बुद्धिर्जनार्दन | तत्किं कर्मणि घोरे मां नियोजयसि केशव ||", "transliteration": "arjuna uvāca | jyāyasī cet karmaṇas te matā buddhir janārdana | tat kiṁ karmaṇi ghore māṁ niyojayasi keśava", "translation": "Arjuna said: O Krishna, if You consider knowledge superior to action, why do You ask me to engage in this terrible action?", "modern": "Classic confusion: 'If thinking is better, why make me act?' We all feel this. Meditation vs hustle. Study vs work. But life requires both. You can't just sit and think forever."},
-    {"verse": 2, "sanskrit": "व्यामिश्रेणेव वाक्येन बुद्धिं मोहयसीव मे | तदेकं वद निश्चित्य येन श्रेयोऽहमाप्नुयाम् ||", "transliteration": "vyāmiśreṇeva vākyena buddhiṁ mohayasīva me | tad ekaṁ vada niścitya yena śreyo 'ham āpnuyām", "translation": "With seemingly contradictory statements, You are confusing my understanding. Please tell me decisively the one path by which I may attain the highest good.", "modern": "Give me ONE clear answer! We hate ambiguity. We want simple rules. But wisdom is nuanced. There's no one-size-fits-all path."},
-    {"verse": 3, "sanskrit": "श्रीभगवानुवाच | लोकेऽस्मिन्द्विविधा निष्ठा पुरा प्रोक्ता मयानघ | ज्ञानयोगेन साङ्ख्यानां कर्मयोगेन योगिनाम् ||", "transliteration": "śrī-bhagavān uvāca | loke 'smin dvi-vidhā niṣṭhā purā proktā mayānagha | jñāna-yogena sāṅkhyānāṁ karma-yogena yoginām", "translation": "The Lord said: In this world there are two paths - the path of knowledge for the contemplative, and the path of work for the active.", "modern": "Two types of people: thinkers and doers. Philosophers and practitioners. Both valid. Know which one you are. Don't force yourself to be what you're not."},
-    {"verse": 4, "sanskrit": "न कर्मणामनारम्भान्नैष्कर्म्यं पुरुषोऽश्नुते | न च संन्यसनादेव सिद्धिं समधिगच्छति ||", "transliteration": "na karmaṇām anārambhān naiṣkarmyaṁ puruṣo 'śnute | na ca saṁnyasanād eva siddhiṁ samadhigacchati", "translation": "Not by merely abstaining from work can one achieve freedom from action, nor by renunciation alone can one attain perfection.", "modern": "You can't just quit everything and call it spiritual. Sitting on a mountain meditating while avoiding life isn't enlightenment - it's escapism. Real growth happens IN life, not away from it."},
-    {"verse": 5, "sanskrit": "न हि कश्चित्क्षणमपि जातु तिष्ठत्यकर्मकृत् | कार्यते ह्यवशः कर्म सर्वः प्रकृतिजैर्गुणैः ||", "transliteration": "na hi kaścit kṣaṇam api jātu tiṣṭhaty akarma-kṛt | kāryate hy avaśaḥ karma sarvaḥ prakṛti-jair guṇaiḥ", "translation": "No one can remain without acting even for a moment. Everyone is forced to act by nature's qualities.", "modern": "You're always doing SOMETHING. Even meditation is an action. Scrolling is action. Thinking is action. There's no such thing as non-action. The question is: what KIND of action?"},
-    {"verse": 6, "sanskrit": "कर्मेन्द्रियाणि संयम्य य आस्ते मनसा स्मरन् | इन्द्रियार्थान्विमूढात्मा मिथ्याचारः स उच्यते ||", "transliteration": "karmendriyāṇi saṁyamya ya āste manasā smaran | indriyārthān vimūḍhātmā mithyācāraḥ sa ucyate", "translation": "One who restrains the senses but dwells on sense objects in the mind is a pretender and hypocrite.", "modern": "Fake spiritual people. They act holy but their mind is still obsessed with what they're 'giving up.' Like someone on a diet who can't stop talking about food. Real detachment is mental, not just physical."},
-    {"verse": 7, "sanskrit": "यस्त्विन्द्रियाणि मनसा नियम्यारभतेऽर्जुन | कर्मेन्द्रियैः कर्मयोगमसक्तः स विशिष्यते ||", "transliteration": "yas tv indriyāṇi manasā niyamyārabhate 'rjuna | karmendriyaiḥ karma-yogam asaktaḥ sa viśiṣyate", "translation": "But one who controls the senses with the mind and engages in Karma Yoga without attachment is superior.", "modern": "The person who actually controls their mind AND does their work without obsessing over outcomes - that's the winner. Mental discipline PLUS action. Not one or the other."},
-    {"verse": 8, "sanskrit": "नियतं कुरु कर्म त्वं कर्म ज्यायो ह्यकर्मणः | शरीरयात्रापि च ते न प्रसिद्ध्येदकर्मणः ||", "transliteration": "niyataṁ kuru karma tvaṁ karma jyāyo hy akarmaṇaḥ | śarīra-yātrāpi ca te na prasiddhyed akarmaṇaḥ", "translation": "Perform your duty, for action is better than inaction. Without action, even maintaining your body would be impossible.", "modern": "Just do your work. Literally. Even basic survival requires action. You need to eat, work, move. Sitting around philosophizing won't pay bills or maintain relationships. Do the thing."},
-    {"verse": 9, "sanskrit": "यज्ञार्थात्कर्मणोऽन्यत्र लोकोऽयं कर्मबन्धनः | तदर्थं कर्म कौन्तेय मुक्तसङ्गः समाचर ||", "transliteration": "yajñārthāt karmaṇo 'nyatra loko 'yaṁ karma-bandhanaḥ | tad-arthaṁ karma kaunteya mukta-saṅgaḥ samācara", "translation": "Work done as sacrifice is liberating; work done for selfish reasons binds you. Therefore, work without attachment.", "modern": "The WHY matters. Same job, different intention: Working just for money = trapped. Working as service = free. It's not what you do, it's why you do it."},
-    {"verse": 10, "sanskrit": "सहयज्ञाः प्रजाः सृष्ट्वा पुरोवाच प्रजापतिः | अनेन प्रसविष्यध्वमेष वोऽस्त्विष्टकामधुक् ||", "transliteration": "saha-yajñāḥ prajāḥ sṛṣṭvā purovāca prajāpatiḥ | anena prasaviṣyadhvam eṣa vo 'stv iṣṭa-kāma-dhuk", "translation": "In the beginning, the Creator created beings along with sacrifice and said: 'By this you shall prosper and it shall fulfill all your desires.'", "modern": "From the start, life was designed as mutual exchange. You give, you receive. Ecosystem. Community. Nobody makes it alone. Your prosperity depends on serving others."},
-    {"verse": 11, "sanskrit": "देवान्भावयतानेन ते देवा भावयन्तु वः | परस्परं भावयन्तः श्रेयः परमवाप्स्यथ ||", "transliteration": "devān bhāvayatānena te devā bhāvayantu vaḥ | parasparaṁ bhāvayantaḥ śreyaḥ param avāpsyatha", "translation": "Nourish the gods with sacrifice, and they will nourish you. Thus supporting each other, you will attain the highest good.", "modern": "Reciprocity. Give and take. When you contribute to the system, the system supports you. Community, economy, relationships - all work on mutual exchange. Takers eventually lose everything."},
-    {"verse": 12, "sanskrit": "इष्टान्भोगान्हि वो देवा दास्यन्ते यज्ञभाविताः | तैर्दत्तानप्रदायैभ्यो यो भुङ्क्ते स्तेन एव सः ||", "transliteration": "iṣṭān bhogān hi vo devā dāsyante yajña-bhāvitāḥ | tair dattān apradāyaibhyo yo bhuṅkte stena eva saḥ", "translation": "The gods, nourished by sacrifice, will give you desired enjoyments. One who enjoys what is given without offering in return is a thief.", "modern": "Taking without giving = stealing. Using resources without contributing. Consuming without creating. We all know people like this - takers who never reciprocate. Don't be that person."},
-    {"verse": 13, "sanskrit": "यज्ञशिष्टाशिनः सन्तो मुच्यन्ते सर्वकिल्बिषैः | भुञ्जते ते त्वघं पापा ये पचन्त्यात्मकारणात् ||", "transliteration": "yajña-śiṣṭāśinaḥ santo mucyante sarva-kilbiṣaiḥ | bhuñjate te tv aghaṁ pāpā ye pacanty ātma-kāraṇāt", "translation": "The righteous who eat what is left from sacrifice are freed from all sins, but those who cook only for themselves eat sin.", "modern": "Sharing what you have = good karma. Hoarding everything for yourself = misery. People who share are happy. People who hoard are anxious. It's that simple."},
-    {"verse": 14, "sanskrit": "अन्नाद्भवन्ति भूतानि पर्जन्यादन्नसम्भवः | यज्ञाद्भवति पर्जन्यो यज्ञः कर्मसमुद्भवः ||", "transliteration": "annād bhavanti bhūtāni parjanyād anna-sambhavaḥ | yajñād bhavati parjanyo yajñaḥ karma-samudbhavaḥ", "translation": "Beings are born from food, food from rain, rain from sacrifice, sacrifice from action.", "modern": "Everything is interconnected. Food chain, water cycle, economy, relationships - all linked. Your actions ripple outward. Understanding this makes you more responsible."},
-    {"verse": 15, "sanskrit": "कर्म ब्रह्मोद्भवं विद्धि ब्रह्माक्षरसमुद्भवम् | तस्मात्सर्वगतं ब्रह्म नित्यं यज्ञे प्रतिष्ठितम् ||", "transliteration": "karma brahmodbhavaṁ viddhi brahmākṣara-samudbhavam | tasmāt sarva-gataṁ brahma nityaṁ yajñe pratiṣṭhitam", "translation": "Know that action arises from the eternal Brahman. Therefore, the all-pervading Brahman is eternally present in acts of sacrifice.", "modern": "Work itself is sacred. There's divinity in action. You don't need to be in a temple to connect with the sacred - your daily work, done right, IS worship."},
-    {"verse": 16, "sanskrit": "एवं प्रवर्तितं चक्रं नानुवर्तयतीह यः | अघायुरिन्द्रियारामो मोघं पार्थ स जीवति ||", "transliteration": "evaṁ pravartitaṁ cakraṁ nānuvartayatīha yaḥ | aghāyur indriyārāmo moghaṁ pārtha sa jīvati", "translation": "One who does not follow this cycle of sacrifice lives in vain, delighting in sense pleasures, their life is useless.", "modern": "People who just take, consume, indulge without contributing are wasting their lives. All pleasure, no purpose. That's a wasted existence."},
-    {"verse": 17, "sanskrit": "यस्त्वात्मरतिरेव स्यादात्मतृप्तश्च मानवः | आत्मन्येव च सन्तुष्टस्तस्य कार्यं न विद्यते ||", "transliteration": "yas tv ātma-ratir eva syād ātma-tṛptaś ca mānavaḥ | ātmany eva ca santuṣṭas tasya kāryaṁ na vidyate", "translation": "But for one who delights in the Self, who is satisfied and content in the Self alone, there is no duty.", "modern": "Exception: If you're genuinely self-realized, totally content within, then external duties don't apply. But let's be real - 99.9% of us aren't there. Don't use this as an excuse to be lazy."},
-    {"verse": 18, "sanskrit": "नैव तस्य कृतेनार्थो नाकृतेनेह कश्चन | न चास्य सर्वभूतेषु कश्चिदर्थव्यपाश्रयः ||", "transliteration": "naiva tasya kṛtenārtho nākṛteneha kaścana | na cāsya sarva-bhūteṣu kaścid artha-vyapāśrayaḥ", "translation": "For such a person, there is no gain from action done or not done, nor any dependence on others.", "modern": "True masters need nothing from anyone. They're not performing for approval or avoiding action out of fear. Total freedom. But again, most of us aren't there yet."},
-    {"verse": 19, "sanskrit": "तस्मादसक्तः सततं कार्यं कर्म समाचर | असक्तो ह्याचरन्कर्म परमाप्नोति पूरुषः ||", "transliteration": "tasmād asaktaḥ satataṁ kāryaṁ karma samācara | asakto hy ācaran karma param āpnoti pūruṣaḥ", "translation": "Therefore, always perform your duty without attachment. Working without attachment, one attains the Supreme.", "modern": "The core teaching: Do your work. Don't be attached to outcomes. This is the path. Work hard, care about quality, then let go of results. That's freedom in action."},
-    {"verse": 20, "sanskrit": "कर्मणैव हि संसिद्धिमास्थिता जनकादयः | लोकसंग्रहमेवापि सम्पश्यन्कर्तुमर्हसि ||", "transliteration": "karmaṇaiva hi saṁsiddhim āsthitā janakādayaḥ | loka-saṅgraham evāpi sampaśyan kartum arhasi", "translation": "Kings like Janaka attained perfection through action. You should also perform your duty for the welfare of society.", "modern": "Even legendary kings worked. They didn't retire to caves. They engaged with the world. Your work matters not just for you, but for everyone affected by it."},
-    {"verse": 21, "sanskrit": "यद्यदाचरति श्रेष्ठस्तत्तदेवेतरो जनः | स यत्प्रमाणं कुरुते लोकस्तदनुवर्तते ||", "transliteration": "yad yad ācarati śreṣṭhas tat tad evetaro janaḥ | sa yat pramāṇaṁ kurute lokas tad anuvartate", "translation": "Whatever a great person does, others follow. Whatever standard they set, the world follows.", "modern": "Leaders set the culture. Your actions matter more than your words. People watch what you DO, not what you SAY. If you're a parent, manager, influencer - you're setting the example whether you want to or not."},
-    {"verse": 22, "sanskrit": "न मे पार्थास्ति कर्तव्यं त्रिषु लोकेषु किञ्चन | नानवाप्तमवाप्तव्यं वर्त एव च कर्मणि ||", "transliteration": "na me pārthāsti kartavyaṁ triṣu lokeṣu kiñcana | nānavāptam avāptavyaṁ varta eva ca karmaṇi", "translation": "There is nothing in the three worlds that I must do, nor anything unattained to be attained, yet I engage in action.", "modern": "Even God works! Krishna doesn't NEED to do anything, but he still acts. If even the divine engages in action, what excuse do you have to check out?"},
-    {"verse": 23, "sanskrit": "यदि ह्यहं न वर्तेयं जातु कर्मण्यतन्द्रितः | मम वर्त्मानुवर्तन्ते मनुष्याः पार्थ सर्वशः ||", "transliteration": "yadi hy ahaṁ na varteyaṁ jātu karmaṇy atandritaḥ | mama vartmānuvartante manuṣyāḥ pārtha sarvaśaḥ", "translation": "If I did not engage in action, people would follow My example everywhere, O Arjuna.", "modern": "Role models can't slack off. If you're in a position where others look up to you, your laziness gives everyone permission to be lazy. Your discipline inspires their discipline."},
-    {"verse": 24, "sanskrit": "उत्सीदेयुरिमे लोका न कुर्यां कर्म चेदहम् | सङ्करस्य च कर्ता स्यामुपहन्यामिमाः प्रजाः ||", "transliteration": "utsīdeyur ime lokā na kuryāṁ karma ced aham | saṅkarasya ca kartā syām upahanyām imāḥ prajāḥ", "translation": "If I did not work, these worlds would perish. I would be the cause of chaos and would destroy these beings.", "modern": "If leaders don't lead, systems collapse. If parents don't parent, kids suffer. If workers don't work, society falls apart. Your contribution matters more than you think."},
-    {"verse": 25, "sanskrit": "सक्ताः कर्मण्यविद्वांसो यथा कुर्वन्ति भारत | कुर्याद्विद्वांस्तथासक्तश्चिकीर्षुर्लोकसंग्रहम् ||", "transliteration": "saktāḥ karmaṇy avidvāṁso yathā kurvanti bhārata | kuryād vidvāṁs tathāsaktaś cikīrṣur loka-saṅgraham", "translation": "As the ignorant work with attachment, the wise should work without attachment, for the welfare of the world.", "modern": "Most people work for selfish reasons (paycheck, status, recognition). Wise people work for contribution. Same action, different motivation. One leads to burnout, the other to fulfillment."},
-    {"verse": 26, "sanskrit": "न बुद्धिभेदं जनयेदज्ञानां कर्मसङ्गिनाम् | जोषयेत्सर्वकर्माणि विद्वान्युक्तः समाचरन् ||", "transliteration": "na buddhi-bhedaṁ janayed ajñānāṁ karma-saṅginām | joṣayet sarva-karmāṇi vidvān yuktaḥ samācaran", "translation": "The wise should not unsettle the minds of the ignorant attached to action. Rather, by performing action in the right spirit, they should inspire others.", "modern": "Don't preach or criticize people who aren't ready. Lead by example. Your actions will inspire more than your lectures ever could. Meet people where they are."},
-    {"verse": 27, "sanskrit": "प्रकृतेः क्रियमाणानि गुणैः कर्माणि सर्वशः | अहङ्कारविमूढात्मा कर्ताहमिति मन्यते ||", "transliteration": "prakṛteḥ kriyamāṇāni guṇaiḥ karmāṇi sarvaśaḥ | ahaṅkāra-vimūḍhātmā kartāham iti manyate", "translation": "All actions are performed by nature's qualities. But deluded by ego, one thinks 'I am the doer.'", "modern": "Your ego takes credit for everything. 'I built this!' But you had help, luck, genetics, timing, infrastructure you didn't create. Recognizing this isn't false humility - it's truth. You're part of a much bigger system."},
-    {"verse": 28, "sanskrit": "तत्त्ववित्तु महाबाहो गुणकर्मविभागयोः | गुणा गुणेषु वर्तन्त इति मत्वा न सज्जते ||", "transliteration": "tattva-vit tu mahā-bāho guṇa-karma-vibhāgayoḥ | guṇā guṇeṣu vartanta iti matvā na sajjate", "translation": "But one who knows the truth about the modes of nature and their actions does not become attached, knowing that it is nature acting upon nature.", "modern": "When you understand that most of what's happening is just natural forces at play, you don't take everything so personally. You're not that important. Things happen because of complex systems, not because the universe is targeting you."},
-    {"verse": 29, "sanskrit": "प्रकृतेर्गुणसम्मूढाः सज्जन्ते गुणकर्मसु | तानकृत्स्नविदो मन्दान्कृत्स्नविन्न विचालयेत् ||", "transliteration": "prakṛter guṇa-sammūḍhāḥ sajjante guṇa-karmasu | tān akṛtsna-vido mandān kṛtsna-vin na vicālayet", "translation": "Those deluded by nature's modes become attached to their activities. The wise should not disturb the minds of those who understand less.", "modern": "Don't try to wake people up forcefully. If someone's not ready for deeper understanding, let them be. Pushing your enlightenment on others just annoys them. They'll get there when they're ready."},
-    {"verse": 30, "sanskrit": "मयि सर्वाणि कर्माणि संन्यस्याध्यात्मचेतसा | निराशीर्निर्ममो भूत्वा युध्यस्व विगतज्वरः ||", "transliteration": "mayi sarvāṇi karmāṇi saṁnyasyādhyātma-cetasā | nirāśīr nirmamo bhūtvā yudhyasva vigata-jvaraḥ", "translation": "Dedicating all actions to Me, with mind focused on the Self, free from desire and possessiveness, fight without mental fever.", "modern": "Do your work as an offering to something bigger than yourself. Without expectation of reward. Without claiming ownership of results. Without anxiety. Just do it and release it. That's the path."},
-    {"verse": 31, "sanskrit": "ये मे मतमिदं नित्यमनुतिष्ठन्ति मानवाः | श्रद्धावन्तोऽनसूयन्तो मुच्यन्ते तेऽपि कर्मभिः ||", "transliteration": "ye me matam idaṁ nityam anutiṣṭhanti mānavāḥ | śraddhāvanto 'nasūyanto mucyante te 'pi karmabhiḥ", "translation": "Those who regularly follow this teaching with faith and without criticism become free from the bondage of action.", "modern": "If you actually PRACTICE this (work without attachment), you're free. Not from action, but from the stress and anxiety that comes from being obsessed with outcomes. Work becomes effortless."},
-    {"verse": 32, "sanskrit": "ये त्वेतदभ्यसूयन्तो नानुतिष्ठन्ति मे मतम् | सर्वज्ञानविमूढांस्तान्विद्धि नष्टानचेतसः ||", "transliteration": "ye tv etad abhyasūyanto nānutiṣṭhanti me matam | sarva-jñāna-vimūḍhāṁs tān viddhi naṣṭān acetasaḥ", "translation": "But those who criticize this teaching and do not follow it are deluded in all knowledge and are lost.", "modern": "People who reject this wisdom out of cynicism or laziness stay stuck. They think they know better, but they're just making excuses. Don't be that person."},
-    {"verse": 33, "sanskrit": "सदृशं चेष्टते स्वस्याः प्रकृतेर्ज्ञानवानपि | प्रकृतिं यान्ति भूतानि निग्रहः किं करिष्यति ||", "transliteration": "sadṛśaṁ ceṣṭate svasyāḥ prakṛter jñānavān api | prakṛtiṁ yānti bhūtāni nigrahaḥ kiṁ kariṣyati", "translation": "Even the wise act according to their nature. Beings follow their nature - what can restraint accomplish?", "modern": "You can't fight your basic nature completely. Even enlightened people have personalities, preferences, tendencies. The goal isn't to become a robot. It's to act consciously within your nature, not be a slave to it."},
-    {"verse": 34, "sanskrit": "इन्द्रियस्येन्द्रियस्यार्थे रागद्वेषौ व्यवस्थितौ | तयोर्न वशमागच्छेत्तौ ह्यस्य परिपन्थिनौ ||", "transliteration": "indriyasyendriyasyārthe rāga-dveṣau vyavasthitau | tayor na vaśam āgacchet tau hy asya paripanthinau", "translation": "Attraction and aversion are natural for each sense. Do not come under their control, for they are obstacles on the path.", "modern": "You'll naturally like some things and dislike others. That's fine. The problem is when those likes/dislikes control you. Craving what you like, avoiding what you dislike - that's bondage. Observe your preferences without being ruled by them."},
-    {"verse": 35, "sanskrit": "श्रेयान्स्वधर्मो विगुणः परधर्मात्स्वनुष्ठितात् | स्वधर्मे निधनं श्रेयः परधर्मो भयावहः ||", "transliteration": "śreyān sva-dharmo viguṇaḥ para-dharmāt sv-anuṣṭhitāt | sva-dharme nidhanaṁ śreyaḥ para-dharmo bhayāvahaḥ", "translation": "It's better to do your own duty imperfectly than another's duty perfectly. Better to die in your own path than to follow another's, which is dangerous.", "modern": "Be yourself, even if you're messy at it. Don't try to live someone else's life, even if they make it look perfect. Your path is yours. Comparing yourself to others and trying to be them is a recipe for misery. Run your own race."},
-    {"verse": 36, "sanskrit": "अर्जुन उवाच | अथ केन प्रयुक्तोऽयं पापं चरति पूरुषः | अनिच्छन्नपि वार्ष्णेय बलादिव नियोजितः ||", "transliteration": "arjuna uvāca | atha kena prayukto 'yaṁ pāpaṁ carati pūruṣaḥ | anicchann api vārṣṇeya balād iva niyojitaḥ", "translation": "Arjuna said: What makes a person commit sin, even unwillingly, as if driven by force?", "modern": "The eternal question: Why do I keep doing things I know I shouldn't? It's like there's a force making me self-sabotage. Eating that, texting that person, buying that thing, saying that comment. We've all been there."},
-    {"verse": 37, "sanskrit": "श्रीभगवानुवाच | काम एष क्रोध एष रजोगुणसमुद्भवः | महाशनो महापाप्मा विद्ध्येनमिह वैरिणम् ||", "transliteration": "śrī-bhagavān uvāca | kāma eṣa krodha eṣa rajo-guṇa-samudbhavaḥ | mahāśano mahā-pāpmā viddhy enam iha vairiṇam", "translation": "The Lord said: It is desire and anger, born of passion. Know this as the enemy - insatiable and sinful.", "modern": "Desire and anger are what mess you up. You WANT something and when you don't get it, you get MAD. That combo of wanting + frustration = doing dumb stuff. Recognize these two as the enemy. They hijack your rational mind."},
-    {"verse": 38, "sanskrit": "धूमेनाव्रियते वह्निर्यथादर्शो मलेन च | यथोल्बेनावृतो गर्भस्तथा तेनेदमावृतम् ||", "transliteration": "dhūmenāvriyate vahnir yathādarśo malena ca | yatholbenāvṛto garbhas tathā tenedam āvṛtam", "translation": "As fire is covered by smoke, a mirror by dust, an embryo by the womb, knowledge is covered by desire.", "modern": "Desire clouds your judgment like smoke covering fire. You can't see clearly when you want something badly. Your rational mind gets covered by craving. That's why you make terrible decisions when you're horny, hungry, angry, or greedy."},
-    {"verse": 39, "sanskrit": "आवृतं ज्ञानमेतेन ज्ञानिनो नित्यवैरिणा | कामरूपेण कौन्तेय दुष्पूरेणानलेन च ||", "transliteration": "āvṛtaṁ jñānam etena jñānino nitya-vairiṇā | kāma-rūpeṇa kaunteya duṣpūreṇānalena ca", "translation": "Knowledge is covered by desire, the eternal enemy of the wise, which is insatiable like fire.", "modern": "Desire is never satisfied. You get what you want, then you want something else. It's a fire that keeps burning. More money, more food, more sex, more validation - it never ends. That's why it's the enemy."},
-    {"verse": 40, "sanskrit": "इन्द्रियाणि मनो बुद्धिरस्याधिष्ठानमुच्यते | एतैर्विमोहयत्येष ज्ञानमावृत्य देहिनम् ||", "transliteration": "indriyāṇi mano buddhir asyādhiṣṭhānam ucyate | etair vimohayaty eṣa jñānam āvṛtya dehinam", "translation": "The senses, mind, and intellect are said to be its seat. Through these it deludes the embodied soul, covering knowledge.", "modern": "Desire works through your senses, mind, and even your intellect. It's not just physical cravings - your smart brain will rationalize why you 'need' that thing you want. You'll make logical-sounding arguments for irrational desires."},
-    {"verse": 41, "sanskrit": "तस्मात्त्वमिन्द्रियाण्यादौ नियम्य भरतर्षभ | पाप्मानं प्रजहि ह्येनं ज्ञानविज्ञाननाशनम् ||", "transliteration": "tasmāt tvam indriyāṇy ādau niyamya bharatarṣabha | pāpmānaṁ prajahi hy enaṁ jñāna-vijñāna-nāśanam", "translation": "Therefore, first control the senses and slay this sinful enemy, the destroyer of knowledge and realization.", "modern": "Control your senses first. Don't let every craving dictate your actions. That's the starting point. You can't think clearly when your senses are running wild. Discipline comes before understanding."},
-    {"verse": 42, "sanskrit": "इन्द्रियाणि पराण्याहुरिन्द्रियेभ्यः परं मनः | मनसस्तु परा बुद्धिर्यो बुद्धेः परतस्तु सः ||", "transliteration": "indriyāṇi parāṇy āhur indriyebhyaḥ paraṁ manaḥ | manasas tu parā buddhir yo buddheḥ paratas tu saḥ", "translation": "The senses are superior to the body, mind is superior to senses, intellect is superior to mind, and the soul is superior to intellect.", "modern": "Hierarchy of consciousness: Your body is the lowest level. Your senses are above that. Your thinking mind is above your senses. Your rational intellect is above your emotional mind. And your true self is above all of that. Most people live at the bottom levels. Level up."},
-    {"verse": 43, "sanskrit": "एवं बुद्धेः परं बुद्ध्वा संस्तभ्यात्मानमात्मना | जहि शत्रुं महाबाहो कामरूपं दुरासदम् ||", "transliteration": "evaṁ buddheḥ paraṁ buddhvā saṁstabhyātmānam ātmanā | jahi śatruṁ mahā-bāho kāma-rūpaṁ durāsadam", "translation": "Thus knowing yourself to be beyond the intellect, steady the mind by the Self and conquer this formidable enemy in the form of desire.", "modern": "Use your highest self to control your lowest self. When desire pulls you, engage your wisdom. 'Do I actually need this or is it just craving?' Pause. Breathe. Let your wise self make the decision, not your impulsive self. That's self-mastery."}
+    {
+      "verse": 1,
+      "sanskrit": "अर्जुन उवाच |\nज्यायसी चेत्कर्मणस्ते मता बुद्धिर्जनार्दन |\nतत्किं कर्मणि घोरे मां नियोजयसि केशव ||",
+      "transliteration": "arjuna uvāca\njyāyasī cet karmaṇas te matā buddhir janārdana\ntat kiṁ karmaṇi ghore māṁ niyojayasi keśava",
+      "translation": "Arjuna said: O Janardana, O Keshava, if You consider knowledge superior to action, why then do You ask me to engage in this terrible action?",
+      "modern": "Arjuna is genuinely confused — and so are most of us. If wisdom/detachment/knowledge is higher (as Krishna said in Chapter 2), then why push me into this bloody, stressful, morally complicated action (war, job, family duty, startup grind)? This is the classic modern spiritual dilemma: 'If I should be detached and the world is illusion, why bother doing anything at all?' Arjuna speaks for every person who has ever felt: 'Meditation feels peaceful, but real life is messy — why not just escape?' Krishna is about to give one of the clearest answers in spiritual literature: because you cannot escape action — you can only change your relationship to it."
+    },
+    {
+      "verse": 2,
+      "sanskrit": "व्यामिश्रेणेव वाक्येन बुद्धिं मोहयसीव मे |\nतदेकं वद निश्चित्य येन श्रेयोऽहमाप्नुयाम् ||",
+      "transliteration": "vyāmiśreṇeva vākyena buddhiṁ mohayasīva me\ntad ekaṁ vada niścitya yena śreyo 'ham āpnuyām",
+      "translation": "My intelligence is bewildered by Your equivocal instructions. Therefore please tell me decisively which is most beneficial for me.",
+      "modern": "Arjuna is honest: 'You’re confusing me — one minute renunciation, next minute action. Give me the clear path to what’s truly good for me.' This is every sincere seeker’s plea. In today’s world: 'Should I keep the corporate job for stability or quit and follow my passion? Should I hustle or simplify? Should I fight the system or detach?' Arjuna wants clarity, not philosophy. Krishna’s answer will be decisive and practical — exactly what we need when life feels like mixed signals."
+    },
+    {
+      "verse": 3,
+      "sanskrit": "श्रीभगवानुवाच |\nलोकेऽस्मिन्द्विविधा निष्ठा पुरा प्रोक्ता मयानघ |\nज्ञानयोगेन साङ्ख्यानां कर्मयोगेन योगिनाम् ||",
+      "transliteration": "śrī-bhagavān uvāca\nloke 'smin dvi-vidhā niṣṭhā purā proktā mayānagha\njñāna-yogena sāṅkhyānāṁ karma-yogena yoginām",
+      "translation": "The Supreme Personality of Godhead said: O sinless one, according to the divisions created long ago, there are two kinds of faith in this world — the path of knowledge for the introspective (sankhyas) and the path of action for the active (yogis).",
+      "modern": "Krishna gives the foundational clarification: there are two main temperaments/pathways. Some people are naturally reflective/intellectual (sankhya/jnana yoga) — they reach truth through inquiry and detachment. Others are naturally active/doers (karma yoga) — they reach truth through selfless action. Most people today are a mix, but one usually dominates. Krishna is saying: don’t force yourself into the wrong lane. If you’re wired to think deeply, use that. If you’re wired to act, use that. Both reach the same goal. This removes the spiritual guilt many feel: 'I’m too active to be spiritual' or 'I’m too lazy to do karma yoga.' Know your nature and lean into it — the other quality will grow naturally."
+    },
+    {
+      "verse": 4,
+      "sanskrit": "न कर्मणामनारम्भान्नैष्कर्म्यं पुरुषोऽश्नुते |\nन च संन्यसनादेव सिद्धिं समधिगच्छति ||",
+      "transliteration": "na karmaṇām anārambhān naiṣkarmyaṁ puruṣo ’śnute\nna ca saṁnyasanād eva siddhiṁ samadhigacchati",
+      "translation": "A person can never achieve freedom from reaction by abstaining from work, nor can he attain perfection by mere renunciation.",
+      "modern": "You can’t become free by quitting action — nor by externally renouncing everything. This destroys two common myths: 1) 'If I just stop doing stuff, I’ll be peaceful' — no, the mind will create new problems. 2) 'If I just give up my job and meditate all day, I’ll be enlightened' — usually not, because attachment moves inside. In 2026 life: you can’t escape karma by ghosting responsibilities. The mind that is attached will find new things to cling to. Real freedom comes from changing the quality of action, not avoiding it. Krishna is brutally honest: renunciation without inner transformation is just running away."
+    },
+    {
+      "verse": 5,
+      "sanskrit": "न हि कश्चित्क्षणमपि जातु तिष्ठत्यकर्मकृत् |\nकार्यते ह्यवशः कर्म सर्वः प्रकृतिजैर्गुणैः ||",
+      "transliteration": "na hi kaścit kṣaṇam api jātu tiṣṭhaty akarma-kṛt\nkāryate hy avaśaḥ karma sarvaḥ prakṛti-jair guṇaiḥ",
+      "translation": "Everyone is forced to act helplessly according to the qualities he has acquired from the modes of material nature; therefore nobody can refrain from doing something, not even for a moment.",
+      "modern": "Nobody can stop acting — not even for a second. Even sitting still is action (breathing, thinking, heart beating). The three gunas (sattva, rajas, tamas) are constantly moving everything. In 2026: you can’t 'do nothing.' Scrolling is action. Overthinking is action. Procrastinating is action. Even meditation is action. Krishna is saying: accept that you’re always acting — the question is with what quality. Are you acting from clarity (sattva), restlessness (rajas), or inertia (tamas)? This verse ends the fantasy of escape. You’re in the game — play it consciously."
+    },
+    {
+      "verse": 6,
+      "sanskrit": "कर्मेन्द्रियाणि संयम्य य आस्ते मनसा स्मरन् |\nइन्द्रियार्थान्विमूढात्मा मिथ्याचारः स उच्यते ||",
+      "transliteration": "karmendriyāṇi saṁyamya ya āste manasā smaran\nindriyārthān vimūḍhātmā mithyācāraḥ sa ucyate",
+      "translation": "One who restrains the senses and organs of action, but whose mind dwells on sense objects, is certainly deluded and is called a pretender.",
+      "modern": "If you physically stop actions but your mind is still fantasizing, craving, planning sense pleasures — you’re a hypocrite. This is the classic spiritual bypassing trap. In today’s world: the person who quits their job to 'find themselves' but spends all day fantasizing about success or scrolling luxury content. Or the one who fasts but obsesses over food. Krishna is ruthless: outer renunciation without inner renunciation is fake. Real practice is mental — control the mind first. The body follows."
+    },
+    {
+      "verse": 7,
+      "sanskrit": "यस्त्विन्द्रियाणि मनसा नियम्यारभतेऽर्जुन |\nकर्मेन्द्रियैः कर्मयोगमसक्तः स विशिष्यते ||",
+      "transliteration": "yas tv indriyāṇi manasā niyamyārabhate ’rjuna\nkarmendriyaiḥ karma-yogam asaktaḥ sa viśiṣyate",
+      "translation": "But one who controls the senses by the mind and engages the organs of action in karma yoga, without attachment — he is superior.",
+      "modern": "The winner: controls senses with mind, acts through karma yoga, stays unattached. This is the practical path Krishna recommends for most people. In 2026 life: you feel the urge to check notifications — mind says no, you keep working. You do your job excellently but don’t tie your worth to the outcome. This is superior because it’s honest — you’re not pretending to be detached while secretly craving. You’re training real discipline. This is how you build a strong, integrated character. Krishna is saying: don’t fake renunciation — master action with detachment. That’s the high road."
+    },
+    {
+      "verse": 8,
+      "sanskrit": "नियतं कुरु कर्म त्वं कर्म ज्यायो ह्यकर्मणः |\nशरीरयात्रापि च ते न प्रसिद्ध्येदकर्मणः ||",
+      "transliteration": "niyataṁ kuru karma tvaṁ karma jyāyo hy akarmaṇaḥ\nśarīra-yātrāpi ca te na prasiddhyed akarmaṇaḥ",
+      "translation": "Perform your prescribed duty, for action is better than inaction. Even the maintenance of your physical body cannot be accomplished without action.",
+      "modern": "Do your duty — action is better than inaction. You can’t even keep your body alive without action. Krishna is direct: sitting around 'doing nothing' is impossible and delusional. In modern terms: you can’t pay rent, eat, or survive without work. Even monks act — begging, gardening, teaching. The question is not 'should I act?' but 'how should I act?' Krishna is killing the fantasy of total inaction. Get up, do your work, but do it the right way — that’s the teaching coming next."
+    },
+    {
+      "verse": 9,
+      "sanskrit": "यज्ञार्थात्कर्मणोऽन्यत्र लोकोऽयं कर्मबन्धनः |\nतदर्थं कर्म कौन्तेय मुक्तसङ्गः समाचर ||",
+      "transliteration": "yajñārthāt karmaṇo ’nyatra loko ’yaṁ karma-bandhanaḥ\ntad-arthaṁ karma kaunteya mukta-saṅgaḥ samācara",
+      "translation": "Work done as a sacrifice for Vishnu has to be performed; otherwise work causes bondage in this material world. Therefore, O son of Kunti, perform your prescribed duties for His satisfaction, and in that way you will always remain free from bondage.",
+      "modern": "All action binds — except action offered as yajna (sacrifice) to the Divine. Do your work as an offering, unattached, and it frees you. In 2026: turn your job, your side project, your parenting, your content creation into an offering. 'I do this to serve, to contribute, to express something higher.' When the motive is service rather than ego, the action purifies instead of binding. This is the core karma yoga shift: same action, different intention = freedom. Krishna is giving the practical escape from the karma trap — offer everything."
+    },
+    {
+      "verse": 10,
+      "sanskrit": "सहयज्ञाः प्रजाः सृष्ट्वा पुरोवाच प्रजापतिः |\nअनेन प्रसविष्यध्वमेष वोऽस्त्विष्टकामधुक् ||",
+      "transliteration": "saha-yajñāḥ prajāḥ sṛṣṭvā purovāca prajāpatiḥ\nanena prasaviṣyadhvam eṣa vo ’stviṣṭa-kāma-dhuk",
+      "translation": "In the beginning of creation, the Lord of beings created men and demigods along with the principle of sacrifice, saying, 'By this sacrifice you will produce food and be prosperous.'",
+      "modern": "From the beginning, creation came with the principle of sacrifice — give to receive. Prajapati (the creator) said: perform sacrifice and you’ll be nourished. In modern terms: life runs on reciprocity. You give value (work, kindness, creation) and life gives back (food, money, love, opportunities). This is the law of abundance — not greed, but sacred exchange. When you live as a taker only, the system collapses. When you live as a giver, it flows. Krishna is reminding us: the universe is set up for cooperation, not exploitation. Your work is part of that cosmic yajna."
+    },
+    {
+      "verse": 11,
+      "sanskrit": "देवान्भावयतानेन ते देवा भावयन्तु वः |\nपरस्परं भावयन्तः श्रेयः परमवाप्स्यथ ||",
+      "transliteration": "devān bhāvayatānena te devā bhāvayantu vaḥ\nparasparaṁ bhāvayantaḥ śreyaḥ param avāpsyatha",
+      "translation": "By nourishing the demigods, the demigods will nourish you; thus nourishing one another, you will attain the highest good.",
+      "modern": "Feed the higher forces (devas — natural principles, people, environment) and they feed you. Mutual nourishment leads to supreme welfare. In 2026: when you create value for others (customers, team, community), life supports you back (opportunities, money, fulfillment). This is the virtuous cycle. The opposite (exploitation) creates collapse. Krishna is teaching sustainable living: give first, receive naturally. Your work, your kindness, your creations — they nourish the world and the world nourishes you. This is the real economy of life."
+    },
+    {
+      "verse": 12,
+      "sanskrit": "इष्टान्भोगान्हि वो देवा दास्यन्ते यज्ञभाविताः |\nतैर्दत्तानप्रदायैभ्यो यो भुङ्क्ते स्तेन एव सः ||",
+      "transliteration": "iṣṭān bhogān hi vo devā dāsyante yajña-bhāvitāḥ\ntair dattān apradāyaibhyo yo bhuṅkte stena eva saḥ",
+      "translation": "The demigods, being satisfied by sacrifice, will supply all your necessities. But one who enjoys such gifts without offering them in return is certainly a thief.",
+      "modern": "When you live in the spirit of sacrifice, life provides what you need. But taking without giving back is theft. In modern terms: the person who consumes endlessly (content, resources, attention) without creating or contributing is a thief. The one who takes value (salary, love, nature) but gives nothing back is stealing. This is the law of karma in daily language. Krishna is saying: don’t be a parasite on the universe. Give back through your work, gratitude, service. Then abundance flows naturally. This verse is the antidote to entitlement culture."
+    },
+    {
+      "verse": 13,
+      "sanskrit": "यज्ञशिष्टाशिनः सन्तो मुच्यन्ते सर्वकिल्बिषैः |\nभुञ्जते ते त्वघं पापा ये पचन्त्यात्मकारणात् ||",
+      "transliteration": "yajña-śiṣṭāśinaḥ santo mucyante sarva-kilbiṣaiḥ\nbhuñjate te tv aghaṁ pāpā ye pacanty ātma-kāraṇāt",
+      "translation": "The devotees of the Lord are released from all kinds of sins because they eat food that is offered first in sacrifice. Others, who prepare food for personal sense enjoyment, verily eat only sin.",
+      "modern": "Food offered first in gratitude/sacrifice purifies; food eaten only for personal pleasure binds. In 2026: the person who pauses before eating to say thank you (to farmers, nature, Divine) eats with purity. The one who mindlessly consumes fast food or overeats for comfort accumulates heaviness. This is mindful eating as spiritual practice. Extend it: money earned ethically and used generously purifies; money hoarded or spent selfishly binds. Every act can be offered — that’s the key to freedom."
+    },
+    {
+      "verse": 14,
+      "sanskrit": "अन्नाद्भवन्ति भूतानि पर्जन्यादन्नसम्भवः |\nयज्ञात् पर्जन्यो भवति यज्ञः कर्मसमुद्भवः ||",
+      "transliteration": "annād bhavanti bhūtāni parjanyād anna-sambhavaḥ\nyajñāt parjanyo bhavati yajñaḥ karma-samudbhavaḥ",
+      "translation": "All living bodies subsist on food grains, which are produced from rains. Rains are produced by performance of yajna [sacrifice], and yajna is born of prescribed duties.",
+      "modern": "The chain: beings live on food → food from rain → rain from yajna (sacrifice) → yajna from prescribed action. This is the ecological-spiritual cycle. In modern terms: sustainable living, ethical work, gratitude create the conditions for abundance. When we act selfishly, the cycle breaks — droughts (literal or metaphorical), scarcity, burnout. Krishna is showing that individual action affects the whole system. Your ethical work, your conscious consumption, your generosity — they keep the rains coming. This is karma yoga as planetary responsibility."
+    },
+    {
+      "verse": 15,
+      "sanskrit": "कर्म ब्रह्मोद्भवं विद्धि ब्रह्माक्षरसमुद्भवम् |\nतस्मात्सर्वगतं ब्रह्म नित्यं यज्ञे प्रतिष्ठितम् ||",
+      "transliteration": "karma brahmodbhavaṁ viddhi brahmākṣara-samudbhavam\ntasmāt sarva-gataṁ brahma nityaṁ yajñe pratiṣṭhitam",
+      "translation": "The source of action is the Vedas (scriptures), and the Vedas come from the imperishable Brahman. Therefore the all-pervading Brahman is eternally present in acts of sacrifice.",
+      "modern": "Action comes from knowledge/scripture → scripture from the eternal reality (Brahman). So Brahman is always present in yajna. In practice: when you work ethically, with knowledge of higher principles, your action becomes sacred. Your code, your writing, your service — when aligned with truth — becomes a channel for the Divine. This elevates ordinary work to worship. Krishna is saying: don’t separate spiritual and professional life. When action is rooted in eternal principles, it becomes yajna."
+    },
+    {
+      "verse": 16,
+      "sanskrit": "एवं प्रवर्तितं चक्रं नानुवर्तयतीह यः |\nअघायुरिन्द्रियारामो मोघं पार्थ स जीवति ||",
+      "transliteration": "evaṁ pravartitaṁ cakraṁ nānuvartayatīha yaḥ\naghāyur indriyārāmo moghaṁ pārtha sa jīvati",
+      "translation": "My dear Arjuna, one who does not follow in human life the wheel thus established by the Vedas is certainly leading a sinful life, living only for sense gratification. Such a person lives in vain.",
+      "modern": "If you don’t participate in this cycle of giving/receiving/sacrifice, you live selfishly and waste your life. In 2026: the person who only consumes (content, food, resources) without contributing creates negative karma and emptiness. Krishna is blunt: life without offering is meaningless. You’re not just 'living' — you’re draining. This verse is a wake-up call: give back. Your work, time, kindness — participate in the wheel. That’s meaningful living."
+    },
+    {
+      "verse": 17,
+      "sanskrit": "यस्त्वात्मरतिरेव स्यादात्मतृप्तश्च मानवः |\nआत्मन्येव च सन्तुष्टस्तस्य कार्यं न विद्यते ||",
+      "transliteration": "yas tv ātma-ratir eva syād ātma-tṛptaś ca mānavaḥ\nātmaṇy eva ca santuṣṭas tasya kāryaṁ na vidyate",
+      "translation": "But for one who takes pleasure in the self, whose human life is one of self-realization, and who is satisfied in the self only, fully satiated in the self — for him there is no duty to perform.",
+      "modern": "The rare one who is already self-content, self-fulfilled, self-satisfied — no duty binds them. This is the jivanmukta — free while living. In practice: they still act, but not from lack or craving. They act from fullness. Most of us are not there yet — so we have duties. Krishna is describing the ideal end-state, not shaming beginners. For 99% of us: keep doing your dharma with detachment until inner contentment arises naturally. This verse gives hope: the goal is self-sufficiency in joy. Until then — keep acting selflessly."
+    },
+    {
+      "verse": 18,
+      "sanskrit": "नैव तस्य कृतेनार्थो नाकृतेनेह कश्चन |\nन चास्य सर्वभूतेषु कश्चिदर्थव्यपाश्रयः ||",
+      "transliteration": "naiva tasya kṛtenārtho nākṛteneha kaścana\nna cāsya sarva-bhūteṣu kaścid artha-vyapāśrayaḥ",
+      "translation": "Such a person has no duty to perform in this world, nor is he affected by any duty not performed. He is not dependent on any being for any purpose.",
+      "modern": "The liberated one has no obligation, no guilt for non-action, no dependency. This is total freedom. In life: they act from love, not need. They don’t need approval, money, or status to feel whole. This is the state after mastery — action becomes play. For most of us: this is aspirational. Until then, do your duty without attachment. Krishna is showing the destination: complete inner independence. That’s the real power."
+    },
+    {
+      "verse": 19,
+      "sanskrit": "तस्मादसक्तः सततं कार्यं कर्म समाचर |\nअसक्तो ह्याचरन् कर्म परमाप्नोति पूरुषः ||",
+      "transliteration": "tasmād asaktaḥ satataṁ kāryaṁ karma samācara\nasakto hy ācaran karma param āpnoti pūruṣaḥ",
+      "translation": "Therefore, without being attached to the fruits of activities, one should act as a matter of duty, for by working without attachment one attains the Supreme.",
+      "modern": "The practical instruction: always do your duty without attachment to results — this leads to the Supreme. In 2026: show up, do excellent work, offer the outcome, repeat. No obsession over likes, bonuses, promotions. This is the karma yoga formula in one sentence. Krishna is saying: don’t wait to be 'ready' — start now. Detach while acting. That’s how you reach the highest. This verse is your daily mantra: act without attachment. Do that and freedom comes."
+    },
+    {
+      "verse": 20,
+      "sanskrit": "कर्मणैव हि संसिद्धिमास्थिता जनकादयः |\nलोकसङ्ग्रहमेवापि सम्पश्यन् कर्तुमर्हसि ||",
+      "transliteration": "karmaṇaiva hi saṁsiddhim āsthitā janakādayaḥ\nloka-saṅgraham evāpi sampaśyan kartum arhasi",
+      "translation": "Kings such as Janaka attained perfection solely by performance of prescribed duties. Therefore you should perform your prescribed duty for the sake of educating the people in general.",
+      "modern": "Even kings like Janaka reached perfection through karma yoga — acting for the welfare of the world. Krishna says: do your duty to set an example and uplift society. In 2026: you don’t have to be a monk to be spiritual. Be a good employee, ethical entrepreneur, responsible parent — that itself is practice. Your integrity inspires others. This is leadership through example. Krishna is saying: the world needs visible examples of detached action. Be that person in your workplace, family, community. Your work matters — not for ego, but for loka-sangraha (world maintenance)."
+    },
+    {
+      "verse": 21,
+      "sanskrit": "यद्यदाचरति श्रेष्ठस्तत्तदेवेतरो जनः |\nस यत्प्रमाणं कुरुते लोकस्तदनुवर्तते ||",
+      "transliteration": "yad yad ācarati śreṣṭhas tat tad evetaro janaḥ\nsa yat pramāṇaṁ kurute lokas tad anuvartate",
+      "translation": "Whatever action a great man performs, common men follow. And whatever standards he sets by exemplary acts, all the world pursues.",
+      "modern": "People copy leaders. Your example sets the standard. In 2026: the founder who works ethically inspires the team. The parent who handles stress calmly teaches children resilience. The influencer who posts mindfully influences followers. Krishna is saying: you’re always leading — by example. Be conscious of the standard you’re setting. This is massive responsibility and opportunity. Your quiet integrity can shift culture more than any speech."
+    },
+    {
+      "verse": 22,
+      "sanskrit": "न मे पार्थास्ति कर्तव्यं त्रिषु लोकेषु किञ्चन |\nनानवाप्तमवाप्तव्यं वर्त एव च कर्मणि ||",
+      "transliteration": "na me pārthāsti kartavyaṁ triṣu lokeṣu kiñcana\nnānavāptam avāptavyaṁ varta eva ca karmaṇi",
+      "translation": "O son of Pritha, there is no work prescribed for Me within all the three worlds. Nor am I in want of anything, nor have I a need to obtain anything — and yet I am engaged in prescribed duties.",
+      "modern": "Krishna reveals: I don’t need to do anything — I lack nothing — yet I act. This is the ultimate role model. Even God works. Why? To set the example and maintain cosmic order. In life: if the Divine acts without need, how can we claim 'I’m too advanced to work'? Krishna is saying: action is not for personal gain — it’s for dharma, for the world. This destroys spiritual ego. Even at the highest level, action continues — but free from lack or craving. Be like that in your job, family, society."
+    },
+    {
+      "verse": 23,
+      "sanskrit": "उत्सीदेयुरिमे लोका न कुर्यां कर्म चेदहम् |\nसङ्करस्य च कर्ता स्यामुपहन्यामिमाः प्रजाः ||",
+      "transliteration": "utsīdeyur ime lokā na kuryāṁ karma ced aham\nsaṅkarasya ca kartā syām upahanyām imāḥ prajāḥ",
+      "translation": "If I did not perform prescribed duties, all these worlds would perish. I would be the cause of creating unwanted population, and I would thereby destroy the peace of all living beings.",
+      "modern": "If the Divine stopped acting, the worlds would collapse. Krishna acts to maintain order and prevent chaos. In modern terms: leaders, parents, creators — if you stop doing your dharma, things fall apart. Your team loses direction, your kids lose guidance, society loses value. This is the responsibility of influence. Krishna is saying: act not for yourself, but because the world needs your contribution. Your work maintains order. Don’t quit out of 'spiritual reasons' — do it better, with detachment."
+    },
+    {
+      "verse": 24,
+      "sanskrit": "उत्सीदेयुरिमे लोका न कुर्यां कर्म चेदहम् |\nसङ्करस्य च कर्ता स्यामुपहन्यामिमाः प्रजाः ||",
+      "transliteration": "utsīdeyur ime lokā na kuryāṁ karma ced aham\nsaṅkarasya ca kartā syām upahanyām imāḥ prajāḥ",
+      "translation": "If I did not perform prescribed duties, all these worlds would perish. I would be the cause of creating unwanted population, and I would thereby destroy the peace of all living beings.",
+      "modern": "(Repeated for emphasis in some editions, but same meaning.) Krishna doubles down: cosmic order depends on right action. In your microcosm: your family, team, community depends on your right action. Don’t abandon duty thinking it’s spiritual. Do it selflessly — that’s the highest spirituality."
+    },
+    {
+      "verse": 25,
+      "sanskrit": "सक्ताः कर्मण्यविद्वांसो यथा कुर्वन्ति भारत |\nकुर्याद्विद्वांस्तथासक्तश्चिकीर्षुर्लोकसङ्ग्रहम् ||",
+      "transliteration": "saktāḥ karmaṇy avidvāṁso yathā kurvanti bhārata\nkuryād vidvāṁs tathāsaktaś cikīrṣur loka-saṅgraham",
+      "translation": "As the ignorant perform their duties with attachment to results, the learned may similarly act, but without attachment, for the sake of leading people on the right path.",
+      "modern": "Ignorant people act attached to results. The wise act the same way — but without attachment, for the welfare of the world. In practice: do your job exactly like others (meet deadlines, deliver quality), but inside — no craving for praise or fear of blame. Do it to set the right example. This is invisible leadership. The world needs visible examples of detached excellence. Be that person. Your calm, high-quality action inspires more than any lecture."
+    },
+    {
+      "verse": 26,
+      "sanskrit": "न बुद्धिभेदं जनयेदज्ञानां कर्मसङ्गिनाम् |\nजोषयेत्सर्वकर्माणि विद्वान् युक्तः समाचरन् ||",
+      "transliteration": "na buddhi-bhedaṁ janayed ajñānāṁ karma-saṅginām\njoṣayet sarva-karmāṇi vidvān yuktaḥ samācaran",
+      "translation": "So as not to disrupt the minds of the ignorant who are attached to fruitive action, the learned should not advise them to refrain from work, but should engage them in all activities while duly performing his own work.",
+      "modern": "Don’t confuse beginners attached to results by telling them 'don’t work.' Instead, show them how to work correctly by your own example. In 2026: don’t preach detachment to your team that’s still motivated by bonuses — show them excellence without ego. Mentor by doing, not by forbidding. This is compassionate leadership. Meet people where they are and lead by example. The wise don’t disturb — they demonstrate."
+    },
+    {
+      "verse": 27,
+      "sanskrit": "प्रकृतेः क्रियमाणानि गुणैः कर्माणि सर्वशः |\nअहङ्कारविमूढात्मा कर्ताहमिति मन्यते ||",
+      "transliteration": "prakṛteḥ kriyamāṇāni guṇaiḥ karmāṇi sarvaśaḥ\nahaṅkāra-vimūḍhātmā kartāham iti manyate",
+      "translation": "The bewildered spirit soul, under the influence of the three modes of material nature, thinks himself to be the doer of activities that are in actuality carried out by nature.",
+      "modern": "The ego thinks 'I am doing' — but everything is the play of gunas (nature’s forces). In practice: anger arises (rajas), laziness comes (tamas), clarity appears (sattva) — you’re not the author. The ego takes credit or blame. This understanding ends guilt and pride. You act, but know the real driver is nature. This is humility in action. Krishna is freeing us from the 'I did it' trap."
+    },
+    {
+      "verse": 28,
+      "sanskrit": "तत्त्ववित्तु महाबाहो गुणकर्मविभागयोः |\nगुणा गुणेषु वर्तन्त इति मत्वा न सज्जते ||",
+      "transliteration": "tattva-vit tu mahā-bāho guṇa-karma-vibhāgayoḥ\nguṇā guṇeṣu vartanta iti matvā na sajjate",
+      "translation": "One who is in knowledge of the Absolute Truth, O mighty-armed, does not engage himself in the senses and sense gratification, knowing well the differences between work in devotion and work for fruitive results.",
+      "modern": "The wise one knows the difference between guna-driven action and detached action — and doesn’t get attached. In life: when passion (rajas) drives you to overwork, you see it as guna, not 'me.' When clarity (sattva) makes work flow, you enjoy without pride. This discernment keeps you free. Krishna is giving the inner compass: watch the modes, don’t identify with them. That’s liberation in action."
+    },
+    {
+      "verse": 29,
+      "sanskrit": "प्रकृतेर्गुणसम्मूढाः सज्जन्ते गुणकर्मसु |\nतानकृत्स्नविदो मन्दान्कृत्स्नविन्न विचालयेत् ||",
+      "transliteration": "prakṛter guṇa-sammūḍhāḥ sajjante guṇa-karmasu\ntān akṛtsnavido mandān kṛtsnavin na vicālayet",
+      "translation": "Bewildered by the modes of material nature, the ignorant fully engage themselves in material activities and become attached. But the wise should not unsettle them, although these duties are inferior.",
+      "modern": "People caught in gunas get attached to their roles/actions. The wise don’t disturb them — even if those actions seem lower. In practice: don’t judge the person hustling for money or status — they’re learning through that. Just do your own work at a higher level. This is compassionate non-interference. Krishna is saying: lead by example, not by criticism. Let others evolve at their pace. This ends spiritual superiority complex."
+    },
+    {
+      "verse": 30,
+      "sanskrit": "मयि सर्वाणि कर्माणि संन्यस्याध्यात्मचेतसा |\nनिराशीरनिरममः शुद्धं युध्यस्व विजय ||",
+      "transliteration": "mayi sarvāṇi karmāṇi saṁnyasyādhyātma-cetasā\nnirāśīr nirmamaḥ śuddhaṁ yudhyasva vijaya",
+      "translation": "Therefore, O Arjuna, surrendering all your works unto Me, with full knowledge of Me, without desires for profit, with no claims to proprietorship, and free from lethargy, fight.",
+      "modern": "The famous offering verse: dedicate all actions to the Divine, with full awareness, no desire for gain, no sense of ownership, free from laziness — then act (fight). In 2026: before every task — offer it. 'I do this for the higher, not for ego.' No craving for credit, no 'my project.' Full energy, no procrastination. This turns every action into meditation. Krishna is giving the ultimate productivity + peace formula: offer, detach, act fully. Try it before your next email, meeting, or workout — watch the shift."
+    },
+    {
+      "verse": 31,
+      "sanskrit": "ये मे मतमिदं नित्यमनुतिष्ठन्ति मानवाः |\nश्रद्धावन्तोऽनसूयन्तो मुच्यन्ते तेऽपि कर्मभिः ||",
+      "transliteration": "ye me matam idaṁ nityam anutiṣṭhanti mānavāḥ\nśraddhāvanto ’nasūyanto mucyante te ’pi karmabhiḥ",
+      "translation": "Those who execute My orders faithfully, with devotion, without envy — they are released from the bondage of work.",
+      "modern": "Whoever follows this teaching with faith, without envy/criticism — they become free from karma. Simple. In practice: live the principles (offer actions, detach from results) with sincerity and without comparing to others. No resentment toward those who don’t. This sincerity + non-judgment = liberation. Krishna is saying: don’t just read — live it. Faith means trust + action. No envy means no comparison. That combination dissolves bondage."
+    },
+    {
+      "verse": 32,
+      "sanskrit": "ये त्वेतदभ्यसूयन्तो नानुतिष्ठन्ति मे मतम् |\nसर्वज्ञानविमूढांस्तान्विद्धि नष्टानचेतसः ||",
+      "transliteration": "ye tv etad abhyasūyanto nānutiṣṭhanti me matam\nsarva-jñāna-vimūḍhāṁs tān viddhi naṣṭān acetasaḥ",
+      "translation": "But those who, out of envy, disregard these teachings and do not follow them regularly, are to be considered bereft of all knowledge, befooled, and ruined.",
+      "modern": "Those who criticize or ignore this teaching out of envy — they’re deluded and lost. Harsh but compassionate warning. In 2026: the person who hears about detachment and says 'that’s unrealistic' or 'easy for you' — they stay stuck in suffering. Envy blocks wisdom. Krishna is saying: don’t let cynicism or comparison rob you of the path. Openness is required. The teaching works — but only for those who try it sincerely."
+    },
+    {
+      "verse": 33,
+      "sanskrit": "सदृशं चेष्टते स्वस्याः प्रकृतेर्ज्ञानवानपि |\nप्रकृतिं यान्ति भूतानि निग्रहः किं करिष्यति ||",
+      "transliteration": "sadṛśaṁ ceṣṭate svasyāḥ prakṛter jñānavān api\nprakṛtiṁ yānti bhūtāni nigrahaḥ kiṁ kariṣyati",
+      "translation": "Even a man of knowledge acts according to his own nature, for everyone follows the nature he has acquired from the three modes. What can repression accomplish?",
+      "modern": "Even the wise act according to their nature (gunas). Repression doesn’t work — nature will express. In practice: don’t try to force yourself into someone else’s path. Know your temperament and work with it. If you’re active — do karma yoga. If reflective — do jnana yoga. Repression creates explosion later. Krishna is realistic: accept your current nature, purify it through right action, and it will evolve naturally. No violence against yourself."
+    },
+    {
+      "verse": 34,
+      "sanskrit": "इन्द्रियस्येन्द्रियस्यार्थे रागद्वेषौ व्यवस्थितौ |\nतयोर्न वशमागच्छेत्तौ ह्यस्य परिपन्थिनौ ||",
+      "transliteration": "indriyasyeindriyasyārthe rāga-dveṣau vyavasthitau\ntayor na vaśam āgacchet tau hy asya paripanthinau",
+      "translation": "The senses are attracted to their objects by attraction and repulsion. One should not come under the control of these two because they are the stumbling blocks on the path.",
+      "modern": "Like and dislike (raga-dvesha) are the two enemies. They hijack the senses. In 2026: attraction to likes/validation pulls you; repulsion from criticism pushes you. Both distort action. Krishna is saying: notice when you’re pulled or pushed by emotion — don’t let them drive. This is the core of self-mastery. The wise feel attraction/repulsion but don’t obey them. This single practice ends 90% of bad decisions."
+    },
+    {
+      "verse": 35,
+      "sanskrit": "श्रेयान्स्वधर्मो विगुणः परधर्मात्स्वनुष्ठितात् |\nस्वधर्मे निधनं श्रेयः परधर्मो भयावहः ||",
+      "transliteration": "śreyān sva-dharmo viguṇaḥ para-dharmāt sv-anuṣṭhitāt\nsva-dharme nidhanaṁ śreyaḥ para-dharmo bhayāvahaḥ",
+      "translation": "It is far better to discharge one’s own prescribed duties, even though faultily, than another’s duties perfectly. Destruction in the course of performing one’s own duty is better than engaging in another’s duties, for to follow another’s path is dangerous.",
+      "modern": "Do your own dharma (nature-assigned role) imperfectly rather than someone else’s perfectly. Dying in your own path is better than following another’s — that’s dangerous. In 2026: don’t copy someone else’s career because it looks shiny. Be the best version of yourself, even if messy. The artist shouldn’t become a banker because it pays more. The caregiver shouldn’t become a CEO because it’s prestigious. This is permission to be authentic. Society pushes conformity — Krishna pushes svadharma. Your unique path may look imperfect — walk it anyway. That’s where fulfillment and growth lie."
+    },
+    {
+      "verse": 36,
+      "sanskrit": "अर्जुन उवाच |\nअथ केन प्रयुक्तोऽयं पापं चरति पूरुषः |\nअनिच्छन्नपि वार्ष्णेय बलादिव नियोजितः ||",
+      "transliteration": "arjuna uvāca\natha kena prayukto ’yaṁ pāpaṁ carati pūruṣaḥ\nanicchann api vārṣṇeya balād iva niyojitaḥ",
+      "translation": "Arjuna said: O descendant of Vrishni, by what is one impelled to sinful acts, even unwillingly, as if engaged by force?",
+      "modern": "Arjuna asks the million-dollar question: why do we do wrong even when we don’t want to? Why do we procrastinate, lash out, cheat, scroll endlessly — against our better judgment? This is the universal human struggle. Krishna’s answer is coming — and it’s one of the most profound psychological insights ever given."
+    },
+    {
+      "verse": 37,
+      "sanskrit": "श्रीभगवानुवाच |\nकाम एष क्रोध एष रजोगुणसमुद्भवः |\nमहाशनो महापाप्मा विद्ध्येनमिह वैरिणम् ||",
+      "transliteration": "śrī-bhagavān uvāca\nkāma eṣa krodha eṣa rajo-guṇa-samudbhavaḥ\nmahāśano mahāpāpmā viddhy enam iha vairiṇam",
+      "translation": "The Supreme Personality of Godhead said: It is lust only, born of the mode of passion, and later transformed into wrath, which is the all-devouring sinful enemy of this world.",
+      "modern": "Krishna’s diagnosis: desire (kama) — when frustrated — becomes anger (krodha). Both born of rajas (passion). Lust is the great devourer, the enemy. In 2026: every bad decision, outburst, addiction, revenge post — traces back to unchecked desire. Desire for validation → anger when not received. Desire for control → anger when lost. Desire for pleasure → addiction. Krishna is giving the root cause. Understand this and you understand 90% of human suffering. The enemy is inside — not outside. This is radical self-responsibility."
+    },
+    {
+      "verse": 38,
+      "sanskrit": "धूमेनाव्रियते वह्निर्यथादर्शो मलेन च |\nयथोल्बेनावृतो गर्भस्तथा तेनेदमावृतम् ||",
+      "transliteration": "dhūmenāvriyate vahnir yathādarśo malena ca\nyatholbenāvṛto garbhas tathā tenedam āvṛtam",
+      "translation": "As fire is covered by smoke, as a mirror is covered by dust, or as the embryo is covered by the womb, the living entity is similarly covered by this lust.",
+      "modern": "Lust covers knowledge like smoke covers fire, dust covers mirror, womb covers embryo. Three levels of obscuration. In practice: sometimes desire is obvious (smoke), sometimes subtle (dust), sometimes so deep it feels natural (womb). This explains why even smart people make stupid choices. The knowledge is there — but clouded. Purification is gradual removal of these layers. Krishna is giving a compassionate map: see the covering, don’t blame the self."
+    },
+    {
+      "verse": 39,
+      "sanskrit": "आवृतं ज्ञानमेतेन ज्ञानिनो नित्यवैरिणा |\nकामरूपेण कौन्तेय दुष्पूरेणानलेन च ||",
+      "transliteration": "āvṛtaṁ jñānam etena jñānino nitya-vairiṇā\nkāma-rūpeṇa kaunteya duṣpūreṇānalena ca",
+      "translation": "Thus the wise man’s pure consciousness is covered by his eternal enemy in the form of lust, which is never satisfied and which burns like fire.",
+      "modern": "Lust is the eternal enemy of the wise — insatiable, burning like fire. Even intelligent people get caught because desire is never satisfied — new target appears. In 2026: the chase for the next like, next raise, next relationship, next high. It’s a fire that consumes everything. Krishna is warning: treat desire as the enemy, not as a friend. Don’t negotiate with it — see it for what it is. This awareness alone begins the liberation."
+    },
+    {
+      "verse": 40,
+      "sanskrit": "इन्द्रियाणि पराण्याहुरिन्द्रियेभ्यः परं मनः |\nमनसस्तु परा बुद्धिर्यो बुद्धेः परतस्तु सः ||",
+      "transliteration": "indriyāṇi parāṇy āhur indriyebhyaḥ paraṁ manaḥ\nmanasas tu parā buddhir yo buddheḥ paratas tu saḥ",
+      "translation": "The senses are superior to the gross body, the mind is superior to the senses, intelligence is superior to the mind, and the soul is superior to the intelligence.",
+      "modern": "Hierarchy of control: body < senses < mind < intellect < soul. To master desire, go higher. In practice: don’t fight at the sense level (willpower fails). Use intellect to see the pattern. Use soul-awareness to disidentify. This is the roadmap to control. Most people fight at the sense level — endless battle. Krishna is giving the strategy: rise above. The soul is beyond desire. Rest there and desire loses power."
+    },
+    {
+      "verse": 41,
+      "sanskrit": "तस्मात्त्वमिन्द्रियाण्यादौ नियम्य भरतर्षभ |\nपाप्मानं प्रजहि ह्येनं ज्ञानविज्ञाननाशनम् ||",
+      "transliteration": "tasmāt tvam indriyāṇy ādau niyamya bharatarṣabha\npāpmānaṁ prajahi hy enaṁ jñāna-vijñāna-nāśanam",
+      "translation": "Therefore, O Arjuna, best of the Bharatas, in the very beginning curb this great symbol of sin [lust] by regulating the senses, and slay this destroyer of knowledge and self-realization.",
+      "modern": "First step: control the senses — destroy lust, the killer of knowledge and realization. In 2026: set boundaries on senses — screen time, food, speech, company. This protects wisdom. Krishna is practical: start with what you can control — the gates (senses). Close the doors where desire enters. This is the beginning of real practice. Sense control is foundational — without it, higher meditation is impossible."
+    },
+    {
+      "verse": 42,
+      "sanskrit": "इन्द्रियाणि पराण्याहुरिन्द्रियेभ्यः परं मनः |\nमनसस्तु परा बुद्धिर्यो बुद्धेः परतस्तु सः ||",
+      "transliteration": "indriyāṇi parāṇy āhur indriyebhyaḥ paraṁ manaḥ\nmanasas tu parā buddhir yo buddheḥ paratas tu saḥ",
+      "translation": "The working senses are superior to dull matter; mind is superior to the senses; intelligence is still higher than the mind; and the soul is even higher than the intelligence.",
+      "modern": "(Repeated for emphasis.) Soul > intellect > mind > senses > body. Krishna reminds us again: rise to the soul level to conquer desire. This hierarchy is the key to self-mastery. In practice: when desire pulls, use intellect to discriminate, mind to focus, and rest in soul-awareness. This is how you win the inner war. Krishna is giving the battle plan — use higher faculties to control lower ones. That’s the path."
+    },
+    {
+      "verse": 43,
+      "sanskrit": "एवं बुद्धेः परं बुद्ध्वा संस्तभ्यात्मानमात्मना |\nजहि शत्रुं महाबाहो कामरूपं दुरासदम् ||",
+      "transliteration": "evaṁ buddheḥ paraṁ buddhvā saṁstabhyātmānam ātmanā\njahi śatruṁ mahā-bāho kāma-rūpaṁ durāsadam",
+      "translation": "Thus knowing oneself to be transcendental to the material senses, mind and intelligence, O mighty-armed Arjuna, one should steady the mind by deliberate spiritual intelligence and thus destroy the insatiable enemy known as lust.",
+      "modern": "Final instruction: know you’re beyond body/mind/intellect, steady yourself with spiritual intelligence, and slay the enemy lust. This is the battle cry. In practice: when desire arises, remember: 'This is not me — I am the witness.' Use discrimination (buddhi) to cut it. This is how you win. Krishna ends the chapter with empowerment: you have the weapons — use them. Lust is formidable but not invincible. Steady practice + self-knowledge = victory. This is the call to arms for every spiritual warrior in daily life."
+    }
   ]
 }
