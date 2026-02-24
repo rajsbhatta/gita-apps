@@ -3,21 +3,392 @@
   "title": "The Universal Form",
   "sanskrit": "विश्वरूपदर्शनयोग",
   "verses": 55,
-  "introduction": "Arjuna requests to see Krishna's universal form, and Krishna reveals the cosmic vision of the entire universe within Himself.",
+  "introduction": "Chapter 11 of the Bhagavad Gita, Vishvarupa Darshana Yoga (The Yoga of the Vision of the Universal Form), is the dramatic, overwhelming, heart-stopping climax of the entire scripture. After Krishna has gradually revealed His personal nature, supremacy of devotion, and divine opulences in the previous chapters, Arjuna — now filled with love, faith and wonder — makes one supreme request: 'Show me Your cosmic form.' Krishna grants divine sight and then unfolds His infinite, terrifying-yet-beautiful universal form (vishvarupa) that contains every being, every god, every world, every moment of creation, preservation and destruction simultaneously. Arjuna sees Time itself as Krishna’s all-devouring mouths, warriors rushing to their doom, the entire cosmos expanded and contracted in one body — a vision so vast, radiant and dreadful that even the greatest archer trembles, his hair stands on end, and he alternately praises, fears, begs for mercy, and ultimately surrenders completely. For modern readers — raised on Hubble images of nebulae, psychedelic experiences, VR immersions, existential documentaries, atomic-scale awe and the quiet fear of mortality — this chapter is the ultimate 'everything at once' moment. It shows that God is not safely contained in a temple photo or a 10-minute meditation — He is the infinite, blazing, all-consuming, all-nourishing reality behind every atom, every star, every heartbeat and every war. The essence remains untouched: the universal form is revealed only by grace to the pure-hearted devotee; it is simultaneously beautiful and terrifying; it reveals the inevitability of death and the supremacy of loving surrender; and it ultimately reaffirms that bhakti (devotion) is the only safe way to approach such overwhelming truth.",
   "shlokas": [
     {
+      "verse": 1,
+      "sanskrit": "अर्जुन उवाच |\nमदनुग्रहाय परमं गुह्यमध्यात्मसंज्ञितम् |\nयत्त्वयोक्तं वचस्तेन मोहोऽयं विगतो मम ||",
+      "transliteration": "arjuna uvāca\nmad-anugrahāya paramaṁ guhyam adhyātma-saṁjñitam\nyat tvayoktaṁ vacas tena moho ’yaṁ vigato mama",
+      "translation": "Arjuna said: Out of compassion for me You have spoken this supreme secret concerning the Self. By this my delusion is gone.",
+      "modern": "Arjuna speaks from a heart now clear of confusion. Everything Krishna taught in the previous chapters — the imperishable Self, the supremacy of devotion, the all-pervading yet personal nature — has dissolved his doubt and existential fog. In 2026 life this is the moment after a deep conversation, book, retreat or sudden insight when you finally exhale and think: 'Okay… I get it now. The anxiety is gone.' Arjuna is grateful and ready for the next, far more intense level. The teaching has done its preparatory work; now he wants to see."
+    },
+    {
+      "verse": 2,
+      "sanskrit": "भवाप्ययौ हि भूतानां श्रुतौ विस्तरशो मया |\nत्वत्तः कमलपत्राक्ष माहात्म्यमपि चाव्ययम् ||",
+      "transliteration": "bhavāpyayau hi bhūtānāṁ śrutau vistaraśo mayā\ntvattaḥ kamala-patrākṣa māhātmyam api cāvyayam",
+      "translation": "O lotus-eyed Lord, I have heard from You in detail about the appearance and disappearance of living entities and have also heard about Your imperishable glories.",
+      "modern": "Arjuna summarizes: I’ve heard about birth & death of beings and Your eternal greatness. This is the recap before the leap. In today’s language: 'I’ve listened to all the theory — cycles of life, Your infinite nature — now I want the direct experience.' He is not doubting; he is hungry. The intellectual understanding has prepared the ground; now the eyes and heart demand vision. This is the natural progression for any sincere seeker: first hear, then see."
+    },
+    {
+      "verse": 3,
+      "sanskrit": "एवमेतद्यथात्थ त्वमात्मानं परमेश्वर |\nद्रष्टुमिच्छामि ते रूपमैश्वरं पुरुषोत्तम ||",
+      "transliteration": "evam etad yathāttha tvam ātmānaṁ parameśvara\ndraṣṭum icchāmi te rūpam aiśvaraṁ puruṣottama",
+      "translation": "O greatest of persons, O Supreme Lord, though I see here before me Your human-like form, as You have described Yourself, I wish to see Your divine form.",
+      "modern": "Arjuna acknowledges: I believe what You say about Yourself — now show me the cosmic, lordly form that pervades everything. This is not skepticism; it is love wanting direct darshan. In 2026 life: after reading about oneness, presence in everything, or the Divine as source of all — the heart eventually says: 'Okay… show me.' Arjuna is asking for the ultimate VR experience — God-vision without headset. This verse captures the healthy desire behind all genuine spiritual curiosity: theory is good; seeing is transformation."
+    },
+    {
+      "verse": 4,
+      "sanskrit": "मन्यसे यदि मच्छक्यं मया द्रष्टुमिति प्रभो |\nयोगं योगेश्वर ततो मे त्वं दर्शयात्मानमव्ययम् ||",
+      "transliteration": "manyase yadi mac-chakyaṁ mayā draṣṭum iti prabho\nyogaṁ yogeśvara tato me tvaṁ darśayātmānam avyayam",
+      "translation": "If You think that I am able to behold Your universal form, O Lord of all mystic power, then kindly show me that imperishable Self.",
+      "modern": "Arjuna adds humility: 'If You feel I’m ready, O master of yoga, please show me Your eternal universal form.' This is perfect bhakti — not demanding, but requesting with surrender. In practice: we don’t force mystical experience; we ask with readiness and trust. Arjuna knows such a vision might be too much — he seeks Krishna’s permission and grace. This verse models the right inner posture before asking for profound revelation: humility + dependence on divine will."
+    },
+    {
+      "verse": 5,
+      "sanskrit": "श्रीभगवानुवाच |\n पश्य मे पार्थ रूपाणि शतशोऽथ सहस्रशः |\nनानाविधानि दिव्यानि नानावर्णाकृतीनि च ||",
+      "transliteration": "śrī-bhagavān uvāca\npaśya me pārtha rūpāṇi śataśo ’tha sahasraśaḥ\nnānā-vidhāni divyāni nānā-varṇākṛtīni ca",
+      "translation": "The Supreme Personality of Godhead said: My dear Arjuna, behold at once hundreds and thousands of My wonderful forms of different colors and shapes.",
+      "modern": "Krishna immediately responds: 'Look now, Arjuna — see hundreds, thousands of My divine forms, multicolored, wondrous shapes.' No delay, no test — sincere request + readiness = immediate grace. In 2026 terms: this is the moment the VR headset activates and the infinite universe floods your vision. Krishna is generous to the pure-hearted. The tone is affectionate excitement: 'Here it comes — get ready.' The vision is about to begin."
+    },
+    {
+      "verse": 6,
+      "sanskrit": "पश्यादित्यान्वसून्रुद्रानश्विनौ मरुतस्तथा |\nबहून्यदृष्टपूर्वाणि पश्याश्चर्याणि भारत ||",
+      "transliteration": "paśyādityān vasūn rudrān aśvinau marutas tathā\nbahūny adṛṣṭa-pūrvāṇi paśyāścaryāṇi bhārata",
+      "translation": "O best of the Bharatas, see here the different manifestations of Adityas, Vasus, Rudras, Ashvins, Maruts, and many more wonderful forms you have never seen before.",
+      "modern": "Krishna points out cosmic deities and forms never before seen — astonishing beyond imagination. This is the buildup: Arjuna is about to witness what no human eye has seen. In 2026 imagination: think every mythology’s gods, every Hubble deep-field galaxy, every fractal layer — all alive, all at once. Krishna is saying: 'Prepare — this is beyond anything you’ve known.' The devotee’s heart races with both excitement and holy fear."
+    },
+    {
+      "verse": 7,
+      "sanskrit": "इहैकस्थं जगत्कृत्स्नं पश्याद्य स चराचरम् |\nमम देहे गुडाकेश यच्चान्यद्द्रष्टुमिच्छसि ||",
+      "transliteration": "ihaika-sthaṁ jagat kṛtsnaṁ paśyādya sa-carācaram\nmama dehe guḍākeśa yac cānyad draṣṭum icchasi",
+      "translation": "O Arjuna, whatever you wish to see, behold at once in this body! This universal manifestation exists within My body now, and whatever else you desire to see.",
+      "modern": "Krishna invites: 'See the entire universe — moving and non-moving — right here in My body. And anything else you want.' This is the ultimate 'all-in-one' moment. In practice: the Divine contains everything — past, present, future, all beings, all worlds. Nothing is outside Him. This destroys separation forever. Krishna is saying: 'Look at Me — you’ll see it all.' The vision is about to unfold — total, all-encompassing, mind-shattering."
+    },
+    {
+      "verse": 8,
+      "sanskrit": "न तु मां शक्यसे द्रष्टुमनेनैव स्वचक्षुषा |\nदिव्यं ददामि ते चक्षुः पश्य मे योगमैश्वरम् ||",
+      "transliteration": "na tu māṁ śakyase draṣṭum anenaiva sva-cakṣuṣā\ndivyaṁ dadāmi te cakṣuḥ paśya me yogam aiśvaram",
+      "translation": "But you cannot see Me with your present eyes, therefore I give you divine vision. Behold My mystic opulence!",
+      "modern": "Krishna warns: ordinary eyes can’t handle this — so I now grant you divine sight. Behold My lordly yoga! This is pure grace — divine eyes (divya chakshu) are bestowed. In 2026 terms: normal perception is limited; mystical states, grace or deep practice can open higher vision. Krishna personally upgrades Arjuna’s perception. This verse shows that true vision of the Divine is not achieved by effort alone — it is given. The devotee asks, the Divine grants. Now the universal form appears."
+    },
+    {
+      "verse": 9,
+      "sanskrit": "सञ्जय उवाच |\nएवमुक्त्वा ततो राजन्महायोगेश्वरो हरिः |\nदर्शयामास पार्थाय परमं रूपमैश्वरम् ||",
+      "transliteration": "sañjaya uvāca\nevam uktvā tato rājan mahā-yogeśvaro hariḥ\ndarśayāmāsa pārthāya paramaṁ rūpam aiśvaram",
+      "translation": "Sanjaya said to Dhritarashtra: O King, having spoken thus, the Supreme Lord of all mystic power, Hari, displayed to Arjuna His universal form.",
+      "modern": "Sanjaya narrates: after speaking, Krishna — the supreme master of yoga — revealed His ultimate divine form to Arjuna. This marks the transition: words end, direct vision begins. In practice: teachings prepare; grace delivers experience. The chapter now becomes eyewitness testimony of the infinite. Sanjaya’s narration adds objectivity — he too is witnessing through divine sight. This verse signals the turning point: theory becomes overwhelming reality."
+    },
+    {
+      "verse": 10,
+      "sanskrit": "अनेकवक्त्रनयनमनेकाद्भुतदर्शनम् |\nअनेकदिव्याभरणं दिव्यानुकवचं धृतम् ||",
+      "transliteration": "aneka-vaktra-nayanam anekādbhuta-darśanam\naneka-divyābharaṇaṁ divyānukavacaṁ dhṛtam",
+      "translation": "Arjuna saw in that universal form unlimited mouths and eyes, unlimited wonderful visions, unlimited divine ornaments, and unlimited divine weapons uplifted.",
+      "modern": "Infinite mouths, infinite eyes, astonishing sights, divine ornaments, weapons raised in every direction. This is the scale — infinity in every feature. In modern imagination: every face that ever lived, every eye that ever saw, multiplied forever, adorned in celestial splendor, holding every weapon of power. The mind cannot contain it. This verse begins the description — too vast for language, yet Sanjaya attempts it. The devotee is both terrified and enchanted."
+    },
+    {
+      "verse": 11,
+      "sanskrit": "दिव्यगन्धानुलेपनं दिव्यानुगन्धसङ्गिनम् |\nसर्वाश्चर्यमयं देवमनन्तं विश्वतोमुखम् ||",
+      "transliteration": "divya-gandhānulepanaṁ divyānugandha-saṅginam\nsarvāścaryamayaṁ devam anantaṁ viśvato-mukham",
+      "translation": "All the universes were present there in one place although divided into many. Arjuna could see them all in the body of the Supreme Lord.",
+      "modern": "Divine fragrances, celestial scents, all-wonderful, infinite, facing every direction — and all universes present in one place within Krishna’s form. This is non-locality and infinity. In 2026 terms: imagine every galaxy, every planet, every being — all in one vision, fragrant with divine perfume, infinite yet unified. The form is everywhere-facing (vishvato-mukham) — no back, no front — all directions at once. This verse conveys the paradox of the infinite contained in a form — overwhelming unity in diversity."
+    },
+    {
+      "verse": 12,
+      "sanskrit": "दिवि सूर्यसहस्रस्य भवेद्युगपदुत्थिता |\nयदि भाः सदृशी सा स्याद्भासस्तस्य महात्मनः ||",
+      "transliteration": "divi sūrya-sahasrasya bhaved yugapad utthitā\nyadi bhāḥ sadṛśī sā syād bhāsas tasya mahātmanaḥ",
+      "translation": "If hundreds of thousands of suns rose up at once into the sky, they might resemble the effulgence of the Supreme Person in that universal form.",
+      "modern": "If a thousand suns rose simultaneously, their combined light might equal the brilliance of this cosmic form. This is the scale of radiance. In 2026: think supernova multiplied a thousandfold — blinding, infinite light. Arjuna sees a brightness beyond imagination. This verse is for the mind to grasp impossibility — the form’s splendor is super-solar. The devotee is stunned by divine beauty and power combined."
+    },
+    {
+      "verse": 13,
+      "sanskrit": "तत्रैकस्थं जगत्कृत्स्नं प्रविभक्तमनेकधा |\nअपश्यद्देवदेवस्य शरीरे पाण्डवस्तदा ||",
+      "transliteration": "tatraika-sthaṁ jagat kṛtsnaṁ pravibhaktam anekadhā\napaśyad deva-devasya śarīre pāṇḍavas tadā",
+      "translation": "At that time Arjuna could see in the universal form of the Lord the unlimited expansions of the universe situated in one place although divided into many, many thousands.",
+      "modern": "Arjuna sees the entire universe — divided yet unified — all within Krishna’s body. This is the ultimate non-dual vision: multiplicity in unity. In practice: every being, every world, every moment — all present simultaneously in the Divine. Nothing is separate. This ends fragmentation. The devotee sees the One in the many and the many in the One. This verse captures the ecstatic terror of cosmic unity."
+    },
+    {
+      "verse": 14,
+      "sanskrit": "ततः स विस्मयाविष्टो हृष्टरोमा धनञ्जयः |\nप्रणम्य शिरसा देवं कृताञ्जलिरभाषत ||",
+      "transliteration": "tataḥ sa vismayāviṣṭo hṛṣṭa-romā dhanañjayaḥ\npraṇamya śirasā devaṁ kṛtāñjalir abhāṣata",
+      "translation": "Then, bewildered and astonished, his hair standing on end, Arjuna bowed his head to offer obeisances and with folded hands began to pray to the Supreme Lord.",
+      "modern": "Arjuna is overwhelmed — thrilled, terrified, hair standing on end — he bows and prays with folded hands. This is the natural human response to divine vision: awe, ecstasy, surrender. In 2026: think peak awe experience (grand canyon at sunrise, total solar eclipse, birth of a child) multiplied to infinity. The devotee’s reaction is physical (goosebumps), emotional (wonder), and devotional (prostration). Arjuna models the perfect response — not analysis, but worship. This verse shows that true darshan transforms the whole being."
+    },
+    {
+      "verse": 15,
+      "sanskrit": "अर्जुन उवाच |\n पश्यामि देवांस्तव देव देहे सर्वांस्तथैव भूतविशेषसङ्घान् |\nब्रह्माणमीशं कमलासनस्थमृषींश्च सर्वानुरगांश्च दिव्यान् ||",
+      "transliteration": "arjuna uvāca\npaśyāmi devāṁs tava deva dehe sarvāṁs tathaiva bhūta-viśeṣa-saṅghān\nbrahmāṇam īśaṁ kamalāsana-stham ṛṣīṁś ca sarvān uragāṁś ca divyān",
+      "translation": "Arjuna said: O God, I see assembled together in Your body all the gods and various other living entities. I see Brahma sitting on the lotus flower as well as Lord Shiva and many sages and divine serpents.",
+      "modern": "Arjuna begins describing: I see all gods, all beings, Brahma on the lotus, Shiva, sages, divine serpents — all inside Your body. This is the pantheon contained in the One. In practice: every deity, every sacred being, every mythology — all expressions of the same Supreme. This ends religious division. Krishna contains all worshipable forms. The devotee sees unity behind diversity. This vision heals separation and conflict — all paths converge in the One."
+    },
+    {
+      "verse": 16,
+      "sanskrit": "अनेकबाहूदरवक्त्रनेत्रं पश्यामि त्वां सर्वतोऽनन्तरूपम् |\nनान्तं न मध्यं न पुनस्तवादिं पश्यामि विश्वेश्वर विश्वरूप ||",
+      "transliteration": "aneka-bāhūdara-vaktra-netraṁ paśyāmi tvāṁ sarvato ’nanta-rūpam\nnāntaṁ na madhyaṁ na punas tavādiṁ paśyāmi viśveśvara viśva-rūpa",
+      "translation": "O Lord of the universe, I see in Your universal body many, many arms, bellies, faces and eyes — expanded everywhere, without limit. I see in You no end, no middle and no beginning.",
+      "modern": "Infinite arms, bellies, faces, eyes — endless in every direction. No beginning, middle or end. This is pure infinity. In 2026 imagination: fractal zoom forever, every direction infinite faces/forms, no edges, no center. The mind cannot grasp it. This is the terror and beauty of the Absolute. Arjuna is seeing formless infinity wearing countless forms. This vision shatters every concept of limitation."
+    },
+    {
+      "verse": 17,
+      "sanskrit": "किरीटिनं गरुडध्वजं च त्वामपश्यं विश्वरूपं महात्मन् |\nबहूनि हस्तानि करोदरं च सर्वत्र पश्यामि नान्तमिच्छामि ||",
+      "transliteration": "kirīṭinaṁ garuḍa-dhvajaṁ ca tvām apaśyaṁ viśva-rūpaṁ mahātman\nbahūni hastāni karodaraṁ ca sarvatra paśyāmi nāntam icchāmi",
+      "translation": "Your form is crowned with many helmets and decorated with many weapons. I see You with unlimited arms, with bellies, with mouths, and with eyes expanded everywhere. There is no end. There is no beginning. There is no middle to Your form.",
+      "modern": "Arjuna sees familiar Krishna symbols — crown, garuda flag — multiplied infinitely, along with endless arms, bellies, mouths, eyes — no boundaries. This is personal infinity. In practice: the Divine is both recognizable (Krishna’s features) and utterly beyond recognition (limitless expansion). This paradox is the essence of the vision — God is personal and simultaneously the infinite All. Arjuna wants endless darshan yet finds no limit. This is devotional greed — craving infinite vision of the Beloved."
+    },
+    {
+      "verse": 18,
+      "sanskrit": "नभः स्पृशं दीप्तमनन्तरूपं व्याप्य दिशो दश दिशं च सर्वाः |\nदृष्ट्वा हि त्वां प्रव्यथितान्तरात्मा धृतिं न विन्दामि शमं च विष्णो ||",
+      "transliteration": "nabhaḥ spṛśaṁ dīptam ananta-rūpaṁ vyāpya diśo daśa diśaṁ ca sarvāḥ\ndṛṣṭvā hi tvāṁ pravya-thitāntar-ātmā dhṛtiṁ na vindāmi śamaṁ ca viṣṇo",
+      "translation": "Although You are one, You are spread throughout the sky and the planets and all space between. O great one, seeing this wonderful and terrible form of Yours, I am shaken; I can no longer maintain my equilibrium. Seeing Your blazing faces like the fire of death, I lose all peace of mind.",
+      "modern": "Your form touches the sky, pervades all directions, infinite and blazing. Arjuna is shaken — no steadiness, no peace. This is the raw human response to the Absolute. In 2026: imagine the most overwhelming VR/psychedelic/cosmic experience — multiplied infinitely. The mind buckles. Arjuna addresses Krishna as Vishnu (all-pervading preserver) yet feels terror. This shows the Divine can be so vast that even love trembles. The vision is both wonderful and dreadful — holy awe."
+    },
+    {
+      "verse": 19,
+      "sanskrit": "दंष्ट्राकरालानि च ते मुखानि दृष्ट्वैव कालानलसन्निभानि |\nदिशो न जाने न लभे च शर्म प्रसीद देवेश जगन्निवास ||",
+      "transliteration": "daṁṣṭrā-karālāni ca te mukhāni dṛṣṭvaiva kālānala-sannibhāni\ndiśo na jāne na labhe ca śarma prasīda deveśa jagannivāsa",
+      "translation": "O Lord of lords, O abode of the universe, please be gracious to me. Seeing Your mouths with terrible teeth blazing like the fire of destruction, I lose all sense of direction and cannot find peace.",
+      "modern": "Arjuna pleads: Your mouths with terrible teeth burn like the fire at the end of time — I lose direction, find no peace. O Lord of lords, refuge of the worlds — be kind to me. This is the cry of the overwhelmed devotee. In practice: when divine vision becomes too intense, the heart seeks mercy. Krishna is both terrifying and compassionate. Arjuna appeals to the loving aspect. This verse shows that fear in the face of the Divine is not lack of faith — it is natural. The plea for grace is itself devotion."
+    },
+    {
+      "verse": 20,
+      "sanskrit": "अमी च त्वां धृतराष्ट्रस्य पुत्राः सर्वे सहैवावनिपालसङ्घैः |\nभीष्मो द्रोणः सूतपुत्रस्तथैव सहास्मदीयैरपि योधमुख्यैः ||",
+      "transliteration": "amī ca tvāṁ dhṛtarāṣṭrasya putrāḥ sarve sahaivāvanipāla-saṅghaiḥ\nbhīṣmo droṇaḥ sūta-putras tathaiva sahāsmadīyair api yodha-mukhyaiḥ",
+      "translation": "All the sons of Dhritarashtra along with their allied kings, Bhishma, Drona, Karna and our principal warriors also are rushing into Your mouths, their heads crushed by Your terrible teeth.",
+      "modern": "Arjuna sees the entire battlefield — Kauravas, Bhishma, Drona, Karna, even Pandava allies — rushing into Krishna’s mouths, heads smashed by terrible teeth. This is Time devouring all warriors. In practice: the war is already over — death is consuming everyone. Krishna as all-devouring Time shows the inevitability of destruction. This frees Arjuna from guilt — the outcome is divine will. The vision reveals the futility of attachment to victory or survival."
+    },
+    {
+      "verse": 21,
+      "sanskrit": "वक्त्राणि ते त्वरमाणा विशन्ति दंष्ट्राकरालानि भयानकानि |\nकेचिद्विलग्ना दशनान्तरेषु सन्दृश्यन्ते चूर्णितैर्मस्तकैः ||",
+      "transliteration": "vaktrāṇi te tvaramāṇā viśanti daṁṣṭrā-karālāni bhayānakāni\nkecid vilagnā daśanāntareṣu sandṛśyante cūrṇitair mastakaiḥ",
+      "translation": "Some are seen rushing into Your fearful mouths with terrible teeth; some are hanging with crushed heads between Your teeth.",
+      "modern": "Warriors rush into blazing mouths, some crushed, some hanging between teeth. This is graphic imagery of Time’s consumption. In practice: death is indiscriminate — all are swallowed. Krishna shows the end of every embodied being. The devotee learns: cling only to the Eternal. This vision destroys attachment to the temporary."
+    },
+    {
+      "verse": 22,
+      "sanskrit": "यथा नदीनां बहवोऽम्बुवेगाः समुद्रमेवाभिमुखा द्रवन्ति |\nतथा तवामी नरलोकवीरा विशन्ति वक्त्राण्यभिविज्वलन्ति ||",
+      "transliteration": "yathā nadīnāṁ bahavo ’mbu-vegāḥ samudram evābhimukhā dravanti\ntathā tavāmī nara-loka-vīrā viśanti vaktrāṇy abhivijvalanti",
+      "translation": "As the many waves of the rivers flow into the ocean, so do all these great warriors enter blazing into Your mouths.",
+      "modern": "Like rivers rushing into the ocean, warriors enter Your blazing mouths. This is the inevitable flow toward destruction. In practice: all life moves toward death — like rivers to sea. Krishna as Time consumes all. This imagery brings acceptance — resistance is futile. The devotee sees the cosmic inevitability and surrenders more deeply."
+    },
+    {
+      "verse": 23,
+      "sanskrit": "यथा प्रदीप्तं ज्वलनं पतङ्गा विशन्ति नाशाय समृद्धवेगाः |\nतथैव नाशाय विशन्ति लोकास्तवापि वक्त्राणि समृद्धवेगाः ||",
+      "transliteration": "yathā pradīptaṁ jvalanaṁ pataṅgā viśanti nāśāya samṛddha-vegāḥ\ntathāiva nāśāya viśanti lokās tavāpi vaktrāṇi samṛddha-vegāḥ",
+      "translation": "As moths fly into a blazing fire to destruction with full speed, so do these men rush into Your mouths with great speed to their own destruction.",
+      "modern": "Like moths rushing into flame to destruction, warriors enter Your mouths. This is the classic irresistible pull toward doom. In practice: beings are drawn to sense pleasures, power, ego — all leading to dissolution. Krishna shows the fate of material attachment. The devotee sees the futility and turns inward to the Eternal."
+    },
+    {
+      "verse": 24,
+      "sanskrit": "लेलिह्यसे ग्रसमानः समन्ताल्लोकान्समग्रान्वदनैर्ज्वलद्भिः |\nतेजोभिरापूर्य जगत्समग्रं भासस्तवोग्राः प्रतपन्ति विष्णो ||",
+      "transliteration": "lelihyase grasamānaḥ samantāl lokān samagrān vadanair jvaladbhiḥ\ntejobhir āpūrya jagat samagraṁ bhāsas tavogrāḥ pratapanti viṣṇo",
+      "translation": "O Vishnu, I see You devouring all people from all sides with Your flaming mouths. Covering all the universe with Your effulgence, You are scorching everything with Your fierce rays.",
+      "modern": "Arjuna sees Krishna devouring all from every side with blazing mouths, filling the universe with fierce radiance, scorching everything. This is the full destructive aspect — Time burning all. In practice: the Divine as destroyer is necessary for renewal. Nothing escapes. This vision terrifies yet purifies attachment. Arjuna addresses Krishna as Vishnu — all-pervading preserver — yet sees the destructive face. This paradox is divine totality."
+    },
+    {
+      "verse": 25,
+      "sanskrit": "आख्याहि मे को भवानुग्ररूपो नमोऽस्तु ते देववर प्रसीद |\nविज्ञातुमिच्छामि भवन्तमाद्यं न हि प्रजानामि तव प्रवृत्तिम् ||",
+      "transliteration": "ākhyāhi me ko bhavān ugra-rūpo namo ’stu te deva-vara prasīda\nvijñātum icchāmi bhavantam ādyaṁ na hi prajānāmi tava pravṛttim",
+      "translation": "O Lord of lords, O refuge of the universe, please be gracious to me. I cannot keep my balance seeing Your blazing deathlike faces and awful teeth. I am lost in direction and have no comfort.",
+      "modern": "Arjuna pleads: 'Who are You in this terrifying form? I bow to You — be kind. I want to understand You, the original being — I don’t understand Your purpose.' This is the overwhelmed devotee seeking clarity amid awe. In practice: when divine vision is too intense, ask for understanding. Arjuna doesn’t run — he bows and inquires. This is devotion in terror — surrender + curiosity. Krishna will now reveal Himself as Time, the destroyer of all."
+    },
+    {
+      "verse": 26,
+      "sanskrit": "अमी च त्वां धृतराष्ट्रस्य पुत्राः सर्वे सहैवावनिपालसङ्घैः |\nभीष्मो द्रोणः सूतपुत्रस्तथैव सहास्मदीयैरपि योधमुख्यैः ||",
+      "transliteration": "amī ca tvāṁ dhṛtarāṣṭrasya putrāḥ sarve sahaivāvanipāla-saṅghaiḥ\nbhīṣmo droṇaḥ sūta-putras tathaiva sahāsmadīyair api yodha-mukhyaiḥ",
+      "translation": "All the sons of Dhritarashtra along with their allied kings, Bhishma, Drona, Karna and our principal warriors also are rushing into Your mouths, their heads smashed by Your terrible teeth.",
+      "modern": "Arjuna sees the entire battlefield — Kauravas, Bhishma, Drona, Karna, even Pandava allies — rushing into Krishna’s mouths, heads crushed by terrible teeth. This is Time devouring all warriors. In practice: the war is already over — death is consuming everyone. Krishna as all-devouring Time shows the inevitability of destruction. This frees Arjuna from guilt — the outcome is divine will. The vision reveals the futility of attachment to victory or survival."
+    },
+    {
+      "verse": 27,
+      "sanskrit": "वक्त्राणि ते त्वरमाणा विशन्ति दंष्ट्राकरालानि भयानकानि |\nकेचिद्विलग्ना दशनान्तरेषु सन्दृश्यन्ते चूर्णितैर्मस्तकैः ||",
+      "transliteration": "vaktrāṇi te tvaramāṇā viśanti daṁṣṭrā-karālāni bhayānakāni\nkecid vilagnā daśanāntareṣu sandṛśyante cūrṇitair mastakaiḥ",
+      "translation": "Some are seen rushing into Your fearful mouths with terrible teeth; some are hanging with crushed heads between Your teeth.",
+      "modern": "Warriors rush into blazing mouths, some crushed, some hanging between teeth. This is graphic imagery of Time’s consumption. In practice: death is indiscriminate — all are swallowed. Krishna shows the end of every embodied being. The devotee learns: cling only to the Eternal. This vision destroys attachment to the temporary."
+    },
+    {
+      "verse": 28,
+      "sanskrit": "यथा नदीनां बहवोऽम्बुवेगाः समुद्रमेवाभिमुखा द्रवन्ति |\nतथा तवामी नरलोकवीरा विशन्ति वक्त्राण्यभिविज्वलन्ति ||",
+      "transliteration": "yathā nadīnāṁ bahavo ’mbu-vegāḥ samudram evābhimukhā dravanti\ntathā tavāmī nara-loka-vīrā viśanti vaktrāṇy abhivijvalanti",
+      "translation": "As the many waves of the rivers flow into the ocean, so do all these great warriors enter blazing into Your mouths.",
+      "modern": "Like rivers rushing into the ocean, warriors enter Your blazing mouths. This is the inevitable flow toward destruction. In practice: all life moves toward death — like rivers to sea. Krishna as Time consumes all. This imagery brings acceptance — resistance is futile. The devotee sees the cosmic inevitability and surrenders more deeply."
+    },
+    {
+      "verse": 29,
+      "sanskrit": "यथा प्रदीप्तं ज्वलनं पतङ्गा विशन्ति नाशाय समृद्धवेगाः |\nतथैव नाशाय विशन्ति लोकास्तवापि वक्त्राणि समृद्धवेगाः ||",
+      "transliteration": "yathā pradīptaṁ jvalanaṁ pataṅgā viśanti nāśāya samṛddha-vegāḥ\ntathāiva nāśāya viśanti lokās tavāpi vaktrāṇi samṛddha-vegāḥ",
+      "translation": "As moths fly into a blazing fire to destruction with full speed, so do these men rush into Your mouths with great speed to their own destruction.",
+      "modern": "Like moths rushing into flame to destruction, warriors enter Your mouths. This is the classic irresistible pull toward doom. In practice: beings are drawn to sense pleasures, power, ego — all leading to dissolution. Krishna shows the fate of material attachment. The devotee sees the futility and turns inward to the Eternal."
+    },
+    {
+      "verse": 30,
+      "sanskrit": "लेलिह्यसे ग्रसमानः समन्ताल्लोकान्समग्रान्वदनैर्ज्वलद्भिः |\nतेजोभिरापूर्य जगत्समग्रं भासस्तवोग्राः प्रतपन्ति विष्णो ||",
+      "transliteration": "lelihyase grasamānaḥ samantāl lokān samagrān vadanair jvaladbhiḥ\ntejobhir āpūrya jagat samagraṁ bhāsas tavogrāḥ pratapanti viṣṇo",
+      "translation": "O Vishnu, I see You devouring all people from all sides with Your flaming mouths. Covering all the universe with Your effulgence, You are scorching everything with Your fierce rays.",
+      "modern": "Arjuna sees Krishna devouring all from every side with blazing mouths, filling the universe with fierce radiance, scorching everything. This is the full destructive aspect — Time burning all. In practice: the Divine as destroyer is necessary for renewal. Nothing escapes. This vision terrifies yet purifies attachment. Arjuna addresses Krishna as Vishnu — all-pervading preserver — yet sees the destructive face. This paradox is divine totality."
+    },
+    {
+      "verse": 31,
+      "sanskrit": "आख्याहि मे को भवानुग्ररूपो नमोऽस्तु ते देववर प्रसीद |\nविज्ञातुमिच्छामि भवन्तमाद्यं न हि प्रजानामि तव प्रवृत्तिम् ||",
+      "transliteration": "ākhyāhi me ko bhavān ugra-rūpo namo ’stu te deva-vara prasīda\nvijñātum icchāmi bhavantam ādyaṁ na hi prajānāmi tava pravṛttim",
+      "translation": "O Lord of lords, O refuge of the universe, please be gracious to me. I cannot keep my balance seeing Your blazing deathlike faces and awful teeth. I am lost in direction and have no comfort.",
+      "modern": "Arjuna pleads: 'Who are You in this terrifying form? I bow to You — be kind. I want to understand You, the original being — I don’t understand Your purpose.' This is the overwhelmed devotee seeking clarity amid awe. In practice: when divine vision is too intense, ask for understanding. Arjuna doesn’t run — he bows and inquires. This is devotion in terror — surrender + curiosity. Krishna will now reveal Himself as Time, the destroyer of all."
+    },
+    {
+      "verse": 32,
+      "sanskrit": "श्रीभगवानुवाच |\nकालोऽस्मि लोकक्षयकृत्प्रवृद्धो लोकान्समाहर्तुमिह प्रवृत्तः |\nऋतेऽपि त्वां न भविष्यन्ति सर्वे येऽवस्थिताः प्रत्यनीकेषु योधाः ||",
+      "transliteration": "śrī-bhagavān uvāca\nkālo ’smi loka-kṣaya-kṛt pravṛddho lokān samāhartum iha pravṛttaḥ\nṛte ’pi tvāṁ na bhaviṣyanti sarve ye ’vasthitāḥ pratyanīkeṣu yodhāḥ",
+      "translation": "The Supreme Personality of Godhead said: Time I am, destroyer of the worlds, and I have come to engage all people. With the exception of you [the Pandavas], all the soldiers here on both sides will be slain.",
+      "modern": "Krishna’s thunderous revelation: I am Time, destroyer of worlds — come to annihilate all. Except you (Pandavas), all warriors here will die. This is the cosmic perspective on the war — it’s already decided by Time. In 2026 terms: Oppenheimer quoted this verse after the atomic test — 'I am become Death, destroyer of worlds.' Krishna shows the inevitable end of all things. The war is not Arjuna’s choice — it’s Time’s play. This frees Arjuna from guilt — act as instrument, not cause. The Divine as Time destroys to renew."
+    },
+    {
       "verse": 33,
-      "sanskrit": "तस्मात्त्वमुत्तिष्ठ यशो लभस्व जित्वा शत्रून्भुङ्क्ष्व राज्यं समृद्धम् | मयैवैते निहताः पूर्वमेव निमित्तमात्रं भव सव्यसाचिन् ||",
-      "transliteration": "tasmāt tvam uttiṣṭha yaśo labhasva jitvā śatrūn bhuṅkṣva rājyaṁ samṛddham | mayaivaite nihatāḥ pūrvam eva nimitta-mātraṁ bhava savya-sācin",
-      "translation": "Therefore arise and attain glory. Conquer your enemies and enjoy a prosperous kingdom. They are already slain by Me. Be merely an instrument.",
-      "modern": "The outcome is already determined by forces bigger than you. Your job isn't to make everything happen - it's to show up and play your part. Stop carrying the weight of the world. You're not that powerful. Do your best, then surrender the results. You're an instrument, not the orchestrator. This takes so much pressure off."
+      "sanskrit": "तस्मात्त्वमुत्तिष्ठ यशो लभस्व जित्वा शत्रून् भुङ्क्ष्व राज्यं समृद्धम् |\nमयैवैते निहताः पूर्वमेव निमित्तमात्रं भव सव्यसाचिन् ||",
+      "transliteration": "tasmāt tvam uttiṣṭha yaśo labhasva jitvā śatrūn bhuṅkṣva rājyaṁ samṛddham\nmayaivaite nihatāḥ pūrvam eva nimitta-mātraṁ bhava savya-sācin",
+      "translation": "Therefore get up and prepare to fight. After conquering your enemies you will enjoy a flourishing kingdom. They are already put to death by My arrangement, and you, O Savyasachi, can be but an instrument in the fight.",
+      "modern": "Arjuna is told: rise, fight, win fame, enjoy the kingdom — they are already slain by Me. You are only the instrument. This is karma yoga’s peak — act without doership. In practice: the outcome is already decided by higher will. Your role is sincere action without attachment. Krishna frees Arjuna from moral burden — the war is divine will. This verse empowers detached action — do your duty as nimitta (instrument). This is liberation in the midst of battle."
+    },
+    {
+      "verse": 34,
+      "sanskrit": "द्रोणं च भीष्मं च जयद्रथं च कर्णं तथान्यानपि योधवीरान् |\nमया हतांस्त्वं जहि मा व्यथिष्ठा युध्यस्व जेतासि रणे सपत्नान् ||",
+      "transliteration": "droṇaṁ ca bhīṣmaṁ ca jayadrathaṁ ca karṇaṁ tathānyān api yodha-vīrān\nmayā hatāṁs tvaṁ jahi mā vyathiṣṭhā yudhyasva jetāsi raṇe sapatnān",
+      "translation": "The great warriors Drona, Bhishma, Jayadratha, Karna, and the other great warriors are already killed by Me. Therefore, kill them and do not be disturbed. Simply fight, and you will vanquish your enemies in battle.",
+      "modern": "Krishna names the warriors — already slain by Him — and urges Arjuna: kill them without disturbance, fight and conquer. This is divine assurance. In practice: the results are already accomplished by higher will. Act boldly, without fear or hesitation. Krishna removes Arjuna’s last doubt — victory is certain because it’s already done. This verse gives unshakeable confidence — act as the instrument of the inevitable."
+    },
+    {
+      "verse": 35,
+      "sanskrit": "सञ्जय उवाच |\nएतच्छ्रुत्वा वचनं केशवस्य कृताञ्जलिर्वेपमानः किरीटी |\nनमस्कृत्वा भूय एवाह कृष्णं सगद्गदं भीतभीतः प्रणम्य ||",
+      "transliteration": "sañjaya uvāca\netac chrutvā vacanaṁ keśavasya kṛtāñjalir vepamānaḥ kirīṭī\nnamaskṛtvā bhūya evāha kṛṣṇaṁ sa-gadgadaṁ bhīta-bhītaḥ praṇamya",
+      "translation": "Sanjaya said to Dhritarashtra: After hearing these words from the Supreme Personality of Godhead, Arjuna trembled, his hair standing on end. Overwhelmed, he bowed down with folded hands and began to offer prayers with faltering voice.",
+      "modern": "Sanjaya narrates Arjuna’s state: hearing Krishna’s words, he trembles, hair erect, bows again, speaks with choked voice — terrified yet reverent. This is the physical and emotional impact of divine revelation. In practice: even the greatest warrior can be undone by direct experience of the Absolute. This normalizes overwhelm in spiritual life. Arjuna’s trembling devotion is beautiful — fear and love together."
+    },
+    {
+      "verse": 36,
+      "sanskrit": "अर्जुन उवाच |\nस्थाने हृषीकेश तव प्रकीर्त्या जगत्प्रहृष्यत्यनुरज्यते च |\nरक्षांसि भीतानि दिशो द्रवन्ति सर्वे नमस्यन्ति च सिद्धसङ्घाः ||",
+      "transliteration": "arjuna uvāca\nsthāne hṛṣīkeśa tava prakīrtyā jagat prahṛṣyaty anurajyate ca\nrakṣāṁsi bhītāni diśo dravanti sarve namasyanti ca siddha-saṅghāḥ",
+      "translation": "Arjuna said: O master of the senses, the world becomes joyful upon hearing Your name, and thus everyone becomes attached to You. Although they are afraid, the demons flee in all directions, and all the perfect beings bow down to You.",
+      "modern": "Arjuna praises: the world rejoices hearing Your glories, becomes attached to You. Demons flee in fear, perfected beings bow. This shows universal response to divine presence — joy for the good, fear for the evil, reverence for the wise. In practice: Krishna’s name itself brings happiness and purification. This is the power of kirtan/nama-japa. Arjuna sees cosmic validation of devotion — even demons run, saints bow. This strengthens faith."
+    },
+    {
+      "verse": 37,
+      "sanskrit": "कस्माच्च ते न नमेरन्महात्मन् गरीयसे ब्रह्मणोऽप्यदिकर्त्रे |\nअनन्त देवेश जगन्निवास त्वमक्षरं सदसत्तत्परम् यत् ||",
+      "transliteration": "kasmāc ca te na nameran mahātman garīyase brahmaṇo ’py ādi-kartre\nananta deveśa jagannivāsa tvam akṣaraṁ sad-asat tat param yat",
+      "translation": "O great one, who is greater than Brahma? You are the original creator. Why should they not offer their respectful obeisances to You, O limitless one, O Lord of gods, O refuge of the universe? You are the invincible source, the cause of all causes, beyond the material modes, and the supreme abode.",
+      "modern": "Arjuna continues praising: Who wouldn’t bow to You — greater than Brahma, original creator, infinite, Lord of gods, refuge of all, imperishable, beyond existence/non-existence. This is ecstatic glorification. In practice: the devotee spontaneously praises when overwhelmed by divine vision. Arjuna lists Krishna’s supremacy — cause of causes, beyond duality, ultimate shelter. This is bhakti in full flow — heart pouring out love and awe."
+    },
+    {
+      "verse": 38,
+      "sanskrit": "त्वमादिदेवः पुरुषः पुराणस्त्वमस्य विश्वस्य परं निधानम् |\nवेत्तासि वेद्यं च परं च धाम त्वया ततं विश्वमनन्तरूप ||",
+      "transliteration": "tvam ādi-devaḥ puruṣaḥ purāṇas tvam asya viśvasya paraṁ nidhānam\nvettāsi vedyaṁ ca paraṁ ca dhāma tvayā tataṁ viśvam ananta-rūpa",
+      "translation": "You are the original Personality of Godhead, the oldest, the ultimate refuge of this universe, the knower of everything, the object of knowledge, the supreme abode. By You the entire universe is pervaded, O unlimited form!",
+      "modern": "Arjuna declares: You are the original Godhead, ancient, ultimate shelter, knower and known, supreme abode — the whole universe is pervaded by You. This is complete recognition. In practice: the devotee sees Krishna as source, goal, and substance of everything. This ends search. Arjuna is saying: 'I see it now — You are All.' This is the fruit of divine vision — total surrender and love."
+    },
+    {
+      "verse": 39,
+      "sanskrit": "वायुर्यमोऽग्निर्वरुणः शशाङ्कः प्रजापतिस्त्वं प्रपितामहश्च |\nनमो नमस्तेऽस्तु सहस्रकृत्वः पुनश्च भूयोऽपि नमो नमस्ते ||",
+      "transliteration": "vāyur yamo ’gnir varuṇaḥ śaśāṅkaḥ prajāpatis tvaṁ prapitāmahaś ca\nnamo namas te ’stu sahasra-kṛtvaḥ punaś ca bhūyo ’pi namo namas te",
+      "translation": "You are Vayu, Yama, Agni, Varuna, the moon, Brahma, and the grandsire of all beings. I offer my repeated obeisances unto You — a thousand times, and again and again.",
+      "modern": "Arjuna bows a thousand times: You are wind, death, fire, water-god, moon, creator, grandfather of all. Endless salutations. This is ecstatic repetition. In practice: when overwhelmed by divine presence, words fail — only repeated namah (I bow) remains. This is the language of love beyond concepts. Arjuna is lost in praise — a thousand prostrations aren’t enough. This is the devotee’s natural overflow."
+    },
+    {
+      "verse": 40,
+      "sanskrit": "नमः पुरस्तादथ पृष्ठतस्ते नमोऽस्तु ते सर्वत एव सर्व |\nअनन्तवीर्यामितविक्रमस्त्वं सर्वं समाप्नोषि ततोऽसि सर्वः ||",
+      "transliteration": "namaḥ purastād atha pṛṣṭhatas te namo ’stu te sarvata eva sarva\nananta-vīryāmita-vikramas tvaṁ sarvaṁ samāpnoṣi tato ’si sarvaḥ",
+      "translation": "Obeisances to You from the front, from behind, and from all sides! O boundless power, You pervade everything; therefore You are everything.",
+      "modern": "Arjuna bows in every direction: front, back, all sides — infinite power, You fill everything, therefore You are everything. This is total surrender in all directions. In practice: when the Divine is seen as all-pervading, every direction is sacred. No corner of life is without Him. Arjuna is saying: 'Wherever I turn — You.' This ends escape fantasies — there is no place without God. This verse is complete encirclement by devotion."
+    },
+    {
+      "verse": 41,
+      "sanskrit": "सखेति मत्वा प्रसभं यदुक्तं हे कृष्ण हे यादव हे सखेति |\nअजानता महिमानं तवेदं मया प्रमादात्प्रणयेन वाऽपि ||",
+      "transliteration": "sakheti matvā prasabhaṁ yad uktaṁ he kṛṣṇa he yādava he sakheti\najānatā mahimānaṁ tavedaṁ mayā pramādāt praṇayena vāpi",
+      "translation": "Thinking of You as my friend, I have rashly addressed You as 'O Krishna,' 'O Yadava,' 'O friend,' not knowing this greatness of Yours out of carelessness or out of love.",
+      "modern": "Arjuna confesses: thinking You were just my friend, I called You 'Krishna,' 'Yadava,' 'friend' casually — not realizing Your infinite greatness. This is touching humility. In practice: when divine vision reveals true scale, past familiarity feels inadequate. Arjuna apologizes for treating the Infinite as ordinary. This is the devotee’s realization: God is friend, yet infinitely beyond friend. This verse heals casual spirituality — love Him as friend, yet never forget His majesty."
+    },
+    {
+      "verse": 42,
+      "sanskrit": "अवस्थितेष्वपि तेषु यत् प्रियं प्रियं च यत् |\nअकृतज्ञोऽस्मि तेषां त्वयि मयि च तेषु च ||",
+      "transliteration": "avastheṣv api teṣu yat priyaṁ priyaṁ ca yat\nakṛtajño ’smi teṣāṁ tvayi mayi ca teṣu ca",
+      "translation": "In whatever way I may have been discourteous to You while we were together — whether joking, lying on the same bed, sitting or eating — either alone or in the presence of others, O infallible one, I humbly beg Your pardon.",
+      "modern": "Arjuna asks forgiveness for any disrespect — joking, resting, eating together — not knowing Your greatness. This is profound repentance born of awe. In practice: past casualness toward the Divine now feels inadequate. Arjuna is saying: 'I treated You like a friend without realizing You are God — forgive me.' This is beautiful humility. The Divine accepts our imperfections when offered with love. This verse heals guilt — sincere apology + devotion = forgiveness."
+    },
+    {
+      "verse": 43,
+      "sanskrit": "पितासि लोकस्य चराचरस्य त्वमस्य पूज्यश्च गुरुर्गरीयान् |\nन त्वत्समोऽस्त्यभ्यधिकः कुतोऽन्यो लोकत्रयेऽप्यप्रतिमप्रभाव ||",
+      "transliteration": "pitāsi lokasya carācarasya tvam asya pūjyaś ca gurur garīyān\nna tvat-samo ’sty abhyadhikaḥ kuto ’nyo loka-traye ’py apratima-prabhāva",
+      "translation": "You are the father of this complete cosmic manifestation, of the moving and the nonmoving. You are its worshipable chief, the supreme spiritual master. No one is equal to You, nor can anyone be one with You. Within the three worlds, You are inconceivable and incomparable.",
+      "modern": "Arjuna praises: You are father of all moving/non-moving, most worshipable, greatest guru — no one equals or surpasses You in all worlds. This is complete recognition of supremacy. In practice: the Divine is source, guide, object of worship — unmatched. This ends comparison and pride. Arjuna sees Krishna as ultimate father, teacher, lord. This verse brings deep reverence and surrender."
+    },
+    {
+      "verse": 44,
+      "sanskrit": "तस्मात्प्रणम्य प्रणिधाय कायं प्रसादये त्वामहमीशमीड्यम् |\nपितेव पुत्रस्य सखेव सख्युः प्रियः प्रियायार्हसि देव सोढुम् ||",
+      "transliteration": "tasmāt praṇamya praṇidhāya kāyaṁ prasādaye tvām aham īśam īḍyam\npiteva putrasya sakheva sakhyuḥ priyaḥ priyāyārhasi deva soḍhum",
+      "translation": "Therefore, bowing down and prostrating my body, I crave Your forgiveness. As a father forgives his son, as a friend forgives a friend, as a beloved forgives his beloved — please forgive me, O Lord.",
+      "modern": "Arjuna begs forgiveness — bowing fully — like a child to father, friend to friend, lover to beloved. This is intimate appeal. In practice: when divine greatness is seen, past familiarity feels like offense — yet Arjuna appeals to Krishna’s love. This is the beauty of bhakti — God is infinite yet responds to personal love. Krishna accepts the imperfect devotee. This verse melts the heart — God forgives like the closest relationship."
+    },
+    {
+      "verse": 45,
+      "sanskrit": "अदृष्टपूर्वं हृषितोऽस्मि दृष्ट्वा भयेन च प्रव्यथितं मनो मे |\nतदेव मे दर्शय देव रूपं प्रसीद देवेश जगन्निवास ||",
+      "transliteration": "adṛṣṭa-pūrvaṁ hṛṣito ’smi dṛṣṭvā bhayena ca pravya-thitaṁ mano me\ntad eva me darśaya deva rūpaṁ prasīda deveśa jagannivāsa",
+      "translation": "After seeing this universal form, which I have never seen before, I am joyful, yet my mind is disturbed with fear. Therefore please show me Your former form, O Lord. Be gracious, O Lord of lords, O refuge of the universe.",
+      "modern": "Arjuna confesses: seeing this unprecedented form brings joy and terror — my mind is shaken. Please show me Your familiar form again — be kind, O Lord of lords, refuge of all. This is honest vulnerability. In practice: divine vision can be too much — even devotees seek the comforting personal form after cosmic terror. Arjuna loves the cosmic vision yet longs for the gentle Krishna he knows. This is the balance of bhakti — awe and intimacy. Krishna will grant this request too."
+    },
+    {
+      "verse": 46,
+      "sanskrit": "किरीटिनं गदिनं चक्रहस्तमिच्छामि त्वां द्रष्टुमहं तथैव |\nतेनैव रूपेण चतुर्भुजेन सहस्रबाहो भव विश्वमूर्ते ||",
+      "transliteration": "kirīṭinaṁ gadinaṁ cakra-hastam icchāmi tvāṁ draṣṭum ahaṁ tathaiva\ntenaiva rūpeṇa catur-bhujena sahasra-bāho bhava viśva-mūrte",
+      "translation": "O universal form, I wish to see You in Your four-armed form, with helmet, mace, disc and lotus flower in Your hands. I long to see You in that form.",
+      "modern": "Arjuna requests: show me Your familiar four-armed form — crowned, with mace, disc, conch — O thousand-armed universal form. This is the longing for the beloved personal deity after cosmic vision. In practice: devotees often prefer the intimate, beautiful form over the infinite. Arjuna wants the Krishna he knows and loves. This is natural — the heart seeks comfort after awe. Krishna will grant this too — showing both aspects are true."
+    },
+    {
+      "verse": 47,
+      "sanskrit": "श्रीभगवानुवाच |\nमया प्रसन्नेन तवार्जुनेदं रूपं परं दर्शितं स्वयं योगात् |\nतेजोमयं विश्वमनन्तमाद्यं यन्मे त्वदन्येन न दृष्टपूर्वम् ||",
+      "transliteration": "śrī-bhagavān uvāca\nmayā prasannena tavārjunedaṁ rūpaṁ paraṁ darśitaṁ svayaṁ yogāt\ntejo-mayaṁ viśvam anantam ādyaṁ yan me tvad-anyena na dṛṣṭa-pūrvam",
+      "translation": "The Supreme Personality of Godhead said: My dear Arjuna, happily do I show you this universal form within the material world by My internal potency. No one before you has ever seen this unlimited and glaringly effulgent form.",
+      "modern": "Krishna explains: out of grace I showed you this supreme, radiant, infinite, original cosmic form — never seen by anyone else. This is exclusive grace. In practice: such visions are rare gifts — not achieved by effort alone. Krishna gave it because Arjuna is beloved. This verse emphasizes grace — the Divine reveals Himself when He chooses. Arjuna is privileged. This brings humility and gratitude."
+    },
+    {
+      "verse": 48,
+      "sanskrit": "न वेदयज्ञाध्ययनैर्न दानैर्न च क्रियाभिर्न तपोभिरुग्रैः |\nएवंरूपः शक्य अहं नृलोके द्रष्टुं त्वदन्येन कुरुप्रवीर ||",
+      "transliteration": "na veda-yajñādhyayanair na dānair na ca kriyābhir na tapobhir ugraiḥ\nevaṁ-rūpaḥ śakya ahaṁ nṛ-loke draṣṭuṁ tvad-anyena kuru-pravīra",
+      "translation": "O best of the Kuru warriors, no one before you has ever seen this universal form of Mine, for neither by studying the Vedas, nor by performing sacrifices, nor by charity, nor by rituals, nor by severe austerities can I be seen in this form in this material world.",
+      "modern": "Krishna states: no one has ever seen this form through Vedic study, sacrifice, charity, rituals or austerities — only you, Arjuna. This is exclusive grace. In practice: intellectual effort, rituals, penance — none can force this vision. It is given by love and grace alone. This verse destroys spiritual pride and materialism — no amount of sadhana guarantees cosmic vision. Krishna gives it to His friend. This is the supremacy of bhakti — love opens doors effort cannot."
+    },
+    {
+      "verse": 49,
+      "sanskrit": "मा ते व्यथा मा च विमूढभावो दृष्ट्वा रूपं घोरमीदृङ्ममेदम् |\nव्यपेतभीः प्रीतमनाः पुनस्त्वं तदेव मे रूपमिदं प्रपश्य ||",
+      "transliteration": "mā te vyathā mā ca vimūḍha-bhāvo dṛṣṭvā rūpaṁ ghoram īdṛṅ mamedam\nvyapeta-bhīḥ prīta-manāḥ punas tvaṁ tad eva me rūpam idaṁ prapaśya",
+      "translation": "Your mind has been perturbed upon seeing this horrible feature of Mine. Now let it be finished. My dear Arjuna, be free from all disturbance. With a peaceful mind you can now see the form you desire.",
+      "modern": "Krishna comforts: don’t be disturbed by this terrifying form — let fear go, be peaceful, and see My desired form again. This is divine compassion. In practice: after intense mystical experience, the Divine reassures and returns to the comforting form. Krishna is both cosmic terror and gentle friend. Arjuna’s fear is honored — not dismissed. This verse shows the Divine meets the devotee’s capacity. After awe comes peace."
+    },
+    {
+      "verse": 50,
+      "sanskrit": "सञ्जय उवाच |\nइत्यर्जुनं वासुदेवस्तथोक्त्वा स्वकं रूपं दर्शयामास भूयः |\nआश्वासयामास च भीतमीतं भूत्वा पुनः सौम्यवपुर्महात्मा ||",
+      "transliteration": "sañjaya uvāca\nity arjunaṁ vāsudevas tathoktvā svakaṁ rūpaṁ darśayāmāsa bhūyaḥ\nāśvāsayāmāsa ca bhītam ītaṁ bhūtvā punaḥ saumya-vapur mahātmā",
+      "translation": "Sanjaya said to Dhritarashtra: The Supreme Personality of Godhead, Krishna, while speaking to Arjuna, displayed His real four-armed form and then showed again His two-armed form, thus encouraging the fearful Arjuna.",
+      "modern": "Sanjaya narrates: after speaking, Krishna withdrew the cosmic form, showed His four-armed Vishnu form, then His familiar two-armed form — comforting the terrified Arjuna. This is divine kindness. In practice: the Lord reveals what the devotee can handle — cosmic vision for awe, personal form for love. Krishna returns to the gentle, smiling form Arjuna knows. This ends terror with comfort. The devotee’s heart is soothed — God is both infinite and intimate."
+    },
+    {
+      "verse": 51,
+      "sanskrit": "अर्जुन उवाच |\nदृष्ट्वेदं मानुषं रूपं तव सौम्यं जनार्दन |\nइदानीमस्मि संवृत्तः सचेता प्रकृतिं गतः ||",
+      "transliteration": "arjuna uvāca\ndṛṣṭvedaṁ mānuṣaṁ rūpaṁ tava saumyaṁ janārdana\nidānīm asmi saṁvṛttaḥ sa-cetāḥ prakṛtiṁ gataḥ",
+      "translation": "Arjuna said: O Janardana, seeing again this pleasing human form, my mind is now pacified and returned to normal.",
+      "modern": "Arjuna sighs with relief: seeing Your gentle human form again, my mind is calm and normal. This is the return to baseline after transcendence. In practice: after peak mystical experience, the devotee appreciates the comforting personal form. Arjuna is grateful — terror is gone, peace returns. This shows the Divine balances awe with intimacy. The heart needs both."
+    },
+    {
+      "verse": 52,
+      "sanskrit": "श्रीभगवानुवाच |\nसुदुर्दर्शमिदं रूपं दृष्टवानसि यन्मम |\nदेवा अप्यस्य रूपस्य नित्यं दर्शनकाङ्क्षिणः ||",
+      "transliteration": "śrī-bhagavān uvāca\nsu-durdarśam idaṁ rūpaṁ dṛṣṭavān asi yan mama\ndeva apy asya rūpasya nityaṁ darśana-kāṅkṣiṇaḥ",
+      "translation": "The Supreme Personality of Godhead said: My dear Arjuna, the form you are now seeing is very difficult to behold. Even the demigods are ever seeking the opportunity to see this form which you are now seeing.",
+      "modern": "Krishna explains: this cosmic form is extremely rare — even gods long to see it, yet you have. This is special grace. In practice: Arjuna is privileged beyond cosmic beings. This brings humility and gratitude. The Divine reveals Himself to the pure devotee in ways even deities cannot access. This verse elevates bhakti — love opens doors effort cannot."
+    },
+    {
+      "verse": 53,
+      "sanskrit": "नाहं वेदैर्न तपसा न दानेन न चेज्यया |\nशक्य एवंविधो द्रष्टुं दृष्टवानसि मां यथा ||",
+      "transliteration": "nāhaṁ vedair na tapasā na dānena na cejyayā\nśakya evaṁ-vidho draṣṭuṁ dṛṣṭavān asi māṁ yathā",
+      "translation": "The form you are seeing with your transcendental eyes cannot be understood simply by studying the Vedas, nor by undergoing severe austerities, nor by charity, nor by worship.",
+      "modern": "Krishna confirms: this form cannot be seen through Vedas, tapas, charity or rituals — only by grace. This destroys spiritual materialism. In 2026: no amount of study, penance, donation or puja forces divine vision. It is given freely to the beloved devotee. This verse protects bhakti’s supremacy — love and grace trump all effort. Arjuna saw because Krishna loved him — not because he earned it."
+    },
+    {
+      "verse": 54,
+      "sanskrit": "भक्त्या त्वनन्यया शक्य अहमेवंविधोऽर्जुन |\nज्ञातुं द्रष्टुं च तत्त्वेन प्रवेष्टुं च परन्तप ||",
+      "transliteration": "bhaktyā tv ananyayā śakya aham evaṁ-vidho ’rjuna\njñātuṁ draṣṭuṁ ca tattvena praveṣṭuṁ ca parantapa",
+      "translation": "My dear Arjuna, only by undivided devotional service can I be understood as I am, standing before you, and can be seen directly. Only in this way can you enter into the mysteries of My understanding.",
+      "modern": "Only by exclusive, undivided devotion can I be known, seen in truth, and entered into. This is the chapter’s climax. Krishna says: bhakti — single-hearted love — is the only way to truly know and see Me as I am. In practice: not study, austerity or ritual — only love. This is the Gita’s final answer to every seeker: love Me completely. That opens all doors — knowledge, vision, union. This verse is the sweetest secret — devotion is the master key."
     },
     {
       "verse": 55,
-      "sanskrit": "मत्कर्मकृन्मत्परमो मद्भक्तः सङ्गवर्जितः | निर्वैरः सर्वभूतेषु यः स मामेति पाण्डव ||",
-      "transliteration": "mat-karma-kṛn mat-paramo mad-bhaktaḥ saṅga-varjitaḥ | nirvairaḥ sarva-bhūteṣu yaḥ sa mām eti pāṇḍava",
-      "translation": "One who does work for Me, who depends on Me, who is devoted to Me, free from attachment, without enmity toward any being - such a person comes to Me.",
-      "modern": "The ideal: Do your work as service. Depend on something bigger than yourself. Be committed to growth. Don't get attached to outcomes. And don't hate anyone. That's the whole path right there. Simple but not easy. Most people fail at one or more of these. But if you can live this way, you're free."
+      "sanskrit": "मत्कर्मकृन्मत्परमो मद्भक्तः सङ्गवर्जितः |\nनिर्वैरः सर्वभूतेषु यः स मामेति पाण्डव ||",
+      "transliteration": "mat-karma-kṛn mat-paramo mad-bhaktaḥ saṅga-varjitaḥ\nnirvairaḥ sarva-bhūteṣu yaḥ sa mām eti pāṇḍava",
+      "translation": "My dear Arjuna, he who engages in My pure devotional service, free from the contaminations of fruitive activities and mental speculation, who works for Me, who makes Me the supreme goal of his life, and who is friendly to every living being — he certainly comes to Me.",
+      "modern": "The chapter’s beautiful close — Krishna’s final qualification for reaching Him: work for Me, make Me the goal, be My devotee, free from attachment, without enmity toward any being. This is the complete portrait of the perfected bhakta. In practice: act for the Divine, desire only Him, love Him exclusively, drop possessiveness, be kind to all. This is the path home. Krishna ends with assurance: live this way — you will reach Me. This verse is the practical summary of the entire Gita — devotion expressed through action, detachment, love and universal kindness. The devotee who lives this reaches the Lord."
     }
   ]
 }
