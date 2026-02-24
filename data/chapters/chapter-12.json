@@ -3,21 +3,147 @@
   "title": "The Path of Devotion",
   "sanskrit": "भक्तियोग",
   "verses": 20,
-  "introduction": "Krishna explains the qualities of true devotees and the path of loving devotion as superior to other spiritual practices.",
+  "introduction": "Chapter 12 of the Bhagavad Gita, Bhakti Yoga (The Yoga of Devotion), is one of the shortest yet most beloved and emotionally direct chapters in the entire scripture. After the overwhelming cosmic vision of Chapter 11 left Arjuna trembling with awe and love, he now asks the most natural follow-up question any devotee asks after glimpsing the infinite: 'Which is better — worship of the personal form (You) or the impersonal Absolute?' Krishna answers with profound clarity and compassion, declaring that while both paths lead to Him, the path of personal devotion (bhakti) is easier, sweeter, and surer for embodied beings in this world. He then gives one of the most famous and practical lists in spiritual literature — the thirty-nine qualities of the ideal devotee — painting a portrait of what a life saturated with love for the Divine actually looks like in daily behavior. For modern readers — especially those who feel spiritually sensitive yet overwhelmed by abstract meditation, intellectual non-dualism, performance pressure, social comparison, loneliness, or the question 'how do I actually live this in real life?' — Chapter 12 feels like Krishna sitting down beside you and saying: 'Don’t worry about mastering the cosmic form or formless meditation first. Just love Me. Start here. These are the attitudes and habits that will carry you home.' The essence remains perfectly preserved: bhakti is not an inferior or sentimental path — it is the simplest, most joyful, and most direct way to reach the Supreme Person in this age.",
   "shlokas": [
     {
+      "verse": 1,
+      "sanskrit": "अर्जुन उवाच |\nएवं सततयुक्ता ये भक्तास्त्वां पर्युपासते |\nये चाप्यक्षरमव्यक्तं तेषां के योगवित्तमाः ||",
+      "transliteration": "arjuna uvāca\nevaṁ satata-yuktā ye bhaktās tvāṁ paryupāsate\nye cāpy akṣaram avyaktaṁ teṣāṁ ke yoga-vittamāḥ",
+      "translation": "Arjuna said: Which of them are better versed in yoga — those who constantly worship You with devotion, or those who worship the imperishable unmanifest?",
+      "modern": "Arjuna asks the question that has divided spiritual seekers for millennia: after seeing Your infinite cosmic form, which path is superior — loving devotion to You (the personal Lord) or meditation on the formless, imperishable Absolute? In 2026 life this is the same fork many face: 'Should I focus on a personal relationship with God (Jesus, Krishna, the Divine Mother), or on impersonal awareness, pure consciousness, non-dual meditation?' Arjuna is not doubting — he is sincerely asking for clarity so he can choose the path most suitable for him and for most people. Krishna’s answer will be both clear and compassionate."
+    },
+    {
+      "verse": 2,
+      "sanskrit": "श्रीभगवानुवाच |\nमय्यावेश्य मनो ये मां नित्ययुक्ता उपासते |\nश्रद्धया परयोपेतास्ते मे युक्ततमा मताः ||",
+      "transliteration": "śrī-bhagavān uvāca\nmayy āveśya mano ye māṁ nitya-yuktā upāsate\nśraddhayā parayopetās te me yuktatamā matāḥ",
+      "translation": "The Supreme Personality of Godhead said: Those who fix their minds upon Me and always engage in My devotion with supreme faith — they are the best yogis in My opinion.",
+      "modern": "Krishna answers immediately and decisively: the ones who fix their minds on Me, remain constantly connected to Me through devotion, and do so with supreme faith — they are the highest yogis. In 2026 terms: personal, loving, faith-filled relationship with the Divine wins. Krishna is not diplomatic — He gives His clear preference. This is revolutionary in many spiritual circles that prioritize formless meditation or intellectual non-dualism. Krishna says: bhakti with full faith is the top path. This verse brings immense relief to anyone who finds abstract meditation dry or difficult — love and faith are enough, and they are supreme."
+    },
+    {
+      "verse": 3,
+      "sanskrit": "ये त्वक्षरमनिर्देश्यमव्यक्तं पर्युपासते |\nसर्वत्रगमचिन्त्यं च कूटस्थमचलं ध्रुवम् ||",
+      "transliteration": "ye tv akṣaram anirdeśyam avyaktaṁ paryupāsate\nsarvatra-gam acintyaṁ ca kūṭa-stham acalaṁ dhruvam",
+      "translation": "But those who worship the imperishable, indefinable, unmanifest, omnipresent, inconceivable, unchanging, immovable, eternal Absolute —",
+      "modern": "Krishna acknowledges the other path: those who meditate on the indefinable, unmanifest, all-pervading, unthinkable, stable, eternal Brahman. This is the classic jnana/non-dual path — formless, attributeless meditation. In 2026: this is the path many modern non-dual teachers and meditators emphasize — pure awareness, formless presence. Krishna does not criticize it — He simply describes it as a valid but more difficult route for most embodied beings."
+    },
+    {
+      "verse": 4,
+      "sanskrit": "सन्नियम्येन्द्रियग्रामं सर्वत्र समबुद्धयः |\nते प्राप्नुवन्ति मामेव सर्वभूतहिते रताः ||",
+      "transliteration": "sanniyamyendriya-grāmaṁ sarvatra sama-buddhayaḥ\nte prāpnuvanti mām eva sarva-bhūta-hite ratāḥ",
+      "translation": "who control all the senses, remain equipoised everywhere, and are engaged in the welfare of all beings — they also attain Me.",
+      "modern": "Those who master the senses, maintain equanimity in all situations, and work selflessly for the good of all beings — they too reach Me. Krishna is inclusive: the jnana path also leads to Him. In practice: sense control + even-mindedness + universal welfare = valid realization. This removes competition between paths. Both bhakti and jnana reach the same goal — but Krishna will now explain why bhakti is easier and preferred for most."
+    },
+    {
+      "verse": 5,
+      "sanskrit": "क्लेशोऽधिकतरस्तेषामव्यक्तासक्तचेतसाम् |\nअव्यक्ता हि गतिर्दुःखं देहवद्भिरवाप्यते ||",
+      "transliteration": "kleśo ’dhikataras teṣām avyaktāsakta-cetasām\navyaktā hi gatir duḥkhaṁ dehavadbhir avāpyate",
+      "translation": "For those whose minds are attached to the unmanifest, impersonal feature, progress is very troublesome. To make progress on the path to the unmanifest is always troublesome for embodied beings.",
+      "modern": "Krishna’s compassionate realism: meditating on the formless, attributeless Absolute is extremely difficult and painful for embodied souls. In 2026 life: most people who try long sessions of 'pure awareness' or 'neti-neti' meditation feel dry, frustrated, or even depressed — because the mind naturally wants an object of love. Krishna is saying: yes, it works — but it’s unnecessarily hard for most people in a body. Bhakti is the easier, more joyful highway. This verse is deeply kind — it removes guilt from those who find formless practice difficult and validates the natural human longing for a loving relationship with the Divine."
+    },
+    {
+      "verse": 6,
+      "sanskrit": "ये तु सर्वाणि कर्माणि मयि संन्यस्य मत्पराः |\nअनन्येनैव योगेन मां ध्यायन्त उपासते ||",
+      "transliteration": "ye tu sarvāṇi karmāṇi mayi saṁnyasya mat-parāḥ\nananyenaiva yogena māṁ dhyāyanta upāsate",
+      "translation": "But those who dedicate all their actions to Me, regard Me as the Supreme goal, worship Me with single-minded devotion, meditating on Me —",
+      "modern": "Krishna now describes the bhakti path He recommends: offer all actions to Me, make Me your only goal, meditate on Me with undivided devotion. In 2026 terms: karma yoga + bhakti yoga — do your work as an offering, keep your heart fixed on the Divine, think of Him constantly. This is the integrated path for householders. No need to renounce the world — just change the motive and the object of attention. This verse shows why bhakti is practical and joyful — it uses daily life as the field of practice."
+    },
+    {
+      "verse": 7,
+      "sanskrit": "तेषामहं समुद्धर्ता मृत्युसंसारसागरात् |\nभवामि न चिरात्पार्थ मय्यावेशितचेतसाम् ||",
+      "transliteration": "teṣām ahaṁ samuddhartā mṛtyu-saṁsāra-sāgarāt\nbhavāmi na cirāt pārtha mayy āveśita-cetasām",
+      "translation": "For those whose minds are fixed on Me, O son of Pritha, I become the swift deliverer from the ocean of birth and death.",
+      "modern": "Krishna’s personal promise: for those who fix their minds on Me, I personally and quickly lift them out of the cycle of birth and death. This is the famous 'I will deliver them' assurance. In 2026 life: the fear of death, repeated suffering, meaninglessness — Krishna says: focus on Me and I will personally carry you across. This is grace in action. The Divine does not leave the devotee to struggle alone — He intervenes. This verse is one of the most comforting in the Gita — trust + devotion = divine rescue."
+    },
+    {
+      "verse": 8,
+      "sanskrit": "मय्येव मन आधत्स्व मयि बुद्धिं निवेशय |\nनिवसिष्यसि मय्येव अत ऊर्ध्वं न संशयः ||",
+      "transliteration": "mayy eva mana ādhatsva mayi buddhiṁ niveśaya\nnivasiṣyasi mayy eva ata ūrdhvaṁ na saṁśayaḥ",
+      "translation": "Just fix your mind upon Me, place your intelligence in Me, and you will live in Me without doubt — of this there is no question.",
+      "modern": "Krishna’s simple, direct instruction: put your mind on Me, direct your intelligence toward Me — you will dwell in Me forever. No doubt. This is the essence of bhakti yoga in one sentence. In 2026 practice: whenever the mind wanders (work stress, social media, worry), gently return it to the Divine name, form, or loving thought. Direct decisions and understanding toward what pleases Him. Krishna promises: do this and you live in Me always. This is the easiest yet most profound practice — constant loving remembrance."
+    },
+    {
+      "verse": 9,
+      "sanskrit": "अथ चित्तं समाधातुं न शक्नोषि मयि स्थिरम् |\nअभ्यासयोगेन ततो मामिच्छाप्तुं धनञ्जय ||",
+      "transliteration": "atha cittaṁ samādhātuṁ na śaknoṣi mayi sthiram\nabhyāsa-yogena tato mām icchāptuṁ dhanañjaya",
+      "translation": "If you cannot fix your mind steadily on Me, then follow the regulative principles of bhakti-yoga. In this way you will develop a desire to attain Me, O Arjuna.",
+      "modern": "If steady meditation on Me is too difficult, practice abhyasa-yoga (disciplined repetition) — cultivate the desire to reach Me. Krishna is realistic and compassionate. In 2026 life: most people can’t sit in unbroken concentration — Krishna says: that’s okay — just keep practicing consistently. Build the habit, even if imperfect. The repeated effort itself creates longing and eventually steadiness. This verse removes discouragement — start where you are, practice regularly, and the heart will naturally turn toward Him."
+    },
+    {
+      "verse": 10,
+      "sanskrit": "अभ्यासेऽप्यसमर्थोऽसि मत्कर्मपरमो भव |\nमदर्थमपि कर्माणि कुर्वन् सिद्धिमवाप्स्यसि ||",
+      "transliteration": "abhyāse ’py asamartho ’si mat-karma-paramo bhava\nmad-artham api karmāṇi kurvan siddhim avāpsyasi",
+      "translation": "If you cannot practice even this abhyasa-yoga, then work for Me — dedicating all your actions to Me. By acting for My sake you will attain perfection.",
+      "modern": "If disciplined practice is still too hard, simply work for Me — dedicate every action to Me. That alone will bring perfection. Krishna keeps lowering the bar with love. In practice: karma yoga — do your job, chores, parenting, creative work as an offering to the Divine. No need for perfect meditation — just change the motive. This is the path for householders and busy people. Krishna says: even this is enough — act for Me and you will reach Me. This verse is pure grace — no one is left behind."
+    },
+    {
+      "verse": 11,
+      "sanskrit": "अथैतदप्यशक्तोऽसि कर्तुं मद्योगमाश्रितः |\nसर्वकर्मफलत्यागं ततः कुरु यतात्मवान् ||",
+      "transliteration": "athaitad apy aśakto ’si kartuṁ mad-yogam āśritaḥ\nsarva-karma-phala-tyāgaṁ tataḥ kuru yatātmavān",
+      "translation": "If you are unable to work in this consciousness of Me, then try to renounce the fruits of your actions while being situated in the self.",
+      "modern": "If even offering actions is difficult, then simply renounce the fruits of work while staying self-controlled. This is classic karma yoga — act without attachment to results. In 2026 life: do your best, then let go of worrying about praise, money, success, failure. Krishna is giving step-by-step regression — from full devotion → disciplined practice → selfless action → detachment. No one is excluded. Even the last step leads toward Him. This verse shows Krishna’s infinite patience — He meets everyone exactly where they are."
+    },
+    {
+      "verse": 12,
+      "sanskrit": "श्रेयो हि ज्ञानमभ्यासात् ज्ञानाद्ध्यानं विशिष्यते |\nध्यानात्कर्मफलत्यागस्त्यागाच्छान्तिरनन्तरम् ||",
+      "transliteration": "śreyo hi jñānam abhyāsāt jñānād dhyānaṁ viśiṣyate\ndhyānāt karma-phala-tyāgas tyāgāc chāntir anantaram",
+      "translation": "Better than mechanical practice is knowledge; better than knowledge is meditation; better than meditation is renunciation of the fruits of action — for by such renunciation one can attain peace immediately.",
+      "modern": "Krishna gives the hierarchy: knowledge > practice > meditation > renunciation of results → immediate peace. This is the ladder of progression. In practice: intellectual understanding is good, disciplined repetition better, focused meditation higher, but the fastest peace comes from letting go of outcome obsession. This verse is practical psychology — stop tying self-worth to success/failure and peace arrives quickly. Krishna ends with the promise: true detachment brings instant shanti (peace)."
+    },
+    {
       "verse": 13,
-      "sanskrit": "अद्वेष्टा सर्वभूतानां मैत्रः करुण एव च | निर्ममो निरहंकारः समदुःखसुखः क्षमी ||",
-      "transliteration": "adveṣṭā sarva-bhūtānāṁ maitraḥ karuṇa eva ca | nirmamo nirahaṅkāraḥ sama-duḥkha-sukhaḥ kṣamī",
-      "translation": "One who is not envious but is a kind friend to all, who does not think of possessing, free from ego, equal in happiness and distress, forgiving.",
-      "modern": "The evolved person: Doesn't hate anyone. Is friendly and compassionate. Doesn't need to own or control everything. Has no ego trips. Handles good times and bad times the same. Forgives easily. Most of us fail at least 3 of these on any given day. But this is the goal. Imagine being this person. Imagine everyone being this person. That's paradise."
+      "sanskrit": "अद्वेष्टा सर्वभूतानां मैत्रः करुण एव च |\nनिर्ममो निरहङ्कारः समदुःखसुखः क्षमी ||",
+      "transliteration": "adveṣṭā sarva-bhūtānāṁ maitraḥ karuṇa eva ca\nnirmamo nirahaṅkāraḥ sama-duḥkha-sukhaḥ kṣamī",
+      "translation": "One who is not envious but is a kind friend to all living entities, who does not think himself a proprietor and is free from false ego, who is equal in both happiness and distress, who is tolerant —",
+      "modern": "Krishna begins the famous list of devotee qualities: free from envy, friendly and compassionate to all, without possessiveness or ego, balanced in pleasure/pain, forgiving. In 2026 life: this is the portrait of emotional maturity — no jealousy, genuine kindness, no ownership claims ('my house, my success'), steady through highs/lows, quick to forgive. These are not forced virtues — they naturally arise in one whose heart is turned to the Divine. This verse starts the practical checklist — live these and you embody devotion."
+    },
+    {
+      "verse": 14,
+      "sanskrit": "सन्तुष्टः सततं योगी यतात्मा दृढनिश्चयः |\nमय्यर्पितमनोबुद्धिर्यो मद्भक्तः स मे प्रियः ||",
+      "transliteration": "santuṣṭaḥ satataṁ yogī yatātmā dṛḍha-niścayaḥ\nmayy arpita-mano-buddhir yo mad-bhaktaḥ sa me priyaḥ",
+      "translation": "One who is always satisfied, self-controlled, determined, whose mind and intelligence are engaged in Me — such a devotee of Mine is very dear to Me.",
+      "modern": "Always content, disciplined, resolute, mind and intellect fixed on Me — that devotee is very dear to Me. Krishna is describing inner stability and constant connection. In practice: no chronic complaining, mastery over impulses, firm spiritual conviction, thoughts and decisions oriented toward the Divine. This is the portrait of quiet strength. Krishna says: this person is especially beloved to Me. This verse gives aspiration — cultivate these and you become dear to the Divine Himself."
+    },
+    {
+      "verse": 15,
+      "sanskrit": "यस्मान्न द्विजते लोको लोकान्न द्विजते च यः |\nहर्षामर्षभयोद्वेगैर्मुक्तो यः स च मे प्रियः ||",
+      "transliteration": "yasmān na dvijate loko lokān na dvijate ca yaḥ\nharṣāmarṣa-bhayodvegair mukto yaḥ sa ca me priyaḥ",
+      "translation": "He by whom no one is put into difficulty and who is not disturbed by anyone, who is equipoised in happiness and distress, fear and anxiety — such a devotee is very dear to Me.",
+      "modern": "Doesn’t disturb others, isn’t disturbed by others, balanced in joy/sorrow, fear/anxiety — that devotee is very dear to Me. This is social and emotional non-violence. In 2026 life: no toxicity, no drama creation, no reactivity — steady calm regardless of external triggers. Krishna values this equanimity highly. This verse describes the rare person who is safe to be around — peaceful inside and harmless outside. That is beloved to the Divine."
     },
     {
       "verse": 16,
-      "sanskrit": "अनपेक्षः शुचिर्दक्ष उदासीनो गतव्यथः | सर्वारम्भपरित्यागी यो मद्भक्तः स मे प्रियः ||",
-      "transliteration": "anapekṣaḥ śucir dakṣa udāsīno gata-vyathaḥ | sarvārambha-parityāgī yo mad-bhaktaḥ sa me priyaḥ",
-      "translation": "One who is free from desires, pure, expert, without cares, free from pain, renouncing all undertakings - such a devotee is dear to Me.",
-      "modern": "Someone who: Doesn't constantly want more. Stays clean in body and mind. Is skilled but not attached to being skilled. Doesn't stress about everything. Feels no anxiety. Isn't always starting ambitious projects to prove something. This person has inner peace. They've figured it out. They're not trying to fill a void with achievements or possessions. They just ARE. Goals."
+      "sanskrit": "अनपेक्षः शुचिर्दक्षो उदासीनो गतव्यथः |\nसर्वारम्भपरित्यागी यो मद्भक्तः स मे प्रियः ||",
+      "transliteration": "anapekṣaḥ śucir dakṣo udāsīno gata-vyathaḥ\nsarvārambha-parityāgī yo mad-bhaktaḥ sa me priyaḥ",
+      "translation": "My devotee who is free from expectations, pure, expert, impartial, free from anxiety, and who has renounced all undertakings for personal gain — he is very dear to Me.",
+      "modern": "No expectations, clean inside/out, skilled, neutral, anxiety-free, drops selfish projects — that devotee is very dear to Me. This is detachment in action. In practice: no hidden agendas, purity of motive, competence without ego, fairness, inner peace, no personal empire-building. Krishna describes the selfless, light-footed devotee. This verse appeals to anyone tired of hustle culture — live cleanly, skillfully, without clinging — that is beloved."
+    },
+    {
+      "verse": 17,
+      "sanskrit": "यो न हृष्यति न द्वेष्टि न शोचति न काङ्क्षति |\nशुभाशुभपरित्यागी भक्तिमान्यः स मे प्रियः ||",
+      "transliteration": "yo na hṛṣyati na dveṣṭi na śocati na kāṅkṣati\nśubhāśubha-parityāgī bhaktimān yaḥ sa me priyaḥ",
+      "translation": "One who neither rejoices nor hates, neither laments nor desires, and renounces both auspicious and inauspicious things — such a devotee is very dear to Me.",
+      "modern": "No elation or hatred, no grief or craving, drops both good and bad outcomes — that loving devotee is very dear to Me. This is equanimity perfected. In 2026 life: no mood swings from likes/dislikes, success/failure, praise/blame — steady inner freedom. Krishna values this transcendence of duality highly. This verse describes the rare soul who has gone beyond reward/punishment thinking — pure love remains. That is supremely dear."
+    },
+    {
+      "verse": 18,
+      "sanskrit": "समः शत्रौ च मित्रे च तथा मानापमानयोः |\nशीतोष्णसुखदुःखेषु समः सङ्गविवर्जितः ||",
+      "transliteration": "samaḥ śatrau ca mitre ca tathā mānāpamānayoḥ\nśītoṣṇa-sukha-duḥkheṣu samaḥ saṅga-vivarjitaḥ",
+      "translation": "One who is equal to friends and enemies, who is equipoised in honor and dishonor, heat and cold, happiness and distress, fame and infamy, and is free from all attachment —",
+      "modern": "Equal to friend/enemy, praise/blame, heat/cold, joy/sorrow, fame/infamy — unattached. This continues the portrait of perfect balance. In practice: no favoritism, no reactivity to external labels or sensations — free from clinging. Krishna is describing the emotionally sovereign devotee. This is the state beyond triggers — inner weather remains calm. Such a person is very dear because they reflect the Divine’s own equanimity."
+    },
+    {
+      "verse": 19,
+      "sanskrit": "तुल्यनिन्दास्तुतिर्मौनी सन्तुष्टो येन केनचित् |\nअनिकेतः स्थिरमतिर्भक्तिमान्मे प्रियो नरः ||",
+      "transliteration": "tulya-nindā-stutir maunī santuṣṭo yena kenacit\naniketaḥ sthira-matir bhaktimān me priyo naraḥ",
+      "translation": "One who is equal in blame and praise, silent (or speaks only what is necessary), satisfied with anything, homeless (not attached to any place), steady-minded, and full of devotion — such a person is very dear to Me.",
+      "modern": "Same in criticism/praise, speaks sparingly or with purpose, content with whatever comes, unattached to places, steady intellect, devoted — that person is very dear to Me. This completes the list — the ideal devotee in daily life. In 2026: no defensiveness, mindful speech, minimalism, inner stability, constant love for the Divine. Krishna paints the portrait of quiet, radiant freedom. This verse is the summary of the perfected bhakta — simple, content, steady, loving. Such a life is supremely dear to the Divine."
+    },
+    {
+      "verse": 20,
+      "sanskrit": "ये तु धर्म्यामृतमिदं यथोक्तं पर्युपासते |\nश्रद्दधाना मत्परमा भक्तास्तेऽतीव मे प्रियाः ||",
+      "transliteration": "ye tu dharmyāmṛtam idaṁ yathoktaṁ paryupāsate\nśraddadhānā mat-paramā bhaktās te ’tīva me priyāḥ",
+      "translation": "Those who follow this immortal dharma as described above, endowed with faith, regarding Me as the Supreme goal — such devotees are exceedingly dear to Me.",
+      "modern": "Whoever lives this immortal teaching with faith, making Me the supreme goal — those devotees are extremely dear to Me. Krishna ends with a loving affirmation. In practice: follow these qualities, trust the path, keep Me as the center — that makes you extraordinarily beloved. This is the chapter’s closing embrace — Krishna says: 'Live this way and you are My favorite.' This verse brings deep comfort and motivation — the Divine has personal preferences, and the devoted life is at the top. This is the sweetness of bhakti yoga — love is reciprocated infinitely."
     }
   ]
 }
