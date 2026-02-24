@@ -1,4 +1,4 @@
-// Bhagavad Gita App - Main Application Logic
+// Bhagavad Gita App - Main Application Logic 
 class GitaApp {
     constructor() {
         this.currentView = 'home';
