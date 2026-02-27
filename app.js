@@ -8,6 +8,7 @@ class GitaApp {
         this.chapters = [];
         this.bookmarks = this.loadBookmarks();
         this.theme = localStorage.getItem('theme') || 'dark';
+        this.flavor = localStorage.getItem('flavor') || 'genz';
         
         this.init();
     }
@@ -341,6 +342,38 @@ class GitaApp {
         document.getElementById('searchInput').focus();
     }
 
+    showSettings() {
+        this.showView('settings');
+    
+        // Set the current flavor radio button
+        const flavorRadios = document.querySelectorAll('input[name="flavor"]');
+        flavorRadios.forEach(radio => {
+            radio.checked = (radio.value === this.flavor);
+        });
+    }
+
+    changeFlavor(newFlavor) {
+        this.flavor = newFlavor;
+        localStorage.setItem('flavor', newFlavor);
+    
+        // Show confirmation
+        this.showToast(`✅ Switched to ${this.getFlavorName(newFlavor)} style`);
+    
+        // If currently viewing a verse, reload it with new flavor
+        if (this.currentShloka) {
+            this.showShloka(this.currentShloka.chapter, this.currentShloka.verse);
+        }
+    }
+
+    getFlavorName(flavor) {
+        const names = {
+            'millennial': 'Millennial',
+            'genz': 'Gen Z',
+            'genalpha': 'Gen Alpha'
+        };
+        return names[flavor] || 'Gen Z';
+    }
+
     showBookmarks() {
         this.showView('bookmarks');
         this.renderBookmarks();
@@ -419,11 +452,11 @@ class GitaApp {
                     <div class="section-title">Translation</div>
                     ${shloka.translation}
                 </div>
-                
-                ${shloka.modern ? `
+
+                ${this.getModernExplanation(shloka) ? `
                     <div class="modern-explanation">
-                        <div class="section-title">What it means</div>
-                        ${shloka.modern}
+                        <div class="section-title">${this.getFlavorTitle()}</div>
+                        ${this.getModernExplanation(shloka)}
                     </div>
                 ` : ''}
                 
@@ -665,6 +698,31 @@ class GitaApp {
     showLoading(show) {
         const overlay = document.getElementById('loadingOverlay');
         overlay.classList.toggle('hidden', !show);
+    }
+
+    // Get the appropriate modern explanation based on flavor
+    getModernExplanation(shloka) {
+        // Try to get flavor-specific explanation
+        if (this.flavor === 'millennial' && shloka.millennial) {
+            return shloka.millennial;
+        } else if (this.flavor === 'genz' && shloka.genz) {
+            return shloka.genz;
+        } else if (this.flavor === 'genalpha' && shloka.genalpha) {
+            return shloka.genalpha;
+        }
+    
+        // Fallback to generic modern or genz
+        return shloka.modern || shloka.genz || shloka.millennial || shloka.genalpha || '';
+    }
+
+    // Get the section title based on flavor
+    getFlavorTitle() {
+        const titles = {
+            'millennial': '💼 For Millennials',
+            'genz': '📱 For Gen Z',
+            'genalpha': '🎮 For Gen Alpha'
+        };
+        return titles[this.flavor] || '📱 Modern Explanation';
     }
 
     // PWA Install Prompt
