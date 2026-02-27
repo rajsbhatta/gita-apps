@@ -72,6 +72,9 @@
                     <button class="action-btn" onclick="app.showSearch()">
                         🔍 Search
                     </button>
+                    <button class="action-btn" onclick="app.showSettings()">
+                        ⚙️ Settings
+                    </button>
                 </div>
 
                 <div class="about">
@@ -114,6 +117,83 @@
                 <h2>My Bookmarks</h2>
                 <div id="bookmarksList" class="bookmarks-list">
                     <!-- Generated dynamically -->
+                </div>
+            </div>
+
+            <!-- Settings View -->
+            <div id="settingsView" class="view">
+                <button class="back-btn" onclick="app.goHome()">← Back</button>
+                <h2>⚙️ Settings</h2>
+    
+                <div class="settings-container">
+                    <div class="setting-section">
+                        <h3>📖 Explanation Style</h3>
+                        <p class="setting-description">Choose how you want the teachings explained</p>
+            
+                        <div class="flavor-options">
+                            <label class="flavor-card">
+                                <input type="radio" name="flavor" value="millennial" onchange="app.changeFlavor('millennial')">
+                                <div class="flavor-content">
+                                    <div class="flavor-header">
+                                        <span class="flavor-icon">👔</span>
+                                        <span class="flavor-title">Millennial</span>
+                                    </div>
+                                    <div class="flavor-age">Ages 28-43</div>
+                                    <div class="flavor-description">
+                                        Professional tone, career-focused examples, work-life balance, managing responsibilities
+                                    </div>
+                                    <div class="flavor-example">
+                                        <strong>Example:</strong> "Like managing a team at work, you need to delegate without micromanaging the outcome."
+                                    </div>
+                                </div>
+                            </label>
+                
+                            <label class="flavor-card">
+                                <input type="radio" name="flavor" value="genz" onchange="app.changeFlavor('genz')">
+                                <div class="flavor-content">
+                                    <div class="flavor-header">
+                                        <span class="flavor-icon">📱</span>
+                                        <span class="flavor-title">Gen Z</span>
+                                    </div>
+                                    <div class="flavor-age">Ages 12-27</div>
+                                    <div class="flavor-description">
+                                        Casual, relatable, social media references, mental health aware, authentic and honest
+                                    </div>
+                                    <div class="flavor-example">
+                                        <strong>Example:</strong> "It's like posting your art online but not obsessing over likes. Create because you love it, not for validation."
+                                    </div>
+                                </div>
+                            </label>
+                
+                            <label class="flavor-card">
+                                <input type="radio" name="flavor" value="genalpha" onchange="app.changeFlavor('genalpha')">
+                                <div class="flavor-content">
+                                    <div class="flavor-header">
+                                        <span class="flavor-icon">🎮</span>
+                                        <span class="flavor-title">Gen Alpha</span>
+                                    </div>
+                                    <div class="flavor-age">Ages 5-14</div>
+                                    <div class="flavor-description">
+                                        Simple language, gaming/tech analogies, emoji use, fun and engaging, age-appropriate
+                                    </div>
+                                    <div class="flavor-example">
+                                        <strong>Example:</strong> "Think of it like playing a game. Do your best to win, but don't rage quit if you lose! 🎮"
+                                    </div>
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+        
+                    <div class="setting-section">
+                        <h3>ℹ️ About Flavors</h3>
+                        <p>Each generation has different life experiences and ways of learning. Choose the style that resonates with you:</p>
+                        <ul class="flavor-info">
+                            <li><strong>Millennial:</strong> Career challenges, family responsibilities, finding balance</li>
+                            <li><strong>Gen Z:</strong> Social media, mental health, finding purpose, being authentic</li>
+                            <li><strong>Gen Alpha:</strong> School, friendships, gaming, growing up in a digital world</li>
+                        </ul>
+                        <p class="note">💡 You can change this anytime in Settings</p>
+                    </div>
                 </div>
             </div>
         </main>
