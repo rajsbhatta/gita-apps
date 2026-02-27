@@ -572,3 +572,172 @@ body {
         padding: 0.8rem 1.2rem;
     }
 }
+
+/* Settings Page Styles */
+.settings-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.setting-section {
+    background: var(--bg-card);
+    padding: 1.5rem;
+    border-radius: 12px;
+    margin-bottom: 2rem;
+}
+
+.setting-section h3 {
+    margin-top: 0;
+    color: var(--accent);
+    font-size: 1.3rem;
+}
+
+.setting-description {
+    color: var(--text-secondary);
+    margin-bottom: 1.5rem;
+}
+
+/* Flavor Options */
+.flavor-options {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.flavor-card {
+    background: var(--bg-secondary);
+    border: 2px solid transparent;
+    border-radius: 12px;
+    padding: 1.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: block;
+}
+
+.flavor-card:hover {
+    border-color: var(--accent);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.flavor-card input[type="radio"] {
+    display: none;
+}
+
+.flavor-card input[type="radio"]:checked + .flavor-content {
+    border-left: 4px solid var(--accent);
+    padding-left: 1rem;
+}
+
+.flavor-card input[type="radio"]:checked ~ .flavor-content .flavor-header {
+    color: var(--accent);
+}
+
+.flavor-header {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.flavor-icon {
+    font-size: 1.8rem;
+}
+
+.flavor-title {
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.flavor-age {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    margin-bottom: 0.8rem;
+    font-style: italic;
+}
+
+.flavor-description {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    color: var(--text);
+}
+
+.flavor-example {
+    background: var(--bg);
+    padding: 0.8rem;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    border-left: 3px solid var(--accent);
+}
+
+.flavor-example strong {
+    color: var(--accent);
+}
+
+/* Flavor Info List */
+.flavor-info {
+    list-style: none;
+    padding: 0;
+}
+
+.flavor-info li {
+    padding: 0.8rem;
+    margin: 0.5rem 0;
+    background: var(--bg-secondary);
+    border-radius: 8px;
+    border-left: 3px solid var(--accent);
+}
+
+.flavor-info strong {
+    color: var(--accent);
+}
+
+.note {
+    background: var(--bg-secondary);
+    padding: 1rem;
+    border-radius: 8px;
+    margin-top: 1rem;
+    text-align: center;
+    color: var(--text-secondary);
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .flavor-options {
+        grid-template-columns: 1fr;
+    }
+    
+    .setting-section {
+        padding: 1rem;
+    }
+    
+    .flavor-card {
+        padding: 1rem;
+    }
+}
+
+/* Toast styles (if not already present) */
+.toast {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%) translateY(100px);
+    background: var(--bg-card);
+    color: var(--text);
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    z-index: 10000;
+    font-weight: 600;
+    opacity: 0;
+    transition: all 0.3s ease;
+    border: 2px solid var(--accent);
+}
+
+.toast.show {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+}
