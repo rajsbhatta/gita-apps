@@ -1,160 +1,53 @@
-// Bhagavad Gita App - Main Application Logic 
+// Bhagavad Gita PWA - Main Application
 class GitaApp {
     constructor() {
+        this.db = null;
+        this.chapters = [];
         this.currentView = 'home';
         this.currentChapter = null;
         this.currentShloka = null;
-        this.db = null;
-        this.chapters = [];
-        this.bookmarks = this.loadBookmarks();
         this.theme = localStorage.getItem('theme') || 'dark';
         this.flavor = localStorage.getItem('flavor') || 'genz';
-        
-        this.init();
+        this.lastRead = JSON.parse(localStorage.getItem('lastRead')) || null;
+        this.pendingPersona = null;
     }
 
     async init() {
-        // Initialize IndexedDB
         await this.initDB();
-        
-        // Load chapter metadata
-        await this.loadChapterMetadata();
-        
-        // Set theme
-        this.setTheme(this.theme);
-        
-        // Setup event listeners
+        await this.loadChapters();
         this.setupEventListeners();
-        
-        // Render chapter list
-        this.renderChapterList();
-        
-        // Show daily shloka
+        this.applyTheme();
         await this.showDailyShloka();
-        
-        // Check for install prompt
-        this.setupInstallPrompt();
+        this.showLastRead();
+        this.updatePersonaIcon();
     }
 
-    // IndexedDB Setup
     async initDB() {
         return new Promise((resolve, reject) => {
             const request = indexedDB.open('GitaDB', 1);
-            
+
             request.onerror = () => reject(request.error);
             request.onsuccess = () => {
                 this.db = request.result;
                 resolve();
             };
-            
+
             request.onupgradeneeded = (event) => {
                 const db = event.target.result;
-                
-                // Create object stores
                 if (!db.objectStoreNames.contains('chapters')) {
                     db.createObjectStore('chapters', { keyPath: 'number' });
                 }
-                if (!db.objectStoreNames.contains('shlokas')) {
-                    const shlokaStore = db.createObjectStore('shlokas', { keyPath: 'id' });
-                    shlokaStore.createIndex('chapter', 'chapter', { unique: false });
+                if (!db.objectStoreNames.contains('metadata')) {
+                    db.createObjectStore('metadata', { keyPath: 'id' });
                 }
             };
         });
     }
 
-    // Load chapter metadata from JSON
-    async loadChapterMetadata() {
-        try {
-            const response = await fetch('data/chapters.json');
-            this.chapters = await response.json();
-        } catch (error) {
-            console.error('Error loading chapters:', error);
-            // Fallback to hardcoded metadata
-            this.chapters = this.getDefaultChapters();
-        }
-    }
-
-    getDefaultChapters() {
-        return [
-            { number: 1, title: "Arjuna's Dilemma", sanskrit: "अर्जुनविषादयोग", verses: 47 },
-            { number: 2, title: "The Path of Knowledge", sanskrit: "सांख्ययोग", verses: 72 },
-            { number: 3, title: "The Path of Action", sanskrit: "कर्मयोग", verses: 43 },
-            { number: 4, title: "The Path of Wisdom", sanskrit: "ज्ञानकर्मसंन्यासयोग", verses: 42 },
-            { number: 5, title: "Action and Renunciation", sanskrit: "कर्मसंन्यासयोग", verses: 29 },
-            { number: 6, title: "The Path of Meditation", sanskrit: "आत्मसंयमयोग", verses: 47 },
-            { number: 7, title: "Knowledge and Wisdom", sanskrit: "ज्ञानविज्ञानयोग", verses: 30 },
-            { number: 8, title: "The Eternal Brahman", sanskrit: "अक्षरब्रह्मयोग", verses: 28 },
-            { number: 9, title: "Royal Knowledge", sanskrit: "राजविद्याराजगुह्ययोग", verses: 34 },
-            { number: 10, title: "Divine Manifestations", sanskrit: "विभूतियोग", verses: 42 },
-            { number: 11, title: "The Universal Form", sanskrit: "विश्वरूपदर्शनयोग", verses: 55 },
-            { number: 12, title: "The Path of Devotion", sanskrit: "भक्तियोग", verses: 20 },
-            { number: 13, title: "Field and Knower", sanskrit: "क्षेत्रक्षेत्रज्ञविभागयोग", verses: 35 },
-            { number: 14, title: "Three Qualities", sanskrit: "गुणत्रयविभागयोग", verses: 27 },
-            { number: 15, title: "The Supreme Person", sanskrit: "पुरुषोत्तमयोग", verses: 20 },
-            { number: 16, title: "Divine and Demonic", sanskrit: "दैवासुरसम्पद्विभागयोग", verses: 24 },
-            { number: 17, title: "Three Types of Faith", sanskrit: "श्रद्धात्रयविभागयोग", verses: 28 },
-            { number: 18, title: "Liberation Through Renunciation", sanskrit: "मोक्षसंन्यासयोग", verses: 78 }
-        ];
-    }
-
-    // Load chapter content
-    async loadChapter(chapterNum) {
-        // Check if already in cache
-        const cached = await this.getFromDB('chapters', chapterNum);
-        if (cached) return cached;
-
-        // Fetch from server
-        try {
-            const response = await fetch(`data/chapters/chapter-${chapterNum}.json`);
-            // Check if response is ok
-            if (!response.ok) {
-                throw new Error(`HTTP error! status: ${response.status}`);
-            }
-            
-            const chapter = await response.json();
-            
-            // Store in IndexedDB
-            await this.saveToDBStore('chapters', chapter);
-            
-            return chapter;
-        } catch (error) {
-            console.error(`Error loading chapter ${chapterNum}:`, error);
-            return null;
-        }
-    }
-
-    // Database operations
-    async saveToDBStore(storeName, data) {
-        return new Promise((resolve, reject) => {
-            const transaction = this.db.transaction([storeName], 'readwrite');
-            const store = transaction.objectStore(storeName);
-            const request = store.put(data);
-            
-            request.onsuccess = () => resolve();
-            request.onerror = () => reject(request.error);
-        });
-    }
-
-    async getFromDB(storeName, key) {
-        return new Promise((resolve, reject) => {
-            const transaction = this.db.transaction([storeName], 'readonly');
-            const store = transaction.objectStore(storeName);
-            const request = store.get(key);
-            
-            request.onsuccess = () => resolve(request.result);
-            request.onerror = () => reject(request.error);
-        });
-    }
-
-    // Event Listeners
     setupEventListeners() {
         // Menu toggle
         document.getElementById('menuBtn').addEventListener('click', () => {
-            document.getElementById('sidebar').classList.add('active');
-        });
-
-        document.getElementById('closeSidebar').addEventListener('click', () => {
-            document.getElementById('sidebar').classList.remove('active');
+            this.toggleSidebar();
         });
 
         // Theme toggle
@@ -167,542 +60,243 @@ class GitaApp {
             this.refreshData();
         });
 
-        // Search
-        const searchInput = document.getElementById('searchInput');
-        if (searchInput) {
-            searchInput.addEventListener('input', (e) => {
-                this.handleSearch(e.target.value);
+        // Persona dropdown
+        const personaBtn = document.getElementById('personaBtn');
+        const personaDropdown = document.getElementById('personaDropdown');
+
+        personaBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            personaDropdown.classList.toggle('show');
+        });
+
+        // Close dropdown when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!e.target.closest('.persona-selector')) {
+                personaDropdown.classList.remove('show');
+            }
+        });
+
+        // Persona option clicks
+        document.querySelectorAll('.persona-option').forEach(option => {
+            option.addEventListener('click', (e) => {
+                const persona = option.dataset.persona;
+                this.showPersonaConfirmation(persona);
+                personaDropdown.classList.remove('show');
             });
-        }
-
-        // Swipe gestures for mobile
-        this.setupSwipeGestures();
-    }
-
-    setupSwipeGestures() {
-        let touchStartX = 0;
-        let touchEndX = 0;
-
-        document.addEventListener('touchstart', (e) => {
-            touchStartX = e.changedTouches[0].screenX;
         });
 
-        document.addEventListener('touchend', (e) => {
-            touchEndX = e.changedTouches[0].screenX;
-            this.handleSwipe();
+        // Search input
+        const searchInput = document.getElementById('searchInput');
+        searchInput.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') {
+                this.performSearch();
+            }
         });
 
-        const handleSwipe = () => {
-            if (touchEndX < touchStartX - 50) {
-                // Swipe left - next shloka
-                this.nextShloka();
-            }
-            if (touchEndX > touchStartX + 50) {
-                // Swipe right - previous shloka
-                this.previousShloka();
-            }
-        };
+        // Expandable action buttons
+        document.querySelectorAll('.expand-btn').forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                const action = btn.dataset.action;
+                
+                // Expand animation
+                btn.classList.add('expanded');
+                
+                setTimeout(() => {
+                    if (action === 'chapters') this.showChapters();
+                    else if (action === 'bookmarks') this.showBookmarks();
+                    else if (action === 'search') this.showSearch();
+                    
+                    btn.classList.remove('expanded');
+                }, 300);
+            });
+        });
 
-        this.handleSwipe = handleSwipe;
+        // Click outside modal to close
+        document.getElementById('personaModal').addEventListener('click', (e) => {
+            if (e.target.id === 'personaModal') {
+                this.closePersonaModal();
+            }
+        });
     }
 
-    // Theme Management
-    setTheme(theme) {
-        this.theme = theme;
-        document.documentElement.setAttribute('data-theme', theme);
-        localStorage.setItem('theme', theme);
-        
-        const icon = document.querySelector('.theme-icon');
-        icon.textContent = theme === 'dark' ? '☀️' : '🌙';
+    toggleSidebar() {
+        const sidebar = document.getElementById('sidebar');
+        const overlay = document.getElementById('overlay');
+        sidebar.classList.toggle('active');
+        overlay.classList.toggle('active');
     }
 
     toggleTheme() {
-        const newTheme = this.theme === 'dark' ? 'light' : 'dark';
-        this.setTheme(newTheme);
+        this.theme = this.theme === 'dark' ? 'light' : 'dark';
+        localStorage.setItem('theme', this.theme);
+        this.applyTheme();
     }
 
-    // Refresh all data from server
-    async refreshData() {
-        const refreshBtn = document.getElementById('refreshBtn');
-        const refreshIcon = refreshBtn.querySelector('.refresh-icon');
-    
-        // Show loading state
-        refreshIcon.style.animation = 'spin 1s linear infinite';
-        refreshBtn.disabled = true;
-    
+    applyTheme() {
+        document.body.className = this.theme + '-theme';
+        const themeIcon = document.querySelector('.theme-icon');
+        themeIcon.textContent = this.theme === 'dark' ? '☀️' : '🌙';
+    }
+
+    async loadChapters() {
         try {
-            // Clear all caches
-            if ('caches' in window) {
-                const cacheNames = await caches.keys();
-                await Promise.all(
-                    cacheNames.map(cacheName => caches.delete(cacheName))
-                );
+            // Try to get from IndexedDB first
+            const cachedChapters = await this.getFromDB('metadata', 'chapters');
+            if (cachedChapters) {
+                this.chapters = cachedChapters.data;
+                return;
             }
-        
-            // Clear IndexedDB
-            await this.clearDB();
-        
-            // Clear localStorage (preserve theme preference)
-            const currentTheme = this.theme;
-            localStorage.clear();
-            this.theme = currentTheme;
-            localStorage.setItem('theme', this.theme);
-        
-            // Unregister service worker
-            if ('serviceWorker' in navigator) {
-                const registrations = await navigator.serviceWorker.getRegistrations();
-                await Promise.all(
-                    registrations.map(registration => registration.unregister())
-                );
-            }
-        
-            // Show success message
-            this.showToast('✅ Data refreshed! Reloading app...');
-        
-            // Wait a moment for toast to show
-            setTimeout(() => {
-                // Reload page to fetch fresh data
-                window.location.reload(true);
-            }, 1000);
-        
+
+            // Fetch from network
+            const response = await fetch('data/chapters.json');
+            const data = await response.json();
+            this.chapters = data;
+
+            // Cache in IndexedDB
+            await this.saveToDB('metadata', { id: 'chapters', data: data });
         } catch (error) {
-            console.error('Error refreshing data:', error);
-            this.showToast('❌ Error refreshing data. Please try again.');
-        
-            // Reset button state
-            refreshIcon.style.animation = '';
-            refreshBtn.disabled = false;
+            console.error('Error loading chapters:', error);
         }
     }
 
-    // Helper: Clear IndexedDB
-    async clearDB() {
+    async loadChapter(chapterNum) {
+        try {
+            // Try IndexedDB first
+            const cached = await this.getFromDB('chapters', chapterNum);
+            if (cached) return cached;
+
+            // Fetch from network
+            const response = await fetch(`data/chapters/chapter-${chapterNum}.json`);
+            if (!response.ok) return null;
+            
+            const chapter = await response.json();
+
+            // Cache it
+            await this.saveToDB('chapters', chapter);
+            return chapter;
+        } catch (error) {
+            console.error('Error loading chapter:', error);
+            return null;
+        }
+    }
+
+    async getFromDB(storeName, key) {
         return new Promise((resolve, reject) => {
-            const request = indexedDB.deleteDatabase('GitaDB');
+            const transaction = this.db.transaction([storeName], 'readonly');
+            const store = transaction.objectStore(storeName);
+            const request = store.get(key);
+
+            request.onsuccess = () => resolve(request.result);
+            request.onerror = () => reject(request.error);
+        });
+    }
+
+    async saveToDB(storeName, data) {
+        return new Promise((resolve, reject) => {
+            const transaction = this.db.transaction([storeName], 'readwrite');
+            const store = transaction.objectStore(storeName);
+            const request = store.put(data);
+
             request.onsuccess = () => resolve();
             request.onerror = () => reject(request.error);
         });
     }
 
-    // Helper: Show toast notification
-    showToast(message) {
-        // Remove existing toast if any
-        const existingToast = document.querySelector('.toast');
-        if (existingToast) {
-            existingToast.remove();
-        }
-    
-        // Create toast element
-        const toast = document.createElement('div');
-        toast.className = 'toast';
-        toast.textContent = message;
-        document.body.appendChild(toast);
-    
-        // Show toast with animation
-        setTimeout(() => toast.classList.add('show'), 100);
-    
-        // Remove toast after 3 seconds
-        setTimeout(() => {
-            toast.classList.remove('show');
-            setTimeout(() => toast.remove(), 300);
-        }, 3000);
-    }
-
-    // Navigation
     showView(viewName) {
         document.querySelectorAll('.view').forEach(view => {
             view.classList.remove('active');
         });
-        document.getElementById(`${viewName}View`).classList.add('active');
+        document.getElementById(viewName + 'View').classList.add('active');
         this.currentView = viewName;
-        
-        // Close sidebar
-        document.getElementById('sidebar').classList.remove('active');
+        window.scrollTo(0, 0);
     }
 
     goHome() {
         this.showView('home');
     }
 
-    goBack() {
-        if (this.currentView === 'shloka') {
-            this.showChapter(this.currentChapter);
-        } else {
-            this.goHome();
+    // Persona Management
+    updatePersonaIcon() {
+        const icons = {
+            'millennial': '👔',
+            'genz': '📱',
+            'genalpha': '🎮'
+        };
+        document.querySelector('.persona-icon').textContent = icons[this.flavor] || '👤';
+    }
+
+    showPersonaConfirmation(persona) {
+        if (persona === this.flavor) {
+            this.showToast('Already using this style');
+            return;
         }
+
+        this.pendingPersona = persona;
+
+        const personas = {
+            'millennial': {
+                name: 'Millennial',
+                emoji: '👔',
+                age: '28-43 years old',
+                desc: 'Professional tone with career-focused examples, work-life balance insights, and mature perspectives on responsibility and leadership.'
+            },
+            'genz': {
+                name: 'Gen Z',
+                emoji: '📱',
+                age: '12-27 years old',
+                desc: 'Casual and honest language with social media references, mental health awareness, and authentic perspectives on modern challenges.'
+            },
+            'genalpha': {
+                name: 'Gen Alpha',
+                emoji: '🎮',
+                age: '5-14 years old',
+                desc: 'Simple, fun language with gaming analogies, school examples, and age-appropriate explanations using emojis and relatable scenarios.'
+            }
+        };
+
+        const info = personas[persona];
+        const modalBody = document.getElementById('personaModalBody');
+        modalBody.innerHTML = `
+            <div class="persona-confirm">
+                <div class="persona-confirm-icon">${info.emoji}</div>
+                <h4>${info.name}</h4>
+                <p class="persona-confirm-age">For ages ${info.age}</p>
+                <p class="persona-confirm-desc">${info.desc}</p>
+                <p class="persona-confirm-question">Switch to this explanation style?</p>
+            </div>
+        `;
+
+        document.getElementById('personaModal').classList.add('show');
     }
 
-    showChapters() {
-        // Scroll to top and show home (chapters accessible via sidebar)
-        document.getElementById('sidebar').classList.add('active');
-    }
+    confirmPersonaChange() {
+        if (!this.pendingPersona) return;
 
-    showSearch() {
-        this.showView('search');
-        document.getElementById('searchInput').focus();
-    }
-
-    showSettings() {
-        this.showView('settings');
-    
-        // Set the current flavor radio button
-        const flavorRadios = document.querySelectorAll('input[name="flavor"]');
-        flavorRadios.forEach(radio => {
-            radio.checked = (radio.value === this.flavor);
-        });
-    }
-
-    changeFlavor(newFlavor) {
-        this.flavor = newFlavor;
-        localStorage.setItem('flavor', newFlavor);
-    
-        // Show confirmation
-        this.showToast(`✅ Switched to ${this.getFlavorName(newFlavor)} style`);
-    
-        // If currently viewing a verse, reload it with new flavor
-        if (this.currentShloka) {
-            this.showShloka(this.currentShloka.chapter, this.currentShloka.verse);
-        }
-    }
-
-    getFlavorName(flavor) {
+        this.flavor = this.pendingPersona;
+        localStorage.setItem('flavor', this.flavor);
+        this.updatePersonaIcon();
+        
         const names = {
             'millennial': 'Millennial',
             'genz': 'Gen Z',
             'genalpha': 'Gen Alpha'
         };
-        return names[flavor] || 'Gen Z';
-    }
-
-    showBookmarks() {
-        this.showView('bookmarks');
-        this.renderBookmarks();
-    }
-
-    // Chapter List Rendering
-    renderChapterList() {
-        const list = document.getElementById('chapterList');
-        list.innerHTML = this.chapters.map(ch => `
-            <div class="chapter-item" onclick="app.showChapter(${ch.number})">
-                <div class="chapter-number">Chapter ${ch.number}</div>
-                <div class="chapter-title">${ch.title}</div>
-                <div class="chapter-sanskrit">${ch.sanskrit}</div>
-            </div>
-        `).join('');
-    }
-
-    // Show Chapter
-    async showChapter(chapterNum) {
-        this.showLoading(true);
         
-        const chapter = await this.loadChapter(chapterNum);
-        if (!chapter) {
-            this.showLoading(false);
-            alert('Chapter not available. Please check your connection.');
-            return;
-        }
+        this.showToast(`✅ Switched to ${names[this.flavor]} style`);
+        this.closePersonaModal();
 
-        this.currentChapter = chapterNum;
-        const content = document.getElementById('chapterContent');
-        
-        content.innerHTML = `
-            <h2>Chapter ${chapterNum}: ${chapter.title}</h2>
-            <p class="chapter-intro">${chapter.introduction || ''}</p>
-            <div class="shloka-list">
-                ${chapter.shlokas.map((shloka, idx) => `
-                    <div class="shloka-card" onclick="app.showShloka(${chapterNum}, ${idx + 1})">
-                        <div class="verse-number">Verse ${idx + 1}</div>
-                        <div class="sanskrit">${shloka.sanskrit}</div>
-                    </div>
-                `).join('')}
-            </div>
-        `;
-        
-        this.showView('chapter');
-        this.showLoading(false);
-    }
-
-    // Show Individual Shloka
-    async showShloka(chapterNum, shlokaNum) {
-        this.showLoading(true);
-        
-        const chapter = await this.loadChapter(chapterNum);
-        if (!chapter) {
-            this.showLoading(false);
-            return;
-        }
-
-        const shloka = chapter.shlokas[shlokaNum - 1];
-        this.currentShloka = { chapter: chapterNum, verse: shlokaNum };
-        
-        const isBookmarked = this.isBookmarked(chapterNum, shlokaNum);
-        
-        const content = document.getElementById('shlokaContent');
-        content.innerHTML = `
-            <div class="shloka-detail">
-                <div class="verse-number">Chapter ${chapterNum}, Verse ${shlokaNum}</div>
-                
-                <div class="sanskrit">${shloka.sanskrit}</div>
-                
-                ${shloka.transliteration ? `
-                    <div class="transliteration">${shloka.transliteration}</div>
-                ` : ''}
-                
-                <div class="translation">
-                    <div class="section-title">Translation</div>
-                    ${shloka.translation}
-                </div>
-
-                ${this.getModernExplanation(shloka) ? `
-                    <div class="modern-explanation">
-                        <div class="section-title">${this.getFlavorTitle()}</div>
-                        ${this.getModernExplanation(shloka)}
-                    </div>
-                ` : ''}
-                
-                <div style="margin-top: 2rem; display: flex; gap: 1rem; flex-wrap: wrap;">
-                    <button class="bookmark-btn ${isBookmarked ? 'bookmarked' : ''}" 
-                            onclick="app.toggleBookmark(${chapterNum}, ${shlokaNum})">
-                        ${isBookmarked ? '⭐ Bookmarked' : '☆ Bookmark'}
-                    </button>
-                    <button class="share-btn" onclick="app.shareShloka(${chapterNum}, ${shlokaNum})">
-                        📤 Share
-                    </button>
-                </div>
-
-                <!-- NEW: Navigation Buttons -->
-                <div style="margin-top: 1.5rem; display: flex; gap: 1rem; justify-content: space-between;">
-                    ${shlokaNum > 1 ? `
-                        <button class="nav-btn prev-btn" onclick="app.previousVerse()">
-                            ← Previous Verse
-                        </button>
-                    ` : '<div></div>'}
-                    
-                    ${shlokaNum < chapter.shlokas.length ? `
-                        <button class="nav-btn next-btn" onclick="app.nextVerse()">
-                            Next Verse →
-                        </button>
-                    ` : '<div></div>'}
-                </div>
-            </div>
-        `;
-        
-        this.showView('shloka');
-        this.showLoading(false);
-    }
-    // Navigate to previous verse
-    previousVerse() {
-        if (!this.currentShloka) return;
-        const { chapter, verse } = this.currentShloka;
-        if (verse > 1) {
-            this.showShloka(chapter, verse - 1);
+        // Refresh current verse if viewing one
+        if (this.currentShloka) {
+            this.showShloka(this.currentShloka.chapter, this.currentShloka.verse);
         }
     }
 
-    //Navigate to next verse
-    nextVerse() {
-        if (!this.currentShloka) return;
-        const { chapter, verse } = this.currentShloka;
-        this.showShloka(chapter, verse + 1);
+    closePersonaModal() {
+        document.getElementById('personaModal').classList.remove('show');
+        this.pendingPersona = null;
     }
 
-    // Daily Shloka
-    async showDailyShloka() {
-        try {
-            // Use date-based selection for consistency (same verse all day)
-            const dayOfYear = Math.floor((new Date() - new Date(new Date().getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
-            const chapterNum = (dayOfYear % 18) + 1;
-            const chapter = await this.loadChapter(chapterNum);
-        
-            if (chapter && chapter.shlokas && chapter.shlokas.length > 0) {
-                const verseNum = (dayOfYear % chapter.shlokas.length) + 1;
-                const shloka = chapter.shlokas[verseNum - 1];
-            
-                // Store current daily shloka info
-                this.dailyShlokaInfo = { chapter: chapterNum, verse: verseNum };
-            
-                // Truncate translation to 150 characters
-                const truncatedTranslation = shloka.translation.length > 150 
-                    ? shloka.translation.substring(0, 150) + '...' 
-                    : shloka.translation;
-            
-                document.getElementById('dailyShloka').innerHTML = `
-                    <div class="verse-number" style="font-size: 0.9rem; color: var(--accent); margin-bottom: 0.5rem;">
-                        Chapter ${chapterNum}, Verse ${verseNum}
-                    </div>
-                    <div class="sanskrit" style="font-size: 1.2rem; line-height: 1.8; text-align: center;">
-                        ${shloka.sanskrit}
-                    </div>
-                    <div class="translation" style="margin-top: 1rem; padding: 1rem; background: var(--bg-secondary); border-radius: 8px;">
-                        ${truncatedTranslation}
-                    </div>
-                    <button class="action-btn" style="margin-top: 1rem; width: 100%;" 
-                            onclick="app.showShloka(${chapterNum}, ${verseNum})">
-                        📖 Read Full Verse
-                    </button>
-            `    ;
-            } else {
-                // Fallback if chapter doesn't load
-                document.getElementById('dailyShloka').innerHTML = `
-                    <div class="loading">Loading daily verse...</div>
-                    <button class="action-btn" style="margin-top: 1rem;" 
-                            onclick="app.showDailyShloka()">
-                        🔄 Retry
-                    </button>
-            `    ;
-            }
-        } catch (error) {
-            console.error('Error loading daily shloka:', error);
-            document.getElementById('dailyShloka').innerHTML = `
-                <div class="loading" style="color: var(--text-secondary);">
-                    Unable to load daily verse. Please try again.
-                </div>
-                <button class="action-btn" style="margin-top: 1rem;" 
-                        onclick="app.showDailyShloka()">
-                    🔄 Retry
-                </button>
-        `    ;
-        }
-    }
-
-    // Bookmarks
-    loadBookmarks() {
-        const saved = localStorage.getItem('bookmarks');
-        return saved ? JSON.parse(saved) : [];
-    }
-
-    saveBookmarks() {
-        localStorage.setItem('bookmarks', JSON.stringify(this.bookmarks));
-    }
-
-    isBookmarked(chapter, verse) {
-        return this.bookmarks.some(b => b.chapter === chapter && b.verse === verse);
-    }
-
-    toggleBookmark(chapter, verse) {
-        const index = this.bookmarks.findIndex(b => b.chapter === chapter && b.verse === verse);
-        
-        if (index > -1) {
-            this.bookmarks.splice(index, 1);
-        } else {
-            this.bookmarks.push({ chapter, verse });
-        }
-        
-        this.saveBookmarks();
-        
-        // Refresh current view
-        if (this.currentView === 'shloka') {
-            this.showShloka(chapter, verse);
-        } else if (this.currentView === 'bookmarks') {
-            this.renderBookmarks();
-        }
-    }
-
-    async renderBookmarks() {
-        const list = document.getElementById('bookmarksList');
-        
-        if (this.bookmarks.length === 0) {
-            list.innerHTML = '<p class="loading">No bookmarks yet. Start exploring!</p>';
-            return;
-        }
-
-        const bookmarkHTML = [];
-        for (const bookmark of this.bookmarks) {
-            const chapter = await this.loadChapter(bookmark.chapter);
-            if (chapter) {
-                const shloka = chapter.shlokas[bookmark.verse - 1];
-                bookmarkHTML.push(`
-                    <div class="shloka-card" onclick="app.showShloka(${bookmark.chapter}, ${bookmark.verse})">
-                        <div class="verse-number">Chapter ${bookmark.chapter}, Verse ${bookmark.verse}</div>
-                        <div class="sanskrit">${shloka.sanskrit}</div>
-                    </div>
-                `);
-            }
-        }
-        
-        list.innerHTML = bookmarkHTML.join('');
-    }
-
-    // Search
-    async handleSearch(query) {
-        if (query.length < 2) {
-            document.getElementById('searchResults').innerHTML = '';
-            return;
-        }
-
-        this.showLoading(true);
-        const results = [];
-        
-        // Search through all chapters (in real app, use indexed search)
-        for (let i = 1; i <= 18; i++) {
-            const chapter = await this.loadChapter(i);
-            if (chapter) {
-                chapter.shlokas.forEach((shloka, idx) => {
-                    const searchText = `${shloka.sanskrit} ${shloka.translation} ${shloka.modern || ''}`.toLowerCase();
-                    if (searchText.includes(query.toLowerCase())) {
-                        results.push({
-                            chapter: i,
-                            verse: idx + 1,
-                            shloka
-                        });
-                    }
-                });
-            }
-        }
-
-        const resultsContainer = document.getElementById('searchResults');
-        resultsContainer.innerHTML = results.slice(0, 20).map(r => `
-            <div class="shloka-card" onclick="app.showShloka(${r.chapter}, ${r.verse})">
-                <div class="verse-number">Chapter ${r.chapter}, Verse ${r.verse}</div>
-                <div class="sanskrit">${r.shloka.sanskrit}</div>
-                <div class="translation">${r.shloka.translation.substring(0, 100)}...</div>
-            </div>
-        `).join('');
-
-        this.showLoading(false);
-    }
-
-    // Share Functionality
-    async shareShloka(chapter, verse) {
-        const chapterData = await this.loadChapter(chapter);
-        const shloka = chapterData.shlokas[verse - 1];
-        
-        const shareText = `${shloka.sanskrit}\n\n${shloka.translation}\n\nBhagavad Gita ${chapter}.${verse}`;
-        
-        if (navigator.share) {
-            try {
-                await navigator.share({
-                    title: `Bhagavad Gita ${chapter}.${verse}`,
-                    text: shareText
-                });
-            } catch (err) {
-                console.log('Share cancelled');
-            }
-        } else {
-            // Fallback: copy to clipboard
-            navigator.clipboard.writeText(shareText);
-            alert('Copied to clipboard!');
-        }
-    }
-
-    // Navigation helpers
-    nextShloka() {
-        // Implement next shloka navigation
-    }
-
-    previousShloka() {
-        // Implement previous shloka navigation
-    }
-
-    // Loading overlay
-    showLoading(show) {
-        const overlay = document.getElementById('loadingOverlay');
-        overlay.classList.toggle('hidden', !show);
-    }
-
-    // Get the appropriate modern explanation based on flavor
     getModernExplanation(shloka) {
-        // Try to get flavor-specific explanation
         if (this.flavor === 'millennial' && shloka.millennial) {
             return shloka.millennial;
         } else if (this.flavor === 'genz' && shloka.genz) {
@@ -710,12 +304,9 @@ class GitaApp {
         } else if (this.flavor === 'genalpha' && shloka.genalpha) {
             return shloka.genalpha;
         }
-    
-        // Fallback to generic modern or genz
         return shloka.modern || shloka.genz || shloka.millennial || shloka.genalpha || '';
     }
 
-    // Get the section title based on flavor
     getFlavorTitle() {
         const titles = {
             'millennial': '💼 For Millennials',
@@ -725,29 +316,444 @@ class GitaApp {
         return titles[this.flavor] || '📱 Modern Explanation';
     }
 
-    // PWA Install Prompt
-    setupInstallPrompt() {
-        let deferredPrompt;
+    // Daily Shloka - Simplified to show only Sanskrit
+    async showDailyShloka() {
+        const container = document.getElementById('dailyShloka');
         
-        window.addEventListener('beforeinstallprompt', (e) => {
-            e.preventDefault();
-            deferredPrompt = e;
+        try {
+            const today = new Date();
+            const dayOfYear = Math.floor((today - new Date(today.getFullYear(), 0, 0)) / 86400000);
             
-            document.getElementById('installPrompt').classList.remove('hidden');
+            const chapterNum = (dayOfYear % 18) + 1;
+            const chapter = await this.loadChapter(chapterNum);
             
-            document.getElementById('installBtn').addEventListener('click', async () => {
-                document.getElementById('installPrompt').classList.add('hidden');
-                deferredPrompt.prompt();
-                const { outcome } = await deferredPrompt.userChoice;
-                deferredPrompt = null;
+            if (!chapter || !chapter.shlokas || chapter.shlokas.length === 0) {
+                container.innerHTML = '<p>Unable to load daily verse</p>';
+                return;
+            }
+            
+            const verseNum = (dayOfYear % chapter.shlokas.length) + 1;
+            const shloka = chapter.shlokas.find(s => s.verse === verseNum);
+            
+            if (!shloka) {
+                container.innerHTML = '<p>Verse not found</p>';
+                return;
+            }
+            
+            // Store for "Read Full Verse" click
+            this.dailyShlokaInfo = { chapter: chapterNum, verse: verseNum };
+            
+            // Show only Sanskrit text - clickable
+            container.innerHTML = `
+                <div class="daily-shloka-content" onclick="app.showShloka(${chapterNum}, ${verseNum})">
+                    <div class="verse-reference">Chapter ${chapterNum}, Verse ${verseNum}</div>
+                    <div class="sanskrit-text">${shloka.sanskrit}</div>
+                    <div class="tap-hint">Tap to read full verse →</div>
+                </div>
+            `;
+        } catch (error) {
+            console.error('Error loading daily shloka:', error);
+            container.innerHTML = `
+                <p>Unable to load daily verse</p>
+                <button onclick="app.showDailyShloka()" class="retry-btn">Retry</button>
+            `;
+        }
+    }
+
+    // Last Read Progress
+    showLastRead() {
+        if (!this.lastRead) {
+            document.getElementById('continueReading').style.display = 'none';
+            return;
+        }
+
+        const { chapter, verse, chapterTitle } = this.lastRead;
+        const container = document.getElementById('lastReadCard');
+        
+        container.innerHTML = `
+            <div class="last-read-content" onclick="app.showShloka(${chapter}, ${verse})">
+                <div class="last-read-icon">📖</div>
+                <div class="last-read-info">
+                    <div class="last-read-title">${chapterTitle}</div>
+                    <div class="last-read-verse">Verse ${verse}</div>
+                </div>
+                <div class="last-read-arrow">→</div>
+            </div>
+        `;
+        
+        document.getElementById('continueReading').style.display = 'block';
+    }
+
+    saveLastRead(chapter, verse, chapterTitle) {
+        this.lastRead = { chapter, verse, chapterTitle };
+        localStorage.setItem('lastRead', JSON.stringify(this.lastRead));
+    }
+
+    // Chapters
+    showChapters() {
+        this.showView('chapters');
+        const container = document.getElementById('chaptersList');
+        
+        container.innerHTML = this.chapters.map(ch => `
+            <div class="chapter-card" onclick="app.showChapterDetail(${ch.number})">
+                <div class="chapter-number">${ch.number}</div>
+                <div class="chapter-info">
+                    <h3>${ch.title}</h3>
+                    <p class="chapter-sanskrit">${ch.sanskrit}</p>
+                    <p class="chapter-verses">${ch.verses} verses</p>
+                </div>
+            </div>
+        `).join('');
+    }
+
+    async showChapterDetail(chapterNum) {
+        this.showView('chapterDetail');
+        const container = document.getElementById('chapterDetail');
+        container.innerHTML = '<div class="loading">Loading chapter...</div>';
+
+        const chapter = await this.loadChapter(chapterNum);
+        if (!chapter) {
+            container.innerHTML = '<p>Error loading chapter</p>';
+            return;
+        }
+
+        this.currentChapter = chapter;
+
+        container.innerHTML = `
+            <div class="chapter-header">
+                <h2>Chapter ${chapter.number}: ${chapter.title}</h2>
+                <p class="chapter-sanskrit">${chapter.sanskrit}</p>
+                <p class="chapter-intro">${chapter.introduction}</p>
+            </div>
+            <div class="verses-list">
+                ${chapter.shlokas.map(shloka => `
+                    <div class="verse-item" onclick="app.showShloka(${chapter.number}, ${shloka.verse})">
+                        <div class="verse-num">Verse ${shloka.verse}</div>
+                        <div class="verse-preview">${shloka.sanskrit.substring(0, 100)}...</div>
+                    </div>
+                `).join('')}
+            </div>
+        `;
+    }
+
+    async showShloka(chapterNum, verseNum) {
+        this.showView('shloka');
+        const container = document.getElementById('shlokaDetail');
+        container.innerHTML = '<div class="loading">Loading verse...</div>';
+
+        const chapter = await this.loadChapter(chapterNum);
+        if (!chapter) {
+            container.innerHTML = '<p>Error loading verse</p>';
+            return;
+        }
+
+        const shloka = chapter.shlokas.find(s => s.verse === verseNum);
+        if (!shloka) {
+            container.innerHTML = '<p>Verse not found</p>';
+            return;
+        }
+
+        this.currentShloka = { chapter: chapterNum, verse: verseNum };
+        
+        // Save as last read
+        this.saveLastRead(chapterNum, verseNum, chapter.title);
+
+        const isBookmarked = this.isBookmarked(chapterNum, verseNum);
+
+        container.innerHTML = `
+            <div class="shloka-content">
+                <div class="shloka-header">
+                    <h2>Chapter ${chapterNum}: ${chapter.title}</h2>
+                    <p class="verse-number">Verse ${verseNum}</p>
+                </div>
+
+                <div class="sanskrit-section">
+                    <div class="section-title">Sanskrit</div>
+                    <div class="sanskrit-text">${shloka.sanskrit}</div>
+                </div>
+
+                ${shloka.transliteration ? `
+                    <div class="transliteration-section">
+                        <div class="section-title">Transliteration</div>
+                        <div class="transliteration-text">${shloka.transliteration}</div>
+                    </div>
+                ` : ''}
+
+                ${shloka.translation ? `
+                    <div class="translation-section">
+                        <div class="section-title">Translation</div>
+                        <div class="translation-text">${shloka.translation}</div>
+                    </div>
+                ` : ''}
+
+                ${this.getModernExplanation(shloka) ? `
+                    <div class="modern-explanation">
+                        <div class="section-title">${this.getFlavorTitle()}</div>
+                        ${this.getModernExplanation(shloka)}
+                    </div>
+                ` : ''}
+
+                <div style="margin-top: 2rem; display: flex; gap: 1rem; flex-wrap: wrap;">
+                    <button class="bookmark-btn ${isBookmarked ? 'bookmarked' : ''}" 
+                            onclick="app.toggleBookmark(${chapterNum}, ${verseNum})">
+                        ${isBookmarked ? '⭐ Bookmarked' : '☆ Bookmark'}
+                    </button>
+                    <button class="share-btn" onclick="app.shareShloka(${chapterNum}, ${verseNum})">
+                        📤 Share
+                    </button>
+                </div>
+
+                <!-- Navigation Buttons -->
+                <div style="margin-top: 1.5rem; display: flex; gap: 1rem; justify-content: space-between;">
+                    ${verseNum > 1 ? `
+                        <button class="nav-btn prev-btn" onclick="app.previousVerse()">
+                            ← Previous Verse
+                        </button>
+                    ` : '<div></div>'}
+                    
+                    ${verseNum < chapter.shlokas.length ? `
+                        <button class="nav-btn next-btn" onclick="app.nextVerse()">
+                            Next Verse →
+                        </button>
+                    ` : '<div></div>'}
+                </div>
+            </div>
+        `;
+    }
+
+    previousVerse() {
+        if (!this.currentShloka) return;
+        const { chapter, verse } = this.currentShloka;
+        if (verse > 1) {
+            this.showShloka(chapter, verse - 1);
+        }
+    }
+
+    nextVerse() {
+        if (!this.currentShloka) return;
+        const { chapter, verse } = this.currentShloka;
+        this.showShloka(chapter, verse + 1);
+    }
+
+    goBackFromShloka() {
+        if (this.currentChapter) {
+            this.showChapterDetail(this.currentChapter.number);
+        } else {
+            this.goHome();
+        }
+    }
+
+    // Bookmarks
+    toggleBookmark(chapterNum, verseNum) {
+        const bookmarks = this.getBookmarks();
+        const key = `${chapterNum}-${verseNum}`;
+        
+        if (bookmarks[key]) {
+            delete bookmarks[key];
+            this.showToast('Bookmark removed');
+        } else {
+            bookmarks[key] = {
+                chapter: chapterNum,
+                verse: verseNum,
+                timestamp: Date.now()
+            };
+            this.showToast('⭐ Bookmarked!');
+        }
+        
+        localStorage.setItem('bookmarks', JSON.stringify(bookmarks));
+        
+        // Refresh current view
+        if (this.currentShloka) {
+            this.showShloka(chapterNum, verseNum);
+        }
+    }
+
+    isBookmarked(chapterNum, verseNum) {
+        const bookmarks = this.getBookmarks();
+        return !!bookmarks[`${chapterNum}-${verseNum}`];
+    }
+
+    getBookmarks() {
+        return JSON.parse(localStorage.getItem('bookmarks') || '{}');
+    }
+
+    async showBookmarks() {
+        this.showView('bookmarks');
+        const container = document.getElementById('bookmarksList');
+        const bookmarks = this.getBookmarks();
+        
+        if (Object.keys(bookmarks).length === 0) {
+            container.innerHTML = '<p class="empty-state">No bookmarks yet. Start exploring and bookmark your favorite verses!</p>';
+            return;
+        }
+
+        const bookmarkArray = Object.values(bookmarks).sort((a, b) => b.timestamp - a.timestamp);
+        
+        container.innerHTML = '<div class="loading">Loading bookmarks...</div>';
+        
+        const bookmarkItems = await Promise.all(bookmarkArray.map(async (bm) => {
+            const chapter = await this.loadChapter(bm.chapter);
+            if (!chapter) return '';
+            
+            const shloka = chapter.shlokas.find(s => s.verse === bm.verse);
+            if (!shloka) return '';
+            
+            return `
+                <div class="bookmark-item" onclick="app.showShloka(${bm.chapter}, ${bm.verse})">
+                    <div class="bookmark-header">
+                        <span class="bookmark-ref">Chapter ${bm.chapter}, Verse ${bm.verse}</span>
+                        <button class="remove-bookmark" onclick="event.stopPropagation(); app.toggleBookmark(${bm.chapter}, ${bm.verse}); app.showBookmarks();">×</button>
+                    </div>
+                    <div class="bookmark-preview">${shloka.sanskrit.substring(0, 100)}...</div>
+                </div>
+            `;
+        }));
+        
+        container.innerHTML = bookmarkItems.join('');
+    }
+
+    shareShloka(chapterNum, verseNum) {
+        const url = window.location.href;
+        const text = `Check out Chapter ${chapterNum}, Verse ${verseNum} from the Bhagavad Gita`;
+        
+        if (navigator.share) {
+            navigator.share({ title: 'Bhagavad Gita', text, url })
+                .catch(err => console.log('Share failed', err));
+        } else {
+            navigator.clipboard.writeText(`${text}\n${url}`);
+            this.showToast('📋 Link copied to clipboard');
+        }
+    }
+
+    // Search
+    showSearch() {
+        this.showView('search');
+        document.getElementById('searchInput').value = '';
+        document.getElementById('searchResults').innerHTML = '';
+    }
+
+    async performSearch() {
+        const query = document.getElementById('searchInput').value.trim().toLowerCase();
+        if (!query) return;
+
+        const resultsContainer = document.getElementById('searchResults');
+        resultsContainer.innerHTML = '<div class="loading">Searching...</div>';
+
+        const results = [];
+
+        for (const chapterMeta of this.chapters) {
+            const chapter = await this.loadChapter(chapterMeta.number);
+            if (!chapter) continue;
+
+            chapter.shlokas.forEach(shloka => {
+                const searchText = (
+                    shloka.sanskrit + ' ' +
+                    (shloka.transliteration || '') + ' ' +
+                    (shloka.translation || '') + ' ' +
+                    (shloka.modern || '') + ' ' +
+                    (shloka.millennial || '') + ' ' +
+                    (shloka.genz || '') + ' ' +
+                    (shloka.genalpha || '')
+                ).toLowerCase();
+
+                if (searchText.includes(query)) {
+                    results.push({
+                        chapter: chapter.number,
+                        verse: shloka.verse,
+                        chapterTitle: chapter.title,
+                        text: shloka.sanskrit
+                    });
+                }
             });
+        }
+
+        if (results.length === 0) {
+            resultsContainer.innerHTML = '<p class="empty-state">No results found</p>';
+            return;
+        }
+
+        resultsContainer.innerHTML = results.map(r => `
+            <div class="search-result-item" onclick="app.showShloka(${r.chapter}, ${r.verse})">
+                <div class="result-ref">Chapter ${r.chapter}: ${r.chapterTitle} - Verse ${r.verse}</div>
+                <div class="result-preview">${r.text.substring(0, 100)}...</div>
+            </div>
+        `).join('');
+    }
+
+    // Refresh Data
+    async refreshData() {
+        const refreshBtn = document.getElementById('refreshBtn');
+        const refreshIcon = refreshBtn.querySelector('.refresh-icon');
+        
+        refreshIcon.style.animation = 'spin 1s linear infinite';
+        refreshBtn.disabled = true;
+        
+        try {
+            if ('caches' in window) {
+                const cacheNames = await caches.keys();
+                await Promise.all(cacheNames.map(name => caches.delete(name)));
+            }
             
-            document.getElementById('dismissInstall').addEventListener('click', () => {
-                document.getElementById('installPrompt').classList.add('hidden');
-            });
+            await this.clearDB();
+            
+            const currentTheme = this.theme;
+            const currentFlavor = this.flavor;
+            const lastRead = this.lastRead;
+            localStorage.clear();
+            this.theme = currentTheme;
+            this.flavor = currentFlavor;
+            localStorage.setItem('theme', this.theme);
+            localStorage.setItem('flavor', this.flavor);
+            if (lastRead) {
+                localStorage.setItem('lastRead', JSON.stringify(lastRead));
+            }
+            
+            if ('serviceWorker' in navigator) {
+                const registrations = await navigator.serviceWorker.getRegistrations();
+                await Promise.all(registrations.map(reg => reg.unregister()));
+            }
+            
+            this.showToast('✅ Data refreshed! Reloading...');
+            
+            setTimeout(() => {
+                window.location.reload(true);
+            }, 1000);
+            
+        } catch (error) {
+            console.error('Refresh error:', error);
+            this.showToast('❌ Error refreshing data');
+            refreshIcon.style.animation = '';
+            refreshBtn.disabled = false;
+        }
+    }
+
+    async clearDB() {
+        return new Promise((resolve) => {
+            const request = indexedDB.deleteDatabase('GitaDB');
+            request.onsuccess = () => resolve();
+            request.onerror = () => resolve();
+            request.onblocked = () => resolve();
         });
+    }
+
+    showToast(message) {
+        const existingToast = document.querySelector('.toast');
+        if (existingToast) existingToast.remove();
+        
+        const toast = document.createElement('div');
+        toast.className = 'toast';
+        toast.textContent = message;
+        document.body.appendChild(toast);
+        
+        setTimeout(() => toast.classList.add('show'), 100);
+        
+        setTimeout(() => {
+            toast.classList.remove('show');
+            setTimeout(() => toast.remove(), 300);
+        }, 3000);
     }
 }
 
 // Initialize app
 const app = new GitaApp();
+window.addEventListener('DOMContentLoaded', () => app.init());
