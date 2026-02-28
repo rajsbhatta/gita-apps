@@ -20,6 +20,11 @@
         </button>
         <h1 class="app-title">Bhagavad Gita</h1>
         <div class="header-actions">
+            <!-- Install Button (only shows when installable) -->
+            <button id="installBtn" class="icon-btn" aria-label="Install app" title="Install app" style="display: none;">
+                <span class="install-icon">📥</span>
+            </button>
+            
             <!-- Persona Selector Dropdown -->
             <div class="persona-selector">
                 <button id="personaBtn" class="icon-btn" aria-label="Select persona" title="Choose your style">
@@ -83,6 +88,23 @@
             <div class="hero">
                 <h2 class="hero-title">Welcome to the Bhagavad Gita</h2>
                 <p class="hero-subtitle">Ancient wisdom explained for your generation</p>
+                
+                <!-- Install Banner (optional - shows on home page) -->
+                <div id="installBanner" class="install-banner" style="display: none;">
+                    <div class="install-banner-content">
+                        <div class="install-banner-icon">📱</div>
+                        <div class="install-banner-text">
+                            <strong>Install our app!</strong>
+                            <p>Get the full experience on your home screen</p>
+                        </div>
+                        <button class="install-banner-btn" onclick="app.installApp()">
+                            Install
+                        </button>
+                        <button class="install-banner-close" onclick="document.getElementById('installBanner').style.display='none'">
+                            ×
+                        </button>
+                    </div>
+                </div>
                 
                 <!-- Continue Reading Section -->
                 <div id="continueReading" class="continue-section" style="display: none;">
