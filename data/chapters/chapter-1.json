@@ -1,364 +1,423 @@
 {
-  "number": 1,
-  "title": "Arjuna's Dilemma",
-  "sanskrit": "अर्जुनविषादयोग",
-  "verses": 47,
-  "introduction": "Chapter 1 of the Bhagavad Gita, Arjuna Vishada Yoga (The Yoga of Arjuna’s Despondency), is the dramatic prelude to the entire teaching. It places us right on the battlefield of Kurukshetra, where two massive armies — cousins, teachers, uncles, friends, sons — face each other for a war that will destroy an entire civilization. Arjuna, the greatest archer of his time, asks Krishna to position the chariot between the armies so he can see clearly who he is about to fight. What he sees shatters him: every significant relationship in his life is standing on the opposing side. The chapter captures the raw, visceral moment when duty, morality, love, and horror collide so intensely that even a warrior of Arjuna’s caliber drops his legendary bow and sits down in complete despair. For modern readers, this is the chapter of every major life crisis — the moment before quitting a toxic job that pays the bills, before blowing the whistle on corruption at your company, before choosing between career ambition and family harmony, or before realizing the success you chased has come at the expense of the people you love most. Arjuna’s tears, trembling body, and final collapse are not weakness — they are the honest human response when duty and love appear irreconcilable. The entire Gita is Krishna’s answer to this one unbearable question: how can I act when every path seems to lead through the hearts of those I love? The teaching can only begin when the ego's armor has been shattered.",
-  "shlokas": [
-    {
-      "verse": 1,
-      "sanskrit": "धृतराष्ट्र उवाच |\nधर्मक्षेत्रे कुरुक्षेत्रे समवेता युयुत्सवः |\nमामकाः पाण्डवाश्चैव किमकुर्वत सञ्जय ||",
-      "transliteration": "dhṛtarāṣṭra uvāca\ndharma-kṣetre kuru-kṣetre samavetā yuyutsavaḥ\nmāmakāḥ pāṇḍavāś caiva kim akurvata sañjaya",
-      "translation": "Dhritarashtra said: O Sanjaya, after my sons and the sons of Pandu assembled in the place of pilgrimage at Kurukshetra, desiring to fight, what did they do?",
-      "genz": "The blind king Dhritarashtra kicks off the Gita with pure anxiety and possessive language ('my sons' vs. 'the sons of Pandu'). He’s sitting safely in the palace, glued to Sanjaya’s live commentary like a CEO obsessively checking Slack during a company crisis he helped create. This is the classic 'how’s the team doing?' from someone who refuses to see their own role in the mess. In today’s world, it’s the parent asking 'what are the kids fighting about?' while ignoring how their favoritism started the drama, or the founder asking for KPI updates while the culture is burning. The question sounds innocent, but it’s laced with fear of losing control. The entire Gita begins with delusion — perfect setup for wisdom to enter.",
-      "millennial": "tbd",
-      "genalpha": "tbd"
-    },
-    {
-      "verse": 2,
-      "sanskrit": "सञ्जय उवाच |\nदृष्ट्वा तु पाण्डवानीकं व्यूढं दुर्योधनस्तदा |\nआचार्यमुपसङ्गम्य राजा वचनमब्रवीत् ||",
-      "transliteration": "sañjaya uvāca\ndṛṣṭvā tu pāṇḍavānīkaṁ vyūḍhaṁ duryodhanas tadā\nācāryam upasaṅgamya rājā vacanam abravīt",
-      "translation": "Sanjaya said: O King, after looking over the army arranged in military formation by the sons of Pandu, King Duryodhana went to his teacher and spoke the following words.",
-      "millennial": "tbd",
-      "genalpha": "tbd",
-      "genz": "Duryodhana sees the Pandava army looking sharp and organized and immediately runs to his guru Drona for a pep talk. This is peak insecure-leader energy — spotting the competition’s strong lineup and rushing to the mentor for reassurance. Think of the manager who sees a rival team’s pitch deck and calls an emergency meeting with the boss, or the student who sees classmates better prepared and panics to the professor. The fact that he goes to the teacher who trained both sides shows the tragedy: knowledge can be used for ego-protection instead of truth. Duryodhana is not assessing reality; he is seeking validation for his fear."
-    },
-    {
-      "verse": 3,
-      "sanskrit": "पश्यैतां पाण्डुपुत्राणामाचार्य महतीं चमूम् |\nव्यूढां द्रुपदपुत्रेण तव शिष्येण धीमता ||",
-      "transliteration": "paśyaitāṁ pāṇḍu-putrāṇām ācārya mahatīṁ camūm\nvyūḍhāṁ drupada-putreṇa tava śiṣyeṇa dhīmatā",
-      "translation": "O my teacher, behold the great army of the sons of Pandu, so expertly arranged by your intelligent disciple, the son of Drupada.",
-      "millennial": "tbd",
-      "genalpha": "tbd",
-      "genz": "Duryodhana points out that the enemy army is arranged by Drona’s own brilliant student (Dhrishtadyumna). Irony level: expert. This is the sting every mentor feels when their star pupil starts a rival company and uses everything you taught them against you. In 2026 life: the ex-intern who launches a competing startup, the junior who gets promoted over you, the mentee who takes your clients. Duryodhana is trying to psych himself up by highlighting the threat, but it only exposes his insecurity. Mentorship is powerful — and risky."
-    },
-    {
-      "verse": 4,
-      "sanskrit": "अत्र शूरा महेष्वासा भीमार्जुनसमा युधि |\nयुयुधानो विराटश्च द्रुपदश्च महारथः ||",
-      "transliteration": "atra śūrā maheṣvāsā bhīmārjuna-samā yudhi\nyuyudhāno virāṭaś ca drupadaś ca mahā-rathaḥ",
-      "translation": "Here in this army are many heroic bowmen equal in fighting to Bhima and Arjuna: great fighters like Yuyudhana, Virata, and Drupada.",
-      "millennial": "tbd",
-      "genalpha": "tbd",
-      "genz": "Duryodhana starts listing the enemy MVPs, comparing them to his own superstars Bhima and Arjuna. This is the LinkedIn stalking session before a big pitch — 'they have MrBeast-level talent on their side.' It’s respect mixed with fear. For GenZ: seeing the rival creator’s collab list and realizing they have bigger creators. For Millennials: reading a competitor’s team page and seeing ex-colleagues who left your company. Duryodhana is doing competitor analysis, but it’s making him more nervous. Acknowledging strength is smart; letting it paralyze you is not."
-    },
-    {
-      "verse": 5,
-      "sanskrit": "धृष्टकेतुश्चेकितानः काशिराजश्च वीर्यवान् |\nपुरुजित्कुन्तिभोजश्च शैब्यश्च नरपुङ्गवः ||",
-      "transliteration": "dhṛṣṭaketuś cekitānaḥ kāśirājaś ca vīryavān\npurujit kuntibhojaś ca śaibyaś ca nara-puṅgavaḥ",
-      "translation": "There are also great, heroic, powerful fighters like Dhrishtaketu, Chekitana, Kashiraja, Purujit, Kuntibhoja, and Shaibya.",
-      "millennial": "tbd",
-      "genalpha": "tbd",
-      "genz": "More name-dropping of heavy-hitters. This is scrolling through a rival company’s 'About Us' page and seeing all the awards and big names. It triggers comparison anxiety. Duryodhana is trying to hype the threat to motivate his side, but it’s backfiring — the list is getting longer and his confidence shorter. In work: realizing your competitor has both veterans and fresh GenZ talent. The lesson: know your competition, but don’t let it psych you out."
-    },
-    {
-      "verse": 6,
-      "sanskrit": "युधामन्युश्च विक्रान्त उत्तमौजाश्च वीर्यवान् |\nसौभद्रो द्रौपदेयाश्च सर्व एव महारथाः ||",
-      "transliteration": "yudhāmanyuś ca vikrānta uttamaujāś ca vīryavān\nsaubhadro draupadeyāś ca sarva eva mahā-rathaḥ",
-      "translation": "There are the mighty Yudhamanyu, the very powerful Uttamauja, the son of Subhadra, and the sons of Draupadi. All these warriors are great chariot fighters.",
-      "genz": "Duryodhana highlights the next-gen talent — young, fearless, rising stars. This is the boomer leader watching GenZ founders move faster, the senior exec seeing younger colleagues get promoted, the parent realizing their kids are surpassing them. The fear is not just losing the battle — it’s being left behind by time. Duryodhana’s list is now including the 'kids' — and it’s rattling him. Lesson: adapt or get disrupted."
-    },
-    {
-      "verse": 7,
-      "sanskrit": "अस्माकं तु विशिष्टा ये तान्निबोध द्विजोत्तम |\nनायका मम सैन्यस्य संज्ञार्थं तान्ब्रवीमि ते ||",
-      "transliteration": "asmākaṁ tu viśiṣṭā ye tān nibodha dvijottama\nnāyakā mama sainyasya saṁjñārthaṁ tān bravīmi te",
-      "translation": "But for your information, O best of the brahmanas, let me tell you about the captains who are especially qualified to lead my military force.",
-      "genz": "Duryodhana flips to boasting about his own team — the classic pivot after feeling threatened. This is updating your resume after seeing a job posting, or posting your squad goals on Instagram after seeing a rival group photo. It’s a defense mechanism: 'Sure, they have talent, but look at us!' Real confidence doesn’t need the counter-list. Insecure leaders do this constantly."
-    },
-    {
-      "verse": 8,
-      "sanskrit": "भवान्भीष्मश्च कर्णश्च कृपश्च समितिञ्जयः |\nअश्वत्थामा विकर्णश्च सौमदत्तिस्तथैव च ||",
-      "transliteration": "bhavān bhīṣmaś ca karṇaś ca kṛpaś ca samitiñjayaḥ\naśvatthāmā vikarṇaś ca saumadattis tathaiva ca",
-      "translation": "There are personalities like you, Bhishma, Karna, Kripa, Ashvatthama, Vikarna, and the son of Somadatta called Bhurishrava, who are always victorious in battle.",
-      "genz": "Duryodhana names his all-stars, starting with the teacher and grandpas. This is the fantasy draft brag. For GenZ: assembling your Avengers-level group chat. For Millennials: listing your dream team in a pitch deck. The ego is inflating the list, but it highlights the importance of experienced mentors. Notice the irony: many on this list are bound by vows, not pure loyalty."
-    },
-    {
-      "verse": 9,
-      "sanskrit": "अन्ये च बहवः शूरा मदर्थे त्यक्तजीविताः |\nनानाशस्त्रप्रहरणाः सर्वे युद्धविशारदाः ||",
-      "transliteration": "anye ca bahavaḥ śūrā mad-arthe tyakta-jīvitāḥ\nnānā-śastra-praharaṇāḥ sarve yuddha-viśāradāḥ",
-      "translation": "There are many other heroes who are prepared to lay down their lives for my sake. All are well equipped with different kinds of weapons, and all are experienced in military science.",
-      "genz": "Duryodhana boasts about ride-or-die loyal troops. This is the founder pitching to investors about their 'dedicated team' or the celeb with stans who defend them through scandals. It hints at manipulation — rallying people for personal gain. In work: leaders who demand loyalty without shared purpose. True commitment comes from mission, not fear or favors."
-    },
-    {
-      "verse": 10,
-      "sanskrit": "अपर्याप्तं तदस्माकं बलं भीष्माभिरक्षितम् |\nपर्याप्तं त्विदमेतेषां बलं भीमाभिरक्षितम् ||",
-      "transliteration": "aparyāptaṁ tad asmākaṁ balaṁ bhīṣmābhirakṣitam\nparyāptaṁ tv idam eteṣāṁ balaṁ bhīmābhirakṣitam",
-      "translation": "Our strength is immeasurable, and we are perfectly protected by Grandfather Bhishma, whereas the strength of the Pandavas, carefully protected by Bhima, is limited.",
-      "genz": "Duryodhana claims superiority because of Bhishma — classic overconfidence. This is underestimating a small agile startup because your corp has 'big names.' In sports: thinking your star player guarantees the win. Hubris before the fall. The underdog often wins with better heart and strategy. Dependency on one person is a weakness."
-    },
-    {
-      "verse": 11,
-      "sanskrit": "अयनेषु च सर्वेषु यथाभागमवस्थिताः |\nभीष्ममेवाभिरक्षन्तु भवन्तः सर्व एव हि ||",
-      "transliteration": "ayaneṣu ca sarveṣu yathā-bhāgam avasthitāḥ\nbhīṣmam evābhirakṣantu bhavantaḥ sarva eva hi",
-      "translation": "All of you must now give full support to Grandfather Bhishma, as you stand at your respective strategic points in the phalanx of the army.",
-      "genz": "Duryodhana orders everyone to protect the key asset. This is 'guard the star developer during crunch' or 'everything depends on this one product.' High-risk strategy. When the single point of failure falls, the whole thing collapses. Team coordination is good; over-dependency is dangerous."
-    },
-    {
-      "verse": 12,
-      "sanskrit": "तस्य सञ्जनयन्हर्षं कुरुवृद्धः पितामहः |\nसिंहनादं विनद्योच्चैः शङ्खं दध्मौ प्रतापवान् ||",
-      "transliteration": "tasya sañjanayan harṣaṁ kuru-vṛddhaḥ pitāmahaḥ\nsiṁha-nādaṁ vinadyoccaiḥ śaṅkhaṁ dadhmau pratāpavān",
-      "translation": "Then Bhishma, the great valiant grandsire of the Kuru dynasty, the grandfather of the fighters, blew his conchshell very loudly, making a sound like the roar of a lion, giving Duryodhana joy.",
-      "genz": "Bhishma’s lion-roar conch is the senior leader’s hype speech after doubt creeps in. It works temporarily — like the CEO’s all-hands after bad earnings or the coach’s halftime talk when losing. Surface energy without inner alignment is short-lived. Morale boost is good; it doesn’t fix deeper misalignment."
-    },
-    {
-      "verse": 13,
-      "sanskrit": "ततः शङ्खाश्च भेर्यश्च पणवानकगोमुखाः |\nसहसैवाभ्यहन्यन्त स शब्दस्तुमुलोऽभवत् ||",
-      "transliteration": "tataḥ śaṅkhāś ca bheryaś ca paṇavānaka-gomukhāḥ\nsahasaivābhyahanyanta sa śabdas tumulo 'bhavat",
-      "translation": "After that, the conchshells, drums, bugles, trumpets, and horns were all suddenly sounded, and the combined sound was tumultuous.",
-      "genz": "The Kaurava side erupts in noise — the full branding rollout, viral campaign launch, or stadium chant before the big game. It’s intimidating and energizing, but noise is not victory. In organizations: the loud announcement of a new direction that masks underlying doubt. Volume ≠ substance."
-    },
-    {
-      "verse": 14,
-      "sanskrit": "ततः श्वेतैर्हयैर्युक्ते महति स्यन्दने स्थितौ |\nमाधवः पाण्डवश्चैव दिव्यौ शङ्खौ प्रदध्मतुः ||",
-      "transliteration": "tataḥ śvetair hayair yukte mahati syandane sthitau\nmādhavaḥ pāṇḍavaś caiva divyau śaṅkhau pradadhmatuḥ",
-      "translation": "On the other side, both Lord Krishna and Arjuna, stationed on a great chariot drawn by white horses, sounded their transcendental conchshells.",
-      "genz": "Krishna and Arjuna counter with divine conches — the comeback tweet that goes viral or the quiet team member’s game-changing idea. Quality over quantity. Divine sound vs. mere noise. In life: the calm, clear response that cuts through chaos. Balance in rivalry — every action provokes a response."
-    },
-    {
-      "verse": 15,
-      "sanskrit": "पाञ्चजन्यं हृषीकेशो देवदत्तं धनञ्जयः |\nपौण्ड्रं दध्मौ महाशङ्खं भीमकर्मा वृकोदरः ||",
-      "transliteration": "pāñcajanyaṁ hṛṣīkeśo devadattaṁ dhanañjayaḥ\npauṇḍraṁ dadhmau mahā-śaṅkhaṁ bhīma-karmā vṛkodaraḥ",
-      "translation": "Lord Krishna blew His conchshell, called Panchajanya; Arjuna blew his, the Devadatta; and Bhima, the voracious eater and performer of herculean tasks, blew his terrific conchshell, called Paundra.",
-      "genz": "Each with signature conch — personal branding in sound form. Krishna (divine), Arjuna (victory), Bhima (terrifying power). In modern terms: the founder’s keynote voice, the product’s launch trailer sound, the team’s signature chant. Signature matters. It creates identity and presence."
-    },
-    {
-      "verse": 16,
-      "sanskrit": "अनन्तविजयं राजा कुन्तीपुत्रो युधिष्ठिरः |\nनकुलः सहदेवश्च सुघोषमणिपुष्पकौ ||",
-      "transliteration": "anantavijayaṁ rājā kuntī-putro yudhiṣṭhiraḥ\nnakulaḥ sahadevaś ca sughoṣa-maṇipuṣpakau",
-      "translation": "King Yudhishthira, the son of Kunti, blew his conchshell, the Anantavijaya, and Nakula and Sahadeva blew the Sughosha and Manipushpaka.",
-      "genz": "The king and twins join in — like a group chat blowing up with notifications. It builds collective momentum, essential for team synergy. Unity in action intimidates opponents. In life: the family backing you in a crisis or the team replying-all in support."
-    },
-    {
-      "verse": 17,
-      "sanskrit": "काश्यश्च परमेष्वासः शिखण्डी च महारथः |\nधृष्टद्युम्नो विराटश्च सात्यकिश्चापराजितः ||",
-      "transliteration": "kāśyaś ca parameṣvāsaḥ śikhaṇḍī ca mahā-rathaḥ\ndhṛṣṭadyumno virāṭaś ca sātyakiś cāparājitaḥ",
-      "translation": "That great archer the King of Kashi, the great fighter Shikhandi, Dhrishtadyumna, Virata, and the unconquerable Satyaki,",
-      "genz": "Allies pile on the noise — like endorsements flooding a LinkedIn post. It amplifies presence, showing how networks bolster your position in negotiations or markets. Alliances strengthen your position."
-    },
-    {
-      "verse": 18,
-      "sanskrit": "द्रुपदो द्रौपदेयाश्च सर्वशः पृथिवीपते |\nसौभद्रश्च महाबाहुः शङ्खान्दध्मुः पृथक्पृथक् ||",
-      "transliteration": "drupado draupadeyāś ca sarvaśaḥ pṛthivī-pate\nsaubhadraś ca mahā-bāhuḥ śaṅkhān dadhmuḥ pṛthak pṛthak",
-      "translation": "Drupada, the sons of Draupadi, and the son of Subhadra, greatly armed, all blew their respective conchshells, O King.",
-      "genz": "Even extended family chimes in — like a family WhatsApp group exploding. It emphasizes how personal ties strengthen alliances, but can complicate professional boundaries. Family backing is powerful but messy."
-    },
-    {
-      "verse": 19,
-      "sanskrit": "स घोषो धार्तराष्ट्राणां हृदयानि व्यदारयत् |\nनभश्च पृथिवीं चैव तुमुलोऽभ्यनुनादयन् ||",
-      "transliteration": "sa ghoṣo dhārtarāṣṭrāṇāṁ hṛdayāni vyadārayat\nnabhaś ca pṛthivīṁ caiva tumulo 'bhyanunādayan",
-      "translation": "The vibration of these conchshells rent the hearts of the sons of Dhritarashtra and made both heaven and earth reverberate.",
-      "genz": "The Pandava noise shakes the Kauravas to the core — like a killer presentation that silences the room or a viral thread that demoralizes the opposition. Psychological warfare at its finest. Sound as a weapon — memes, chants, announcements that hit emotionally."
-    },
-    {
-      "verse": 20,
-      "sanskrit": "अथ व्यवस्थितान्दृष्ट्वा धार्तराष्ट्रान् कपिध्वजः |\nप्रवृत्ते शस्त्रसम्पाते धनुरुद्यम्य पाण्डवः |\nहृषीकेशं तदा वाक्यमिदमाह महीपते ||",
-      "transliteration": "atha vyavasthitān dṛṣṭvā dhārtarāṣṭrān kapi-dhvajaḥ\npravṛtte śastra-sampāte dhanur udyamya pāṇḍavaḥ\nhṛṣīkeśaṁ tadā vākyam idam āha mahī-pate",
-      "translation": "At that time, Arjuna, the son of Pandu, seated in the chariot bearing the flag marked with Hanuman, took up his bow and prepared to shoot his arrows. O King, after looking at the sons of Dhritarashtra drawn in military array, Arjuna then spoke to Lord Krishna these words.",
-      "genz": "Arjuna gears up but pauses to talk — like hesitating before hitting 'send' on a bold email or loading the app but second-guessing the post. The pause before the storm. This marks the shift from action to introspection, crucial in decision-making under pressure."
-    },
-    {
-      "verse": 21,
-      "sanskrit": "अर्जुन उवाच |\nसेनयोरुभयोर्मध्ये रथं स्थापय मेऽच्युत ||",
-      "transliteration": "arjuna uvāca\nsenayor ubhayor madhye rathaṁ sthāpaya me 'cyuta",
-      "translation": "Arjuna said: O infallible one, please draw my chariot between the two armies so that I may see those present here, who desire to fight, and with whom I must contend in this great trial of arms.",
-      "genz": "Arjuna requests a better view — like asking for a demo before committing to software or reviewing pros and cons before quitting a job. This is the moment of assessment before a big decision. Gaining perspective is essential before diving into conflicts at work or home. Arjuna chooses to look directly at the human cost — courage disguised as doubt."
-    },
-    {
-      "verse": 22,
-      "sanskrit": "यावदेतान्निरीक्षेऽहं योद्धुकामानवस्थितान् |\nकैर्मया सह योद्धव्यमस्मिन्रणसमुद्यमे ||",
-      "transliteration": "yāvad etān nirīkṣe 'haṁ yoddhu-kāmān avasthitān\nkair mayā saha yoddhavyam asmin raṇa-samudyame",
-      "translation": "Let me see those who have come here to fight, wishing to please the evil-minded son of Dhritarashtra.",
-      "genz": "Arjuna wants to assess the opposition — like reviewing a competitor’s portfolio or stalking a rival’s social media before a big move. Reconnaissance is smart strategy, but it leads to his crisis when he sees the human side. Knowing your enemies is good; seeing them as family changes everything."
-    },
-    {
-      "verse": 23,
-      "sanskrit": "योत्स्यमानानवेक्षेऽहं य एतेऽत्र समागताः |\nधार्तराष्ट्रस्य दुर्बुद्धेर्युद्धे प्रियचिकीर्षवः ||",
-      "transliteration": "yotsyamānān avekṣe 'haṁ ya ete 'tra samāgatāḥ\ndhārtarāṣṭrasya durbuddher yuddhe priya-cikīrṣavaḥ",
-      "translation": "Let me see those who have come here to fight, wishing to please the evil-minded son of Dhritarashtra.",
-      "genz": "Arjuna questions loyalties — like wondering why colleagues side with a bad manager or why friends support a toxic leader. It probes motivations, a key insight for navigating office politics or family drama. Blind loyalty is dangerous."
-    },
-    {
-      "verse": 24,
-      "sanskrit": "सञ्जय उवाच |\nएवमुक्तो हृषीकेशो गुडाकेशेन भारत |\nसेनयोरुभयोर्मध्ये स्थापयित्वा रथोत्तमम् ||",
-      "transliteration": "sañjaya uvāca\nevam ukto hṛṣīkeśo guḍākeśena bhārata\nsenayor ubhayor madhye sthāpayitvā rathottamam",
-      "translation": "Sanjaya said: O descendant of Bharata, having thus been addressed by Arjuna, Lord Krishna drew up the fine chariot in the midst of the armies of both parties.",
-      "genz": "Krishna obliges and positions the chariot for the view — like a friend driving you to confront an issue head-on. This sets the stage for revelation, much like a pivotal meeting where you finally see the full picture. Getting that front-row seat to reality can be eye-opening or overwhelming."
-    },
-    {
-      "verse": 25,
-      "sanskrit": "भीष्मद्रोणप्रमुखतः सर्वेषां च महीक्षिताम् |\nउवाच पार्थ पश्यैतान्समवेतान्कुरूनिति ||",
-      "transliteration": "bhīṣma-droṇa-pramukhataḥ sarveṣāṁ ca mahī-kṣitām\nuvāca pārtha paśyaitān samavetān kurūn iti",
-      "translation": "In the presence of Bhishma, Drona, and all the other chieftains of the world, the Lord said, Just behold, Partha, all the Kurus assembled here.",
-      "genz": "Krishna urges Arjuna to look — like saying 'see for yourself' in a debate or 'face the facts' from a mentor. This is the moment of truth, forcing us to face realities in personal or professional disputes. Krishna doesn’t sugarcoat; he makes Arjuna confront the full human cost."
-    },
-    {
-      "verse": 26,
-      "sanskrit": "तत्रापश्यत्स्थितान्पार्थः पितॄनथ पितामहान् |\nआचार्यान्मातुलान्भ्रातॄन्पुत्रान्पौत्रान्सखींस्तथा ||",
-      "transliteration": "tatrāpaśyat sthitān pārthaḥ pitṝn atha pitāmahān\nācāryān mātulān bhrātṝn putrān pautrān sakhīṁs tathā",
-      "translation": "There Arjuna could see, within the midst of the armies of both parties, his fathers, grandfathers, teachers, maternal uncles, brothers, sons, grandsons, friends, and also his fathers-in-law and well-wishers.",
-      "genz": "Arjuna sees family everywhere — like a company retreat where rivals are relatives or a family wedding turned argument. It humanizes conflict, showing how work feuds can feel personal. Conflicts aren’t abstract; they hurt people you love. This is the emotional core that makes dilemmas so painful."
-    },
-    {
-      "verse": 27,
-      "sanskrit": "श्वशुरान्सुहृदश्चैव सेनयोरुभयोरपि |\nतान्समीक्ष्य स कौन्तेयः सर्वान्बन्धूनवस्थितान् ||",
-      "transliteration": "śvaśurān suhṛdaś caiva senayor ubhayor api\ntān samīkṣya sa kaunteyaḥ sarvān bandhūn avasthitān",
-      "translation": "When the son of Kunti, Arjuna, saw all these different grades of friends and relatives, he became overwhelmed with compassion and spoke thus.",
-      "genz": "Seeing family everywhere, Arjuna’s heart breaks — empathy overload. Like regretting a layoff decision or watching a documentary that makes you feel helpless. This shows the human side of warriors — even heroes have feelings. It’s okay to question violence or tough choices when they affect loved ones."
-    },
-    {
-      "verse": 28,
-      "sanskrit": "कृपया परयाविष्टो विषीदन्निदमब्रवीत् |\nअर्जुन उवाच |\nदृष्ट्वेमं स्वजनं कृष्ण युयुत्सुं समुपस्थितम् ||",
-      "transliteration": "kṛpayā parayāviṣṭo viṣīdann idam abravīt\narjuna uvāca\ndṛṣṭvemaṁ sva-janaṁ kṛṣṇa yuyutsuṁ samupasthitam",
-      "translation": "Arjuna said: My dear Krishna, seeing my friends and relatives present before me in such a fighting spirit, I feel the limbs of my body quivering and my mouth drying up.",
-      "genz": "Arjuna’s body reacts to the stress — shaking, dry mouth. This is anxiety attack city, like stage fright before a speech or nerves before a tough conversation. It normalizes mental health struggles in high-pressure situations, like exams, presentations, or confrontations. Even legends feel it. Seek help when it hits."
-    },
-    {
-      "verse": 29,
-      "sanskrit": "सीदन्ति मम गात्राणि मुखं च परिशुष्यति |\nवेपथुश्च शरीरे मे रोमहर्षश्च जायते ||",
-      "transliteration": "sīdanti mama gātrāṇi mukhaṁ ca pariśuṣyati\nvepathuś ca śarīre me roma-harṣaś ca jāyate",
-      "translation": "My whole body is trembling, my hair is standing on end, my bow Gandiva is slipping from my hand, and my skin is burning.",
-      "genz": "Full panic mode — goosebumps, slipping bow (loss of grip on identity). This is fight-or-flight at maximum, like nerves before a date, interview, or difficult email. It’s relatable AF for anyone with anxiety. The bow slipping is symbolic — even the greatest warrior’s power fails when the heart is torn. This normalizes the physical side of emotional crises."
-    },
-    {
-      "verse": 30,
-      "sanskrit": "गाण्डीवं स्रंसते हस्तात्त्वक्चैव परिदह्यते |\nन च शक्नोम्यवस्थातुं भ्रमतीव च मे मनः ||",
-      "transliteration": "gāṇḍīvaṁ sraṁsate hastāt tvak caiva paridahyate\nna ca śaknomy avasthātuṁ bhramatīva ca me manaḥ",
-      "translation": "I am now unable to stand here any longer. I am forgetting myself, and my mind is reeling. I see only causes of misfortune, O Krishna, killer of the Keshi demon.",
-      "genz": "Mind spinning with doom — like a bad performance review spiral or bad news piling up. Arjuna can’t stand steady, seeing only bad omens. This captures depression in crisis, reminding us to pause and breathe before decisions. The mind reels when values clash with action."
-    },
-    {
-      "verse": 31,
-      "sanskrit": "निमित्तानि च पश्यामि विपरीतानि केशव |\nन च श्रेयोऽनुपश्यामि हत्वा स्वजनमाहवे ||",
-      "transliteration": "nimittāni ca paśyāmi viparītāni keśava\nna ca śreyo 'nupaśyāmi hatvā sva-janam āhave",
-      "translation": "I do not see how any good can come from killing my own kinsmen in this battle, nor can I, my dear Krishna, desire any subsequent victory, kingdom, or happiness.",
-      "genz": "Arjuna questions the win’s worth — like a promotion that costs friendships or success that destroys family. This challenges ambition: is success worth destroying relationships? Deep for career-driven folks in hustle culture. Victory without heart is hollow."
-    },
-    {
-      "verse": 32,
-      "sanskrit": "न काङ्क्षे विजयं कृष्ण न च राज्यं सुखानि च |\nकिं नो राज्येन गोविन्द किं भोगैर्जीवितेन वा ||",
-      "transliteration": "na kāṅkṣe vijayaṁ kṛṣṇa na ca rājyaṁ sukhāni ca\nkiṁ no rājyena govinda kiṁ bhogair jīvitena vā",
-      "translation": "O Govinda, of what avail to us are a kingdom, happiness or even life itself when all those for whom we may desire them are now arrayed on this battlefield?",
-      "genz": "Arjuna’s like 'I don’t want the win, kingdom, or happiness if it costs this.' This is anti-materialism vibe. Like realizing money can’t buy family peace or that career success feels empty without loved ones. In hustle culture, it’s a reminder to prioritize people over possessions or power."
-    },
-    {
-      "verse": 33,
-      "sanskrit": "येषामर्थे काङ्क्षितं नो राज्यं भोगाः सुखानि च |\nत इमेऽवस्थिता युद्धे प्राणांस्त्यक्त्वा धनानि च ||",
-      "transliteration": "yeṣām arthe kāṅkṣitaṁ no rājyaṁ bhogāḥ sukhāni ca\nta ime 'vasthitā yuddhe prāṇāṁs tyaktvā dhanāni ca",
-      "translation": "O Madhusudana, when teachers, fathers, sons, grandfathers, maternal uncles, fathers-in-law, grandsons, brothers-in-law and other relatives are ready to give up their lives and properties and are standing before me, why should I wish to kill them, even though they might otherwise kill me?",
-      "genz": "Why fight those we love? — like office rivals who are also friends or family arguments over money. It challenges the cost of competition in close-knit teams. Self-defense is one thing; destroying loved ones is another. This questions if retaliation is worth it in road rage, online trolls, or family feuds."
-    },
-    {
-      "verse": 34,
-      "sanskrit": "आचार्याः पितरः पुत्रास्तथैव च पितामहाः |\nमातुलाः श्वशुराः पौत्राः श्यालाः सम्बन्धिनस्तथा ||",
-      "transliteration": "ācāryāḥ pitaraḥ putrās tathaiva ca pitāmahāḥ\nmātulāḥ śvaśurāḥ pautrāḥ śyālāḥ sambandhinas tathā",
-      "translation": "Teachers, fathers, sons, grandfathers, maternal uncles, fathers-in-law, grandsons, brothers-in-law and all relatives,",
-      "genz": "Listing the bonds — like a family org chart or tagging everyone in a group photo. It drives home interconnectedness, like in social networks where one fight affects the whole circle. Conflicts ripple through networks, affecting work-life balance. Family and friends are not abstract — they are the reason for living."
-    },
-    {
-      "verse": 35,
-      "sanskrit": "एतान्न हन्तुमिच्छामि घ्नतोऽपि मधुसूदन |\nअपि त्रैलोक्यराज्यस्य हेतोः किं नु महीकृते ||",
-      "transliteration": "etān na hantum icchāmi ghnato 'pi madhusūdana\napi trailokya-rājyasya hetoḥ kiṁ nu mahī-kṛte",
-      "translation": "O maintainer of all living entities, I am not prepared to fight with them even in exchange for the three worlds, let alone this earth. What pleasure will we derive from killing the sons of Dhritarashtra?",
-      "genz": "Arjuna wouldn’t kill them even for the universe — like declining a dream job if it means betraying friends or family. This is a stand for principles over profits. In career: turning down a lucrative deal with shady ethics. Values over gains. The ultimate refusal."
-    },
-    {
-      "verse": 36,
-      "sanskrit": "निहत्य धार्तराष्ट्रान्नः का प्रीतिः स्याज्जनार्दन |\nपापमेवाश्रयेदस्मान्हत्वैतानाततायिनः ||",
-      "transliteration": "nihatya dhārtarāṣṭrān naḥ kā prītiḥ syāj janārdana\npāpam evāśrayed asmān hatvaitān ātatāyinaḥ",
-      "translation": "Sin will overcome us if we slay such aggressors. Therefore it is not proper for us to kill the sons of Dhritarashtra and our friends. What should we gain, O Krishna, husband of the goddess of fortune, and how could we be happy by killing our own kinsmen?",
-      "genz": "Killing them would bring sin, not joy — like regretting a revenge prank or winning dirty in business. This questions if ends justify means, like in activism or business — is winning dirty worth the guilt? Victory tainted by sin is no victory."
-    },
-    {
-      "verse": 37,
-      "sanskrit": "यद्यप्येते न पश्यन्ति लोभोपहतचेतसः |\nकुलक्षयकृतं दोषं मित्रद्रोहे च पातकम् ||",
-      "transliteration": "yady apy ete na paśyanti lobhopahata-cetasaḥ\nkula-kṣaya-kṛtaṁ doṣaṁ mitra-drohe ca pātakam",
-      "translation": "O Janardana, although these men, their hearts overtaken by greed, see no fault in killing one's family or quarreling with friends,",
-      "genz": "The enemies are blinded by greed, not seeing the wrong — like execs ignoring ethics for bonuses or politicians for power. This critiques short-sighted ambition in corporate culture or consumerism. Greed blinds; wisdom sees the long-term damage to relationships and society."
-    },
-    {
-      "verse": 38,
-      "sanskrit": "कथं न ज्ञेयमस्माभिः पापादस्मान्निवर्तितुम् |\nकुलक्षयकृतं दोषं प्रपश्यद्भिर्जनार्दन ||",
-      "transliteration": "kathaṁ na jñeyam asmābhiḥ pāpād asmān nivartitum\nkula-kṣaya-kṛtaṁ doṣaṁ prapaśyadbhir janārdana",
-      "translation": "Why should we, who can see the crime in destroying a family, engage in these acts of sin, O Krishna?",
-      "genz": "Why join the folly? — like refusing to partake in toxic workplace behavior or gossip. This encourages moral courage: standing against wrong even if others don’t. Seeing the crime and still participating is the real sin. Be the one who says no."
-    },
-    {
-      "verse": 39,
-      "sanskrit": "कुलक्षये प्रणश्यन्ति कुलधर्माः सनातनाः |\nधर्मे नष्टे कुलं कृत्स्नमधर्मोऽभिभवत्युत ||",
-      "transliteration": "kula-kṣaye praṇaśyanti kula-dharmāḥ sanātanāḥ\ndharme naṣṭe kulaṁ kṛtsnam adharmo 'bhibhavaty uta",
-      "translation": "With the destruction of the dynasty, the eternal family tradition is vanquished, and thus the rest of the family becomes involved in irreligion.",
-      "genz": "Destroying family leads to loss of traditions and rise of chaos — like how divorces or family feuds affect kids’ values or how corporate scandals tarnish culture. This warns of long-term effects of conflicts, like in wars, family feuds, or office politics today. Protect the ecosystem."
-    },
-    {
-      "verse": 40,
-      "sanskrit": "अधर्माभिभवात्कृष्ण प्रदुष्यन्ति कुलस्त्रियः |\nस्त्रीषु दुष्टासु वार्ष्णेय जायते वर्णसङ्करः ||",
-      "transliteration": "adharmābhibhavāt kṛṣṇa praduṣyanti kula-striyaḥ\nstrīṣu duṣṭāsu vārṣṇeya jāyate varṇa-saṅkaraḥ",
-      "translation": "When irreligion is prominent in the family, O Krishna, the women of the family become polluted, and from the degradation of womanhood, O descendant of Vrishni, comes unwanted progeny.",
-      "millennial": "tbd",
-      "genalpha": "tbd",
-      "genz": "Chaos leads to moral decline, especially affecting women and future generations — like how wars or poverty lead to societal issues or how toxic workplaces affect families. This highlights protecting vulnerable groups in crises. When values erode, the next generation suffers."
-    },
-    {
-      "verse": 41,
-      "sanskrit": "सङ्करो नरकायैव कुलघ्नानां कुलस्य च |\nपतन्ति पितरो ह्येषां लुप्तपिण्डोदकक्रियाः ||",
-      "transliteration": "saṅkaro narakāyaiva kula-ghnānāṁ kulasya ca\npatanti pitaro hy eṣāṁ lupta-piṇḍodaka-kriyāḥ",
-      "translation": "An increase of unwanted children certainly causes hellish life for both the family and those who destroy the family. The ancestors of such corrupt families fall down, because the performances for offering them food and water are entirely stopped.",
-      "millennial": "tbd",
-      "genalpha": "tbd",
-      "genz": "Bad progeny leads to hell for everyone; ancestors suffer too — like how trauma passes down families or bad decisions haunt successors in family businesses. This encourages thinking long-term, like climate action for future kids or ethical business for legacy. Generational impact is real."
-    },
-    {
-      "verse": 42,
-      "sanskrit": "दोषैरेतैः कुलघ्नानां वर्णसङ्करकारकैः |\nउत्साद्यन्ते जातिधर्माः कुलधर्माश्च शाश्वताः ||",
-      "transliteration": "doṣair etaiḥ kula-ghnānāṁ varṇa-saṅkara-kārakaiḥ\nutsādyante jāti-dharmāḥ kula-dharmāś ca śāśvatāḥ",
-      "translation": "By the evil deeds of those who destroy the family tradition and thus give rise to unwanted children, all kinds of community projects and family welfare activities are devastated.",
-      "millennial": "tbd",
-      "genalpha": "tbd",
-      "genz": "Societal norms crumble — like a viral scandal eroding trust in institutions or corruption destroying community projects. This calls for preserving culture and community in a globalized world. When family values collapse, society suffers."
-    },
-    {
-      "verse": 43,
-      "sanskrit": "उत्सन्नकुलधर्माणां मनुष्याणां जनार्दन |\nनरके नियतं वासो भवतीत्यनुशुश्रुम ||",
-      "transliteration": "utsanna-kula-dharmāṇāṁ manuṣyāṇāṁ janārdana\nnarake niyataṁ vāso bhavatīty anuśuśruma",
-      "translation": "O Krishna, maintainer of the people, I have heard by disciplic succession that those whose family traditions are destroyed dwell always in hell.",
-      "millennial": "tbd",
-      "genalpha": "tbd",
-      "genz": "Arjuna recalls teachings that such destruction leads to hell — like grandma’s warnings about bad choices or elder advice in mentorship programs. This shows respect for tradition, but also questions if it’s always right. Ancestral wisdom is valuable; blind adherence is not."
-    },
-    {
-      "verse": 44,
-      "sanskrit": "अहो बत महत्पापं कर्तुं व्यवसिता वयम् |\nयद्राज्यसुखलोभेन हन्तुं स्वजनमुद्यताः ||",
-      "transliteration": "aho bata mahat pāpaṁ kartuṁ vyavasitā vayam\nyad rājya-sukha-lobhena hantuṁ sva-janam udyatāḥ",
-      "translation": "Alas, how strange it is that we are preparing to commit greatly sinful acts. Driven by the desire to enjoy royal happiness, we are intent on killing our own kinsmen.",
-      "millennial": "tbd",
-      "genalpha": "tbd",
-      "genz": "Arjuna laments the irony of sinning for pleasure — like chasing KPIs at the expense of team morale or revenge that hurts everyone. This calls out hypocrisy in pursuits of fame or wealth at others’ expense. Greed makes us do things we know are wrong."
-    },
-    {
-      "verse": 45,
-      "sanskrit": "यदि मामप्रतीकारमशस्त्रं शस्त्रपाणयः |\nधार्तराष्ट्रा रणे हन्युस्तन्मे क्षेमतरं भवेत् ||",
-      "transliteration": "yadi mām apratīkāram aśastraṁ śastra-pāṇayaḥ\ndhārtarāṣṭrā raṇe hanyus tan me kṣemataram bhavet",
-      "translation": "Better for me if the sons of Dhritarashtra, weapons in hand, were to kill me unarmed and unresisting on the battlefield.",
-      "millennial": "tbd",
-      "genalpha": "tbd",
-      "genz": "Arjuna prefers to die unarmed than fight — like walking away from a toxic argument or choosing peace over retaliation in protests. This inspires non-violent resolution in conflicts. Sometimes the bravest thing is to drop the weapons and stand for peace."
-    },
-    {
-      "verse": 46,
-      "sanskrit": "सञ्जय उवाच |\nएवमुक्त्वार्जुनः सङ्ख्ये रथोपस्थ उपाविशत् |\nविसृज्य सशरं चापं शोकसंविग्नमानसः ||",
-      "transliteration": "sañjaya uvāca\nevam uktvārjunaḥ saṅkhye rathopastha upāviśat\nvisṛjya sa-śaraṁ cāpaṁ śoka-saṁvigna-mānasaḥ",
-      "translation": "Sanjaya said: Arjuna, having thus spoken on the battlefield, cast aside his bow and arrows and sat down on the chariot, his mind overwhelmed with grief.",
-      "millennial": "tbd",
-      "genalpha": "tbd",
-      "genz": "Arjuna drops his weapons and sits down, overwhelmed — like hitting burnout wall or quitting mid-game. This ends the chapter on a cliffhanger, setting up for Krishna’s guidance — like calling a timeout when life’s too much. Vulnerability precedes growth. Rock bottom is the launchpad."
-    },
-    {
-      "verse": 47,
-      "sanskrit": "ॐ तत्सदिति श्रीमद्भगवद्गीतासूपनिषत्सु ब्रह्मविद्यायां योगशास्त्रे श्रीकृष्णार्जुनसंवादे अर्जुनविषादयोगो नाम प्रथमोऽध्यायः ||",
-      "transliteration": "oṁ tat sad iti śrīmad bhagavad-gītāsu upaniṣatsu brahma-vidyāyāṁ yoga-śāstre śrī-kṛṣṇārjuna-saṁvāde arjuna-viṣāda-yogo nāma prathamo 'dhyāyaḥ",
-      "translation": "Thus ends Chapter 1 of the Bhagavad Gita, entitled 'Arjuna Vishada Yoga.'",
-      "millennial": "tbd",
-      "genalpha": "tbd",
-      "genz": "The chapter wraps with the colophon. Reflecting on Arjuna’s grief, it’s a reminder that doubt is the start of wisdom — like hitting rock bottom before a glow-up or the dark night of the soul before breakthrough. Perfect setup for the Gita’s life hacks. The dilemma is universal; the solution is coming."
-    }
-  ]
+"number": 1,
+"title": "Arjuna's Dilemma",
+"sanskrit": "अर्जुनविषादयोग",
+"verses": 46,
+"introduction": "Chapter 1 of the Bhagavad Gita, Arjuna-viṣāda-yoga (The Yoga of Arjuna's Dejection), sets the stage for the entire scripture by introducing the battlefield of Kurukshetra as both a literal war zone and a metaphor for the inner conflict every human faces. Dhritarashtra asks Sanjaya what is happening on the field of dharma, where the Pandavas and Kauravas have assembled for battle. The chapter describes the armies, the conch shells blown by the warriors, and Arjuna's sudden overwhelm as he sees his relatives, teachers, and friends on the opposing side, leading to his dejection and refusal to fight. For modern readers — especially those facing ethical dilemmas, family conflicts, career pressures, or moments of paralysis when standing up for what is right feels impossible — this chapter feels like the raw starting point of the spiritual journey: the moment when the illusion of 'normal life' shatters, and one confronts the cost of dharma. The essence remains perfectly preserved: the battlefield is within us; Arjuna's crisis is our crisis of conscience; Krishna's silence at the end builds anticipation for the divine wisdom that follows, reminding us that true guidance comes when we admit our confusion and seek help from a higher source.",
+"shlokas": [
+{
+"verse": 1,
+"sanskrit": "धृतराष्ट्र उवाच |\nधर्मक्षेत्रे कुरुक्षेत्रे समवेता युयुत्सवः |\nमामकाः पाण्डवाश्चैव किमकुर्वत सञ्जय ||",
+"transliteration": "dhṛtarāṣṭra uvāca\ndharma-kṣetre kuru-kṣetre samavetā yuyutsavaḥ\nmāmakāḥ pāṇḍavāś caiva kim akurvata sañjaya",
+"translation": "Dhritarashtra said: O Sanjaya, after my sons and the sons of Pandu assembled in the place of pilgrimage at Kurukshetra, desiring to fight, what did they do?",
+"millennial": "In this opening verse, Dhritarashtra, the blind king representing those who lack spiritual vision, anxiously inquires about the events unfolding on the sacred battlefield of Kurukshetra, which symbolizes the field of dharma or righteous living. He's essentially asking for a live update on the confrontation between his sons (the Kauravas, embodying materialistic and unethical pursuits) and the Pandavas (representing virtue and justice). For someone in their 30s navigating a high-pressure career, this mirrors that moment when you're about to enter a major professional conflict, like a boardroom battle or a merger negotiation, where family loyalties or ethical dilemmas clash with ambitions. It's the tension before a big decision that could define your path, reminding you to seek clarity from a trusted advisor, much like Sanjaya acts as the narrator here. The key takeaway is recognizing when personal biases cloud judgment, just as Dhritarashtra's blindness to dharma leads to his worry, encouraging reflection on how our own 'blind spots' in work-life balance or moral choices can lead to unnecessary anxiety.",
+"genz": "Dhritarashtra, the old king who's blind and kinda represents people who don't see the bigger picture, is super curious and asks Sanjaya for the tea on what's going down at Kurukshetra, this epic spot that's like the ultimate arena for a moral showdown. His sons (the bad guys, Kauravas) and the Pandavas (the good squad) are geared up for war. This is like scrolling through social media during a massive online drama or cancel culture storm, where two sides are about to clash, and you're hitting refresh for updates. It's that vibe when you're caught in a group chat beef between friends or influencers, wondering what everyone's doing next. The lesson here is about checking your biases before jumping in, 'cause Dhritarashtra's favoritism for his kids blinds him to what's right, similar to how getting too hyped on one side of a viral debate can mess up your judgment and lead to regret.",
+"genalpha": "There's this old king named Dhritarashtra who can't see, and he's asking his friend Sanjaya what's happening on a special field called Kurukshetra, where it's like a big game of good guys versus bad guys. His kids and their cousins are all there ready to play a fighting game. Imagine you're at a huge playground or in a video game world where two teams are lined up for an adventure battle, and the king wants to know what they're up to. It's exciting but a bit scary, like when you and your friends are about to start a tag game but you wonder if everyone will stay friends after. The fun part is thinking about how sometimes grown-ups get worried about games too, and it's important to play fair so no one gets hurt."
+},
+{
+"verse": 2,
+"sanskrit": "सञ्जय उवाच |\nदृष्ट्वा तु पाण्डवानीकं व्यूढं दुर्योधनस्तदा |\nआचार्यमुपसङ्गम्य राजा वचनमब्रवीत् ||",
+"transliteration": "sañjaya uvāca\ndṛṣṭvā tu pāṇḍavānīkaṁ vyūḍhaṁ duryodhanas tadā\nācāryam upasaṅgamya rājā vacanam abravīt",
+"translation": "Sanjaya said: O King, after looking over the army gathered by the sons of Pandu, King Duryodhana went to his teacher and spoke the following words.",
+"millennial": "Sanjaya starts narrating how Duryodhana, the arrogant prince symbolizing unchecked ambition and jealousy, spots the well-organized Pandava army and immediately approaches his guru, Drona, for counsel. This highlights the importance of seeking advice from mentors when facing formidable challenges. In a career context, it's like spotting a competitor's strong strategy during a market analysis and quickly consulting your experienced supervisor or coach to refine your approach. Duryodhana's action shows a mix of confidence and underlying anxiety, reminding us that even leaders who seem aggressive often harbor doubts, and turning to trusted advisors can be a smart move in high-stakes situations like negotiations or project launches where the opposition looks solid.",
+"genz": "Sanjaya spills that Duryodhana, the salty villain king, checks out the Pandava squad's tight formation and slides over to his teacher Drona to chat. It's that moment in a game or drama where the antagonist sees the heroes locked and loaded, so he hits up his OG mentor for strats. This verse vibes with scoping the other team's setup in a multiplayer match and DMing your coach for tips, showing even the bad guys get nervous and need backup when things look stacked against them.",
+"genalpha": "Sanjaya tells the story that the bad king Duryodhana sees the good guys' team all set up and goes to his teacher to talk. It's like in a cartoon adventure where the sneaky bad guy spots the heroes ready with their plans and runs to his smart teacher for help. The fun is imagining how the bad guy feels surprised and wants to know what to do next in the big game."
+},
+{
+"verse": 3,
+"sanskrit": "पश्यैतां पाण्डुपुत्राणामाचार्य महतीं चमूम् |\nव्यूढां द्रुपदपुत्रेण तव शिष्येण धीमता ||",
+"transliteration": "paśyaitāṁ pāṇḍu-putrāṇām ācārya mahatīṁ camūm\nvyūḍhāṁ drupada-putreṇa tava śiṣyeṇa dhīmatā",
+"translation": "O my teacher, behold the great army of the sons of Pandu, so expertly arranged by your intelligent disciple, the son of Drupada.",
+"millennial": "Duryodhana points out the impressive and strategically arranged Pandava army, led by Drona's own clever student, Drishtadyumna. This verse underscores the irony of facing opposition strengthened by one's own teachings, much like a former mentee launching a competing startup using skills learned under your guidance. It highlights the need for strategic awareness in professional rivalries, where acknowledging the opponent's strengths can help in preparing a counter-plan, reminding us that success often involves respecting the intelligence of those on the other side while staying focused on our goals.",
+"genz": "Duryodhana's like 'yo teacher, check this massive squad the Pandavas got, set up by your smart ex-student'. It's that shade when you see your mentor's fave pupil running the opposing team perfectly. Vibes like calling out a friend's glow-up in a rival crew during a dance battle or esports tourney, where you gotta admit they're slaying but it stings 'cause it's your own peeps' training.",
+"genalpha": "The bad king says to his teacher, 'Look at that big team of the good princes, all lined up smart by your clever student.' It's like in a story where the villain sees the heroes' cool plan made by someone the teacher taught, making the adventure more tricky and exciting to see what happens next."
+},
+{
+"verse": 4,
+"sanskrit": "अत्र शूरा महेश्वासा भीमार्जुनसमा युधि |\nयुयुधानो विराटश्च द्रुपदश्च महारथः ||",
+"transliteration": "atra śūrā maheṣvāsā bhīmārjuna-samā yudhi\nyuyudhāno virāṭaś ca drupadaś ca mahā-rathaḥ",
+"translation": "Here in this army are many heroic bowmen equal in fighting to Bhima and Arjuna: great fighters like Yuyudhana, Virata and Drupada.",
+"millennial": "Duryodhana lists the formidable warriors on the Pandava side, equating them to the might of Bhima and Arjuna, including skilled leaders like Satyaki, Virata, and Drupada. This verse emphasizes recognizing the strength and expertise of opponents, similar to assessing a rival company's team of top executives and acknowledging their capabilities in a competitive market analysis. It serves as a reminder that underestimating competition can lead to downfall, encouraging thorough preparation and respect for others' skills in professional endeavors.",
+"genz": "Here they've got beast mode archers matching the top dogs Bhima and Arjuna, like Yuyudhana, Virata, and Drupada dropping skills. It's that roster review where you admit the other side has hackers-level players, like scouting an opposing esports team with meta picks that could clap yours if you're not ready.",
+"genalpha": "There are brave shooters with big bows as strong as the main strong guys, like more heroes with cool names ready to fight. It's like in a game where the other team has powerful characters with super arrows, making it a big challenge to win the level."
+},
+{
+"verse": 5,
+"sanskrit": "धृष्टकेतुश्चेकितानः काशिराजश्च वीर्यवान् |\nपुरुजित् कुन्तिभोजश्च शैब्यश्च नरपुङ्गवः ||",
+"transliteration": "dhṛṣṭaketuś cekitānaḥ kāśirājaś ca vīryavān\npurujit kuntibhojaś ca śaibyaś ca nara-puṅgavaḥ",
+"translation": "There are also great, heroic, powerful fighters like Dhṛṣṭaketu, Cekitāna, Kāśirāja, Purujit, Kuntibhoja and Śaibya.",
+"millennial": "Continuing the list, Duryodhana names more valiant warriors like Dhrishtaketu, Chekitana, the king of Kashi, Purujit, Kuntibhoja, and Shaibya, highlighting the depth of talent on the opposing side. This is akin to reviewing a competitor's extensive network of partners and influencers, realizing the breadth of their resources, which prompts a reassessment of one's own strategy in a business landscape.",
+"genz": "More heavy hitters like Dhrishtaketu, Chekitana, the Kashi boss, Purujit, Kuntibhoja, and Shaibya — all top-tier. Feels like stacking a dream team with all the meta characters, making you rethink your loadout before the match starts.",
+"genalpha": "Even more strong and brave friends with fancy names, like extra power-ups in your adventure team, ready to help or fight in the big game."
+},
+{
+"verse": 6,
+"sanskrit": "युधामन्युश्च विक्रान्त उत्तमौजाश्च वीर्यवान् |\nसौभद्रो द्रौपदेयाश्च सर्व एव महारथाः ||",
+"transliteration": "yudhāmanyuś ca vikrānta uttamaujāś ca vīryavān\nsaubhadro draupadeyāś ca sarva eva mahā-rathāḥ",
+"translation": "There are the courageous Yudhāmanyu, the very powerful Uttamaujā, the son of Subhadrā, and the sons of Draupadī. All these warriors are great chariot fighters.",
+"millennial": "The roster includes bold and powerful figures like Yudhamanyu, Uttamaujas, Abhimanyu (son of Subhadra), and the sons of Draupadi, all elite in their roles. This underscores the generational talent and alliances, much like a company boasting a mix of young innovators and experienced allies, prompting a strategic evaluation of one's own team's composition.",
+"genz": "Shoutout to the bold ones like Yudhamanyu, Uttamaujas, Abhimanyu, and Draupadi's kids — all MVPs with chariot skills. Like having a squad of young guns and legacies that could turn the tide in a battle royale.",
+"genalpha": "Brave and strong kids like the one with lots of energy and the sons of the princess, all super drivers in the game, making the team really cool."
+},
+{
+"verse": 7,
+"sanskrit": "अस्माकं तु विशिष्टा ये तान्निबोध द्विजोत्तम |\nनायका मम सैन्यस्य संज्ञार्थं तान्ब्रवीमि ते ||",
+"transliteration": "asmākaṁ tu viśiṣṭā ye tān nibodha dvijottama\nnāyakā mama sainyasya saṁjñārthaṁ tān bravīmi te",
+"translation": "O best of the brāhmanas, for your information, let me tell you about the captains who are especially qualified to lead my military force.",
+"millennial": "Duryodhana shifts to highlighting his own side's standout leaders, providing a briefing to his mentor. This is similar to presenting your team's key strengths in a pitch, ensuring everyone is aligned and aware of the assets, which can boost confidence in a competitive environment.",
+"genz": "Now Duryodhana's like 'let me flex our top dogs for you', listing the leaders to hype up. It's that part in a stream where you shoutout your squad before diving in, building the energy.",
+"genalpha": "Now the bad king tells about his best friends who lead his team, like sharing who the captains are in your group for a school play."
+},
+{
+"verse": 8,
+"sanskrit": "भवान् भीष्मश्च कर्णश्च कृपश्च समितिञ्जयः |\nअश्वत्थामा विकर्णश्च सौमदत्तिस्तथैव च ||",
+"transliteration": "bhavān bhīṣmaś ca karṇaś ca kṛpaś ca samitiñjayaḥ\naśvatthāmā vikarṇaś ca saumadattis tathaiva ca",
+"translation": "There are personalities like you, Bhīṣma, Karṇa, Kṛpa, Aśvatthāmā, Vikarṇa and the son of Somadatta called Bhūriśravā, who are always victorious in battle.",
+"millennial": "He names the elite, including the mentor himself, Bhishma the veteran, Karna the ambitious, Kripa the wise, Ashwatthama the skilled, Vikarna the loyal, and Bhurishrava the strong. This is like listing your board of directors or core team in a business plan, emphasizing their unbeatable track records to inspire confidence.",
+"genz": "Shouts out the squad: you, the grandpa tank, the edgy Karna, Kripa the wise guy, Ashwatthama the beast, Vikarna the ride-or-die, and Bhurishrava the clutch winner. Like naming your ultimate gaming party that's undefeated.",
+"genalpha": "Names the super stars: the teacher, the old strong grandpa, the cool fighter Karna, and more brave friends who always win fights, like the best players in a superhero team."
+},
+{
+"verse": 9,
+"sanskrit": "अन्ये च बहवः शूरा मदर्थे त्यक्तजीविताः |\nनानाशस्त्रप्रहरणाः सर्वे युद्धविशारदाः ||",
+"transliteration": "anye ca bahavaḥ śūrā mad-arthe tyakta-jīvitāḥ\nnānā-śastra-praharaṇāḥ sarve yuddha-viśāradāḥ",
+"translation": "There are many other heroes who are prepared to lay down their lives for my sake. All of them are well equipped with various kinds of weapons, and all are experienced in military science.",
+"millennial": "Plus countless dedicated supporters willing to risk everything for the cause, armed with diverse tools and expertise. This reflects a strong, committed workforce ready to go all-in for the company's vision, highlighting loyalty and skill diversity as key assets.",
+"genz": "And a ton of other grinders ready to yeet their lives for the mission, loaded with all kinds of gear and pro-level skills. Like having an army of subs hyped to raid for the stream.",
+"genalpha": "Lots of other brave kids ready to give everything for the king, with different toys and tricks, all super good at playing the fighting game."
+},
+{
+"verse": 10,
+"sanskrit": "अपर्याप्तं तदस्माकं बलं भीष्माभिरक्षितम् |\nपर्याप्तं त्विदमेतेषां बलं भीमाभिरक्षितम् ||",
+"transliteration": "aparyāptaṁ tad asmākaṁ balaṁ bhīṣmābhirakṣitam\nparyāptaṁ tv idam eteṣāṁ balaṁ bhīmābhirakṣitam",
+"translation": "Our strength is immeasurable, and we are perfectly protected by Grandfather Bhīṣma, whereas the strength of the Pāṇḍavas, carefully protected by Bhīma, is limited.",
+"millennial": "Our resources are unlimited under the veteran leader's protection, while theirs seem finite even with their strong guard. This is like assessing market share where your established brand has an edge over a competitor's emerging one.",
+"genz": "Our power level is infinite with the boss shielding, but theirs is capped even with the tank protecting. Like comparing infinite ammo to limited clips in a shooter.",
+"genalpha": "Our team is super big and safe with the old grandpa, but their team is small even with the big strong guy."
+},
+{
+"verse": 11,
+"sanskrit": "अयनेषु च सर्वेषु यथाभागमवस्थिताः |\nभीष्ममेवाभिरक्षन्तु भवन्तः सर्व एव हि ||",
+"transliteration": "ayaneṣu ca sarveṣu yathā-bhāgam avasthitāḥ\nbhīṣmam evābhirakṣantu bhavantaḥ sarva eva hi",
+"translation": "Now all of you must give full support to Grandfather Bhīṣma, standing at your respective strategic points in the phalanx of the army.",
+"millennial": "Stay in assigned roles and prioritize protecting the key leader, like in a project where everyone supports the lead to ensure success.",
+"genz": "Hold positions and guard the main, like defending the objective in a team game.",
+"genalpha": "Stay in your spots and help the grandpa a lot, like protecting the leader in tag."
+},
+{
+"verse": 12,
+"sanskrit": "तस्य सञ्जनयन् हर्षं कुरुवृद्धः पितामहः |\nसिंहनादं विनद्योच्चैः शङ्खं दध्मौ प्रतापवान् ||",
+"transliteration": "tasya sañjanayan harṣaṁ kuru-vṛddhaḥ pitāmahaḥ\nsiṁha-nādaṁ vinadyoccaiḥ śaṅkhaṁ dadhmau pratāpavān",
+"translation": "Then Bhīṣma, the great valiant grandsire of the Kuru dynasty, the grandfather of the fighters, blew his conchshell very loudly, making a sound like the roar of a lion, giving Duryodhana joy.",
+"millennial": "The patriarch rallies the team with a powerful gesture, boosting morale like a CEO's motivational talk at a company event.",
+"genz": "Grandpa drops a lion roar on the horn to hype the leader, like a epic intro sound in a live stream.",
+"genalpha": "The old grandpa makes a loud lion noise with his shell to make the king happy, like a fun roar in a story to start the adventure."
+},
+{
+"verse": 13,
+"sanskrit": "ततः शङ्खाश्च भेर्यश्च पणवानकगोमुखाः |\nसहसैवाभ्यहन्यन्त स शब्दस्तुमुलोऽभवत् ||",
+"transliteration": "tataḥ śaṅkhāś ca bheryaś ca paṇavānaka-gomukhāḥ\nsahasaivābhyahanyanta sa śabdas tumulo ’bhavat",
+"translation": "After that, the conchshells, drums, bugles, trumpets and horns were all suddenly sounded, and the combined sound was tumultuous.",
+"millennial": "The response creates a chaotic energy, like the buzz at a major conference opening with applause and music.",
+"genz": "All the instruments blast at once, making a wild racket like a festival crowd going nuts.",
+"genalpha": "All the shells and drums make a huge noise together, like a big fireworks show starting."
+},
+{
+"verse": 14,
+"sanskrit": "ततः श्वेतैर्हयैर्युक्ते महति स्यन्दने स्थितौ |\nमाधवः पाण्डवश्चैव दिव्यौ शङ्खौ प्रदध्मतुः ||",
+"transliteration": "tataḥ śvetair hayair yukte mahati syandane sthitau\nmādhavaḥ pāṇḍavaś caiva divyau śaṅkhau pradadhmatuḥ",
+"translation": "On the other side, both Lord Krishna and Arjuna, stationed on a great chariot drawn by white horses, sounded their transcendental conchshells.",
+"millennial": "The protagonists counter with their own signal from a superior position, like a confident response in a debate.",
+"genz": "The good guys on the lit ride blow back with godly horns, like a comeback track drop.",
+"genalpha": "The prince and his driver on the white horse cart blow their magic shells, like heroes answering with cool sounds."
+},
+{
+"verse": 15,
+"sanskrit": "पाञ्चजन्यं हृषीकेशो देवदत्तं धनञ्जयः |\nपौण्ड्रं दध्मौ महाशङ्खं भीमकर्मा वृकोदरः ||",
+"transliteration": "pāñcajanyaṁ hṛṣīkeśo devadattaṁ dhanañjayaḥ\npauṇḍraṁ dadhmau mahā-śaṅkhaṁ bhīma-karmā vṛkodaraḥ",
+"translation": "Lord Krishna blew His conchshell, called Pañcajanya; Arjuna blew his, the Devadatta; and Bhīma, the voracious eater and performer of herculean tasks, blew his terrific conchshell, called Pauṇḍra.",
+"millennial": "Each leader has a unique signature call, like branded intros in a professional network event.",
+"genz": "Each drops their custom sound, like personalized ringtones in a group alert.",
+"genalpha": "Each blows their special shell with cool names, like different power-ups making noises in a game."
+},
+{
+"verse": 16,
+"sanskrit": "अनन्तविजयं राजा कुन्तीपुत्रो युधिष्ठिरः |\nनकुलः सहदेवश्च सुघोषमणिपुष्पकौ ||",
+"transliteration": "anantavijayaṁ rājā kuntī-putro yudhiṣṭhiraḥ\nnakulaḥ sahadevaś ca sughoṣa-maṇipuṣpakau",
+"translation": "King Yudhiṣṭhira, the son of Kuntī, blew his conchshell, the Ananta-vijaya, and Nakula and Sahadeva blew the Sughoṣa and Maṇipuṣpaka.",
+"millennial": "The core team adds their contributions, strengthening the collective voice like a unified brand message.",
+"genz": "The king and twins join the sound wave, stacking the audio like a collab track.",
+"genalpha": "The big brother and twins blow their shells too, adding more fun noises to the party."
+},
+{
+"verse": 17,
+"sanskrit": "काश्यश्च परमेष्वासः शिखण्डी च महारथः |\nधृष्टद्युम्नो विराटश्च सात्यकिश्चापराजितः ||",
+"transliteration": "kāśyaś ca parameṣv-āsaḥ śikhaṇḍī ca mahā-rathaḥ\ndhṛṣṭadyumno virāṭaś ca sātyakiś cāparājitaḥ",
+"translation": "The king of Kāśī, an excellent archer, Śikhaṇḍī, the mighty chariot fighter, Dhṛṣṭadyumna, Virāṭa, and the unconquerable Sātyaki —",
+"millennial": "Additional specialists lend their support, enhancing the team's capabilities like diverse experts in a collaborative project.",
+"genz": "More squad members pile on, like extras jumping into the remix.",
+"genalpha": "More brave friends with bows join in, like extra characters helping in the story."
+},
+{
+"verse": 18,
+"sanskrit": "द्रुपदो द्रौपदेयाश्च सर्वशः पृथिवीपते |\nसौभद्रश्च महाबाहुः शङ्खान् दध्मुः पृथक्पृथक् ||",
+"transliteration": "drupado draupadeyāś ca sarvaśaḥ pṛthivī-pate\nsaubhadraś ca mahā-bāhuḥ śaṅkhān dadhmuḥ pṛthak pṛthak",
+"translation": "Drupada, the sons of Draupadī, and the son of Subhadrā, Abhimanyu, all together blew their respective conchshells, O King.",
+"millennial": "The entire alliance signals unity, creating a powerful collective impact like a team-wide endorsement.",
+"genz": "Everyone blasts individually, turning it into a full orchestra of hype.",
+"genalpha": "All the princes blow their shells one by one, making a big concert of sounds."
+},
+{
+"verse": 19,
+"sanskrit": "स घोषो धर्तराष्ट्राणां हृदयानि व्यदारयत् |\nनभश्च पृथिवीं चैव तुमुलोऽभ्यनुनादयन् ||",
+"transliteration": "sa ghoṣo dhārtarāṣṭrāṇāṁ hṛdayāni vyadārayat\nnabhaś ca pṛthivīṁ caiva tumulo ’bhyanunādayan",
+"translation": "That tumultuous sound filled the sky and the earth and shattered the hearts of the sons of Dhṛtarāṣṭra.",
+"millennial": "The unified response demoralizes the opposition, like a viral campaign that shifts public opinion against rivals.",
+"genz": "The sound wave crushes their spirits, like a massive subwoofer drop that shakes the room.",
+"genalpha": "The big noise fills everything and makes the bad guys' hearts break, like a huge thunder in a storm."
+},
+{
+"verse": 20,
+"sanskrit": "अथ व्यवस्थितान् दृष्ट्वा धर्तराष्ट्रान् कपिध्वजः |\nप्रवृत्ते शस्त्रसम्पाते धनुरुद्यम्य पाण्डवः ||",
+"transliteration": "atha vyavasthitān dṛṣṭvā dhārtarāṣṭrān kapi-dhvajaḥ\npravṛtte śastra-sampāte dhanur udyamya pāṇḍavaḥ",
+"translation": "At that time Arjuna, the son of Pāṇḍu, seated in the chariot bearing the flag marked with Hanumān, took up his bow and prepared to shoot his arrows.",
+"millennial": "Arjuna readies himself for the conflict, symbolizing the moment of commitment in a challenging professional scenario where you must stand your ground despite the odds.",
+"genz": "Arjuna grabs his bow as things kick off, like equipping your main weapon right before the raid starts.",
+"genalpha": "The prince with the monkey flag picks up his bow as the fighting tools start flying, like getting your slingshot ready in a pretend battle."
+},
+{
+"verse": 21,
+"sanskrit": "हृषीकेशं तदा वाक्यमिदमाह महिपते |\nअर्जुन उवाच |\nसेनयोरुभयोर्मध्ये रथं स्थापय मेऽच्युत ||",
+"transliteration": "hṛṣīkeśaṁ tadā vākyam idam āha mahī-pate\narjuna uvāca\nsenayor ubhayor madhye rathaṁ sthāpaya me ’cyuta",
+"translation": "O King, at that time Arjuna, the son of Pāṇḍu, spoke these words to Hṛṣīkeśa [Krishna]: O infallible one, please draw my chariot between the two armies so that I can see those present here, who desire to fight, and with whom I must contend in this great trial of arms.",
+"millennial": "Arjuna requests a closer look at the opposition, seeking to assess the situation fully before committing, similar to conducting due diligence before signing a major contract or entering a partnership, ensuring you understand all parties involved and the potential risks.",
+"genz": "Arjuna asks Krishna to pull up the chariot for a better view of the enemies, like zooming in on the map to scout the battlefield before engaging, wanting to know who he's up against in the chaos.",
+"genalpha": "The prince asks his friend to stop the cart in the middle so he can see all the bad guys who want to fight, like wanting a good spot to look at the other team before the game starts."
+},
+{
+"verse": 22,
+"sanskrit": "यावदेतान्निरीक्षेऽहं योद्धुकामानवस्थितान् |\nकैर्मया सह योद्धव्योऽस्मिन् रणसमुद्यме ||",
+"transliteration": "yāvad etān nirīkṣe ’haṁ yoddhu-kāmān avasthitān\nkair mayā saha yoddhavyo ’smin raṇa-samudyame",
+"translation": "Let me see those who have come here to fight, wishing to please the evil-minded son of Dhṛtarāṣṭra.",
+"millennial": "Arjuna wants a detailed view of the adversaries motivated by misguided loyalty, akin to reviewing a list of stakeholders in a contentious project to understand their incentives and how to navigate the dynamics effectively.",
+"genz": "Wanna scope the ones hyped to fight for the wrong reasons, like checking profiles of trolls in a online feud to see who's really in it.",
+"genalpha": "Wants to look at all the fighters who are ready, like peeking at who is on the other side in a hide-and-seek game with teams."
+},
+{
+"verse": 23,
+"sanskrit": "एवमुक्तो हृषीकेशो गुडाकेशेन भारत |\nसेनयोरुभयोर्मध्ये स्थापयित्वा रथोत्तमम् ||",
+"transliteration": "evam ukto hṛṣīkeśo guḍākeśena bhārata\nsenayor ubhayor madhye sthāpayitvā rathottamam",
+"translation": "O descendant of Bharata, at the request of Arjuna, Hṛṣīkeśa placed the magnificent chariot between the two armies.",
+"millennial": "Krishna complies, positioning for optimal observation, like a mentor arranging a vantage point for better insight in a complex situation.",
+"genz": "Krishna parks the ride perfectly as asked, like a driver nailing the drop-off spot for the best view.",
+"genalpha": "The friend stops the fancy cart right in the middle as the prince wanted, like parking your bike to see better in a game."
+},
+{
+"verse": 24,
+"sanskrit": "भीष्मद्रोणप्रमुखतः सर्वेषां च महिक्षिताम् |\nउवाच पार्थ पश्यैतान् समवेतान् कुरूनिति ||",
+"transliteration": "bhīṣma-droṇa-pramukhataḥ sarveṣāṁ ca mahī-kṣitām\nuvāca pārtha paśyaitān samavetān kurūn iti",
+"translation": "In the presence of Bhīṣma, Droṇa and all the other chieftains of the world, the Lord said: O Pārtha, behold the assembled Kurus.",
+"millennial": "Krishna directs attention to the gathered forces, like highlighting key players in a networking event to prepare for interactions.",
+"genz": "Krishna's like 'yo, check out all these Kurus gathered', pointing out the crowd.",
+"genalpha": "The friend says 'look at all these family members here', like showing a big group in a picture."
+},
+{
+"verse": 25,
+"sanskrit": "तत्रापश्यत् स्थितान् पार्थः पितॄनथ पितामहान् |\nआचार्यान् मातुलान् भ्रातॄन् पुत्रान् पौत्रान् सखींस्तथा ||",
+"transliteration": "tatrāpaśyat sthitān pārthaḥ pitṝn atha pitāmahān\nācāryān mātulān bhrātṝn putrān pautrān sakhīṁs tathā",
+"translation": "There Arjuna could see, within the midst of the armies of both parties, his fathers, grandfathers, teachers, maternal uncles, brothers, sons, grandsons, friends, and also his fathers-in-law and well-wishers.",
+"millennial": "Arjuna recognizes the deep personal ties across the field, evoking the complexity of conflicts where professional rivalries intersect with family and mentor relationships, prompting a reevaluation of priorities and the human cost of ambition.",
+"genz": "Arjuna spots dads, grandpas, teachers, uncles, bros, kids, grandkids, and homies on both sides, hitting that emotional plot twist where the beef is family drama.",
+"genalpha": "The prince sees his dads, grandpas, teachers, uncles, brothers, sons, grandkids, and best friends all there, like a huge family picnic turning into a game with everyone."
+},
+{
+"verse": 26,
+"sanskrit": "श्वशुरान् सुहृदश्चैव सेनयोरुभयोरपि |\nतान् समीक्ष्य स कौन्तेयः सर्वबन्धूनवस्थितान् ||",
+"transliteration": "śvaśurān suhṛdaś caiva senayor ubhayor api\ntān samīkṣya sa kaunteyaḥ sarva-bandhūn avasthitān",
+"translation": "When the son of Kuntī, Arjuna, saw all these different grades of friends and relatives, he became overwhelmed with compassion and spoke thus.",
+"millennial": "Seeing the web of relationships, Arjuna is struck by compassion, mirroring moments in career where decisions affect loved ones, leading to a crisis of conscience about the true cost of success.",
+"genz": "Spotting all the connections, Arjuna gets hit with feels and compassion, like realizing a online fight involves your inner circle.",
+"genalpha": "Looking at all his family and pals, the prince feels really kind and sad, like when you see your whole family in a big group and want to hug everyone."
+},
+{
+"verse": 27,
+"sanskrit": "कृपया परयाविष्टो विषीदन्निदमब्रवीत् |\nअर्जुन उवाच |\nदृष्ट्वेमं स्वजनं कृष्ण युयुत्सुं समुपस्थितम् ||",
+"transliteration": "kṛpayā parayāviṣṭo viṣīdann idam abravīt\narjuna uvāca\ndṛṣṭvemāṁ sva-janaṁ kṛṣṇa yuyutsuṁ samupasthitam",
+"translation": "Arjuna said: My dear Krishna, seeing my friends and relatives present before me in such a fighting spirit, I feel the limbs of my body quivering and my mouth drying up.",
+"millennial": "Here Arjuna finally breaks down emotionally as compassion overwhelms him. Seeing his own relatives, teachers, and friends lined up ready to kill each other triggers a full-body stress response — trembling limbs, dry mouth, racing heart — classic fight-or-flight physiology mixed with deep moral conflict. For someone in their late 20s to early 40s, this mirrors that gut-wrenching moment when a family business decision, a divorce in the extended family, or a workplace layoff pits loved ones against each other. You know the 'right' thing to do professionally or ethically, but the human cost (hurting people you grew up with, worked beside for years, or share holidays with) makes your body physically rebel. Arjuna’s reaction shows it’s normal to feel physically sick when duty and love collide; the chapter is reminding us that real growth begins exactly here — when the polished executive mask cracks and we admit we’re terrified and conflicted.",
+"genz": "Arjuna gets hit with the ultimate empathy overload and just starts glitching — body shaking, mouth dry, voice cracking. Seeing his whole squad (family, mentors, day-ones) ready to throw hands at each other flips a switch inside him. For Gen Z this is that moment when a group chat explodes into irreparable beef and you realize half your mutuals are about to become ex-friends, or when you have to pick a side in a creator drama that involves people you’ve collabed with before. Your stomach drops, hands get clammy, you can’t even type properly. The verse captures that raw, physical panic when loyalty and morality crash — it’s not weakness, it’s your nervous system screaming that this fight might cost you everyone you care about. Arjuna’s freakout is basically the ultimate 'this is fine' meme but in reverse: everything is very much not fine and he’s finally admitting it.",
+"genalpha": "Arjuna looks at all his family and best friends standing there ready to fight and he feels super sad and scared inside. His arms and legs start shaking like jelly, his mouth feels dry like he ran around the playground all day without water. It’s like when you really love your brother or cousin but they’re on the other team in a big game and you don’t want anyone to get hurt. Your whole body says “nooo I don’t like this!” even though you’re supposed to play. Arjuna is telling his friend Krishna “I feel all shaky and yucky seeing everyone like this” — it shows even brave heroes can feel afraid and kind when they see people they love in danger."
+},
+{
+"verse": 28,
+"sanskrit": "सीदन्ति मम गात्राणि मुखं च परिशुष्यति |\nवेपथुश्च शरीरे मे रोमहर्षश्च जायते ||",
+"transliteration": "sīdanti mama gātrāṇi mukhaṁ ca pariśuṣyati\nvepathuś ca śarīre me roma-harṣaś ca jāyate",
+"translation": "My whole body is trembling, my hair is standing on end, my bow Gāṇḍīva is slipping from my hand, and my skin is burning.",
+"millennial": "Arjuna continues describing the physiological meltdown: limbs going weak, mouth completely dry, body shivering, goosebumps, skin feeling like it’s on fire, even his legendary bow slipping from his grip. This is textbook acute stress response — cortisol flooding, sympathetic nervous system in overdrive, fine motor skills failing. For a millennial this is exactly what a panic attack feels like right before a make-or-break presentation, a difficult family confrontation, or the moment you realize you have to fire someone you mentored for years. The body literally refuses to cooperate because the mind is screaming “this is wrong on every level.” Arjuna’s detailed symptoms normalize what many high-achievers hide: even the most competent people can physically fall apart when moral and emotional stakes collide with duty. It’s permission to feel the fear instead of powering through it.",
+"genz": "Arjuna’s body is straight-up betraying him — legs jelly, mouth Sahara Desert, full-body chills, hair standing like he saw a ghost, skin burning, hands so shaky his signature bow is about to yeet itself. This is peak anxiety attack energy: when the brain says “abort mission” but you’re already in the arena. It’s that moment your hands shake so bad you can’t even hold your phone steady while typing a breakup text, or when you freeze mid-TikTok live because the comments are turning on you. The verse is basically screaming “your nervous system is valid” — even the guy with the coolest bow and the strongest vibes can have his body go offline when the situation is this messy. Arjuna isn’t soft; he’s human, and that’s the point.",
+"genalpha": "Arjuna’s arms and legs feel super weak like cooked noodles, his mouth is so dry he can’t talk properly, his whole body is shaking like he’s cold, his hairs are standing up like a scared cat, and his skin feels hot and itchy. Even his big bow is slipping from his hands because he’s trembling so much. It’s like when you’re about to do something really scary — like jumping off the high diving board or telling a secret — and your body goes “nope nope nope!” and starts shaking and feeling funny all over. Arjuna is telling his friend “my body feels all wrong and scared right now” — it shows even big strong heroes can get shaky when they’re worried about hurting people they love."
+},
+{
+"verse": 29,
+"sanskrit": "गाण्डीवं स्रंसते हस्तात् त्वक्चैव परिदह्यते |\nन च शक्नोम्यवस्थातुं भ्रमतीव च मे मनः ||",
+"transliteration": "gāṇḍīvaṁ sraṁsate hastāt tvak caiva paridahyate\nna ca śaknomy avasthātuṁ bhramatīva ca me manaḥ",
+"translation": "My bow Gāṇḍīva is slipping from my hand, and my skin is burning. I am unable to stand steady, my mind is whirling.",
+"millennial": "The physical breakdown intensifies: his world-famous bow (symbol of his identity and skill) literally slips away, skin feels like it’s burning from the inside, he can’t even stand properly, and his mind is spinning like vertigo. This is full dissociation under extreme moral stress — the body and mind rejecting the role he’s supposed to play. For a millennial this captures that exact second before a life-altering decision (resigning from a toxic job that pays the bills, confronting a cheating partner, whistleblowing at work) when your identity, stability, and reputation all feel like they’re slipping away and your brain short-circuits. Arjuna’s symptoms are a roadmap of what happens when duty and love are in direct opposition — the ego-self starts to disintegrate, which is painful but also the beginning of real awakening.",
+"genz": "Gandiva (his OP signature bow) is literally falling out of his hands, skin feels like it’s on fire, he can’t stand straight, and his brain is doing cartwheels. This is that dissociative glitch where everything feels unreal — like when you’re about to post something that will end friendships or get you canceled, and your hands shake so bad you keep hitting backspace, or when you’re frozen in the middle of a FaceTime fight with your parents. The verse is straight facts about what a nervous system meltdown looks like when your morals and your people are on opposite sides. Arjuna isn’t weak; he’s just human and the situation is cooked.",
+"genalpha": "His favorite big bow is falling from his hands because they’re shaking so much, his skin feels hot and stingy like sunburn, he can’t stand still because his legs are wobbly, and his head feels spinny like after going on a merry-go-round too fast. It’s like when you’re really nervous before a school play or a big test and everything feels wiggly and hot and spinny inside. Arjuna is saying “I can’t even hold my bow and my head is dizzy” — showing even heroes get super nervous and shaky when they’re scared about doing something big."
+},
+{
+"verse": 30,
+"sanskrit": "निमित्तानि च पश्यामि विपरीतानि केशव |\nन च श्रेयोऽनुपश्यामि हत्वा स्वजनं रणे ||",
+"transliteration": "nimittāni ca paśyāmi viparītāni keśava\nna ca śreyo ’nupaśyāmi hatvā sva-janaṁ raṇe",
+"translation": "O Keśava, I only see omens of misfortune. I do not see how any good can come from killing my own kinsmen in this battle.",
+"millennial": "Arjuna perceives only negative omens and cannot envision any positive outcome from this family war. This reflects the moment when logic screams “win” but intuition and conscience scream “loss no matter what.” In a career context, it’s like preparing to sue a former business partner who’s also a longtime friend — you might legally win, but emotionally and ethically you lose everything that matters. Arjuna’s clarity here is painful but honest: sometimes victory on paper is total defeat in real life. The verse validates that inner knowing when something “feels” deeply wrong even if society or duty says go ahead.",
+"genz": "Arjuna’s seeing nothing but bad vibes and red flags — no W in sight from taking out his own people. It’s that gut feeling when you know a viral callout or exposing someone will destroy relationships forever even if it’s “right.” He’s basically saying “even if I win the argument, I lose my whole circle.” The verse captures that moment you pause before posting something nuclear because deep down you know there’s no real victory here, just ashes.",
+"genalpha": "Arjuna looks around and sees only bad signs, like dark clouds or broken toys, and he can’t think of anything good coming from fighting his own family. It’s like when you know winning a game by being mean to your best friend will just make everyone sad afterward. He’s saying “even if we win, it won’t feel good because we hurt people we love.” It shows how sometimes being the winner doesn’t make you happy if it costs too much."
+},
+{
+"verse": 31,
+"sanskrit": "न काङ्क्षे विजयं कृष्ण न च राज्यं सुखानि च |\nकिं नो राज्येन गोविन्द किं भोगैर्जीवितेन वा ||",
+"transliteration": "na kāṅkṣe vijayaṁ kṛṣṇa na ca rājyaṁ sukhāni ca\nkiṁ no rājyena govinda kiṁ bhogair jīvitena vā",
+"translation": "I do not desire victory, O Krishna, nor kingdom, nor happiness. What use is dominion to us, O Govinda? What are enjoyments or even life itself?",
+"millennial": "Arjuna explicitly rejects the prize — victory, kingdom, pleasure, even life itself — if it requires destroying his loved ones. This is the classic quarter-life or mid-life crisis moment: realizing that the corner office, the money, the status, the Instagram-perfect life mean nothing if you lose your soul and your people to get there. It’s the point where many high-achievers quietly ask “Is this really worth it?” when they see the human cost of their ambition — broken relationships, burnout, ethical compromises. Arjuna’s question is brutally honest self-inquiry: what is success if it leaves you empty and alone?",
+"genz": "Arjuna straight-up says he doesn’t want the crown, the clout, the likes, the bag, or even life if it means wiping out his own circle. It’s that existential “what’s the point” moment when you realize grinding for followers, grades, or money is meaningless if you lose everyone you actually care about. It’s asking the big question behind every viral hustle culture post: “If I win at all costs, who’s even left to celebrate with?” Very “none of this matters if I’m alone at the top” energy.",
+"genalpha": "Arjuna tells Krishna he doesn’t want to win the game, be king, have fun toys, or even keep playing if it means hurting his family. It’s like saying “I don’t want the biggest candy prize if it means making my best friends cry.” He’s asking “What’s the use of being the winner if I feel sad and alone afterward?” It shows that sometimes the best thing isn’t winning, but keeping the people you love happy."
+},
+{
+"verse": 32,
+"sanskrit": "येषामर्थे काङ्क्षितं नो राज्यं भोगाः सुखानि च |\nत इमेऽवस्थिता युद्धे प्राणांस्त्यक्त्वा धनानि च ||",
+"transliteration": "yeṣām arthe kāṅkṣitaṁ no rājyaṁ bhogāḥ sukhāni ca\nta ime ’vasthitā yuddhe prāṇāṁs tyaktvā dhanāni ca",
+"translation": "Those for whose sake we desire kingdom, enjoyments and pleasures are standing here in battle, having renounced their lives and wealth.",
+"millennial": "The heartbreaking irony: the very people Arjuna wanted to win all this for (family, loved ones) are now risking their lives against him. It’s like working 80-hour weeks to provide a better future for your kids or aging parents, only to realize the job is destroying your health and relationships with the same people you’re trying to help. This verse captures the tragic loop of misplaced priorities — sacrificing present happiness for a future that may never arrive, or arriving at the cost of the people you love most.",
+"genz": "The wildest plot twist — the whole reason we wanted the throne and the vibes was for these exact people, and now they’re ready to die fighting us. It’s like grinding for clout and money so your squad can live better, then realizing the grind turned your squad into strangers or enemies. Peak “I did this for us and now it’s destroying us” energy.",
+"genalpha": "Arjuna says “the family we wanted to make happy and give nice things to are now ready to give up everything to fight us.” It’s like working hard to buy toys for your friends, but then the toy fight makes everyone mad at each other. He’s sad because the people he loves are risking their lives, showing how fighting can hurt the ones we care about most."
+},
+{
+"verse": 33,
+"sanskrit": "आचार्याः पितरः पुत्रास्तथैव च पितामहाः |\nमातुलाः श्वशुराः पौत्राः श्यालाः सम्बन्धिनस्तथा ||",
+"transliteration": "ācāryāḥ pitaraḥ putrās tathaiva ca pitāmahāḥ\nmātulāḥ śvaśurāḥ pautrāḥ śyālāḥ sambandhinas tathā",
+"translation": "Teachers, fathers, sons, grandfathers, maternal uncles, fathers-in-law, grandsons, brothers-in-law and other relatives —",
+"millennial": "Arjuna lists the full spectrum of relationships at risk — mentors, parents, children, grandparents, uncles, in-laws, cousins — emphasizing how deeply personal this conflict is. In career terms, it’s like realizing a corporate decision will affect not just colleagues but mentors who shaped you, younger team members you guide, and family members whose stability depends on your income. The verse forces recognition of interconnectedness: no decision is truly individual when lives are intertwined.",
+"genz": "Arjuna’s naming every possible connection — teachers, dads, sons, grandpas, uncles, in-laws, cousins — basically the whole family tree is in the crossfire. It’s that moment you realize a single tweet, group fallout, or side you pick is going to ripple through every close relationship you have online and IRL. Peak “this beef is about to nuke my entire support system” energy.",
+"genalpha": "Arjuna lists everyone he loves — teachers, dads, kids, grandpas, uncles, grandmas, cousins — all the people in his big family. It’s like seeing every friend, cousin, aunt, and teacher you know standing on different teams in a big playground game, making it hard to want to play at all because you don’t want anyone to get hurt."
+},
+{
+"verse": 34,
+"sanskrit": "एतान्न हन्तुमिच्छामि घ्नतोऽपि मधुसूदन |\nअपि त्रैलोक्यराज्यस्य हेतोः किं नु महिकृते ||",
+"transliteration": "etān na hantum icchāmi ghnato ’pi madhusūdana\napi trailokya-rājyasya hetoḥ kiṁ nu mahī-kṛte",
+"translation": "O Madhusūdana, even if I am killed, I do not want to kill these people — not even for the rule of the three worlds, let alone this earth.",
+"millennial": "Arjuna declares he’d rather die than kill his loved ones — not even for ruling the universe. This is the ultimate values clarification moment: no amount of power, status, or wealth is worth destroying relationships. In a professional context, it’s like turning down a massive promotion because it would require betraying your team or principles. The verse challenges the cultural narrative that “winning at all costs” is success — Arjuna is saying real success is preserving love and integrity, even at personal cost.",
+"genz": "Arjuna’s like “I’d rather get deleted than delete my own people — not even for all three servers and infinite clout.” It’s that moment you realize no amount of followers, money, or status is worth losing your day-ones or becoming the villain in your own story. Peak “I’m not gonna sell my soul for a crown” energy.",
+"genalpha": "Arjuna says he’d rather lose the game himself than hurt his family — even if winning meant being king of the whole playground and all the toys. It’s like saying “I don’t want to be the winner if it means making my friends cry.” He cares more about keeping everyone safe and happy than getting the biggest prize."
+},
+{
+"verse": 35,
+"sanskrit": "निहत्य धर्तराष्ट्रान् नः का प्रीतिः स्याजजनार्दन |\nपापमेवाश्रयेदस्मान् हत्वैतानाततायिनः ||",
+"transliteration": "nihatya dhārtarāṣṭrān naḥ kā prītiḥ syāj janārdana\npāpam evāśrayed asmān hatvaitān ātatāyinaḥ",
+"translation": "O Janārdana, what pleasure can we derive from killing the sons of Dhṛtarāṣṭra? Sin will only incur upon us because of these felonies.",
+"millennial": "Arjuna asks what joy victory could bring if it’s built on killing family — the guilt would outweigh any reward. This is the ethical cost-benefit analysis many face when a “win” involves betrayal or harm. In career terms, it’s refusing to take credit for a colleague’s work or expose a friend’s mistake for personal gain — knowing the short-term gain isn’t worth the long-term moral damage. The verse teaches that some victories are actually defeats when measured by conscience rather than status.",
+"genz": "Arjuna’s like “what’s the W even feel like if we have to clap our own fam? The bad karma’s gonna hit harder than any crown.” It’s that moment you realize exposing someone or winning an argument might feel good for five minutes but leaves you with permanent Ls in your conscience and circle.",
+"genalpha": "Arjuna asks “how can we feel happy if we hurt our cousins? Doing this bad thing will make us feel bad inside forever.” It’s like knowing that winning by cheating or being mean will just make you feel guilty and sad later, even if you get the prize."
+},
+{
+"verse": 36,
+"sanskrit": "तस्मान्नार्हा वयं हन्तुं धर्तराष्ट्रान् स्वबान्धवान् |\nस्वजनं हि कथं हत्वा सुखिनः स्याम माधव ||",
+"transliteration": "tasmān nārhā vayaṁ hantuṁ dhārtarāṣṭrān sva-bāndhavān\nsva-janaṁ hi kathaṁ hatvā sukhinaḥ syāma mādhava",
+"translation": "O Mādhava, how can we expect to be happy by killing our own kinsmen? Therefore we are not entitled to kill the sons of Dhṛtarāṣṭra and our friends.",
+"millennial": "Arjuna concludes that happiness is impossible after such destruction of his own people — therefore they have no right to do it. This is the moral bottom line: some lines should never be crossed, even if “duty” or society demands it. In modern terms, it’s refusing to participate in toxic workplace culture, even if it’s “how things are done,” or walking away from a lucrative but unethical business opportunity. The verse affirms that protecting relationships and conscience is true self-interest — real happiness cannot be built on the ruins of loved ones.",
+"genz": "Arjuna’s final vibe check: “How we gonna be happy after taking out our own circle? We don’t even have the right to do this.” It’s that moment you realize no bag, no clout, no win is worth losing your people forever. Sometimes the strongest move is to fold and protect what actually matters.",
+"genalpha": "Arjuna says “we can’t be happy if we hurt our own family, so we shouldn’t do it.” It’s like knowing that winning a game by hurting your brother or cousin will make you feel bad inside forever, so it’s better to stop and keep everyone friends."
+},
+{
+"verse": 37,
+"sanskrit": "यद्यप्येते न पश्यन्ति लोभोपहतचेतसः |\nकुलक्षयकृतं दोषं मित्रद्रोहे च पातकम् ||",
+"transliteration": "yady apy ete na paśyanti lobhopahata-cetasaḥ\nkula-kṣaya-kṛtaṁ doṣaṁ mitra-drohe ca pātakam",
+"translation": "Even if these men, their hearts overtaken by greed, see no fault in killing one’s family or quarreling with friends —",
+"millennial": "Arjuna acknowledges that the other side is blinded by greed and can’t see the wrongness of destroying family and betraying friends. This shows compassion even for opponents — understanding that people act destructively when driven by desire. In professional life, it’s recognizing that colleagues who cut corners or betray trust are often motivated by fear or ambition, not malice. The verse teaches empathy without condoning harm: see the suffering behind bad behavior, but still protect dharma.",
+"genz": "Arjuna’s like “even if they’re too greedy to see how messed up it is to destroy fam and backstab friends…” It’s that moment you realize some people are so deep in their bag-chasing or clout-chasing that they can’t see the damage they’re causing to relationships. Doesn’t make it okay, but explains why they keep doubling down.",
+"genalpha": "Arjuna says “even if they’re too excited about winning to see how bad it is to hurt family and friends…” It’s like when some kids are so focused on getting the biggest toy that they don’t care if they make others sad. It doesn’t make it right, but it helps understand why they act that way."
+},
+{
+"verse": 38,
+"sanskrit": "कथं न ज्ञेयमस्माभिः पापादस्मान्निवर्तितुम् |\nकुलक्षयकृतं दोषं प्रपश्यद्भिर्जनार्दन ||",
+"transliteration": "kathaṁ na jñeyam asmābhiḥ pāpād asmān nivartitum\nkula-kṣaya-kṛtaṁ doṣaṁ prapaśyadbhir janārdana",
+"translation": "Why should we, who can see the crime in destroying a family, engage in these acts of sin, O Janārdana?",
+"millennial": "Arjuna argues that precisely because they can see the evil of family destruction, they should refrain from it. This is moral clarity: awareness of wrongdoing creates responsibility to avoid it. In career terms, it’s choosing not to participate in unethical practices even when everyone else does, because you see the long-term damage to trust, reputation, and self-respect. The verse affirms that seeing clearly is a gift — and with that vision comes the duty to act differently.",
+"genz": "Arjuna’s like “if we can clearly see how wrong and damaging this is, why would we still do it?” It’s that moment you know something is toxic or problematic but everyone’s still participating — and you choose to step back because you see the bigger picture. Moral clarity gives you the strength to say “nah, I’m good.”",
+"genalpha": "Arjuna says “since we can see how bad it is to break the family, why should we do it?” It’s like knowing a game will make everyone cry, so you decide not to play that way even if others want to. Seeing what’s wrong gives you the power to choose the kind thing instead."
+},
+{
+"verse": 39,
+"sanskrit": "कुलक्षये प्रणश्यन्ति कुलधर्माः सनातनाः |\nधर्मे नष्टे कुलं कृत्स्नमधर्मोऽभिभवत्युत ||",
+"transliteration": "kula-kṣaye praṇaśyanti kula-dharmāḥ sanātanāḥ\ndharme naṣṭe kulaṁ kṛtsnam adharmo ’bhibhavaty uta",
+"translation": "With the destruction of the dynasty, the eternal family tradition is vanquished, and thus the rest of the family becomes involved in irreligion.",
+"millennial": "Arjuna explains the domino effect: destroying the family line breaks timeless traditions of righteousness, leading the whole lineage into chaos and immorality. This mirrors how one unethical corporate decision can erode company culture, trust, and long-term sustainability, affecting multiple generations of employees and stakeholders. The verse teaches systemic thinking — actions ripple outward, and protecting dharma protects future stability.",
+"genz": "Arjuna says if the family gets wiped out, all the old good rules and traditions die with it, and then everyone ends up lost and doing messed-up stuff. It’s like when a community or fandom loses its core values — one big drama can kill the vibe for years and turn everything toxic.",
+"genalpha": "Arjuna says if the family gets broken, all the special family rules and nice ways of doing things disappear, and then bad behavior takes over. It’s like when a friend group stops playing fair — the fun games turn mean and no one enjoys it anymore."
+},
+{
+"verse": 40,
+"sanskrit": "अधर्माभिभवात् कृष्ण प्रदुष्यन्ति कुलस्त्रियः |\nस्त्रीषु दुष्टासु वार्ष्णेय जायते वर्णसंकरः ||",
+"transliteration": "adharma-abhibhavāt kṛṣṇa praduṣyanti kula-striyaḥ\nstrīṣu duṣṭāsu vārṣṇeya jāyate varṇa-saṅkaraḥ",
+"translation": "When irreligion is prominent in the family, O Krishna, the women of the family become polluted, and from the degradation of womanhood, O descendant of Vṛṣṇi, comes unwanted progeny.",
+"millennial": "Arjuna warns that breakdown of dharma corrupts family values, particularly affecting women’s roles and leading to societal disorder through improper unions. In modern terms, this can be seen as how ethical erosion in leadership or organizations disproportionately harms vulnerable members and creates long-term instability in teams and communities. The verse highlights intergenerational consequences of moral compromise — short-term gains create long-term chaos.",
+"genz": "Arjuna’s saying when things go wrong in the fam, the whole vibe gets corrupted, especially for the women, and then the next generation comes out messy. It’s like when a community loses its moral compass — the culture gets toxic and the kids grow up in confusion.",
+"genalpha": "Arjuna says when bad behavior takes over the family, it makes things wrong for the moms and sisters, and then the new kids grow up mixed up and confused. It’s like when a playground group stops being kind — the fun turns bad and the younger kids learn the wrong way to play."
+},
+{
+"verse": 41,
+"sanskrit": "संकरो नरकायैव कुलघ्नानां कुलस्य च |\nपतन्ति पितरो ह्येषां लुप्तपिण्डोदकक्रियाः ||",
+"transliteration": "saṅkaro narakāyaiva kula-ghnānāṁ kulasya ca\npatanti pitaro hy eṣāṁ lupta-piṇḍodaka-kriyāḥ",
+"translation": "An increase of unwanted population certainly causes hellish life both for the family and for those who destroy the family tradition. The ancestors of such corrupt families fall down, because the performances for offering them food and water are entirely stopped.",
+"millennial": "Arjuna describes the cascading hell: societal disorder creates suffering for everyone, and ancestors are dishonored when rituals cease. This can be seen as how ethical collapse in organizations or families creates generational trauma — future members inherit chaos, and past contributions are forgotten. The verse teaches long-term thinking: actions today affect ancestors’ legacy and descendants’ well-being.",
+"genz": "Arjuna says messed-up families and societies create hell for everyone, and even the old generations get disrespected when traditions die. It’s like when a fandom or community falls apart — the OGs get forgotten and the new gens inherit toxicity.",
+"genalpha": "Arjuna says when families get broken and mixed up, it makes life feel like a scary place for everyone, and the grandpas and grandmas don’t get remembered properly. It’s like when a favorite game stops being played the right way — the fun memories fade and new kids don’t know the good old rules."
+},
+{
+"verse": 42,
+"sanskrit": "दोषैरेतैः कुलघ्नानां वर्णसंकरकारकैः |\nउत्साद्यन्ते जातिधर्माः कुलधर्माश्च शाश्वताः ||",
+"transliteration": "doṣair etaiḥ kula-ghnānāṁ varṇa-saṅkara-kārakaiḥ\nutsādyante jāti-dharmāḥ kula-dharmāś ca śāśvatāḥ",
+"translation": "By these evil deeds of the destroyers of family tradition, all kinds of community projects and family welfare activities are devastated.",
+"millennial": "These destructive actions ruin both family traditions and community initiatives. In professional terms, it’s how one unethical scandal can destroy company culture, employee trust, and long-term stakeholder relationships. The verse teaches systemic impact — individual moral failures create collective collapse.",
+"genz": "These bad moves wreck all the community vibes and family customs. It’s like one big drama killing the whole group chat energy and making every hangout awkward forever.",
+"genalpha": "The bad actions break all the family games and group fun forever. It’s like when someone ruins a playground rule and then no one wants to play nicely anymore."
+},
+{
+"verse": 43,
+"sanskrit": "उत्सन्नकुलधर्माणां मनुष्याणां जनार्दन |\nनरके नियतं वासो भवतीत्यनुशुश्रुम ||",
+"transliteration": "utsanna-kula-dharmāṇāṁ manuṣyāṇāṁ janārdana\nnarake niyataṁ vāso bhavatīty anuśuśruma",
+"translation": "O Krishna, maintainer of the people, I have heard by disciplic succession that those whose family traditions are destroyed dwell always in hell.",
+"millennial": "Arjuna recalls the teaching that families who lose their ethical traditions face constant suffering. In career terms, it’s the long-term consequences of toxic cultures — high turnover, burnout, reputational damage that lasts generations. The verse emphasizes learning from tradition — ethical shortcuts create lasting damage.",
+"genz": "Arjuna remembers hearing that when fam traditions die, it’s eternal Ls and bad vibes forever. Like when a community loses its core values — it becomes a toxic place no one wants to be part of anymore.",
+"genalpha": "Arjuna says he heard that when families lose their good rules, they end up in a sad, bad place forever. It’s like when a friend group stops playing fair — the playground becomes no fun and feels bad to be in."
+},
+{
+"verse": 44,
+"sanskrit": "अहो बत महत्पापं कर्तुं व्यवसिता वयम् |\nयद्राज्यसुखलोभेन हन्तुं स्वजनमुद्यताः ||",
+"transliteration": "aho bata mahat pāpaṁ kartuṁ vyavasitā vayam\nyad rājya-sukha-lobhena hantuṁ sva-janam udyatāḥ",
+"translation": "Alas, how strange it is that we are preparing to commit greatly sinful acts. Driven by the desire to enjoy royal happiness, we are intent on killing our own kinsmen.",
+"millennial": "Arjuna expresses horror at their plan — driven by greed for power and pleasure, they’re about to destroy their own family. This is the moral rock bottom moment many face when ambition overrides ethics — realizing you’re about to sacrifice relationships for status. The verse teaches self-awareness in the heat of desire: pause and ask “is this worth becoming the villain in my own story?”",
+"genz": "Arjuna’s like “wtf are we doing? We’re about to do massive sin just for the crown and the bag.” It’s that moment you realize you’re about to cross a line for clout or money that will ruin everything that actually matters. Peak “greed makes you do dumb evil shit” realization.",
+"genalpha": "Arjuna says “oh no, we’re about to do a huge bad thing just because we want to be kings and have fun.” It’s like planning to take all the toys by hurting your friends — then realizing it’s not worth it because you’ll feel bad forever."
+},
+{
+"verse": 45,
+"sanskrit": "यदि मामप्रतीकारमशस्त्रं शस्त्रपाणयः |\nधर्तराष्ट्रा रणे हन्युस्तन्मे क्षेमतरं भवेत् ||",
+"transliteration": "yadi mām apratīkāram aśastraṁ śastra-pāṇayaḥ\ndhārtarāṣṭrā raṇe hanyus tan me kṣemataram bhavet",
+"translation": "If the sons of Dhṛtarāṣṭra, weapons in hand, should slay me in battle, unresisting and unarmed, that would be better for me.",
+"millennial": "Arjuna prefers death over killing his kin — passive sacrifice feels safer than active harm. This is the ultimate ethical stance: better to be wronged than to wrong others. In professional life, it’s choosing unemployment over unethical work, or accepting demotion rather than betraying colleagues. The verse teaches that preserving moral integrity is worth any material loss.",
+"genz": "Arjuna’s like “better they take me out unarmed than I take them out.” It’s that “I’d rather lose everything than become the villain” energy — choosing peace over beef even if it costs you the game.",
+"genalpha": "Arjuna says “I’d rather let them win and hurt me than hurt them.” It’s like saying “you can have the toy, I’d rather be nice than fight and feel bad.” He wants to stay good even if he loses."
+},
+{
+"verse": 46,
+"sanskrit": "सञ्जय उवाच |\nएवमुक्त्वार्जुनः सङ्ख्ये रथोपस्थ उपाविशत् |\nविसृज्य सशरं चापं शोकसंविग्नमानसः ||",
+"transliteration": "sañjaya uvāca\nevam uktvārjunaḥ saṅkhye rathopastha upāviśat\nvisṛjya sa-śaraṁ cāpaṁ śoka-saṁvigna-mānasaḥ",
+"translation": "Sanjaya said: Arjuna, having thus spoken on the battlefield, cast aside his bow and arrows and sat down on the chariot, his mind overwhelmed with grief.",
+"millennial": "Arjuna collapses — drops his weapon, sits down, mind flooded with sorrow. This is the rock-bottom moment before transformation, like hitting burnout and finally admitting you can’t continue the way you have been. The chapter ends here because the real story begins when we stop pretending we can handle it alone and turn to guidance (Krishna).",
+"genz": "Arjuna yeets his bow, sits down, and just breaks — mind completely cooked with sadness. It’s that moment you log off, mute everything, and sit in silence after realizing the grind isn’t worth the cost. The chapter stops here because this is where the real glow-up starts — when you finally admit you’re lost and need help.",
+"genalpha": "Arjuna throws down his bow and arrows, sits on his cart, and feels super sad inside. It’s like when a game gets too hard and scary, so you put down your controller and just sit quietly feeling upset. The story pauses here because now his wise friend will help him feel better and know what to do next."
+}
+]
 }
