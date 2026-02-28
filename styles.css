@@ -73,6 +73,11 @@ body {
     transform: scale(1.1);
 }
 
+.icon-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
 .menu-icon {
     display: block;
     width: 20px;
@@ -97,6 +102,121 @@ body {
 
 .menu-icon::after {
     top: 6px;
+}
+
+/* Install Button Animation */
+.install-icon {
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.6;
+    }
+}
+
+@keyframes bounceIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.3);
+    }
+    50% {
+        opacity: 1;
+        transform: scale(1.05);
+    }
+    70% {
+        transform: scale(0.9);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* Install Banner (optional) */
+.install-banner {
+    background: var(--accent);
+    color: white;
+    padding: 1rem;
+    border-radius: 12px;
+    margin: 2rem 0;
+}
+
+.install-banner-content {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.install-banner-icon {
+    font-size: 2rem;
+}
+
+.install-banner-text {
+    flex: 1;
+}
+
+.install-banner-text strong {
+    display: block;
+    font-size: 1.1rem;
+}
+
+.install-banner-text p {
+    margin: 0.2rem 0 0 0;
+    font-size: 0.9rem;
+    opacity: 0.9;
+}
+
+.install-banner-btn {
+    background: white;
+    color: var(--accent);
+    border: none;
+    padding: 0.6rem 1.2rem;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.install-banner-btn:hover {
+    transform: translateY(-2px);
+}
+
+.install-banner-close {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 0;
+    line-height: 1;
+}
+
+/* iOS Install Instructions */
+.install-instructions {
+    text-align: left;
+}
+
+.install-instructions h4 {
+    margin-bottom: 1rem;
+    color: var(--accent);
+    text-align: center;
+}
+
+.install-steps {
+    padding-left: 1.5rem;
+    margin: 1rem 0;
+}
+
+.install-steps li {
+    margin: 1rem 0;
+    line-height: 1.8;
+}
+
+.install-steps strong {
+    color: var(--accent);
 }
 
 /* Persona Selector Dropdown */
@@ -995,5 +1115,14 @@ body {
     .toast {
         width: 90%;
         max-width: 400px;
+    }
+    
+    .install-banner-content {
+        flex-wrap: wrap;
+    }
+    
+    .install-banner-btn {
+        width: 100%;
+        margin-top: 0.5rem;
     }
 }
