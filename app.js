@@ -10,12 +10,15 @@ class GitaApp {
         this.flavor = localStorage.getItem('flavor') || 'genz';
         this.lastRead = JSON.parse(localStorage.getItem('lastRead')) || null;
         this.pendingPersona = null;
+        this.deferredPrompt = null; // For PWA install
+        this.isInstalled = false; // Track if app is installed
     }
 
     async init() {
         await this.initDB();
         await this.loadChapters();
         this.setupEventListeners();
+        this.setupInstallPrompt(); // PWA install setup
         this.applyTheme();
         await this.showDailyShloka();
         this.showLastRead();
@@ -59,6 +62,14 @@ class GitaApp {
         document.getElementById('refreshBtn').addEventListener('click', () => {
             this.refreshData();
         });
+
+        // Install button
+        const installBtn = document.getElementById('installBtn');
+        if (installBtn) {
+            installBtn.addEventListener('click', () => {
+                this.installApp();
+            });
+        }
 
         // Persona dropdown
         const personaBtn = document.getElementById('personaBtn');
@@ -117,6 +128,144 @@ class GitaApp {
                 this.closePersonaModal();
             }
         });
+    }
+
+    // PWA Install Functionality
+    setupInstallPrompt() {
+        // Check if already installed
+        if (window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone === true) {
+            this.isInstalled = true;
+            this.hideInstallButton();
+            return;
+        }
+
+        // Listen for beforeinstallprompt event
+        window.addEventListener('beforeinstallprompt', (e) => {
+            console.log('beforeinstallprompt fired');
+            // Prevent the default browser install prompt
+            e.preventDefault();
+            // Store the event for later use
+            this.deferredPrompt = e;
+            // Show our custom install button
+            this.showInstallButton();
+        });
+
+        // Listen for app installed event
+        window.addEventListener('appinstalled', () => {
+            console.log('PWA installed successfully');
+            this.isInstalled = true;
+            this.deferredPrompt = null;
+            this.hideInstallButton();
+            this.showToast('✅ App installed successfully!');
+        });
+
+        // For iOS - check if already installed
+        if (this.isIOSDevice() && !this.isInstalled) {
+            // On iOS, we can't auto-detect install, so show instructions
+            this.showIOSInstallHint();
+        }
+    }
+
+    async installApp() {
+        if (!this.deferredPrompt) {
+            console.log('Install prompt not available');
+            
+            // Check if it's iOS
+            if (this.isIOSDevice()) {
+                this.showIOSInstallInstructions();
+            } else {
+                this.showToast('App is already installed or install not available');
+            }
+            return;
+        }
+
+        // Show the install prompt
+        this.deferredPrompt.prompt();
+
+        // Wait for user response
+        const { outcome } = await this.deferredPrompt.userChoice;
+        console.log(`User response: ${outcome}`);
+
+        if (outcome === 'accepted') {
+            console.log('User accepted the install');
+            this.showToast('📥 Installing app...');
+        } else {
+            console.log('User dismissed the install');
+            this.showToast('Installation cancelled');
+        }
+
+        // Clear the prompt
+        this.deferredPrompt = null;
+    }
+
+    showInstallButton() {
+        const installBtn = document.getElementById('installBtn');
+        if (installBtn) {
+            installBtn.style.display = 'flex';
+            // Animate in
+            setTimeout(() => {
+                installBtn.style.animation = 'bounceIn 0.5s';
+            }, 100);
+        }
+        
+        // Also show banner on home page (optional)
+        const banner = document.getElementById('installBanner');
+        if (banner && this.currentView === 'home') {
+            banner.style.display = 'block';
+        }
+    }
+
+    hideInstallButton() {
+        const installBtn = document.getElementById('installBtn');
+        if (installBtn) {
+            installBtn.style.display = 'none';
+        }
+        
+        const banner = document.getElementById('installBanner');
+        if (banner) {
+            banner.style.display = 'none';
+        }
+    }
+
+    isIOSDevice() {
+        return /iPhone|iPad|iPod/.test(navigator.userAgent) && !window.MSStream;
+    }
+
+    showIOSInstallHint() {
+        // Only show hint if not already installed
+        if (!window.navigator.standalone) {
+            const installBtn = document.getElementById('installBtn');
+            if (installBtn) {
+                installBtn.style.display = 'flex';
+            }
+        }
+    }
+
+    showIOSInstallInstructions() {
+        const modalBody = document.getElementById('personaModalBody');
+        modalBody.innerHTML = `
+            <div class="install-instructions">
+                <h4>📱 Install on iPhone/iPad</h4>
+                <ol class="install-steps">
+                    <li>Tap the <strong>Share</strong> button <span style="font-size: 1.5rem;">⎋</span> at the bottom of Safari</li>
+                    <li>Scroll down and tap <strong>"Add to Home Screen"</strong> <span style="font-size: 1.5rem;">➕</span></li>
+                    <li>Tap <strong>"Add"</strong> in the top right</li>
+                    <li>The app will appear on your home screen!</li>
+                </ol>
+            </div>
+        `;
+        
+        document.getElementById('personaModal').classList.add('show');
+        
+        // Change confirm button to "Got it"
+        const confirmBtn = document.querySelector('.btn-primary');
+        const originalOnClick = confirmBtn.onclick;
+        confirmBtn.textContent = 'Got it!';
+        confirmBtn.onclick = () => {
+            this.closePersonaModal();
+            confirmBtn.textContent = 'Confirm';
+            confirmBtn.onclick = originalOnClick;
+        };
     }
 
     toggleSidebar() {
@@ -340,7 +489,7 @@ class GitaApp {
                 return;
             }
             
-            // Store for "Read Full Verse" click
+            // Store for later reference
             this.dailyShlokaInfo = { chapter: chapterNum, verse: verseNum };
             
             // Show only Sanskrit text - clickable
