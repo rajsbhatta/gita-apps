@@ -2,224 +2,191 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta name="description" content="Bhagavad Gita for modern times - Sanskrit, English, and relatable explanations">
-    <meta name="theme-color" content="#1a1a2e">
-    
-    <!-- PWA -->
-    <link rel="manifest" href="./manifest.json">
-    <link rel="icon" type="image/x-icon" href="./favicon.ico">
-    <link rel="icon" type="image/png" sizes="192x192" href="./icon-192.png">
-    <link rel="apple-touch-icon" href="./icon-192.png">
-    
-    <title>Bhagavad Gita | Modern Guide</title>
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhagavad Gita - Timeless Wisdom for Modern Life</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="icon-512.png">
+    <meta name="theme-color" content="#FF9933">
+    <meta name="description" content="Read the Bhagavad Gita with modern explanations for Millennials, Gen Z, and Gen Alpha. Offline-first PWA with Sanskrit verses, translations, and relatable wisdom.">
 </head>
 <body>
-    <!-- App Container -->
-    <div id="app">
-        <!-- Header -->
-        <header class="header">
-            <button id="menuBtn" class="icon-btn" aria-label="Menu">
-                <span class="menu-icon"></span>
-            </button>
-            <h1 class="app-title">Bhagavad Gita</h1>
-            <div class="header-actions">
-                <button id="refreshBtn" class="icon-btn" aria-label="Refresh data" title="Refresh content from server">
-                    <span class="refresh-icon">🔄</span>
+    <!-- Header -->
+    <header class="header">
+        <button id="menuBtn" class="icon-btn" aria-label="Menu">
+            <span class="menu-icon"></span>
+        </button>
+        <h1 class="app-title">Bhagavad Gita</h1>
+        <div class="header-actions">
+            <!-- Persona Selector Dropdown -->
+            <div class="persona-selector">
+                <button id="personaBtn" class="icon-btn" aria-label="Select persona" title="Choose your style">
+                    <span class="persona-icon">👤</span>
                 </button>
-                <button id="themeToggle" class="icon-btn" aria-label="Toggle theme">
-                    <span class="theme-icon">🌙</span>
-                </button>
-            </div>
-        </header>
-
-        <!-- Navigation Sidebar -->
-        <nav id="sidebar" class="sidebar">
-            <div class="sidebar-header">
-                <h2>Chapters</h2>
-                <button id="closeSidebar" class="icon-btn">✕</button>
-            </div>
-            <div id="chapterList" class="chapter-list">
-                <!-- Generated dynamically -->
-            </div>
-        </nav>
-
-        <!-- Main Content -->
-        <main id="mainContent" class="main-content">
-            <!-- Home View -->
-            <div id="homeView" class="view active">
-                <div class="hero">
-                    <h2 class="hero-title">ॐ</h2>
-                    <p class="hero-subtitle">Timeless Wisdom for Modern Life</p>
+                <div id="personaDropdown" class="persona-dropdown">
+                    <div class="persona-option" data-persona="millennial">
+                        <span class="persona-emoji">👔</span>
+                        <div class="persona-info">
+                            <div class="persona-name">Millennial</div>
+                            <div class="persona-age">Ages 28-43</div>
+                        </div>
+                    </div>
+                    <div class="persona-option" data-persona="genz">
+                        <span class="persona-emoji">📱</span>
+                        <div class="persona-info">
+                            <div class="persona-name">Gen Z</div>
+                            <div class="persona-age">Ages 12-27</div>
+                        </div>
+                    </div>
+                    <div class="persona-option" data-persona="genalpha">
+                        <span class="persona-emoji">🎮</span>
+                        <div class="persona-info">
+                            <div class="persona-name">Gen Alpha</div>
+                            <div class="persona-age">Ages 5-14</div>
+                        </div>
+                    </div>
                 </div>
+            </div>
+            
+            <button id="refreshBtn" class="icon-btn" aria-label="Refresh data" title="Refresh content">
+                <span class="refresh-icon">🔄</span>
+            </button>
+            <button id="themeToggle" class="icon-btn" aria-label="Toggle theme">
+                <span class="theme-icon">🌙</span>
+            </button>
+        </div>
+    </header>
 
+    <!-- Sidebar Menu -->
+    <nav id="sidebar" class="sidebar">
+        <div class="sidebar-header">
+            <h2>Menu</h2>
+            <button class="close-btn" onclick="app.toggleSidebar()">×</button>
+        </div>
+        <ul class="menu-list">
+            <li><button onclick="app.goHome(); app.toggleSidebar();">🏠 Home</button></li>
+            <li><button onclick="app.showChapters(); app.toggleSidebar();">📖 Browse Chapters</button></li>
+            <li><button onclick="app.showBookmarks(); app.toggleSidebar();">⭐ My Bookmarks</button></li>
+            <li><button onclick="app.showSearch(); app.toggleSidebar();">🔍 Search</button></li>
+        </ul>
+    </nav>
+
+    <!-- Overlay for sidebar -->
+    <div id="overlay" class="overlay" onclick="app.toggleSidebar()"></div>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Home View -->
+        <div id="homeView" class="view active">
+            <div class="hero">
+                <h2 class="hero-title">Welcome to the Bhagavad Gita</h2>
+                <p class="hero-subtitle">Ancient wisdom explained for your generation</p>
+                
+                <!-- Continue Reading Section -->
+                <div id="continueReading" class="continue-section" style="display: none;">
+                    <h3>📖 Continue Reading</h3>
+                    <div id="lastReadCard" class="last-read-card"></div>
+                </div>
+                
+                <!-- Daily Shloka -->
                 <div class="daily-shloka">
-                    <h3>Shloka of the Day</h3>
+                    <h3>Today's Verse</h3>
                     <div id="dailyShloka" class="shloka-card">
-                        <div class="loading">Loading...</div>
+                        <div class="loading">Loading daily verse...</div>
                     </div>
                 </div>
 
-                <div class="quick-actions">
-                    <button class="action-btn" onclick="app.showChapters()">
-                        📖 Browse Chapters
+                <!-- Expandable Action Buttons -->
+                <div class="expandable-actions">
+                    <button class="expand-btn" data-action="chapters">
+                        <span class="btn-icon">📖</span>
+                        <span class="btn-label">Browse Chapters</span>
                     </button>
-                    <button class="action-btn" onclick="app.showBookmarks()">
-                        ⭐ My Bookmarks
+                    <button class="expand-btn" data-action="bookmarks">
+                        <span class="btn-icon">⭐</span>
+                        <span class="btn-label">My Bookmarks</span>
                     </button>
-                    <button class="action-btn" onclick="app.showSearch()">
-                        🔍 Search
-                    </button>
-                    <button class="action-btn" onclick="app.showSettings()">
-                        ⚙️ Settings
+                    <button class="expand-btn" data-action="search">
+                        <span class="btn-icon">🔍</span>
+                        <span class="btn-label">Search</span>
                     </button>
                 </div>
 
-                <div class="about">
-                    <p>The Bhagavad Gita reimagined for our generation. Ancient Sanskrit wisdom with modern, relatable explanations.</p>
-                    <p class="storage-info">💾 Lightweight • Works Offline • No Ads</p>
+                <!-- About Section -->
+                <div class="about-section">
+                    <h3>About This App</h3>
+                    <p>The Bhagavad Gita contains timeless wisdom on life, duty, and purpose. This app presents these teachings with explanations tailored for your generation.</p>
+                    <ul class="feature-list">
+                        <li>✨ Sanskrit verses with translations</li>
+                        <li>📱 Modern explanations for your age group</li>
+                        <li>💾 Works offline after first load</li>
+                        <li>🔖 Bookmark your favorite verses</li>
+                        <li>🌙 Dark mode support</li>
+                        <li>📖 18 chapters, 700 verses</li>
+                    </ul>
                     <p class="copyright">© Saurabh Bhattacharjee, 2026</p>
                 </div>
             </div>
-
-            <!-- Chapter View -->
-            <div id="chapterView" class="view">
-                <button class="back-btn" onclick="app.goHome()">← Back</button>
-                <div id="chapterContent">
-                    <!-- Generated dynamically -->
-                </div>
-            </div>
-
-            <!-- Shloka Detail View -->
-            <div id="shlokaView" class="view">
-                <button class="back-btn" onclick="app.goBack()">← Back</button>
-                <div id="shlokaContent">
-                    <!-- Generated dynamically -->
-                </div>
-            </div>
-
-            <!-- Search View -->
-            <div id="searchView" class="view">
-                <button class="back-btn" onclick="app.goHome()">← Back</button>
-                <div class="search-container">
-                    <input type="text" id="searchInput" placeholder="Search by keyword, theme, or verse..." class="search-input">
-                    <div id="searchResults" class="search-results">
-                        <!-- Generated dynamically -->
-                    </div>
-                </div>
-            </div>
-
-            <!-- Bookmarks View -->
-            <div id="bookmarksView" class="view">
-                <button class="back-btn" onclick="app.goHome()">← Back</button>
-                <h2>My Bookmarks</h2>
-                <div id="bookmarksList" class="bookmarks-list">
-                    <!-- Generated dynamically -->
-                </div>
-            </div>
-
-            <!-- Settings View -->
-            <div id="settingsView" class="view">
-                <button class="back-btn" onclick="app.goHome()">← Back</button>
-                <h2>⚙️ Settings</h2>
-    
-                <div class="settings-container">
-                    <div class="setting-section">
-                        <h3>📖 Explanation Style</h3>
-                        <p class="setting-description">Choose how you want the teachings explained</p>
-            
-                        <div class="flavor-options">
-                            <label class="flavor-card">
-                                <input type="radio" name="flavor" value="millennial" onchange="app.changeFlavor('millennial')">
-                                <div class="flavor-content">
-                                    <div class="flavor-header">
-                                        <span class="flavor-icon">👔</span>
-                                        <span class="flavor-title">Millennial</span>
-                                    </div>
-                                    <div class="flavor-age">Ages 28-43</div>
-                                    <div class="flavor-description">
-                                        Professional tone, career-focused examples, work-life balance, managing responsibilities
-                                    </div>
-                                    <div class="flavor-example">
-                                        <strong>Example:</strong> "Like managing a team at work, you need to delegate without micromanaging the outcome."
-                                    </div>
-                                </div>
-                            </label>
-                
-                            <label class="flavor-card">
-                                <input type="radio" name="flavor" value="genz" onchange="app.changeFlavor('genz')">
-                                <div class="flavor-content">
-                                    <div class="flavor-header">
-                                        <span class="flavor-icon">📱</span>
-                                        <span class="flavor-title">Gen Z</span>
-                                    </div>
-                                    <div class="flavor-age">Ages 12-27</div>
-                                    <div class="flavor-description">
-                                        Casual, relatable, social media references, mental health aware, authentic and honest
-                                    </div>
-                                    <div class="flavor-example">
-                                        <strong>Example:</strong> "It's like posting your art online but not obsessing over likes. Create because you love it, not for validation."
-                                    </div>
-                                </div>
-                            </label>
-                
-                            <label class="flavor-card">
-                                <input type="radio" name="flavor" value="genalpha" onchange="app.changeFlavor('genalpha')">
-                                <div class="flavor-content">
-                                    <div class="flavor-header">
-                                        <span class="flavor-icon">🎮</span>
-                                        <span class="flavor-title">Gen Alpha</span>
-                                    </div>
-                                    <div class="flavor-age">Ages 5-14</div>
-                                    <div class="flavor-description">
-                                        Simple language, gaming/tech analogies, emoji use, fun and engaging, age-appropriate
-                                    </div>
-                                    <div class="flavor-example">
-                                        <strong>Example:</strong> "Think of it like playing a game. Do your best to win, but don't rage quit if you lose! 🎮"
-                                    </div>
-                                </div>
-                            </label>
-                        </div>
-                    </div>
-        
-                    <div class="setting-section">
-                        <h3>ℹ️ About Flavors</h3>
-                        <p>Each generation has different life experiences and ways of learning. Choose the style that resonates with you:</p>
-                        <ul class="flavor-info">
-                            <li><strong>Millennial:</strong> Career challenges, family responsibilities, finding balance</li>
-                            <li><strong>Gen Z:</strong> Social media, mental health, finding purpose, being authentic</li>
-                            <li><strong>Gen Alpha:</strong> School, friendships, gaming, growing up in a digital world</li>
-                        </ul>
-                        <p class="note">💡 You can change this anytime in Settings</p>
-                    </div>
-                </div>
-            </div>
-        </main>
-
-        <!-- Install Prompt (for PWA) -->
-        <div id="installPrompt" class="install-prompt hidden">
-            <p>Install app for offline access</p>
-            <button id="installBtn" class="install-btn">Install</button>
-            <button id="dismissInstall" class="icon-btn">✕</button>
         </div>
 
-        <!-- Loading Overlay -->
-        <div id="loadingOverlay" class="loading-overlay hidden">
-            <div class="spinner"></div>
+        <!-- Chapters View -->
+        <div id="chaptersView" class="view">
+            <button class="back-btn" onclick="app.goHome()">← Back</button>
+            <h2>Browse Chapters</h2>
+            <div id="chaptersList" class="chapters-grid"></div>
+        </div>
+
+        <!-- Chapter Detail View -->
+        <div id="chapterDetailView" class="view">
+            <button class="back-btn" onclick="app.showChapters()">← Back to Chapters</button>
+            <div id="chapterDetail"></div>
+        </div>
+
+        <!-- Shloka Detail View -->
+        <div id="shlokaView" class="view">
+            <button class="back-btn" onclick="app.goBackFromShloka()">← Back</button>
+            <div id="shlokaDetail"></div>
+        </div>
+
+        <!-- Bookmarks View -->
+        <div id="bookmarksView" class="view">
+            <button class="back-btn" onclick="app.goHome()">← Back</button>
+            <h2>⭐ My Bookmarks</h2>
+            <div id="bookmarksList" class="bookmarks-list"></div>
+        </div>
+
+        <!-- Search View -->
+        <div id="searchView" class="view">
+            <button class="back-btn" onclick="app.goHome()">← Back</button>
+            <h2>🔍 Search</h2>
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Search verses by keyword..." />
+                <button onclick="app.performSearch()">Search</button>
+            </div>
+            <div id="searchResults" class="search-results"></div>
+        </div>
+    </main>
+
+    <!-- Persona Confirmation Modal -->
+    <div id="personaModal" class="modal">
+        <div class="modal-content">
+            <h3>Change Explanation Style?</h3>
+            <div id="personaModalBody" class="modal-body"></div>
+            <div class="modal-actions">
+                <button class="btn-secondary" onclick="app.closePersonaModal()">Cancel</button>
+                <button class="btn-primary" onclick="app.confirmPersonaChange()">Confirm</button>
+            </div>
         </div>
     </div>
 
     <script src="app.js"></script>
     <script>
-        // Register Service Worker
         if ('serviceWorker' in navigator) {
-            window.addEventListener('load', () => {
-                navigator.serviceWorker.register('sw.js')
-                    .then(reg => console.log('Service Worker registered'))
-                    .catch(err => console.log('Service Worker registration failed'));
-            });
+            navigator.serviceWorker.register('/sw.js')
+                .then(reg => console.log('Service Worker registered'))
+                .catch(err => console.log('Service Worker registration failed'));
         }
     </script>
 </body>
