@@ -5,208 +5,266 @@
   "verses": 29,
   "introduction": "Chapter 5 of the Bhagavad Gita, Karma Sannyasa Yoga (The Yoga of Renunciation of Action), addresses one of the most practical and frequently debated questions in spiritual life: Should I actively work in the world (karma yoga) or renounce action altogether (sannyasa)? Krishna resolves the apparent contradiction by showing that both paths lead to the same goal when done correctly. True renunciation is not abandoning work but abandoning attachment to results. This chapter is especially relevant for today’s audience — people torn between high-pressure careers, side hustles, family responsibilities, and the inner call for peace and freedom. It teaches how to stay fully engaged in life while remaining internally free, turning everyday action into a path of liberation rather than bondage.",
   "shlokas": [
-    {
-      "verse": 1,
-      "sanskrit": "अर्जुन उवाच |\nसंन्यासं कर्मणां कृष्ण पुनर्योगं च शंससि |\nयच्छ्रेय एतयोरेकं तन्मे ब्रूहि सुनिश्चितम् ||",
-      "transliteration": "arjuna uvāca\nsaṁnyāsaṁ karmaṇāṁ kṛṣṇa punar yogaṁ ca śaṁsasi\nyac chreya etayor ekaṁ tan me brūhi suniścitam",
-      "translation": "Arjuna said: O Krishna, You praise renunciation of actions (sannyasa) and also the yoga of action. Please tell me decisively which of these two is better for me.",
-      "modern": "Arjuna is genuinely confused — just like many of us today. One voice says 'quit the rat race, go off-grid, meditate in the mountains.' Another says 'hustle hard, build something meaningful, change the world through action.' Both sound noble, but which actually leads to real peace and fulfillment? In 2026 life, this is the classic dilemma: Should I keep grinding at my demanding job/startup/freelance career to create impact and security, or should I downsize, simplify, and focus on inner work? Arjuna wants clarity — not vague spirituality, but a decisive answer. Krishna is about to give one of the clearest resolutions in spiritual literature: both paths work, but the attitude matters far more than the external form."
-    },
-    {
-      "verse": 2,
-      "sanskrit": "श्रीभगवानुवाच |\nसंन्यासः कर्मयोगश्च निःश्रेयसकरावुभौ |\nतयोस्तु कर्मसंन्यासात्कर्मयोगो विशिष्यते ||",
-      "transliteration": "śrī-bhagavān uvāca\nsaṁnyāsaḥ karma-yogaś ca niḥśreyasa-karāv ubhau\ntayos tu karma-saṁnyāsāt karma-yogo viśiṣyate",
-      "translation": "The Supreme Personality of Godhead said: Both renunciation of work (sannyasa) and the selfless performance of work (karma-yoga) lead to the path of liberation. But of the two, karma-yoga is superior to sannyasa.",
-      "modern": "Krishna’s verdict: Both paths are valid and can lead to the highest goal, but for most people (especially in the householder/active stage of life), karma yoga — doing your work selflessly — is actually better and more practical than external renunciation. Why? Because true renunciation is internal. You can quit your job and still be attached to comfort, ego, or past achievements. Or you can stay in the world, run a company, raise kids, pay bills, and be completely free inside. In today’s world this is liberating: you don’t have to become a monk or digital nomad to be spiritual. You can be a founder, employee, parent, student — and still practice the highest yoga by changing your inner relationship to action. External renunciation without inner detachment often leads to escapism or regret. Internal renunciation while acting creates real freedom. This is why many of the most peaceful, impactful people today are not those who ran away from life, but those who stayed in it with a transformed mind."
-    },
-    {
-      "verse": 3,
-      "sanskrit": "ज्ञेयः स नित्यसंन्यासी यो न द्वेष्टि न काङ्क्षति |\nनिर्द्वन्द्वो हि महाबाहो सुखं बन्धात्प्रमुच्यते ||",
-      "transliteration": "jñeyaḥ sa nitya-saṁnyāsī yo na dveṣṭi na kāṅkṣati\nnirdvandvo hi mahā-bāho sukhaṁ bandhāt pramucyate",
-      "translation": "One who neither hates nor desires the fruits of his activities is known to be always renounced. Such a person, free from dualities, is easily liberated from bondage, O mighty-armed Arjuna.",
-      "modern": "Here Krishna defines real sannyasa: not the orange robe or zero bank balance, but the person who neither hates unpleasant outcomes nor craves pleasant ones. No resentment when the promotion goes to someone else, no obsession when the startup gets funded. Free from the duality of like/dislike, success/failure — that’s the one who is truly renounced and easily liberated. In daily life: the colleague who gets harsh feedback and says “thank you for the input” instead of spiraling. The founder whose product launch flops and thinks “great data, next iteration.” The parent whose teenager rebels and responds with steady love instead of anger. This inner posture is what cuts the chains. External symbols are optional; this attitude is mandatory. Funny how we think freedom comes from having more control, when real freedom comes from dropping the need to control outcomes."
-    },
-    {
-      "verse": 4,
-      "sanskrit": "साङ्ख्ययोगौ पृथग्बालाः प्रवदन्ति न पण्डिताः |\nएकमप्यास्थितः सम्यगुभयोर्विन्दते फलम् ||",
-      "transliteration": "sāṅkhya-yogau pṛthag bālāḥ pravadanti na paṇḍitāḥ\nekam apy āsthitaḥ samyag ubhayor vindate phalam",
-      "translation": "Only the ignorant speak of devotional service [karma-yoga] and analytical study [sankhya] as different. The wise see that by applying himself well to either of them, one can attain the results of both.",
-      "modern": "Krishna shuts down the false dichotomy: the immature argue “action vs. knowledge,” “doer vs. knower,” “hustle vs. surrender.” The wise know both paths — when practiced properly — deliver the same liberation. It’s like debating cardio vs. strength training: both make you fit when done right. In today’s spiritual marketplace: some say “just meditate and detach,” others say “action is worship, keep building.” Krishna says stop fighting — master one sincerely and you’ll get the fruit of both. If you truly practice karma yoga (selfless action), you naturally develop sankhya (clear knowledge of the self). If you truly practice sankhya (self-inquiry), you naturally act without attachment. No need to choose teams. Pick the path that feels natural to your temperament and go deep. The destination is the same."
-    },
-    {
-      "verse": 5,
-      "sanskrit": "यत्साङ्ख्यैः प्राप्यते स्थानं तद्योगैरपि गम्यते |\nएकं साङ्ख्यं च योगं च यः पश्यति स पश्यति ||",
-      "transliteration": "yat sāṅkhyaiḥ prāpyate sthānaṁ tad yogair api gamyate\nekaṁ sāṅkhyaṁ ca yogaṁ ca yaḥ paśyati sa paśyati",
-      "translation": "The state of perfection reached by the path of analytical knowledge is also reached by the path of devotional service. One who sees that the path of knowledge and the path of devotional service are one, truly sees.",
-      "modern": "The goal is identical. The person who sees no real difference between the path of knowledge (understanding the self) and the path of selfless action (karma yoga) truly understands. It’s like two different GPS routes to the same destination — one scenic, one direct. Both arrive. In modern terms: the introspective person who spends hours in self-inquiry and journaling eventually acts with detachment. The high-achieving doer who practices offering every task without ego eventually gains deep self-knowledge. No contradiction. This verse ends the debate once and for all. Whether you’re more naturally reflective or action-oriented, lean into your strength — the other quality will grow automatically. The wise don’t argue paths; they walk one deeply and arrive."
-    },
-    {
-      "verse": 6,
-      "sanskrit": "संन्यासस्तु महाबाहो दुःखमाप्तुमयोगतः |\nयोगयुक्तो मुनिर्ब्रह्म नचिरेणाधिगच्छति ||",
-      "transliteration": "saṁnyāsas tu mahā-bāho duḥkham āptum ayogataḥ\nyoga-yukto munir brahma nacireṇādhigacchati",
-      "translation": "Merely renouncing all activities (without purification of heart) is very difficult and troublesome for anyone. But a sage who is engaged in devotional service (karma yoga) quickly attains the Supreme.",
-      "modern": "Trying to renounce action without inner preparation is painful and usually fails — like going cold turkey on all ambition without building contentment first. Most people who abruptly quit everything end up restless, regretful, or secretly attached to results anyway. But the person who purifies the mind through karma yoga (selfless action) reaches the highest quickly and naturally. In today’s world: the person who tries to “do nothing” and meditate all day without addressing ego, desires, or restlessness often becomes more agitated. Meanwhile, the one who keeps working but offers every action, practices gratitude, and detaches from praise/blame — that person’s mind becomes calm fast. This is why so many spiritual teachers say “stay in the world, but change your relationship to it.” Karma yoga is the fast track for most active people in 2026."
-    },
-    {
-      "verse": 7,
-      "sanskrit": "योगयुक्तो विशुद्धात्मा विजितात्मा जितेन्द्रियः |\nसर्वभूतात्मभूतात्मा कुर्वन्नपि न लिप्यते ||",
-      "transliteration": "yoga-yukto viśuddhātmā vijitātmā jitendriyaḥ\nsarva-bhūtātma-bhūtātmā kurvann api na lipyate",
-      "translation": "One who is engaged in devotional service, who is pure in heart, who has conquered the self and subdued the senses, who sees the self in all living beings — such a person is not contaminated even while acting.",
-      "modern": "The portrait of the liberated doer: mind purified, self controlled, senses mastered, sees the same soul in everyone — acts but remains untouched. This is the person who can negotiate a tough deal, give critical feedback, fire someone, or launch a controversial product — and still sleep peacefully. Why? Because they see no “other” — only the same consciousness everywhere. No personal victory or defeat. In practice: the manager who lays off with compassion, the activist who protests without hatred, the creator who receives both praise and hate without being swayed. This vision (oneness) is the ultimate shield against karma. When you act from that place, nothing sticks — no guilt, no pride, no residue. This is how some people do very intense work and remain serene. The secret is seeing all beings as extensions of the same Self."
-    },
-    {
-      "verse": 8,
-      "sanskrit": "नैव किञ्चित्करोमीति युक्तो मन्येत तत्त्ववित् |\nपश्यञ्शृण्वन्स्पृशञ्जिघ्रन्नश्नन्गच्छन्स्वपञ्श्वसन् ||",
-      "transliteration": "naiva kiñcit karomīti yukto manyeta tattva-vit\npaśyañ śṛṇvan spṛśañ jighrann aśnan gacchan svapan śvasan",
-      "translation": "A person in the mode of goodness, who is fully engaged in devotional service and enlightened by transcendental knowledge, thinks, 'I am not doing anything,' even while seeing, hearing, touching, smelling, eating, moving about, sleeping and breathing.",
-      "modern": "The enlightened one thinks “I am not the doer” even while fully active — seeing, hearing, eating, walking, sleeping. This is radical ownership shift: the body and mind act, but the real Self is only the witness. In daily life: you type the email, attend the meeting, cook dinner, scroll your phone — but internally you know “these are movements of prakriti (nature); I am the unchanging witness.” This doesn’t make you lazy — it makes you free. You still do everything excellently, but without the egoic “I am the achiever” weight. This is how some people perform at elite levels without burnout or arrogance. The funniest part? The world thinks they’re superhumans. In reality, they’ve just stopped identifying as the doer. Huge relief."
-    },
-    {
-      "verse": 9,
-      "sanskrit": "प्रलपन्विसृजन्गृह्णन्नुन्मिषन्निमिषन्नपि |\nइन्द्रियाणीन्द्रियार्थेषु वर्तन्त इति धारयन् ||",
-      "transliteration": "pralapan visṛjan gṛhṇann unmiṣan nimiṣann api\nindriyāṇīndriyārtheṣu vartanta iti dhārayan",
-      "translation": "Even while speaking, letting go, grasping, opening and closing the eyes — the knower of truth understands that it is only the senses interacting with sense objects.",
-      "modern": "Even blinking, talking, holding a cup — all just senses doing their job. The wise one remains the detached observer. In 2026: typing on your laptop, swiping on your phone, sipping coffee, checking notifications — all mechanical interactions. You’re not “doing” them; they’re happening. This subtle shift ends identification with every small action. No more “I messed up that email,” “I’m addicted to my phone,” “I can’t stop eating junk.” Instead: “The body is typing, the mind is craving, the senses are reacting.” You become the calm space in which it all occurs. This is the foundation of real mindfulness in motion — not just during meditation, but during every second of daily chaos. Mastery here turns ordinary life into continuous meditation."
-    },
-    {
-      "verse": 10,
-      "sanskrit": "ब्रह्मण्याधाय कर्माणि सङ्गं त्यक्त्वा करोति यः |\nलिप्यते न स पापेन पद्मपत्रमिवाम्भसा ||",
-      "transliteration": "brahmaṇy ādhāya karmāṇi saṅgaṁ tyaktvā karoti yaḥ\nlipyate na sa pāpena padma-patram ivāmbhasā",
-      "translation": "One who performs his duty without attachment, surrendering the results unto the Supreme Lord, is unaffected by sinful action, as the lotus leaf is untouched by water.",
-      "modern": "The classic lotus-leaf analogy: do your duty, offer the results to the Divine, stay detached — no sin sticks, just like water rolls off a lotus leaf. In practice: you negotiate the hard contract, make the unpopular decision, launch the risky feature — but internally you’ve already offered the outcome. No guilt if it fails, no arrogance if it succeeds. This is how ethical people in high-stakes roles (doctors making life-death calls, leaders during layoffs, founders during pivots) stay sane and clean. The water (action) touches the leaf (you) but doesn’t wet it (doesn’t bind you). This verse is your daily armor: act fully, offer fully, stay untouched. Your most difficult decisions become spiritually neutral when offered this way."
-    },
-    {
-      "verse": 11,
-      "sanskrit": "कायेन मनसा बुद्ध्या केवलैरिन्द्रियैरपि |\nयोगिनः कर्म कुर्वन्ति सङ्गं त्यक्त्वात्मशुद्धये ||",
-      "transliteration": "kāyena manasā buddhyā kevalair indriyair api\nyoginaḥ karma kurvanti saṅgaṁ tyaktvātma-śuddhaye",
-      "translation": "The yogis, abandoning attachment, act with body, mind, intelligence, and even the senses, only for the purpose of purifying the self.",
-      "modern": "True yogis use every instrument — physical effort, thoughts, decisions, senses — but only for self-purification, without attachment. In modern terms: your workout is for health and clarity, not Instagram likes. Your strategic thinking is for the mission, not ego. Your customer calls are for service, not commissions. Every action becomes a cleansing ritual. This turns mundane routines into powerful sadhana. Your commute becomes contemplation time. Your emails become karma yoga practice. Your gym session becomes self-purification. When the motive shifts from “me getting ahead” to “me becoming clearer,” everything accelerates. This is how ordinary days become extraordinary spiritual training grounds."
-    },
-    {
-      "verse": 12,
-      "sanskrit": "युक्तः कर्मफलं त्यक्त्वा शान्तिमाप्नोति नैष्ठिकीम् |\nअयुक्तः कामकारेण फले सक्तो निबध्यते ||",
-      "transliteration": "yuktaḥ karma-phalaṁ tyaktvā śāntim āpnoti naiṣṭhikīm\nayuktaḥ kāma-kāreṇa phale sakto nibadhyate",
-      "translation": "The steadily engaged person who renounces the fruit of his action attains steady peace. But the person who is not engaged, who is attached to the fruit of action out of desire, becomes entangled.",
-      "modern": "Steady = detached from results → lasting peace. Attached = craving results → bondage. Simple but brutal truth. The person who works hard but doesn’t obsess over likes, funding, promotion, applause — finds deep calm. The one who does the same work but ties their worth to the outcome — stays anxious, chasing, never satisfied. In 2026: the creator who posts consistently without checking views hourly sleeps better. The employee who delivers quality without needing constant validation thrives long-term. The founder who builds for users, not valuation, endures market crashes. This verse explains burnout vs. flow. Peace isn’t the absence of work — it’s the absence of attachment to results. Choose wisely every morning."
-    },
-    {
-      "verse": 13,
-      "sanskrit": "सर्वकर्माणि मनसा संन्यस्यास्ते सुखं वशी |\nनवद्वारे पुरे देही नैव कुर्वन्न कारयन् ||",
-      "transliteration": "sarva-karmāṇi manasā saṁnyasyāste sukhaṁ vaśī\nnava-dvāre pure dehī naiva kurvan na kārayan",
-      "translation": "The embodied soul, mentally renouncing all actions, dwells happily in the city of nine gates (the body), neither acting nor causing others to act.",
-      "modern": "The wise one mentally renounces all doership and rests peacefully in the “city of nine gates” (body with nine openings: eyes, ears, nostrils, mouth, genitals, anus). Doesn’t act nor make others act. This is the witness state — the real You sits quietly inside while the body does its thing. In practice: you’re in the meeting, but the real you is watching the body speak, listen, nod. You’re eating, but the real you is observing taste happen. You’re scrolling, but the real you is aware of the impulse. This detachment brings instant relaxation — no tension of “I have to perform.” The body continues functioning perfectly, but you’re no longer the stressed driver — you’re the peaceful passenger. This is advanced, but even glimpses of it during the day reduce stress dramatically."
-    },
-    {
-      "verse": 14,
-      "sanskrit": "न कर्तृत्वं न कर्माणि लोकस्य सृजति प्रभुः |\nन कर्मफलसंयोगं स्वभावस्तु प्रवर्तते ||",
-      "transliteration": "na kartṛtvaṁ na karmāṇi lokasya sṛjati prabhuḥ\nna karma-phala-saṁyogaṁ svabhāvas tu pravartate",
-      "translation": "The embodied spirit, master of the city of nine gates, does not create activities, nor does he induce people to act, nor does he create the fruits of action. All this is enacted by the modes of material nature.",
-      "modern": "The real Self doesn’t create actions, doesn’t push people, doesn’t produce results — all that is just the play of the three gunas (sattva, rajas, tamas). Your anxiety, your drive, your laziness, your kindness — all modes interacting. The Self is only the witness. This takes massive guilt off the table. “I’m such a procrastinator” → no, tamas is strong today. “I’m too aggressive in meetings” → rajas dominant. “I’m calm and clear” → sattva prevailing. You’re not broken; modes are shifting. Mastery is learning to observe and gently influence toward sattva, without identifying as the mode. This understanding ends self-blame and empowers real change. You stop saying “I am angry” and start saying “anger is happening.” Huge shift."
-    },
-    {
-      "verse": 15,
-      "sanskrit": "नादत्ति कस्यचित्पापं न चैव सुकृतं विभुः |\nअज्ञानेनावृतं ज्ञानं तेन मुह्यति जन्तवः ||",
-      "transliteration": "nādatti kasyacit pāpaṁ na caiva sukṛtaṁ vibhuḥ\najñānena avṛtaṁ jñānaṁ tena muhyati jantavaḥ",
-      "translation": "Nor does the Supreme Lord assume anyone’s sinful or pious activities. Living beings are bewildered because their knowledge is covered by ignorance.",
-      "modern": "God doesn’t take your sins or merits — you’re not “sending” karma upward. The confusion comes from ignorance veiling true knowledge. This kills the idea of a judgmental deity keeping score. Your mistakes don’t make God angry; your merits don’t make God proud. The suffering comes from not knowing your real nature. In practical terms: stop projecting guilt or pride onto a higher power. The real issue is ignorance of the Self. Once that veil lifts, natural peace emerges — no divine punishment needed. This verse is deeply compassionate: your worst moments aren’t defining you in some cosmic ledger. They’re just clouds covering the sun of your true self. Remove the clouds (ignorance) and the sun shines automatically."
-    },
-    {
-      "verse": 16,
-      "sanskrit": "ज्ञानेन तु तदज्ञानं येषां नाशितमात्मनः |\nतेषामादित्यवज्ज्ञानं प्रकाशयति तत्परम् ||",
-      "transliteration": "jñānena tu tad ajñānaṁ yeṣāṁ nāśitam ātmanaḥ\nteṣām ādityavaj jñānaṁ prakāśayati tat param",
-      "translation": "But when ignorance is destroyed by knowledge of the Self, that knowledge, like the rising sun, reveals the Supreme.",
-      "modern": "When self-knowledge destroys ignorance, it lights up the highest reality like sunrise. No gradual dimmer switch — sudden illumination. In life: that one insight, conversation, or realization hits and suddenly you see through all the previous drama. Past failures lose their sting. Future fears lose power. The world looks different — same people, same problems, but seen from a new vantage point. This is why transformation stories often have a “before/after” moment. The knowledge isn’t added information — it’s removal of wrong understanding. Like cleaning foggy glasses. Suddenly everything is clear. This verse promises: the moment ignorance is truly cut, the Supreme is revealed. Not after years of penance — right then. Keep seeking sincerely and the sunrise will come."
-    },
-    {
-      "verse": 17,
-      "sanskrit": "तद्बुद्धयस्तदात्मानस्तन्निष्ठास्तत्परायणाः |\nगच्छन्त्यपुनरावृत्तिं ज्ञाननिर्धूतकल्मषाः ||",
-      "transliteration": "tad-buddhayas tad-ātmānas tan-niṣṭhās tat-parāyaṇāḥ\ngacchanty apunar-āvṛttiṁ jñāna-nirdhūta-kalmaṣāḥ",
-      "translation": "Those whose intelligence is fixed on the Supreme, whose mind is absorbed in the Supreme, who are devoted to the Supreme, and who see the Supreme as everything — such purified souls attain liberation and never return to this world.",
-      "modern": "Mind fixed on the Divine, self identified with the Divine, established in the Divine, taking refuge in the Divine — sins washed away by knowledge, they reach the state of no return. This is the description of someone who has truly internalized the truth. In daily life: their first thought in crisis isn’t “how do I fix this?” but “how is this connected to the bigger picture?” Their identity isn’t their achievements or failures — it’s the unchanging Self. Their default refuge is inner awareness, not external validation. Their lens is “everything is That.” These people become rare — calm in chaos, kind in conflict, purposeful without pressure. They don’t reincarnate into suffering because they’ve graduated. This is the long-term vision: not just better mental health, but complete freedom from the cycle. Inspiring and aspirational."
-    },
-    {
-      "verse": 18,
-      "sanskrit": "विद्याविनयसम्पन्ने ब्राह्मणे गवि हस्तिनि |\nशुनि चैव श्वपाके च पण्डिताः समदर्शिनः ||",
-      "transliteration": "vidyā-vinaya-sampanne brāhmaṇe gavi hastini\nśuni caiva śva-pāke ca paṇḍitāḥ sama-darśinaḥ",
-      "translation": "The humble sage, by virtue of true knowledge, sees with equal vision a learned and gentle brahmana, a cow, an elephant, a dog, and a dog-eater (outcaste).",
-      "modern": "The hallmark of the wise: equal vision. The PhD professor, the street dog, the billionaire, the sanitation worker — all the same divine essence in different costumes. No hierarchy of worth. In 2026: this destroys cancel culture, elitism, speciesism, classism. The wise person doesn’t fawn over celebrities or look down on the homeless. They see the same consciousness everywhere. In practice: you treat the intern with the same respect as the CEO. You’re kind to the delivery person the same way as to your best friend. You value animals not just sentimentally but as fellow souls. This vision ends division. It’s not forced equality — it’s natural recognition. The person who lives this becomes magnetic — people feel seen, not judged. This is real charisma: seeing the Divine in everyone."
-    },
-    {
-      "verse": 19,
-      "sanskrit": "इहैव तैर्जितः सर्गो येषां साम्ये स्थितं मनः |\nनिर्दोषं हि समं ब्रह्म तस्मात् ब्रह्मणि ते स्थिताः ||",
-      "transliteration": "ihaiva tais jitaḥ sargo yeṣāṁ sāmye sthitaṁ manaḥ\nnirdoṣaṁ hi samaṁ brahma tasmāt brahmaṇi te sthitāḥ",
-      "translation": "Those whose minds are established in sameness and equanimity have already conquered creation even in this life. They are flawless like Brahman, and thus they are established in Brahman.",
-      "modern": "The moment your mind becomes steady in equanimity, you’ve already conquered the world — right here, right now. You’re as pure as Brahman itself. This is massive: liberation isn’t after death or after years of practice. It’s the instant your mind stops swinging between highs and lows. In practice: the day you receive great news and bad news with the same inner calm — you’ve won. The meeting where praise and criticism both leave you untouched — victory. This isn’t numbness; it’s unshakable centeredness. Such people radiate peace. They don’t need to “conquer” anything externally because the inner world is already mastered. This verse is your benchmark: measure spiritual progress not by experiences or achievements, but by how steady your mind remains in all situations. That steadiness is Brahman right here."
-    },
-    {
-      "verse": 20,
-      "sanskrit": "न प्रहृष्येत्प्रियं प्राप्य नोद्विजेत्प्राप्य चाप्रियम् |\nस्थिरबुद्धिरसंमूढो ब्रह्मविद् ब्रह्मणि स्थितः ||",
-      "transliteration": "na prahṛṣyet priyaṁ prāpya nodvijet prāpya cāpriyam\nsthira-buddhir asaṁmūḍho brahma-vid brahmaṇi sthitaḥ",
-      "translation": "A person who neither rejoices upon achieving something pleasant nor laments upon obtaining something unpleasant, who is self-intelligent, who is not bewildered, and who knows the science of God — such a person is already situated in the Supreme.",
-      "modern": "No over-celebration on wins, no devastation on losses. Steady intellect, never confused, knower of the truth — already one with the Supreme. This is the real “I’ve made it” marker. In career: big raise? Nice. Layoff? Okay, next. Product viral? Cool. Flopped? Data. Relationship ends? Painful but not world-ending. New love? Beautiful but not identity. This isn’t cold detachment — it’s mature emotional sovereignty. You feel everything fully, but nothing owns you. This state makes you reliable, wise, and deeply attractive to healthy people. No drama, no rollercoaster. Just quiet strength. This verse describes the emotional maturity we all secretly crave. It’s achievable through practice."
-    },
-    {
-      "verse": 21,
-      "sanskrit": "बाह्यस्पर्शेष्वसक्तात्मा विन्दत्यात्मनि यत्सुखम् |\nस ब्रह्मयोगयुक्तात्मा सुखमक्षयमश्नुते ||",
-      "transliteration": "bāhya-sparśeṣv asaktātmā vindaty ātmani yat sukham\nsa brahma-yoga-yuktātmā sukham akṣayam aśnute",
-      "translation": "With the soul unattached to external contacts, one discovers the happiness within the self. Such a person, united with the Supreme through yoga, enjoys unlimited happiness.",
-      "modern": "When you stop depending on external touches (likes, praise, money, sex, food highs) for joy, you find an inexhaustible happiness inside. This is the shift from chasing to abiding. In practice: the day social media notifications no longer dictate your mood, the day a compliment feels nice but doesn’t define you, the day financial ups and downs don’t shake your core — that’s when the inner well opens. It’s not that you stop enjoying life — you enjoy more deeply because it’s not desperate. This is why some people seem quietly radiant regardless of circumstances. They’ve found the source. The external world becomes entertainment, not oxygen. This verse promises unlimited (akshaya) happiness — not dependent on conditions. That’s the real flex in 2026."
-    },
-    {
-      "verse": 22,
-      "sanskrit": "ये हि संस्पर्शजा भोगा दुःखयोनय एव ते |\nआद्यन्तवन्तः कौन्तेय न तेषु रमते बुधः ||",
-      "transliteration": "ye hi saṁsparśajā bhogā duḥkha-yonaya eva te\nādy-antavantaḥ kaunteya na teṣu ramate budhaḥ",
-      "translation": "An intelligent person does not take delight in sensual pleasures, which are causes of distress from beginning to end, O son of Kunti, for such pleasures have a beginning and an end.",
-      "modern": "The wise don’t get hooked on sense pleasures because they know the pattern: excitement → temporary high → inevitable drop → craving again. Every dopamine hit (new phone, match on app, viral post, rich food, validation) follows this curve. The intelligent see the built-in duḥkha (suffering) from the start. They enjoy when it comes but never chase or cling. In 2026: this is the antidote to endless scrolling, binge-watching, binge-eating, status anxiety. Not renunciation out of guilt — wisdom that sees the transaction. Pleasure comes, enjoy it mindfully, let it go cleanly. No hangover. This is how you live richly without being owned by richness. The budha (wise one) doesn’t miss out — they just don’t pay the hidden tax of attachment."
-    },
-    {
-      "verse": 23,
-      "sanskrit": "शक्नोतीहैव यः सोढुं प्राक्शरीरविमोक्षणात् |\nकामक्रोधोद्भवं वेगं स युक्तः स सुखी नरः ||",
-      "transliteration": "śaknotīhaiva yaḥ soḍhuṁ prāk śarīra-vimokṣaṇāt\nkāma-krodhodbhavaṁ vegaṁ sa yuktaḥ sa sukhī naraḥ",
-      "translation": "Before giving up this present body, if one is able to tolerate the urges of desire and anger, he is a yogi and is happy in this world.",
-      "modern": "If you can handle the impulses of lust and anger before you die — you’re a yogi and happy right here. Not after enlightenment or in heaven — now. This is the litmus test. In daily life: that moment you want to send the angry reply but pause and breathe — victory. That moment attraction pulls hard but you choose clarity over compulsion — victory. Most suffering comes from acting on these urges. The one who can feel them fully but not be driven by them lives free. This verse is brutally honest: spiritual growth isn’t measured by visions or mantras — it’s measured by impulse control under pressure. Master this and happiness is not postponed. You become the rare person who is both fully alive and fully free."
-    },
-    {
-      "verse": 24,
-      "sanskrit": "योऽन्तःसुखोऽन्तरारामस्तथान्तर्ज्योतिरेव यः |\nस योगी ब्रह्मनिर्वाणं ब्रह्मभूतोऽधिगच्छति ||",
-      "transliteration": "yo ’ntaḥ-sukho ’ntar-ārāmas tathāntar-jyotir eva yaḥ\nsa yogī brahma-nirvāṇaṁ brahma-bhūto ’dhigacchati",
-      "translation": "One whose happiness is within, who is active within, who rejoices within and is illuminated within, is actually the perfect mystic. He is liberated in the Supreme and ultimately attains the Supreme.",
-      "modern": "Inner joy, inner delight, inner light — such a yogi merges into Brahman and attains nirvana. No need for external fireworks. In practice: the person whose mood isn’t dictated by notifications, weather, or weekend plans. They carry quiet happiness inside. They find delight in simple awareness. Their inner world glows even on rainy Mondays. This is the opposite of FOMO. They don’t need to be “out there” to feel alive — they’re alive right here. This state is magnetic — people sense the inner fullness. This verse describes the endgame: not escaping the world, but finding the world inside. When that happens, liberation isn’t a future event — it’s your current reality."
-    },
-    {
-      "verse": 25,
-      "sanskrit": "लभन्ते ब्रह्मनिर्वाणमृषयः क्षीणकल्मषाः |\nछिन्नद्वैधा यतात्मानः सर्वभूतहिते रताः ||",
-      "transliteration": "labhante brahma-nirvāṇam ṛṣayaḥ kṣīṇa-kalmaṣāḥ\nchinna-dvaidhā yatātmānaḥ sarva-bhūta-hite ratāḥ",
-      "translation": "Those sages who have overcome sins, whose doubts are destroyed, whose minds are controlled, and who are engaged in the welfare of all beings attain liberation in Brahman.",
-      "modern": "The liberated ones: sins dissolved, doubts cut, self controlled, dedicated to the good of all beings. This is the full package. In 2026: people who’ve done the inner work (healed patterns, questioned limiting beliefs, mastered impulses) and now naturally serve — mentors, ethical leaders, conscious creators, kind strangers. Their life becomes blessing for others. This verse shows the sequence: inner purification first, then natural outflow of good. The one who’s still fighting their own demons can’t fully help others. But once the inner war ends, service becomes spontaneous. This is why the most impactful changemakers often have deep peace — they’re not projecting their unresolved pain onto the world. They’ve cleared their side of the street and now help others do the same."
-    },
-    {
-      "verse": 26,
-      "sanskrit": "कामक्रोधवियुक्तानां यतीनां यतचेतसाम् |\nअभितो ब्रह्मनिर्वाणं वर्तते विदितात्मनाम् ||",
-      "transliteration": "kāma-krodha-viyuktānāṁ yatīnāṁ yata-cetasām\nabhito brahma-nirvāṇaṁ vartate viditātmanām",
-      "translation": "For those who are free from anger and all desires, who have controlled the mind, and who have realized the Self — liberation in Brahman exists on all sides.",
-      "modern": "Free from desire and anger, mind controlled, Self realized — nirvana surrounds them everywhere. Not just in meditation or temples — in traffic, meetings, family arguments, hospital waiting rooms. Liberation isn’t a place you reach — it’s the atmosphere you carry when inner obstacles are gone. In practice: the person who doesn’t snap in frustration or obsess over wants anymore. They’re calm in chaos because nothing inside is pulling them. This is the ultimate upgrade: not changing the world, but changing so completely that the world can’t disturb you. Nirvana isn’t far away — it’s right here when kama and krodha are gone and the Self is known. This verse is both promise and map: remove those two poisons, know yourself — freedom is immediate and omnipresent."
-    },
-    {
-      "verse": 27,
-      "sanskrit": "स्पर्शान्कृत्वा बहिर्बाह्यांश्चक्षुश्चैवान्तरे भ्रुवोः |\nप्राणापानौ समौ कृत्वा नासाभ्यन्तरचारिणौ ||",
-      "transliteration": "sparśān kṛtvā bahir bāhyāṁś cakṣuś caivāntare bhruvoḥ\nprāṇāpānau samau kṛtvā nāsābhyantara-cāriṇau",
-      "translation": "Shutting out all external sense objects, keeping the eyes and vision concentrated between the two eyebrows, suspending the inward and outward breaths within the nostrils — thus controlling the mind, senses and intelligence, the transcendentalist aiming at liberation becomes free from desire, fear and anger.",
-      "modern": "Classic dhyana (meditation) instruction: withdraw senses, focus gaze between eyebrows, balance prana and apana (incoming and outgoing breath), control mind — the yogi becomes free from desire, fear, anger. This is the practical technique Krishna offers for those ready. In 2026: this is exactly what top performers, athletes, and meditators do in different forms — sensory withdrawal + focused attention + breath regulation. Whether you call it trataka, box breathing, or mindfulness of breathing — the effect is the same: nervous system down-regulates, mind clears, reactivity drops. This verse shows that liberation isn’t just philosophical — there’s a physiological pathway. Practice this daily (even 5–10 minutes) and watch how desire, fear, anger lose grip. The ancient technology still works in the age of AI and notifications."
-    },
-    {
-      "verse": 28,
-      "sanskrit": "यतेन्द्रियमनोबुद्धिर्मुनिर्मोक्षपरायणः |\nविगतेच्छाभयक्रोधो यः सदा मुक्त एव सः ||",
-      "transliteration": "yatendriya-mano-buddhir munir mokṣa-parāyaṇaḥ\nvigatecchā-bhaya-krodho yaḥ sadā mukta eva saḥ",
-      "translation": "The sage who has controlled the senses, mind, and intelligence, and who is always devoted to liberation, who has become free from desire, fear, and anger — he is always liberated.",
-      "modern": "Senses controlled, mind steady, intellect clear, devoted to freedom, free from desire-fear-anger — such a sage is liberated right now. Not “will be” — is. This is the state of jivanmukta — free while living. In practice: they still feel emotions but aren’t driven by them. They still have goals but aren’t enslaved by them. They still interact but aren’t entangled. This is the highest human potential — fully alive, fully free. In 2026, this is what many are unconsciously searching for when they say “I just want peace.” This verse gives the exact recipe and the assurance: reach this and you’re done. No waiting for retirement, heaven, or next life. Liberation is your natural state once these conditions are met. Inspiring benchmark for daily practice."
-    },
-    {
-      "verse": 29,
-      "sanskrit": "भोक्तारं यज्ञतपसां सर्वलोकमहेश्वरम् |\nसुहृदं सर्वभूतानां ज्ञात्वा मां शान्तिमृच्छति ||",
-      "transliteration": "bhoktāraṁ yajña-tapasāṁ sarva-loka-maheśvaram\nsuhṛdaṁ sarva-bhūtānāṁ jñātvā māṁ śāntim ṛcchati",
-      "translation": "One who knows Me as the enjoyer of sacrifices and austerities, the Supreme Lord of all the worlds, the friend and well-wisher of all living entities — attains peace.",
-      "modern": "Final verse — the peace formula: know Krishna (the Divine) as 1) the true receiver of all offerings and disciplines, 2) the supreme master of all worlds, 3) the genuine friend of every being. This knowing brings shanti. In practice: every workout, every honest work, every kind act — offered to the Divine within everything. See the same Divine as the ruler of all existence. Most importantly: recognize that the Divine is your true friend — not against you, not indifferent, but actively wishing your highest good. This ends the feeling of being alone or punished. Suddenly life feels benevolent. Challenges become training. People become expressions of the same friend. This intimate recognition — Divine as enjoyer, Lord, and best friend — brings unbreakable peace. This is the emotional climax of the chapter: know the Divine this way and rest in peace forever."
-    }
+  {
+"verse": 1,
+"sanskrit": "अर्जुन उवाच |\nसंन्यासं कर्मणां कृष्ण पुनर्योगं च शंससि |\nयच्छ्रेय एतयोरेकं तन्मे ब्रूहि सुनिश्चितम् ||",
+"transliteration": "arjuna uvāca\nsaṁnyāsaṁ karmaṇāṁ kṛṣṇa punar yogaṁ ca śaṁsasi\nyac chreya etayor ekaṁ tan me brūhi suniścitam",
+"translation": "Arjuna said: O Krishna, You praise renunciation of actions (sannyāsa) and also the yoga of action (karma-yoga). Please tell me decisively which of the two is better for me.",
+"millennial": "Arjuna is back to square one — feeling the classic career/spiritual tension: should I quit everything and detach (sannyāsa), or keep working but try to stay detached (karma-yoga)? It's the same dilemma many face in their 30s: 'Should I leave this high-pressure job for a simpler life, or stay and find balance within it?' He wants the clear, no-BS answer — which path actually leads to more peace and fulfillment without regrets? Krishna will explain that true renunciation is internal, not external, and karma-yoga is the practical bridge for most people.",
+"genz": "Arjuna's confused AF: 'You keep hyping both quitting everything (sannyāsa) and grinding with detachment (karma-yoga) — just tell me straight which one's the real W for me.' It's that moment when you're torn between logging off socials/work forever vs staying in the game but with better mindset. Classic 'escape the matrix or hack it from inside?' energy. He wants the no-cap version — Krishna's about to drop the clarity.",
+"genalpha": "Arjuna asks Krishna: 'You say giving up work is good, and also doing work calmly is good — which one is really better for me? Please tell me clearly.' It's like being confused whether to stop playing the game completely or keep playing but not get too upset if you lose. Arjuna just wants to know the best way to feel happy."
+},
+{
+"verse": 2,
+"sanskrit": "श्रीभगवानुवाच |\nसंन्यासः कर्मयोगश्च निःश्रेयसकरावुभौ |\nतयोस्तु कर्मसंन्यासात्कर्मयोगो विशिष्यते ||",
+"transliteration": "śrī-bhagavān uvāca\nsaṁnyāsaḥ karma-yogaś ca niḥśreyasa-karāv ubhau\ntayos tu karma-saṁnyāsāt karma-yogo viśiṣyate",
+"translation": "The Supreme Personality of Godhead said: Both renunciation of work (sannyāsa) and the selfless performance of work (karma-yoga) lead to the path of liberation. But of the two, karma-yoga is superior to sannyāsa.",
+"millennial": "Krishna gives the verdict: both paths work, but for most people karma-yoga (acting selflessly) is better than just quitting (sannyāsa). Why? Because true renunciation is hard — ego can hide in 'spiritual' withdrawal. Staying engaged while dropping attachment purifies faster through real-world tests. In career terms: don't quit your job to 'find yourself' — transform how you work (offer it, detach from results) and growth happens in the fire of daily life.",
+"genz": "Krishna's answer: both quitting (sannyāsa) and grinding detached (karma-yoga) get you to the top — but karma-yoga wins for most. Why? It's easier to fake renunciation than to stay in the game without ego. Real tests happen in the arena — detach while doing, that's the faster level-up. Don't rage-quit life — hack it from inside.",
+"genalpha": "Krishna says: both stopping work and doing work happily can make you free and happy — but doing work nicely without getting upset is usually better. Because it's easy to pretend to stop when you're still thinking about it. Playing the game but staying calm inside helps you grow stronger faster."
+},
+{
+"verse": 3,
+"sanskrit": "ज्ञेयः स नित्यसंन्यासी यो न द्वेष्टि न काङ्क्षति |\nनिर्द्वन्द्वो हि महाबाहो सुखं बन्धात्प्रमुच्यते ||",
+"transliteration": "jñeyaḥ sa nitya-saṁnyāsī yo na dveṣṭi na kāṅkṣati\nnirdvandvo hi mahā-bāho sukhaṁ bandhāt pramucyate",
+"translation": "One who neither hates nor desires the fruits of his activities is known to be always renounced. Such a person, free from dualities, is easily liberated from bondage, O mighty-armed Arjuna.",
+"millennial": "The real sannyāsī is the one free from hatred (of failure) and craving (for success) — equanimous, beyond duality. This internal renunciation is true freedom. Examples: don't resent colleagues who get promoted over you, don't obsess over your next raise — stay balanced. That mindset liberates you from the emotional rollercoaster of work-life.",
+"genz": "The true quitter (in the best way) is the one who doesn't hate Ls or chase Ws — no duality, just chill. That's the real freedom unlock. Examples: no salt when someone else blows up, no desperation for virality — balanced energy means no chains. Inner peace > everything.",
+"genalpha": "The real person who has given up inside is the one who doesn't hate losing or want winning too much — stays calm either way. That makes them feel free and light. Like playing a game happily whether you win or lose — no heavy feelings."
+},
+{
+"verse": 4,
+"sanskrit": "साङ्ख्ययोगौ पृथग्बालाः प्रवदन्ति न पण्डिताः |\nएकमप्यास्थितः सम्यगुभयोर्विन्दते फलम् ||",
+"transliteration": "sāṅkhya-yogau pṛthag bālāḥ pravadanti na paṇḍitāḥ\nekam apy āsthitaḥ samyag ubhayor vindate phalam",
+"translation": "Only the ignorant speak of devotional service [karma-yoga] and analytical study [sāṅkhya] as different. The great sages see them as the same. One who properly practices either of these paths achieves the results of both.",
+"millennial": "Krishna clarifies: the wise don't see sāṅkhya (knowledge) and karma-yoga (action) as separate — they lead to the same goal. Doing one properly gives the fruit of both. Examples: deep study without action becomes dry theory; action without understanding becomes blind hustle. But selfless action with wisdom = full package. Integrate — don't choose sides.",
+"genz": "Krishna's like 'only noobs say knowledge path and action path are different — real ones know they're the same destination.' Master either correctly and you get both rewards. Examples: meditate all day without helping anyone = incomplete; grind without reflection = empty. Do one with full heart and understanding — both wins unlock.",
+"genalpha": "Krishna says only little kids think thinking-way and doing-way are different — smart people know they are the same. If you do one really well, you get the good things from both. Like if you think carefully about a game and then play it nicely — you win both ways."
+},
+{
+"verse": 5,
+"sanskrit": "यत्साङ्ख्यैः प्राप्यते स्थानं तद्योगैरपि गम्यते |\nएकं साङ्ख्यं च योगं च यः पश्यति स पश्यति ||",
+"transliteration": "yat sāṅkhyaiḥ prāpyate sthānaṁ tad yogair api gamyate\nekaṁ sāṅkhyaṁ ca yogaṁ ca yaḥ paśyati sa paśyati",
+"translation": "One who knows that the position reached by analytical study is also reached by devotional work, and who sees that the path of devotional work and the path of analytical study are one — sees things as they are.",
+"millennial": "The destination of knowledge (sāṅkhya) is the same as selfless action (yoga) — one who sees them as one truly sees. Examples: whether you reach peace through deep reflection or through dedicated service — the goal is the same self-realization. Don't divide paths — integrate them for faster progress.",
+"genz": "The endgame spot from knowledge grind is the same as detached action grind — one who sees both as one path really gets it. Examples: meditating your way to peace or helping others selflessly — same destination. No beef between paths — they're the same road with different vibes.",
+"genalpha": "The happy peaceful place you reach by thinking deeply is the same place you reach by doing good work happily — someone who sees both ways as one really understands. Like reading a story quietly or acting it out with friends — both take you to the same fun ending."
+},
+{
+"verse": 6,
+"sanskrit": "संन्यासस्तु महाबाहो दुःखमाप्तुमयोगतः |\nयोगयुक्तो मुनिर्ब्रह्म नचिरेणाधिगच्छति ||",
+"transliteration": "saṁnyāsas tu mahā-bāho duḥkham āptum ayogataḥ\nyoga-yukto munir brahma nacireṇādhigacchati",
+"translation": "Merely renouncing all activities (sannyāsa) is very difficult for one who is not connected to the Supreme. But one who is engaged in devotional service (karma-yoga) can easily attain Brahman, O mighty-armed one.",
+"millennial": "Pure renunciation without divine connection is painful/hard — but karma-yoga (selfless action) makes reaching Brahman easy. Examples: quitting everything without inner preparation leads to restlessness; staying engaged while offering actions brings peace faster. For most, action with detachment is the practical path.",
+"genz": "Straight sannyāsa (quitting everything) without connection is rough af — but karma-yoga (grind detached) makes reaching the source smooth. Examples: ghosting life without inner work = depression; staying in but offering everything = fast peace unlock.",
+"genalpha": "Just stopping everything without feeling close to the big friend is very hard and sad — but doing good work happily while feeling connected makes reaching the peaceful place easy. Like trying to sit still forever feels boring, but playing nicely while thinking of God feels happy and light."
+},
+{
+"verse": 7,
+"sanskrit": "योगयुक्तो विशुद्धात्मा विजितात्मा जितेन्द्रियः |\nसर्वभूतात्मभूतात्मा कुर्वन्नपि न लिप्यते ||",
+"transliteration": "yoga-yukto viśuddhātmā vijitātmā jitendriyaḥ\nsarva-bhūtātma-bhūtātmā kurvann api na lipyate",
+"translation": "One who is engaged in devotional service, who is pure in heart, who has conquered the self and subdued the senses — such a person sees the self in all living entities and remains untainted even while working.",
+"millennial": "The karma-yogi with pure heart, self-mastery, sense control sees the same self in all beings — acts but stays untouched. Examples: treat colleagues, competitors, strangers as part of the same essence — empathy rises, ego falls, actions don't bind. This unity vision makes work joyful and liberating.",
+"genz": "The detached grinder with clean heart, self-control, sense lockdown — sees the same soul in every being and stays clean even while moving. Examples: treat haters, friends, strangers as same energy — no beef, no ego — actions flow without sticking.",
+"genalpha": "Someone who does good work happily, keeps heart clean, controls themselves, controls wanting eyes/ears — sees the same inside light in all people and animals, and even while doing things doesn't feel dirty or stuck. Like seeing every kid as your friend — you help everyone and stay happy inside."
+},
+{
+"verse": 8,
+"sanskrit": "नैव किंचित्करोमीति युक्तो मन्येत तत्त्ववित् |\nपश्यञ्शृण्वन्स्पृशञ्जिघ्रन्नश्नन्गच्छन्स्वपञ्श्वसन् ||",
+"transliteration": "naiva kiñcit karomīti yukto manyeta tattva-vit\npaśyañ śṛṇvan spṛśañ jighrann aśnan gacchan svapan śvasan",
+"translation": "A person in the mode of Krishna consciousness, although engaged in seeing, hearing, touching, smelling, eating, moving about, sleeping and breathing — knows within himself that he actually does nothing at all.",
+"millennial": "The wise person, even while living normally (seeing, hearing, eating, etc.), knows 'I do nothing' — actions happen through nature, not 'me.' Examples: breathe, eat, work — but internally detached from doership. Reduces stress — you perform better when not identified with every outcome.",
+"genz": "The detached one, even while scrolling, eating, walking, sleeping — knows inside 'I'm not really doing anything.' It's all happening through energy, not 'me.' Examples: post, like, grind — but no ego ownership. Freedom from 'I messed up' or 'I crushed it' traps.",
+"genalpha": "A very calm smart person, even when looking, listening, touching, smelling, eating, walking, sleeping, breathing — feels inside 'I'm not really doing it.' It's like watching yourself in a dream — everything happens but you stay peaceful and quiet inside."
+},
+{
+"verse": 9,
+"sanskrit": "प्रलपन्विसृजन्गृह्णन्नुन्मिषन्निमिषन्नपि |\nइन्द्रियाणीन्द्रियार्थेषु वर्तन्त इति धारयन् ||",
+"transliteration": "pralapan visṛjan gṛhṇann unmiṣan nimiṣann api\nindriyāṇīndriyārtheṣu vartanta iti dhārayan",
+"translation": "Because he knows that the senses interact with sense objects, he does not become attached, even though engaged in seeing, hearing, touching, smelling, eating, moving about, sleeping and breathing.",
+"millennial": "He understands senses + objects = interaction — not 'me doing.' So no attachment even in daily acts. Examples: scroll social media, eat lunch, walk meetings — observe without craving or aversion. Detachment in ordinary moments builds extraordinary peace.",
+"genz": "He knows it's just senses meeting objects — not 'me acting.' So no attachment even while scrolling, eating, walking, sleeping. Examples: see a thirst trap — just data, no pull. Eat tasty food — enjoy but no craving. Pure observation mode.",
+"genalpha": "He knows eyes/ears/etc. just meet things — not 'me doing it.' So even when talking, dropping, taking, blinking — no sticking feeling. Like watching a movie — things happen on screen but you stay calm in your seat."
+},
+{
+"verse": 10,
+"sanskrit": "ब्रह्मण्याधाय कर्माणि सङ्गं त्यक्त्वा करोति यः |\nलिप्यते न स पापेन पद्मपत्रमिवाम्भसा ||",
+"transliteration": "brahmaṇy ādhāya karmāṇi saṅgaṁ tyaktvā karoti yaḥ\nlipyate na sa pāpena padma-patram ivāmbhasā",
+"translation": "One who performs his duty without attachment, surrendering the results unto the Supreme Lord, is unaffected by sinful action, as the lotus leaf is untouched by water.",
+"millennial": "Offer actions to Brahman, drop attachment — untouched by sin like lotus leaf in water. Examples: do your job ethically, offer results upward — no guilt even in tough decisions (layoffs, negotiations). Inner purity remains — external mess doesn't stain.",
+"genz": "Drop actions to the higher, no clinging — sin can't touch you like water slides off lotus. Examples: grind, create, help — but no ego ownership. Stay clean even in messy situations — pure energy flow.",
+"genalpha": "Give your work to the big light, don't hold tight — bad things can't stick to you like water doesn't stay on a lotus leaf. Like playing in rain but staying dry inside because your heart is clean and happy."
+},
+{
+"verse": 11,
+"sanskrit": "कायेन मनसा बुद्ध्या केवलैरिन्द्रियैरपि |\nयोगिनः कर्म कुर्वन्ति सङ्गं त्यक्त्वाऽऽत्मशुद्धये ||",
+"transliteration": "kāyena manasā buddhyā kevalair indriyair api\nyoginaḥ karma kurvanti saṅgaṁ tyaktvā ’tma-śuddhaye",
+"translation": "The yogīs, abandoning attachment, act with body, mind, intelligence and even the senses, only for the purpose of purifying the self.",
+"millennial": "Yogis act with body/mind/intellect/senses — but without attachment — purely for self-purification. Examples: exercise, think, decide, use tools — all for inner growth, not ego. Turn daily routine into spiritual practice — every act cleanses.",
+"genz": "Real yogis use body/mind/brain/senses to act — but drop clinging — just to clean their own energy. Examples: workout, think, decide, scroll mindfully — all for inner upgrade, not flex. Daily grind becomes purification ritual.",
+"genalpha": "Calm people use body/thinking/smart mind/eyes-ears to do things — but without holding tight — only to make their inside cleaner and happier. Like washing hands before eating — every little thing helps keep the heart bright."
+},
+{
+"verse": 12,
+"sanskrit": "युक्तः कर्मफलं त्यक्त्वा शान्तिमाप्नोति नैष्ठिकीम् |\nअयुक्तः कामकारेण फले सक्तो निबध्यते ||",
+"transliteration": "yuktaḥ karma-phalaṁ tyaktvā śāntim āpnoti naiṣṭhikīm\nayuktaḥ kāma-kāreṇa phale sakto nibadhyate",
+"translation": "The steadily devoted soul attains unadulterated peace because he offers the result of all activities to Me; whereas a person who is not in union with the Divine, who is greedy for the fruits of his labor, becomes entangled.",
+"millennial": "Steady yogi drops results → gets lasting peace. Greedy for fruits → gets bound. Examples: offer work outcomes upward — peace regardless of promotion. Chase rewards → anxiety, comparison, bondage. Peace comes from offering, not achieving.",
+"genz": "Locked-in soul drops results → pure peace. Thirsty for drops → chained. Examples: post/help/grind without attachment — calm regardless of views. Chase likes/bag → stress loop. Peace is in offering, not in winning.",
+"genalpha": "The calm person gives away prizes and feels deep happy peace. The greedy person who wants prizes for himself gets stuck and worried. Like sharing your candy and feeling light inside vs keeping it and feeling heavy and scared someone will take it."
+},
+{
+"verse": 13,
+"sanskrit": "सर्वकर्माणि मनसा संन्यस्यास्ते सुखं वशी |\nनवद्वारे पुरे देही नैव कुर्वन्न कारयन् ||",
+"transliteration": "sarva-karmāṇi manasā saṁnyasyāste sukhaṁ vaśī\nnava-dvāre pure dehī naiva kurvan na kārayan",
+"translation": "When the embodied living being controls his senses and mentally renounces all actions, he resides happily in the city of nine gates [the material body], neither working nor causing work to be done.",
+"millennial": "Master senses, mentally renounce actions — live happily in the body (city of nine gates: eyes, ears, nostrils, mouth, genitals, anus) without doing or causing action. Examples: inner withdrawal while physically active — peace in the midst of busyness. True freedom is mental, not physical.",
+"genz": "Control senses, mentally drop all doing — chill happily in the nine-door city (body) without acting or making others act. Examples: physically grind but mentally detached — peace even in chaos. Real freedom is inside, not location.",
+"genalpha": "When someone controls eyes/ears/etc. and inside says 'I don't really do anything', they stay happy in their body house with nine doors (eyes, ears, nose holes, mouth, etc.) — not doing or pushing others. Like sitting quietly in your room feeling peaceful even if outside is noisy."
+},
+{
+"verse": 14,
+"sanskrit": "न कर्तृत्वं न कर्माणि लोकस्य सृजति प्रभुः |\nन कर्मफलसंयोगं स्वभावस्तु प्रवर्तते ||",
+"transliteration": "na kartṛtvaṁ na karmāṇi lokasya sṛjati prabhuḥ\nna karma-phala-saṁyogaṁ svabhāvas tu pravartate",
+"translation": "The embodied spirit, master of the city of nine gates, does not create activities, nor does he induce people to act, nor does he create the fruits of action. All this is enacted by the modes of material nature.",
+"millennial": "The soul (master of body) doesn't create actions, doesn't push others, doesn't make results — all happens through guṇas (nature's modes). Examples: stop claiming 'I did this' — actions flow from nature. Reduces pride/guilt — you’re witness, not doer.",
+"genz": "The soul (boss of nine-door body) doesn't make actions, doesn't force anyone, doesn't own results — all runs on mode energy. Examples: drop 'I built this' ego — everything flows from nature's code. Less pride, less guilt — just watch the show.",
+"genalpha": "The inside you (boss of the nine-door body) doesn't really make things happen, doesn't push people, doesn't make prizes — all happens because of different feelings in nature. Like watching leaves move in wind — wind does it, not you."
+},
+{
+"verse": 15,
+"sanskrit": "नादत्ति कस्यचित्पापं न चैव सुकृतं विभुः |\nअज्ञानेनावृतं ज्ञानं तेन मुह्यन्ति जन्तवः ||",
+"transliteration": "nādatti kasyacit pāpaṁ na caiva sukṛtaṁ vibhuḥ\najñānena āvṛtaṁ jñānaṁ tena muhyanti jantavaḥ",
+"translation": "Nor does the Supreme Lord assume anyone's sinful or pious activities. Living beings are bewildered because their knowledge is covered by ignorance.",
+"millennial": "God doesn't take your sins or good deeds — confusion comes from ignorance covering knowledge. Examples: don't blame God for your mistakes or take credit for successes — own your actions, but know the divine is beyond. Ignorance causes suffering — seek clarity.",
+"genz": "Source doesn't take your Ls or Ws — beings stay lost because ignorance fogs knowledge. Examples: don't blame the universe for your mess-ups or flex your wins — own it, but see through the illusion. Ignorance = suffering loop; clarity = exit.",
+"genalpha": "The big friend doesn't take your bad or good things — people feel confused because they don't remember the real truth. Like forgetting where you put your toy and feeling sad — when you remember, everything feels okay again."
+},
+{
+"verse": 16,
+"sanskrit": "तेषामेवानुकम्पार्थमहमज्ञानजं तमः |\nनाशयाम्यात्मभावस्थो ज्ञानदीपेन भास्वता ||",
+"transliteration": "teṣām evānukampārtham aham ajñāna-jaṁ tamaḥ\nnāśayāmy ātma-bhāva-stho jñāna-dīpena bhāsvatā",
+"translation": "Out of compassion for them, I, dwelling in their hearts, destroy with the shining lamp of knowledge the darkness born of ignorance.",
+"millennial": "Krishna promises: out of compassion, I destroy ignorance-darkness in seekers' hearts with the bright lamp of knowledge. Examples: when you're sincerely seeking, clarity comes — sudden insights, 'aha' moments. Divine help is internal — trust the process.",
+"genz": "Krishna's compassion mode: I live in hearts, destroy ignorance-darkness with knowledge-light for those who seek. Examples: when you're really asking the deep questions — sudden downloads, clarity hits. Inner guru lights up when you turn toward it.",
+"genalpha": "Krishna says: because I love them, I live inside their hearts and use a very bright light of understanding to chase away the dark confusion. Like when you're lost in a dark room and suddenly someone turns on a big happy lamp — everything becomes clear and safe."
+},
+{
+"verse": 17,
+"sanskrit": "तेषां नष्टं तमः ज्ञानं ज्ञानदीपेन भास्वता |\nततो मामेव ते यान्ति ज्ञाननिर्मलचेतसः ||",
+"transliteration": "teṣāṁ naṣṭaṁ tamaḥ jñānaṁ jñāna-dīpena bhāsvatā\ntato mām eva te yānti jñāna-nirmala-cetasaḥ",
+"translation": "When their ignorance is destroyed by the light of knowledge, their hearts become pure, and they attain Me.",
+"millennial": "Ignorance destroyed by knowledge-light → pure hearts → union with the divine. Examples: clear understanding removes confusion → inner purity → deeper connection to purpose/higher self. The goal: knowledge leads to love and oneness.",
+"genz": "Darkness gone by knowledge-light → clean hearts → straight to the source. Examples: real insight wipes confusion → pure energy → direct connection to the higher vibe. Endgame: knowledge → love → union.",
+"genalpha": "When the dark confusion is gone because of the bright light of understanding, their hearts become clean and happy, and they come very close to God. Like when the dark clouds go away and the sun shines — everything feels warm and bright."
+},
+{
+"verse": 18,
+"sanskrit": "विद्याविनयसंपन्ने ब्राह्मणे गवि हस्तिनि |\nशुनि चैव श्वपाके च पण्डिताः समदर्शिनः ||",
+"transliteration": "vidyā-vinaya-saṁpanne brāhmaṇe gavi hastini\nśuni caiva śvapāke ca paṇḍitāḥ sama-darśinaḥ",
+"translation": "The humble sages, by virtue of true knowledge, see with equal vision a learned and gentle brāhmaṇa, a cow, an elephant, a dog, and a dog-eater [outcaste].",
+"millennial": "True knowers see the same soul in everyone — learned priest, cow, elephant, dog, even outcaste. Equality vision. Examples: treat CEO, intern, janitor, competitor with same respect — see beyond roles. This destroys prejudice and builds real leadership and empathy.",
+"genz": "Real wise ones see the same energy in everyone — scholar, cow, elephant, dog, even the 'lowest' person. No hierarchy. Examples: same respect for influencer, barista, animal, stranger — unity consciousness. No more tribalism or status games.",
+"genalpha": "Very smart and kind people see the same inside light in a wise teacher, a cow, an elephant, a dog, even someone who cleans streets — all the same. Like knowing every kid on the playground has the same happy heart inside, no matter how they look or what they do."
+},
+{
+"verse": 19,
+"sanskrit": "इहैव तैर्जितः सर्गो येषां साम्ये स्थितं मनः |\nनिर्दोषं हि समं ब्रह्म तस्मात् ब्रह्मणि ते स्थिताः ||",
+"transliteration": "ihaiva taiḥ jitaḥ sargo yeṣāṁ sāmye sthitaṁ manaḥ\nnirdoṣaṁ hi samaṁ brahma tasmāt brahmaṇi te sthitāḥ",
+"translation": "Those whose minds are established in sameness and equanimity have already conquered the conditions of birth and death. They are flawless like Brahman, and thus they are already situated in Brahman.",
+"millennial": "Those with steady equanimity have already conquered birth/death cycles — flawless like Brahman, already in Brahman. Examples: inner balance ends fear of change/loss — you're already liberated while living. Live from that state — no waiting for 'later.'",
+"genz": "People whose minds stay even and chill have already beaten the life-death loop — pure like the source, already there. Examples: no fear of change or end — living liberation now. No waiting room — you're already home.",
+"genalpha": "People whose thoughts stay calm and same have already won over being born and going away — they are clean and perfect like the big light, already living in that happy forever place. Like feeling peaceful and safe right now, no matter what happens."
+},
+{
+"verse": 20,
+"sanskrit": "न प्रहृष्येत्प्रियं प्राप्य नोद्विजेत्प्राप्य चाप्रियम् |\nस्थिरबुद्धिरसमूढो ब्रह्मविद् ब्रह्मणि स्थितः ||",
+"transliteration": "na prahṛṣyeta priyaṁ prāpya nodvijet prāpya cāpriyam\nsthira-buddhir asammūḍho brahma-vid brahmaṇi sthitaḥ",
+"translation": "A person who neither rejoices upon achieving something pleasant nor laments upon obtaining something unpleasant, who is self-intelligent, who is not bewildered, and who knows the science of God — such a person is already situated in God.",
+"millennial": "No over-joy at pleasant, no distress at unpleasant — steady intellect, no confusion, knower of divine — already in Brahman. Examples: big win (raise, deal) — calm smile; big loss (failure, rejection) — calm acceptance. Emotional sobriety = divine state now.",
+"genz": "No hype at good news, no freakout at bad — steady mind, no delusion, divine knower — already home. Examples: viral post — cool nod; hate comments — shrug. Unshakable core = living liberation.",
+"genalpha": "Doesn't jump too happy when good thing happens, doesn't get scared or sad when bad thing happens — steady smart thinking, no confusion, knows the big truth — already living in the peaceful light place. Like staying calm and smiling whether you win or lose the game — always happy inside."
+},
+{
+"verse": 21,
+"sanskrit": "बाह्यस्पर्शेष्वसक्तात्मा विन्दत्यात्मनि यत्सुखम् |\nस ब्रह्मयोगयुक्तात्मा सुखमक्षयमश्नुते ||",
+"transliteration": "bāhya-sparśeṣv asaktātmā vindaty ātmani yat sukham\nsa brahma-yoga-yuktātmā sukham akṣayam aśnute",
+"translation": "Such a liberated person is not attracted to material sense pleasure but is always in trance, enjoying the pleasure within. In this way the self-realized person enjoys unlimited happiness, for he concentrates on the Supreme.",
+"millennial": "When you're no longer pulled by external pleasures (fancy dinners, vacations, likes), you find real joy inside — steady, unbreakable happiness through connection to the higher self. This is the shift from chasing dopamine hits to inner contentment. Examples: skip the status symbols, spend evenings in reflection or simple hobbies — discover lasting fulfillment that doesn't depend on external validation or circumstances. True work-life balance comes from this inner source — external wins become icing, not the cake.",
+"genz": "When external vibes (scrolling, parties, clout) stop controlling you, you tap into that inner glow-up — unlimited, crash-proof happiness through soul lock-in. Examples: log off, sit with yourself, feel the quiet high that doesn't need WiFi or notifications. No more FOMO crashes — just steady peace that lasts regardless of trends or drama.",
+"genalpha": "When you stop getting too excited by outside fun things (toys, games, sweets), you find a very big, never-ending happy feeling inside yourself. It's like discovering a secret treasure chest in your heart that always has joy — you don't need new toys to feel happy anymore."
+},
+{
+"verse": 22,
+"sanskrit": "ये हि संस्पर्शजा भोगा दुःखयोनय एव ते |\nआद्यन्तवन्तः कौन्तेय न तेषु रमते बुधः ||",
+"transliteration": "ye hi saṁsparśajā bhogā duḥkha-yonaya eva te\nādy-antavantaḥ kaunteya na teṣu ramate budhaḥ",
+"translation": "An intelligent person does not take delight in sensual pleasures, which are causes of distress in the beginning and at the end, and which are temporary.",
+"millennial": "External pleasures (sensory highs) always bring pain — they start exciting but end in emptiness or regret, and they're short-lived. The wise don't chase them. Examples: binge-scrolling feels good momentarily but leaves you drained; overeating junk gives quick pleasure then guilt. Intelligent living means enjoying moderately while prioritizing lasting inner joy over temporary highs.",
+"genz": "All sense pleasures (scroll highs, party vibes, food dopamine) are pain factories — hype at start, crash at end, gone quick. Real ones don't chase that cycle. Examples: viral moment feels lit then empty; binge-watching leaves you numb. Wise energy invests in slow-burn joy that doesn't expire.",
+"genalpha": "Fun things you touch/see/taste always make you sad in the beginning or end and don't last long. Smart kids don't run after them too much. Like eating too much candy — yummy at first, then tummy hurts and it's all gone soon. Better to enjoy little and stay happy longer."
+},
+{
+"verse": 23,
+"sanskrit": "शक्नोतीहैव यः सोढुं प्राक्शरीरविमोक्षणात् |\nकामक्रोधोद्भवं वेगं स युक्तः स सुखी नरः ||",
+"transliteration": "śaknotīhaiva yaḥ soḍhuṁ prāk śarīra-vimokṣaṇāt\nkāma-krodhodbhavaṁ vegaṁ sa yuktaḥ sa sukhī naraḥ",
+"translation": "Before giving up this present body, if one is able to tolerate the urges of the material senses and check the force of desire and anger, he is well situated and is happy in this world.",
+"millennial": "Mastery test: while still in the body, can you handle desire/anger impulses without acting on them? If yes — you're truly free and happy here. Examples: feel the urge to snap at a colleague or impulse-buy — pause, breathe, let it pass. Building this tolerance creates real emotional freedom and joy in daily life.",
+"genz": "Real test: before you log off this body, can you sit with desire/anger waves without reacting? If yes — you're unlocked and happy in the game. Examples: feel the rage-reply urge or FOMO buy — watch it rise and fall without pressing send/add to cart. That tolerance = inner freedom and real vibes.",
+"genalpha": "Before you leave this body, if you can feel wanting or anger but stay calm and not do bad things because of it — you're very strong and happy right here. Like feeling super angry at a friend but taking deep breaths and waiting until you feel okay again — then you stay peaceful."
+},
+{
+"verse": 24,
+"sanskrit": "योऽन्तःसुखोऽन्तरारामस्तथान्तर्ज्योतिरेव यः |\nस योगी ब्रह्मनिर्वाणं ब्रह्मभूतोऽधिगच्छति ||",
+"transliteration": "yo ’ntaḥ-sukho ’ntar-ārāmas tathāntar-jyotir eva yaḥ\nsa yogī brahma-nirvāṇaṁ brahma-bhūto ’dhigacchati",
+"translation": "One whose happiness is within, who is active and rejoices within, and whose aim is inward — that yogī is in Brahman and attains nirvana (liberation).",
+"millennial": "Inner joy, inner play, inner light — such a yogi merges into Brahman and reaches liberation. Examples: find happiness in quiet reflection, creative work, simple presence — not external highs. This inner orientation leads to profound peace and freedom from outer dependence.",
+"genz": "Happiness inside, joy inside, light inside — that yogi becomes one with the source and unlocks full liberation. Examples: feel content in your own company, create for the love of it, see the glow within — no need for external validation. Inner world supremacy = true freedom.",
+"genalpha": "Someone whose happiness is inside their heart, who plays and feels fun inside, who sees bright light inside — that person becomes part of the big peaceful forever light. Like having a secret happy room inside your heart that always feels safe and fun, no matter what's happening outside."
+},
+{
+"verse": 25,
+"sanskrit": "लभन्ते ब्रह्मनिर्वाणमृषयः क्षीणकल्मषाः |\nछिन्नद्वैधा यतात्मानः सर्वभूतहिते रताः ||",
+"transliteration": "labhante brahma-nirvāṇam ṛṣayaḥ kṣīṇa-kalmaṣāḥ\nchinna-dvaidhā yatātmānaḥ sarva-bhūta-hite ratāḥ",
+"translation": "Those who are free from sinful reactions, whose doubts are destroyed, whose minds are controlled, and who are engaged in the welfare of all beings attain liberation in Brahman.",
+"millennial": "Sinless, doubt-free, self-controlled, always working for others' good — these sages reach Brahman liberation. Examples: live ethically, clear confusions through reflection, master impulses, help others — this combination brings deep freedom and fulfillment.",
+"genz": "Clean karma, no more doubts, mind locked-in, always vibing for everyone's good — these ones reach full Brahman unlock. Examples: no shady moves, clarity through real talk, self-control, helping the squad/community — that's the liberation recipe.",
+"genalpha": "People who don't do bad things, have no more confusion, control themselves well, and always try to make everyone happy — they reach the big peaceful forever place. Like being kind, clear-headed, strong inside, and helping friends — you feel super light and happy."
+},
+{
+"verse": 26,
+"sanskrit": "कामक्रोधवियुक्तानां यतीनां यतचेतसाम् |\nअभितो ब्रह्मनिर्वाणं वर्तते विदितात्मनाम् ||",
+"transliteration": "kāma-krodha-viyuktānāṁ yatīnāṁ yata-cetasām\nabhito brahma-nirvāṇaṁ vartate viditātmanām",
+"translation": "Those who are free from desire and anger, who have controlled their minds, and who have realized the self — for them liberation in Brahman exists both here and now.",
+"millennial": "Free from desire/anger, mind controlled, self-realized — liberation is here and now, not later. Examples: drop craving and rage, steady your mind through practice, know your true nature — peace is present immediately, not postponed to some future state.",
+"genz": "No desire, no rage, mind locked, self-known — liberation is live, right here, not some after-party. Examples: release thirst and salt, steady focus, know your core — peace hits in this moment, no waiting room.",
+"genalpha": "People who don't want too much and don't get angry, who keep their thoughts calm, who know their real self — the big peaceful happy place is right here with them, not far away. Like feeling calm and safe in your heart right now, no need to wait for tomorrow."
+},
+{
+"verse": 27,
+"sanskrit": "स्पर्शान्कृत्वा बहिर्बाह्यांश्चक्षुश्चैवान्तरे भ्रुवोः |\nप्राणापानौ समौ कृत्वा नासाभ्यन्तरचारिणौ ||",
+"transliteration": "sparśān kṛtvā bahir bāhyāṁś cakṣuś caivāntare bhruvoḥ\nprāṇāpānau samau kṛtvā nāsābhyantara-cāriṇau",
+"translation": "Shutting out all external sense objects, keeping the eyes and vision concentrated between the two eyebrows, suspending the inward and outward breaths within the nostrils, the yogī regulates the senses, mind and intelligence to attain liberation.",
+"millennial": "Krishna describes advanced meditation: withdraw senses, focus gaze between brows, balance breathing — control mind for liberation. Examples: prāṇāyāma + trataka (gaze fixation) — powerful for concentration and inner stillness. Start simple — even 5 minutes of focused breathing reduces stress and sharpens clarity.",
+"genz": "Shut external noise, eyes locked between brows, balance in/out breath in nostrils — yogi mode for mind control and unlock. Examples: sensory detox + box breathing + third-eye focus — intense reset. Advanced inner tech for clarity and peace.",
+"genalpha": "Close off outside fun things, look gently between your eyebrows, make breathing in and out even and slow inside your nose — this helps calm your mind and feel very peaceful. Like closing your eyes and breathing slowly while thinking of a happy light in the middle of your forehead."
+},
+{
+"verse": 28,
+"sanskrit": "यतेन्द्रियमनोबुद्धिर्मुनिर्मोक्षपरायणः |\nविगतेच्छाभयक्रोधो यः सदा मुक्त एव सः ||",
+"transliteration": "yatendriya-mano-buddhir munir mokṣa-parāyaṇaḥ\nvigatecchā-bhaya-krodho yaḥ sadā mukta eva saḥ",
+"translation": "One who has controlled his senses, mind and intelligence and who is always aspiring for liberation — such a person is forever free from desire, fear and anger. He is certainly liberated.",
+"millennial": "Sense/mind/intellect controlled, focused on liberation, free from desire/fear/anger — always liberated. Examples: master impulses, steady thoughts, aim for higher freedom — naturally drop anxiety, craving, resentment. This is the liberated state while still living — full inner sovereignty.",
+"genz": "Senses/mind/brain locked down, liberation-locked, desire/fear/rage gone — always free. Examples: control urges, steady focus, aim for real freedom — no more anxiety loops or anger triggers. Living liberation, no waiting for some future state.",
+"genalpha": "Someone who controls eyes/ears/thinking/smart mind, always wants to be free and happy, lets go of wanting too much, being scared, or getting mad — they are always free and light inside. Like being calm and brave no matter what happens around you."
+},
+{
+"verse": 29,
+"sanskrit": "भोक्तारं यज्ञतपसां सर्वलोकमहेश्वरम् |\nसुहृदं सर्वभूतानां ज्ञात्वा मां शान्तिमृच्छति ||",
+"transliteration": "bhoktāraṁ yajña-tapasāṁ sarva-loka-maheśvaram\nsuhṛdaṁ sarva-bhūtānāṁ jñātvā māṁ śāntim ṛcchati",
+"translation": "A person in full Krishna consciousness, knowing Me as the enjoyer of all sacrifices and austerities, the Supreme Lord of all planets and demigods, and the benefactor and well-wisher of all living entities, attains peace from the pangs of material miseries.",
+"millennial": "Final verse of the chapter: know Me as the receiver of all offerings, Lord of all, friend of every being — then attain supreme peace. Examples: see all your work/effort as offered to the divine, recognize the higher power as your true friend — anxiety dissolves, peace arises from within. This relationship ends material suffering.",
+"genz": "Know Me as the one who enjoys all offerings/practices, supreme ruler, true friend of every soul — then real peace hits, all material Ls fade. Examples: offer your grind to the higher, feel the universe as your homie — stress melts, calm locks in.",
+"genalpha": "When you know the big friend enjoys all your good sharing and hard work, is the king of everything, and is the best friend to every person and animal — then you feel very peaceful and all sad things go away. Like knowing your best friend loves everything you do and always wants you happy — your heart feels safe and light forever."
+}
   ]
 }
