@@ -6,558 +6,652 @@
 "introduction": "Chapter 2 of the Bhagavad Gita dives into the core philosophy, where Krishna responds to Arjuna's despair with profound teachings on the soul, duty, and detachment. Known as Sankhya Yoga, it lays the foundation for understanding the eternal self versus the temporary body, much like distinguishing your core identity from your job title or social media persona. In today's fast-paced world, this chapter resonates with anyone juggling work stress, personal growth, and existential questions—think of it as Krishna's masterclass on resilience, helping you navigate career setbacks or life changes without losing your cool.",
 "shlokas": [
 {
-"verse": 1,
-"sanskrit": "सञ्जय उवाच |\nतं तथा कृपयाविष्टमश्रुपूर्णाकुलेक्षणम् |\nविषीदन्तमिदं वाक्यमुवाच मधुसूदनः ||",
-"transliteration": "sañjaya uvāca\ntaṁ tathā kṛpayāviṣṭam aśru-pūrṇākulekṣaṇam\nviṣīdantam idaṁ vākyam uvāca madhusūdanaḥ",
-"translation": "Sanjaya said: Seeing Arjuna full of compassion, his mind depressed, his eyes full of tears, Madhusudana, Krishna, spoke the following words.",
-"millennial": "Sanjaya narrates Arjuna's breakdown—tears, overwhelm, the works. It's like that moment after a brutal workday when you crash on the couch, questioning your life choices. Krishna steps in as the ultimate life coach, ready to drop truths. In modern terms, think of a mentor spotting your burnout and saying, 'Let's unpack this.' Seriously, it shows vulnerability isn't weakness; it's the doorway to wisdom, especially when work-life balance feels impossible.",
-    "genz": "Sanjaya's giving live commentary — Arjuna's eyes are full of tears, heart heavy with feels, totally broken seeing everyone ready to fight. Krishna (Madhusudana) finally speaks up. It's that moment in a huge group fallout when your bestie sees you're actually crying and decides to drop the real talk to pull you out of the spiral.",
-    "genalpha": "Sanjaya says Arjuna has tears in his eyes and looks very sad. Then Krishna, the kind friend, starts talking to him. It's like when your best friend sees you're crying during a big fight and comes to give you a hug and tell you everything will be okay."
+    "verse": 1,
+    "sanskrit": "सञ्जय उवाच |\nतं तथा कृपयाविष्टमश्रुपूर्णाकुलेक्षणम् |\nविषीदन्तमिदं वाक्यमुवाच मधुसूदनः ||",
+    "transliteration": "sañjaya uvāca\ntaṁ tathā kṛpayāviṣṭam aśru-pūrṇākulekṣaṇam\nviṣīdantam idaṁ vākyam uvāca madhusūdanaḥ",
+    "translation": "Sañjaya said: Seeing Arjuna overwhelmed with compassion, his eyes full of tears and despondent, Madhusūdana (Kṛṣṇa) spoke the following words.",
+    "millennial": "Sañjaya sets the scene: Arjuna is emotionally broken — tears, despair, compassion for family/enemies. Krishna (the destroyer of Madhu) is about to respond. This is the classic moment many of us face in our 30s — burnout, moral dilemma at work, family pressure, fear of failure/harm to others. Krishna doesn't judge the emotion; he addresses it with wisdom. Lesson: vulnerability is the doorway to transformation — don't suppress feelings, bring them to higher guidance.",
+    "genz": "Sañjaya's narration: Arjuna is straight-up crying, compassion overload, depressed af. Krishna (Madhusudan mode) is about to drop truth bombs. This is that moment you hit rock bottom — crying over choices, scared to hurt people, imposter vibes max. Krishna doesn't clown you; he meets you there with clarity. Vibes: your feelings are valid — take them to the inner guru instead of spiraling.",
+    "genalpha": "Sañjaya says: Arjuna was very sad and full of kindness, his eyes full of tears. Krishna, the strong one, spoke to him nicely. It's like when you're really upset and crying because you don't want to hurt your friends or family — your big wise friend comes and talks to you gently to make you feel better."
   },
-{
-"verse": 2,
-"sanskrit": "श्रीभगवानुवाच |\nकुतस्त्वा कश्मलमिदं विषमे समुपस्थितम् |\nअनार्यजुष्टमस्वर्ग्यमकीर्तिकरमर्जुन ||",
-"transliteration": "śrī-bhagavān uvāca\nkutas tvā kaśmalam idaṁ viṣame samupasthitam\nanārya-juṣṭam asvargyam akīrti-karam arjuna",
-"translation": "The Supreme Personality of Godhead said: My dear Arjuna, how have these impurities come upon you? They are not at all befitting a man who knows the value of life. They lead not to higher planets but to infamy.",
-"millennial": "Krishna calls out Arjuna's despair: 'Where's this coming from? It's not you.' Picture your boss or friend snapping you out of a pity party during a project crisis—'This mindset won't get you promoted; it'll tank your rep.' Funny how we all have those 'why me' moments, but Krishna reminds us: True leaders rise above emotional slumps, focusing on long-term growth over short-term feels. In work, it's like shaking off a failed pitch to prep for the next big win.",
-    "genz": "Krishna hits him with the tough love opener: 'Where did this weak energy come from right now when it matters most? This soft, un-cool, reputation-ruining vibe doesn't suit you at all, Arjuna.' It's the ultimate reality check from your inner voice when you're about to ghost something important because of anxiety.",
-    "genalpha": "Krishna asks Arjuna: 'Why are you acting so scared and small right now? This isn't like a brave hero — it won't make you feel good or proud.' It's like your sports coach saying 'don't give up now, you're stronger than this!'"
+  {
+    "verse": 2,
+    "sanskrit": "श्रीभगवानुवाच |\nकुतस्त्वा कश्मलमिदं विषमे समुपस्थितम् |\nअनार्यजुष्टमस्वर्ग्यमकीर्तिकरमर्जुन ||",
+    "transliteration": "śrī-bhagavān uvāca\nkutas tvā kaśmalam idaṁ viṣame samupasthitam\nanārya-juṣṭam asvargyam akīrti-karam arjuna",
+    "translation": "The Supreme Personality of Godhead said: My dear Arjuna, how have these impurities come upon you at this critical hour? They are not at all befitting a noble person. They lead not to higher planets but to infamy.",
+    "millennial": "Krishna's first words are a loving challenge: where did this weakness come from at the decisive moment? It's unbecoming of an Aryan (noble person), doesn't lead to heaven, brings disgrace. Examples: at a critical career juncture (layoff, promotion, ethical dilemma) — self-doubt, fear, compassion-misplaced-as-weakness. Krishna calls it out not to shame, but to wake Arjuna up. Lesson: nobility means courage + dharma in crisis — don't let emotion derail duty.",
+    "genz": "Krishna's opening shot: 'where did this weak energy come from right when it matters most? This ain't you — it's not noble, not gonna get you to higher levels, just gonna make you look bad.' Examples: that moment you freeze in a big decision — fear, overthinking, misplaced empathy. Krishna's tough love: snap out of it, this isn't your vibe. Noble energy = courage in clutch moments.",
+    "genalpha": "Krishna asks: 'Why are you feeling so weak and confused right now when it's important? This isn't like a strong person — it won't take you to nice places and will make people think bad things about you.' It's like your coach saying 'hey, this scared feeling isn't you — stand tall, be brave!'"
   },
-{
-"verse": 3,
-"sanskrit": "क्लैब्यं मा स्म गमः पार्थ नैतत्त्वय्युपपद्यते |\nक्षुद्रं हृदयदौर्बल्यं त्यक्त्वोत्तिष्ठ परन्तप ||",
-"transliteration": "klaibyaṁ mā sma gamaḥ pārtha naitat tvayy upapadyate\nkṣudraṁ hṛdaya-daurbalyaṁ tyaktvottiṣṭha parantapa",
-"translation": "O son of Pritha, do not yield to this degrading impotence. It does not become you. Give up such petty weakness of heart and arise, O chastiser of the enemy.",
-"millennial": "Krishna urges: 'Don't go weak now; snap out of it and stand up.' It's that tough love from a trainer when you're about to quit the gym mid-set. Seriously, in career terms, it's like overcoming imposter syndrome—ditch the self-doubt, rise to the challenge. Humorous side: We all have days where Netflix seems better than networking, but Krishna's push is the essence of grit, essential for climbing the corporate ladder or pursuing passions.",
-    "genz": "Straight-up: 'Don't go impotent mode, Partha — that's not you. Drop this tiny heart-weakness and stand up, enemy-slayer.' Classic hype-man energy telling you to lock in when you're freezing in a crucial moment — no more excuses, rise up.",
-    "genalpha": "Krishna says: 'Don't be weak like that — it's not for a strong kid like you. Throw away the scared feeling and stand tall!' Like your big brother telling you 'get up and try again — you're brave!'"
+  {
+    "verse": 3,
+    "sanskrit": "क्लैब्यं मा स्म गमः पार्थ नैतत्त्वय्युपपद्यते |\nक्षुद्रं हृदयदौर्बल्यं त्यक्त्वोत्तिष्ठ परन्तप ||",
+    "transliteration": "klaibyaṁ mā sma gamaḥ pārtha naitat tvayy upapadyate\nkṣudraṁ hṛdaya-daurbalyaṁ tyaktvottiṣṭha parantapa",
+    "translation": "O son of Pṛthā, do not yield to this degrading impotence. It does not become you. Give up such petty weakness of heart and arise, O chastiser of the enemy.",
+    "millennial": "Krishna's tough love continues: don't give in to impotence/weakness — it's unbecoming. Drop this petty heart-faintness and stand up! Examples: in moments of self-doubt or moral paralysis (career pivot, confrontation, tough call) — Krishna's command is to rise above. Weakness is temporary; courage is your nature. Call to action — reclaim inner strength.",
+    "genz": "Krishna's hype: 'don't go soft like that — that's not you. Drop this weak heart energy and stand up, warrior!' Examples: when you're stuck in overthinking or fear mode — Krishna's like 'nah, get up, shake it off, do your thing.' Tough love reset — reclaim your power.",
+    "genalpha": "Krishna says: 'Don't act weak like that — it's not right for you. Throw away this small sad feeling in your heart and stand up strong!' It's like your coach yelling 'don't be scared now — get up and fight like the brave kid you are!'"
   },
-{
-"verse": 4,
-"sanskrit": "अर्जुन उवाच |\nकथं भीष्ममहं सङ्ख्ये द्रोणं च मधुसूदन |\nइषुभिः प्रतियोत्स्यामि पूजार्हावरिसूदन ||",
-"transliteration": "arjuna uvāca\nkathaṁ bhīṣmam ahaṁ saṅkhye droṇaṁ ca madhusūdana\niṣubhiḥ pratiyotsyāmi pūjārhāv ari-sūdana",
-"translation": "Arjuna said: O killer of enemies, O killer of Madhu, how can I counterattack with arrows in battle men like Bhishma and Drona, who are worthy of my worship?",
-"millennial": "Arjuna protests: 'How can I fight my respected elders?' Like refusing to compete against a mentor in business. It highlights ethical dilemmas—loyalty vs. duty. In daily life, think negotiating with a former boss; funny how respect complicates things, but Krishna will teach balancing honor with responsibility.",
-    "genz": "Arjuna replies: 'How can I even aim arrows at Bhishma and Drona in battle, Madhusudana? They deserve respect, not shots — they're the ones I look up to.' It's that conflict when you have to stand against your own mentors or elders in real life — feels wrong on every level.",
-    "genalpha": "Arjuna says: 'How can I fight grandpa Bhishma and teacher Drona with arrows? They should get love, not fighting.' It's like having to play against your favorite teacher or grandpa and feeling bad about it."
+  {
+    "verse": 4,
+    "sanskrit": "अर्जुन उवाच |\nकथं भीष्ममहं संख्ये द्रोणं च मधुसूदन |\nइषुभिः प्रतियोत्स्यामि पूजार्हावरिसूदन ||",
+    "transliteration": "arjuna uvāca\nkathaṁ bhīṣmam ahaṁ saṅkhye droṇaṁ ca madhusūdana\niṣubhiḥ pratiyotsyāmi pūjārhāv arisūdana",
+    "translation": "Arjuna said: O Madhusūdana, how can I counterattack with arrows in battle men like Bhīṣma and Droṇa, who are worthy of my worship?",
+    "millennial": "Arjuna's core conflict: how can I fight and kill respected elders/teachers (Bhīṣma, Droṇa) who deserve reverence? Examples: ethical/moral dilemma in career/family — confronting authority figures, whistleblowing, tough decisions that hurt respected people. Krishna will address duty vs emotion next.",
+    "genz": "Arjuna's pain point: 'how do I shoot arrows at people I respect like grandpa Bhishma and teacher Drona?' Examples: that moment you have to stand up to a mentor/boss/elder you admire — feels wrong. Moral conflict max — Krishna's about to solve it.",
+    "genalpha": "Arjuna says: 'How can I fight with arrows against people I respect so much like grandfather Bhishma and teacher Drona?' It's like having to play against your favorite coach or grandpa in a game — it feels very hard and sad."
   },
-{
-"verse": 5,
-"sanskrit": "गुरूनहत्वा हि महानुभावान् श्रेयो भोक्तुं भैक्ष्यमपीह लोके |\nहत्वार्थकामांस्तु गुरूनिहैव भुञ्जीय भोगान् रुधिरप्रदिग्धान् ||",
-"transliteration": "gurūn ahatvā hi mahānubhāvān śreyo bhoktuṁ bhaikṣyam apīha loke\nhatvārtha-kāmāṁs tu gurūn ihaiva bhuñjīya bhogān rudhira-pradigdhān",
-"translation": "It would be better to live in this world by begging than to kill the great souls who are my teachers. Even though desiring worldly gain, they are superiors. If they are killed, everything we enjoy will be tainted with blood.",
-"millennial": "Arjuna prefers begging over killing gurus for gains. Relatable to quitting a job rather than stepping on toes for a raise. Essence: True success isn't bloodied by betrayal; in work, it's building without burning bridges.",
-    "genz": "Better to beg on the streets than enjoy a kingdom stained by killing my gurus. Even if they want power, taking them out would make every win feel dirty with blood. Peak moral dilemma — no amount of clout or bag is worth betraying your OGs.",
-    "genalpha": "Arjuna says: 'I'd rather ask for food like a beggar than have nice things after hurting my teachers. Even if they want to win, hurting them makes everything feel yucky.' Like saying no to the biggest candy if it means being mean to your teacher."
+  {
+    "verse": 5,
+    "sanskrit": "गुरूनहत्वा हि महानुभावान्\nश्रेयो भोक्तुं भैक्ष्यमपीह लोके |\nहत्वार्थकामांस्तु गुरूनिहैव\nभुञ्जीय भोगान् रुधिरप्रदिग्धान् ||",
+    "transliteration": "gurūn ahatvā hi mahānubhāvān\nśreyo bhoktuṁ bhaikṣyam apīha loke\nhatvārtha-kāmāṁs tu gurūn ihaiva\nbhuñjīya bhogān rudhira-pradigdhān",
+    "translation": "It would be better to live in this world by begging than to kill these honored teachers. If I kill them, even though they are avaricious, I would only enjoy this world smeared with their blood.",
+    "millennial": "Arjuna prefers begging (humiliation) over killing revered teachers — even if greedy, victory would be stained with blood/guilt. Examples: ethical cost of ambition — promotions, wins that hurt mentors/elders. Moral high ground vs practical duty — Krishna will resolve. Inner conflict universal — duty vs reverence.",
+    "genz": "Arjuna's like 'I'd rather beg on streets than kill my respected teachers — even if they're greedy, winning would feel dirty with their blood on my hands.' Examples: that moral dilemma — success that hurts people you look up to. Guilt vs glory — Krishna's answer coming.",
+    "genalpha": "Arjuna says: 'It's better to beg for food than kill these great teachers. Even if I win and get things, it would feel terrible like eating food covered in their blood.' It's like saying 'I'd rather have nothing than hurt my favorite teacher or grandpa to win.'"
   },
-{
-"verse": 6,
-"sanskrit": "न चैतद्विद्मः कतरन्नो गरीयो यद्वा जयेम यदि वा नो जयेयुः |\nयानेव हत्वा न जिजीविषामस् तेऽवस्थिताः प्रमुखे धार्तराष्ट्राः ||",
-"transliteration": "na caitad vidmaḥ kataran no garīyo yad vā jayema yadi vā no jayeyuḥ\nyān eva hatvā na jijīviṣāmas te 'vasthitāḥ pramukhe dhārtarāṣṭrāḥ",
-"translation": "Nor do we know which is better—conquering them or being conquered by them. If we killed the sons of Dhritarashtra, we should not care to live. Yet they are now standing before us on the battlefield.",
-"millennial": "Arjuna's torn: Win or lose, what's the point? Like a no-win scenario in a merger where friends lose jobs. Teaches evaluating true victory beyond material wins."
-},
-{
-"verse": 7,
-"sanskrit": "कार्पण्यदोषोपहतस्वभावः पृच्छामि त्वां धर्मसम्मूढचेताः |\nयच्छ्रेयः स्यान्निश्चितं ब्रूहि तन्मे शिष्यस्तेऽहं शाधि मां त्वां प्रपन्नम् ||",
-"transliteration": "kārpaṇya-doṣopahata-svabhāvaḥ pṛcchāmi tvāṁ dharma-sammūḍha-cetāḥ\nyac chreyaḥ syān niścitaṁ brūhi tan me śiṣyas te 'haṁ śādhi māṁ tvāṁ prapannam",
-"translation": "Now I am confused about my duty and have lost all composure because of miserly weakness. In this condition I am asking You to tell me for certain what is best for me. Now I am Your disciple, and a soul surrendered unto You. Please instruct me.",
-"millennial": "Arjuna surrenders: 'I'm lost; teach me.' Like seeking a career coach during a mid-life crisis. Key: Humility opens doors to guidance; in work, admitting confusion leads to clarity."
-},
-{
-"verse": 8,
-"sanskrit": "न हि प्रपश्यामि ममापनुद्याद् यच्छोकमुच्छोषणमिन्द्रियाणाम् |\nअवाप्य भूमावसपत्नमृद्धं राज्यं सुराणामपि चाधिपत्यम् ||",
-"transliteration": "na hi prapaśyāmi mamāpanudyād yac chokam ucchoṣaṇam indriyāṇām\navāpya bhūmāv asapatnam ṛddhaṁ rājyaṁ surāṇām api cādhipatyam",
-"translation": "I can find no means to drive away this grief which is drying up my senses. I will not be able to dispel it even if I win a prosperous, unrivaled kingdom on earth with sovereignty like the demigods in heaven.",
-"millennial": "No kingdom can cure his sorrow—like money not fixing burnout. Relates to chasing titles without inner peace; funny how promotions often amplify stress."
-},
-{
-"verse": 9,
-"sanskrit": "सञ्जय उवाच |\nएवमुक्त्वा हृषीकेशं गुडाकेशः परन्तप |\nन योत्स्य इति गोविन्दमुक्त्वा तूष्णीं बभूव ह ||",
-"transliteration": "sañjaya uvāca\nevam uktvā hṛṣīkeśaṁ guḍākeśaḥ parantapa\nna yotsya iti govindam uktvā tūṣṇīṁ babhūva ha",
-"translation": "Sanjaya said: Having spoken thus, Arjuna, chastiser of enemies, told Krishna, 'Govinda, I shall not fight,' and fell silent.",
-"millennial": "Arjuna quits verbally. Like declaring 'I quit' in a heated meeting, then silence. Sets stage for Krishna's response."
-},
-{
-"verse": 10,
-"sanskrit": "तमुवाच हृषीकेशः प्रहसन्निव भारत |\nसेनयोरुभयोर्मध्ये विषीदन्तमिदं वचः ||",
-"transliteration": "tam uvāca hṛṣīkeśaḥ prahasann iva bhārata\nsenayor ubhayor madhye viṣīdantam idaṁ vacaḥ",
-"translation": "O descendant of Bharata, at that time Krishna, in the midst of both armies, spoke the following words to Arjuna, who was filled with grief.",
-"millennial": "Krishna smiles amid the armies—like a calm exec in a crisis. His gentle humor eases tension, showing wisdom starts with perspective."
-},
+  {
+    "verse": 6,
+    "sanskrit": "न चैतद्विद्मः कतरन्नो गरीयो\nयद्वा जयेम यदि वा नो जयेयुः |\nयानेव हत्वा न जिजीविषामस्\nतेऽवस्थिताः प्रमुखे धार्तराष्ट्राः ||",
+    "transliteration": "na caitad vidmaḥ kataran no garīyo\nyad vā jayema yadi vā no jayeyuḥ\nyān eva hatvā na jijīviṣāmas\nta ’vasthitāḥ pramukhe dhārtarāṣṭrāḥ",
+    "translation": "Nor do we know which is better — conquering them or being conquered by them. The sons of Dhṛtarāṣṭra, whom if we killed we should not care to live, are now standing before us on this battlefield.",
+    "millennial": "Arjuna's despair: we don't even know if victory or defeat is better — killing these relatives would make life meaningless. Examples: rock-and-hard-place dilemma — success that destroys values/relationships, or failure that preserves them. Existential crisis — purpose questioned. Krishna will give clarity on duty and soul.",
+    "genz": "Arjuna's stuck: 'we don't even know if winning or losing is better — killing them would make life pointless anyway.' Examples: win that costs your soul/relationships vs lose but keep integrity. Purpose crisis — Krishna's about to drop perspective.",
+    "genalpha": "Arjuna says: 'We don't know if it's better to win or lose — if we kill them, we won't even want to live anymore.' It's like not knowing if winning the game is good if it means hurting people you love — you'd rather not play."
+  },
+  {
+    "verse": 7,
+    "sanskrit": "कार्पण्यदोषोपहतस्वभावः\nपृच्छामि त्वां धर्मसंमूढचेताः |\nयच्छ्रेयः स्यान्निश्चितं ब्रूहि तन्मे\nशिष्यस्तेऽहं शाधि मां त्वां प्रपन्नम् ||",
+    "transliteration": "kārpaṇya-doṣopahata-svabhāvaḥ\npṛcchāmi tvāṁ dharma-saṁmūḍha-cetāḥ\nyac chreyaḥ syān niścitaṁ brūhi tan me\nśiṣyas te ’haṁ śādhi māṁ tvāṁ prapannam",
+    "translation": "Now I am confused about my duty and have lost all composure because of miserly weakness. In this condition I am asking You to tell me for certain what is best for me. Now I am Your disciple, and a soul surrendered unto You. Please instruct me.",
+    "millennial": "Arjuna's surrender: overwhelmed by weakness/pity, confused about dharma — he becomes Krishna's disciple, fully surrendered, asks for clear guidance. Examples: rock bottom moment — ego breaks, true seeking begins. Surrender to higher wisdom — turning point. In career/life crises — admit confusion, seek guidance humbly.",
+    "genz": "Arjuna's full surrender: 'I'm weak and confused about what's right — I'm asking you to tell me straight what to do. I'm your student now, surrendered — teach me.' Examples: hitting that 'I can't anymore' point — ego down, real seeking up. Surrender to guru/source = breakthrough.",
+    "genalpha": "Arjuna says: 'I'm feeling weak and mixed up about what's the right thing — please tell me clearly what's best. Now I'm your student, I give myself to you — please teach me.' It's like when you're lost and confused, you finally say to your wise friend 'I don't know anymore — please show me the way.'"
+  },
+  {
+    "verse": 8,
+    "sanskrit": "न हि प्रपश्यामि ममापनुद्याद्\nयच्छोकमुच्छोषणमिन्द्रियाणाम् |\nअवाप्य भूमावसपत्नमृद्धं\nराज्यं सुराणामपि चाधिपत्यम् ||",
+    "transliteration": "na hi prapaśyāmi mamāpanudyād\nyac chokam ucchoṣaṇam indriyāṇām\navāpya bhūmāv asapatnam ṛddhaṁ\nrājyaṁ surāṇām api cādhipatyam",
+    "translation": "I can find no means to drive away this grief which is drying up my senses. I will not be able to dispel it even if I win a prosperous, unrivaled kingdom on earth with sovereignty like the demigods in heaven.",
+    "millennial": "Arjuna's despair peak: no kingdom, even heavenly rule, can remove this grief drying his senses. Examples: when loss (relationships, values, purpose) outweighs any gain — material success feels meaningless. Inner emptiness — external wins can't fill. Sets stage for Krishna to teach soul immortality + duty.",
+    "genz": "Arjuna's at max depression: 'even winning the whole world or god-level kingdom won't fix this grief drying me up inside.' Examples: when the bag/success feels empty because of guilt/loss — nothing external can fill the hole. Deep emptiness — material W = L.",
+    "genalpha": "Arjuna says: 'Nothing can take away this sadness that's making me feel empty inside — not even winning a huge kingdom or being king of the gods.' It's like feeling so sad that even getting every toy and candy in the world wouldn't make you smile anymore."
+  },
+  {
+    "verse": 9,
+    "sanskrit": "सञ्जय उवाच |\nएवमुक्त्वा हृषीकेशं गुडाकेशः परन्तप |\nन योत्स्य इति गोविन्दमुक्त्वा तूष्णीं बभूव ह ||",
+    "transliteration": "sañjaya uvāca\nevam uktvā hṛṣīkeśaṁ guḍākeśaḥ parantapa\nna yotsya iti govindam uktvā tūṣṇīṁ babhūva ha",
+    "translation": "Sañjaya said: Having spoken thus, Arjuna, chastiser of enemies, told Kṛṣṇa, 'Govinda, I shall not fight,' and fell silent.",
+    "millennial": "Arjuna declares refusal to fight — then goes silent. Examples: hitting emotional wall — withdrawal, shutdown. Silence after despair — space for divine response. Turning point — surrender complete. In life: sometimes saying 'I can't' opens door for guidance.",
+    "genz": "Sañjaya's narration: after all that, Arjuna tells Krishna 'I'm not fighting' and goes quiet. Examples: full shutdown — 'I'm out' moment. Silence = space for real answer. Rock bottom → breakthrough setup.",
+    "genalpha": "Sañjaya says: Arjuna told Krishna 'I won't fight' and then became very quiet. It's like when you're so upset and confused you just say 'I can't do this' and stop talking — waiting for someone wise to help."
+  },
+  {
+    "verse": 10,
+    "sanskrit": "तमुवाच हृषीकेशः प्रहसन्निव भारत |\nसेनयोरुभयोर्मध्ये विषीदन्तमिदं वचः ||",
+    "transliteration": "tam uvāca hṛṣīkeśaḥ prahasann iva bhārata\nsenayor ubhayor madhye viṣīdantam idaṁ vacaḥ",
+    "translation": "O descendant of Bharata, at that time Kṛṣṇa, smiling, in the midst of both armies, spoke the following words to the grief-stricken Arjuna.",
+    "millennial": "Krishna smiles gently — in the middle of both armies — speaks to grieving Arjuna. Examples: divine compassion — smile amid chaos. No judgment, only love/wisdom. In crisis: higher guidance comes with calm assurance. Smile = reassurance — 'I've got you.'",
+    "genz": "Krishna smiles softly — right between both armies — talks to depressed Arjuna. Examples: divine chill energy — smile in the middle of chaos. No shade, just love + truth. Higher guidance comes calm — 'relax, I got you.'",
+    "genalpha": "Krishna smiles nicely — standing between both big armies — and speaks to sad Arjuna. It's like your wise friend smiling gently even when everything is messy — saying 'don't worry, I'll help you' with love."
+  },
 {
 "verse": 11,
 "sanskrit": "श्रीभगवानुवाच |\nअशोच्यानन्वशोचस्त्वं प्रज्ञावादांश्च भाषसे |\nगतासूनगतासूंश्च नानुशोचन्ति पण्डिताः ||",
 "transliteration": "śrī-bhagavān uvāca\naśocyān anvaśocas tvaṁ prajñā-vādāṁś ca bhāṣase\ngatāsūn agatāsūṁś ca nānuśocanti paṇḍitāḥ",
 "translation": "The Supreme Personality of Godhead said: While speaking learned words, you are mourning for what is not worthy of grief. Those who are wise lament neither for the living nor for the dead.",
-"millennial": "Krishna: 'You're grieving the ungrievable.' Like worrying about a lost phone when life's bigger. Wise ones don't mourn the inevitable; in work, it's letting go of failed projects to focus on growth. Detailed: Death is change, not end—relates to career shifts, where 'dying' to old roles births new opportunities."
+"millennial": "Krishna begins his profound teaching by gently pointing out the irony in Arjuna's words: he's quoting wise scriptures and sounding knowledgeable, yet he's grieving over things (bodies/death) that aren't worth grieving. The truly wise don't mourn the living (who will die) or the dead (who have passed). This verse sets the tone for the entire Gītā — shifting from emotional attachment to philosophical detachment. Examples: in your 30s, you might intellectually know 'change is constant' from self-help books, but still grieve a job loss or breakup deeply. Krishna calls this out: apply knowledge — bodies are temporary, souls eternal. Detailed meaning: grief stems from body-identification; wisdom sees beyond — no lament for inevitable. For millennials facing mid-life transitions (career shifts, aging parents), this encourages intellectual/emotional alignment: accept impermanence, focus on eternal essence to reduce suffering. Practice: journal on 'what's truly worthy of grief' — reframe losses as transitions.",
+"genz": "Krishna's first clapback: 'you're talking big smart words from books, but crying over stuff not worth crying about. Real wise ones don't grieve living or dead.' Examples: like quoting motivational quotes on IG but still depressed over a fail or ghosting — Krishna's like 'apply it fr'. Detailed meaning: grief = body illusion; wise see soul forever — no tears. For Gen Z with anxiety over FOMO/loss, this hits: stop overthinking temporary Ls, focus eternal W. Hack: meme it — 'wise don't cry over spilled vibes'.",
+"genalpha": "Krishna says: 'You're saying very smart things but feeling sad for things that shouldn't make you sad. Wise people don't feel sad for people who are alive or who have gone away.' Examples: like knowing a story from a book but still crying when a toy breaks — wise kids know the fun inside never breaks. Detailed meaning: don't be sad for bodies that change — the happy soul inside stays forever. For kids, if a friend moves — don't cry too much, the love stays in your heart always."
 },
 {
 "verse": 12,
 "sanskrit": "न त्वेवाहं जातु नासं न त्वं नेमे जनाधिपाः |\nन चैव न भविष्यामः सर्वे वयमतः परम् ||",
 "transliteration": "na tv evāhaṁ jātu nāsaṁ na tvaṁ neme janādhipāḥ\nna caiva na bhaviṣyāmaḥ sarve vayam ataḥ param",
 "translation": "Never was there a time when I did not exist, nor you, nor all these kings; nor in the future shall any of us cease to be.",
-"millennial": "We're eternal. Mind-blowing: Your soul predates your resume. In daily life, it's comforting during layoffs—'This job isn't me; I'm timeless.' Funny: Explains why Monday blues feel ancient. Essence: Detach from temporary identities for true stability."
+"millennial": "Krishna reveals the eternity of the soul: there was never a time when He, Arjuna, or the kings didn't exist, and they will never cease to be. This verse introduces the concept of the atman's (soul's) immortality — beyond time, birth, and death. Examples: in moments of existential crisis (what's my legacy? Am I making a difference?), remembering your core self is eternal shifts perspective — career highs/lows are temporary, your essence persists. Detailed meaning: all beings are timeless souls; physical forms are transient. For millennials planning long-term (retirement, family), this encourages living purposefully without fear of 'ending' — you're part of an eternal continuum. Practice: meditate on 'I always was, am, will be' — reduces anxiety over aging/change.",
+"genz": "Krishna drops: 'there was never a time I/you/these kings didn't exist — and we never will stop.' Soul = forever mode. Examples: when you're stressed about 'what if I fail/die young' — remember real you eternal, no cap. Detailed meaning: beyond time/birth/death — physical just temp. For Gen Z with future anxiety/climate doom, this vibes: you're infinite, chill on temporary chaos. Hack: affirm 'I always exist' — fear less.",
+"genalpha": "Krishna says: 'There was never a time when I, you, or any of these people didn't exist — and we will never stop existing.' The real you inside is forever. Examples: like your favorite cartoon character — always there in stories, never really gone. Detailed meaning: don't worry about ending — the happy soul always stays. For kids scared of dark or losing things — know the inside light never turns off."
 },
 {
 "verse": 13,
 "sanskrit": "देहिनोऽस्मिन्यथा देहे कौमारं यौवनं जरा |\nतथा देहान्तरप्राप्तिर्धीरस्तत्र न मुह्यति ||",
-"transliteration": "dehino 'smin yathā dehe kaumāraṁ yauvanaṁ jarā\ntathā dehāntara-prāptir dhīras tatra na muhyati",
-"translation": "As the embodied soul continuously passes, in this body, from boyhood to youth to old age, the soul similarly passes into another body at death. A sober person is not bewildered by such a change.",
-"millennial": "Body changes like outfits; soul remains. Relate to aging in career—from intern to exec, then retirement. Wise don't freak; they adapt. Humorous: Like upgrading phones—old one crashes, get a new model. Teaches resilience in life's transitions."
+"transliteration": "dehino ’smin yathā dehe kaumāraṁ yauvanaṁ jarā\ntathā dehāntara-prāptir dhīras tatra na muhyati",
+"translation": "As the embodied soul continuously passes, in this body, from childhood to youth to old age, the soul similarly passes into another body at death. A sober person is not bewildered by such a change.",
+"millennial": "The soul transitions bodies like body ages: child → youth → old — death = new body. Wise not confused. Examples: career phases (entry-level → mid-career → senior) — natural evolution, don't cling. Death = next chapter. Detailed meaning: change inevitable — accept gracefully. For millennials with aging anxiety (30s crisis), see as soul's journey — wisdom in acceptance. Practice: reflect on life stages — prepare for transitions.",
+"genz": "Soul changes bodies like aging: kid → teen → adult — death = new fit. Wise don't freak. Examples: leveling up avatars — natural, no stress. Detailed meaning: flow with change — confusion = attachment. For Gen Z identity shifts, see as upgrades — embrace.",
+"genalpha": "The real you inside changes bodies like growing from baby to kid to grown-up — when body ends, gets new one. Calm person isn't scared. Examples: like caterpillar to butterfly — exciting change. Detailed meaning: don't worry about growing or ending — it's fun new starts."
 },
 {
 "verse": 14,
 "sanskrit": "मात्रास्पर्शास्तु कौन्तेय शीतोष्णसुखदुःखदाः |\nआगमापायिनोऽनित्यास्तांस्तितिक्षस्व भारत ||",
-"transliteration": "mātrā-sparśās tu kaunteya śītoṣṇa-sukha-duḥkha-dāḥ\nāgamāpāyino 'nityās tāṁs titikṣasva bhārata",
-"translation": "O son of Kunti, the nonpermanent appearance of happiness and distress, and their disappearance in due course, are like the appearance and disappearance of winter and summer seasons. They arise from sense perception, O scion of Bharata, and one must learn to tolerate them without being disturbed.",
-"millennial": "Pleasure and pain come and go like seasons. In work, think market highs and crashes—tolerate without panic. Detailed: Build emotional intelligence; don't quit over one bad review. Funny: Like coffee—hot joy, then cold regret. Essence: Equanimity for sustained success."
+"transliteration": "mātrā-sparśās tu kaunteya śītoṣṇa-sukha-duḥkha-dāḥ\nāgamāpāyino ’nityās tāṁs titikṣasva bhārata",
+"translation": "O son of Kuntī, the nonpermanent appearance of happiness and distress, and their disappearance in due course, are like the appearance and disappearance of winter and summer seasons. They arise from sense perception, O scion of Bharata, and one must learn to tolerate them without being disturbed.",
+"millennial": "Pleasure/pain come/go like seasons — from senses, impermanent — tolerate without disturbance. Examples: market fluctuations (gains/losses) — don't elate/depress, steady through cycles. Sense-based — transcend by awareness. Detailed meaning: duality from contact — endure equanimously. For millennials in volatile jobs/relationships — build resilience, focus on long-term. Practice: breathwork in stress — observe, not react.",
+"genz": "Happy/sad come/go like seasons — from senses, not forever — learn to sit with without tilting. Examples: viral high/cancel low — temporary, don't hype or rage. Detailed meaning: duality illusion — tolerate chill. For Gen Z mood swings — build resilience, observe vibes.",
+"genalpha": "Happy and sad feelings come and go like cold winter and hot summer — from touching/seeing, don't last — learn to be okay without getting upset. Examples: ice cream happy, fall sad — both pass. Detailed meaning: feelings from outside — stay calm inside. For kids — hug when sad, but know it goes away."
 },
 {
 "verse": 15,
 "sanskrit": "यं हि न व्यथयन्त्येते पुरुषं पुरुषर्षभ |\nसमदुःखसुखं धीरं सोऽमृतत्वाय कल्पते ||",
-"transliteration": "yaṁ hi na vyathayanty ete puruṣaṁ puruṣarṣabha\nsama-duḥkha-sukhaṁ dhīraṁ so 'mṛtatvāya kalpate",
+"transliteration": "yaṁ hi na vyathayanty ete puruṣaṁ puruṣarṣabha\nsama-duḥkha-sukhaṁ dhīraṁ so ’mṛtatvāya kalpate",
 "translation": "O best among men [Arjuna], the person who is not disturbed by happiness and distress and is steady in both is certainly eligible for liberation.",
-"millennial": "Balanced in ups and downs? You're liberation-bound. Like a steady stock in volatile markets. In life, it's the colleague who stays calm during deadlines— they thrive. Serious: Cultivate this for mental health; funny: No more road rage commutes."
+"millennial": "Undisturbed by pleasure/pain — steady — qualified for immortality (liberation). Examples: balanced in success/failure (promotion/demotion) — no ego swings, consistent self. Steadiness = mokṣa path. Detailed meaning: equanimity key — transcend duality for freedom. For millennials, emotional intelligence — regulate reactions for inner liberation.",
+"genz": "No tilt from happy/sad — balanced steady — ready for liberation. Examples: same vibe in viral/fail — no ego. Detailed meaning: duality transcend = freedom. For Gen Z, mental health — balance emotions for real peace.",
+"genalpha": "The person who stays calm in happy or sad times — very steady — is ready to be free forever. Examples: smile same if win or lose game — strong inside. Detailed meaning: don't let feelings boss you — stay even for big happy place."
 },
 {
 "verse": 16,
 "sanskrit": "नासतो विद्यते भावो नाभावो विद्यते सतः |\nउभयोरपि दृष्टोऽन्तस्त्वनयोस्तत्त्वदर्शिभिः ||",
-"transliteration": "nāsato vidyate bhāvo nābhāvo vidyate sataḥ\nubhayor api dṛṣṭo 'ntas tv anayos tattva-darśibhiḥ",
+"transliteration": "nāsato vidyate bhāvo nābhāvo vidyate sataḥ\nubhayor api dṛṣṭo ’ntas tv anayos tattva-darśibhiḥ",
 "translation": "Those who are seers of the truth have concluded that of the nonexistent [the material body] there is no endurance and of the eternal [the soul] there is no change. This they have concluded by studying the nature of both.",
-"millennial": "Temporary doesn't last; eternal doesn't change. Body: fleeting like trends; soul: constant like gravity. Relate to fads in tech vs. core skills. Wise see this, avoiding attachment to passing phases."
+"millennial": "Truth-seers conclude: unreal (body) has no permanence, real (soul) no change — from studying both. Examples: body decays, soul constant — scientific/spiritual observation. Detailed meaning: discern sat (real) from asat (unreal) — wisdom foundation. For millennials, material pursuits (wealth/beauty) fleeting — invest in soul (growth/relationships) eternal.",
+"genz": "Real knowers say: fake (body) no lasting, real (soul) no change — from checking both. Examples: body glitches out, soul steady — observe it. Detailed meaning: spot real from fake — wisdom base. Material chases temporary — soul investments forever.",
+"genalpha": "Wise people who see truth say: things that aren't real (body) don't last, things that are real (soul) never change — they learned by looking closely. Examples: toy breaks, but fun inside you stays. Detailed meaning: know what's forever and what's not — be happy with the forever part."
 },
 {
 "verse": 17,
 "sanskrit": "अविनाशि तु तद्विद्धि येन सर्वमिदं ततम् |\nविनाशमव्ययस्यास्य न कश्चित्कर्तुमर्हति ||",
 "transliteration": "avināśi tu tad viddhi yena sarvam idaṁ tatam\nvināśam avyayasyāsya na kaścit kartum arhati",
 "translation": "That which pervades the entire body you should know to be indestructible. No one is able to destroy that imperishable soul.",
-"millennial": "Soul's indestructible, permeating all. Like Wi-Fi everywhere but unbreakable. In work, your creativity survives failures. Funny: Body's a rental; soul owns the property."
+"millennial": "Soul pervades body — know it indestructible. No one can destroy it. Examples: consciousness filling you — eternal essence. Body harm doesn't touch soul. Detailed meaning: soul's omnipresence in body — unkillable. For millennials, health scares — body fragile, soul safe. Assurance — live boldly.",
+"genz": "Soul fills the whole body — indestructible. Nothing can kill it. Examples: awareness vibe everywhere in you — eternal. Body damage = irrelevant. Detailed meaning: unkillable core — live fearless.",
+"genalpha": "Know the thing that fills your whole body — it can never be destroyed. No one can hurt it. Examples: like the air inside a balloon — pop balloon, air stays free. Detailed meaning: your inside happy light is safe forever."
 },
 {
 "verse": 18,
-"sanskrit": "अन्तवन्त इमे देहा नित्यस्योक्ताः शरीरिणः |\nअनाशिनोऽप्रमेयस्य तस्माद्युध्यस्व भारत ||",
-"transliteration": "antavanta ime dehā nityasyoktāḥ śarīriṇaḥ\nanāśino 'prameyasya tasmād yudhyasva bhārata",
-"translation": "The material body of the indestructible, immeasurable and eternal living entity is sure to come to an end; therefore, fight, O descendant of Bharata.",
-"millennial": "Bodies end; souls don't—so fight. Duty calls despite loss. In life, pursue goals knowing change is constant; don't fear endings."
+"sanskrit": "अन्तवन्त इमे देहा नित्यस्योक्ताः शरीरिणः |\nअनाशिनोऽप्रमेयस्य तस्माद् युध्यस्व भारत ||",
+"transliteration": "antavanta ime dehā nityasyoktāḥ śarīriṇaḥ\nanāśino ’prameyasya tasmād yudhyasva bhārata",
+"translation": "The material bodies of the indestructible, immeasurable and eternal living entity are bound to come to an end; therefore, fight, O descendant of Bharata.",
+"millennial": "Bodies of eternal, immeasurable soul end — so fight. Examples: body finite, soul infinite — no real death. Duty without fear. Detailed meaning: body destined to end — soul safe. For Arjuna, war = dharma. For millennials, take risks (start business, speak truth) — body temporary, soul eternal.",
+"genz": "Bodies of eternal soul end — so fight. Examples: avatar finite, player infinite — no fear. Do duty bold. Detailed meaning: end inevitable for body — soul good. Risk it for growth.",
+"genalpha": "Bodies of the forever soul come to an end — so fight bravely. Examples: toy breaks, player plays new game — no sad. Detailed meaning: outside changes, inside stays — be strong."
 },
 {
 "verse": 19,
 "sanskrit": "य एनं वेत्ति हन्तारं यश्चैनं मन्यते हतम् |\nउभौ तौ न विजानीतो नायं हन्ति न हन्यते ||",
 "transliteration": "ya enaṁ vetti hantāraṁ yaś cainaṁ manyate hatam\nubhau tau na vijānīto nāyaṁ hanti na hanyate",
 "translation": "Neither he who thinks the living entity the slayer nor he who thinks it slain is in knowledge, for the self slays not nor is slain.",
-"millennial": "Soul neither kills nor dies. Beyond violence. Relates to guilt in tough decisions—like firing someone; it's roles, not essence."
+"millennial": "Neither killer nor killed knows truth — soul neither kills nor killed. Examples: violence illusion — soul untouched. End guilt/fear in conflicts. Detailed meaning: non-doership — actions on body level. For millennials, ethical decisions (war, business) — act knowing no real harm to essence.",
+"genz": "Killer/killed both wrong — soul doesn't kill/get killed. Examples: death illusion — real you safe. No guilt. Detailed meaning: non-doer vibe — body stuff. Ethical moves without fear.",
+"genalpha": "Whoever thinks someone kills or is killed — both don't understand. The real self doesn't kill and can't be killed. Examples: in a pretend fight — no one really hurts inside. Detailed meaning: play without real harm — happy souls safe."
 },
 {
 "verse": 20,
-"sanskrit": "न जायते म्रियते वा कदाचिन्नायं भूत्वा भविता वा न भूयः |\nअजो नित्यः शाश्वतोऽयं पुराणो न हन्यते हन्यमाने शरीरे ||",
-"transliteration": "na jāyate mriyate vā kadācin nāyaṁ bhūtvā bhavitā vā na bhūyaḥ\najo nityaḥ śāśvato 'yaṁ purāṇo na hanyate hanyamāne śarīre",
+"sanskrit": "न जायते म्रियते वा कदाचिन्नायं भूत्वा भविता वा न भूयः |\nअजो नित्यः शाश्वतोऽयं पुराणो\nन हन्यते हन्यमाने शरीरे ||",
+"transliteration": "na jāyate mriyate vā kadācin nāyaṁ bhūtvā bhavitā vā na bhūyaḥ\najo nityaḥ śāśvato ’yaṁ purāṇo\nna hanyate hanyamāne śarīre",
 "translation": "For the soul there is neither birth nor death at any time. He has not come into being, does not come into being, and will not come into being. He is unborn, eternal, ever-existing and primeval. He is not slain when the body is slain.",
-"millennial": "Soul's eternal, unborn, undying. Like software updating hardware. In career, you're more than your current role; transcend changes. Detailed: Frees from fear of failure or aging, empowering bold moves."
+"millennial": "Soul — no birth/death ever, unborn, eternal, ancient — not slain with body. Examples: timeless self — beyond life cycles. Detailed meaning: absolute eternity — no origin/end. For millennials, purpose search — you're ancient/eternal, live meaningfully. Practice: affirm eternity — fearlessness.",
+"genz": "Soul — no birth/death, always was/is/will be, unborn, eternal, ancient — body dies, soul no. Examples: player eternal — no game over. Detailed meaning: beyond time — infinite you. Live bold, meaningful.",
+"genalpha": "The real soul never born, never dies, always there, never new or old — body may end, soul stays. Examples: like the sun always shining — day/night changes, sun same. Detailed meaning: you're forever happy light — no worry."
 },
 {
 "verse": 21,
 "sanskrit": "वेदाविनाशिनं नित्यं य एनमजमव्ययम् |\nकथं स पुरुषः पार्थ कं घातयति हन्ति कम् ||",
 "transliteration": "vedāvināśinaṁ nityaṁ ya enam ajam avyayam\nkathaṁ sa puruṣaḥ pārtha kaṁ ghātayati hanti kam",
-"translation": "O Partha, how can a person who knows that the soul is indestructible, eternal, unborn and immutable kill anyone or cause anyone to kill?",
-"millennial": "Knowing soul's eternal, no real killing. Shifts perspective on actions; duty without guilt. In work, make tough calls knowing they're temporary."
+"translation": "O Pārtha, how can a person who knows that the soul is indestructible, eternal, unborn and immutable kill anyone or cause anyone to kill?",
+"millennial": "Krishna challenges Arjuna's grief: if you truly understand the soul as indestructible, eternal, unborn, and unchanging, how can you believe you're killing or causing death? The soul remains untouched by physical actions. This verse shifts perspective from body to soul — death is illusionary for the eternal self. Examples: in a corporate merger where layoffs are necessary (your 'duty'), if you see people as eternal souls, not just employees, guilt lessens — you act from necessity, not harm. Or in ending a toxic relationship — 'killing' the bond doesn't destroy the souls involved. Detailed meaning: knowledge of soul's immortality frees from moral paralysis; actions become detached, performed as duty without ego/guilt. For millennials, this addresses ethical dilemmas in leadership/decision-making — act boldly when aligned with higher truth, knowing no real harm to essence.",
+"genz": "Krishna's mic drop: if you really get that the soul can't be destroyed, is forever, never born, never changes — how can you think you're killing someone or making someone kill? It's all illusion on the body level. Examples: like in a heated online argument where you 'destroy' someone's point — but if you know everyone's real vibe (soul) is untouchable, no guilt over 'harming' ego. Or quitting a group chat drama — you're not 'killing' connections, just bodies/roles change. Detailed meaning: snap out of body-focus — soul safe always. For Gen Z, this hits on mental health: don't stress over 'ending' things (jobs, friendships) — real you and them eternal, no permanent damage. Detached action = less anxiety.",
+"genalpha": "Krishna asks Arjuna: if you know the real inside part (soul) can never be broken, is always there, never born and never gets old or changes — how can anyone really kill or make someone kill? It's like playing a video game — characters get 'hurt' but the players are always safe and okay. Examples: when you 'break' a toy in play — the fun and love inside you doesn't break. Or if a friend moves away — your hearts stay connected forever. Detailed meaning: don't be sad thinking you hurt someone forever — the happy soul inside everyone is safe and never hurt. For kids, this means play bravely but kindly, knowing no real harm to the inside light."
 },
 {
 "verse": 22,
 "sanskrit": "वासांसि जीर्णानि यथा विहाय नवानि गृह्णाति नरोऽपराणि |\nतथा शरीराणि विहाय जीर्णान्यन्यानि संयाति नवानि देही ||",
-"transliteration": "vāsāṁsi jīrṇāni yathā vihāya navāni gṛhṇāti naro 'parāṇi\ntathā śarīrāṇi vihāya jīrṇāny anyāni saṁyāti navāni dehī",
+"transliteration": "vāsāṁsi jīrṇāni yathā vihāya navāni gṛhṇāti naro ’parāṇi\ntathā śarīrāṇi vihāya jīrṇāny anyāni saṁyāti navāni dehī",
 "translation": "As a person puts on new garments, giving up old ones, the soul similarly accepts new material bodies, giving up the old and useless ones.",
-"millennial": "Soul changes bodies like clothes. Relate to career switches—outgrow old job, embrace new. Funny: Death's a wardrobe refresh. Essence: Don't cling; evolve."
+"millennial": "Classic analogy: death/rebirth like changing clothes — soul discards worn body for new. Body temporary, soul eternal. This verse demystifies death — natural transition, not end. Examples: career change (old job 'dies,' new begins) — don't grieve lost role, embrace new opportunity. Or aging: body changes, but core self remains — focus on growth, not loss. Detailed meaning: reincarnation explained simply — soul evolves through bodies. For millennials, facing mid-life transitions (job loss, divorce, relocation) — see as 'wardrobe update' for soul's journey, reduces attachment to current 'outfit' (body/circumstances). Practice: meditate on impermanence — live fully without fear.",
+"genz": "Krishna's smooth metaphor: soul changes bodies like you change fits — old worn out, grab fresh ones. No big deal. Examples: upgrading your phone/avatar in a game — old one glitches, new one levels up. Don't cry over the old skin. Detailed meaning: rebirth = natural upgrade — soul keeps going. For Gen Z, dealing with identity shifts (coming out, changing majors, moving) — see as soul swapping outfits for better vibes, less fear of 'ending' phases. Hack: detach from current look/role — evolve freely.",
+"genalpha": "Krishna says: just like when your clothes get old and torn, you happily put on new ones — the soul leaves the old tired body and gets a new fresh one. It's not sad, it's like getting new toys. Examples: when your favorite shirt gets too small — you get a bigger cooler one. Or like a caterpillar becoming a butterfly — old body changes to new. Detailed meaning: don't be scared of changing or ending — the real happy you inside gets new adventures. For kids, this means growing up is fun — like changing costumes in a play, the actor stays the same."
 },
 {
 "verse": 23,
 "sanskrit": "नैनं छिन्दन्ति शस्त्राणि नैनं दहति पावकः |\nन चैनं क्लेदयन्त्यापो न शोषयति मारुतः ||",
 "transliteration": "nainaṁ chindanti śastrāṇi nainaṁ dahati pāvakaḥ\nna cainaṁ kledayanty āpo na śoṣayati mārutaḥ",
 "translation": "The soul can never be cut to pieces by any weapon, nor burned by fire, nor moistened by water, nor withered by the wind.",
-"millennial": "Soul's invincible to elements. Like data in the cloud—untouchable. In life, your essence survives crises; build on that."
+"millennial": "Soul invulnerable: no weapon cuts, fire burns, water wets, wind dries it. Absolute protection — beyond elements/physical harm. Examples: in risky careers (military, adventure, entrepreneurship) — know your core self safe, reduces fear. Or health crises: body may suffer, soul untouched — inner strength. Detailed meaning: soul transcends four elements (earth/fire/water/air) — eternal nature. For millennials, facing burnout/anxiety/depression — remember inner self resilient, untouched by external storms. Practice: affirmations/meditation on invincibility — build courage.",
+"genz": "Soul OP: no blade cuts, fire burns, water wets, wind dries — untouchable. Examples: in online hate or real-world risks — your real vibe safe, no permanent damage. Body glitches, soul glitches not. Detailed meaning: beyond elements — eternal flex. For Gen Z, dealing with cyberbullying or climate anxiety — inner you resilient, focus there for strength. Hack: meditate on this — fear less, live more.",
+"genalpha": "The soul can't be cut by any knife, burned by fire, made wet by water, or dried by wind — completely safe forever. Examples: like a magic bubble that nothing can pop or hurt — floats through everything okay. Detailed meaning: no matter what happens outside, the happy light inside stays perfect. For kids, if scared of monsters or hurts — know your inside friend is always safe and strong."
 },
 {
 "verse": 24,
 "sanskrit": "अच्छेद्योऽयमदाह्योऽयमक्लेद्योऽशोष्य एव च |\nनित्यः सर्वगतः स्थाणुरचलोऽयं सनातनः ||",
-"transliteration": "acchedyo 'yam adāhyo 'yam akledyo 'śoṣya eva ca\nnityaḥ sarva-gataḥ sthāṇur acalo 'yaṁ sanātanaḥ",
+"transliteration": "acchedyo ’yam adāhyo ’yam akledyo ’śoṣya eva ca\nnityaḥ sarva-gataḥ sthāṇur acalo ’yaṁ sanātanaḥ",
 "translation": "This individual soul is unbreakable and insoluble, and can be neither burned nor dried. He is everlasting, present everywhere, unchangeable, immovable and eternally the same.",
-"millennial": "Soul's qualities: Eternal, omnipresent. Foundation for self-confidence; you're unchanging amid chaos."
+"millennial": "Reinforcing soul's qualities: uncuttable, unburnable, unwettable, undryable — eternal, omnipresent, stable, unmoving, ancient. Comprehensive list — soul's absolute nature. Examples: in global uncertainties (economy, climate) — your eternal self stable, unchanging. Omnipresence — connected to all. Detailed meaning: soul as cosmic constant — beyond physical laws. For millennials, building family/career — anchor in unchanging self amid changes. Practice: visualize soul as rock in storm — unshakeable peace.",
+"genz": "Soul qualities maxed: can't cut/burn/wet/dry — forever, everywhere, rock-solid, unmoving, ancient. Examples: in chaotic world (trends, drama) — your core vibe stable, omnipresent connection. Detailed meaning: beyond physics — cosmic constant. For Gen Z, identity crises — anchor in unchanging self. Hack: visualize as unshakeable avatar — peace in chaos.",
+"genalpha": "The soul can't be cut, burned, made wet, or dried — it's forever, in every place, very steady like a big rock, never moves, and always the same old happy. Examples: like a magic stone that nothing can change — stays strong and bright everywhere. Detailed meaning: your inside light is the safest, strongest thing — never changes no matter what. For kids, if worried about growing up — know the real you stays the same fun self forever."
 },
 {
 "verse": 25,
 "sanskrit": "अव्यक्तोऽयमचिन्त्योऽयमविकार्योऽयमुच्यते |\nतस्मादेवं विदित्वैनं नानुशोचितुमर्हसि ||",
-"transliteration": "avyakto 'yam acintyo 'yam avikāryo 'yam ucyate\ntasmād evaṁ viditvainaṁ nānuśocitum arhasi",
+"transliteration": "avyakto ’yam acintyo ’yam avikāryo ’yam ucyate\ntasmād evaṁ viditvainaṁ nānuśocitum arhasi",
 "translation": "It is said that the soul is invisible, inconceivable and immutable. Knowing this, you should not grieve for the body.",
-"millennial": "Soul's beyond senses; no grief for body. Like not mourning a crashed laptop if data's backed up."
+"millennial": "Soul — unmanifest (beyond senses), unthinkable (beyond mind), unchangeable. So don't grieve body. Examples: soul not seen/thought/changed — transcends perception. Grief for body misplaced — focus on eternal. Detailed meaning: intellectual understanding leads to emotional release. For millennials, loss (parent, job) — know essence untouched, grieve less. Practice: reflect on soul's qualities — acceptance grows.",
+"genz": "Soul — invisible, beyond thought, never changes. Don't cry for body. Examples: can't see/think/change it — beyond limits. Grief misplaced — eternal focus. Detailed meaning: get this — emotional freedom. For Gen Z, handling loss/anxiety — essence safe, move on stronger.",
+"genalpha": "The soul is hidden, impossible to fully think about, and never changes — so don't be sad for the body. Examples: like a secret treasure you can't see or grab but it's always there safe. Detailed meaning: understand this — feel happy knowing the real part never hurts. For kids, if a pet dies — know the love inside stays forever."
 },
 {
 "verse": 26,
 "sanskrit": "अथ चैनं नित्यजातं नित्यं वा मन्यसे मृतम् |\nतथापि त्वं महाबाहो नैवं शोचितुमर्हसि ||",
 "transliteration": "atha cainaṁ nitya-jātaṁ nityaṁ vā manyase mṛtam\ntathāpi tvaṁ mahā-bāho naivaṁ śocitum arhasi",
-"translation": "If, however, you think that the soul [or the symptoms of life] will always be born and die forever, you still have no reason to lament, O mighty-armed.",
-"millennial": "Even if soul's not eternal, no lament—life's cycle. Perspective shift for atheists too."
+"translation": "If, however, you think that the soul [or the symptoms of life] is always born and dies forever, you still have no reason to lament, O mighty-armed one.",
+"millennial": "Even assuming soul constantly born/dying (materialist view) — no reason to grieve. Examples: if life endless cycle — death natural, no loss. Broader perspective — grief unnecessary either way. Detailed meaning: whether eternal or cyclic — impermanence teaches acceptance. For millennials, agnostic/atheist views — still find peace in natural flow. Embrace change — live fully.",
+"genz": "Even if you think soul always born/dying — still no cry. Examples: cycle view — death part of game, no big L. Perspective: grief pointless. Detailed meaning: eternal or not — acceptance key. For Gen Z, existential vibes — flow with it, no stress.",
+"genalpha": "Even if you think the soul is always being born and dying forever — you still shouldn't feel so sad. Like if games keep starting and ending — it's normal, don't cry, just play happily."
 },
 {
 "verse": 27,
 "sanskrit": "जातस्य हि ध्रुवो मृत्युर्ध्रुवं जन्म मृतस्य च |\nतस्मादपरिहार्येऽर्थे न त्वं शोचितुमर्हसि ||",
-"transliteration": "jātasya hi dhruvo mṛtyur dhruvaṁ janma mṛtasya ca\ntasmād aparihārye 'rthe na tvaṁ śocitum arhasi",
+"transliteration": "jātasya hi dhruvo mṛtyur dhruvaṁ janma mṛtasya ca\ntasmād aparihārye ’rthe na tvaṁ śocitum arhasi",
 "translation": "One who has taken his birth is sure to die, and after death one is sure to take birth again. Therefore, in the unavoidable discharge of your duty, you should not lament.",
-"millennial": "Birth leads to death, death to birth—inevitable. Don't grieve; do duty. Like taxes: Unavoidable, so focus on living well."
+"millennial": "Birth → death, death → birth — inevitable. Don't grieve unavoidable — do duty. Examples: career cycles (hires/fires, successes/failures) — natural, focus on role. Acceptance — perform without sorrow. Detailed meaning: impermanence law — grief resists natural. Embrace — freedom in action.",
+"genz": "Born → die, die → born — can't avoid. Don't cry over must-happen — do your thing. Examples: life loops — natural, grind your role. Acceptance = no stress. Detailed meaning: resist not the flow — action free.",
+"genalpha": "Anyone born will surely die, anyone who dies will be born again — this can't be stopped. So don't feel sad about things that must happen — just do what you have to. Like day always ends but new day comes — don't cry, enjoy the play."
 },
 {
 "verse": 28,
 "sanskrit": "अव्यक्तादीनि भूतानि व्यक्तमध्यानि भारत |\nअव्यक्तनिधनान्येव तत्र का परिदेवना ||",
 "transliteration": "avyaktādīni bhūtāni vyakta-madhyāni bhārata\navyakta-nidhanāny eva tatra kā paridevanā",
 "translation": "All created beings are unmanifest in their beginning, manifest in their interim state, and unmanifest again when annihilated. So what need is there for lamentation?",
-"millennial": "Beings start invisible, appear, vanish. Cycle of existence; no point in sorrow. Relates to startups: Idea, launch, exit."
+"millennial": "Beings unmanifest → manifest → unmanifest — why lament? Examples: projects/startups — idea (unmanifest), execution (manifest), end (unmanifest) — natural cycle. Grief unnecessary — focus on process. Detailed meaning: existence phases — transient middle. Transcend grief through understanding impermanence.",
+"genz": "Everything unmanifest → manifest → unmanifest — why cry? Examples: trends/memes — pop up, viral, forgotten — cycle. Grief pointless — enjoy the middle. Detailed meaning: life phases temporary — chill with it.",
+"genalpha": "All things start hidden, become seen in middle, go back hidden — so why feel sad? Like seeds grow into plants then back to seeds — natural, no crying. Enjoy the growing part happily."
 },
 {
 "verse": 29,
 "sanskrit": "आश्चर्यवत्पश्यति कश्चिदेनमाश्चर्यवद्वदति तथैव चान्यः |\nआश्चर्यवच्चैनमन्यः शृणोति श्रुत्वाप्येनं वेद न चैव कश्चित् ||",
-"transliteration": "āścarya-vat paśyati kaścid enam āścarya-vad vadati tathaiva cānyaḥ\nāścarya-vac cainam anyaḥ śṛṇoti śrutvāpy enaṁ veda na caiva kaścit",
+"transliteration": "āścaryavat paśyati kaścid enam āścaryavad vadati tathaiva cānyaḥ\nāścaryavac cainam anyaḥ śṛṇoti śrutvāpy enaṁ veda na caiva kaścit",
 "translation": "Some look on the soul as amazing, some describe him as amazing, and some hear of him as amazing, while others, even after hearing about him, cannot understand him at all.",
-"millennial": "Soul's wondrous; few grasp it. Like quantum physics—mind-bending. Encourages study for understanding."
+"millennial": "Soul wondrous: some see, speak, hear as amazing — but few truly comprehend. Examples: spiritual concepts awe-inspiring — books/podcasts describe, but rare deep realization. Pursuit ongoing — understanding gradual. Detailed meaning: mystery of soul — beyond ordinary grasp. Humility in seeking — devotion aids comprehension.",
+"genz": "Soul = wonder: some see it as lit, talk lit, hear lit — but almost nobody really gets it. Examples: spiritual vibes amaze — reels/pods hype, but rare true grasp. Keep seeking — understanding levels up slow. Detailed meaning: mystery beyond brain — devotion helps unlock.",
+"genalpha": "Some people see the soul and say 'wow amazing!', some talk about it 'wow!', some listen 'wow!' — but very few really understand it completely. Like a magic show — many are surprised, but only a few know the secret. Keep looking with love — you'll get it."
 },
 {
 "verse": 30,
 "sanskrit": "देही नित्यमवध्योऽयं देहे सर्वस्य भारत |\nतस्मात्सर्वाणि भूतानि न त्वं शोचितुमर्हसि ||",
-"transliteration": "dehī nityam avadhyo 'yaṁ dehe sarvasya bhārata\ntasmāt sarvāṇi bhūtāni na tvaṁ śocitum arhasi",
+"transliteration": "dehī nityam avadhyo ’yaṁ dehe sarvasya bhārata\ntasmāt sarvāṇi bhūtāni na tvaṁ śocitum arhasi",
 "translation": "O descendant of Bharata, he who dwells in the body can never be slain. Therefore you need not grieve for any living being.",
-"millennial": "Indweller can't be killed; no grief. Reinforces acting without fear."
+"millennial": "Reiteration: soul in every body — never slain. No grief for any being. Examples: universal compassion — all eternal. War/death — bodies only. Detailed meaning: apply to all — end selective grief. For millennials, loss of loved ones — know essence lives on. Peace through eternal view.",
+"genz": "Soul in every body — can't be killed. Don't grieve anyone. Examples: all eternal — death illusion. Universal love without loss. Detailed meaning: grieve not — essence forever. For Gen Z, handling grief/anxiety — peace in eternity.",
+"genalpha": "The real person inside every body can never be hurt — so don't feel sad for any living thing. Like all friends have forever lights inside — bodies change, but lights stay bright."
 },
 {
 "verse": 31,
 "sanskrit": "स्वधर्ममपि चावेक्ष्य न विकम्पितुमर्हसि |\nधर्म्याद्धि युद्धाच्छ्रेयोऽन्यत्क्षत्रियस्य न विद्यते ||",
-"transliteration": "sva-dharmam api cāvekṣya na vikampitum arhasi\ndharmyād dhi yuddhāc chreyo 'nyat kṣatriyasya na vidyate",
-"translation": "Considering your specific duty as a ksatriya, you should know that there is no better engagement for you than fighting on religious principles; and so there is no need for hesitation.",
-"millennial": "Do your duty; for a warrior, righteous fight's best. In modern: Pursue your calling—don't waver. Relates to vocational purpose."
+"transliteration": "sva-dharmam api cāvekṣya na vikampitum arhasi\ndharmyād dhi yuddhāc chreyo ’nyat kṣatriyasya na vidyate",
+"translation": "Considering your specific duty as a kṣatriya, you should know that there is no better engagement for you than fighting on religious principles; and so there is no need for hesitation.",
+"millennial": "Krishna reminds Arjuna to consider his svadharma (personal duty) as a warrior (kṣatriya): righteous fighting is the highest calling for him, so no room for doubt or hesitation. This verse emphasizes alignment with one's innate role/dharma — fighting not for personal gain but for justice. Examples: in your career, if you're a leader/manager, avoiding tough decisions (like firing underperformers for team health) because of emotional hesitation is shirking duty. Or as a parent, disciplining kids fairly despite discomfort — it's your role for their growth. Detailed meaning: dharma varies by nature/context — for Arjuna, war upholds cosmic order; hesitation = adharma. For millennials facing imposter syndrome or ethical gray areas at work, this encourages self-reflection on core strengths/responsibilities — act decisively when aligned with principles, hesitation leads to imbalance. Practice: identify your svadharma (e.g., creative, healer, builder) — embrace it fully for fulfillment and no regret.",
+"genz": "Krishna's like 'look at your own dharma as a warrior — righteous fight is your top thing, no hesitation.' Examples: if your vibe is activist/creator, dodging tough calls (like calling out toxic stuff online) because of fear is not you. Or in a group project, stepping up to lead even if scary — that's your role. Detailed meaning: everyone's dharma different — Arjuna's is protect/justice through battle; doubt = off-path. For Gen Z navigating social justice or content creation, embrace your calling (e.g., advocacy) without second-guessing — hesitation kills momentum. Hack: self-reflect on strengths — go all-in, no FOMO on other paths.",
+"genalpha": "Krishna tells Arjuna: 'Think about your own special job as a brave fighter — fighting for what's right is the best thing for you, so don't shake or hesitate.' Examples: like if you're the team captain in a game, you have to lead and play strong — not run away scared. Or helping clean up even if it's hard — that's your job to be helpful. Detailed meaning: everyone has their own good role — Arjuna's is to protect by fighting fairly; being unsure makes you weak. For kids, if your job is to share toys or help friends, do it bravely without stopping — feels good inside when you do."
 },
 {
 "verse": 32,
 "sanskrit": "यदृच्छया चोपपन्नं स्वर्गद्वारमपावृतम् |\nसुखिनः क्षत्रियाः पार्थ लभन्ते युद्धमीदृशम् ||",
-"transliteration": "yadṛcchayā copapannaṁ svarga-dvāram apāvṛtam\nsukhinaḥ kṣatriyāḥ pārtha labhante yuddham īdṛśam",
-"translation": "O Partha, happy are the ksatriyas to whom such fighting opportunities come unsought, opening for them the doors of the heavenly planets.",
-"millennial": "Such battles are gateways to heaven for warriors. Like rare opportunities in career—grab them."
+"transliteration": "yadṛcchayā copapannaṁ svarga-dvāram apāvṛtam\nsukhinaḥ kṣatriyāḥ pārtha labhante yuddhām īdṛśam",
+"translation": "O Pārtha, happy are the kṣatriyas to whom such fighting opportunities come unsought, opening for them the doors of the heavenly planets.",
+"millennial": "A righteous war like this is a rare blessing for warriors — unsolicited chance opening heaven's doors. Krishna reframes battle as opportunity for glory/merit. Examples: unexpected project/challenge at work that aligns with your skills/values — embrace as growth portal, not burden. Or whistleblowing on unethical practices — risky but righteous, leads to personal/professional elevation. Detailed meaning: dharma-aligned opportunities — heaven (higher states/merit) access. For Arjuna, war upholds justice; hesitation misses blessing. For millennials in uncertain jobs/markets, see crises as doors to better — act, gain karmic rewards.",
+"genz": "Krishna's hype: righteous fight like this is lucky drop for warriors — opens heaven gates without asking. Examples: unsolicited collab or call-out opportunity that fits your vibe — grab it for growth/merit. Or standing up in online drama for justice — risky but levels up karma. Detailed meaning: dharma chances = higher realm access. Hesitation = missed W. For Gen Z activists/creators, see tough spots as blessings — act, glow up.",
+"genalpha": "Krishna says: happy brave fighters get such a good fight without asking — it opens doors to nice sky places. Examples: like getting a surprise game that's perfect for you — play bravely and win big rewards. Or helping in a playground fight for fairness — feels good and makes you stronger. Detailed meaning: right chances come like gifts — take them happily. Don't be scared — it's a happy door to better things."
 },
 {
 "verse": 33,
-"sanskrit": "अथ चेत्त्वमिमं धर्म्यं सङ्ग्रामं न करिष्यसि |\nततः स्वधर्मकीर्ती च हित्वा पापमवाप्स्यसि ||",
-"transliteration": "atha cet tvam imaṁ dharmyaṁ saṅgrāmaṁ na kariṣyasi\ntataḥ sva-dharma-kīrtī ca hitvā pāpam avāpsyasi",
+"sanskrit": "अथ चेत्त्वमिमं धर्म्यं सङ्ग्रामं न करिष्यसि |\nततः स्वधर्मकीर्तिं च हित्वा पापमवाप्स्यसि ||",
+"transliteration": "atha cet tvam imaṁ dharmyaṁ saṅgrāmaṁ na kariṣyasi\ntataḥ sva-dharma-kīrtiṁ ca hitvā pāpam avāpsyasi",
 "translation": "If, however, you do not perform your religious duty of fighting, then you will certainly incur sins for neglecting your duties and thus lose your reputation as a fighter.",
-"millennial": "Shirk duty, lose rep and incur sin. Like backing out of a commitment—damages credibility."
+"millennial": "If you avoid this righteous duty — lose svadharma (personal calling), reputation, gain sin. Krishna warns of consequences: adharma brings karmic debt/shame. Examples: declining a leadership role aligned with your ethics/values — regret, lost respect, inner guilt. Or avoiding tough conversations in relationships — stagnation, resentment. Detailed meaning: neglecting dharma = sin (imbalance), fame loss. For Arjuna, war = dharma; avoidance = cowardice. For millennials, in ethical careers (activism, teaching) — shirking responsibility harms self/society. Embrace duty — preserve integrity.",
+"genz": "If you skip this righteous grind — lose your dharma/rep, gain bad karma. Examples: dodging a call-out or project that's your vibe — regret, clout drop, guilt vibes. Detailed meaning: neglect duty = imbalance + shame. Hesitation = L. For Gen Z, in social justice/creativity — avoiding hard stands harms growth. Step up — keep rep clean.",
+"genalpha": "If you don't do this right fight — you lose your own good job and good name, and get bad feelings instead. Examples: like not helping clean when it's your turn — you feel bad inside and friends think you're not brave. Detailed meaning: skipping your special role makes everything unbalanced. Be brave — keep your happy name."
 },
 {
 "verse": 34,
 "sanskrit": "अकीर्तिं चापि भूतानि कथयिष्यन्ति तेऽव्ययाम् |\nसम्भावितस्य चाकीर्तिर्मरणादतिरिच्यते ||",
-"transliteration": "akīrtiṁ cāpi bhūtāni kathayiṣyanti te 'vyayām\nsambhāvitasya cākīrtir maraṇād atiricyate",
+"transliteration": "akīrtiṁ cāpi bhūtāni kathayiṣyanti te ’vyayām\nsaṁbhāvitasya cākīrtir maraṇād atiricyate",
 "translation": "People will always speak of your infamy, and for a respectable person, dishonor is worse than death.",
-"millennial": "Bad rep worse than death. In social media age, viral shame's hell. Protect integrity."
+"millennial": "Infamy eternal — for honorable, disgrace worse than death. Krishna highlights social/legacy cost of cowardice. Examples: public failure/shame (scandal, quitting under pressure) — haunts more than loss. Reputation priceless — protect through integrity. Detailed meaning: society remembers dishonor — inner shame amplifies. For Arjuna, warrior fame — avoidance = eternal disgrace. For millennials, online cancel culture/professional rep — act honorably to avoid lasting damage.",
+"genz": "People will trash-talk your rep forever — for someone with clout, shame worse than death. Examples: viral fail or quitting vibe — haunts timelines. Rep = currency — guard it. Detailed meaning: infamy sticks — inner L bigger. Hesitation = permanent shade.",
+"genalpha": "Everyone will keep talking bad about you forever — and for a good respected person, a bad name hurts more than dying. Examples: like if you run from helping — kids call you scaredy-cat forever, feels worse than falling down. Detailed meaning: people remember bad stories — be brave to keep good name."
 },
 {
 "verse": 35,
-"sanskrit": "भयाद्रणादुपरतं मंस्यन्ते त्वां महारथाः |\nयेषां च त्वं बहुमतो भूत्वा यास्यसि लाघवम् ||",
+"sanskrit": "भयाद्रणादुपरतं मंस्यन्ते त्वां महारथाः |\nयेषां च त्वं बहुमतो भूत्वा यास्यसी लाघवम् ||",
 "transliteration": "bhayād raṇād uparataṁ maṁsyante tvāṁ mahā-rathāḥ\nyeṣāṁ ca tvaṁ bahu-mato bhūtvā yāsyasi lāghavam",
 "translation": "The great generals who have highly esteemed your name and fame will think that you have left the battlefield out of fear only, and thus they will consider you insignificant.",
-"millennial": "Peers will think you chickened out. Loss of respect in professional circles."
+"millennial": "Respected warriors will think you fled from fear — diminish your status from hero to coward. Examples: peers/colleagues lose respect if you back out of commitments (projects, promises) due to fear. Once esteemed — now lightweight. Detailed meaning: loss of peer esteem — social cost. Motivation to act — preserve hard-earned reputation. For millennials in leadership — show up, or lose credibility.",
+"genz": "Big players who respect you will think you ran scared — your clout drops to zero. Examples: squad thinks you're weak if you dip from challenges — from hero to lightweight. Detailed meaning: peer respect loss — big L. Step up to keep status.",
+"genalpha": "The great brave fighters who think you're amazing will believe you ran away scared — and see you as small now. Examples: like your strong friends thinking you're not brave anymore if you quit the game — from big hero to little scaredy. Detailed meaning: losing friends' good thoughts hurts — be brave to keep being the hero."
 },
 {
 "verse": 36,
 "sanskrit": "अवाच्यवादांश्च बहून्वदिष्यन्ति तवाहिताः |\nनिन्दन्तस्तव सामर्थ्यं ततो दुःखतरं नु किम् ||",
 "transliteration": "avācya-vādāṁś ca bahūn vadiṣyanti tavāhitāḥ\nnindantas tava sāmarthyaṁ tato duḥkhataraṁ nu kim",
 "translation": "Your enemies will describe you in many unkind words and scorn your ability. What could be more painful for you?",
-"millennial": "Enemies trash-talk your skills. Worse pain than failure? Public humiliation."
+"millennial": "Enemies will mock your competence endlessly — pain worse than anything. Examples: haters/critics amplifying failure — social media backlash. Scorn on skills — deep wound for achievers. Detailed meaning: psychological cost — ridicule hurts ego/reputation. Motivation: act to avoid — but from dharma, not fear. For millennials, online trolls/professional rivals — stand firm.",
+"genz": "Haters will drop endless unkind roasts on your skills — worst pain. Examples: viral shade threads doubting your abilities — clout killer. Detailed meaning: ego hit max — ridicule stings. Act to dodge — but from right reasons.",
+"genalpha": "Your enemies will say many mean things and make fun of how strong you are — that hurts more than anything. Examples: like bullies teasing 'you're weak!' over and over — feels very bad inside. Detailed meaning: mean words hurt hearts — be brave to not give them chance."
 },
 {
 "verse": 37,
 "sanskrit": "हतो वा प्राप्स्यसि स्वर्गं जित्वा वा भोक्ष्यसे महीम् |\nतस्मादुत्तिष्ठ कौन्तेय युद्धाय कृतनिश्चयः ||",
 "transliteration": "hato vā prāpsyasi svargaṁ jitvā vā bhokṣyase mahīm\ntasmād uttiṣṭha kaunteya yuddhāya kṛta-niścayaḥ",
-"translation": "O son of Kunti, either you will be killed on the battlefield and attain the heavenly planets, or you will conquer and enjoy the earthly kingdom. Therefore, get up with determination and fight.",
-"millennial": "Win: Kingdom; die: Heaven. No loss. Like high-risk investments—potential rewards justify action."
+"translation": "O son of Kuntī, either you will be killed on the battlefield and attain the heavenly planets, or you will conquer and enjoy the earthly kingdom. Therefore get up with determination and fight.",
+"millennial": "Win-win: die → heaven (higher merit); win → earthly kingdom. Rise with resolve, fight. Examples: high-risk venture — fail: lessons/heavenly growth; succeed: rewards. No loss — act decisively. Detailed meaning: dharma action = positive either way. Motivation: certainty in uncertainty — courage from perspective.",
+"genz": "Win-win: die → heaven server; win → earth bag. Get up, lock in, fight. Examples: risky move (startup, call-out) — L: growth; W: gains. No real loss — go all-in. Detailed meaning: right action = good outcomes always. Courage hack.",
+"genalpha": "If you die fighting right — go to happy sky; if you win — get the whole kingdom. So stand up strong and decide to fight! Examples: in a brave game — lose: get star reward; win: get treasure. No bad end — just play your best."
 },
 {
 "verse": 38,
 "sanskrit": "सुखदुःखे समे कृत्वा लाभालाभौ जयाजयौ |\nततो युद्धाय युज्यस्व नैवं पापमवाप्स्यसि ||",
 "transliteration": "sukha-duḥkhe same kṛtvā lābhālābhau jayājayau\ntato yuddhāya yujyasva naivaṁ pāpam avāpsyasi",
-"translation": "Do thou fight for the sake of fighting, without considering happiness or distress, loss or gain, victory or defeat—and by so doing you shall never incur sin.",
-"millennial": "Equate pleasure/pain, gain/loss—then act. Detached action avoids sin. In work: Focus on process, not outcomes."
+"translation": "Fight for the sake of fighting, without considering happiness or distress, loss or gain, victory or defeat — and by so doing you shall never incur sin.",
+"millennial": "Equanimity in pleasure/pain, gain/loss, victory/defeat — fight detached. No sin. Examples: negotiate salary/deal — focus on fairness, not outcome anxiety. Detached action — ethical, no regret. Detailed meaning: karma yoga core — act without desire, no binding karma. For millennials, work/life balance — perform fully, release results.",
+"genz": "Same vibe in happy/sad, gain/loss, win/lose — fight without caring. No bad karma. Examples: post content without like-chasing — pure creation. Detached grind = clean energy. Detailed meaning: no attachment = no chains. Freedom in action.",
+"genalpha": "Treat happy and sad the same, getting and losing the same, winning and losing the same — then fight without bad feelings. You won't get any bad. Like playing a game for fun, not prizes — stay happy no matter what."
 },
 {
 "verse": 39,
-"sanskrit": "एषा तेऽभिहिता साङ्ख्ये बुद्धिर्योग उपाश्रितः |\nबुद्ध्या युक्तो यया पार्थ कर्मबन्धं प्रहास्यसि ||",
-"transliteration": "eṣā te 'bhihitā sāṅkhye buddhir yoge upāśritaḥ\nbuddhyā yukto yayā pārtha karma-bandhaṁ prahāsyasi",
-"translation": "Thus far I have described this knowledge to you through analytical study. Now listen as I explain it in terms of working without fruitive results. O son of Pritha, when you act in such knowledge you can free yourself from the bondage of works.",
-"millennial": "Sankhya knowledge; now Karma Yoga. Act without attachment to free from karma."
+"sanskrit": "एषा तेऽभिहिता साङ्ख्ये बुद्धिर्योगे त्विमां शृणु |\nबुद्ध्या युक्तो यया पार्थ कर्मबन्धं प्रहास्यसि ||",
+"transliteration": "eṣā te ’bhihitā sāṅkhye buddhir yoge tv imāṁ śṛṇu\nbuddhyā yukto yayā pārtha karma-bandhaṁ prahāsyasi",
+"translation": "Thus far I have described this knowledge to you through analytical study. Now listen as I explain it in terms of working without fruitive results. O son of Pṛthā, when you act in such knowledge you can free yourself from the bondage of works.",
+"millennial": "Krishna transitions: so far Sāṅkhya (analytical knowledge of soul/body) — now hear buddhi-yoga (intelligence in action without fruits). This frees from karma bonds. Examples: theory (Sāṅkhya) good, but apply in work (yoga) — detached performance reviews/projects. Freedom from results anxiety — productivity soars. Detailed meaning: integrate knowledge into action — karma yoga. For millennials, balance intellect/practice — no bondage from outcomes.",
+"genz": "Krishna pivots: so far analysis (Sāṅkhya) — now intel in action without chasing drops. This breaks karma chains. Examples: theory vibes good, but apply in grind — detached content/grinds. No results stress — flow state. Detailed meaning: knowledge + action = freedom. Balance brain + do.",
+"genalpha": "Krishna says: I've told you the thinking way — now listen to the smart doing way without wanting prizes. With this, you free from heavy action chains. Like knowing why + doing with love — no sticky bad feelings."
 },
 {
 "verse": 40,
 "sanskrit": "नेहाभिक्रमनाशोऽस्ति प्रत्यवायो न विद्यते |\nस्वल्पमप्यस्य धर्मस्य त्रायते महतो भयात् ||",
-"transliteration": "nehābhikrama-nāśo 'sti pratyavāyo na vidyate\nsvalpam apy asya dharmasya trāyate mahato bhayāt",
+"transliteration": "nehābhikrama-nāśo ’sti pratyavāyo na vidyate\nsv-alpam apy asya dharmasya trāyate mahato bhayāt",
 "translation": "In this endeavor there is no loss or diminution, and a little advancement on this path can protect one from the most dangerous type of fear.",
-"millennial": "No loss in this path; even little progress saves from fear. Like investing in skills—small steps yield big security."
+"millennial": "On karma yoga path: no effort wasted, no harm — even small progress protects from great fear (death, failure). Examples: starting meditation/ethical living — cumulative, no backslide. Small daily habit (5 min mindfulness) shields from anxiety. Detailed meaning: safe path — progress permanent. Encouragement for beginners — start small, benefits huge. For millennials juggling life — incremental spiritual investment yields big security.",
+"genz": "This path: no wasted grind, no downside — tiny progress saves from biggest fears. Examples: small daily devotion/meditation — builds up, no loss. 5 min vibe check = anxiety shield. Detailed meaning: safe unlock — every bit counts. Motivation for starters — dip in, big wins.",
+"genalpha": "On this path: nothing you do is lost or bad — even a little good protects from very big scary things. Examples: like one small kind act every day — adds up to big happy shield. Detailed meaning: every tiny step is forever good — don't be afraid to try."
 },
 {
 "verse": 41,
 "sanskrit": "व्यवसायात्मिका बुद्धिरेकेह कुरुनन्दन |\nबहुशाखा ह्यनन्ताश्च बुद्धयोऽव्यवसायिनाम् ||",
-"transliteration": "vyavasāyātmikā buddhir ekeha kuru-nandana\nbahu-śākhā hy anantāś ca buddhayo 'vyavasāyinām",
+"transliteration": "vyavasāyātmikā buddhir ekeha kuru-nandana\nbahu-śākhā hy anantāś ca buddhayo ’vyavasāyinām",
 "translation": "Those who are on this path are resolute in purpose, and their aim is one. O beloved child of the Kurus, the intelligence of those who are irresolute is many-branched.",
-"millennial": "Resolute mind: Single focus; irresolute: Scattered. In work, multitaskers burn out; focused ones succeed."
+"millennial": "Krishna contrasts resolute vs irresolute intelligence: on the path of yoga (devotion + action), mind is single-pointed and determined. But for those without resolve, thoughts branch endlessly — scattered, confused. Examples: in your career or personal goals, when you're laser-focused (e.g., committing to a startup idea without distractions), progress is swift and fulfilling. But if you're constantly second-guessing, juggling side hustles or options without commitment, you end up overwhelmed and unproductive. This verse is a call to cultivate one-pointed focus — decide your path (dharma/devotion) and stick to it with unwavering resolve. It's like choosing a life partner or core value — no endless options, just deep commitment for real growth.",
+"genz": "Krishna's like 'real yogis have one locked-in mindset — single goal, no distractions. But no-resolve people have thoughts branching forever — scattered AF.' Examples: when you're all-in on a passion project or skill grind (like coding or content creation) without FOMO on other stuff, you level up fast. But if you're always switching vibes, chasing trends, or overthinking every choice, you stay stuck in analysis paralysis. Verse hits: pick your lane (devotion/dharma) and commit hard — no endless tabs open in your brain.",
+"genalpha": "Krishna says: people on the good path have a strong mind with just one clear goal, like aiming straight at a target. But people who can't decide have minds like a tree with too many branches going everywhere — very messy. Examples: when you decide to build one big Lego tower and focus only on that, it turns out awesome. But if you keep starting new toys without finishing, everything is scattered and nothing gets done. Pick your one good thing (like loving God or being kind) and stick to it happily."
 },
 {
 "verse": 42,
 "sanskrit": "यामिमां पुष्पितां वाचं प्रवदन्त्यविपश्चितः |\nवेदवादरताः पार्थ नान्यदस्तीति वादिनः ||",
 "transliteration": "yām imāṁ puṣpitāṁ vācaṁ pravadanty avipaścitaḥ\nveda-vāda-ratāḥ pārtha nānyad astīti vādinaḥ",
 "translation": "Men of small knowledge are very much attached to the flowery words of the Vedas, which recommend various fruitive activities for elevation to heavenly planets, resultant good birth, power, and so forth. Being desirous of sense gratification and opulent life, they say that there is nothing more than this.",
-"millennial": "Shallow folks chase Vedic rewards. Like materialists pursuing luxury without depth."
+"millennial": "Krishna criticizes flowery Vedic language that promotes rituals for material rewards (heaven, good birth, power) — ignorant people cling to it, claiming nothing higher. Examples: like chasing promotions, luxury, status through 'good deeds' or networking — but ignoring inner growth/meaning. They say 'this is all there is' — material success as ultimate. Krishna warns: this is small knowledge — limited, ignores spiritual reality. Shift to higher purpose — beyond rituals/rewards.",
+"genz": "Krishna calls out noobs attached to fancy Vedic words pushing rituals for heaven/bag/power — they claim 'nothing better than this.' Examples: like grinding side quests for clout/status/heaven buffs, but ignoring main storyline (spiritual growth). 'This is peak life' mindset — capped. Small knowledge trap — go beyond for real unlocks.",
+"genalpha": "Krishna says: people who don't understand love the pretty words in holy books that tell about doing things for heaven, good life, power — they say 'nothing is better than this.' But it's like chasing shiny toys and candy without seeing the big loving home. Don't get stuck on pretty words — look for the real forever happy."
 },
 {
 "verse": 43,
 "sanskrit": "कामात्मानः स्वर्गपरा जन्मकर्मफलप्रदा |\nक्रियाविशेषबहुलां भोगैश्वर्यगतिं प्रति ||",
 "transliteration": "kāmātmānaḥ svarga-parā janma-karma-phala-pradā\nkriyā-viśeṣa-bahulāṁ bhogaiśvarya-gatiṁ prati",
-"translation": "In the minds of those who are too attached to sense enjoyment and material opulence, and who are bewildered by such things, the resolute determination for devotional service to the Supreme Lord does not take place.",
-"millennial": "Desire-driven miss higher purpose. Consumer culture trap—chase gadgets, miss fulfillment."
+"translation": "Men in this category are lustful, desirous of heavenly enjoyment, and they perform pompous sacrifices for that end, which give birth, action, and fruitive results. They are attached to pleasure and opulence.",
+"millennial": "These people — desire-driven, heaven-focused — do elaborate rituals for birth/karma rewards, attached to enjoyment/power. Examples: over-the-top religious/ceremonial displays for social status/blessings — but ego/material motivation. Krishna critiques superficial spirituality — seek inner truth, not external rewards.",
+"genz": "Desire-driven, heaven-thirsty — do flashy rituals for rebirth/karma drops, hooked on pleasure/bag. Examples: big showy ceremonies for clout/blessings — but ego-fueled. Superficial spirituality called out — go deeper, not for the flex.",
+"genalpha": "People who want things a lot, aim for heaven, do fancy actions for good birth and rewards — love fun and power. But it's like doing big shows for prizes — without real love inside. Krishna says look for the true happy, not just shiny rewards."
 },
 {
 "verse": 44,
 "sanskrit": "भोगैश्वर्यप्रसक्तानां तयापहृतचेतसाम् |\nव्यवसायात्मिका बुद्धिः समाधौ न विधीयते ||",
 "transliteration": "bhogaiśvarya-prasaktānāṁ tayāpahṛta-cetasām\nvyavasāyātmikā buddhiḥ samādhau na vidhīyate",
-"translation": "In the minds of those who are too attached to sense enjoyment and material opulence, and who are bewildered by such things, the resolute determination for devotional service to the Supreme Lord does not take place.",
-"millennial": "Attachment blocks focus. Like distractions derailing goals."
+"translation": "For those whose minds are attached to the enjoyment of sense objects and material opulences, and whose intelligence is thus bewildered by such things, the resolute determination for devotional service to the Supreme Lord does not take place.",
+"millennial": "Minds attached to pleasures/power — intelligence stolen — no resolute devotion or samādhi (absorption). Examples: consumerism/status-chasing distracts from spiritual focus. Break attachment — gain determination for higher path. Balance material with spiritual — but prioritize inner.",
+"genz": "Minds hooked on pleasure/bag — brain hacked — no locked-in devotion or samādhi. Examples: scroll/clout addiction kills spiritual grind. Break the trap — gain focus for higher. Prioritize inner game.",
+"genalpha": "People whose thoughts are stuck on fun things and power — their smart mind gets confused — they can't have strong loving focus or quiet peace inside. Like too many toys making you forget to hug your best friend — let go to feel calm and loving."
 },
 {
 "verse": 45,
 "sanskrit": "त्रैगुण्यविषया वेदा निस्त्रैगुण्यो भवार्जुन |\nनिर्द्वन्द्वो नित्यसत्त्वस्थो निर्योगक्षेम आत्मवान् ||",
-"transliteration": "traiguṇya-viṣayā vedā nistraiguṇyo bhavārjuna\nnirdvandvo nitya-sattva-stho niryoga-kṣema ātmavān",
+"transliteration": "trai-guṇya-viṣayā vedā nistrai-guṇyo bhavārjuna\nnirdvandvo nitya-sattva-stho niryoga-kṣema ātmavān",
 "translation": "The Vedas deal mainly with the subject of the three modes of material nature. O Arjuna, become transcendental to these three modes. Be free from all dualities and from all anxieties for gain and safety, and be established in the self.",
-"millennial": "Rise above material modes; free from dualities. In life, transcend good/bad, secure self-reliance."
+"millennial": "Vedas focused on three guṇas (modes) — transcend them. Free from duality, steady in sattva (purity), beyond gain/loss, self-established. Examples: rise above sattva/rajas/tamas influences — equanimity. No anxiety over security/success — self-reliant. Inner stability — ultimate freedom.",
+"genz": "Vedas on three modes — transcend them. No duality, steady pure vibe, beyond gain/loss, self-locked. Examples: rise above mode drama — balanced no-tilt. No stress over bag/security — inner strength. Freedom unlock.",
+"genalpha": "Holy books talk a lot about three feelings (modes) — go beyond them. Be free from like/dislike, stay in pure good feeling, don't worry about getting or losing, be strong inside yourself. Like leaving the up-down swing to stand steady on happy ground — no more worries."
 },
 {
 "verse": 46,
 "sanskrit": "यावानर्थ उदपाने सर्वतः सम्प्लुतोदके |\nतावान्सर्वेषु वेदेषु ब्राह्मणस्य विजानतः ||",
 "transliteration": "yāvān artha udapāne sarvataḥ samplutodake\ntāvān sarveṣu vedeṣu brāhmaṇasya vijānataḥ",
-"translation": "All purposes served by a small well can at once be served by a great reservoir of water. Similarly, all the purposes of the Vedas can be served to one who knows the purpose behind them.",
-"millennial": "Know the essence; no need for all details. Like mastering principles over memorizing rules."
+"translation": "All purposes served by a small well can easily be served by a great reservoir of water. Similarly, all the purposes of the Vedas can be served to one who knows the purpose behind them.",
+"millennial": "Small well's use = big lake's; Vedas' purpose served by knowing their essence. Examples: rituals/knowledge lead to same goal as direct realization. Knower (brāhmaṇa) gets full benefit without exhaustive study — essence matters. Focus on core wisdom — not details.",
+"genz": "Small well = big lake for water needs; Vedas same — knower gets full value without grinding every detail. Examples: essence > exhaustive study. Real understanding = all benefits unlocked.",
+"genalpha": "A small well gives water like a big lake does — all holy books give the same good thing to someone who really understands the main point. Like a little pond or big ocean — both give water if you know how to drink. Focus on the big truth inside."
 },
 {
 "verse": 47,
 "sanskrit": "कर्मण्येवाधिकारस्ते मा फलेषु कदाचन |\nमा कर्मफलहेतुर्भूर्मा ते सङ्गोऽस्त्वकर्मणि ||",
-"transliteration": "karmaṇy evādhikāras te mā phaleṣu kadācana\nmā karma-phala-hetur bhūr mā te saṅgo 'stv akarmaṇi",
+"transliteration": "karmaṇy evādhikāras te mā phaleṣu kadācana\nmā karma-phala-hetur bhūr mā te saṅgo ’stv akarmaṇi",
 "translation": "You have a right to perform your prescribed duty, but you are not entitled to the fruits of action. Never consider yourself the cause of the results of your activities, and never be attached to not doing your duty.",
-"millennial": "Act but detach from results. Iconic: Do your job, let go of bonuses. In work, prevents burnout; funny: Like cooking without obsessing over compliments. Detailed: Fosters excellence through intrinsic motivation, key for long-term success."
+"millennial": "Iconic verse: right to action/duty, not fruits. Don't be motivated by results, nor attached to inaction. Examples: work hard at job without obsessing over promotion — detached excellence. Avoid entitlement to outcomes — reduces stress/burnout. Balance action without attachment — key to fulfillment.",
+"genz": "Classic: right to grind/duty, not drops. Don't chase results, don't attach to doing nothing. Examples: grind content without like-chasing — pure creation. No entitlement to W — less stress. Detached action = peak mode.",
+"genalpha": "You can do your work and play, but don't think you own the prizes. Don't do things just for prizes, and don't stop doing your part. Like playing a game for fun, not just to win candy — keep playing happily either way."
 },
 {
 "verse": 48,
 "sanskrit": "योगस्थः कुरु कर्माणि सङ्गं त्यक्त्वा धनञ्जय |\nसिद्ध्यसिद्ध्योः समो भूत्वा समत्वं योग उच्यते ||",
 "transliteration": "yoga-sthaḥ kuru karmāṇi saṅgaṁ tyaktvā dhanañjaya\nsiddhy-asiddhyoḥ samo bhūtvā samatvaṁ yoga ucyate",
 "translation": "Perform your duty equipoised, O Arjuna, abandoning all attachment to success or failure. Such equanimity is called yoga.",
-"millennial": "Balanced in success/failure—that's yoga. Like not gloating over wins or sulking losses. Essential for leadership stability."
+"millennial": "Established in yoga — do actions without attachment, same in success/failure. Equanimity = true yoga. Examples: balanced mindset in work/projects — no highs/lows from outcomes. Inner peace — real success. Yoga = union through steadiness.",
+"genz": "Locked in yoga — grind without attachment, same in W/L. Equanimity = real yoga. Examples: no tilt from success/fail — steady vibe. Inner calm = win. Yoga = balanced union.",
+"genalpha": "Stay calm in yoga — do your things without holding tight, feel the same if you win or lose. Being even and steady is called yoga. Like playing with a smile whether you score or not — that's the happy calm way."
 },
 {
 "verse": 49,
 "sanskrit": "दूरेण ह्यवरं कर्म बुद्धियोगाद्धनञ्जय |\nबुद्धौ शरणमन्विच्छ कृपणाः फलहेतवः ||",
 "transliteration": "dūreṇa hy avaraṁ karma buddhi-yogād dhanañjaya\nbuddhau śaraṇam anviccha kṛpaṇāḥ phala-hetavaḥ",
-"translation": "O Dhananjaya, keep all abominable activities far distant by devotional service, and in that consciousness surrender unto the Lord. Those who want to enjoy the fruits of their work are misers.",
-"millennial": "Fruitive work inferior; seek wisdom. Result-chasers are misers—hoarding temporary gains."
+"translation": "O Dhanañjaya, keep all abominable activities far distant by devotional service, and in that consciousness surrender unto the Lord. Those who want to enjoy the fruits of their work are misers.",
+"millennial": "Fruitive action inferior — use buddhi-yoga (devotional intelligence) to avoid it. Surrender to divine — fruit-seekers are misers. Examples: chasing rewards = small-minded; devotion expands. Generosity of spirit — give actions to higher. Freedom from miserly attachment.",
+"genz": "Reward-chasing actions low-tier — use devotional smarts to avoid. Surrender to source — fruit-hunters = misers. Examples: bag-chasing = small vibe; devotion = big energy. Generous heart wins.",
+"genalpha": "Chasing prizes in work is not the best — use smart loving thinking to stay away. Give yourself to God — people who want only prizes are like greedy kids. Like sharing toys happily instead of keeping them all — makes you feel bigger and happier."
 },
 {
 "verse": 50,
 "sanskrit": "बुद्धियुक्तो जहातीह उभे सुकृतदुष्कृते |\nतस्माद्योगाय युज्यस्व योगः कर्मसु कौशलम् ||",
 "transliteration": "buddhi-yukto jahātīha ubhe sukṛta-duṣkṛte\ntasmād yogāya yujyasva yogaḥ karmasu kauśalam",
-"translation": "A man engaged in devotional service rids himself of both good and bad reactions even in this life. Therefore strive for yoga, which is the art of all work.",
-"millennial": "Wisdom frees from karma. Yoga: Skill in action. Masterful work without bondage."
+"translation": "A man engaged in devotional service rids himself of both good and bad actions even in this life. Therefore strive for yoga, which is the art of all work.",
+"millennial": "Devotional intelligence frees from good/bad karma in this life. Strive for yoga — skill in action. Examples: devoted work — no karmic residue. Karma yoga = skillful, detached action. Excellence without bondage — ultimate art.",
+"genz": "Devotional smarts wipes good/bad karma now. Grind for yoga — skill in all actions. Examples: offered work = clean slate. Karma yoga = pro-level detached grind.",
+"genalpha": "Smart loving thinking helps you let go of good and bad results right now. Try hard for yoga — it's being really good at all work. Like doing everything with love — no sticky good or bad left, just happy skillful playing."
 },
 {
 "verse": 51,
 "sanskrit": "कर्मजं बुद्धियुक्ता हि फलं त्यक्त्वा मनीषिणः |\nजन्मबन्धविनिर्मुक्ताः पदं गच्छन्त्यनामयम् ||",
 "transliteration": "karma-jaṁ buddhi-yuktā hi phalaṁ tyaktvā manīṣiṇaḥ\njanma-bandha-vinirmuktāḥ padaṁ gacchanty anāmayam",
 "translation": "By thus engaging in devotional service to the Lord, great sages or devotees free themselves from the results of work in the material world. In this way they become free from the cycle of birth and death and attain the state beyond all miseries [by going back to Godhead].",
-"millennial": "Detach fruits, break cycle, reach peace. Ultimate goal: Beyond suffering."
+"millennial": "Krishna explains: wise ones with devotional intelligence renounce fruits of action — free from karmic birth-death bonds, reach misery-free state (Godhead). This is the culmination of karma yoga + bhakti: selfless service liberates. Examples: in your career, when you work with purpose (offering to higher cause) without obsessing over bonuses/promotions, you break free from burnout/stress cycles — find lasting fulfillment beyond material ups/downs. Imagine leading a project for social good, not personal gain — inner peace follows, no regrets. This verse is motivation: detach from outcomes, dedicate to higher — ultimate freedom from life's endless grind.",
+"genz": "Krishna's drop: smart ones with devotional smarts drop action fruits — escape birth-death karma loop, hit misery-free zone (back to source). Examples: grind with higher purpose, no attachment to bag/clout — break toxic cycles of FOMO/regret. Like creating content for impact, not views — inner peace + no burnout. Motivation: detach from drops, offer up — real liberation from endless respawns.",
+"genalpha": "Krishna says: very wise loving people let go of prizes from their work — so they become free from the circle of being born and dying over and over, and go to the happy place with no sadness. Examples: like doing chores or homework with love and not wanting candy every time — you feel free and light inside, no more heavy sad feelings. Imagine sharing toys happily without wanting anything back — you reach a fun forever place with God."
 },
 {
 "verse": 52,
 "sanskrit": "यदा ते मोहकलिलं बुद्धिर्व्यतितरिष्यति |\nतदा गन्तासि निर्वेदं श्रोतव्यस्य श्रुतस्य च ||",
 "transliteration": "yadā te moha-kalilaṁ buddhir vyatitariṣyati\ntadā gantāsi nirvedaṁ śrotavyasya śrutasya ca",
 "translation": "When your intelligence has passed out of the dense forest of delusion, you shall become indifferent to all that has been heard and all that is to be heard.",
-"millennial": "Overcome delusion, transcend knowledge. Like graduating beyond basics."
+"millennial": "When intellect transcends delusion's thicket — indifferent to past/future knowledge (Vedas/rituals). Examples: beyond book learning/rituals — direct realization. No more chasing external wisdom — inner clarity suffices. In life: after therapy/self-reflection, old advice/books lose appeal — live from inner truth. Freedom from information overload — peace in knowing enough.",
+"genz": "When your brain breaks through delusion fog — no more care for past/future info dumps. Examples: beyond endless scrolls/books/rituals — direct knowing. Info overload ends — live from inner clarity. Freedom from FOMO on knowledge.",
+"genalpha": "When your smart thinking gets out of the confusing dark forest — you don't care anymore about what you've heard or will hear. Like after finding your way home from a messy woods — you don't need more maps, you're safe and know enough."
 },
 {
 "verse": 53,
 "sanskrit": "श्रुतिविप्रतिपन्ना ते यदा स्थास्यति निश्चला |\nसमाधावचला बुद्धिस्तदा योगमवाप्स्यसि ||",
 "transliteration": "śruti-vipratipannā te yadā sthāsyati niścalā\nsamādhāv acalā buddhis tadā yogam avāpsyasi",
-"translation": "When your mind is no longer disturbed by the flowery language of the Vedas, and when it remains fixed in the trance of self-realization, then you will have attained the divine consciousness.",
-"millennial": "Fixed mind in realization: Attain yoga. Steady focus amid distractions.",
-"genz": "When your mind becomes super clear and steady like this, free from all the noise and confusion, you'll finally see the real truth — no more overthinking or getting lost in drama. It's like finally unlocking god-mode in your head after grinding through all the side quests and distractions. Once you're there, no fake flex or external validation can shake you anymore.",
-"genalpha": "When your thinking becomes really calm and clean like a quiet room with no toys scattered everywhere, you can understand the biggest secret of everything. It's like when you finally finish a very hard puzzle and suddenly see the whole picture clearly — no more confusion, just happy 'aha!' feeling."
+"translation": "When your mind is no longer disturbed by the flowery language of the Vedas, and when it remains fixed in the trance of self-realization, then you will achieve the divine consciousness.",
+"millennial": "When mind undisturbed by Vedic flowery words (rituals/rewards) — fixed in samādhi (absorption) — attain yoga (union). Examples: beyond religious dogma/rituals — direct inner realization. Steady mind in meditation/self-awareness — divine consciousness. Goal: transcend external, live in inner union.",
+"genz": "When brain no longer swayed by fancy Vedic words — locked in samādhi — hit divine consciousness. Examples: beyond ritual hype — direct inner lock. Steady absorption = union unlock.",
+"genalpha": "When your thoughts aren't confused by pretty words in holy books — and stay very still in quiet happy thinking — you reach the loving yoga with God. Like not getting distracted by shiny stories — sitting quietly feeling the big love inside."
 },
 {
 "verse": 54,
 "sanskrit": "अर्जुन उवाच |\nस्थितप्रज्ञस्य का भाषा समाधिस्थस्य केशव |\nस्थितधीः किं प्रभाषेत किमासीत व्रजेत किम् ||",
 "transliteration": "arjuna uvāca\nsthita-prajñasya kā bhāṣā samādhi-sthasya keśava\nsthita-dhīḥ kiṁ prabhāṣeta kim āsīta vrajeta kim",
-"translation": "Arjuna said: O Krishna, what are the symptoms of one whose consciousness is thus absorbed in transcendence? How does he speak, and what is his language? How does he sit, and how does he walk?",
-"millennial": "Arjuna asks for signs of enlightened. Practical: How to spot inner peace in action.",
-    "genz": "The person who has truly leveled up stays chill no matter what — no crying over losses, no hype-chasing wins, no FOMO, no jealousy. They're just steady like a pro gamer in flow state, treating every situation the same. That's the sign you've actually made it beyond the usual emotional rollercoaster.",
-    "genalpha": "Someone who has grown really strong inside doesn't get too sad when bad things happen and doesn't jump around too excited when good things happen. They stay calm and kind to everyone, like a superhero who is always peaceful no matter what adventure comes."
-  },
+"translation": "Arjuna said: O Kṛṣṇa, what are the symptoms of one whose consciousness is thus absorbed in transcendence? How does he speak, and what is his language? How does he sit, and how does he walk?",
+"millennial": "Arjuna asks practical signs of sthita-prajña (steady wisdom person in samādhi): how do they speak, sit, walk? Examples: external behaviors of enlightened — calm speech, steady posture, graceful movement. Inner state reflects outer — look for equanimity in action. Krishna describes next — model for aspirants.",
+"genz": "Arjuna's like 'what's the vibe of someone locked in transcendence? How do they talk, chill, move?' Examples: signs of enlightened glow-up — calm talk, steady sit, graceful walk. Inner peace shows outside. Krishna's answer incoming — blueprint for us.",
+"genalpha": "Arjuna asks: 'How does a person with steady smart thinking in quiet happiness look? How do they talk, sit, and walk?' It's like asking 'how can I tell if someone is really calm and wise inside by how they act outside?'"
+},
 {
 "verse": 55,
-"sanskrit": "श्रीभगवानुवाच |\nप्रजहाति यदा कामान्सर्वान्पार्थ मनोगतान् |\nआत्मन्येवात्मना तुष्टः स्थितप्रज्ञस्तदोच्यते ||",
+"sanskrit": "श्रीभगवानुवाच |\nप्रजहाति यदा कामान् सर्वान् पार्थ मनोगतान् |\nआत्मन्येवात्मना तुष्टः स्थितप्रज्ञस्तदोच्यते ||",
 "transliteration": "śrī-bhagavān uvāca\nprajahāti yadā kāmān sarvān pārtha mano-gatān\nātmany evātmanā tuṣṭaḥ sthita-prajñas tadocyate",
-"translation": "The Supreme Personality of Godhead said: O Partha, when a man gives up all varieties of desire for sense gratification, which arise from mental concoction, and when his mind, thus purified, finds satisfaction in the self alone, then he is said to be in pure transcendental consciousness.",
-"millennial": "Drops desires, self-satisfied. Like finding joy in being, not having.",
-    "genz": "Krishna says: when someone completely drops all selfish desires, feels fully satisfied just being themselves, never gets shaken by good or bad vibes — that's when they become truly stable and wise, like someone who has finally quit doom-scrolling and found real inner peace.",
-    "genalpha": "Krishna explains: when a person lets go of wanting too many things, feels happy just the way they are, and doesn't get upset or super excited easily — that's when they become very strong and smart inside, like a tree that stands tall even in storm."
-  },
+"translation": "The Supreme Personality of Godhead said: O Pārtha, when a man gives up all varieties of desire for sense gratification, which arise from mental concoction, and when his mind, thus purified, finds satisfaction in the self alone, then he is said to be in pure transcendental consciousness.",
+"millennial": "First sign: renounces all mental desires for pleasure — satisfied in self alone. Pure consciousness. Examples: drop chasing external validation/highs (social media, relationships, achievements) — find inner contentment. Self-sufficient happiness — no dependency. Practice: mindfulness/meditation for inner joy — transcend craving.",
+"genz": "Krishna's first sign: drops all mind-made cravings for pleasure — content in self only. Pure vibe. Examples: quit dopamine chase (scrolls, likes, highs) — inner satisfaction maxed. Self-reliant happiness — no external dependency.",
+"genalpha": "Krishna says: when someone lets go of all wanting fun things that the mind makes up — and feels happy just inside themselves — that's a steady wise person. Like not needing more toys or candy to feel good — happy with your own heart."
+},
 {
 "verse": 56,
 "sanskrit": "दुःखेष्वनुद्विग्नमनाः सुखेषु विगतस्पृहः |\nवीतरागभयक्रोधः स्थितधीर्मुनिरुच्यते ||",
 "transliteration": "duḥkheṣv anudvigna-manāḥ sukheṣu vigata-spṛhaḥ\nvīta-rāga-bhaya-krodhaḥ sthita-dhīr munir ucyate",
 "translation": "One who is not disturbed in mind even amidst the threefold miseries or elated when there is happiness, and who is free from attachment, fear and anger, is called a sage of steady mind.",
-"millennial": "Undisturbed by misery/joy, free from attachment/fear/anger. Ideal mental state for decision-making.",
-    "genz": "The one who isn't disturbed by outside drama, who doesn't crave things when good stuff happens and doesn't get depressed when bad stuff hits, who has cut off anger, fear and excitement — that person is called a sage with perfect balance, like someone who has mastered emotional control in the ultimate way.",
-    "genalpha": "The person who doesn't get scared or angry or too happy from things around them, who doesn't want things badly and doesn't feel sad when things go wrong — they are very calm and wise, like a peaceful mountain that never moves."
-  },
+"millennial": "Sign: undisturbed in suffering, not elated in happiness — free from attachment/fear/anger. Steady sage. Examples: even-minded in layoffs/promotions, calm in crises/joys — no emotional rollercoaster. Detach from outcomes — inner stability. Practice equanimity — mindfulness in ups/downs.",
+"genz": "Steady mind: no freakout in pain, no hype in happy — free from attachment/fear/rage. Sage level. Examples: chill in Ls, no ego in Ws — balanced vibe. Detach from results — inner peace maxed.",
+"genalpha": "Not upset in sad times, not too excited in happy times — free from sticking to things, being scared, or angry. That's a calm wise person. Like staying the same smiley you in rain or sun — no big ups or downs."
+},
 {
 "verse": 57,
 "sanskrit": "यः सर्वत्रानभिस्नेहस्तत्तत्प्राप्य शुभाशुभम् |\nनाभिनन्दति न द्वेष्टि तस्य प्रज्ञा प्रतिष्ठिता ||",
 "transliteration": "yaḥ sarvatrānabhisnehas tat tat prāpya śubhāśubham\nnābhinandati na dveṣṭi tasya prajñā pratiṣṭhitā",
 "translation": "In the material world, one who is unaffected by whatever good or evil he may obtain, neither praising it nor despising it, is firmly fixed in perfect knowledge.",
-"millennial": "Neutral to good/bad—fixed wisdom. Like unbiased reviews.",
-    "genz": "When good or bad things come to such a person, they stay detached like it's just data — no attachment, no reaction, just pure observation. They don't celebrate wins or cry over losses — that's real enlightenment energy, like watching life like a movie without getting emotionally invested.",
-    "genalpha": "When nice or not-nice things happen to this person, they don't feel very happy or very sad — they just watch calmly like it's a TV show. They don't jump with joy or get upset, like a wise owl just looking quietly."
-  },
+"millennial": "Unaffected by good/evil obtained — no praise/disdain. Fixed knowledge. Examples: receive bonus/criticism — neutral response. No emotional swing — steady wisdom. Practice non-judgment — accept without reaction. Inner fixity — true knowledge.",
+"genz": "No attachment everywhere — good/bad comes, no hype or hate. Locked-in knowledge. Examples: get W or L — neutral vibe. No emotional tilt — steady wisdom. Non-judgment practice.",
+"genalpha": "Doesn't get too attached anywhere — when good or bad things come, doesn't cheer too much or hate. That's strong smart thinking. Like getting a gift or losing a toy — stay calm and same inside."
+},
 {
 "verse": 58,
 "sanskrit": "यदा संहरते चायं कूर्मोऽङ्गानीव सर्वशः |\nइन्द्रियाणीन्द्रियार्थेभ्यस्तस्य प्रज्ञा प्रतिष्ठिता ||",
-"transliteration": "yadā saṁharate cāyaṁ kūrmo 'ṅgānīva sarvaśaḥ\nindriyāṇīndriyārthebhyas tasya prajñā pratiṣṭhitā",
+"transliteration": "yadā saṁharate cāyaṁ kūrmo ’ṅgānīva sarvaśaḥ\nindriyāṇīndriyārthebhyas tasya prajñā pratiṣṭhitā",
 "translation": "One who is able to withdraw his senses from sense objects, as the tortoise draws its limbs within the shell, is firmly fixed in perfect consciousness.",
-"millennial": "Withdraw senses like tortoise. Sense control for focus; vital in distracting workspaces.",
-    "genz": "Just like a tortoise pulls all its limbs inside its shell when danger comes, the wise person pulls back all senses from tempting things and stays focused inside. No chasing dopamine hits — complete self-control mode unlocked.",
-    "genalpha": "Like a turtle hides its legs and head inside when it's scared, a smart person hides their wanting-eyes, wanting-ears, wanting-tongue etc. inside and stays calm and safe. No running after shiny things."
-  },
+"millennial": "Withdraw senses from objects like tortoise into shell — fixed consciousness. Examples: sense control — avoid distractions (social media, temptations). Inner withdrawal — focus on self. Meditation practice — retract senses for clarity. Self-mastery — key to wisdom.",
+"genz": "Pull senses back from stuff like tortoise into shell — locked-in consciousness. Examples: detox from scrolls/temptations — inner focus. Meditation hack — retract for clarity. Sense control = power.",
+"genalpha": "When someone pulls their senses away from fun things like a turtle pulling legs into shell — that's strong smart thinking. Like closing your eyes and ears to noisy toys — staying calm inside your safe shell."
+},
 {
 "verse": 59,
 "sanskrit": "विषया विनिवर्तन्ते निराहारस्य देहिनः |\nरसवरजं रसोऽप्यस्य परं दृष्ट्वा निवर्तते ||",
-"transliteration": "viṣayā vinivartante nirāhārasya dehinaḥ\nrasa-varjaṁ raso 'py asya paraṁ dṛṣṭvā nivartate",
-"translation": "Though the embodied soul may be restricted from sense enjoyment, the taste for sense objects remains. But, ceasing such engagements by experiencing a higher taste, he is fixed in consciousness.",
-"millennial": "Abstinence leaves taste; higher taste erases it. Like upgrading hobbies for fulfillment.",
-    "genz": "Even when someone tries to starve the senses by force, the cravings still hang around secretly in the background. But when they finally see the Supreme and taste real higher bliss, even those leftover cravings disappear completely — next-level detachment achieved.",
-    "genalpha": "Even if someone tries very hard not to want tasty food or fun things, the wanting feeling still hides inside quietly. But when they see something very beautiful and big (God) and feel super happy inside, then even the hiding wants go away forever."
-  },
+"transliteration": "viṣayā vinivartante nirāhārasya dehinaḥ\nrasa-varjaṁ raso ’py asya paraṁ dṛṣṭvā nivartate",
+"translation": "The embodied soul may be restricted from sense enjoyment, though the taste for sense objects remains. But, ceasing such engagements by experiencing a higher taste, he is fixed in consciousness.",
+"millennial": "Forced abstinence — cravings remain; but higher taste (divine) ends them. Fixed consciousness. Examples: diet/quitting habit — willpower fails, but finding joy in healthier/spiritual alternatives sustains. Experience divine bliss — material tastes fade. Inner fulfillment > external.",
+"genz": "Force-stop sense pleasures — cravings linger; but higher taste (source) kills them. Locked consciousness. Examples: quit scrolling — FOMO stays, but divine vibe/meditation joy makes it irrelevant. Inner high > external highs.",
+"genalpha": "If you stop eating yummy things by force — you still want them; but when you taste something even yummier (like God's love) — you don't want the old ones anymore. That's steady happy thinking. Like stopping candy because you found a magic fruit that's sweeter and better forever."
+},
 {
 "verse": 60,
 "sanskrit": "यततो ह्यपि कौन्तेय पुरुषस्य विपश्चितः |\nइन्द्रियाणि प्रमाथीनि हरन्ति प्रसभं मनः ||",
 "transliteration": "yatato hy api kaunteya puruṣasya vipaścitaḥ\nindriyāṇi pramāthīni haranti prasabhaṁ manaḥ",
 "translation": "The senses are so strong and impetuous, O Arjuna, that they forcibly carry away the mind even of a man of discrimination who is endeavoring to control them.",
-"millennial": "Senses overpower even the wise. Like notifications derailing focus.",
-    "genz": "The senses are so powerful and restless that they can drag even a wise person's mind away if they're not careful. So you gotta stay locked in and control them hard, like keeping your focus in a very distracting game lobby.",
-    "genalpha": "Our eyes, ears, nose etc. are very strong and naughty — they can pull even a smart person's mind here and there. So we have to hold them very tightly like holding a kite string in strong wind."
-  },
+"millennial": "Even wise trying to control senses — senses overpower mind. Examples: disciplined professional — distractions (emails, social) hijack focus. Senses impetuous — need strong practice. Caution: vigilance required — no complacency in self-control.",
+"genz": "Even smart ones trying hard — senses overpower and hijack mind. Examples: focused grind — notifications/drama pull you away. Senses wild — need strong control game. Warning: stay vigilant — no autopilot.",
+"genalpha": "Even a very smart person trying hard to control eyes/ears/etc. — the senses are so strong they grab the mind away. Like trying to sit still but your eyes see a toy and pull your thoughts away — need to be extra strong inside."
+},
 {
 "verse": 61,
-"sanskrit": "तानि सर्वाणि संयम्य युक्त आसीत मत्परः |\nवशे हि यस्येन्द्रियाणि तस्य प्रज्ञा प्रतिष्ठिता ||",
-"transliteration": "tāni sarvāṇi saṁyamya yukta āsīta mat-paraḥ\nvaśe hi yasyendriyāṇi tasya prajñā pratiṣṭhitā",
-"translation": "One who restrains his senses, keeping them under full control, and fixes his consciousness upon Me, is known as a man of steady intelligence.",
-"millennial": "Control senses, focus on divine—steady wisdom.",
-    "genz": "The real pro keeps all senses under control, stays focused only on Me (the higher self), and becomes steady like a rock. That's how you win the inner game — full mastery unlocked.",
-    "genalpha": "The best player keeps eyes, ears, everything under control, thinks only about the big friend (God), and becomes very strong and still like a mountain. That's how you become the champion inside."
-  },
+"sanskrit": "यततो ह्यपि कौन्तेय पुरुषस्य विपश्चितः |\nइन्द्रियाणि प्रमाथीनि हरन्ति प्रसभं मनः ||",
+"transliteration": "yatato hy api kaunteya puruṣasya vipaścitaḥ\nindriyāṇi pramāthīni haranti prasabhaṁ manaḥ",
+"translation": "The senses are so strong and impetuous, O Arjuna, that they forcibly carry away the mind even of a man of discrimination who is endeavoring to control them.",
+"millennial": "Krishna warns: even a wise, disciplined person trying to control senses — senses overpower and drag the mind away. This highlights the challenge of self-control in a distracting world. Examples: you're a focused entrepreneur or manager, setting boundaries like no emails after 7 PM to prioritize family or self-care — but a late-night notification pulls you in, and suddenly you're scrolling for hours, losing sleep and balance. The verse is a reality check: senses are powerful adversaries; constant vigilance and higher practices (like meditation or devotion) are needed to master them. It's not about perfection but persistent effort — don't beat yourself up for slips, just get back on track. In your 30s, this resonates with work-life balance struggles, where digital distractions hijack productivity and peace.",
+"genz": "Krishna's warning: even smart, trying-hard people get their mind jacked by senses — they're wild and forceful. Examples: you're grinding on a study session or content creation, but TikTok notifications pop — next thing, you're doom-scrolling for hours, focus gone. Verse hits: senses are OP bosses; need constant check and higher hacks (meditation, devotion) to win. Don't rage-quit after slips — respawn and grind. Relates to ADHD vibes or social media addiction — senses drag you, but awareness pulls back.",
+"genalpha": "Krishna says: even a very smart person trying really hard to control their eyes/ears/tongue — the senses are so strong they grab the mind away suddenly. Examples: like when you're trying to sit quietly and do homework, but your eyes see a toy or ears hear a fun sound — and poof, your mind runs off to play instead. It's like senses are naughty puppies pulling your thoughts — you need to be gentle but strong to bring them back. Don't feel bad if it happens — just keep trying with love."
+},
 {
 "verse": 62,
-"sanskrit": "ध्यायतो विषयान्पुंसः सङ्गस्तेषूपजायते |\nसङ्गात्सञ्जायते कामः कामात्क्रोधोऽभिजायते ||",
-"transliteration": "dhyāyato viṣayān puṁsaḥ saṅgas teṣūpajāyate\nsaṅgāt sañjāyate kāmaḥ kāmāt krodho 'bhijāyate",
+"sanskrit": "ध्यायतो विषयान् पुंसः सङ्गस्तेषूपजायते |\nसङ्गात् सञ्जायते कामः कामात् क्रोधोऽभिजायते ||",
+"transliteration": "dhyāyato viṣayān puṁsaḥ saṅgas teṣūpajāyate\nsaṅgāt sañjāyate kāmaḥ kāmāt krodho ’bhijāyate",
 "translation": "While contemplating the objects of the senses, a person develops attachment for them, and from such attachment lust develops, and from lust anger arises.",
-"millennial": "Contemplation leads to attachment, desire, anger. Like scrolling leads to envy, rage. Chain reaction warning.",
-    "genz": "When you keep thinking about sense objects, attachment grows → then desire → then anger when you don't get it → then delusion → memory loss → intelligence destroyed → total downfall. Classic dopamine addiction cycle exposed.",
-    "genalpha": "If you keep thinking about fun things too much → you start liking them a lot → then you want them badly → if you don't get them you get angry → then you get confused → forget good things → your smart thinking stops working → you fall down. Like eating too much candy and getting sick."
-  },
+"millennial": "Krishna explains the downward spiral: thinking of sense objects → attachment → desire → anger (when unfulfilled). This chain reaction is the root of many personal/professional pitfalls. Examples: you browse LinkedIn, see a colleague's promotion — attachment to success forms, desire for your own arises, then anger/jealousy if not achieved, leading to resentment or rash decisions like quitting impulsively. The verse is a psychological map: break at the contemplation stage through mindfulness — redirect thoughts to higher purpose. In your 30s, this helps manage envy, FOMO, or material cravings that derail career/family balance. Prevention: cultivate detachment early.",
+"genz": "Krishna breaks down the L chain: think about sense stuff (scrolls, vibes) → get attached → want it bad (craving) → get mad when you can't have it. Examples: doom-scrolling TikTok trends — attach to aesthetic, crave the look/bag, rage when you can't afford or it flops. Verse = mental health map: stop at the thinking stage with mindfulness — redirect to higher vibes. Avoids jealousy/FOMO spirals — key for social media gen.",
+"genalpha": "Krishna says: when you think too much about fun things like toys or candy — you start liking them too much (attachment), then you really want them (desire), and if you don't get them you get angry. Examples: like seeing a new toy on TV — you think about it all day, want it so bad, then cry or get mad if you can't have it. Stop by thinking happy thoughts about sharing or playing with what you have — no angry feelings."
+},
 {
 "verse": 63,
-"sanskrit": "क्रोधाद्भवति सम्मोहः सम्मोहात्स्मृतिविभ्रमः |\nस्मृतिभ्रंशाद् बुद्धिनाशो बुद्धिनाशात्प्रणश्यति ||",
+"sanskrit": "क्रोधाद्भवति सम्मोहः सम्मोहात् स्मृतिविभ्रमः |\nस्मृतिभ्रंशाद् बुद्धिनाशो बुद्धिनाशात् प्रणश्यति ||",
 "transliteration": "krodhād bhavati sammohaḥ sammohāt smṛti-vibhramaḥ\nsmṛti-bhraṁśād buddhi-nāśo buddhi-nāśāt praṇaśyati",
-"translation": "From anger, complete delusion arises, and from delusion bewilderment of memory. When memory is bewildered, intelligence is lost, and when intelligence is lost one falls down.",
-"millennial": "Anger to delusion, memory loss, ruined intellect, downfall. Road rage to bad decisions.",
-    "genz": "From anger comes delusion, from delusion comes memory loss, from memory loss comes destruction of intelligence, from that comes complete loss. The whole mental crash sequence laid bare — protect your mind like it's your main account.",
-    "genalpha": "Angry → confused → forget good lessons → smart thinking breaks → everything gets lost. Like when you get mad, forget the rules, play badly, and lose the whole game."
-  },
+"translation": "From anger, complete delusion arises, and from delusion bewilderment of memory. When memory is bewildered, intelligence is lost, and when intelligence is lost one falls down again into the material pool.",
+"millennial": "The spiral continues: anger → delusion → memory loss → intelligence destroyed → total downfall. This is a step-by-step breakdown of how unchecked emotions lead to ruin. Examples: in a heated work argument (anger), you forget company values (memory loss), make poor decisions (lost intelligence), like sending an impulsive email — leading to career downfall. The verse is a cautionary tale: interrupt the chain early with self-awareness/breathwork. In relationships or finances, rage decisions often cause irreversible damage — preserve intellect through calm.",
+"genz": "Anger → full delusion → forget everything → brain fried → total L and back to square one. Examples: rage-reply in comments (anger), forget your values (delusion), say dumb stuff (memory loss), make bad choices (brain gone) — clout/reputation ruined. Verse = emotional damage map: stop at anger with chill techniques. Rage quits life — stay calm to win.",
+"genalpha": "From anger comes big confusion, from confusion you forget things, from forgetting your smart thinking breaks, from broken thinking you fall down completely. Examples: like getting mad at a friend — you confuse everything, forget to be nice, think wrong, and end up losing the friend. Stop anger with deep breaths — keep your happy smart heart."
+},
 {
 "verse": 64,
-"sanskrit": "रागद्वेषवियुक्तैस्तु विषयानिन्द्रियैश्चरन् |\nआत्मवश्यैर्विधेयात्मा प्रसादमधिगच्छति ||",
+"sanskrit": "रागद्वेषवियुक्तैस्तु विषयानिन्द्रियैश् चरन् |\nआत्मवश्यैर्विधेयात्मा प्रसादमधिगच्छति ||",
 "transliteration": "rāga-dveṣa-viyuktais tu viṣayān indriyaiś caran\nātma-vaśyair vidheyātmā prasādam adhigacchati",
 "translation": "But a person free from all attachment and aversion and able to control his senses through regulative principles of freedom can obtain the complete mercy of the Lord.",
-"millennial": "Free from like/dislike, control senses—attain peace.",
-    "genz": "But the person who moves through the world with senses under control, free from liking and disliking, calm and peaceful — they reach clear vision and inner peace. No more emotional rollercoaster — steady state achieved.",
-    "genalpha": "But someone who walks around with eyes-ears-nose under control, no too much like or dislike, calm and happy inside — they can see everything clearly and feel peaceful. Like walking in rain with good umbrella — no problem."
-  },
+"millennial": "Free from like/dislike (rāga/dveṣa) — engage senses under self-control — attain divine grace/peace. Examples: balanced interaction with world — enjoy without attachment, avoid without aversion. Regulated freedom — disciplined yet joyful. Leads to inner clarity/mercy. In daily life: mindful consumption (food, media) — no extremes, peace follows.",
+"genz": "No like/hate vibes — engage senses with self-control — get full divine grace/peace. Examples: balanced scrolling/eating — enjoy without addiction, skip without FOMO. Regulated freedom = calm. Mercy unlocks.",
+"genalpha": "But someone free from too much liking or hating — plays with senses but keeps control — gets the big loving kindness and peace. Like eating candy without wanting all, or not getting mad at yucky veggies — stay calm and happy inside."
+},
 {
 "verse": 65,
 "sanskrit": "प्रसादे सर्वदुःखानां हानिरस्योपजायते |\nप्रसन्नचेतसो ह्याशु बुद्धिः पर्यवतिष्ठते ||",
 "transliteration": "prasāde sarva-duḥkhānāṁ hānir asyopajāyate\nprasanna-cetaso hy āśu buddhiḥ paryavatiṣṭhate",
-"translation": "For one thus satisfied [in Krishna consciousness], the threefold miseries of material existence exist no longer; in such satisfied consciousness, one's intelligence is soon well established.",
-"millennial": "Peace ends miseries, establishes intellect. Calm mind for better choices.",
-    "genz": "When inner peace comes, all miseries end. The steady mind becomes super focused and sharp. Once intelligence is fixed like that, you can understand the higher truth quickly — game-changing clarity unlocked.",
-    "genalpha": "When feeling peaceful inside comes, all sad things go away. The calm mind becomes very strong and smart. Then you can understand big secrets easily — like suddenly solving a hard puzzle."
-  },
+"translation": "For one thus satisfied [in Kṛṣṇa consciousness], the threefold miseries of material existence exist no longer; in such satisfied consciousness, one's intelligence is soon well established.",
+"millennial": "In divine grace/peace — all miseries end; mind clear, intelligence steady. Examples: devotion/meditation brings contentment — external pains (body, others, nature) lose power. Stable intellect — better decisions, less stress. Spiritual satisfaction — ultimate resilience.",
+"genz": "In grace/peace — all pains gone; mind clear, brain steady fast. Examples: devotion vibe kills suffering — body/drama/nature Ls irrelevant. Stable smarts = better moves, no stress.",
+"genalpha": "In happy kindness, all sad things go away; with clear heart, smart thinking stands strong quickly. Like when you feel loved — no more hurts, your thoughts become steady and happy fast."
+},
 {
 "verse": 66,
 "sanskrit": "नास्ति बुद्धिरयुक्तस्य न चायुक्तस्य भावना |\nन चाभावयतः शान्तिरशान्तस्य कुतः सुखम् ||",
 "transliteration": "nāsti buddhir ayuktasya na cāyuktasya bhāvanā\nna cābhāvayataḥ śāntir aśāntasya kutaḥ sukham",
-"translation": "One who is not connected with the Supreme [in Krishna consciousness] can have neither transcendental intelligence nor a steady mind, without which there is no possibility of peace. And how can there be any happiness without peace?",
-"millennial": "No connection, no intellect/peace/happiness. Spiritual anchor for stability.",
-    "genz": "No peace for the uncontrolled mind. No happiness without peace. No focus without happiness. Without focus no clear thinking. Without clear thinking no escape from the cycle. Brutal truth about mental health meta.",
-    "genalpha": "No calm mind → no happy → no good thinking → no understanding big things → can't get free from sad circle. Like when you're angry or running around too much, you can't learn or feel good."
-  },
+"translation": "One who is not connected with the Supreme [in Kṛṣṇa consciousness] can have neither transcendental intelligence nor a steady mind, without which there is no possibility of peace. And how can there be any happiness without peace?",
+"millennial": "Without union (yoga) — no intelligence/steady mind; no steadiness — no peace; no peace — no happiness. Examples: disconnected from higher purpose — scattered mind, anxiety, unhappiness. Connection (devotion/meditation) — foundation for peace/joy. Prioritize spiritual alignment — everything else follows.",
+"genz": "No connection to higher — no smarts/steady mind; no steadiness — no peace; no peace — no happy. Examples: unplugged from source — scattered vibes, anxiety max, no joy. Plug in (devotion) — peace + happy unlocked.",
+"genalpha": "Someone not close to the big friend — no smart steady thinking; no steady — no peace; no peace — no happy. Like not holding your parent's hand — you feel lost and scared; hold tight — feel safe and joyful."
+},
 {
 "verse": 67,
 "sanskrit": "इन्द्रियाणां हि चरतां यन्मनोऽनुविधीयते |\nतदस्य हरति प्रज्ञां वायुर्नावमिवाम्भसि ||",
-"transliteration": "indriyāṇāṁ hi caratāṁ yan mano 'nuvidhīyate\ntad asya harati prajñāṁ vāyur nāvam ivāmbhasi",
+"transliteration": "indriyāṇāṁ hi caratāṁ yan mano ’nuvidhīyate\ntad asya harati prajñāṁ vāyur nāvam ivāmbhasi",
 "translation": "As a strong wind sweeps away a boat on the water, even one of the roaming senses on which the mind focuses can carry away a man's intelligence.",
-"millennial": "Senses hijack mind like wind boat. One distraction derails focus.",
-    "genz": "Just like wind easily takes away a boat on water, even one wandering sense can carry away the intelligence of a person who is trying to control the mind. Single weak link can crash the whole system — vigilance required.",
-    "genalpha": "Like strong wind easily moves a boat on water, even one naughty sense (like always wanting to see fun videos) can take away the smart thinking of a person. So we have to watch all senses carefully."
-  },
+"millennial": "Wandering senses — mind follows — intelligence lost like wind-swept boat. Examples: single distraction (phone ping during focus work) — derails productivity. Senses control mind — chaos. Practice sense restraint — steady intelligence. Vigilance key.",
+"genz": "Roaming senses — mind chases — smarts gone like wind blowing boat off course. Examples: one notification during grind — focus wrecked. Senses hijack — chaos. Restrain senses — steady brain.",
+"genalpha": "When senses run around, mind runs after — smart thinking gets lost like wind pushing a boat away on water. Like eyes seeing candy — mind chases, forgets homework. Keep senses calm — thinking stays safe."
+},
 {
 "verse": 68,
 "sanskrit": "तस्माद्यस्य महाबाहो निगृहीतानि सर्वशः |\nइन्द्रियाणीन्द्रियार्थेभ्यस्तस्य प्रज्ञा प्रतिष्ठिता ||",
 "transliteration": "tasmād yasya mahā-bāho nigṛhītāni sarvaśaḥ\nindriyāṇīndriyārthebhyas tasya prajñā pratiṣṭhitā",
-"translation": "Therefore, O mighty-armed, one whose senses are restrained from their objects is certainly of steady intelligence.",
-"millennial": "Restrain senses—steady wisdom.",
-    "genz": "Therefore the person whose senses are completely withdrawn from objects is the one whose intelligence is truly steady. Full lockdown on distractions — that's the winning position.",
-    "genalpha": "So the person who pulls back all senses from fun-but-distracting things has very strong and steady thinking. Like closing all game windows to focus on homework."
-  },
+"translation": "Therefore, O mighty-armed one, one whose senses are restrained from their objects is certainly of steady intelligence.",
+"millennial": "Senses fully restrained from objects — steady intelligence. Examples: digital detox, mindful eating — sense control = clear mind. Practice withdrawal — inner strength. Steady wisdom — foundation for success.",
+"genz": "Senses locked from stuff — steady smarts. Examples: no-scroll zones, controlled vibes — clear head. Restrain = power up. Wisdom steady.",
+"genalpha": "So someone who keeps senses away from fun things everywhere — has very steady smart thinking. Like not touching toys when it's homework time — your mind stays strong and calm."
+},
 {
 "verse": 69,
 "sanskrit": "या निशा सर्वभूतानां तस्यां जागर्ति संयमी |\nयस्यां जाग्रति भूतानि सा निशा पश्यतो मुनेः ||",
 "transliteration": "yā niśā sarva-bhūtānāṁ tasyāṁ jāgarti saṁyamī\nyasyāṁ jāgrati bhūtāni sā niśā paśyato muneḥ",
 "translation": "What is night for all beings is the time of awakening for the self-controlled; and the time of awakening for all beings is night for the introspective sage.",
-"millennial": "Sage awake when others sleep—metaphorical: Sees truth in illusion.",
-    "genz": "What is night for everyone else is day for the sage who's awake inside. What is day (distractions) for normal people is night (ignorance) for the sage who's truly seeing. Different dimensions unlocked — opposite perception of reality.",
-    "genalpha": "When normal people are sleeping (not understanding), the wise person is awake inside. When normal people are busy playing (distracted), the wise person sees it's like darkness. Like night and day are opposite for wise people."
-  },
+"millennial": "Ordinary people 'sleep' in spiritual darkness — self-controlled awake in light. Material 'waking' — night for sage. Examples: masses chase material (money, fame) — 'asleep' to truth; sage 'awake' to inner reality, sees material as illusion. Reverse perspective — prioritize spiritual over material. In life: while others hustle for externals, focus inward for true awakening.",
+"genz": "What everyone sees as 'day' (material grind) is 'night' for the sage; what they see as 'night' (spiritual) is 'day' for the controlled. Examples: masses 'asleep' in clout chase — sage awake in inner vibes. Flip the script — spiritual > material.",
+"genalpha": "What is night and sleep for everyone is awake time for the calm person; what is awake and play for everyone is night for the wise one. Like when kids play outside all day — the wise kid reads and thinks inside; when others sleep, wise one looks at stars and wonders."
+},
 {
 "verse": 70,
-"sanskrit": "आपूर्यमाणमचलप्रतिष्ठं समुद्रमापः प्रविशन्ति यद्वत् |\nतद्वत्कामा यं प्रविशन्ति सर्वे स शान्तिमाप्नोति न कामकामी ||",
-"transliteration": "āpūryamāṇam acala-pratiṣṭhaṁ samudram āpaḥ praviśanti yadvat\ntadvat kāmā yaṁ praviśanti sarve sa śāntim āpnoti na kāma-kāmī",
-"translation": "A person who is not disturbed by the incessant flow of desires—that enter like rivers into the ocean, which is ever being filled but is always still—can alone achieve peace, and not the man who strives to satisfy such desires.",
-"millennial": "Peace like ocean absorbing rivers—undisturbed by desires.",
-    "genz": "Just like the ocean stays calm even when rivers keep pouring into it, the person who stays undisturbed even when desires keep coming achieves peace — not the one who chases desires. Infinite capacity without reaction — peak zen.",
-    "genalpha": "Like big sea stays peaceful even when many rivers flow into it, the person who stays calm even when many wants come to mind gets real peace — not the one who runs after every want."
-  },
+"sanskrit": "आपूर्यमाणमचलप्रतिष्ठं\nसमुद्रमापः प्रविशन्ति यद्वत् |\nतद्वत् कामा यं प्रविशन्ति सर्वे\nस शान्तिमाप्नोति न कामकामी ||",
+"transliteration": "āpūryamāṇam acala-pratiṣṭhaṁ\nsamudram āpaḥ praviśanti yadvat\ntadvat kāmā yaṁ praviśanti sarve\nsa śāntim āpnoti na kāma-kāmī",
+"translation": "A person who is not disturbed by the incessant flow of desires — that enter like rivers into the ocean, which is ever being filled but is always still — can alone achieve peace, and not the man who strives to satisfy such desires.",
+"millennial": "Peace like ocean — desires flow in like rivers, but remains undisturbed/full. Desire-fulfiller never peaceful. Examples: endless wants (career, relationships) — chase one, more come. Be like ocean — accept without disturbance. Contentment — true peace. Practice gratitude — desires lose power.",
+"genz": "Be like ocean — desires flow in like rivers, but stays chill/full. Desire-chaser never peaceful. Examples: endless wants (clout, bag) — satisfy one, more pop. Ocean vibe — accept without tilt. Gratitude hack — peace unlocked.",
+"genalpha": "Be like the big calm ocean — rivers of wants flow in but it stays steady and full. Someone who tries to catch all wants never feels peaceful. Like too many candies make you sick — be happy with what you have, like the ocean always full and calm."
+},
 {
 "verse": 71,
-"sanskrit": "विहाय कामान्यः सर्वान्पुमांश्चरति निःस्पृहः |\nनिर्ममो निरहङ्कारः स शान्तिमधिगच्छति ||",
-"transliteration": "vihāya kāmān yaḥ sarvān pumāṁś carati niḥspṛhaḥ\nnirmamo nirahaṅkāraḥ sa śāntim adhigacchati",
-"translation": "A person who has given up all desires for sense gratification, who lives free from desires, who has given up all sense of proprietorship and is devoid of false ego—he alone can attain real peace.",
-"millennial": "Drop desires, ownership, ego—attain peace. Minimalism's spiritual root.",
-    "genz": "The person who gives up all desires, lives free from longing, without sense of 'me' and 'mine' — they attain real peace. Ultimate ego-death and desire cleanse — liberation speedrun complete.",
-    "genalpha": "The person who leaves all wanting, doesn't say 'this is mine', feels free and peaceful. Like sharing all toys and feeling happy inside without keeping anything just for yourself."
-  },
+"sanskrit": "विहाय कामान् यः सर्वान् पुमांश्चरति निःस्पृहः |\nनिर्ममः निरहंकारः स शान्तिमधिगच्छति ||",
+"transliteration": "vihāya kāmān yaḥ sarvān pumāṁś carati niḥspṛhaḥ\nnirmamaḥ nirahaṁkāraḥ sa śāntim adhigacchati",
+"translation": "A person who has given up all desires for sense gratification, who lives free from desires, who has given up all sense of proprietorship and is devoid of false ego — he alone can attain real peace.",
+"millennial": "Renounce desires, live desire-free, no ownership/ego — attain peace. Examples: minimalism, detach from possessions/achievements/identity — inner freedom. No 'mine' or 'I' — ego drop. Practice non-attachment — peace follows.",
+"genz": "Drop all desires, live no-crave, no ownership/ego — real peace. Examples: minimalist vibe, detach from stuff/clout/self — freedom. No 'mine' or 'I did that' — ego gone. Non-attachment = peace hack.",
+"genalpha": "Let go of all wants, live without wishing for things, no 'this is mine' or 'I'm the best' — get true peace. Like sharing all toys, not saying 'mine', not bragging — feel calm and happy inside."
+},
 {
 "verse": 72,
 "sanskrit": "एषा ब्राह्मी स्थितिः पार्थ नैनां प्राप्य विमुह्यति |\nस्थित्वास्यामन्तकालेऽपि ब्रह्मनिर्वाणमृच्छति ||",
-"transliteration": "eṣā brāhmī sthitiḥ pārtha naināṁ prāpya vimuhyati\nsthitvāsyām anta-kāle 'pi brahma-nirvāṇam ṛcchati",
-"translation": "This is the way of the spiritual and godly life, after attaining which a man is not bewildered. If one is thus situated even at the hour of death, one can enter into the kingdom of God.",
-"millennial": "Brahmi state: No delusion, leads to nirvana. Ultimate attainment, even at death.",
-"genz": "This is the ultimate brahmic glow-up state — once you reach it, no more confusion or looping. Even at the very end (game over screen), staying in this vibe gets you straight to Brahman peace — perfect ending unlocked.",
-"genalpha": "This is the super peaceful big state. When you reach it, you never get confused again. Even when it's time to go (like finishing a very long game), staying in this happy peaceful feeling takes you to the biggest light and rest."
+"transliteration": "eṣā brāhmī sthitiḥ pārtha naināṁ prāpya vimuhyati\nsthitvāsyām anta-kāle ’pi brahma-nirvāṇam ṛcchati",
+"translation": "That is the way of the spiritual and godly life, after attaining which a man is not bewildered. If one is thus situated even at the hour of death, one can attain to the Brahman nirvāṇa.",
+"millennial": "This brāhmī sthiti (divine state) — once attained, no delusion. Even at death — reach Brahman nirvāṇa (liberation). Chapter end: ultimate goal — steady divine consciousness. Examples: lifelong practice ensures peaceful death/liberation. No fear — eternal union. Live in this state — freedom now.",
+"genz": "This divine state — once in, no confusion. Even at logout — hit Brahman nirvāṇa. Examples: endgame mode — steady consciousness = liberation. Practice now for peaceful exit. No fear — eternal W.",
+"genalpha": "This is the godly calm way — once you have it, no more confusion. Even at the end of life — you reach the big peaceful forever light. Like living so calmly and lovingly — when it's time to go home, you go happily to the best place."
 }
 ]
 }
