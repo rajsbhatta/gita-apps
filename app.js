@@ -10,15 +10,16 @@ class GitaApp {
         this.flavor = localStorage.getItem('flavor') || 'genz';
         this.lastRead = JSON.parse(localStorage.getItem('lastRead')) || null;
         this.pendingPersona = null;
-        this.deferredPrompt = null; // For PWA install
-        this.isInstalled = false; // Track if app is installed
+        this.deferredPrompt = null;
+        this.isInstalled = false;
+        this.isDailyVerse = false; // Track if viewing daily verse
     }
 
     async init() {
         await this.initDB();
         await this.loadChapters();
         this.setupEventListeners();
-        this.setupInstallPrompt(); // PWA install setup
+        this.setupInstallPrompt();
         this.applyTheme();
         await this.showDailyShloka();
         this.showLastRead();
@@ -113,9 +114,11 @@ class GitaApp {
                 btn.classList.add('expanded');
                 
                 setTimeout(() => {
-                    if (action === 'chapters') this.showChapters();
+                    if (action === 'introduction') this.showIntroduction();
+                    else if (action === 'chapters') this.showChapters();
                     else if (action === 'bookmarks') this.showBookmarks();
                     else if (action === 'search') this.showSearch();
+                    else if (action === 'about') this.showAbout();
                     
                     btn.classList.remove('expanded');
                 }, 300);
@@ -132,25 +135,19 @@ class GitaApp {
 
     // PWA Install Functionality
     setupInstallPrompt() {
-        // Check if already installed
         if (window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone === true) {
             this.isInstalled = true;
             this.hideInstallButton();
             return;
         }
 
-        // Listen for beforeinstallprompt event
         window.addEventListener('beforeinstallprompt', (e) => {
             console.log('beforeinstallprompt fired');
-            // Prevent the default browser install prompt
             e.preventDefault();
-            // Store the event for later use
             this.deferredPrompt = e;
-            // Show our custom install button
             this.showInstallButton();
         });
 
-        // Listen for app installed event
         window.addEventListener('appinstalled', () => {
             console.log('PWA installed successfully');
             this.isInstalled = true;
@@ -159,9 +156,7 @@ class GitaApp {
             this.showToast('✅ App installed successfully!');
         });
 
-        // For iOS - check if already installed
         if (this.isIOSDevice() && !this.isInstalled) {
-            // On iOS, we can't auto-detect install, so show instructions
             this.showIOSInstallHint();
         }
     }
@@ -170,7 +165,6 @@ class GitaApp {
         if (!this.deferredPrompt) {
             console.log('Install prompt not available');
             
-            // Check if it's iOS
             if (this.isIOSDevice()) {
                 this.showIOSInstallInstructions();
             } else {
@@ -179,10 +173,8 @@ class GitaApp {
             return;
         }
 
-        // Show the install prompt
         this.deferredPrompt.prompt();
 
-        // Wait for user response
         const { outcome } = await this.deferredPrompt.userChoice;
         console.log(`User response: ${outcome}`);
 
@@ -194,7 +186,6 @@ class GitaApp {
             this.showToast('Installation cancelled');
         }
 
-        // Clear the prompt
         this.deferredPrompt = null;
     }
 
@@ -202,13 +193,11 @@ class GitaApp {
         const installBtn = document.getElementById('installBtn');
         if (installBtn) {
             installBtn.style.display = 'flex';
-            // Animate in
             setTimeout(() => {
                 installBtn.style.animation = 'bounceIn 0.5s';
             }, 100);
         }
         
-        // Also show banner on home page (optional)
         const banner = document.getElementById('installBanner');
         if (banner && this.currentView === 'home') {
             banner.style.display = 'block';
@@ -232,7 +221,6 @@ class GitaApp {
     }
 
     showIOSInstallHint() {
-        // Only show hint if not already installed
         if (!window.navigator.standalone) {
             const installBtn = document.getElementById('installBtn');
             if (installBtn) {
@@ -257,7 +245,6 @@ class GitaApp {
         
         document.getElementById('personaModal').classList.add('show');
         
-        // Change confirm button to "Got it"
         const confirmBtn = document.querySelector('.btn-primary');
         const originalOnClick = confirmBtn.onclick;
         confirmBtn.textContent = 'Got it!';
@@ -289,19 +276,16 @@ class GitaApp {
 
     async loadChapters() {
         try {
-            // Try to get from IndexedDB first
             const cachedChapters = await this.getFromDB('metadata', 'chapters');
             if (cachedChapters) {
                 this.chapters = cachedChapters.data;
                 return;
             }
 
-            // Fetch from network
             const response = await fetch('data/chapters.json');
             const data = await response.json();
             this.chapters = data;
 
-            // Cache in IndexedDB
             await this.saveToDB('metadata', { id: 'chapters', data: data });
         } catch (error) {
             console.error('Error loading chapters:', error);
@@ -310,17 +294,14 @@ class GitaApp {
 
     async loadChapter(chapterNum) {
         try {
-            // Try IndexedDB first
             const cached = await this.getFromDB('chapters', chapterNum);
             if (cached) return cached;
 
-            // Fetch from network
             const response = await fetch(`data/chapters/chapter-${chapterNum}.json`);
             if (!response.ok) return null;
             
             const chapter = await response.json();
 
-            // Cache it
             await this.saveToDB('chapters', chapter);
             return chapter;
         } catch (error) {
@@ -362,6 +343,58 @@ class GitaApp {
 
     goHome() {
         this.showView('home');
+    }
+
+    // Introduction Page
+    async showIntroduction() {
+        this.showView('introduction');
+        const container = document.getElementById('introductionContent');
+        container.innerHTML = '<div class="loading">Loading introduction...</div>';
+
+        try {
+            const response = await fetch('data/introduction.json');
+            const data = await response.json();
+
+            container.innerHTML = `
+                <h2 class="content-title">${data.title}</h2>
+                <p class="content-subtitle">${data.subtitle}</p>
+                ${data.sections.map(section => `
+                    <div class="content-section">
+                        <h3>${section.heading}</h3>
+                        <p>${section.content}</p>
+                    </div>
+                `).join('')}
+            `;
+        } catch (error) {
+            console.error('Error loading introduction:', error);
+            container.innerHTML = '<p class="error-message">Unable to load introduction. Please try again.</p>';
+        }
+    }
+
+    // About Page
+    async showAbout() {
+        this.showView('about');
+        const container = document.getElementById('aboutContent');
+        container.innerHTML = '<div class="loading">Loading about...</div>';
+
+        try {
+            const response = await fetch('data/about.json');
+            const data = await response.json();
+
+            container.innerHTML = `
+                <h2 class="content-title">${data.title}</h2>
+                <p class="content-subtitle">${data.subtitle}</p>
+                ${data.sections.map(section => `
+                    <div class="content-section">
+                        <h3>${section.heading}</h3>
+                        <p>${section.content}</p>
+                    </div>
+                `).join('')}
+            `;
+        } catch (error) {
+            console.error('Error loading about:', error);
+            container.innerHTML = '<p class="error-message">Unable to load about. Please try again.</p>';
+        }
     }
 
     // Persona Management
@@ -434,9 +467,8 @@ class GitaApp {
         this.showToast(`✅ Switched to ${names[this.flavor]} style`);
         this.closePersonaModal();
 
-        // Refresh current verse if viewing one
         if (this.currentShloka) {
-            this.showShloka(this.currentShloka.chapter, this.currentShloka.verse);
+            this.showShloka(this.currentShloka.chapter, this.currentShloka.verse, this.isDailyVerse);
         }
     }
 
@@ -465,7 +497,7 @@ class GitaApp {
         return titles[this.flavor] || '📱 Modern Explanation';
     }
 
-    // Daily Shloka - Simplified to show only Sanskrit
+    // Daily Shloka - Shows only Sanskrit, clicking opens full verse
     async showDailyShloka() {
         const container = document.getElementById('dailyShloka');
         
@@ -489,12 +521,11 @@ class GitaApp {
                 return;
             }
             
-            // Store for later reference
             this.dailyShlokaInfo = { chapter: chapterNum, verse: verseNum };
             
-            // Show only Sanskrit text - clickable
+            // Show only Sanskrit - clickable (pass true for isDailyVerse)
             container.innerHTML = `
-                <div class="daily-shloka-content" onclick="app.showShloka(${chapterNum}, ${verseNum})">
+                <div class="daily-shloka-content" onclick="app.showShloka(${chapterNum}, ${verseNum}, true)">
                     <div class="verse-reference">Chapter ${chapterNum}, Verse ${verseNum}</div>
                     <div class="sanskrit-text">${shloka.sanskrit}</div>
                     <div class="tap-hint">Tap to read full verse →</div>
@@ -520,7 +551,7 @@ class GitaApp {
         const container = document.getElementById('lastReadCard');
         
         container.innerHTML = `
-            <div class="last-read-content" onclick="app.showShloka(${chapter}, ${verse})">
+            <div class="last-read-content" onclick="app.showShloka(${chapter}, ${verse}, false)">
                 <div class="last-read-icon">📖</div>
                 <div class="last-read-info">
                     <div class="last-read-title">${chapterTitle}</div>
@@ -576,7 +607,7 @@ class GitaApp {
             </div>
             <div class="verses-list">
                 ${chapter.shlokas.map(shloka => `
-                    <div class="verse-item" onclick="app.showShloka(${chapter.number}, ${shloka.verse})">
+                    <div class="verse-item" onclick="app.showShloka(${chapter.number}, ${shloka.verse}, false)">
                         <div class="verse-num">Verse ${shloka.verse}</div>
                         <div class="verse-preview">${shloka.sanskrit.substring(0, 100)}...</div>
                     </div>
@@ -585,7 +616,8 @@ class GitaApp {
         `;
     }
 
-    async showShloka(chapterNum, verseNum) {
+    // Updated showShloka with isDailyVerse parameter
+    async showShloka(chapterNum, verseNum, isDailyVerse = false) {
         this.showView('shloka');
         const container = document.getElementById('shlokaDetail');
         container.innerHTML = '<div class="loading">Loading verse...</div>';
@@ -603,17 +635,37 @@ class GitaApp {
         }
 
         this.currentShloka = { chapter: chapterNum, verse: verseNum };
+        this.isDailyVerse = isDailyVerse;
         
-        // Save as last read
-        this.saveLastRead(chapterNum, verseNum, chapter.title);
+        // Only save as last read if NOT daily verse
+        if (!isDailyVerse) {
+            this.saveLastRead(chapterNum, verseNum, chapter.title);
+        }
 
         const isBookmarked = this.isBookmarked(chapterNum, verseNum);
+
+        // Navigation buttons only if NOT daily verse
+        const navigationButtons = !isDailyVerse ? `
+            <div style="margin-top: 1.5rem; display: flex; gap: 1rem; justify-content: space-between;">
+                ${verseNum > 1 ? `
+                    <button class="nav-btn prev-btn" onclick="app.previousVerse()">
+                        ← Previous Verse
+                    </button>
+                ` : '<div></div>'}
+                
+                ${verseNum < chapter.shlokas.length ? `
+                    <button class="nav-btn next-btn" onclick="app.nextVerse()">
+                        Next Verse →
+                    </button>
+                ` : '<div></div>'}
+            </div>
+        ` : '';
 
         container.innerHTML = `
             <div class="shloka-content">
                 <div class="shloka-header">
                     <h2>Chapter ${chapterNum}: ${chapter.title}</h2>
-                    <p class="verse-number">Verse ${verseNum}</p>
+                    <p class="verse-number">Verse ${verseNum}${isDailyVerse ? ' - Today\'s Verse' : ''}</p>
                 </div>
 
                 <div class="sanskrit-section">
@@ -652,40 +704,29 @@ class GitaApp {
                     </button>
                 </div>
 
-                <!-- Navigation Buttons -->
-                <div style="margin-top: 1.5rem; display: flex; gap: 1rem; justify-content: space-between;">
-                    ${verseNum > 1 ? `
-                        <button class="nav-btn prev-btn" onclick="app.previousVerse()">
-                            ← Previous Verse
-                        </button>
-                    ` : '<div></div>'}
-                    
-                    ${verseNum < chapter.shlokas.length ? `
-                        <button class="nav-btn next-btn" onclick="app.nextVerse()">
-                            Next Verse →
-                        </button>
-                    ` : '<div></div>'}
-                </div>
+                ${navigationButtons}
             </div>
         `;
     }
 
     previousVerse() {
-        if (!this.currentShloka) return;
+        if (!this.currentShloka || this.isDailyVerse) return;
         const { chapter, verse } = this.currentShloka;
         if (verse > 1) {
-            this.showShloka(chapter, verse - 1);
+            this.showShloka(chapter, verse - 1, false);
         }
     }
 
     nextVerse() {
-        if (!this.currentShloka) return;
+        if (!this.currentShloka || this.isDailyVerse) return;
         const { chapter, verse } = this.currentShloka;
-        this.showShloka(chapter, verse + 1);
+        this.showShloka(chapter, verse + 1, false);
     }
 
     goBackFromShloka() {
-        if (this.currentChapter) {
+        if (this.isDailyVerse) {
+            this.goHome();
+        } else if (this.currentChapter) {
             this.showChapterDetail(this.currentChapter.number);
         } else {
             this.goHome();
@@ -711,9 +752,8 @@ class GitaApp {
         
         localStorage.setItem('bookmarks', JSON.stringify(bookmarks));
         
-        // Refresh current view
         if (this.currentShloka) {
-            this.showShloka(chapterNum, verseNum);
+            this.showShloka(chapterNum, verseNum, this.isDailyVerse);
         }
     }
 
@@ -748,7 +788,7 @@ class GitaApp {
             if (!shloka) return '';
             
             return `
-                <div class="bookmark-item" onclick="app.showShloka(${bm.chapter}, ${bm.verse})">
+                <div class="bookmark-item" onclick="app.showShloka(${bm.chapter}, ${bm.verse}, false)">
                     <div class="bookmark-header">
                         <span class="bookmark-ref">Chapter ${bm.chapter}, Verse ${bm.verse}</span>
                         <button class="remove-bookmark" onclick="event.stopPropagation(); app.toggleBookmark(${bm.chapter}, ${bm.verse}); app.showBookmarks();">×</button>
@@ -822,7 +862,7 @@ class GitaApp {
         }
 
         resultsContainer.innerHTML = results.map(r => `
-            <div class="search-result-item" onclick="app.showShloka(${r.chapter}, ${r.verse})">
+            <div class="search-result-item" onclick="app.showShloka(${r.chapter}, ${r.verse}, false)">
                 <div class="result-ref">Chapter ${r.chapter}: ${r.chapterTitle} - Verse ${r.verse}</div>
                 <div class="result-preview">${r.text.substring(0, 100)}...</div>
             </div>
