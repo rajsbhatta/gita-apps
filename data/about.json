@@ -8,7 +8,7 @@
     },
     {
       "heading": "Three Generation Flavors",
-      "content": "Understanding that different age groups have different life experiences, communication styles, and frames of reference, we offer three distinct explanation styles: Millennial (ages 28-43) with professional and career-focused examples, Gen Z (ages 12-27) with casual language and social media awareness, and Gen Alpha (ages 5-14) with simple explanations using gaming and school analogies. Each style maintains the integrity of the original teachings while making them relatable."
+      "content": "Understanding that different age groups have different life experiences, communication styles, and frames of reference, we offer three distinct explanation styles: Adults (ages 30+) with professional and career-focused examples, Youths (ages 15-30) with casual language and social media awareness, and Kids (ages 5-15) with simple explanations using gaming and school analogies. Each style maintains the integrity of the original teachings while making them relatable."
     },
     {
       "heading": "Features",
@@ -28,15 +28,15 @@
     },
     {
       "heading": "Development",
-      "content": "This application was developed by Saurabh Bhattacharjee with the goal of bridging ancient wisdom and modern technology. It represents countless hours of research, development, and testing to create an experience that honors the sacred text while making it accessible to contemporary readers."
+      "content": "This application was developed with the goal of bridging ancient wisdom and modern technology. It represents countless hours of research, development, and testing to create an experience that honors the sacred text while making it accessible to contemporary readers."
     },
     {
       "heading": "Feedback & Contact",
-      "content": "We continuously work to improve this app and welcome your feedback. If you encounter any issues, have suggestions for improvements, or would like to contribute translations or explanations, please reach out through the GitHub repository. Your input helps make this resource better for everyone."
+      "content": "We continuously work to improve this app and welcome your feedback. If you encounter any issues, have suggestions for improvements, or would like to contribute translations or explanations, please reach out through the GitHub repository or send a mail to Saurabh.appilyyours@gmail.com. Your input helps make this resource better for everyone."
     },
     {
       "heading": "Acknowledgments",
-      "content": "This app stands on the shoulders of countless scholars, translators, and spiritual teachers who have preserved and transmitted the wisdom of the Bhagavad Gita through the ages. We are grateful to all those who have made this ancient text accessible to modern readers, and we hope this app continues that noble tradition."
+      "content": "Around 90% of the explanation is created using xAI's Grok and it stands on the shoulders of countless scholars, translators, and spiritual teachers who have preserved and transmitted the wisdom of the Bhagavad Gita through the ages. We are grateful to all those who have made this ancient text accessible to modern readers, and we hope this app continues that noble tradition."
     }
   ]
 }
