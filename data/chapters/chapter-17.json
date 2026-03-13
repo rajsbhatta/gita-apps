@@ -5,194 +5,257 @@
   "verses": 28,
   "introduction": "Chapter 17 of the Bhagavad Gita, Śraddhātraya-vibhāga-yoga (The Yoga of the Division of the Three Kinds of Faith), is one of the most psychologically penetrating and immediately applicable chapters in the entire scripture. After describing the divine and demonic natures (Ch. 16), Arjuna now asks a very practical follow-up: people who disregard scripture yet worship with great faith — which guna (mode of nature) governs their faith, sacrifice, food, austerity, and charity? Krishna answers by classifying every aspect of human life — faith, food, sacrifice, austerity, charity, even the syllable OM — according to the three gunas. For modern readers — especially those navigating wellness culture, spiritual-but-not-religious trends, diet fads, performative activism, self-optimization routines, and the question 'is my practice actually helping or just feeding ego?' — this chapter feels like a brutally honest audit tool. Krishna explains why two people can do the 'same' yoga/meditation/veganism/charity and get opposite results: one purifies and elevates (sattvic), one binds and degrades (rajasic or tamasic). The essence remains perfectly preserved: faith is never neutral — it is always colored by one of the three gunas; true spiritual progress depends not just on what you do, but on the quality (sattva-dominant) of the inner attitude and intention behind it; the highest practice is offered to the Supreme Person with the syllable OM and full surrender.",
   "shlokas": [
-    {
-      "verse": 1,
-      "sanskrit": "अर्जुन उवाच |\nये शास्त्रविधिमुत्सृज्य यजन्ते श्रद्धयान्विताः |\nतेषां निष्ठा तु का कृष्ण सत्त्वमाहो रजस्तमः ||",
-      "transliteration": "arjuna uvāca\nye śāstra-vidhim utsṛjya yajante śraddhayānvitāḥ\nteṣāṁ niṣṭhā tu kā kṛṣṇa sattvam āho rajas tamaḥ",
-      "translation": "Arjuna said: O Krishna, what is the situation of those who do not follow the principles of scripture but worship according to their imaginations? Are they in the mode of goodness, passion or ignorance?",
-      "modern": "Arjuna asks the most relevant question for our time: people who ignore scripture yet worship with strong faith — which guna rules their faith? In 2026 life this covers almost everyone — 'spiritual but not religious', self-made rituals, manifestation culture, eclectic new-age practices, intense but unscriptural sadhana. Arjuna is not judging — he wants clarity: does sincerity alone suffice, or does the quality (guna) of faith matter? Krishna’s answer will be precise and uncompromising."
-    },
-    {
-      "verse": 2,
-      "sanskrit": "श्रीभगवानुवाच |\nत्रिविधा भवति श्रद्धा देहिनां सा स्वभावजा |\nसात्त्विकी राजसी चैव तामसी चेति तां शृणु ||",
-      "transliteration": "śrī-bhagavān uvāca\ntri-vidhā bhavati śraddhā dehināṁ sā svabhāva-jā\nsāttvikī rājasī caiva tāmasī ceti tāṁ śṛṇu",
-      "translation": "The Supreme Personality of Godhead said: According to the modes of nature acquired by the embodied soul, there are three kinds of faith — in goodness, passion and ignorance. Now hear about these.",
-      "modern": "Krishna answers directly: faith is threefold — sattvic, rajasic, tamasic — born of one’s acquired nature (svabhāva). In practice: no one’s faith is 'neutral' or 'purely personal' — it is always conditioned by the dominant guna. This verse is foundational — faith is not exempt from the gunas; it is shaped by them. Krishna is about to classify every visible aspect of spiritual life by these three lenses."
-    },
-    {
-      "verse": 3,
-      "sanskrit": "सत्त्वानुरूपा सर्वस्य श्रद्धा भवति भारत |\nश्रद्धामयोऽयं पुरुषो यो यच्छ्रद्धः स एव सः ||",
-      "transliteration": "sattvānurūpā sarvasya śraddhā bhavati bhārata\nśraddhā-mayo ’yaṁ puruṣo yo yac-chraddhaḥ sa eva saḥ",
-      "translation": "O son of Bharata, the faith of each is in accordance with his own nature. A man consists of his faith; as a man’s faith is, so is he.",
-      "modern": "Everyone’s faith matches their inner constitution (sattva). A person is made of his faith — as is his faith, so he becomes. This is one of the most quoted and consequential verses in the Gita. In 2026 terms: you literally become what you deeply trust and invest belief in. Faith is not abstract — it is identity-forming. Krishna is saying: look at what you have faith in (God, money, status, self, nothing) — that is shaping who you are becoming. This verse is both diagnostic and cautionary — choose the object of faith wisely."
-    },
-    {
-      "verse": 4,
-      "sanskrit": "यजन्ते सात्त्विका देवान् यक्षरक्षांसि राजसाः |\nप्रेतान्भूतगणांश्चान्ये यजन्ते तामसा जनाः ||",
-      "transliteration": "yajante sāttvikā devān yakṣa-rakṣāṁsi rājasāḥ\npretān bhūta-gaṇāṁś cānye yajante tāmasā janāḥ",
-      "translation": "Men in the mode of goodness worship the demigods; those in the mode of passion worship demons; those in the mode of ignorance worship ghosts and spirits.",
-      "modern": "Sattvic people worship devas (higher divine beings); rajasic worship yakshas/rakshasas (power-seeking entities); tamasic worship pretas/bhutas (ghosts/spirits). Krishna classifies worship by guna. In 2026 terms: sattvic faith seeks wisdom/harmony (higher deities); rajasic seeks power/control (lower astral forces); tamasic seeks occult/ancestral/lower entities. This verse explains why different spiritual practices attract different results — the object of worship matches the practitioner’s guna."
-    },
-    {
-      "verse": 5,
-      "sanskrit": "अशास्त्रविहितं घोरं तप्यन्ते ये तपो जनाः |\nदम्भाहङ्कारसंयुक्ताः कामरागबलान्विताः ||",
-      "transliteration": "aśāstra-vihitaṁ ghoraṁ tapyante ye tapo janāḥ\ndambhāhaṅkāra-saṁyuktāḥ kāma-rāga-balānvitāḥ",
-      "translation": "Those who undergo severe austerities and penances not mentioned in the scriptures, impelled by pride, egoism, lust and attachment to sense gratification —",
-      "modern": "People who perform extreme, unscriptural austerities driven by hypocrisy, ego, desire and passion. Krishna begins classifying austerity (tapas) by guna — first the tamasic/rajasic misuse. In practice: crash diets, punishing workouts, forced celibacy for show, extreme fasting for ego — these are not divine. Krishna is warning against spiritual bypassing and self-torture disguised as sadhana."
-    },
-    {
-      "verse": 6,
-      "sanskrit": "कर्शयन्तः शरीरस्थं भूतग्राममचेतसः |\nमां चैवान्तःशरीरस्थं तान्विद्ध्यासुरनिश्चयान् ||",
-      "transliteration": "karṣayantaḥ śarīra-sthaṁ bhūta-grāmam acetasaḥ\nmāṁ caivāntaḥ-śarīra-sthaṁ tān viddhy āsura-niścayān",
-      "translation": "Ignorant persons torment the material elements of the body and the Supersoul dwelling within. Such people are demonic in their resolve.",
-      "modern": "They torture the body’s elements and Me (the Supersoul within) — know them to be of demonic determination. This is Krishna’s strong verdict on misguided austerity. In practice: extreme self-denial that harms the body also harms the indwelling Divine. Krishna is saying: torturing yourself is torturing Me. This verse protects against masochistic spirituality — real tapas nourishes, not destroys."
-    },
-    {
-      "verse": 7,
-      "sanskrit": "आहारस्त्वपि सर्वस्य त्रिविधो भवति प्रियः |\nयज्ञस्तपस्तथा दानं तेषां भेदमिमं शृणु ||",
-      "transliteration": "āhāras tv api sarvasya tri-vidho bhavati priyaḥ\nyajñas tapas tathā dānaṁ teṣāṁ bhedam imaṁ śṛṇu",
-      "translation": "Even food is dear to everyone in three ways according to the three modes. The same is true of sacrifices, austerities and charity. Now hear of the distinctions between them.",
-      "modern": "Food, sacrifice, austerity, charity — each is of three kinds according to the gunas. Krishna is about to classify everyday life by guna. In 2026 life: this is the ultimate audit tool — what you eat, how you worship, what you give up, how you donate — all reveal your inner constitution. Krishna is saying: nothing is neutral; everything you do is colored by sattva, rajas or tamas."
-    },
-    {
-      "verse": 8,
-      "sanskrit": "आयुःसत्त्वबलारोग्यसुखप्रीतिविवर्धनाः |\nरस्याः स्निग्धाः स्थिरा हृद्या आहाराः सात्त्विकाः प्रियाः ||",
-      "transliteration": "āyuḥ-sattva-balārogya-sukha-prīti-vivardhanāḥ\nrasyāḥ snigdhāḥ sthirā hṛdyā āhārāḥ sāttvikāḥ priyāḥ",
-      "translation": "Foods dear to those in the mode of goodness increase life, purify one’s existence, give strength, health, happiness and satisfaction. Such foods are juicy, wholesome, stable and pleasing to the heart.",
-      "modern": "Sattvic foods: promote longevity, clarity, strength, health, joy, love; juicy, nourishing, steady, heart-pleasing (fresh fruits/vegetables, milk, grains, nuts, mild spices). In practice: sattvic diet = vitality + mental clarity. Krishna is giving the dietary signature of goodness — food that enlivens rather than agitates or dulls."
-    },
-    {
-      "verse": 9,
-      "sanskrit": "कट्वम्ललवणात्युष्णतीक्ष्णरूक्षविदाहिनः |\nआहारा राजसस्येष्टा दुःखशोकामयप्रदाः ||",
-      "transliteration": "kaṭv-amla-lavaṇāty-uṣṇa-tīkṣṇa-rūkṣa-vidāhinaḥ\nāhārā rājasasy eṣṭā duḥkha-śokāmaya-pradāḥ",
-      "translation": "Foods that are too bitter, too sour, salty, very hot, pungent, dry and burning are dear to those in the mode of passion. Such foods cause pain, distress and disease.",
-      "modern": "Rajasic foods: overly spicy, sour, salty, hot, dry, burning — cause pain, grief, disease. In 2026 terms: fast food, excessive chili/coffee/caffeine, fried/salty snacks — stimulate then crash. Krishna links rajasic diet to agitation and eventual suffering."
-    },
-    {
-      "verse": 10,
-      "sanskrit": "यातयामं गतरसं पूति पर्युषितं च यत् |\nउच्छिष्टं अपि चामेध्यं भोजनं तामसप्रियम् ||",
-      "transliteration": "yāta-yāmaṁ gata-rasaṁ pūti paryuṣitaṁ ca yat\nucchiṣṭam api cāmedhyaṁ bhojanaṁ tāmasa-priyam",
-      "translation": "Food prepared more than three hours before being eaten, tasteless, decomposed, putrid, leftover and unclean is dear to those in the mode of ignorance.",
-      "modern": "Tamasic food: stale, tasteless, rotten, leftover, impure. In practice: old food, heavily processed junk, meat (in many interpretations), anything that dulls the mind. Krishna links tamasic diet to inertia and darkness. This verse is dietary hygiene guidance — fresh, vital food supports sattva."
-    },
-    {
-      "verse": 11,
-      "sanskrit": "अफलाकाङ्क्षिभिर्यज्ञैर्विधिदृष्टो य इज्यते |\nयष्टव्यमेवेति मनः समाधाय स सात्त्विकः ||",
-      "transliteration": "aphalākāṅkṣibhir yajñair vidhi-dṛṣṭo ya ijyate\nyaṣṭavyam eveti manaḥ samādhāya sa sāttvikaḥ",
-      "translation": "Of sacrifices, that sacrifice which is offered according to the directions of scripture, as a matter of duty, for the sake of the Supreme, by those without desire for fruitive results — that is in the mode of goodness.",
-      "modern": "Sattvic sacrifice: scriptural, dutiful, offered to the Supreme, without desire for reward. In practice: worship done as dharma, not for personal gain — pure offering. Krishna classifies spiritual practice by intention — even the same ritual can be sattvic or otherwise depending on motive."
-    },
-    {
-      "verse": 12,
-      "sanskrit": "अभिसंधाय तु फलं दम्भार्थमपि चैव यत् |\nइज्यते भरतश्रेष्ठ तं यज्ञं विद्धि राजसम् ||",
-      "transliteration": "abhisaṁdhāya tu phalaṁ dambhārtham api caiva yat\nijyate bharata-śreṣṭha taṁ yajñaṁ viddhi rājasam",
-      "translation": "But that sacrifice performed with the hope of some material benefit, or for the sake of prestige — know that to be in the mode of passion, O chief of the Bharatas.",
-      "modern": "Rajasic sacrifice: performed for reward or show. In practice: pujas, donations, rituals done for status, results, or social approval — binding. Krishna is exposing performative spirituality — motive reveals guna."
-    },
-    {
-      "verse": 13,
-      "sanskrit": "विधिहीनमसृष्टान्नं मन्त्रहीनमदक्षिणम् |\nश्रद्धाविरहितं यज्ञं तामसं परिचक्षते ||",
-      "transliteration": "vidhi-hīnam asṛṣṭānnaṁ mantra-hīnam adakṣiṇam\nśraddhā-virahitaṁ yajñaṁ tāmasaṁ paricakṣate",
-      "translation": "Any sacrifice performed without scriptural direction, without distribution of prasadam, without chanting of Vedic hymns, without offerings to the priest, and without faith — is considered to be in the mode of ignorance.",
-      "modern": "Tamasic sacrifice: without rule, no food distributed, no mantras, no dakshina, no faith. In practice: mechanical/ignorant rituals, empty ceremonies, faithless worship. Krishna is warning against soulless spirituality — when practice lacks heart and method, it is tamasic."
-    },
-    {
-      "verse": 14,
-      "sanskrit": "देवद्विजगुरुप्राज्ञपूजनं शौचमार्जवम् |\nब्रह्मचर्यमहिंसा च शारीरं तप उच्यते ||",
-      "transliteration": "deva-dvija-guru-prājña-pūjanaṁ śaucam ārjavam\nbrahmacaryam ahiṁsā ca śārīraṁ tapa ucyate",
-      "translation": "Austerity of the body consists of worship of the Supreme Lord, the brahmanas, the spiritual master, and superiors like the father and mother, cleanliness, simplicity, celibacy and nonviolence.",
-      "modern": "Physical tapas: worship of God, brahmanas, guru, elders; purity, simplicity, celibacy (moderation), nonviolence. In practice: reverence, cleanliness, humility, sense restraint, harmlessness — these are sattvic bodily austerities. Krishna classifies tapas by guna — this is the pure form."
-    },
-    {
-      "verse": 15,
-      "sanskrit": "अनुद्वेगकरं वाक्यं सत्यं प्रियहितं च यत् |\nस्वाध्यायाभ्यसनं चैव वाङ्मयं तप उच्यते ||",
-      "transliteration": "anudvega-karaṁ vākyaṁ satyaṁ priya-hitaṁ ca yat\nsvādhyāyābhyasanaṁ caiva vāṅmayaṁ tapa ucyate",
-      "translation": "Austerity of speech consists in speaking words that are truthful, pleasing, beneficial, and not agitating to others, and also in regularly reciting Vedic literature.",
-      "modern": "Verbal tapas: speech that is true, pleasing, beneficial, non-disturbing; regular scriptural study. In practice: honest, kind, useful words + daily wisdom reading. Krishna is giving speech hygiene — sattvic communication heals and elevates. This verse is a guide for modern discourse — avoid agitation, speak truth with love."
-    },
-    {
-      "verse": 16,
-      "sanskrit": "मनःप्रसादः सौम्यत्वं मौनमात्मविनिग्रहः |\nभावसंशुद्धिरिति तत् तपो मानसमुच्यते ||",
-      "transliteration": "manaḥ-prasādaḥ saumyatvaṁ maunam ātma-vinigrahaḥ\nbhāva-saṁśuddhir iti tat tapo mānasam ucyate",
-      "translation": "Austerity of the mind consists of satisfaction, simplicity, gravity, self-control and purification of one’s consciousness.",
-      "modern": "Mental tapas: mental cheerfulness, gentleness, silence (inner/outer), self-control, purity of feeling. In practice: calm mind, soft disposition, thoughtful restraint, emotional purity. Krishna is describing sattvic mental discipline — inner peace and clarity. This verse is mental health guidance — cultivate these for a pure mind."
-    },
-    {
-      "verse": 17,
-      "sanskrit": "श्रद्धया परया तप्तं तपस्तत्त्रिविधं नरैः |\nअफलाकाङ्क्षिभिर्युक्तैः सात्त्विकं परिचक्षते ||",
-      "transliteration": "śraddhayā parayā taptaṁ tapas tat tri-vidhaṁ naraiḥ\naphalākāṅkṣibhir yuktaiḥ sāttvikaṁ paricakṣate",
-      "translation": "When men of austere vows perform these three kinds of austerity with faith, without desiring fruitive results, such austerity is called in the mode of goodness.",
-      "modern": "Austerity done with supreme faith, without expecting reward — that is sattvic. Krishna classifies tapas by intention. In practice: discipline offered to the Divine, not for ego-boost or results — pure. This verse emphasizes motive — even the same practice can be sattvic or otherwise depending on why it is done."
-    },
-    {
-      "verse": 18,
-      "sanskrit": "सत्कारमानपुरस्कारं तपो दम्भेन चैव यत् |\nक्रियते तदिह प्रोक्तं राजसं चलमध्रुवम् ||",
-      "transliteration": "satkāra-māna-puraṣkāraṁ tapo dambhena caiva yat\nkriyate tad iha proktaṁ rājasaṁ calamadhruvam",
-      "translation": "Austerity performed out of pride and for the sake of gaining respect, honor and worship is said to be in the mode of passion. It is impermanent and unsteady.",
-      "modern": "Rajasic tapas: done for show, respect, fame — unstable and temporary. In practice: extreme practices for social media likes, guru status, admiration — binding. Krishna exposes performative austerity — it may look impressive but lacks depth and endurance."
-    },
-    {
-      "verse": 19,
-      "sanskrit": "मूढग्राहेणात्मनो यत्पीडया क्रियते तपः |\nपरस्योत्सादनार्थं वा तत्तामसमुदाहृतम् ||",
-      "transliteration": "mūḍha-grāheṇātmano yat pīḍayā kriyate tapaḥ\nparasya utsādanārthaṁ vā tat tāmasam udāhṛtam",
-      "translation": "Austerity performed out of foolishness, with self-torture or for the purpose of harming others, is said to be in the mode of ignorance.",
-      "modern": "Tamasic tapas: foolish self-harm or harming others. In practice: punishing asceticism, extreme diets for ego, black magic, curses — destructive. Krishna condemns self-torture and harmful practices — they are tamasic and demonic. This verse protects against misguided spirituality."
-    },
-    {
-      "verse": 20,
-      "sanskrit": "दातव्यमिति यद्दानं दीयतेऽनुपकारिणे |\nदेशे काले च पात्रे च तद्दानं सात्त्विकं स्मृतम् ||",
-      "transliteration": "dātavyam iti yad dānaṁ dīyate ’nupakāriṇe\ndeśe kāle ca pātre ca tad dānaṁ sāttvikam smṛtam",
-      "translation": "Charity given out of duty, without expectation of return, at the proper time and place, and to a worthy person — that is considered to be in the mode of goodness.",
-      "modern": "Sattvic charity: given because it should be given, to the deserving, at right time/place, without expecting return. In practice: generous giving without strings, to genuine need. Krishna is describing selfless philanthropy — pure giving. This is the gold standard for dāna."
-    },
-    {
-      "verse": 21,
-      "sanskrit": "यत्तु प्रत्युपकारार्थं फलमुद्दिश्य वा पुनः |\nदीयते च परिक्लिष्टं तद्दानं राजसं स्मृतम् ||",
-      "transliteration": "yat tu pratyupakārārthaṁ phalam uddiśya vā punaḥ\ndīyate ca parikliṣṭaṁ tad dānaṁ rājasam smṛtam",
-      "translation": "But charity performed with the expectation of some return, or with a desire for fruitive results, or given in a begrudging mood — that is said to be in the mode of passion.",
-      "modern": "Rajasic charity: given for return, reward, or grudgingly. In practice: transactional giving, 'I’ll donate if I get recognition', reluctant giving. Krishna exposes conditional generosity — it binds the giver. This verse is a mirror for modern philanthropy — motive matters."
-    },
-    {
-      "verse": 22,
-      "sanskrit": "अदेशकाले यद्दानमपात्रेभ्यश्च दीयते |\nअसत्कृतमवज्ञातं तत्तामसमुदाहृतम् ||",
-      "transliteration": "adeśa-kāle yad dānam apātrebhyaś ca dīyate\nasatkṛtam avajñātaṁ tat tāmasam udāhṛtam",
-      "translation": "And charity performed at an improper time and place, to unworthy persons, without respect and with insult — that is said to be in the mode of ignorance.",
-      "modern": "Tamasic charity: wrong time/place, to undeserving, disrespectfully or insultingly. In practice: throwing money at wrong causes, giving with contempt, careless donation. Krishna is showing how even 'giving' can degrade when done in tamas. This verse warns against mindless or spiteful charity."
-    },
-    {
-      "verse": 23,
-      "sanskrit": "ॐ तत्सदिति निर्देशो ब्रह्मणस्त्रिविधः स्मृतः |\nब्राह्मणास्तेन वेदाश्च यज्ञाश्च विहिताः पुरा ||",
-      "transliteration": "oṁ tat sad iti nirdeśo brahmaṇas tri-vidhaḥ smṛtaḥ\nbrāhmaṇās tena vedāś ca yajñāś ca vihitāḥ purā",
-      "translation": "From the beginning of creation, the three words om tat sat were used to indicate the Supreme Absolute Truth. From them came the priests, the scriptures and sacrifice.",
-      "modern": "OM TAT SAT — the three-fold designation of Brahman from the beginning. From these came brahmanas, Vedas, and sacrifice. Krishna introduces the sacred utterance. In practice: these three syllables sanctify all spiritual acts. This verse sets up the final classification — how OM TAT SAT purifies action according to guna."
-    },
-    {
-      "verse": 24,
-      "sanskrit": "तस्मादोमित्युदाहृत्य यज्ञदानतपःक्रियाः |\nप्रवर्तन्ते विधानोक्ताः सततं ब्रह्मवादिनाम् ||",
-      "transliteration": "tasmād om ity udāhṛtya yajña-dāna-tapaḥ-kriyāḥ\npravartante vidhānoktāḥ satataṁ brahma-vādinām",
-      "translation": "Therefore, all sacrifices, charities and penances are begun with the utterance of om by the transcendentalists who study the Vedas.",
-      "modern": "All Vedic acts — sacrifice, charity, austerity — are started with OM by those who know Brahman. In practice: OM sanctifies and aligns action with the Supreme. Krishna is giving the ritual key — begin with OM to make any practice sattvic."
-    },
-    {
-      "verse": 25,
-      "sanskrit": "तदित्यनभिसंधाय फलं यज्ञतपःक्रियाः |\nदानक्रियाश्च विविधाः क्रियन्ते मोक्षकाङ्क्षिभिः ||",
-      "transliteration": "tad ity anabhisandhāya phalaṁ yajña-tapaḥ-kriyāḥ\ndāna-kriyāś ca vividhāḥ kriyante mokṣa-kāṅkṣibhiḥ",
-      "translation": "With the utterance of tat, without consideration of fruitive results, sacrifices, austerities and various acts of charity are performed by those who desire liberation.",
-      "modern": "With TAT, those seeking liberation perform sacrifice, austerity, charity without attachment to results. In practice: TAT indicates renunciation of fruit — action offered without desire for return. Krishna is showing how the syllable purifies motive — detachment + devotion."
-    },
-    {
-      "verse": 26,
-      "sanskrit": "सद्भावे साधुभावे च सदित्येतत्प्रयुज्यते |\nप्रशस्ते कर्मणि तथा सच्छब्दः पार्थ युज्यते ||",
-      "transliteration": "sad-bhāve sādhu-bhāve ca sad ity etat prayujyate\npraśaste karmaṇi tathā sac-chabdaḥ pārtha yujyate",
-      "translation": "The word sat is used in the sense of existence and goodness, and is also used to describe an auspicious activity, O son of Pritha.",
-      "modern": "SAT means existence, goodness, and is used for praiseworthy actions. In practice: SAT affirms reality, virtue, and auspiciousness. Krishna is explaining the triple power of OM TAT SAT — aligning action with truth, goodness, and the Divine."
-    },
-    {
-      "verse": 27,
-      "sanskrit": "अश्रद्धया हुतं दत्तं तपस्तप्तं कृतं च यत् |\nअसदित्युच्यते पार्थ न च तत्प्रेत्य नो इह ||",
-      "transliteration": "aśraddhayā hutaṁ dattaṁ tapas taptaṁ kṛtaṁ ca yat\nasad ity ucyate pārtha na ca tat pretya no iha",
-      "translation": "Anything sacrificed, given or performed, and any austerity practiced without faith is called asat, O son of Pritha. It is useless both in this life and the next.",
-      "modern": "Any sacrifice, charity, austerity done without faith is called asat — useless here and hereafter. Krishna ends with a strong warning. In practice: faith (śraddhā) is the life-force of any spiritual act — without it, nothing bears fruit. This verse is the chapter’s final diagnostic — sincerity/faith is the ultimate qualifier. Even the best action without heart is empty."
-    }
-  ]
+{
+"verse": 1,
+"sanskrit": "अर्जुन उवाच |\nये शास्त्रविधिमुत्सृज्य यजन्ते श्रद्धयान्विताः |\nतेषां निष्ठा तु का कृष्ण सत्त्वमाहो रजस्तमः ||",
+"transliteration": "arjuna uvāca\nye śāstra-vidhim utsṛjya yajante śraddhayānvitāḥ\nteṣāṁ niṣṭhā tu kā kṛṣṇa sattvam āho rajas tamaḥ",
+"translation": "Arjuna said. O Krishna. What is the situation of those who do not follow the principles of scripture but worship according to their imaginations. Are they in the mode of goodness passion or ignorance.",
+"millennial": "Arjuna asks Krishna a very practical question about people who worship with faith but ignore scriptural rules. He wonders whether such people are governed by the mode of goodness passion or ignorance. This question reflects a common dilemma in spiritual practice today. For example many professionals follow personal rituals or wellness routines without traditional scriptures and wonder if their approach is pure or mixed. Detailed meaning: Arjuna seeks clarity on faith quality. Krishna will classify it by modes. This helps understand that sincerity alone is not enough. The inner quality determines the result. Practice: examine your own spiritual habits to see the underlying mode.",
+"genz": "Arjuna asks Krishna a very practical question about people who worship with faith but ignore scriptural rules. He wonders whether such people are governed by the mode of goodness passion or ignorance. This question reflects a common dilemma in spiritual practice today. For example many young adults follow personal rituals or wellness routines without traditional scriptures and wonder if their approach is pure or mixed. Detailed meaning: Arjuna seeks clarity on faith quality. Krishna will classify it by modes. This helps understand that sincerity alone is not enough. The inner quality determines the result. Practice: examine your own spiritual habits to see the underlying mode.",
+"genalpha": "Arjuna asks Krishna a very practical question about people who worship with faith but ignore scriptural rules. He wonders whether such people are governed by the mode of goodness passion or ignorance. This question reflects a common dilemma in spiritual practice today. For example many children follow personal rituals or play routines without traditional rules and wonder if their approach is pure or mixed. Detailed meaning: Arjuna seeks clarity on faith quality. Krishna will classify it by modes. This helps understand that sincerity alone is not enough. The inner quality determines the result. Practice: examine your own spiritual habits to see the underlying mode."
+},
+{
+"verse": 2,
+"sanskrit": "श्रीभगवानुवाच |\nत्रिविधा भवति श्रद्धा देहिनां सा स्वभावजा |\nसात्त्विकी राजसी चैव तामसी चेति तां शृणु ||",
+"transliteration": "śrī-bhagavān uvāca\ntri-vidhā bhavati śraddhā dehināṁ sā svabhāva-jā\nsāttvikī rājasī caiva tāmasī ceti tāṁ śṛṇu",
+"translation": "The Supreme Personality of Godhead said. According to the modes of nature acquired by the embodied soul there are three kinds of faith in goodness passion and ignorance. Now hear about these.",
+"millennial": "Krishna answers directly. Faith is threefold. Sattvic rajasic and tamasic born of ones acquired nature. In practice no ones faith is neutral or purely personal. It is always conditioned by the dominant mode. This verse is foundational. Faith is not exempt from the modes. It is shaped by them. Krishna is about to classify every visible aspect of spiritual life by these three lenses. For professionals navigating wellness culture or self optimization routines this explains why two people can do the same yoga or charity and get opposite results. One purifies and elevates while the other binds and degrades. Detailed meaning: faith is never neutral. It is always colored by one of the three gunas. True spiritual progress depends not just on what you do but on the quality of the inner attitude and intention behind it. The highest practice is offered to the Supreme Person with the syllable OM and full surrender.",
+"genz": "Krishna answers directly. Faith is threefold. Sattvic rajasic and tamasic born of ones acquired nature. In practice no ones faith is neutral or purely personal. It is always conditioned by the dominant mode. This verse is foundational. Faith is not exempt from the modes. It is shaped by them. Krishna is about to classify every visible aspect of spiritual life by these three lenses. For young adults navigating wellness culture or self optimization routines this explains why two people can do the same yoga or charity and get opposite results. One purifies and elevates while the other binds and degrades. Detailed meaning: faith is never neutral. It is always colored by one of the three gunas. True spiritual progress depends not just on what you do but on the quality of the inner attitude and intention behind it. The highest practice is offered to the Supreme Person with the syllable OM and full surrender.",
+"genalpha": "Krishna answers directly. Faith is threefold. Sattvic rajasic and tamasic born of ones acquired nature. In practice no ones faith is neutral or purely personal. It is always conditioned by the dominant mode. This verse is foundational. Faith is not exempt from the modes. It is shaped by them. Krishna is about to classify every visible aspect of spiritual life by these three lenses. For children navigating play or simple routines this explains why two people can do the same game or sharing and get opposite results. One feels happy and grows while the other feels tired and stuck. Detailed meaning: faith is never neutral. It is always colored by one of the three gunas. True spiritual progress depends not just on what you do but on the quality of the inner attitude and intention behind it. The highest practice is offered to the Supreme Person with the syllable OM and full surrender."
+},
+{
+"verse": 3,
+"sanskrit": "सत्त्वानुरूपा सर्वस्य श्रद्धा भवति भारत |\nश्रद्धामयोऽयं पुरुषो यो यच्छ्रद्धः स एव सः ||",
+"transliteration": "sattvānurūpā sarvasya śraddhā bhavati bhārata\nśraddhā-mayo ’yaṁ puruṣo yo yac-chraddhaḥ sa eva saḥ",
+"translation": "O son of Bharata according to the mode of nature acquired by the embodied soul there are three kinds of faith in goodness passion and ignorance. Now hear about these.",
+"millennial": "Krishna explains that faith is shaped by ones inherent nature. Every person has faith according to the mode that dominates them. The type of faith a person holds reveals their inner constitution. This verse is foundational because it shows that faith is never neutral. It is always colored by sattva rajas or tamas. For professionals navigating wellness culture or self optimization routines this explains why two people can do the same yoga or charity and get opposite results. One purifies and elevates while the other binds and degrades. Detailed meaning: faith is never neutral. It is always colored by one of the three gunas. True spiritual progress depends not just on what you do but on the quality of the inner attitude and intention behind it. The highest practice is offered to the Supreme Person with the syllable OM and full surrender.",
+"genz": "Krishna explains that faith is shaped by ones inherent nature. Every person has faith according to the mode that dominates them. The type of faith a person holds reveals their inner constitution. This verse is foundational because it shows that faith is never neutral. It is always colored by sattva rajas or tamas. For young adults navigating wellness culture or self optimization routines this explains why two people can do the same yoga or charity and get opposite results. One purifies and elevates while the other binds and degrades. Detailed meaning: faith is never neutral. It is always colored by one of the three gunas. True spiritual progress depends not just on what you do but on the quality of the inner attitude and intention behind it. The highest practice is offered to the Supreme Person with the syllable OM and full surrender.",
+"genalpha": "Krishna explains that faith is shaped by ones inherent nature. Every person has faith according to the mode that dominates them. The type of faith a person holds reveals their inner constitution. This verse is foundational because it shows that faith is never neutral. It is always colored by sattva rajas or tamas. For children navigating play or simple routines this explains why two people can do the same game or sharing and get opposite results. One feels happy and grows while the other feels tired and stuck. Detailed meaning: faith is never neutral. It is always colored by one of the three gunas. True spiritual progress depends not just on what you do but on the quality of the inner attitude and intention behind it. The highest practice is offered to the Supreme Person with the syllable OM and full surrender."
+},
+{
+"verse": 4,
+"sanskrit": "यजन्ते सात्त्विका देवान्यक्षरक्षांसि राजसाः ।\nप्रेतान्भूतगणांश्चान्ये यजन्ते तामसा जनाः ॥",
+"transliteration": "yajante sāttvikā devān yakṣa-rakṣāṁsi rājasāḥ\npretān bhūta-gaṇāṁś cānye yajante tāmasā janāḥ",
+"translation": "Men in the mode of goodness worship the demigods. Those in the mode of passion worship the yakshas and rakshasas. Those in the mode of ignorance worship ghosts and spirits.",
+"millennial": "Krishna classifies worship according to the three modes. People in sattva worship the demigods. Those in rajas worship yakshas and rakshasas. Those in tamas worship ghosts and spirits. This verse shows how the quality of faith determines the object of worship. For professionals navigating wellness culture or self optimization routines this explains why two people can do the same yoga or charity and get opposite results. One purifies and elevates while the other binds and degrades. Detailed meaning: faith is never neutral. It is always colored by one of the three gunas. True spiritual progress depends not just on what you do but on the quality of the inner attitude and intention behind it. The highest practice is offered to the Supreme Person with the syllable OM and full surrender.",
+"genz": "Krishna classifies worship according to the three modes. People in sattva worship the demigods. Those in rajas worship yakshas and rakshasas. Those in tamas worship ghosts and spirits. This verse shows how the quality of faith determines the object of worship. For young adults navigating wellness culture or self optimization routines this explains why two people can do the same yoga or charity and get opposite results. One purifies and elevates while the other binds and degrades. Detailed meaning: faith is never neutral. It is always colored by one of the three gunas. True spiritual progress depends not just on what you do but on the quality of the inner attitude and intention behind it. The highest practice is offered to the Supreme Person with the syllable OM and full surrender.",
+"genalpha": "Krishna classifies worship according to the three modes. People in sattva worship the demigods. Those in rajas worship yakshas and rakshasas. Those in tamas worship ghosts and spirits. This verse shows how the quality of faith determines the object of worship. For children navigating play or simple routines this explains why two people can do the same game or sharing and get opposite results. One feels happy and grows while the other feels tired and stuck. Detailed meaning: faith is never neutral. It is always colored by one of the three gunas. True spiritual progress depends not just on what you do but on the quality of the inner attitude and intention behind it. The highest practice is offered to the Supreme Person with the syllable OM and full surrender."
+},
+{
+"verse": 5,
+"sanskrit": "अशास्त्रविहितं घोरं तप्यन्ते ये तपो जनाः ।\nदम्भाहङ्कारसंयुक्ताः कामरागबलान्विताः ॥",
+"transliteration": "aśāstra-vihitaṁ ghoraṁ tapyante ye tapo janāḥ\ndambhāhaṁkāra-saṁyuktāḥ kāma-rāga-balānvitāḥ",
+"translation": "Those who undergo severe austerities and penances not recommended in the scriptures and who are full of pride and attachment to sense gratification perform such acts out of false ego.",
+"millennial": "Krishna describes tamasic austerities. People who perform severe penances not prescribed in scriptures driven by pride and sense attachment act from false ego. This verse shows misguided spirituality. For professionals navigating wellness culture or self optimization routines this explains why two people can do the same yoga or charity and get opposite results. One purifies and elevates while the other binds and degrades. Detailed meaning: faith is never neutral. It is always colored by one of the three gunas. True spiritual progress depends not just on what you do but on the quality of the inner attitude and intention behind it. The highest practice is offered to the Supreme Person with the syllable OM and full surrender.",
+"genz": "Krishna describes tamasic austerities. People who perform severe penances not prescribed in scriptures driven by pride and sense attachment act from false ego. This verse shows misguided spirituality. For young adults navigating wellness culture or self optimization routines this explains why two people can do the same yoga or charity and get opposite results. One purifies and elevates while the other binds and degrades. Detailed meaning: faith is never neutral. It is always colored by one of the three gunas. True spiritual progress depends not just on what you do but on the quality of the inner attitude and intention behind it. The highest practice is offered to the Supreme Person with the syllable OM and full surrender.",
+"genalpha": "Krishna describes tamasic austerities. People who perform severe penances not prescribed in scriptures driven by pride and sense attachment act from false ego. This verse shows misguided spirituality. For children navigating play or simple routines this explains why two people can do the same game or sharing and get opposite results. One feels happy and grows while the other feels tired and stuck. Detailed meaning: faith is never neutral. It is always colored by one of the three gunas. True spiritual progress depends not just on what you do but on the quality of the inner attitude and intention behind it. The highest practice is offered to the Supreme Person with the syllable OM and full surrender."
+},
+{
+"verse": 6,
+"sanskrit": "कर्षयन्तः शरीरस्थं भूतग्राममचेतसः ।\nमां चैवान्तःशरीरस्थं तान्विद्ध्यासुरनिश्चयान् ॥",
+"transliteration": "karṣayantaḥ śarīra-sthaṁ bhūta-grāmam acetasaḥ\nmāṁ caivāntaḥ śarīra-sthaṁ tān viddhy āsura-niścayān",
+"translation": "Those who are demoniac torture their own bodies and the bodies of others. They are envious of the Supreme Personality of Godhead who is situated in their own bodies and in the bodies of others.",
+"millennial": "Krishna describes tamasic practices. People who torture their own bodies and others are envious of the Supreme Personality of Godhead situated in all bodies. This verse shows self harm and cruelty. For professionals navigating wellness culture or self optimization routines this explains why two people can do the same yoga or charity and get opposite results. One purifies and elevates while the other binds and degrades. Detailed meaning: faith is never neutral. It is always colored by one of the three gunas. True spiritual progress depends not just on what you do but on the quality of the inner attitude and intention behind it. The highest practice is offered to the Supreme Person with the syllable OM and full surrender.",
+"genz": "Krishna describes tamasic practices. People who torture their own bodies and others are envious of the Supreme Personality of Godhead situated in all bodies. This verse shows self harm and cruelty. For young adults navigating wellness culture or self optimization routines this explains why two people can do the same yoga or charity and get opposite results. One purifies and elevates while the other binds and degrades. Detailed meaning: faith is never neutral. It is always colored by one of the three gunas. True spiritual progress depends not just on what you do but on the quality of the inner attitude and intention behind it. The highest practice is offered to the Supreme Person with the syllable OM and full surrender.",
+"genalpha": "Krishna describes tamasic practices. People who torture their own bodies and others are envious of the Supreme Personality of Godhead situated in all bodies. This verse shows self harm and cruelty. For children navigating play or simple routines this explains why two people can do the same game or sharing and get opposite results. One feels happy and grows while the other feels tired and stuck. Detailed meaning: faith is never neutral. It is always colored by one of the three gunas. True spiritual progress depends not just on what you do but on the quality of the inner attitude and intention behind it. The highest practice is offered to the Supreme Person with the syllable OM and full surrender."
+},
+{
+"verse": 7,
+"sanskrit": "आहारस्त्वपि सर्वस्य त्रिविधो भवति प्रियः ।\nयज्ञस्तपस्तथा दानं तेषां भेदमिमं शृणु ||",
+"transliteration": "āhāras tv api sarvasya tri-vidho bhavati priyaḥ\nyajñas tapas tathā dānaṁ teṣāṁ bhedam imaṁ śṛṇu",
+"translation": "Even food which is dear to everyone is of three kinds. The same is true of sacrifice austerity and charity. Now hear the distinction between them.",
+"millennial": "Krishna extends the classification to everyday aspects. Even food is of three kinds according to the modes. The same applies to sacrifice austerity and charity. This verse shows that every aspect of life is colored by the modes. For professionals navigating wellness culture or self optimization routines this explains why two people can do the same yoga or charity and get opposite results. One purifies and elevates while the other binds and degrades. Detailed meaning: faith is never neutral. It is always colored by one of the three gunas. True spiritual progress depends not just on what you do but on the quality of the inner attitude and intention behind it. The highest practice is offered to the Supreme Person with the syllable OM and full surrender.",
+"genz": "Krishna extends the classification to everyday aspects. Even food is of three kinds according to the modes. The same applies to sacrifice austerity and charity. This verse shows that every aspect of life is colored by the modes. For young adults navigating wellness culture or self optimization routines this explains why two people can do the same yoga or charity and get opposite results. One purifies and elevates while the other binds and degrades. Detailed meaning: faith is never neutral. It is always colored by one of the three gunas. True spiritual progress depends not just on what you do but on the quality of the inner attitude and intention behind it. The highest practice is offered to the Supreme Person with the syllable OM and full surrender.",
+"genalpha": "Krishna extends the classification to everyday aspects. Even food is of three kinds according to the modes. The same applies to sacrifice austerity and charity. This verse shows that every aspect of life is colored by the modes. For children navigating play or simple routines this explains why two people can do the same game or sharing and get opposite results. One feels happy and grows while the other feels tired and stuck. Detailed meaning: faith is never neutral. It is always colored by one of the three gunas. True spiritual progress depends not just on what you do but on the quality of the inner attitude and intention behind it. The highest practice is offered to the Supreme Person with the syllable OM and full surrender."
+},
+{
+"verse": 8,
+"sanskrit": "आयुःसत्त्वबलारोग्यसुखप्रीतिविवर्धनाः ।\nरस्याः स्निग्धाः स्थिरा हृद्या आहाराः सात्त्विकप्रियाः ॥",
+"transliteration": "āyuḥ-sattva-balārogya-sukha-prīti-vivardhanāḥ\nrasyāḥ snigdhāḥ sthirā hṛdyā āhārāḥ sāttvika-priyāḥ",
+"translation": "Foods that increase life force purity strength health happiness and satisfaction are dear to those in the mode of goodness. They are juicy oily substantial and pleasing to the heart.",
+"millennial": "Krishna classifies food according to the modes. Sattvic food increases life force purity strength health happiness and satisfaction. It is juicy oily substantial and pleasing to the heart. This verse shows how diet affects inner state. For professionals navigating wellness culture or self optimization routines this explains why two people can do the same yoga or charity and get opposite results. One purifies and elevates while the other binds and degrades. Detailed meaning: faith is never neutral. It is always colored by one of the three gunas. True spiritual progress depends not just on what you do but on the quality of the inner attitude and intention behind it. The highest practice is offered to the Supreme Person with the syllable OM and full surrender.",
+"genz": "Krishna classifies food according to the modes. Sattvic food increases life force purity strength health happiness and satisfaction. It is juicy oily substantial and pleasing to the heart. This verse shows how diet affects inner state. For young adults navigating wellness culture or self optimization routines this explains why two people can do the same yoga or charity and get opposite results. One purifies and elevates while the other binds and degrades. Detailed meaning: faith is never neutral. It is always colored by one of the three gunas. True spiritual progress depends not just on what you do but on the quality of the inner attitude and intention behind it. The highest practice is offered to the Supreme Person with the syllable OM and full surrender.",
+"genalpha": "Krishna classifies food according to the modes. Sattvic food increases life force purity strength health happiness and satisfaction. It is juicy oily substantial and pleasing to the heart. This verse shows how diet affects inner state. For children navigating play or simple routines this explains why two people can do the same game or sharing and get opposite results. One feels happy and grows while the other feels tired and stuck. Detailed meaning: faith is never neutral. It is always colored by one of the three gunas. True spiritual progress depends not just on what you do but on the quality of the inner attitude and intention behind it. The highest practice is offered to the Supreme Person with the syllable OM and full surrender."
+},
+{
+"verse": 9,
+"sanskrit": "कट्वम्ललवणात्युष्णतीक्ष्णरूक्षविदाहिनः ।\nआहारा राजसस्येष्टा दुःखशोकामयप्रदाः ॥",
+"transliteration": "kaṭv-amla-lavaṇāty-uṣṇa-tīkṣṇa-rūkṣa-vidāhinaḥ\nāhārā rājasasy eṣṭā duḥkha-śokāmaya-pradāḥ",
+"translation": "Foods that are bitter sour salty hot pungent dry and burning are dear to those in the mode of passion. Such foods cause pain distress and disease.",
+"millennial": "Krishna classifies rajasic food. Foods that are bitter sour salty hot pungent dry and burning are dear to those in passion. They cause pain distress and disease. This verse shows how diet influences inner state. For professionals navigating wellness culture or self optimization routines this explains why two people can do the same yoga or charity and get opposite results. One purifies and elevates while the other binds and degrades. Detailed meaning: faith is never neutral. It is always colored by one of the three gunas. True spiritual progress depends not just on what you do but on the quality of the inner attitude and intention behind it. The highest practice is offered to the Supreme Person with the syllable OM and full surrender.",
+"genz": "Krishna classifies rajasic food. Foods that are bitter sour salty hot pungent dry and burning are dear to those in passion. They cause pain distress and disease. This verse shows how diet influences inner state. For young adults navigating wellness culture or self optimization routines this explains why two people can do the same yoga or charity and get opposite results. One purifies and elevates while the other binds and degrades. Detailed meaning: faith is never neutral. It is always colored by one of the three gunas. True spiritual progress depends not just on what you do but on the quality of the inner attitude and intention behind it. The highest practice is offered to the Supreme Person with the syllable OM and full surrender.",
+"genalpha": "Krishna classifies rajasic food. Foods that are bitter sour salty hot pungent dry and burning are dear to those in passion. They cause pain distress and disease. This verse shows how diet influences inner state. For children navigating play or simple routines this explains why two people can do the same game or sharing and get opposite results. One feels happy and grows while the other feels tired and stuck. Detailed meaning: faith is never neutral. It is always colored by one of the three gunas. True spiritual progress depends not just on what you do but on the quality of the inner attitude and intention behind it. The highest practice is offered to the Supreme Person with the syllable OM and full surrender."
+},
+{
+"verse": 10,
+"sanskrit": "यातयामं गतरसं पूति पर्युषितं च यत् ।\nउच्छिष्टमपि चामेध्यं भोजनं तामसप्रियम् ॥",
+"transliteration": "yāta-yāmaṁ gata-rasaṁ pūti paryuṣitaṁ ca yat\nucchiṣṭam api cāmedhyaṁ bhojanaṁ tāmasa-priyam",
+"translation": "Food that is overcooked stale putrid decomposed and unclean is dear to those in the mode of ignorance.",
+"millennial": "Krishna classifies tamasic food. Food that is overcooked stale putrid decomposed and unclean is dear to those in ignorance. This verse shows how diet influences inner state. For professionals navigating wellness culture or self optimization routines this explains why two people can do the same yoga or charity and get opposite results. One purifies and elevates while the other binds and degrades. Detailed meaning: faith is never neutral. It is always colored by one of the three gunas. True spiritual progress depends not just on what you do but on the quality of the inner attitude and intention behind it. The highest practice is offered to the Supreme Person with the syllable OM and full surrender.",
+"genz": "Krishna classifies tamasic food. Food that is overcooked stale putrid decomposed and unclean is dear to those in ignorance. This verse shows how diet influences inner state. For young adults navigating wellness culture or self optimization routines this explains why two people can do the same yoga or charity and get opposite results. One purifies and elevates while the other binds and degrades. Detailed meaning: faith is never neutral. It is always colored by one of the three gunas. True spiritual progress depends not just on what you do but on the quality of the inner attitude and intention behind it. The highest practice is offered to the Supreme Person with the syllable OM and full surrender.",
+"genalpha": "Krishna classifies tamasic food. Food that is overcooked stale putrid decomposed and unclean is dear to those in ignorance. This verse shows how diet influences inner state. For children navigating play or simple routines this explains why two people can do the same game or sharing and get opposite results. One feels happy and grows while the other feels tired and stuck. Detailed meaning: faith is never neutral. It is always colored by one of the three gunas. True spiritual progress depends not just on what you do but on the quality of the inner attitude and intention behind it. The highest practice is offered to the Supreme Person with the syllable OM and full surrender."
+},
+{
+"verse": 11,
+"sanskrit": "अफलाकाङ्क्षिभिर्यज्ञो विधिदृष्टो य इज्यते |\nयष्टव्यमेवेति मनः समाधाय स सात्त्विकः ||",
+"transliteration": "aphalākāṅkṣibhir yajño vidhi-dṛṣṭo ya ijyate\nyaṣṭavyam eveti manaḥ samādhāya sa sāttvikaḥ",
+"translation": "That sacrifice is in the mode of goodness which is performed according to the scriptural rules by persons who have no desire for fruitive results and who perform it only because it is their duty.",
+"millennial": "Krishna describes sattvic sacrifice. It is performed strictly according to scriptural rules by people who expect no personal reward and do it simply because it is their duty. This kind of offering purifies the heart and mind. For people in their thirties who balance professional responsibilities and personal values this verse offers a model for meaningful action. For example when someone volunteers time or donates money without seeking recognition or tax benefits but purely as an ethical duty they experience inner satisfaction and clarity. Detailed meaning: selfless adherence to dharma in sacrifice brings purity. The absence of fruitive motive and firm intention to do what is right define sattvic worship. This approach leads to spiritual elevation rather than material entanglement. Practice: before any giving or service mentally affirm that it is done as duty without expecting return and observe how it changes your inner state.",
+"genz": "Krishna explains good sacrifice. It follows the rules exactly and people do it without wanting anything back just because it is right. This kind of offering cleans the mind. For young adults who care about impact and authenticity this verse gives a clear example. For example when someone creates content or helps in a community project not for views or clout but simply because it feels like the right thing the experience becomes peaceful and meaningful. Detailed meaning: sacrifice without personal gain motive and with steady focus on duty is sattvic. It builds real growth instead of temporary highs. This mindset turns ordinary actions into spiritual practice. Hack: before posting helping or giving silently remind yourself it is for the sake of rightness alone and notice the calm that follows.",
+"genalpha": "Krishna says good sacrifice follows the right rules and people do it without wanting any prize just because it is the proper thing. This kind of offering makes the heart clean and happy. For children this verse teaches doing nice things without always asking for thank you or reward. For example when you share your snack or help clean up not because you want praise but because it is good the feeling inside stays joyful. Detailed meaning: doing duty without wanting return keeps the heart pure. This makes every kind action special. Practice: when you help someone think only that it is right and feel the happy lightness inside."
+},
+{
+"verse": 12,
+"sanskrit": "फलकाङ्क्षिभिर्यज्ञो य इज्यते भरतर्षभ |\nविज्ञेयो राजसस्त्वेवमिति विद्धि भारत ||",
+"transliteration": "phala-kāṅkṣibhir yajño ya ijyate bharatarṣabha\nvijñeyo rājasas tv evam iti viddhi bhārata",
+"translation": "But that sacrifice which is performed with the expectation of some material benefit or with pride is in the mode of passion O chief of the Bharatas. Know that to be so.",
+"millennial": "Krishna describes rajasic sacrifice. It is performed with the desire for some personal result or with a sense of pride. This kind of offering is driven by ego and material motive. For people in their thirties who engage in charity or rituals this verse helps examine intention. For example when someone donates publicly to gain social status or expects future favors the act loses spiritual value and becomes binding. Detailed meaning: rajasic sacrifice binds the soul through attachment to results and pride. It strengthens material identification. This contrasts with sattvic offering that seeks no return. Practice: before any giving or ritual check whether the motive is selfless duty or personal gain and choose the former.",
+"genz": "Krishna explains passion sacrifice. It is done with expectation of some return or with show off pride. This kind of offering comes from ego and wanting. For young adults who post good deeds or help for clout this verse is a mirror. For example when someone shares their charity post hoping for praise or future benefit the energy becomes heavy instead of light. Detailed meaning: rajasic sacrifice ties the soul to ego and results. It feeds material loops. This differs from pure giving without strings. Hack: before posting or helping quietly ask if it is for show or for rightness and drop the show part.",
+"genalpha": "Krishna says busy sacrifice is done when someone wants a prize or feels proud. This kind of offering comes from wanting and showing off. For children this verse teaches that doing good just to get thank you or praise is not the best way. For example when you share your toy only because you want everyone to say you are good the happy feeling does not last long. Detailed meaning: wanting return or praise makes the action less pure. Doing good quietly brings real joy."
+},
+{
+"verse": 13,
+"sanskrit": "विधिहीनमसृष्टान्नं मन्त्रहीनमदक्षिणम् |\nश्रद्धाविरहितं यज्ञं तामसं परिचक्षते ||",
+"transliteration": "vidhi-hīnam asṛṣṭānnaṁ mantra-hīnam adakṣiṇam\nśraddhā-virahitaṁ yajñaṁ tāmasaṁ paricakṣate",
+"translation": "Sacrifice performed without regard to scriptural rules without distribution of prasadam without chanting proper mantras and without faith is said to be in the mode of ignorance.",
+"millennial": "Krishna describes tamasic sacrifice. It ignores scriptural rules skips offering food to others omits proper mantras and lacks genuine faith. This kind of ritual has no spiritual power. For people in their thirties who participate in ceremonies or personal practices this verse warns against mechanical or showy acts. For example performing a puja just for tradition without heart or proper method brings no benefit. Detailed meaning: tamasic worship lacks structure sincerity and devotion. It remains empty. This contrasts with sattvic offering that follows rules with faith. Practice: when performing any ritual ensure it follows proper guidelines with full attention and devotion.",
+"genz": "Krishna explains ignorance sacrifice. It skips rules forgets sharing food misses mantras and has no real faith. This kind of ritual stays powerless. For young adults who experiment with spiritual practices this verse cautions against casual or performative acts. For example doing a quick meditation or offering without focus or belief gives no real shift. Detailed meaning: tamasic worship misses structure and heart. It remains hollow. This differs from pure offering with method and faith. Hack: when trying any ritual follow steps properly and add real feeling.",
+"genalpha": "Krishna says dark sacrifice ignores the right rules forgets to share food skips holy words and has no belief. This kind of offering has no power. For children this verse teaches that doing good things without heart or proper way does not bring happiness. For example saying thank you without meaning or sharing without kindness feels empty. Detailed meaning: actions without rules and feeling stay weak. Do things with heart and right way for real joy."
+},
+{
+"verse": 14,
+"sanskrit": "देवद्विजगुरुप्राज्ञपूजनं शौचमार्जवम् |\nब्रह्मचर्यमहिंसा च शारीरं तप उच्यते ||",
+"transliteration": "deva-dvija-guru-prājña-pūjanaṁ śaucam ārjavam\nbrahmacaryam ahiṁsā ca śārīraṁ tapa ucyate",
+"translation": "Austerity of the body consists in worship of the Supreme Lord the brahmanas the spiritual master and the wise respect for purity straightforwardness celibacy and nonviolence.",
+"millennial": "Krishna defines bodily austerity. It includes worship of God brahmanas guru and wise people purity straightforwardness celibacy and nonviolence. This verse shows physical discipline supports spiritual growth. For people in their thirties who practice wellness or discipline this verse gives a complete framework. For example respecting elders and maintaining purity in habits builds character. Detailed meaning: bodily austerity purifies through devotion respect and ethical conduct. This prepares the body for higher realization. Practice: incorporate these elements into daily routine for balanced growth.",
+"genz": "Krishna defines body austerity. It includes worship of God teachers elders and wise purity straightforwardness celibacy and nonviolence. This verse gives full discipline guide. For young adults who follow routines this verse provides structure. For example respecting mentors and keeping clean habits builds strength. Detailed meaning: bodily austerity cleans through devotion respect and right conduct. This readies the body for higher. Hack: add these to daily habits for balance.",
+"genalpha": "Krishna says body austerity means loving worship of God teachers elders and wise people staying clean honest staying pure in body and not hurting anyone. This verse shows how to train the body well. For children this means respecting parents teachers and friends staying clean honest and kind. For example saying thank you to elders and not hurting friends makes body and heart strong. Detailed meaning: body training through love respect purity and kindness."
+},
+{
+"verse": 15,
+"sanskrit": "अनुद्वेगकरं वाक्यं सत्यं प्रियहितं च यत् |\nस्वाध्यायाभ्यसनं चैव वाङ्मयं तप उच्यते ||",
+"transliteration": "anudvega-karaṁ vākyaṁ satyaṁ priya-hitaṁ ca yat\nsvādhyāyābhyasanaṁ caiva vāṅmayaṁ tapa ucyate",
+"translation": "Austerity of speech consists in speaking words that are truthful pleasing beneficial and not agitating to others and also in regularly reciting Vedic literature.",
+"millennial": "Krishna defines austerity of speech. It includes truthful words that are pleasing beneficial and non-disturbing plus regular recitation of sacred texts. This verse shows how speech can be disciplined. For people in their thirties who communicate in professional and family settings this verse guides mindful speech. For example choosing words that uplift rather than criticize builds better relationships. Detailed meaning: controlled speech purifies through truth kindness and wisdom. Regular sacred study strengthens this. Practice: speak consciously and include daily reading or chanting.",
+"genz": "Krishna defines speech austerity. Truthful words that please help and do not disturb others plus regular sacred reading. This verse shows mindful talking. For young adults in chats and posts this verse guides clean communication. For example words that inspire rather than troll build real connections. Detailed meaning: controlled speech purifies with truth kindness and wisdom. Sacred study strengthens. Hack: speak mindfully and add daily meaningful read.",
+"genalpha": "Krishna says speech austerity means saying true words that make people happy and help them without hurting feelings and also reading holy books every day. This verse shows how to use words well. For children this means speaking kindly and truthfully. For example telling a friend nice things instead of mean ones and reading good stories daily. Detailed meaning: good words and holy reading clean speech."
+},
+{
+"verse": 16,
+"sanskrit": "मनःप्रसादः सौम्यत्वं मौनमात्मविनिग्रहः |\nभावसंशुद्धिरिति तत् तपो मानसमुच्यते ||",
+"transliteration": "manaḥ-prasādaḥ saumyatvaṁ maunam ātma-vinigrahaḥ\nbhāva-saṁśuddhir iti tat tapo mānasam ucyate",
+"translation": "Austerity of the mind consists in satisfaction mental serenity simplicity silence self-control and purity of thought.",
+"millennial": "Krishna defines mental austerity. It includes mental satisfaction serenity simplicity silence self-control and purity of thought. This verse shows inner discipline. For people in their thirties who face mental stress this verse offers tools for peace. For example practicing mental silence through meditation reduces overthinking. Detailed meaning: mental austerity purifies through calm and control. This supports higher realization. Practice: cultivate these qualities through daily reflection and quiet time.",
+"genz": "Krishna defines mind austerity. Satisfaction serenity simplicity silence self-control and pure thought. This verse gives inner tools. For young adults with busy minds this offers peace methods. For example mental silence through meditation cuts overthinking. Detailed meaning: mental austerity cleans through calm control. This supports higher. Hack: build these with daily quiet time.",
+"genalpha": "Krishna says mind austerity means happy satisfied mind calm simple quiet self-control and clean thoughts. This verse shows how to train the mind. For children this means keeping thoughts kind and calm. For example sitting quietly and thinking happy things makes mind strong. Detailed meaning: calm clean mind brings peace."
+},
+{
+"verse": 17,
+"sanskrit": "श्रद्धया परया तप्तं तपस्तत्त्रिविधं नरैः |\nअफलाकाङ्क्षिभिर्युक्तैः सात्त्विकं परिचक्षते ||",
+"transliteration": "śraddhayā parayā taptaṁ tapas tat tri-vidhaṁ naraiḥ\naphalākāṅkṣibhir yuktaiḥ sāttvikaṁ paricakṣate",
+"translation": "Austerity performed with faith and without desire for fruit by those who are free from attachment is said to be in the mode of goodness.",
+"millennial": "Krishna defines sattvic austerity. It is performed with full faith without seeking results and by people free from attachment. This verse shows pure discipline. For people in their thirties practicing wellness or discipline this verse gives the right attitude. For example doing yoga or fasting with faith and no expectation brings purification. Detailed meaning: faith and detachment make austerity sattvic. This elevates the practitioner. Practice: perform discipline with faith and no reward motive.",
+"genz": "Krishna defines good austerity. Done with strong faith no reward want and no attachment. This verse shows pure discipline. For young adults in routines this gives right mindset. For example doing meditation or fast with faith and no show brings real shift. Detailed meaning: faith and no attachment make austerity good. This lifts up. Hack: do discipline with faith and no want.",
+"genalpha": "Krishna says good austerity is done with full belief without wanting prize and without sticking. This verse shows clean training. For children this means doing hard things with happy heart and no wanting thank you. For example practicing a skill daily just because it is good. Detailed meaning: belief and no want make training good."
+},
+{
+"verse": 18,
+"sanskrit": "सत्कारमानपुरस्कारं तपो दम्भेन चैव यत् |\nक्रियते तदिह प्रोक्तं राजसं चलमध्रुवम् ||",
+"transliteration": "satkāra-māna-pūraskāraṁ tapo dambhena caiva yat\nkriyate tad iha proktaṁ rājasaṁ chalam adhruvam",
+"translation": "Austerity performed out of pride and for the sake of gaining respect honor and worship is said to be in the mode of passion. It is unstable and temporary.",
+"millennial": "Krishna describes rajasic austerity. It is done for praise respect honor and worship with show. This verse shows ego-driven discipline. For people in their thirties who practice wellness or discipline this warns against performative acts. For example doing strict routines just for social approval brings temporary results. Detailed meaning: rajasic austerity is unstable because it depends on external validation. This binds rather than frees. Practice: perform discipline for inner growth not outer praise.",
+"genz": "Krishna describes passion austerity. Done for praise respect honor and show. This verse shows ego discipline. For young adults in routines this warns against flexing. For example strict diet or workout just for pics brings short gain. Detailed meaning: rajasic is unstable from outer need. This binds. Hack: do discipline for self not show.",
+"genalpha": "Krishna says busy austerity is done for praise respect honor and show. This verse shows proud training. For children this warns against doing hard things just to show off. For example practicing a skill only for claps feels empty. Detailed meaning: proud training is not steady. Do things for good heart."
+},
+{
+"verse": 19,
+"sanskrit": "मूढग्राहेणात्मनो यत्पीडया क्रियते तपः |\nपरस्योत्सादनार्थं वा तत्तामसमुदाहृतम् ||",
+"transliteration": "mūḍha-grāheṇātmano yat pīḍayā kriyate tapaḥ\nparasya utsādanārthaṁ vā tat tāmasam udāhṛtam",
+"translation": "Austerity performed out of foolishness with self-torture or for the purpose of harming others is said to be in the mode of ignorance.",
+"millennial": "Krishna describes tamasic austerity. It is done foolishly with self-torture or to harm others. This verse shows misguided discipline. For adults this warns against extreme or harmful practices. For example extreme fasting to punish self or to prove something brings harm. Detailed meaning: tamasic austerity damages rather than elevates. This destroys rather than builds. Practice: avoid harmful extremes and choose balanced discipline.",
+"genz": "Krishna describes ignorance austerity. Done foolishly with self-harm or to hurt others. This verse shows wrong discipline. For young adults this warns against extreme trends. For example dangerous challenges for views bring damage. Detailed meaning: tamasic destroys instead of builds. This harms. Hack: avoid extremes choose balanced.",
+"genalpha": "Krishna says dark austerity is done foolishly by hurting self or to hurt others. This verse shows bad training. For children this warns against hurting self or friends to show something. For example hurting to prove brave is wrong. Detailed meaning: bad training hurts. Choose kind ways."
+},
+{
+"verse": 20,
+"sanskrit": "दातव्यमिति यद्दानं दीयतेऽनुपकारिणे |\nदेशे काले च पात्रे च तद्दानं सात्त्विकं स्मृतम् ||",
+"transliteration": "dātavyam iti yad dānaṁ dīyate ’nupakāriṇe\ndeśe kāle ca pātre ca tad dānaṁ sāttvikaṁ smṛtam",
+"translation": "Charity given out of duty without expectation of return at the proper time and place to a worthy person is considered to be in the mode of goodness.",
+"millennial": "Krishna describes sattvic charity. It is given because it is duty without expecting return at right time place and to deserving person. This verse shows pure giving. For people in their thirties who give time or money this verse guides meaningful charity. For example donating anonymously to a genuine cause brings satisfaction. Detailed meaning: sattvic charity purifies through selflessness and propriety. This elevates the giver. Practice: give without expectation and with discrimination.",
+"genz": "Krishna describes good charity. Given as duty no return want at right time place to right person. This verse shows pure giving. For young adults who donate or help this guides real impact. For example giving anonymously to good cause feels clean. Detailed meaning: sattvic giving purifies through selflessness. This lifts up. Hack: give without want and wisely.",
+"genalpha": "Krishna says good charity is given because it is right without wanting back at good time place and to good person. This verse shows clean giving. For children this teaches sharing without asking thank you. For example giving a toy to a friend who needs it without wanting anything back. Detailed meaning: giving as duty without want cleans heart."
+},
+{
+"verse": 21,
+"sanskrit": "यत् तु प्रत्युपकारार्थं फलमुद्दिश्य वा पुनः |\nदीयते च परिक्लिष्टं तद् दानं राजसम् स्मृतम् ||",
+"transliteration": "yat tu pratyupakārārthaṁ phalam uddiśya vā punaḥ\ndīyate ca parikliṣṭaṁ tad dānaṁ rājasam smṛtam",
+"translation": "But charity performed with the expectation of some return or with a desire for fruitive results or in a grudging mood is said to be charity in the mode of passion.",
+"millennial": "Krishna describes rajasic charity. It is given with the hope of getting something back or expecting personal benefit or done unwillingly. This kind of giving is influenced by passion. For people in their thirties who give time or money this verse helps check motives. For example donating to a cause but expecting networking opportunities or public thanks turns the act into a transaction. Detailed meaning: rajasic charity binds through attachment to returns and reluctance. It lacks purity. This contrasts with sattvic giving that is selfless. Practice: when giving reflect on your intention and aim for pure generosity.",
+"genz": "Krishna explains passion charity. It is done hoping for payback or personal gain or given grudgingly. This type is driven by passion mode. For young adults who donate or help this verse checks vibes. For example sharing resources but expecting favors or shoutouts makes it feel transactional. Detailed meaning: passion charity ties through want for returns and unwillingness. It misses pure energy. This differs from clean giving without strings. Hack: before helping ask if it is from heart or for gain and choose heart.",
+"genalpha": "Krishna says busy charity is given when someone expects something back or wants a prize or does it unhappily. This kind is from the busy feeling. For children this verse teaches sharing without always wanting thank you or reward. For example giving a toy but hoping for a hug or praise makes the sharing less fun. Detailed meaning: busy charity holds back because of wanting or unhappiness. Give happily without expecting anything."
+},
+{
+"verse": 22,
+"sanskrit": "अदेशकाले यद्दानमपात्रेभ्यश्च दीयते |\nअसत्कृतमवज्ञातं तत् तामसमुदाहृतम् ||",
+"transliteration": "adeśa-kāle yad dānam apātrebhyaś ca dīyate\nasat-kṛtam avajñātaṁ tat tāmasam udāhṛtam",
+"translation": "And charity given out of place out of time and to unworthy persons or without respect and proper attention is said to be in the mode of ignorance.",
+"millennial": "Krishna describes tamasic charity. It is given at the wrong time or place to undeserving people without respect or care. This kind of giving has no positive effect. For people in their thirties who give impulsively this verse warns against thoughtless acts. For example donating expired goods or to scams brings harm rather than help. Detailed meaning: tamasic charity lacks discernment and sincerity. It remains ineffective. This contrasts with sattvic giving that is thoughtful. Practice: before giving consider time place and recipient carefully.",
+"genz": "Krishna explains ignorance charity. Given at wrong time or place to wrong people without respect or thought. This type has no good impact. For young adults who give quickly this verse cautions against careless moves. For example sending random donations to shady links wastes energy. Detailed meaning: ignorance charity misses wisdom and care. It stays useless. This differs from smart giving. Hack: before giving check time place and who gets it.",
+"genalpha": "Krishna says dark charity is given at bad time or place to wrong people without kindness or thinking. This kind does nothing good. For children this verse teaches to share carefully. For example giving broken toys without caring makes no one happy. Detailed meaning: dark charity lacks good thinking. Give with heart and right way."
+},
+{
+"verse": 23,
+"sanskrit": "ॐ तत् सदिति निर्देशो ब्रह्मणस्त्रिविधः स्मृतः |\nब्राह्मणास्तेन वेदाश्च यज्ञाश्च विहिताः पुरा ||",
+"transliteration": "oṁ tat sad iti nirdeśo brahmaṇas tri-vidhaḥ smṛtaḥ\nbrāhmaṇās tena vedāś ca yajñāś ca vihitāḥ purā",
+"translation": "The words om tat sat are the designation of the threefold Brahman. By that were created formerly the brāhmanas the Vedas and the sacrifices.",
+"millennial": "Krishna introduces the sacred words om tat sat. These three words designate the threefold nature of Brahman. In ancient times they were used to create the brāhmanas the Vedas and the sacrifices. This verse shows the power of these syllables in spiritual acts. For people in their thirties who explore mantras or chants this offers a foundational practice. For example starting daily meditation with om brings focus and connection. Detailed meaning: om tat sat represent truth and elevate actions. They purify and align with divine. Practice: use these words in offerings or daily affirmations.",
+"genz": "Krishna introduces om tat sat. These three words point to the three parts of Brahman. Long ago they helped create the wise people the holy books and the offerings. This verse shows their power in spiritual stuff. For young adults who try mantras or vibes this gives base practice. For example starting a chill session with om sets good energy. Detailed meaning: om tat sat mean truth and lift actions. They clean and connect to higher. Hack: add these to daily affirmations or offerings.",
+"genalpha": "Krishna says the words om tat sat show the three parts of the big truth. Long ago these words helped make the wise people the holy stories and the gifts to God. This verse teaches these words have special power. For children this means saying om makes heart feel big and good. For example saying om before eating makes food happy. Detailed meaning: om tat sat mean real truth and make actions good."
+},
+{
+"verse": 24,
+"sanskrit": "तस्मादोमित्युदाहृत्य यज्ञदानतपःक्रियाः |\nप्रवर्तन्ते विधानोक्ताः सततं ब्रह्मवादिभिः ||",
+"transliteration": "tasmād om ity udāhṛtya yajña-dāna-tapaḥ-kriyāḥ\npravartante vidhānoktāḥ satataṁ brahma-vādibhiḥ",
+"translation": "Therefore transcendentalists undertaking performances of sacrifice charity and penance in accordance with scriptural regulations begin always with om to attain the Supreme.",
+"millennial": "Krishna explains the use of om. Transcendentalists start sacrifices charity and austerities with om according to scriptural rules to reach the Supreme. This verse shows om as a gateway to higher acts. For people in their thirties who practice mindfulness or rituals this offers a simple elevation tool. For example beginning a donation or meditation with om adds spiritual depth. Detailed meaning: om aligns actions with the divine. It purifies and directs toward the ultimate. Practice: incorporate om in daily positive actions for focus.",
+"genz": "Krishna says start sacrifices charity and discipline with om as per rules to reach higher. This verse shows om as power starter. For young adults who do routines this gives upgrade hack. For example starting giving or meditation with om adds real energy. Detailed meaning: om connects acts to divine. It cleans and aims for top. Hack: add om to daily good stuff for boost.",
+"genalpha": "Krishna says people who seek higher start offerings giving and hard work with om following the rules to reach God. This verse teaches om is a magic start word. For children this means saying om before sharing or helping makes it special. For example say om before giving a hug. Detailed meaning: om makes actions go to God."
+},
+{
+"verse": 25,
+"sanskrit": "तदित्यनभिसंधाय फलं यज्ञतपःक्रियाः |\nदानक्रियाश्च विविधाः क्रियन्ते मोक्षकाङ्क्षिभिः ||",
+"transliteration": "tad ity anabhisandhāya phalaṁ yajña-tapaḥ-kriyāḥ\ndāna-kriyāś ca vividhāḥ kriyante mokṣa-kāṅkṣibhiḥ",
+"translation": "Without desiring fruitive results one should perform various kinds of sacrifice worship and charity with the word tat. The purpose of such transcendental activities is to free one from material entanglement.",
+"millennial": "Krishna explains the use of tat. Perform sacrifices austerities and charity with tat without seeking results. The goal is freedom from material ties. This verse shows tat as a tool for detachment. For people in their thirties who seek balance this offers a way to dedicate actions. For example doing charity with tat mentally releases attachment to outcomes. Detailed meaning: tat represents transcendence and helps liberate. Practice: use tat in acts to focus on freedom.",
+"genz": "Krishna says do sacrifices discipline and giving with tat no result want. Goal is break material chains. This verse shows tat as detach tool. For young adults who grind for freedom this gives dedication hack. For example giving with tat lets go of outcome stress. Detailed meaning: tat means beyond and frees. Hack: add tat to acts for liberation focus.",
+"genalpha": "Krishna says do offerings hard work and giving with tat without wanting prize. The goal is to be free from sticky things. This verse teaches tat helps let go. For children this means sharing with tat makes heart light. For example give toy with tat no want back. Detailed meaning: tat means higher and frees from ties."
+},
+{
+"verse": 26,
+"sanskrit": "सद्भावे साधुभावे च सदित्येतत् प्रयुज्यते |\nप्रशस्ते कर्मणि तथा सच्छब्दः पार्थ युज्यते ||",
+"transliteration": "sad-bhāve sādhu-bhāve ca sad ity etat prayujyate\npraśaste karmaṇi tathā sac-chabdaḥ pārtha yujyate",
+"translation": "The word sat is used in the sense of existence and goodness and also in the sense of an auspicious act O son of Pṛthā.",
+"millennial": "Krishna explains sat. It means existence goodness and auspicious action. This verse shows sat as a word of affirmation. For people in their thirties who affirm positive this offers a powerful tool. For example using sat in affirmations reinforces goodness. Detailed meaning: sat elevates actions and thoughts. Practice: use sat in daily positive statements.",
+"genz": "Krishna explains sat. It means being good and good actions. This verse shows sat as positive word. For young adults who affirm this gives strong tool. For example add sat to affirmations for good energy. Detailed meaning: sat lifts acts and thoughts. Hack: use sat in daily positives.",
+"genalpha": "Krishna says sat means being and goodness and good actions. This verse teaches sat is a happy word. For children this means saying sat makes things good. For example say sat when doing kind things. Detailed meaning: sat makes actions strong and good."
+},
+{
+"verse": 27,
+"sanskrit": "यज्ञे तपसि दाने च स्थितिः सदिति चोच्यते |\nकर्म चैव तदर्थीयम सदित्येवाभिधीयते ||",
+"transliteration": "yajñe tapasi dāne ca sthitiḥ sad iti cocyate\nkarma caiva tad-arthīyam sad ity evābhidhīyate",
+"translation": "Steadfastness in sacrifice austerity and charity is also called sat and any action performed for the Supreme is also called sat.",
+"millennial": "Krishna says steadfastness in sacrifice austerity and charity is called sat. Actions for the Supreme are called sat. This verse shows sat as a seal of goodness. For people in their thirties who seek purpose this elevates daily acts. For example doing charity with sat makes it divine. Detailed meaning: sat affirms divine connection. Practice: add sat to spiritual acts.",
+"genz": "Krishna says steady in sacrifice discipline giving is sat. Actions for Supreme called sat. This verse shows sat as good stamp. For young adults who want meaning this lifts daily stuff. For example charity with sat makes divine. Detailed meaning: sat connects to higher. Hack: add sat to spiritual moves.",
+"genalpha": "Krishna says staying strong in offerings hard work giving is called sat. Actions for God called sat. This verse teaches sat makes things good. For children this means saying sat in good actions makes them special. For example say sat when sharing. Detailed meaning: sat connects to God."
+},
+{
+"verse": 28,
+"sanskrit": "अश्रद्धया हुतं दत्तं तपस्तप्तं कृतं च यत् |\nअसदित्युच्यते पार्थ न च तत् प्रेत्य नो इह ||",
+"transliteration": "aśraddhayā hutaṁ dattaṁ tapas taptaṁ kṛtaṁ ca yat\nasad ity ucyate pārtha na ca tat pretya no iha",
+"translation": "Anything done as sacrifice charity or penance without faith in the Supreme O son of Pṛthā is impermanent. It is called asat and is useless both in this life and the next.",
+"millennial": "Krishna concludes without faith sacrifices charity and austerities are called asat and bring no benefit here or after. This verse emphasizes faith's role. For people in their thirties who perform acts mechanically this warns against empty rituals. For example giving without heart brings no joy. Detailed meaning: lack of faith makes acts temporary and useless. Practice: infuse actions with faith for lasting value.",
+"genz": "Krishna says without faith sacrifices giving discipline are asat no good here or after. This verse stresses faith key. For young adults who do routines without heart this warns against empty acts. For example helping without belief feels flat. Detailed meaning: no faith = temporary useless. Hack: add faith to actions for real value.",
+"genalpha": "Krishna says offerings giving hard work without belief are called asat and no good in this life or next. This verse teaches belief makes things work. For children this means doing good without heart brings no happy. For example sharing without love feels empty. Detailed meaning: no belief = no lasting good."
+}
+]
 }
