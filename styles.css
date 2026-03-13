@@ -1125,4 +1125,72 @@ body {
         width: 100%;
         margin-top: 0.5rem;
     }
+
+/* Content Pages (Introduction & About) */
+.content-page {
+    background: var(--bg-card);
+    padding: 2rem;
+    border-radius: 12px;
+}
+
+.content-title {
+    font-size: 2rem;
+    color: var(--accent);
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+.content-subtitle {
+    font-size: 1.2rem;
+    color: var(--text-secondary);
+    margin-bottom: 2rem;
+    text-align: center;
+    font-style: italic;
+}
+
+.content-section {
+    margin-bottom: 2.5rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--bg-secondary);
+}
+
+.content-section:last-child {
+    border-bottom: none;
+}
+
+.content-section h3 {
+    color: var(--accent);
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+.content-section p {
+    line-height: 1.8;
+    color: var(--text);
+    text-align: justify;
+}
+
+.error-message {
+    text-align: center;
+    color: var(--text-secondary);
+    padding: 2rem;
+}
+
+@media (max-width: 768px) {
+    .content-page {
+        padding: 1.5rem;
+    }
+    
+    .content-title {
+        font-size: 1.5rem;
+    }
+    
+    .content-subtitle {
+        font-size: 1rem;
+    }
+    
+    .content-section h3 {
+        font-size: 1.1rem;
+    }
+}
 }
