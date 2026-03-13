@@ -1,0 +1,42 @@
+{
+  "title": "About This App",
+  "subtitle": "Making Ancient Wisdom Accessible",
+  "sections": [
+    {
+      "heading": "Our Mission",
+      "content": "This app was created to make the profound wisdom of the Bhagavad Gita accessible to modern readers, especially younger generations who might find traditional translations difficult to connect with. We believe that ancient wisdom becomes most powerful when it speaks directly to the challenges and experiences of our current times."
+    },
+    {
+      "heading": "Three Generation Flavors",
+      "content": "Understanding that different age groups have different life experiences, communication styles, and frames of reference, we offer three distinct explanation styles: Millennial (ages 28-43) with professional and career-focused examples, Gen Z (ages 12-27) with casual language and social media awareness, and Gen Alpha (ages 5-14) with simple explanations using gaming and school analogies. Each style maintains the integrity of the original teachings while making them relatable."
+    },
+    {
+      "heading": "Features",
+      "content": "The app works completely offline after the first load, making it accessible anywhere. You can bookmark your favorite verses, search across all chapters, track your reading progress, and get a new verse each day. The interface adapts to your preferences with dark and light modes, and you can install it on your phone's home screen for quick access."
+    },
+    {
+      "heading": "Technology",
+      "content": "Built as a Progressive Web App (PWA), this application uses modern web technologies to provide a native app-like experience. It stores data locally using IndexedDB for offline access, employs service workers for caching, and is designed to be fast, responsive, and lightweight. The entire app, including all 18 chapters and 700 verses, is less than 1MB in size."
+    },
+    {
+      "heading": "Content Accuracy",
+      "content": "While the modern explanations are adapted for contemporary readers, they remain faithful to the original teachings of the Bhagavad Gita. The Sanskrit verses, transliterations, and translations are based on widely accepted scholarly sources. The modern explanations aim to illuminate, not alter, the timeless wisdom contained in the original text."
+    },
+    {
+      "heading": "Open Source & Free",
+      "content": "This app is completely free to use with no advertisements, no data collection, and no in-app purchases. The source code is open source, and contributions are welcome. We believe spiritual knowledge should be freely accessible to all, and technology should serve humanity's highest aspirations."
+    },
+    {
+      "heading": "Development",
+      "content": "This application was developed by Saurabh Bhattacharjee with the goal of bridging ancient wisdom and modern technology. It represents countless hours of research, development, and testing to create an experience that honors the sacred text while making it accessible to contemporary readers."
+    },
+    {
+      "heading": "Feedback & Contact",
+      "content": "We continuously work to improve this app and welcome your feedback. If you encounter any issues, have suggestions for improvements, or would like to contribute translations or explanations, please reach out through the GitHub repository. Your input helps make this resource better for everyone."
+    },
+    {
+      "heading": "Acknowledgments",
+      "content": "This app stands on the shoulders of countless scholars, translators, and spiritual teachers who have preserved and transmitted the wisdom of the Bhagavad Gita through the ages. We are grateful to all those who have made this ancient text accessible to modern readers, and we hope this app continues that noble tradition."
+    }
+  ]
+}
