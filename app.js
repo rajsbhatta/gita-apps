@@ -417,21 +417,21 @@ class GitaApp {
 
         const personas = {
             'millennial': {
-                name: 'Millennial',
+                name: 'Adults',
                 emoji: '👔',
-                age: '28-43 years old',
+                age: '30+ years',
                 desc: 'Professional tone with career-focused examples, work-life balance insights, and mature perspectives on responsibility and leadership.'
             },
             'genz': {
-                name: 'Gen Z',
+                name: 'Youths',
                 emoji: '📱',
-                age: '12-27 years old',
+                age: '15-30 years',
                 desc: 'Casual and honest language with social media references, mental health awareness, and authentic perspectives on modern challenges.'
             },
             'genalpha': {
-                name: 'Gen Alpha',
+                name: 'Kids',
                 emoji: '🎮',
-                age: '5-14 years old',
+                age: '5-15 years',
                 desc: 'Simple, fun language with gaming analogies, school examples, and age-appropriate explanations using emojis and relatable scenarios.'
             }
         };
@@ -459,9 +459,9 @@ class GitaApp {
         this.updatePersonaIcon();
         
         const names = {
-            'millennial': 'Millennial',
-            'genz': 'Gen Z',
-            'genalpha': 'Gen Alpha'
+            'millennial': 'Adults',
+            'genz': 'Youths',
+            'genalpha': 'Kids'
         };
         
         this.showToast(`✅ Switched to ${names[this.flavor]} style`);
@@ -490,9 +490,9 @@ class GitaApp {
 
     getFlavorTitle() {
         const titles = {
-            'millennial': '💼 For Millennials',
-            'genz': '📱 For Gen Z',
-            'genalpha': '🎮 For Gen Alpha'
+            'millennial': '👔 For Adults',
+            'genz': '📱 For Youths',
+            'genalpha': '🎮 For Kids'
         };
         return titles[this.flavor] || '📱 Modern Explanation';
     }
