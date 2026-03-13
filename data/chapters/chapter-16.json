@@ -5,173 +5,221 @@
   "verses": 24,
   "introduction": "Chapter 16 of the Bhagavad Gita, Daivāsura-sampad-vibhāga-yoga (The Yoga of the Division Between the Divine and Demonic Natures), is one of the most morally diagnostic and urgently practical chapters in the entire scripture. After revealing the Supreme Person and the path beyond the gunas (Ch. 15), Krishna now draws a stark, uncompromising line between two kinds of human character — the divine (daivi) and the demonic (asuri). He lists in detail the twenty-six qualities of the divine nature and the six hallmarks of the demonic nature, explains how each leads to opposite destinations (liberation vs bondage), warns against the three gates to hell (lust, anger, greed), and ends by urging Arjuna to follow scriptural authority rather than personal desire. For modern readers — especially those navigating cancel culture, moral relativism, social-media virtue-signaling, burnout from performative goodness, toxic positivity, and the quiet despair of 'everyone is just doing their best' — this chapter feels like a clear-eyed, no-nonsense mirror. Krishna does not sugar-coat: certain traits lead to freedom and joy; others lead to self-destruction and repeated suffering. The essence remains perfectly intact: the divine qualities arise naturally in one who is turning toward the Supreme; the demonic qualities arise from disconnection and self-centeredness; liberation comes from cultivating the former and rejecting the latter through surrender to scriptural guidance and devotion to the Divine.",
   "shlokas": [
-    {
-      "verse": 1,
-      "sanskrit": "श्रीभगवानुवाच |\nअभयं सत्त्वसंशुद्धिर्ज्ञानयोगव्यवस्थितिः |\nदानं दमश्च यज्ञश्च स्वाध्यायस्तप आर्जवम् ||",
-      "transliteration": "śrī-bhagavān uvāca\nabhayaṁ sattva-saṁśuddhir jñāna-yoga-vyavasthitiḥ\ndānaṁ damaś ca yajñaś ca svādhyāyas tapa ārjavam",
-      "translation": "The Supreme Personality of Godhead said: Fearlessness, purification of one’s existence, cultivation of spiritual knowledge, charity, self-control, performance of sacrifice, study of the Vedas, austerity, simplicity —",
-      "modern": "Krishna begins the list of divine qualities: fearlessness, inner purity, steady practice of jñāna-yoga, generosity, sense control, regular sacrifice, scriptural study, austerity, straightforwardness. In 2026 life: courage (no fear of truth or loss), clean motives, consistent spiritual discipline, giving without strings, mastery over impulses, ritual/gratitude practice, lifelong learning from wisdom texts, simplicity of life, honesty without games. These are not optional virtues — they are natural expressions of a soul turning toward the Divine."
-    },
-    {
-      "verse": 2,
-      "sanskrit": "अहिंसा सत्यमक्रोधस्त्यागः शान्तिरपैशुनम् |\nदया भूतेष्वलोलुप्त्वा मार्दवं ह्रीरचापलम् ||",
-      "transliteration": "ahiṁsā satyam akrodhas tyāgaḥ śāntir apaiśunam\ndayā bhūteṣv aloluptvā mārdavaṁ hrīr acāpalam",
-      "translation": "Nonviolence, truthfulness, freedom from anger, renunciation, tranquility, aversion to faultfinding, compassion for all living entities, freedom from covetousness, gentleness, modesty, and steady determination —",
-      "modern": "Non-harm (physical/verbal/mental), truth in speech & action, angerlessness, letting go (of possessiveness), inner peace, no gossip/backbiting, kindness to all beings, non-greed, softness of heart, humility/shame at wrong, firm resolve. In practice: these are the interpersonal & inner signs of daivi sampad — harmless, honest, calm, generous, compassionate, content, gentle, humble, steady. Krishna is painting the character of one whose heart is aligned with the Divine."
-    },
-    {
-      "verse": 3,
-      "sanskrit": "तेजः क्षमा धृतिः शौचमद्रोहो नातिमानिता |\nभवन्ति सम्पदं दैवीमभिजातस्य भारत ||",
-      "transliteration": "tejaḥ kṣamā dhṛtiḥ śaucam adroho nātimānitā\nbhavanti sampadaṁ daivīm abhijātasya bhārata",
-      "translation": "Vigor, forgiveness, fortitude, cleanliness, freedom from envy, and the passion for honor — these transcendental qualities belong to godly men endowed with divine nature, O son of Bharata.",
-      "modern": "Radiance/energy, forgiveness, perseverance, purity (inner/outer), non-enviousness, appropriate sense of dignity — these complete the divine qualities. In 2026 terms: inner fire without burnout, quick to forgive, resilience, cleanliness of body/mind/space, no jealousy, healthy self-respect without arrogance. Krishna finishes the list of twenty-six divine traits — the character profile of one born with (or cultivating) daivi sampad. This is not moralizing — these qualities arise naturally when one turns toward the Supreme."
-    },
-    {
-      "verse": 4,
-      "sanskrit": "दम्भो दर्पोऽभिमानश्च क्रोधः पारुष्यमेव च |\nअज्ञानं चाभिजातस्य पार्थ सम्पदमासुरीम् ||",
-      "transliteration": "dambho darpo ’bhimānaś ca krodhaḥ pāruṣyam eva ca\najñānaṁ cābhijātasya pārtha sampadam āsurīm",
-      "translation": "Pride, arrogance, conceit, anger, harshness, and ignorance — these qualities belong to those who are born with the demonic nature, O son of Pritha.",
-      "modern": "Hypocrisy, pride, conceit, anger, rudeness, ignorance — these mark the asuri sampad. Krishna gives the six root demonic traits. In practice: pretense for image, inflated ego, entitlement, quick anger, harsh speech/behavior, willful ignorance. These are not occasional flaws — they are the default operating system of one disconnected from the Divine. This verse is diagnostic honesty — if these dominate, the trajectory is downward."
-    },
-    {
-      "verse": 5,
-      "sanskrit": "दैवी सम्पद्विमोक्षाय निबन्धायासुरी मता |\nमा शुचः सम्पदं दैवीमभिजातोऽसि पाण्डव ||",
-      "transliteration": "daivī sampad vimokṣāya nibandhāyāsurī matā\nmā śucaḥ sampadaṁ daivīm abhijāto ’si pāṇḍava",
-      "translation": "The transcendental qualities are conducive to liberation, whereas the demonic qualities are the cause of bondage. Do not lament, O son of Pandu, for you are born with the divine qualities.",
-      "modern": "Divine qualities → liberation; demonic → bondage. Krishna reassures Arjuna: don’t worry — you are born with daivi sampad. This is both diagnosis and encouragement. In practice: the two natures lead to opposite destinations — freedom vs entrapment. Krishna affirms Arjuna’s character — he has the divine traits. This verse removes fear and self-doubt: if you recognize and cultivate these qualities, you are already on the liberating path."
-    },
-    {
-      "verse": 6,
-      "sanskrit": "द्वौ भूतसर्गौ लोकेस्मिन् दैव आसुर एव च |\nदैवो विस्तरशः प्रोक्त आसुरं पार्थ मे शृणु ||",
-      "transliteration": "dvau bhūta-sargau loke ’smin daiva āsura eva ca\ndaivo vistaraśaḥ prokta āsuraṁ pārtha me śṛṇu",
-      "translation": "O son of Pritha, in this world there are two kinds of created beings. One is called the divine and the other is called the demonic. I have already explained to you at length the divine qualities. Now hear from Me of the demonic.",
-      "modern": "Two kinds of beings in this world: divine and demonic. I’ve explained the divine in detail — now hear about the demonic. Krishna is systematic — first the positive model, now the cautionary one. In practice: humanity divides into two trajectories — one toward light/freedom, one toward darkness/bondage. This verse frames the rest of the chapter as a warning against the asuri path."
-    },
-    {
-      "verse": 7,
-      "sanskrit": "असुर्यं प्रवृत्तिं न विदुर्न च निवृत्तिं च भारत |\nन शौचमस्ति नापि चाचारो न सत्यं तेषु विद्यते ||",
-      "transliteration": "āsuryaṁ pravṛttiṁ na vidur na ca nivṛttiṁ ca bhārata\nna śaucam asti nāpi cācāro na satyaṁ teṣu vidyate",
-      "translation": "Those who are demoniac do not know what is to be done and what is not to be done. Neither cleanliness nor proper behavior nor truth is found in them.",
-      "modern": "The demonic do not know right action from wrong, lack purity, proper conduct, and truth. Krishna lists the foundational defects. In practice: moral confusion, impurity (physical/mental), unethical behavior, dishonesty — these are the roots of the asuri nature. This is not judgment — it is observation. Krishna is showing how disconnection from dharma manifests."
-    },
-    {
-      "verse": 8,
-      "sanskrit": "असत्यमप्रतिष्ठं ते जगदाहुरनीश्वरम् |\nअपरस्परसम्भूतं किमन्यत्कामहैतुकम् ||",
-      "transliteration": "asatyam apratiṣṭhaṁ te jagad āhur anīśvaram\naparaspara-sambhūtaṁ kim anyat kāma-haitukam",
-      "translation": "They say that this world is unreal, with no foundation, no God in control. It is produced of sex desire and has no cause other than lust.",
-      "modern": "The demonic worldview: the world is false, baseless, godless, born only of lust, driven by desire alone. This is pure materialism/nihilism. In 2026 terms: 'life is just biology + chance + hedonism — no meaning, no higher power, no accountability.' Krishna is describing the philosophical foundation of the asuri nature — rejection of the Divine and ultimate meaning. This worldview naturally produces the behaviors that follow."
-    },
-    {
-      "verse": 9,
-      "sanskrit": "एतां दृष्टिमवष्टभ्य नष्टात्मानोऽल्पबुद्धयः |\nप्रभवन्त्युग्रकर्माणः क्षयाय जगतोऽहिताः ||",
-      "transliteration": "etāṁ dṛṣṭim avaṣṭabhya naṣṭātmāno ’lpa-buddhayaḥ\nprabhavanty ugra-karmāṇaḥ kṣayāya jagato ’hitāḥ",
-      "translation": "Following such a view, the demoniac, who are lost to themselves and have little intelligence, engage in unbeneficial, horrible works meant to destroy the world.",
-      "modern": "Embracing this vision, the demonic — self-lost, small-minded — perform cruel actions that harm and destroy the world. In practice: when meaning is denied, destruction follows — selfish, violent, exploitative behavior. Krishna is explaining cause-effect: reject the Divine → lose self → low intelligence → harmful actions. This verse warns of the societal danger of widespread demonic mentality."
-    },
-    {
-      "verse": 10,
-      "sanskrit": "काममाश्रित्य दुष्पूरं दम्भमानमदान्विताः |\nमोहात् गृहीत्वासद्ग्राह्यान् प्रवर्तन्तेऽशुचिव्रताः ||",
-      "transliteration": "kāmam āśritya duṣpūraṁ dambha-māna-madānvitāḥ\nmohāt gṛhītvāsad-grāhān pravartante ’śuci-vratāḥ",
-      "translation": "Taking shelter of insatiable lust, hypocrisy, pride and arrogance, the deluded demonic engage in unclean vows and actions.",
-      "modern": "Fueled by endless desire, pretense, pride, intoxication — deluded, they follow impure principles. In practice: insatiable craving + ego-posturing + arrogance = unethical, impure behavior. Krishna is showing how inner demonic traits manifest outwardly as immoral vows/actions. This is the psychology of corruption — desire without limit breeds hypocrisy and degradation."
-    },
-    {
-      "verse": 11,
-      "sanskrit": "चिन्तामपरिमेयां च प्रलयान्तामुपाश्रिताः |\nकामोपभोगपरमा एतावदिति निश्चिताः ||",
-      "transliteration": "cintām aparimeyāṁ ca pralayāntām upāśritāḥ\nkāmopabhoga-paramā etāvad iti niścitāḥ",
-      "translation": "They believe that to gratify the senses is the prime necessity of human civilization. Thus until the end of life their anxiety is immeasurable.",
-      "modern": "They think sense gratification is the highest goal of life — anxiety without limit until death. This is hedonistic materialism. In practice: 'eat, drink, enjoy, post, repeat' — endless craving creates endless worry. Krishna is describing the modern pursuit of pleasure as ultimate meaning — it produces perpetual anxiety. This verse diagnoses the root of collective restlessness."
-    },
-    {
-      "verse": 12,
-      "sanskrit": "आशापाशशतैर्बद्धाः कामक्रोधपरायणाः |\nईहन्ते कामभोगार्थमनन्यार्थार्थसंयुताः ||",
-      "transliteration": "āśā-pāśa-śatair baddhāḥ kāma-krodha-parāyaṇāḥ\nīhante kāma-bhogārtham ananyārthārtha-saṁyutāḥ",
-      "translation": "Bound by a network of hundreds of desires and absorbed in lust and anger, they strive to accumulate wealth by illegal means for sense gratification.",
-      "modern": "Tied by countless hopes, driven by lust & anger, they pursue wealth by unjust means for enjoyment. In practice: greed + rage → unethical accumulation → more desire → more bondage. Krishna is showing the vicious cycle of materialism. This verse explains much of modern corruption — desire and anger fuel illegal/unfair pursuit of pleasure."
-    },
-    {
-      "verse": 13,
-      "sanskrit": "इदमद्य मया लब्धमिदं प्राप्स्ये मनोरथम् |\nइदमस्तीदमपि मे भविष्यति पुनर्धनम् ||",
-      "transliteration": "idam adya mayā labdham idaṁ prāpsye manoratham\nidam astīdam api me bhaviṣyati punar dhanam",
-      "translation": "The demoniac person thinks: 'So much wealth do I have today, and I will gain more according to my schemes. So much is mine now, and it will increase in the future, more and more.'",
-      "modern": "The demonic mindset: 'I have this much today, I’ll get what I want; this is mine now, and more will come.' This is endless accumulation mentality. In practice: the illusion of security through more — more money, more status, more stuff. Krishna is exposing the delusion: there is never enough. This verse captures the inner monologue of greed."
-    },
-    {
-      "verse": 14,
-      "sanskrit": "असौ मया हतः शत्रुरहं हनिष्ये चापरान् |\nअहं भोक्ता सिद्धोऽहं बलवान् सुखी च न ||",
-      "transliteration": "asau mayā hataḥ śatrur ahaṁ haniṣye cāparān\nahaṁ bhoktā siddho ’haṁ balavān sukhī ca na",
-      "translation": "He thinks: 'I have killed this enemy, and I shall kill others also. I am the lord, I am the enjoyer, I am perfect, powerful and happy.'",
-      "modern": "The demonic ego: 'I destroyed this rival, I’ll destroy others; I am the master, the enjoyer, successful, strong, happy.' This is pure narcissism. In practice: the illusion of control, domination, self-sufficiency. Krishna is showing the inner voice of asuri pride — everything is about 'me winning.' This mindset leads to destruction of self and others."
-    },
-    {
-      "verse": 15,
-      "sanskrit": "आढ्योऽभिजनवानस्मि कोऽन्योऽस्ति सदृशो मया |\nयक्ष्ये दास्यामि मोदिष्य इत्यज्ञानविमोहिताः ||",
-      "transliteration": "āḍhyo ’bhijanavān asmi ko ’nyo ’sti sadṛśo mayā\nyakṣye dāsyāmi modiṣya ity ajñāna-vimohitāḥ",
-      "translation": "The deluded are bewildered by ignorance and think: 'I am so wealthy and aristocratic. Who else is equal to me? I shall perform sacrifices, I shall give charity, and I shall rejoice.'",
-      "modern": "Deluded by ignorance: 'I am rich and high-born — who compares to me? I’ll do rituals, give charity, enjoy.' This is arrogant self-worship disguised as virtue. In practice: using wealth/status for show — 'look at my generosity' — while remaining self-centered. Krishna exposes performative spirituality and philanthropy driven by ego."
-    },
-    {
-      "verse": 16,
-      "sanskrit": "अनेकचित्तविभ्रान्ता मोहजालसमावृताः |\nप्रसक्ताः कामभोगेषु पतन्ति नरकेऽशुचौ ||",
-      "transliteration": "aneka-citta-vibhrāntā moha-jāla-samāvṛtāḥ\nprasaktāḥ kāma-bhogeṣu patanti narake ’śucau",
-      "translation": "Thus perplexed by various anxieties and bound by a network of illusions, they become too strongly attached to sense enjoyment and fall down into hell.",
-      "modern": "Confused by many thoughts, trapped in illusion, addicted to pleasure — they fall into impure hellish conditions. This is the destination of the demonic path. In practice: scattered mind + delusion + sense addiction = self-created hell (here and hereafter). Krishna is showing the end result of asuri life — inner chaos and outer suffering."
-    },
-    {
-      "verse": 17,
-      "sanskrit": "आत्मसंभाविताः स्तब्धा धनमानमदान्विताः |\nयजन्ते नामयज्ञैस्ते दम्भेनाविधिपूर्वकम् ||",
-      "transliteration": "ātma-saṁbhāvitāḥ stabdhā dhana-māna-madānvitāḥ\nyajante nāma-yajñais te dambhenāvidhi-pūrvakam",
-      "translation": "Self-complacent and always impudent, bewildered by wealth and false prestige, they sometimes perform sacrifices in name only, with ostentatious show and without following the rules.",
-      "modern": "Self-satisfied, arrogant, intoxicated by wealth & pride — they perform so-called sacrifices ostentatiously, without proper method. This is hypocritical religion. In practice: showy charity, performative spirituality, rituals for status — not genuine devotion. Krishna exposes ego-driven 'worship' as demonic."
-    },
-    {
-      "verse": 18,
-      "sanskrit": "अहङ्कारं बलं दर्पं कामं क्रोधं च संश्रिताः |\nमामात्मपरदेहेषु प्रद्विषन्तोऽभ्यसूयकाः ||",
-      "transliteration": "ahaṅkāraṁ balaṁ darpaṁ kāmaṁ krodhaṁ ca saṁśritāḥ\nmām ātma-para-deheṣu pradviṣanto ’bhyasūyakāḥ",
-      "translation": "Bewildered by false ego, strength, pride, lust and anger, the demons become envious of the Supreme Lord, who is situated in their own bodies and in the bodies of others.",
-      "modern": "Embracing ego, power, pride, desire, anger — they envy and hate Me, who resides in their own bodies and in all others. This is the core demonic fault — envy of the Divine within. In practice: arrogance + lust + anger → resentment toward God (in self and others). Krishna is revealing the deepest asuri defect — hatred of the indwelling Supreme. This turns inward violence outward."
-    },
-    {
-      "verse": 19,
-      "sanskrit": "तानहं द्विषतः क्रूरान् संसारेषु नराधमान् |\nक्षिपाम्यजस्रमशुभानासुरीष्वेव योनिषु ||",
-      "transliteration": "tān ahaṁ dviṣataḥ krūrān saṁsāreṣu narādhamān\nkṣipāmy ajasram aśubhān āsurīṣv eva yoniṣu",
-      "translation": "Those who are envious and mischievous, who are the lowest among men, I perpetually cast into the demonic species of life in the various hellish worlds.",
-      "modern": "Those who hate Me, are cruel, the lowest of men — I repeatedly cast them into demonic births in hellish conditions. This is karmic consequence. In practice: persistent envy/hatred of the Divine leads to lower births. Krishna is not punishing — He is stating natural consequence. This verse warns of the trajectory of the asuri path — repeated descent."
-    },
-    {
-      "verse": 20,
-      "sanskrit": "आसुरीं योनिमापन्ना मूढा जन्मनि जन्मनि |\nमामप्राप्यैव कौन्तेय ततो यान्त्यधमां गतिम् ||",
-      "transliteration": "āsurīṁ yonim āpannā mūḍhā janmani janmani\nmām aprāpyaiva kaunteya tato yānty adhamāṁ gatim",
-      "translation": "Attaining repeated demonic births, the bewildered, never attaining Me, O son of Kunti, sink to the most abominable forms of existence.",
-      "modern": "Born again and again as demonic, deluded, never reaching Me — they sink to the lowest states. This is the final destination of the asuri path. In practice: repeated demonic births → progressive degradation. Krishna is showing the long-term outcome — disconnection from the Divine leads to ever-lower consciousness. This verse is a sobering warning — choose the divine path to avoid this fate."
-    },
-    {
-      "verse": 21,
-      "sanskrit": "त्रिविधं नरकस्येदं द्वारं नाशनमात्मनः |\nकामः क्रोधस्तथा लोभस्तस्मादेतत्त्रयं त्यजेत् ||",
-      "transliteration": "tri-vidhaṁ narakasyedaṁ dvāraṁ nāśanam ātmanaḥ\nkāmaḥ krodhas tathā lobhas tasmād etat trayaṁ tyajet",
-      "translation": "There are three gates leading to this hell — lust, anger, and greed. Every sane man should give these up, for they lead to the degradation of the soul.",
-      "modern": "Three gates to hell: lust (kāma), anger (krodha), greed (lobha) — abandon them, they destroy the self. This is the famous 'three gates to hell' verse. In practice: desire, rage, avarice — these three ruin everything. Krishna gives the practical antidote — renounce these three. This verse is direct moral guidance — cut these at the root to avoid downfall."
-    },
-    {
-      "verse": 22,
-      "sanskrit": "एतैर्विमुक्तः कौन्तेय तमोद्वारैस्त्रिभिर्नरः |\nआचरत्यात्मनः श्रेयस्ततो याति परां गतिम् ||",
-      "transliteration": "etair vimuktaḥ kaunteya tamo-dvārais tribhir naraḥ\nācaraty ātmanaḥ śreyas tato yāti parāṁ gatim",
-      "translation": "The man who has escaped these three gates of hell, O son of Kunti, performs acts conducive to self-realization and thus gradually attains the supreme destination.",
-      "modern": "Free from these three gates of darkness, one acts for self-good and gradually reaches the highest goal. This is the positive path. In practice: renounce lust, anger, greed → act for true welfare → ascend. Krishna is giving the upward trajectory — freedom from these three opens the divine path. This verse is encouragement — liberation is possible by closing these gates."
-    },
-    {
-      "verse": 23,
-      "sanskrit": "यः शास्त्रविधिमुत्सृज्य वर्तते कामकारतः |\nन स सिद्धिमवाप्नोति न सुखं न परां गतिम् ||",
-      "transliteration": "yaḥ śāstra-vidhim utsṛjya vartate kāma-kārataḥ\nna sa siddhim avāpnoti na sukhaṁ na parāṁ gatim",
-      "translation": "He who discards scriptural injunctions and acts according to his own whims attains neither perfection, nor happiness, nor the supreme goal.",
-      "modern": "Whoever rejects scriptural rules and follows personal desire achieves neither success, happiness, nor the highest goal. This is the warning against self-will. In practice: ignoring dharma (scriptural guidance) for whim leads to failure on all levels. Krishna is saying: desire unchecked by wisdom destroys everything. This verse emphasizes the necessity of shastra (authority) — personal desire alone misleads."
-    },
-    {
-      "verse": 24,
-      "sanskrit": "तस्माच्छास्त्रं प्रमाणं ते कार्याकार्यव्यवस्थितौ |\nज्ञात्वा शास्त्रविधानोक्तं कर्म कर्तुमिहार्हसि ||",
-      "transliteration": "tasmāc chāstraṁ pramāṇaṁ te kāryākārya-vyavasthitau\njñātvā śāstra-vidhānoktaṁ karma kartum ihārhasi",
-      "translation": "One should therefore understand what is duty and what is not duty by the regulations of the scriptures. Knowing such rules and regulations, one should act so that he may gradually be elevated.",
-      "modern": "Therefore let scripture be your authority in determining what should and should not be done. Understanding scriptural injunctions, act accordingly to rise gradually. This is the chapter’s final instruction. In practice: use shastra (authentic wisdom/teachings) as the guide for right/wrong. Krishna is saying: don’t follow personal desire — follow dharma. This leads to elevation. This verse ends the chapter with practical guidance — align with scriptural authority and progress steadily toward the Divine."
-    }
-  ]
+{
+"verse": 1,
+"sanskrit": "श्रीभगवानुवाच |\nअभयं सत्त्वसंशुद्धिर्ज्ञानयोगव्यवस्थितिः |\nदानं दमश्च यज्ञश्च स्वाध्यायस्तप आर्यवम् ||",
+"transliteration": "śrī-bhagavān uvāca\nabhayaṁ sattva-saṁśuddhir jñāna-yoga-vyavasthitiḥ\ndānaṁ damaś ca yajñaś ca svādhyāyas tapa ārjavam",
+"translation": "The Supreme Personality of Godhead said: Fearlessness purity of heart steadfastness in knowledge and yoga charity self-control performance of sacrifice study of the Vedas austerity and simplicity.",
+"millennial": "Krishna begins listing the divine qualities that lead to a godly life. These include fearlessness which means facing challenges without anxiety purity of heart that keeps intentions clean steadfastness in knowledge and yoga that gives firm focus on wisdom and practice charity that involves generous giving self-control that manages desires and impulses performance of sacrifice that dedicates actions to higher purpose study of the Vedas that seeks spiritual understanding austerity that practices disciplined simplicity and straightforward honesty. For people in their thirties balancing career ambitions and family responsibilities these qualities build a strong foundation for ethical living. For example practicing self-control helps manage work stress while charity through mentoring juniors creates fulfillment beyond material success. Detailed meaning: these traits cultivate inner strength and moral clarity guiding one toward liberation. They contrast with demoniac qualities described later. Practice: choose one quality like simplicity and apply it daily by reducing unnecessary possessions or commitments to experience greater peace.",
+"genz": "Krishna starts the list of divine traits for a godly life. These include fearlessness that faces life without panic purity of heart that keeps intentions clear steadfastness in knowledge and yoga that stays focused on wisdom and practice charity that shares generously self-control that handles cravings and impulses performance of sacrifice that offers actions to something higher study of the Vedas that pursues spiritual insight austerity that follows disciplined living and simplicity that stays straightforward. For young adults navigating social pressures and personal goals these qualities build real character. For example self-control helps resist endless scrolling while charity through supporting friends creates deeper connections. Detailed meaning: these traits develop inner power and ethical vision leading toward freedom. They stand against negative traits explained soon. Hack: pick one trait like austerity and practice it daily by setting healthy boundaries to feel more centered.",
+"genalpha": "Krishna begins the list of good qualities for a godly life. These include fearlessness that faces things without worry purity of heart that keeps feelings clean steadfastness in knowledge and yoga that stays strong in learning and practice charity that gives with kindness self-control that manages wants and urges performance of sacrifice that offers actions to something bigger study of the Vedas that learns spiritual wisdom austerity that lives with discipline and simplicity that stays honest and plain. For children learning to grow these qualities help become kind and strong. For example practicing self-control means waiting for your turn without getting upset while charity means sharing toys happily. Detailed meaning: these good ways build a pure heart and clear mind leading to happiness. They are opposite to bad qualities told later. Practice: choose one quality like kindness and use it every day by helping a friend."
+},
+{
+"verse": 2,
+"sanskrit": "अहिंसा सत्यमक्रोधस्त्यागः शान्तिरपैशुनम् |\nदया भूतेष्वलोलुपत्वं मार्दवं ह्रीरचापलम् ||",
+"transliteration": "ahiṁsā satyam akrodhas tyāgaḥ śāntir apaiśunam\ndayā bhūteṣv aloluptvaṁ mārdavaṁ hrīr acāpalam",
+"translation": "Nonviolence truthfulness freedom from anger renunciation peacefulness aversion to faultfinding compassion for all living entities freedom from greed gentleness modesty and determination.",
+"millennial": "Krishna continues the divine qualities. These include nonviolence that avoids harm to any being truthfulness that speaks honestly freedom from anger that stays calm renunciation that lets go of unnecessary things peacefulness that maintains inner calm aversion to faultfinding that avoids criticizing others compassion for all living entities that shows kindness to everyone freedom from greed that remains content gentleness that acts softly modesty that stays humble and determination that holds firm in purpose. For people in their thirties navigating professional and personal relationships these traits foster harmony and integrity. For example practicing nonviolence and compassion in team interactions builds trust while freedom from greed prevents unethical shortcuts. Detailed meaning: these virtues purify the heart and promote ethical conduct. They support spiritual growth and positive influence. Practice: apply one quality like truthfulness in daily communication to strengthen character.",
+"genz": "Krishna keeps listing divine traits. These include nonviolence that harms no one truthfulness that speaks real freedom from anger that stays chill renunciation that drops extra stuff peacefulness that keeps calm aversion to faultfinding that skips judging compassion for all living entities that shows care to everyone freedom from greed that stays satisfied gentleness that acts soft modesty that stays humble and determination that holds strong. For young adults in social and work scenes these traits build good energy and trust. For example practicing compassion and nonviolence in chats creates better bonds while freedom from greed avoids toxic chasing. Detailed meaning: these build pure heart and right actions. They help spiritual progress and positive impact. Hack: use one trait like truthfulness in daily talks to grow stronger.",
+"genalpha": "Krishna continues the good qualities. These include nonviolence that never hurts anyone truthfulness that always tells the truth freedom from anger that stays peaceful renunciation that gives up extra things peacefulness that keeps quiet inside aversion to faultfinding that does not point at others mistakes compassion for all living entities that feels kind to everyone freedom from greed that feels happy with what has gentleness that acts softly modesty that stays humble and determination that stays firm. For children learning to be good these qualities help become kind and strong. For example practicing nonviolence means playing without hurting and compassion means helping a sad friend. Detailed meaning: these good ways make heart pure and actions right. They lead to happy growth."
+},
+{
+"verse": 3,
+"sanskrit": "तेजः क्षमा धृतिः शौचमद्रोहो नातिमानिता |\nभवन्ति सम्पदं दैवीमभिजातस्य भारत ||",
+"transliteration": "tejaḥ kṣamā dhṛtiḥ śaucam adroho nātimānitā\nbhavanti sampadaṁ daivīm abhijātasya bhārata",
+"translation": "Vigor forgiveness fortitude cleanliness freedom from envy and freedom from the passion for honor these are the qualities of those born with divine nature O descendant of Bharata.",
+"millennial": "Krishna completes the list of divine qualities. These include vigor that brings enthusiasm forgiveness that lets go of hurts fortitude that endures difficulties cleanliness that maintains purity freedom from envy that stays content and freedom from the passion for honor that avoids seeking praise. For people in their thirties building careers and families these traits support leadership and harmony. For example practicing forgiveness in family conflicts and fortitude in challenges leads to stronger relationships. Detailed meaning: these qualities mark divine nature and bring success. They complement earlier traits for complete character. Practice: cultivate vigor through positive habits and forgiveness in daily interactions.",
+"genz": "Krishna finishes the divine traits. These include vigor that gives energy forgiveness that releases hurts fortitude that handles tough times cleanliness that keeps pure freedom from envy that stays satisfied and freedom from craving honor that skips seeking praise. For young adults in teams or social life these traits build strong presence and peace. For example practicing forgiveness in arguments and fortitude in setbacks creates better bonds. Detailed meaning: these mark divine nature and bring wins. They complete the list for full character. Hack: build vigor with good routines and forgiveness in talks.",
+"genalpha": "Krishna completes the good qualities. These include vigor that brings energy forgiveness that lets go of hurts fortitude that bears hard times cleanliness that stays pure freedom from envy that feels happy with own things and freedom from wanting praise that stays humble. For children learning to play these qualities help become strong and kind. For example practicing forgiveness when a friend takes a toy and fortitude when things are hard makes play happy. Detailed meaning: these good ways show divine nature and bring success."
+},
+{
+"verse": 4,
+"sanskrit": "दम्भो दर्पोऽभिमानश्च क्रोधः पारुष्यमेव च |\nअज्ञानं चाभिजातस्य पार्थ सम्पदमासुरीम् ||",
+"transliteration": "dambho darpo ’bhimānaś ca krodhaḥ pāruṣyam eva ca\najñānaṁ cābhijātasya pārtha sampadam āsurīm",
+"translation": "Pride arrogance conceit anger harshness and ignorance these are the qualities of those born with demoniac nature O son of Pṛthā.",
+"millennial": "Krishna now lists the demoniac qualities. These include pride that seeks attention arrogance that looks down on others conceit that overestimates self anger that reacts harshly harshness that speaks cruelly and ignorance that avoids truth. For adults this serves as a warning against negative traits. For example arrogance in leadership can damage team morale while anger in arguments escalates conflicts. Detailed meaning: these qualities mark demoniac nature and lead to suffering. They contrast with divine traits. Practice: observe and replace demoniac tendencies with divine ones daily.",
+"genz": "Krishna lists the demoniac traits. These include pride that craves spotlight arrogance that puts others down conceit that overrates self anger that lashes out harshness that speaks mean and ignorance that skips truth. For young adults this warns against bad vibes. For example arrogance in groups hurts connections while anger in chats blows up drama. Detailed meaning: these mark demoniac nature and bring pain. They oppose divine traits. Hack: spot and swap demoniac habits with divine ones.",
+"genalpha": "Krishna lists the bad qualities. These include pride that wants attention arrogance that looks down conceit that thinks too much of self anger that gets mad harshly harshness that says mean things and ignorance that does not learn truth. For children this shows what to avoid. For example anger that shouts at friends makes play sad while pride that brags hurts sharing. Detailed meaning: these bad ways mark demon nature and cause hurt. They are opposite to good traits."
+},
+{
+"verse": 5,
+"sanskrit": "दैवी सम्पद्विमोक्षाय निबन्धायासुरी मता |\nमा शुचः सम्पदं दैवीमभिजातोऽसि पाण्डव ||",
+"transliteration": "daivī sampad vimokṣāya nibandhāyāsurī matā\nmā śucaḥ sampadaṁ daivīm abhijāto ’si pāṇḍava",
+"translation": "The divine qualities lead to liberation while the demoniac qualities lead to bondage. Do not worry O son of Pāṇḍu for you are born with divine qualities.",
+"millennial": "Krishna reassures Arjuna. Divine qualities lead to liberation while demoniac ones cause bondage. He tells Arjuna not to worry because he is born with divine qualities. This verse encourages confidence in one's nature. For adults facing self-doubt this brings reassurance. For example recognizing divine traits in oneself during challenges builds resilience. Detailed meaning: divine path frees demoniac binds. This motivates cultivation of good qualities. Practice: affirm divine nature daily for motivation.",
+"genz": "Krishna reassures. Divine traits lead to freedom while demoniac ones cause chains. He says do not worry Arjuna you have divine traits. This verse gives confidence boost. For young adults facing doubt this brings encouragement. For example seeing good traits in self during tough times builds strength. Detailed meaning: divine frees demoniac binds. This pushes good habits. Hack: affirm divine nature daily.",
+"genalpha": "Krishna says good qualities lead to freedom while bad qualities lead to being stuck. Do not worry Arjuna you are born with good qualities. This verse makes you feel strong. For children this means good ways bring happy freedom. For example being kind leads to good friends. Detailed meaning: good leads free bad leads stuck."
+},
+{
+"verse": 6,
+"sanskrit": "द्वौ भूतसर्गौ लोकेऽस्मिन्दैव आसुर एव च |\nदैवो विस्तरशः प्रोक्त आसुरं पार्थ मे शृणु ||",
+"transliteration": "dvau bhūta-sargau loke ’smin daiva āsura eva ca\ndaivo vistaraśaḥ prokta āsuraṁ pārtha me śṛṇu",
+"translation": "There are two classes of beings in this world the divine and the demoniac. The divine has been described at length. Now hear from Me about the demoniac O son of Pṛthā.",
+"millennial": "Krishna states there are two types of beings divine and demoniac. He has detailed the divine and now will describe the demoniac. This verse sets up the contrast. For adults this helps self-assessment. For example evaluating traits against both lists guides personal development. Detailed meaning: two paths divine leads up demoniac down. This motivates choice. Practice: compare personal traits to lists for self-improvement.",
+"genz": "Krishna says two types in world divine and demoniac. Divine detailed now hear demoniac. This verse sets contrast. For young adults this helps self-check. For example matching traits to lists guides growth. Detailed meaning: two ways divine up demoniac down. This pushes choice. Hack: compare self to lists for improvement.",
+"genalpha": "Krishna says two kinds of people in world good divine and bad demoniac. Good described now hear bad. This verse shows two paths. For children this helps choose good ways. For example seeing good list and bad list helps pick kind actions. Detailed meaning: two types good leads happy bad leads sad."
+},
+{
+"verse": 7,
+"sanskrit": "प्रवृत्तिं च निवृत्तिं च जना न विदुरासुराः |\nन शौचं नापि चाचारो न सत्यं तेषु विद्यते ||",
+"transliteration": "pravṛttiṁ ca nivṛttiṁ ca janā na vidur āsurāḥ\nna śaucaṁ nāpi cācāro na satyaṁ teṣu vidyate",
+"translation": "Those who are demoniac do not know what is to be done and what is not to be done. Neither cleanliness nor proper behavior nor truth is found in them.",
+"millennial": "Krishna describes demoniac people. They do not know proper action or restraint lack cleanliness proper conduct and truthfulness. This shows moral confusion. For adults this warns against negative influences. For example associating with such traits leads to ethical lapses. Detailed meaning: demoniac lack discernment and virtue. This motivates divine path. Practice: cultivate cleanliness conduct and truth daily.",
+"genz": "Krishna says demoniac do not know right or wrong lack cleanliness good behavior and truth. This shows moral fog. For young adults this warns against bad circles. For example bad influences cause ethical slips. Detailed meaning: demoniac lack clarity and virtue. This pushes good path. Hack: build cleanliness behavior truth daily.",
+"genalpha": "Krishna says bad people do not know what to do and what not to do. They lack cleanliness good ways and truth. This shows confused heart. For children this helps avoid bad friends. For example bad friends teach wrong actions. Detailed meaning: bad lack right and clean."
+},
+{
+"verse": 8,
+"sanskrit": "असत्यमप्रतिष्ठं ते जगदाहुरनीश्वरम् |\nअपरस्परसम्भूतं किमन्यत्कामहैतुकम् ||",
+"transliteration": "asatyam apratiṣṭhaṁ te jagad āhur anīśvaram\naparaspara-sambhūtaṁ kim anyat kāma-haitukam",
+"translation": "They say that this world is unreal with no foundation no controller and is produced by random chance without any cause.",
+"millennial": "Krishna describes demoniac philosophy. They claim the world is unreal without foundation or controller born from chance without purpose. This shows materialistic denial. For adults this critiques atheistic views. For example believing life is random leads to meaninglessness. Detailed meaning: demoniac deny divine order. This motivates faith in higher. Practice: affirm divine control daily.",
+"genz": "Krishna says demoniac think world unreal no base no boss born from chance no reason. This shows material denial. For young adults this critiques no-God views. For example thinking life random causes emptiness. Detailed meaning: demoniac reject higher order. This pushes faith. Hack: affirm divine daily.",
+"genalpha": "Krishna says bad people think world not real no standing no boss born from nothing for no reason. This shows wrong thinking. For children this helps see God made world with purpose. For example world has rules from God not chance. Detailed meaning: bad deny God."
+},
+{
+"verse": 9,
+"sanskrit": "एतां दृष्टिमवष्टभ्य नष्टात्मानोऽल्पबुद्धयः |\nप्रभवन्त्युग्रकर्माणः क्षयाय जगतोऽहिताः ||",
+"transliteration": "etāṁ dṛṣṭim avaṣṭabhya naṣṭātmāno ’lpa-buddhayaḥ\nprabhavanty ugra-karmāṇaḥ kṣayāya jagato ’hitāḥ",
+"translation": "Following such conclusions the demoniac who are lost to themselves and have little intelligence engage in harmful and cruel activities that lead to the destruction of the world.",
+"millennial": "Krishna describes consequences. Demon with lost self and little intelligence engage in harsh cruel actions causing world destruction. This shows danger of wrong philosophy. For adults this warns against unethical practices. For example corporate greed harming environment. Detailed meaning: wrong view leads to harmful acts. This motivates divine path. Practice: choose ethical actions daily.",
+"genz": "Krishna says demon with lost self and little smarts do cruel harmful acts destroying world. This shows danger of bad thinking. For young adults this warns against toxic trends. For example harmful online culture. Detailed meaning: wrong view causes damage. This pushes good path. Hack: choose kind actions daily.",
+"genalpha": "Krishna says bad people with lost heart and little smart do very cruel harmful things that destroy the world. This shows wrong thinking leads to bad. For children this helps see why being mean hurts everyone. For example hurting friends makes play sad. Detailed meaning: bad view makes bad actions."
+},
+{
+"verse": 10,
+"sanskrit": "काममाश्रित्य दुष्पूरं दम्भमानमदान्विताः |\nमोहग्राहेनात्मसंभूताः प्रभवन्त्युग्रकर्माणः ||",
+"transliteration": "kāmam āśritya duṣpūraṁ dambha-māna-madānvitāḥ\nmoha-grāheṇa ātma-sambhūtāḥ prabhavanty ugra-karmāṇaḥ",
+"translation": "Taking shelter of insatiable lust and absorbed in pride and false prestige they become deluded and engage in harsh and cruel activities.",
+"millennial": "Krishna describes demoniac behavior. They take shelter in endless lust filled with pride and conceit become deluded and perform cruel acts. This shows how desire and ego drive negativity. For adults this warns against unchecked ambition. For example pursuing endless wealth without ethics leads to harm. Detailed meaning: lust pride delusion cause cruelty. This motivates purity. Practice: replace lust with contentment.",
+"genz": "Krishna says demon take endless lust shelter full of pride and show become confused and do cruel acts. This shows desire ego cause bad. For young adults this warns against endless chasing. For example craving clout without ethics harms. Detailed meaning: lust pride confusion drive cruelty. This pushes clean path. Hack: swap lust for content.",
+"genalpha": "Krishna says bad people take shelter in never ending wanting full of pride and show become mixed up and do very mean things. This shows wanting and pride make bad. For children this helps see why wanting too much makes unhappy. For example wanting all candies makes tummy hurt. Detailed meaning: endless want and pride bring trouble."
+},
+{
+"verse": 11,
+"sanskrit": "चिन्तामपरिमेयां च प्रलयान्तामुपाश्रिताः ।\nकामोपभोगपरमा एतावदिति निश्चिताः ॥",
+"transliteration": "cintām aparimeyāṁ ca pralayāntām upāśritāḥ\nkāmopabhoga-paramā etāvad iti niścitāḥ",
+"translation": "They are full of insatiable anxiety that ends only at death. They consider sense gratification the supreme goal and believe that this is all there is.",
+"millennial": "Krishna describes how demoniac people live in constant worry that never ends until death. They focus only on enjoying their senses and firmly believe that material pleasure is the highest purpose of life. This verse shows a life trapped in endless desire without higher meaning. For people in their thirties managing careers and families this warns against chasing endless success or luxury that brings no peace. For example someone always worrying about the next promotion or bigger house may feel anxious all the time and miss real joy in relationships. Detailed meaning: such anxiety and sense focus create a hollow existence. This leads away from spiritual growth. Practice: replace constant worry with gratitude for what you already have to find inner calm.",
+"genz": "Krishna describes how demoniac people stay trapped in worry that lasts until death. They chase only sense pleasures and believe that enjoying material things is the whole point of life. This verse shows a life stuck in endless craving without deeper purpose. For young adults navigating trends and pressures this warns against chasing likes or status that never satisfy. For example someone always stressing over the next viral post or bigger following may feel empty and miss real connections. Detailed meaning: such constant anxiety and sense chasing create a shallow path. This pulls away from true peace. Hack: shift focus to meaningful experiences instead of endless wants to feel more grounded.",
+"genalpha": "Krishna says demoniac people live with worry that never stops until they die. They think only about enjoying their senses and believe that sense fun is the biggest thing in life. This verse shows a life full of wanting without real happiness. For children learning about choices this warns against always wanting more toys or games without sharing. For example a child who worries only about getting new things may feel sad inside even with many toys. Detailed meaning: endless worry and sense wanting make life empty. This leads away from kind and happy living. Practice: share your toys and feel thankful for what you have to stay joyful."
+},
+{
+"verse": 12,
+"sanskrit": "आशापाशशतैर्बद्धाः कामक्रोधपरायणाः ।\nईहन्ते कामभोगार्थमन्यायेनार्थसंचयान् ॥",
+"transliteration": "āśā-pāśa-śatair baddhāḥ kāma-krodha-parāyaṇāḥ\nīhante kāma-bhogārtham anyāyenārtha-saṁcayān",
+"translation": "They are bound by hundreds of chains of desire and are full of lust and anger. They strive to accumulate wealth by unjust means for the sake of sense gratification.",
+"millennial": "Krishna explains that demoniac people are tied by countless desires and driven by lust and anger. They work hard to gather wealth through unfair ways just to satisfy their senses. This verse reveals how desire leads to unethical actions. For people in their thirties building careers this warns against shortcuts that harm integrity. For example chasing quick profits through dishonest deals may bring temporary gain but creates long term regret. Detailed meaning: desire chains and anger push unfair accumulation for pleasure. This harms self and society. Practice: choose ethical paths in work and finances to avoid such bondage.",
+"genz": "Krishna says demoniac people are chained by endless wants and ruled by lust and anger. They hustle to pile up money through wrong ways just for sense fun. This verse shows desire leading to shady moves. For young adults chasing success this warns against quick schemes that hurt trust. For example building clout through fake posts may get short attention but damages real rep. Detailed meaning: want chains and anger drive unfair gains for pleasure. This traps and harms. Hack: stick to honest grinds in content or work to stay free.",
+"genalpha": "Krishna says bad people are tied by many wants and full of strong liking and anger. They try hard to collect money by unfair ways just to enjoy their senses. This verse shows wanting leads to wrong actions. For children learning right from wrong this warns against taking things without asking. For example wanting a toy so much that you grab it unfairly makes friends sad. Detailed meaning: many wants and anger push unfair collecting for fun. This makes trouble. Practice: ask nicely and share to stay happy."
+},
+{
+"verse": 13,
+"sanskrit": "इदमद्य मया लब्धमिमं प्राप्स्ये मनोरथम् ।\nइदमस्तीदमपि मे भविष्यति पुनर्धनम् ॥",
+"transliteration": "idam adya mayā labdham imaṁ prāpsye manoratham\nidam astīdam api me bhaviṣyati punar dhanam",
+"translation": "This has been gained by me today. I shall achieve this desire. This wealth is already mine and this will also become mine in the future.",
+"millennial": "Krishna shows the greedy thinking of demoniac people. They boast about what they have gained today plan to fulfill desires and claim all future wealth will be theirs. This verse reveals endless craving and possessiveness. For people in their thirties planning finances or careers this warns against material obsession. For example constantly thinking about the next big purchase or promotion without contentment leads to stress. Detailed meaning: such thoughts fuel greed and dissatisfaction. This keeps one trapped in material chase. Practice: practice gratitude for what you have now to break the cycle.",
+"genz": "Krishna shows the greedy mindset of demoniac people. They brag about todays gains plan to hit desires and claim all future money will be theirs. This verse reveals never ending want and ownership. For young adults chasing success this warns against material trap. For example always thinking about the next viral hit or bag without satisfaction creates pressure. Detailed meaning: such thoughts drive greed and unhappiness. This keeps one stuck in chase. Hack: list what you have now to feel content.",
+"genalpha": "Krishna shows how bad people think. They say this I got today. I will get this wish. This wealth is mine and more money will come to me later. This verse shows always wanting more and claiming things. For children this warns against always saying mine mine. For example wanting every toy without sharing makes play lonely. Detailed meaning: such thoughts make endless wanting. This keeps heart unhappy. Practice: say thank you for what you have."
+},
+{
+"verse": 14,
+"sanskrit": "असौ मया हतः शत्रुर्हनिष्ये चापरानपि ।\nईश्वरोऽहमहं भोगी सिद्धोऽहं बलवान्सुखी ॥",
+"transliteration": "asau mayā hataḥ śatrur haniṣye cāparān api\nīśvaro ’ham ahaṁ bhogī siddho ’haṁ balavān sukhī",
+"translation": "That enemy has been slain by me and I shall slay others also. I am the lord. I am the enjoyer. I am perfect. I am powerful and happy.",
+"millennial": "Krishna reveals the arrogant thinking of demoniac people. They claim to have destroyed enemies and plan to destroy more. They declare themselves as lord enjoyer perfect powerful and happy. This verse shows false ego and violence. For adults in competitive fields this warns against ruthless ambition. For example boasting about defeating rivals and planning more harm creates isolation. Detailed meaning: such thoughts feed violence and ego. This leads to downfall. Practice: replace arrogance with humility in achievements.",
+"genz": "Krishna shows the proud mindset of demoniac people. They say that enemy is gone by me and I will take down more. I am the boss. I am the enjoyer. I am perfect. I am strong and happy. This verse shows fake ego and harm. For young adults in social or work scenes this warns against cutthroat chasing. For example bragging about beating others and planning more shade creates enemies. Detailed meaning: such thoughts grow violence and ego. This leads to fall. Hack: swap pride with humble thanks in wins.",
+"genalpha": "Krishna shows how bad people think. They say that enemy is killed by me and I will kill others too. I am the lord. I am the enjoyer. I am perfect. I am strong and happy. This verse shows too much pride and hurting. For children this warns against saying I am the best and hurting friends. For example boasting about winning and planning to beat more makes play sad. Detailed meaning: such thoughts make hurting and pride. This brings trouble."
+},
+{
+"verse": 15,
+"sanskrit": "आद्योऽभिजनवानस्मि कोऽन्योऽस्ति सदृशो मया ।\nयक्ष्ये दास्यामि मोदिष्य इत्यज्ञानविमोहिताः ॥",
+"transliteration": "ādyo ’bhijanavān asmi ko ’nyo ’sti sadṛśo mayā\nyakṣye dāsyāmi modiṣya ity ajñāna-vimohitāḥ",
+"translation": "I am rich and born in a noble family. Who else is equal to me? I shall perform sacrifices. I shall give charity. I shall rejoice. Thus they are deluded by ignorance.",
+"millennial": "Krishna describes the boastful thinking of demoniac people. They claim to be wealthy from noble birth ask who matches them and plan sacrifices charity and enjoyment. This shows delusion by ignorance. For adults this warns against pride in status. For example boasting about background and planning lavish events without heart creates emptiness. Detailed meaning: such thoughts arise from ignorance and lead to false happiness. Practice: focus on inner qualities over external claims.",
+"genz": "Krishna shows the show off mindset of demoniac people. They claim rich and high birth ask who equals them and plan big sacrifices charity and fun. This shows confusion by ignorance. For young adults this warns against flexing status. For example boasting about family or wealth and planning flashy events without meaning feels hollow. Detailed meaning: such thoughts come from ignorance and bring fake joy. Hack: value inner growth over outer claims.",
+"genalpha": "Krishna says bad people think they are rich and from great family. Who else is like me? I will do big offerings. I will give gifts. I will enjoy. This shows they are mixed up by not knowing. For children this warns against saying I am the richest and best. For example boasting about toys and planning big shows without sharing feels lonely. Detailed meaning: such thoughts come from not knowing and bring empty fun."
+},
+{
+"verse": 16,
+"sanskrit": "अनेकचित्तविभ्रान्ता मोहजालसमावृताः ।\nप्रसक्ताः कामभोगेषु पतन्ति नरकेऽशुचौ ॥",
+"transliteration": "aneka-citta-vibhrāntā moha-jāla-samāvṛtāḥ\nprasaktāḥ kāma-bhogeṣu patanti narake ’śucau",
+"translation": "Bewildered by many thoughts covered by the net of delusion and attached to sense gratification they fall into a hell of impurity.",
+"millennial": "Krishna describes the fate of demoniac people. Bewildered by many thoughts trapped in delusion net and attached to sense pleasures they fall into impure hell. This verse shows the result of wrong living. For adults this warns against distraction and attachment. For example constant chasing of pleasures leads to inner emptiness. Detailed meaning: mental confusion and desire trap cause downfall. Practice: clear mind through focus on higher to avoid such traps.",
+"genz": "Krishna says demoniac people confused by many thoughts caught in delusion net and stuck on sense fun fall into dirty hell. This verse shows end of bad path. For young adults this warns against scattered mind and cravings. For example endless chasing of highs leads to low. Detailed meaning: thought chaos and desire net cause fall. Hack: focus mind on good to stay clear.",
+"genalpha": "Krishna says bad people mixed up by many thoughts covered by confusion net and stuck on sense fun fall into unclean sad place. This verse shows what happens to wrong ways. For children this warns against too much wanting fun. For example always wanting candy and games without rest makes sad. Detailed meaning: confused thoughts and wanting lead to trouble."
+},
+{
+"verse": 17,
+"sanskrit": "आत्मसंभाविताः स्तब्धा धनमानमदान्विताः ।\nयजन्ते नामयज्ञैस्ते दम्भेनाविधिपूर्वकम् ॥",
+"transliteration": "ātma-sambhāvitāḥ stabdhā dhana-māna-madānvitāḥ\nyajante nāma-yajñais te dambhena vidhi-pūrvakam",
+"translation": "Self conceited stubborn and filled with the intoxication of wealth and pride they perform sacrifices only in name and not according to any rules.",
+"millennial": "Krishna describes demoniac rituals. Self conceited stubborn and drunk with wealth and pride they perform sacrifices only for show without proper rules. This verse shows empty spirituality. For adults this warns against superficial practices. For example doing charity for image without heart brings no real merit. Detailed meaning: ego and pride make rituals fake. This leads to no benefit. Practice: perform actions with sincerity and proper method.",
+"genz": "Krishna says demoniac people full of self praise stubborn and high on money and ego do sacrifices only for name without rules. This verse shows fake spirituality. For young adults this warns against show off acts. For example posting charity for likes without real care brings no good. Detailed meaning: ego makes rituals empty. This gives no gain. Hack: do good with heart and right way.",
+"genalpha": "Krishna says bad people think too much of self stay stubborn and full of pride in money and name. They do offerings only for show without proper rules. This verse shows empty prayers. For children this warns against doing good just to show off. For example sharing toy only for praise without heart feels wrong. Detailed meaning: pride makes actions fake. This brings no real good."
+},
+{
+"verse": 18,
+"sanskrit": "अहंकारं बलं दर्पं कामं क्रोधं च संश्रिताः ।\nमामात्मपरदेहेषु प्रद्विषन्तोऽभ्यसूयकाः ॥",
+"transliteration": "ahaṁkāraṁ balaṁ darpaṁ kāmaṁ krodhaṁ ca saṁśritāḥ\nmām ātma-para-deheṣu pradviṣanto ’bhyasūyakāḥ",
+"translation": "Bewildered by false ego strength pride desire and anger they become envious of the Supreme Personality of Godhead who is situated in their own bodies and in the bodies of others.",
+"millennial": "Krishna describes demoniac hatred. Bewildered by ego power pride desire and anger they envy the divine present in their own and others bodies. This verse shows ultimate ignorance. For adults this warns against inner conflict. For example envying others success while ignoring divine in all creates unhappiness. Detailed meaning: ego and anger blind one to divine presence. This leads to enmity with God. Practice: cultivate respect for divine in self and others.",
+"genz": "Krishna says demoniac people confused by ego strength pride want and anger envy the divine in their own and others bodies. This verse shows deepest wrong. For young adults this warns against inner hate. For example envying friends glow while missing divine in all brings emptiness. Detailed meaning: ego anger block divine sight. This creates hate with source. Hack: respect divine in self and all.",
+"genalpha": "Krishna says bad people confused by proud self strong feeling pride wanting and anger hate the big God inside their own and others bodies. This verse shows very bad thinking. For children this warns against hating friends because of jealousy. For example feeling angry at a friend who has more toys misses the loving inside. Detailed meaning: pride and anger hide God inside everyone."
+},
+{
+"verse": 19,
+"sanskrit": "तानहं द्विषतः क्रूरान् संसारेषु नराधमान् ।\nक्षिपाम्यजस्रमशुभानासुरीष्वेव योनिषु ||",
+"transliteration": "tān ahaṁ dviṣataḥ krūrān saṁsāreṣu narādhamān\nkṣipāmy ajasram aśubhān āsurīṣv eva yoniṣu",
+"translation": "Those envious and cruel persons who are the lowest among men I cast them again and again into demonic species in this world.",
+"millennial": "Krishna states the consequence for envious cruel people. They are the lowest humans and He repeatedly places them in demonic births in this world. This verse shows karma of negativity. For adults this warns against harmful traits. For example repeated envy or cruelty leads to difficult life conditions. Detailed meaning: divine justice places negative souls in lower forms. This motivates positive change. Practice: replace envy with appreciation daily.",
+"genz": "Krishna says for envious cruel lowest people He throws them again into demon births here. This verse shows karma of bad. For young adults this warns against toxic traits. For example ongoing hate or harm brings tough loops. Detailed meaning: divine places negative in lower. This pushes good shift. Hack: swap envy for thanks daily.",
+"genalpha": "Krishna says those jealous and mean lowest people He sends them again into bad births in this world. This verse shows what happens to bad ways. For children this warns against being jealous or mean. For example always hating friends brings sad times again. Detailed meaning: bad actions bring bad places. Choose kind to stay happy."
+},
+{
+"verse": 20,
+"sanskrit": "आसुरीं योनिमापन्ना मूढा जन्मनि जन्मनि ।\nमामप्राप्यैव कौन्तेय ततो यान्त्यधमां गतिम् ||",
+"transliteration": "āsurīṁ yonim āpannā mūḍhā janmani janmani\nmām aprāpyaiva kaunteya tato yānty adhamāṁ gatim",
+"translation": "Attaining repeated demonic births the foolish never reach Me O son of Kuntī and they sink down to the lowest hellish existence.",
+"millennial": "Krishna describes the fate of demoniac souls. Foolish ones repeatedly take demonic births never reaching Him and sink to the lowest hell. This verse shows the ultimate result of negativity. For adults this motivates avoiding harmful paths. For example persistent cruelty or envy leads to spiritual downfall. Detailed meaning: repeated lower births prevent divine union. This encourages divine qualities. Practice: choose good actions to avoid such cycles.",
+"genz": "Krishna says foolish demoniac souls take demon births again never reaching Him and fall to lowest hell. This verse shows end of bad path. For young adults this motivates dropping toxic ways. For example ongoing hate or harm leads to spiritual low. Detailed meaning: repeated lower births block union. This pushes good choices. Hack: choose kind to rise.",
+"genalpha": "Krishna says foolish bad souls take bad births again and again never reaching Him and fall to the lowest sad place. This verse shows what happens to wrong ways. For children this motivates choosing good. For example always being mean leads to sad times. Detailed meaning: bad ways bring bad places again. Choose kind to go happy."
+},
+{
+"verse": 21,
+"sanskrit": "त्रिविधं नरकस्येदं द्वारं नाशनमात्मनः ।\nकामः क्रोधस्तथा लोभस्तस्मादेतत् त्रयं त्यजेत् ॥",
+"transliteration": "tri-vidhaṁ narakasyedaṁ dvāraṁ nāśanam ātmanaḥ\nkāmaḥ krodhas tathā lobhas tasmād etat trayaṁ tyajet",
+"translation": "There are three gates leading to this hell lust anger and greed. Every sane man should give these up for they lead to the degradation of the soul.",
+"millennial": "Krishna warns that lust anger and greed are the three gateways to hellish existence. These qualities destroy the soul and lead to spiritual downfall. Giving them up is essential for a healthy life. For people in their thirties who face daily pressures at work and home this verse serves as a practical guide. For example unchecked greed for promotions can cause unethical decisions while sudden anger in meetings damages relationships. Lust for material comforts might lead to neglecting family. Detailed meaning: these three create a destructive cycle that harms inner peace and progress. Releasing them opens the path to higher living. Practice: identify moments of lust anger or greed in daily life and consciously replace them with patience contentment and generosity.",
+"genz": "Krishna warns that lust anger and greed are the three doors to hell. These drain the soul and bring spiritual loss. Dropping them is key for real living. For young adults dealing with social media pressures and ambitions this verse gives clear advice. For example endless greed for likes can push fake content while quick anger in comments starts fights. Lust for trends might make one forget true values. Detailed meaning: these three form a harmful loop that kills inner calm and growth. Letting them go unlocks better vibes. Hack: spot lust anger or greed in daily scrolls and swap them with calm sharing and kindness.",
+"genalpha": "Krishna warns that wanting too much anger and greed are the three doors to a sad dark place. These hurt the soul and lead to bad paths. Giving them up is important for a good life. For children this verse helps understand why too much wanting or getting mad is not good. For example always wanting every toy can make you unhappy while anger at friends stops play. Detailed meaning: these three create trouble that harms the happy inside. Letting them go makes everything brighter. Practice: when you feel too much want or anger take a breath and choose to share or stay kind."
+},
+{
+"verse": 22,
+"sanskrit": "एतैर्विमुक्तः कौन्तेय तमोद्वारैस्त्रिभिर्नरः ।\nआचरत्यात्मनः श्रेयस्ततो याति परां गतिम् ॥",
+"transliteration": "etair vimuktaḥ kaunteya tamo-dvārais tribhir naraḥ\nācaraty ātmanaḥ śreyas tato yāti parāṁ gatim",
+"translation": "The man who has escaped these three gates of hell O son of Kuntī performs acts conducive to self realization and thus gradually attains the supreme destination.",
+"millennial": "Krishna explains the benefit of avoiding lust anger and greed. A person free from these three gates performs actions that support self realization and gradually reaches the highest goal. This verse shows the positive outcome of purity. For people in their thirties pursuing meaningful careers and relationships this encourages ethical living. For example choosing honesty over greed in business leads to long term success and inner satisfaction. Detailed meaning: freedom from these gates opens the path to higher evolution. Consistent good actions build toward liberation. Practice: replace negative impulses with positive choices daily to move toward the supreme.",
+"genz": "Krishna explains the win from avoiding lust anger and greed. A person free from these three doors does actions that help self growth and slowly reaches the top goal. This verse shows the good side of clean living. For young adults chasing purpose and connections this pushes right choices. For example picking truth over greed in projects brings real wins and calm. Detailed meaning: dropping these doors clears the way to higher levels. Steady good moves lead to freedom. Hack: swap bad urges with good actions daily to climb up.",
+"genalpha": "Krishna says the person free from these three sad doors does good things that help his own growth and slowly goes to the highest place. This verse shows the happy result of letting go bad feelings. For children this means staying away from too much wanting or anger helps you do kind things and feel very happy inside. For example choosing to share instead of grabbing brings friends and joy. Detailed meaning: freedom from bad doors opens good paths. Keep doing nice things to reach the best place."
+},
+{
+"verse": 23,
+"sanskrit": "यः शास्त्रविधिमुत्सृज्य वर्तते कामचारतः ।\nन स सिद्धिमवाप्नोति न सुखं न परां गतिम् ॥",
+"transliteration": "yaḥ śāstra-vidhim utsṛjya vartate kāma-cārataḥ\nna sa siddhim avāpnoti na sukhaṁ na parāṁ gatim",
+"translation": "He who discards scriptural injunctions and acts according to his own whims attains neither perfection nor happiness nor the supreme destination.",
+"millennial": "Krishna warns about ignoring guidance. A person who rejects scriptural rules and follows personal desires achieves no perfection happiness or highest goal. This verse emphasizes the importance of following higher principles. For people in their thirties making life choices this serves as a caution. For example ignoring ethical guidelines for quick gains leads to emptiness and setbacks. Detailed meaning: self willed actions without wisdom bring failure. Following dharma ensures success. Practice: consult spiritual or ethical wisdom before major decisions.",
+"genz": "Krishna warns against ignoring rules. A person who drops scriptural guidance and follows personal wants gets no success no joy and no top place. This verse stresses listening to higher wisdom. For young adults making moves this is a heads up. For example skipping good advice for instant fun brings regret and no real wins. Detailed meaning: self driven choices without insight cause loss. Following right path guarantees gains. Hack: check wisdom sources before big choices.",
+"genalpha": "Krishna says a person who throws away good rules and does whatever he wants gets no success no happiness and no highest place. This verse teaches to follow wise guidance. For children this means listening to parents and teachers instead of doing only what you like. For example ignoring bedtime rules for extra play brings tiredness and trouble. Detailed meaning: following own wants without good advice leads to no good. Listen to wise ones for happy results."
+},
+{
+"verse": 24,
+"sanskrit": "तस्माच्छास्त्रं प्रमाणं ते कार्याकार्यव्यवस्थितौ ।\nज्ञात्वा शास्त्रविधानोक्तं कर्म कर्तुमिहार्हसि ॥",
+"transliteration": "tasmāc chāstraṁ pramāṇaṁ te kāryākārya-vyavasthitau\njñātvā śāstra-vidhānoktaṁ karma kartum ihārhasi",
+"translation": "One should understand what is duty and what is not duty by the regulations of the scriptures. Knowing such rules and regulations one should act so that he may gradually be elevated.",
+"millennial": "Krishna gives the final instruction. Use scriptures as the standard to decide duty and non duty. Knowing these rules one should perform actions for gradual elevation. This verse provides practical guidance for life. For people in their thirties facing ethical dilemmas this offers a reliable compass. For example when choosing between a profitable but questionable deal and an honest path scriptures guide the right choice for long term growth. Detailed meaning: scriptural knowledge clarifies duty and leads to elevation. This ensures actions align with higher purpose. Practice: study relevant teachings before decisions to act wisely.",
+"genz": "Krishna gives the closing advice. Use scriptures as the measure to know duty and non duty. Knowing these rules one should do actions for steady rise. This verse is a life compass. For young adults in choices this gives clear direction. For example when picking between quick money or right path scriptures point to the better way for real progress. Detailed meaning: scriptural wisdom defines duty and brings growth. This keeps actions on track. Hack: check good teachings before moves to choose wisely.",
+"genalpha": "Krishna says use the holy rules to know what to do and what not to do. Knowing these good ways one should do actions to rise step by step. This verse gives clear help for choices. For children this means listen to wise teachings to know right from wrong. For example when deciding to share or keep a toy the rules help choose sharing. Detailed meaning: good rules show duty and help you grow. Follow them to be happy."
+}
+]
 }
