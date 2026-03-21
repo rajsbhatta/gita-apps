@@ -12,7 +12,7 @@ class GitaApp {
         this.pendingPersona = null;
         this.deferredPrompt = null;
         this.isInstalled = false;
-        this.isDailyVerse = false; // Track if viewing daily verse
+        this.isDailyVerse = false;
     }
 
     async init() {
@@ -59,9 +59,9 @@ class GitaApp {
             this.toggleTheme();
         });
 
-        // Refresh button
+        // Refresh button - UPDATED to show confirmation
         document.getElementById('refreshBtn').addEventListener('click', () => {
-            this.refreshData();
+            this.showRefreshConfirmation();
         });
 
         // Install button
@@ -417,13 +417,13 @@ class GitaApp {
 
         const personas = {
             'millennial': {
-                name: 'Adults',
+                name: 'Adult',
                 emoji: '👔',
                 age: '30+ years',
                 desc: 'Professional tone with career-focused examples, work-life balance insights, and mature perspectives on responsibility and leadership.'
             },
             'genz': {
-                name: 'Youths',
+                name: 'Youth',
                 emoji: '📱',
                 age: '15-30 years',
                 desc: 'Casual and honest language with social media references, mental health awareness, and authentic perspectives on modern challenges.'
@@ -459,8 +459,8 @@ class GitaApp {
         this.updatePersonaIcon();
         
         const names = {
-            'millennial': 'Adults',
-            'genz': 'Youths',
+            'millennial': 'Adult',
+            'genz': 'Youth',
             'genalpha': 'Kids'
         };
         
@@ -490,8 +490,8 @@ class GitaApp {
 
     getFlavorTitle() {
         const titles = {
-            'millennial': '👔 For Adults',
-            'genz': '📱 For Youths',
+            'millennial': '💼 For Adults',
+            'genz': '📱 For Youth',
             'genalpha': '🎮 For Kids'
         };
         return titles[this.flavor] || '📱 Modern Explanation';
@@ -523,7 +523,6 @@ class GitaApp {
             
             this.dailyShlokaInfo = { chapter: chapterNum, verse: verseNum };
             
-            // Show only Sanskrit - clickable (pass true for isDailyVerse)
             container.innerHTML = `
                 <div class="daily-shloka-content" onclick="app.showShloka(${chapterNum}, ${verseNum}, true)">
                     <div class="verse-reference">Chapter ${chapterNum}, Verse ${verseNum}</div>
@@ -616,7 +615,6 @@ class GitaApp {
         `;
     }
 
-    // Updated showShloka with isDailyVerse parameter
     async showShloka(chapterNum, verseNum, isDailyVerse = false) {
         this.showView('shloka');
         const container = document.getElementById('shlokaDetail');
@@ -637,14 +635,12 @@ class GitaApp {
         this.currentShloka = { chapter: chapterNum, verse: verseNum };
         this.isDailyVerse = isDailyVerse;
         
-        // Only save as last read if NOT daily verse
         if (!isDailyVerse) {
             this.saveLastRead(chapterNum, verseNum, chapter.title);
         }
 
         const isBookmarked = this.isBookmarked(chapterNum, verseNum);
 
-        // Navigation buttons only if NOT daily verse
         const navigationButtons = !isDailyVerse ? `
             <div style="margin-top: 1.5rem; display: flex; gap: 1rem; justify-content: space-between;">
                 ${verseNum > 1 ? `
@@ -869,7 +865,70 @@ class GitaApp {
         `).join('');
     }
 
-    // Refresh Data
+    // NEW: Show Refresh Confirmation
+    showRefreshConfirmation() {
+        const modalBody = document.getElementById('personaModalBody');
+        modalBody.innerHTML = `
+            <div class="refresh-warning">
+                <div class="warning-icon">⚠️</div>
+                <h4>Refresh Data?</h4>
+                <p class="warning-message">
+                    Your data will be refreshed and your progress will be reset. This will clear:
+                </p>
+                <ul class="warning-list">
+                    <li>📖 Continue Reading progress</li>
+                    <li>⭐ All bookmarks</li>
+                    <li>💾 Cached chapters</li>
+                </ul>
+                <p class="warning-note">
+                    <strong>Note:</strong> Your theme preference and explanation style will be preserved.
+                </p>
+                <p class="warning-question">Do you want to continue?</p>
+            </div>
+        `;
+        
+        // Show modal
+        document.getElementById('personaModal').classList.add('show');
+        
+        // Update button text and handlers
+        const cancelBtn = document.querySelector('.btn-secondary');
+        const confirmBtn = document.querySelector('.btn-primary');
+        
+        // Store original handlers
+        const originalCancelHandler = cancelBtn.onclick;
+        const originalConfirmHandler = confirmBtn.onclick;
+        
+        // Update button text
+        cancelBtn.textContent = 'Go Back';
+        confirmBtn.textContent = 'Continue';
+        
+        // Set new handlers
+        cancelBtn.onclick = () => {
+            this.closeRefreshConfirmation();
+            // Restore original handlers
+            cancelBtn.textContent = 'Cancel';
+            confirmBtn.textContent = 'Confirm';
+            cancelBtn.onclick = originalCancelHandler;
+            confirmBtn.onclick = originalConfirmHandler;
+        };
+        
+        confirmBtn.onclick = () => {
+            this.closeRefreshConfirmation();
+            this.refreshData();
+            // Restore original handlers
+            cancelBtn.textContent = 'Cancel';
+            confirmBtn.textContent = 'Confirm';
+            cancelBtn.onclick = originalCancelHandler;
+            confirmBtn.onclick = originalConfirmHandler;
+        };
+    }
+
+    // NEW: Close Refresh Confirmation
+    closeRefreshConfirmation() {
+        document.getElementById('personaModal').classList.remove('show');
+    }
+
+    // Refresh Data (existing function - no changes needed)
     async refreshData() {
         const refreshBtn = document.getElementById('refreshBtn');
         const refreshIcon = refreshBtn.querySelector('.refresh-icon');
@@ -893,9 +952,6 @@ class GitaApp {
             this.flavor = currentFlavor;
             localStorage.setItem('theme', this.theme);
             localStorage.setItem('flavor', this.flavor);
-            if (lastRead) {
-                localStorage.setItem('lastRead', JSON.stringify(lastRead));
-            }
             
             if ('serviceWorker' in navigator) {
                 const registrations = await navigator.serviceWorker.getRegistrations();
