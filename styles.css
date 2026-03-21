@@ -1267,12 +1267,12 @@ body {
 /* Email and links in content pages */
 .content-section a {
     color: var(--accent);
-    text-decoration: none;
-    font-weight: 600;
+    text-decoration: underline;
+    font-weight: 500;
     transition: all 0.2s;
 }
 
 .content-section a:hover {
-    text-decoration: underline;
-    opacity: 0.8;
+    color: #ff8844;
+    text-decoration: none;
 }
