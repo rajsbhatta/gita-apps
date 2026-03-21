@@ -3,7 +3,7 @@
   "subtitle": "Making Ancient Wisdom Accessible",
   "sections": [
     {
-      "heading": "Our Mission",
+      "heading": "The Mission",
       "content": "This app was created to make the profound wisdom of the Bhagavad Gita accessible to modern readers, especially younger generations who might find traditional translations difficult to connect with. We believe that ancient wisdom becomes most powerful when it speaks directly to the challenges and experiences of our current times."
     },
     {
@@ -16,14 +16,14 @@
     },
     {
       "heading": "Technology",
-      "content": "Built as a Progressive Web App (PWA), this application uses modern web technologies to provide a native app-like experience. It stores data locally using IndexedDB for offline access, employs service workers for caching, and is designed to be fast, responsive, and lightweight. The entire app, including all 18 chapters and 700 verses, is less than 1MB in size."
+      "content": "Built as a Progressive Web App (PWA), this application uses modern web technologies to provide a native app-like experience. It stores data locally using IndexedDB for offline access, employs service workers for caching, and is designed to be fast, responsive, and lightweight. The entire app, including all 18 chapters and 700 verses, is less than 0.5 MB in size."
     },
     {
       "heading": "Content Accuracy",
       "content": "While the modern explanations are adapted for contemporary readers, they remain faithful to the original teachings of the Bhagavad Gita. The Sanskrit verses, transliterations, and translations are based on widely accepted scholarly sources. The modern explanations aim to illuminate, not alter, the timeless wisdom contained in the original text."
     },
     {
-      "heading": "Open Source & Free",
+      "heading": "Completely Free",
       "content": "This app is completely free to use with no advertisements, no data collection, and no in-app purchases. The source code is open source, and contributions are welcome. We believe spiritual knowledge should be freely accessible to all, and technology should serve humanity's highest aspirations."
     },
     {
@@ -32,11 +32,11 @@
     },
     {
       "heading": "Feedback & Contact",
-      "content": "We continuously work to improve this app and welcome your feedback. If you encounter any issues, have suggestions for improvements, or would like to contribute translations or explanations, please reach out through the GitHub repository or send a mail to saurabh.appilyyours@gmail.com. Your input helps make this resource better for everyone."
+      "content": "We continuously work to improve this app and welcome your feedback. If you encounter any bug, issues, have suggestions for improvements, or would like to contribute translations or explanations, please send a mail to me at <a href='mailto:saurabh.appilyyours@gmail.com'>saurabh.appilyyours@gmail.com</a>. Your input helps make this resource better for everyone."
     },
     {
       "heading": "Acknowledgments",
-      "content": "Around 90% of the explanation is created using xAI's Grok and it stands on the shoulders of countless scholars, translators, and spiritual teachers who have preserved and transmitted the wisdom of the Bhagavad Gita through the ages. We are grateful to all those who have made this ancient text accessible to modern readers, and we hope this app continues that noble tradition."
+      "content": "Around 70% of the code is generated using Anthropic's Claude Sonnet 4.6 model. Also, around 90% of the explanation is created using xAI's Grok and it was trained on the works of Srila Prabhupada (ISKCON), Eknath Easwaran, Stephen Mitchell, Swami Sivananda and others. It is a homage to the countless scholars, translators, and spiritual teachers who have preserved and transmitted the wisdom of the Bhagavad Gita through the ages. We are grateful to all those who have made this ancient text accessible to modern readers, and we hope this app continues that noble tradition."
     }
   ]
 }
