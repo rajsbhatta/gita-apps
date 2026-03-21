@@ -497,7 +497,7 @@ class GitaApp {
         return titles[this.flavor] || '📱 Modern Explanation';
     }
 
-    // Daily Shloka - Shows only Sanskrit, clicking opens full verse
+    // Daily Shloka - COMPACT VERSION
     async showDailyShloka() {
         const container = document.getElementById('dailyShloka');
         
@@ -520,14 +520,21 @@ class GitaApp {
                 container.innerHTML = '<p>Verse not found</p>';
                 return;
             }
-            
+        
             this.dailyShlokaInfo = { chapter: chapterNum, verse: verseNum };
-            
+        
+            // Compact version - shorter Sanskrit preview
+            const sanskritPreview = shloka.sanskrit.length > 80 
+                ? shloka.sanskrit.substring(0, 80) + '...' 
+                : shloka.sanskrit;
+        
             container.innerHTML = `
-                <div class="daily-shloka-content" onclick="app.showShloka(${chapterNum}, ${verseNum}, true)">
-                    <div class="verse-reference">Chapter ${chapterNum}, Verse ${verseNum}</div>
-                    <div class="sanskrit-text">${shloka.sanskrit}</div>
-                    <div class="tap-hint">Tap to read full verse →</div>
+                <div class="daily-shloka-content-compact" onclick="app.showShloka(${chapterNum}, ${verseNum}, true)">
+                    <div class="daily-header">
+                        <span class="daily-label">📖 Today's Verse</span>
+                        <span class="daily-reference">Ch ${chapterNum}, V ${verseNum}</span>
+                    </div>
+                    <div class="sanskrit-text-compact">${sanskritPreview}</div>
                 </div>
             `;
         } catch (error) {
@@ -539,24 +546,26 @@ class GitaApp {
         }
     }
 
-    // Last Read Progress
+    // Last Read Progress - COMPACT VERSION
     showLastRead() {
         if (!this.lastRead) {
             document.getElementById('continueReading').style.display = 'none';
             return;
         }
-
+    
         const { chapter, verse, chapterTitle } = this.lastRead;
         const container = document.getElementById('lastReadCard');
         
         container.innerHTML = `
-            <div class="last-read-content" onclick="app.showShloka(${chapter}, ${verse}, false)">
-                <div class="last-read-icon">📖</div>
-                <div class="last-read-info">
-                    <div class="last-read-title">${chapterTitle}</div>
-                    <div class="last-read-verse">Verse ${verse}</div>
+            <div class="last-read-content-compact" onclick="app.showShloka(${chapter}, ${verse}, false)">
+                <div class="continue-header">
+                    <span class="continue-label">📚 Continue Reading</span>
+                    <span class="continue-arrow">→</span>
                 </div>
-                <div class="last-read-arrow">→</div>
+                <div class="continue-info">
+                    <span class="continue-title">${chapterTitle}</span>
+                    <span class="continue-verse">Verse ${verse}</span>
+                </div>
             </div>
         `;
         
