@@ -387,7 +387,7 @@ class GitaApp {
                 ${data.sections.map(section => `
                     <div class="content-section">
                         <h3>${section.heading}</h3>
-                        <p>${section.content}</p>
+                        <p class="content-with-links">${section.content}</p>
                     </div>
                 `).join('')}
             `;
