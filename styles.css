@@ -135,7 +135,7 @@ body {
     }
 }
 
-/* Install Banner (optional) */
+/* Install Banner */
 .install-banner {
     background: var(--accent);
     color: white;
@@ -391,6 +391,62 @@ body {
     background: var(--bg);
 }
 
+/* Refresh Warning Styles */
+.refresh-warning {
+    text-align: center;
+}
+
+.warning-icon {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.refresh-warning h4 {
+    font-size: 1.5rem;
+    color: var(--accent);
+    margin-bottom: 1rem;
+}
+
+.warning-message {
+    margin-bottom: 1rem;
+    color: var(--text);
+}
+
+.warning-list {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+    text-align: left;
+    background: var(--bg-secondary);
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+}
+
+.warning-list li {
+    padding: 0.5rem 0;
+    color: var(--text);
+}
+
+.warning-note {
+    background: var(--bg-secondary);
+    padding: 1rem;
+    border-radius: 8px;
+    margin: 1rem 0;
+    font-size: 0.9rem;
+    border-left: 3px solid var(--accent);
+}
+
+.warning-note strong {
+    color: var(--accent);
+}
+
+.warning-question {
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: var(--accent);
+    margin-top: 1.5rem;
+}
+
 /* Sidebar */
 .sidebar {
     position: fixed;
@@ -525,108 +581,113 @@ body {
     margin-bottom: 2rem;
 }
 
-/* Continue Reading Section */
-.continue-section {
-    background: var(--bg-card);
-    padding: 1.5rem;
-    border-radius: 12px;
-    margin-bottom: 2rem;
-    border-left: 4px solid var(--accent);
+/* COMPACT Continue Reading Section */
+.continue-section-compact {
+    margin-bottom: 1rem;
 }
 
-.continue-section h3 {
-    margin-bottom: 1rem;
+.last-read-card-compact {
+    background: var(--bg-card);
+    border-radius: 8px;
+    overflow: hidden;
+    border-left: 3px solid var(--accent);
+}
+
+.last-read-content-compact {
+    padding: 0.75rem 1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.last-read-content-compact:hover {
+    background: var(--bg-secondary);
+}
+
+.continue-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.4rem;
+}
+
+.continue-label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--accent);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.continue-arrow {
+    font-size: 1.2rem;
     color: var(--accent);
 }
 
-.last-read-card {
+.continue-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.continue-title {
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+
+.continue-verse {
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+}
+
+/* COMPACT Daily Shloka */
+.daily-shloka-compact {
+    background: var(--bg-card);
+    padding: 1rem;
+    border-radius: 12px;
+    margin-bottom: 1.5rem;
+}
+
+.shloka-card-compact {
     background: var(--bg-secondary);
     border-radius: 8px;
     overflow: hidden;
 }
 
-.last-read-content {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    padding: 1rem;
+.daily-shloka-content-compact {
+    padding: 0.75rem 1rem;
     cursor: pointer;
-    transition: background 0.2s;
+    transition: all 0.2s;
 }
 
-.last-read-content:hover {
-    background: var(--bg);
-}
-
-.last-read-icon {
-    font-size: 2rem;
-}
-
-.last-read-info {
-    flex: 1;
-}
-
-.last-read-title {
-    font-weight: 600;
-    margin-bottom: 0.3rem;
-}
-
-.last-read-verse {
-    color: var(--text-secondary);
-    font-size: 0.9rem;
-}
-
-.last-read-arrow {
-    font-size: 1.5rem;
-    color: var(--accent);
-}
-
-/* Daily Shloka */
-.daily-shloka {
+.daily-shloka-content-compact:hover {
     background: var(--bg-card);
-    padding: 1.5rem;
-    border-radius: 12px;
-    margin-bottom: 2rem;
+    transform: translateY(-1px);
 }
 
-.daily-shloka h3 {
-    margin-bottom: 1rem;
+.daily-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.daily-label {
+    font-size: 0.75rem;
+    font-weight: 600;
     color: var(--accent);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
 }
 
-.shloka-card {
-    background: var(--bg-secondary);
-    padding: 1.5rem;
-    border-radius: 8px;
-}
-
-.daily-shloka-content {
-    cursor: pointer;
-    transition: transform 0.2s;
-}
-
-.daily-shloka-content:hover {
-    transform: translateY(-2px);
-}
-
-.verse-reference {
+.daily-reference {
+    font-size: 0.75rem;
     color: var(--text-secondary);
-    font-size: 0.9rem;
-    margin-bottom: 1rem;
 }
 
-.sanskrit-text {
-    font-size: 1.3rem;
-    line-height: 1.8;
-    margin-bottom: 1rem;
-    font-weight: 500;
-}
-
-.tap-hint {
-    text-align: center;
-    color: var(--accent);
-    font-size: 0.9rem;
-    margin-top: 1rem;
+.sanskrit-text-compact {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: var(--text);
 }
 
 /* Expandable Action Buttons */
@@ -717,6 +778,56 @@ body {
     color: var(--text-secondary);
     font-size: 0.85rem;
     opacity: 0.7;
+}
+
+/* Content Pages (Introduction & About) */
+.content-page {
+    background: var(--bg-card);
+    padding: 2rem;
+    border-radius: 12px;
+}
+
+.content-title {
+    font-size: 2rem;
+    color: var(--accent);
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+.content-subtitle {
+    font-size: 1.2rem;
+    color: var(--text-secondary);
+    margin-bottom: 2rem;
+    text-align: center;
+    font-style: italic;
+}
+
+.content-section {
+    margin-bottom: 2.5rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--bg-secondary);
+}
+
+.content-section:last-child {
+    border-bottom: none;
+}
+
+.content-section h3 {
+    color: var(--accent);
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+.content-section p {
+    line-height: 1.8;
+    color: var(--text);
+    text-align: justify;
+}
+
+.error-message {
+    text-align: center;
+    color: var(--text-secondary);
+    padding: 2rem;
 }
 
 /* Chapters Grid */
@@ -842,6 +953,12 @@ body {
 .translation-section,
 .modern-explanation {
     margin-bottom: 2rem;
+}
+
+.sanskrit-text {
+    font-size: 1.3rem;
+    line-height: 1.8;
+    font-weight: 500;
 }
 
 .transliteration-text {
@@ -1104,7 +1221,7 @@ body {
         padding: 1.5rem;
     }
 
-    .persona-confirm-icon {
+    .persona-confirm-icon, .warning-icon {
         font-size: 3rem;
     }
 
@@ -1125,58 +1242,7 @@ body {
         width: 100%;
         margin-top: 0.5rem;
     }
-
-/* Content Pages (Introduction & About) */
-.content-page {
-    background: var(--bg-card);
-    padding: 2rem;
-    border-radius: 12px;
-}
-
-.content-title {
-    font-size: 2rem;
-    color: var(--accent);
-    margin-bottom: 0.5rem;
-    text-align: center;
-}
-
-.content-subtitle {
-    font-size: 1.2rem;
-    color: var(--text-secondary);
-    margin-bottom: 2rem;
-    text-align: center;
-    font-style: italic;
-}
-
-.content-section {
-    margin-bottom: 2.5rem;
-    padding-bottom: 2rem;
-    border-bottom: 1px solid var(--bg-secondary);
-}
-
-.content-section:last-child {
-    border-bottom: none;
-}
-
-.content-section h3 {
-    color: var(--accent);
-    font-size: 1.3rem;
-    margin-bottom: 1rem;
-}
-
-.content-section p {
-    line-height: 1.8;
-    color: var(--text);
-    text-align: justify;
-}
-
-.error-message {
-    text-align: center;
-    color: var(--text-secondary);
-    padding: 2rem;
-}
-
-@media (max-width: 768px) {
+    
     .content-page {
         padding: 1.5rem;
     }
@@ -1192,71 +1258,8 @@ body {
     .content-section h3 {
         font-size: 1.1rem;
     }
-}
-
-/* Refresh Warning Styles */
-.refresh-warning {
-    text-align: center;
-}
-
-.warning-icon {
-    font-size: 4rem;
-    margin-bottom: 1rem;
-}
-
-.refresh-warning h4 {
-    font-size: 1.5rem;
-    color: var(--accent);
-    margin-bottom: 1rem;
-}
-
-.warning-message {
-    margin-bottom: 1rem;
-    color: var(--text);
-}
-
-.warning-list {
-    list-style: none;
-    padding: 0;
-    margin: 1rem 0;
-    text-align: left;
-    background: var(--bg-secondary);
-    padding: 1rem 1.5rem;
-    border-radius: 8px;
-}
-
-.warning-list li {
-    padding: 0.5rem 0;
-    color: var(--text);
-}
-
-.warning-note {
-    background: var(--bg-secondary);
-    padding: 1rem;
-    border-radius: 8px;
-    margin: 1rem 0;
-    font-size: 0.9rem;
-    border-left: 3px solid var(--accent);
-}
-
-.warning-note strong {
-    color: var(--accent);
-}
-
-.warning-question {
-    font-weight: 600;
-    font-size: 1.1rem;
-    color: var(--accent);
-    margin-top: 1.5rem;
-}
-
-@media (max-width: 768px) {
-    .warning-icon {
-        font-size: 3rem;
-    }
     
-    .refresh-warning h4 {
-        font-size: 1.2rem;
+    .sanskrit-text-compact {
+        font-size: 0.95rem;
     }
-}
 }
