@@ -133,6 +133,12 @@ class GitaApp {
         });
     }
 
+    // Helper function to convert \n to <br>
+    formatText(text) {
+        if (!text) return '';
+        return text.replace(/\n/g, '<br>');
+    }
+
     // PWA Install Functionality
     setupInstallPrompt() {
         if (window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone === true) {
@@ -361,7 +367,7 @@ class GitaApp {
                 ${data.sections.map(section => `
                     <div class="content-section">
                         <h3>${section.heading}</h3>
-                        <p>${section.content.replace(/\\n/g, '<br>')}</p>
+                        <p>${this.formatText(section.content)}</p>
                     </div>
                 `).join('')}
             `;
@@ -387,7 +393,7 @@ class GitaApp {
                 ${data.sections.map(section => `
                     <div class="content-section">
                         <h3>${section.heading}</h3>
-                        <p>${section.content.replace(/\\n/g, '<br>')}</p>
+                        <p>${this.formatText(section.content)}</p>
                     </div>
                 `).join('')}
             `;
@@ -523,7 +529,7 @@ class GitaApp {
             
             this.dailyShlokaInfo = { chapter: chapterNum, verse: verseNum };
             
-            // Compact version - shorter Sanskrit preview with newline fix
+            // Compact version - shorter Sanskrit preview
             const sanskritPreview = shloka.sanskrit.length > 80 
                 ? shloka.sanskrit.substring(0, 80) + '...' 
                 : shloka.sanskrit;
@@ -534,7 +540,7 @@ class GitaApp {
                         <span class="daily-label">📖 Today's Verse</span>
                         <span class="daily-reference">Ch ${chapterNum}, V ${verseNum}</span>
                     </div>
-                    <div class="sanskrit-text-compact">${sanskritPreview.replace(/\\n/g, '<br>')}</div>
+                    <div class="sanskrit-text-compact">${this.formatText(sanskritPreview)}</div>
                 </div>
             `;
         } catch (error) {
@@ -611,20 +617,20 @@ class GitaApp {
             <div class="chapter-header">
                 <h2>Chapter ${chapter.number}: ${chapter.title}</h2>
                 <p class="chapter-sanskrit">${chapter.sanskrit}</p>
-                <p class="chapter-intro">${chapter.introduction.replace(/\\n/g, '<br>')}</p>
+                <p class="chapter-intro">${this.formatText(chapter.introduction)}</p>
             </div>
             <div class="verses-list">
                 ${chapter.shlokas.map(shloka => `
                     <div class="verse-item" onclick="app.showShloka(${chapter.number}, ${shloka.verse}, false)">
                         <div class="verse-num">Verse ${shloka.verse}</div>
-                        <div class="verse-preview">${shloka.sanskrit.substring(0, 100).replace(/\\n/g, ' ')}...</div>
+                        <div class="verse-preview">${shloka.sanskrit.substring(0, 100).replace(/\n/g, ' ')}...</div>
                     </div>
                 `).join('')}
             </div>
         `;
     }
 
-    // Updated showShloka with newline fixes for all fields
+    // showShloka with newline fixes for all fields
     async showShloka(chapterNum, verseNum, isDailyVerse = false) {
         this.showView('shloka');
         const container = document.getElementById('shlokaDetail');
@@ -676,27 +682,27 @@ class GitaApp {
 
                 <div class="sanskrit-section">
                     <div class="section-title">Sanskrit</div>
-                    <div class="sanskrit-text">${shloka.sanskrit.replace(/\\n/g, '<br>')}</div>
+                    <div class="sanskrit-text">${this.formatText(shloka.sanskrit)}</div>
                 </div>
 
                 ${shloka.transliteration ? `
                     <div class="transliteration-section">
                         <div class="section-title">Transliteration</div>
-                        <div class="transliteration-text">${shloka.transliteration.replace(/\\n/g, '<br>')}</div>
+                        <div class="transliteration-text">${this.formatText(shloka.transliteration)}</div>
                     </div>
                 ` : ''}
 
                 ${shloka.translation ? `
                     <div class="translation-section">
                         <div class="section-title">Translation</div>
-                        <div class="translation-text">${shloka.translation.replace(/\\n/g, '<br>')}</div>
+                        <div class="translation-text">${this.formatText(shloka.translation)}</div>
                     </div>
                 ` : ''}
 
                 ${this.getModernExplanation(shloka) ? `
                     <div class="modern-explanation">
                         <div class="section-title">${this.getFlavorTitle()}</div>
-                        <div class="modern-text">${this.getModernExplanation(shloka).replace(/\\n/g, '<br>')}</div>
+                        <div class="modern-text">${this.formatText(this.getModernExplanation(shloka))}</div>
                     </div>
                 ` : ''}
 
@@ -799,7 +805,7 @@ class GitaApp {
                         <span class="bookmark-ref">Chapter ${bm.chapter}, Verse ${bm.verse}</span>
                         <button class="remove-bookmark" onclick="event.stopPropagation(); app.toggleBookmark(${bm.chapter}, ${bm.verse}); app.showBookmarks();">×</button>
                     </div>
-                    <div class="bookmark-preview">${shloka.sanskrit.substring(0, 100).replace(/\\n/g, ' ')}...</div>
+                    <div class="bookmark-preview">${shloka.sanskrit.substring(0, 100).replace(/\n/g, ' ')}...</div>
                 </div>
             `;
         }));
@@ -870,7 +876,7 @@ class GitaApp {
         resultsContainer.innerHTML = results.map(r => `
             <div class="search-result-item" onclick="app.showShloka(${r.chapter}, ${r.verse}, false)">
                 <div class="result-ref">Chapter ${r.chapter}: ${r.chapterTitle} - Verse ${r.verse}</div>
-                <div class="result-preview">${r.text.substring(0, 100).replace(/\\n/g, ' ')}...</div>
+                <div class="result-preview">${r.text.substring(0, 100).replace(/\n/g, ' ')}...</div>
             </div>
         `).join('');
     }
