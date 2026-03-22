@@ -954,8 +954,22 @@ body {
 .modern-explanation {
     margin-bottom: 2rem;
 }
+/* Modern text wrapper for newlines */
 .modern-text {
     line-height: 1.8;
+}
+
+/* Email and links in content pages */
+.content-section a {
+    color: var(--accent);
+    text-decoration: underline;
+    font-weight: 500;
+    transition: all 0.2s;
+}
+
+.content-section a:hover {
+    color: #ff8844;
+    text-decoration: none;
 }
 
 .sanskrit-text {
