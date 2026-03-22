@@ -954,6 +954,9 @@ body {
 .modern-explanation {
     margin-bottom: 2rem;
 }
+.modern-text {
+    line-height: 1.8;
+}
 
 .sanskrit-text {
     font-size: 1.3rem;
