@@ -59,7 +59,7 @@ class GitaApp {
             this.toggleTheme();
         });
 
-        // Refresh button - UPDATED to show confirmation
+        // Refresh button - shows confirmation
         document.getElementById('refreshBtn').addEventListener('click', () => {
             this.showRefreshConfirmation();
         });
@@ -361,7 +361,7 @@ class GitaApp {
                 ${data.sections.map(section => `
                     <div class="content-section">
                         <h3>${section.heading}</h3>
-                        <p>${section.content}</p>
+                        <p>${section.content.replace(/\\n/g, '<br>')}</p>
                     </div>
                 `).join('')}
             `;
@@ -387,7 +387,7 @@ class GitaApp {
                 ${data.sections.map(section => `
                     <div class="content-section">
                         <h3>${section.heading}</h3>
-                        <p class="content-with-links">${section.content}</p>
+                        <p>${section.content.replace(/\\n/g, '<br>')}</p>
                     </div>
                 `).join('')}
             `;
@@ -497,7 +497,7 @@ class GitaApp {
         return titles[this.flavor] || '📱 Modern Explanation';
     }
 
-    // Daily Shloka - COMPACT VERSION
+    // Daily Shloka - COMPACT VERSION with newline fix
     async showDailyShloka() {
         const container = document.getElementById('dailyShloka');
         
@@ -520,21 +520,21 @@ class GitaApp {
                 container.innerHTML = '<p>Verse not found</p>';
                 return;
             }
-        
+            
             this.dailyShlokaInfo = { chapter: chapterNum, verse: verseNum };
-        
-            // Compact version - shorter Sanskrit preview
+            
+            // Compact version - shorter Sanskrit preview with newline fix
             const sanskritPreview = shloka.sanskrit.length > 80 
                 ? shloka.sanskrit.substring(0, 80) + '...' 
                 : shloka.sanskrit;
-        
+            
             container.innerHTML = `
                 <div class="daily-shloka-content-compact" onclick="app.showShloka(${chapterNum}, ${verseNum}, true)">
                     <div class="daily-header">
                         <span class="daily-label">📖 Today's Verse</span>
                         <span class="daily-reference">Ch ${chapterNum}, V ${verseNum}</span>
                     </div>
-                    <div class="sanskrit-text-compact">${sanskritPreview}</div>
+                    <div class="sanskrit-text-compact">${sanskritPreview.replace(/\\n/g, '<br>')}</div>
                 </div>
             `;
         } catch (error) {
@@ -552,7 +552,7 @@ class GitaApp {
             document.getElementById('continueReading').style.display = 'none';
             return;
         }
-    
+
         const { chapter, verse, chapterTitle } = this.lastRead;
         const container = document.getElementById('lastReadCard');
         
@@ -611,19 +611,20 @@ class GitaApp {
             <div class="chapter-header">
                 <h2>Chapter ${chapter.number}: ${chapter.title}</h2>
                 <p class="chapter-sanskrit">${chapter.sanskrit}</p>
-                <p class="chapter-intro">${chapter.introduction}</p>
+                <p class="chapter-intro">${chapter.introduction.replace(/\\n/g, '<br>')}</p>
             </div>
             <div class="verses-list">
                 ${chapter.shlokas.map(shloka => `
                     <div class="verse-item" onclick="app.showShloka(${chapter.number}, ${shloka.verse}, false)">
                         <div class="verse-num">Verse ${shloka.verse}</div>
-                        <div class="verse-preview">${shloka.sanskrit.substring(0, 100)}...</div>
+                        <div class="verse-preview">${shloka.sanskrit.substring(0, 100).replace(/\\n/g, ' ')}...</div>
                     </div>
                 `).join('')}
             </div>
         `;
     }
 
+    // Updated showShloka with newline fixes for all fields
     async showShloka(chapterNum, verseNum, isDailyVerse = false) {
         this.showView('shloka');
         const container = document.getElementById('shlokaDetail');
@@ -675,27 +676,27 @@ class GitaApp {
 
                 <div class="sanskrit-section">
                     <div class="section-title">Sanskrit</div>
-                    <div class="sanskrit-text">${shloka.sanskrit}</div>
+                    <div class="sanskrit-text">${shloka.sanskrit.replace(/\\n/g, '<br>')}</div>
                 </div>
 
                 ${shloka.transliteration ? `
                     <div class="transliteration-section">
                         <div class="section-title">Transliteration</div>
-                        <div class="transliteration-text">${shloka.transliteration}</div>
+                        <div class="transliteration-text">${shloka.transliteration.replace(/\\n/g, '<br>')}</div>
                     </div>
                 ` : ''}
 
                 ${shloka.translation ? `
                     <div class="translation-section">
                         <div class="section-title">Translation</div>
-                        <div class="translation-text">${shloka.translation}</div>
+                        <div class="translation-text">${shloka.translation.replace(/\\n/g, '<br>')}</div>
                     </div>
                 ` : ''}
 
                 ${this.getModernExplanation(shloka) ? `
                     <div class="modern-explanation">
                         <div class="section-title">${this.getFlavorTitle()}</div>
-                        ${this.getModernExplanation(shloka)}
+                        <div class="modern-text">${this.getModernExplanation(shloka).replace(/\\n/g, '<br>')}</div>
                     </div>
                 ` : ''}
 
@@ -798,7 +799,7 @@ class GitaApp {
                         <span class="bookmark-ref">Chapter ${bm.chapter}, Verse ${bm.verse}</span>
                         <button class="remove-bookmark" onclick="event.stopPropagation(); app.toggleBookmark(${bm.chapter}, ${bm.verse}); app.showBookmarks();">×</button>
                     </div>
-                    <div class="bookmark-preview">${shloka.sanskrit.substring(0, 100)}...</div>
+                    <div class="bookmark-preview">${shloka.sanskrit.substring(0, 100).replace(/\\n/g, ' ')}...</div>
                 </div>
             `;
         }));
@@ -869,12 +870,12 @@ class GitaApp {
         resultsContainer.innerHTML = results.map(r => `
             <div class="search-result-item" onclick="app.showShloka(${r.chapter}, ${r.verse}, false)">
                 <div class="result-ref">Chapter ${r.chapter}: ${r.chapterTitle} - Verse ${r.verse}</div>
-                <div class="result-preview">${r.text.substring(0, 100)}...</div>
+                <div class="result-preview">${r.text.substring(0, 100).replace(/\\n/g, ' ')}...</div>
             </div>
         `).join('');
     }
 
-    // NEW: Show Refresh Confirmation
+    // Refresh Confirmation
     showRefreshConfirmation() {
         const modalBody = document.getElementById('personaModalBody');
         modalBody.innerHTML = `
@@ -896,25 +897,19 @@ class GitaApp {
             </div>
         `;
         
-        // Show modal
         document.getElementById('personaModal').classList.add('show');
         
-        // Update button text and handlers
         const cancelBtn = document.querySelector('.btn-secondary');
         const confirmBtn = document.querySelector('.btn-primary');
         
-        // Store original handlers
         const originalCancelHandler = cancelBtn.onclick;
         const originalConfirmHandler = confirmBtn.onclick;
         
-        // Update button text
         cancelBtn.textContent = 'Go Back';
         confirmBtn.textContent = 'Continue';
         
-        // Set new handlers
         cancelBtn.onclick = () => {
             this.closeRefreshConfirmation();
-            // Restore original handlers
             cancelBtn.textContent = 'Cancel';
             confirmBtn.textContent = 'Confirm';
             cancelBtn.onclick = originalCancelHandler;
@@ -924,7 +919,6 @@ class GitaApp {
         confirmBtn.onclick = () => {
             this.closeRefreshConfirmation();
             this.refreshData();
-            // Restore original handlers
             cancelBtn.textContent = 'Cancel';
             confirmBtn.textContent = 'Confirm';
             cancelBtn.onclick = originalCancelHandler;
@@ -932,12 +926,11 @@ class GitaApp {
         };
     }
 
-    // NEW: Close Refresh Confirmation
     closeRefreshConfirmation() {
         document.getElementById('personaModal').classList.remove('show');
     }
 
-    // Refresh Data (existing function - no changes needed)
+    // Refresh Data
     async refreshData() {
         const refreshBtn = document.getElementById('refreshBtn');
         const refreshIcon = refreshBtn.querySelector('.refresh-icon');
@@ -955,7 +948,6 @@ class GitaApp {
             
             const currentTheme = this.theme;
             const currentFlavor = this.flavor;
-            const lastRead = this.lastRead;
             localStorage.clear();
             this.theme = currentTheme;
             this.flavor = currentFlavor;
