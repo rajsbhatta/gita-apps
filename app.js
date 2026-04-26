@@ -13,6 +13,8 @@ class GitaApp {
         this.deferredPrompt = null;
         this.isInstalled = false;
         this.isDailyVerse = false;
+        this.speechSynthesis = window.speechSynthesis;
+        this.isSpeaking = false;
     }
 
     async init() {
@@ -137,6 +139,96 @@ class GitaApp {
     formatText(text) {
         if (!text) return '';
         return text.replace(/\n/g, '<br>');
+    }
+
+    // Text-to-Speech functions
+    toggleReadAloud(text) {
+        if (this.isSpeaking) {
+            this.stopReading();
+        } else {
+            this.startReading(text);
+        }
+    }
+
+    startReading(text) {
+        // Stop any ongoing speech
+        this.speechSynthesis.cancel();
+    
+        // Remove HTML tags
+        const cleanText = text.replace(/<br>/g, '. ').replace(/<[^>]*>/g, '');
+    
+        const utterance = new SpeechSynthesisUtterance(cleanText);
+    
+        // Try to use Hindi voice if available, fallback to default
+        const voices = this.speechSynthesis.getVoices();
+        const hindiVoice = voices.find(voice => voice.lang.startsWith('hi'));
+        if (hindiVoice) {
+            utterance.voice = hindiVoice;
+        }
+    
+        utterance.rate = 0.9; // Slightly slower for clarity
+        utterance.pitch = 1.0;
+    
+        utterance.onstart = () => {
+            this.isSpeaking = true;
+            this.updateReadAloudButton(true);
+        };
+    
+        utterance.onend = () => {
+            this.isSpeaking = false;
+            this.updateReadAloudButton(false);
+        };
+    
+        utterance.onerror = () => {
+            this.isSpeaking = false;
+            this.updateReadAloudButton(false);
+            this.showToast('❌ Unable to read text');
+        };
+    
+        this.speechSynthesis.speak(utterance);
+    }
+
+    stopReading() {
+        this.speechSynthesis.cancel();
+        this.isSpeaking = false;
+        this.updateReadAloudButton(false);
+    }
+
+    updateReadAloudButton(isReading) {
+        const readBtn = document.getElementById('readAloudBtn');
+        if (readBtn) {
+            if (isReading) {
+                readBtn.innerHTML = '🔇 Stop Reading';
+                readBtn.classList.add('reading');
+            } else {
+                readBtn.innerHTML = '🔊 Read Aloud';
+                readBtn.classList.remove('reading');
+            }
+        }
+    }
+
+    // Get clean readable text for speech
+    getReadableText(shloka) {
+        let text = '';
+    
+        // Add Sanskrit
+        if (shloka.sanskrit) {
+            text += shloka.sanskrit + '. ';
+        }
+    
+        // Add Translation
+        if (shloka.translation) {
+            text += shloka.translation + '. ';
+        }
+    
+        // Add Modern Explanation
+        const modernText = this.getModernExplanation(shloka);
+        if (modernText) {
+            text += modernText;
+        }
+    
+        // Escape backticks for template literal
+        return text.replace(/`/g, '\\`').replace(/\n/g, '. ');
     }
 
     // PWA Install Functionality
@@ -711,11 +803,13 @@ class GitaApp {
                             onclick="app.toggleBookmark(${chapterNum}, ${verseNum})">
                         ${isBookmarked ? '⭐ Bookmarked' : '☆ Bookmark'}
                     </button>
+                    <button id="readAloudBtn" class="read-aloud-btn" onclick="app.toggleReadAloud(\`${this.getReadableText(shloka)}\`)">
+                        🔊 Read Aloud
+                    </button>
                     <button class="share-btn" onclick="app.shareShloka(${chapterNum}, ${verseNum})">
                         📤 Share
                     </button>
                 </div>
-
                 ${navigationButtons}
             </div>
         `;
