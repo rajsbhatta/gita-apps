@@ -15,6 +15,13 @@ class GitaApp {
         this.isDailyVerse = false;
         this.speechSynthesis = window.speechSynthesis;
         this.isSpeaking = false;
+        this.readingSpeed = parseFloat(localStorage.getItem('readingSpeed')) || 0.9;
+        this.selectedVoice = localStorage.getItem('selectedVoice') || null;
+        this.readingPreferences = JSON.parse(localStorage.getItem('readingPreferences')) || {
+            readSanskrit: true,
+            readTranslation: true,
+            readExplanation: true
+        };
     }
 
     async init() {
@@ -156,29 +163,37 @@ class GitaApp {
     
         // Remove HTML tags
         const cleanText = text.replace(/<br>/g, '. ').replace(/<[^>]*>/g, '');
-    
         const utterance = new SpeechSynthesisUtterance(cleanText);
     
-        // Try to use Hindi voice if available, fallback to default
+        // Use selected voice or try to find Hindi/English voice
         const voices = this.speechSynthesis.getVoices();
-        const hindiVoice = voices.find(voice => voice.lang.startsWith('hi'));
-        if (hindiVoice) {
-            utterance.voice = hindiVoice;
+    
+        if (this.selectedVoice) {
+            const voice = voices.find(v => v.name === this.selectedVoice);
+            if (voice) {
+                utterance.voice = voice;
+            }
+        } else {
+            // Try Hindi for Sanskrit, then English
+            const hindiVoice = voices.find(voice => voice.lang.startsWith('hi'));
+            const englishVoice = voices.find(voice => voice.lang.startsWith('en'));
+            utterance.voice = hindiVoice || englishVoice || voices[0];
         }
     
-        utterance.rate = 0.9; // Slightly slower for clarity
+        // Apply user preferences
+        utterance.rate = this.readingSpeed;
         utterance.pitch = 1.0;
-    
+        
         utterance.onstart = () => {
             this.isSpeaking = true;
             this.updateReadAloudButton(true);
         };
-    
+        
         utterance.onend = () => {
             this.isSpeaking = false;
             this.updateReadAloudButton(false);
         };
-    
+        
         utterance.onerror = (event) => {
             // Don't show error if user intentionally stopped
             if (event.error !== 'canceled' && event.error !== 'interrupted') {
@@ -187,7 +202,7 @@ class GitaApp {
             this.isSpeaking = false;
             this.updateReadAloudButton(false);
         };
-    
+        
         this.speechSynthesis.speak(utterance);
     }
 
@@ -212,26 +227,28 @@ class GitaApp {
         }
     }
 
-    // Get clean readable text for speech
+    // Get clean readable text for speech based on preferences
     getReadableText(shloka) {
         let text = '';
-    
-        // Add Sanskrit
-        if (shloka.sanskrit) {
+        
+        // Add Sanskrit if enabled
+        if (this.readingPreferences.readSanskrit && shloka.sanskrit) {
             text += shloka.sanskrit + '. ';
         }
-    
-        // Add Translation
-        if (shloka.translation) {
+        
+        // Add Translation if enabled
+        if (this.readingPreferences.readTranslation && shloka.translation) {
             text += shloka.translation + '. ';
         }
-    
-        // Add Modern Explanation
-        const modernText = this.getModernExplanation(shloka);
-        if (modernText) {
-            text += modernText;
+        
+        // Add Modern Explanation if enabled
+        if (this.readingPreferences.readExplanation) {
+            const modernText = this.getModernExplanation(shloka);
+            if (modernText) {
+                text += modernText;
+            }
         }
-    
+        
         // Escape backticks for template literal
         return text.replace(/`/g, '\\`').replace(/\n/g, '. ');
     }
@@ -498,6 +515,125 @@ class GitaApp {
             console.error('Error loading about:', error);
             container.innerHTML = '<p class="error-message">Unable to load about. Please try again.</p>';
         }
+    }
+
+    // Reading Settings
+    async showReadingSettings() {
+        this.showView('readingSettings');
+        
+        // Load voices
+        await this.loadVoices();
+        
+        // Set current speed
+        const speedRange = document.getElementById('speedRange');
+        const speedValue = document.getElementById('speedValue');
+        if (speedRange && speedValue) {
+            speedRange.value = this.readingSpeed;
+            speedValue.textContent = this.readingSpeed + 'x';
+        }
+        
+        // Set reading preferences
+        document.getElementById('readSanskrit').checked = this.readingPreferences.readSanskrit;
+        document.getElementById('readTranslation').checked = this.readingPreferences.readTranslation;
+        document.getElementById('readExplanation').checked = this.readingPreferences.readExplanation;
+    }
+    
+    async loadVoices() {
+        return new Promise((resolve) => {
+            let voices = this.speechSynthesis.getVoices();
+            
+            if (voices.length > 0) {
+                this.populateVoiceList(voices);
+                resolve();
+            } else {
+                // Chrome loads voices asynchronously
+                this.speechSynthesis.onvoiceschanged = () => {
+                    voices = this.speechSynthesis.getVoices();
+                    this.populateVoiceList(voices);
+                    resolve();
+                };
+            }
+        });
+    }
+    
+    populateVoiceList(voices) {
+        const voiceSelect = document.getElementById('voiceSelect');
+        if (!voiceSelect) return;
+        
+        voiceSelect.innerHTML = '<option value="">Default Voice</option>';
+        
+        // Group voices by language
+        const hindiVoices = voices.filter(v => v.lang.startsWith('hi'));
+        const englishVoices = voices.filter(v => v.lang.startsWith('en'));
+        const otherVoices = voices.filter(v => !v.lang.startsWith('hi') && !v.lang.startsWith('en'));
+        
+        const addVoiceGroup = (groupVoices, label) => {
+            if (groupVoices.length > 0) {
+                const optgroup = document.createElement('optgroup');
+                optgroup.label = label;
+                groupVoices.forEach(voice => {
+                    const option = document.createElement('option');
+                    option.value = voice.name;
+                    option.textContent = `${voice.name} (${voice.lang})`;
+                    if (voice.name === this.selectedVoice) {
+                        option.selected = true;
+                    }
+                    optgroup.appendChild(option);
+                });
+                voiceSelect.appendChild(optgroup);
+            }
+        };
+        
+        addVoiceGroup(hindiVoices, 'Hindi Voices');
+        addVoiceGroup(englishVoices, 'English Voices');
+        addVoiceGroup(otherVoices, 'Other Languages');
+    }
+    
+    saveVoicePreference() {
+        const voiceSelect = document.getElementById('voiceSelect');
+        if (voiceSelect) {
+            this.selectedVoice = voiceSelect.value || null;
+            localStorage.setItem('selectedVoice', this.selectedVoice || '');
+            this.showToast('✅ Voice preference saved');
+        }
+    }
+    
+    updateSpeedDisplay(value) {
+        const speedValue = document.getElementById('speedValue');
+        if (speedValue) {
+            speedValue.textContent = parseFloat(value).toFixed(1) + 'x';
+        }
+    }
+    
+    saveSpeedPreference(value) {
+        this.readingSpeed = parseFloat(value);
+        localStorage.setItem('readingSpeed', this.readingSpeed);
+        this.showToast('✅ Speed preference saved');
+    }
+    
+    setSpeed(speed) {
+        const speedRange = document.getElementById('speedRange');
+        const speedValue = document.getElementById('speedValue');
+        if (speedRange && speedValue) {
+            speedRange.value = speed;
+            speedValue.textContent = speed + 'x';
+            this.saveSpeedPreference(speed);
+        }
+    }
+    
+    saveReadingPreferences() {
+        this.readingPreferences = {
+            readSanskrit: document.getElementById('readSanskrit').checked,
+            readTranslation: document.getElementById('readTranslation').checked,
+            readExplanation: document.getElementById('readExplanation').checked
+        };
+        localStorage.setItem('readingPreferences', JSON.stringify(this.readingPreferences));
+        this.showToast('✅ Reading preferences saved');
+    }
+    
+    testVoice() {
+        const testText = "This is a test of your reading settings. Sanskrit: ॐ नमः शिवाय। Translation: Om Namah Shivaya. Explanation: This is a sacred mantra.";
+        this.toggleReadAloud(testText);
     }
 
     // Persona Management
