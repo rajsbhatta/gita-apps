@@ -76,6 +76,7 @@
             <li><button onclick="app.showChapters(); app.toggleSidebar();">📖 Browse Chapters</button></li>
             <li><button onclick="app.showBookmarks(); app.toggleSidebar();">⭐ My Bookmarks</button></li>
             <li><button onclick="app.showSearch(); app.toggleSidebar();">🔍 Search</button></li>
+            <li><button onclick="app.showReadingSettings(); app.toggleSidebar();">🔊 Reading Settings</button></li>
             <li><button onclick="app.showAbout(); app.toggleSidebar();">ℹ️ About</button></li>
         </ul>
     </nav>
@@ -212,6 +213,65 @@
                 <button onclick="app.performSearch()">Search</button>
             </div>
             <div id="searchResults" class="search-results"></div>
+        </div>
+        
+        <!-- Reading Settings View -->
+        <div id="readingSettingsView" class="view">
+            <button class="back-btn" onclick="app.goHome()">← Back</button>
+            <h2>🔊 Reading Settings</h2>
+            <div id="readingSettingsContent" class="settings-container">
+                <div class="setting-section">
+                    <h3>Voice Selection</h3>
+                    <p class="setting-description">Choose which voice to use for reading</p>
+                    <select id="voiceSelect" class="voice-select" onchange="app.saveVoicePreference()">
+                        <option value="">Loading voices...</option>
+                    </select>
+                </div>
+        
+                <div class="setting-section">
+                    <h3>Reading Speed</h3>
+                    <p class="setting-description">Adjust how fast the text is read</p>
+                    <div class="speed-control">
+                        <input type="range" id="speedRange" min="0.5" max="2" step="0.1" value="0.9" 
+                               oninput="app.updateSpeedDisplay(this.value)" onchange="app.saveSpeedPreference(this.value)">
+                        <div class="speed-display">
+                            <span>Speed: <strong id="speedValue">0.9x</strong></span>
+                        </div>
+                        <div class="speed-presets">
+                            <button onclick="app.setSpeed(0.7)">Slow</button>
+                            <button onclick="app.setSpeed(0.9)">Normal</button>
+                            <button onclick="app.setSpeed(1.2)">Fast</button>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="setting-section">
+                    <h3>What to Read</h3>
+                    <p class="setting-description">Choose which parts to read aloud</p>
+                    <div class="reading-options">
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="readSanskrit" checked onchange="app.saveReadingPreferences()">
+                            <span>Read Sanskrit</span>
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="readTranslation" checked onchange="app.saveReadingPreferences()">
+                            <span>Read Translation</span>
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="readExplanation" checked onchange="app.saveReadingPreferences()">
+                            <span>Read Explanation</span>
+                        </label>
+                    </div>
+                </div>
+        
+                <div class="setting-section">
+                    <h3>Test Voice</h3>
+                    <p class="setting-description">Try your current settings</p>
+                    <button class="test-voice-btn" onclick="app.testVoice()">
+                        🔊 Test Voice Settings
+                    </button>
+                </div>
+            </div>
         </div>
     </main>
 
