@@ -179,17 +179,22 @@ class GitaApp {
             this.updateReadAloudButton(false);
         };
     
-        utterance.onerror = () => {
+        utterance.onerror = (event) => {
+            // Don't show error if user intentionally stopped
+            if (event.error !== 'canceled' && event.error !== 'interrupted') {
+                this.showToast('❌ Unable to read text');
+            }
             this.isSpeaking = false;
             this.updateReadAloudButton(false);
-            this.showToast('❌ Unable to read text');
         };
     
         this.speechSynthesis.speak(utterance);
     }
 
     stopReading() {
-        this.speechSynthesis.cancel();
+        if (this.speechSynthesis.speaking) {
+            this.speechSynthesis.cancel();
+        }
         this.isSpeaking = false;
         this.updateReadAloudButton(false);
     }
