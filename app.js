@@ -140,6 +140,20 @@ class GitaApp {
                 this.closePersonaModal();
             }
         });
+
+        // Stop speech when user navigates using browser back/forward
+        window.addEventListener('popstate', () => {
+            if (this.isSpeaking) {
+                this.stopReading();
+            }
+        });
+
+        // Stop speech when page visibility changes (tab switch, minimize)
+        document.addEventListener('visibilitychange', () => {
+            if (document.hidden && this.isSpeaking) {
+                this.stopReading();
+            }
+        });    
     }
 
     // Helper function to convert \n to <br>
@@ -378,6 +392,9 @@ class GitaApp {
     toggleSidebar() {
         const sidebar = document.getElementById('sidebar');
         const overlay = document.getElementById('overlay');
+        if (!sidebar.classList.contains('active') && this.isSpeaking) {
+            this.stopReading();
+        }
         sidebar.classList.toggle('active');
         overlay.classList.toggle('active');
     }
@@ -453,6 +470,9 @@ class GitaApp {
     }
 
     showView(viewName) {
+        if (this.isSpeaking) {
+            this.stopReading();
+        }
         document.querySelectorAll('.view').forEach(view => {
             view.classList.remove('active');
         });
@@ -958,6 +978,9 @@ class GitaApp {
 
     previousVerse() {
         if (!this.currentShloka || this.isDailyVerse) return;
+        if (this.isSpeaking) {
+            this.stopReading();
+        }
         const { chapter, verse } = this.currentShloka;
         if (verse > 1) {
             this.showShloka(chapter, verse - 1, false);
@@ -966,11 +989,17 @@ class GitaApp {
 
     nextVerse() {
         if (!this.currentShloka || this.isDailyVerse) return;
+        if (this.isSpeaking) {
+            this.stopReading();
+        }
         const { chapter, verse } = this.currentShloka;
         this.showShloka(chapter, verse + 1, false);
     }
 
     goBackFromShloka() {
+        if (this.isSpeaking) {
+            this.stopReading();
+        }
         if (this.isDailyVerse) {
             this.goHome();
         } else if (this.currentChapter) {
