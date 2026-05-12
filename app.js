@@ -183,7 +183,7 @@ class GitaApp {
     handleSwipe(startX, endX, startY, endY) {
         const deltaX = endX - startX;
         const deltaY = endY - startY;
-        const minSwipeDistance = 50; // Minimum distance for a swipe
+        const minSwipeDistance = 80; // Minimum distance for a swipe
         
         // Check if horizontal swipe is dominant (not vertical scroll)
         if (Math.abs(deltaX) > Math.abs(deltaY) && Math.abs(deltaX) > minSwipeDistance) {
