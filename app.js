@@ -183,35 +183,21 @@ class GitaApp {
     handleSwipe(startX, endX, startY, endY) {
         const deltaX = endX - startX;
         const deltaY = endY - startY;
-        const minSwipeDistance = 50;
+        const minSwipeDistance = 50; // Minimum distance for a swipe
         
-        // Check if horizontal swipe is dominant
+        // Check if horizontal swipe is dominant (not vertical scroll)
         if (Math.abs(deltaX) > Math.abs(deltaY) && Math.abs(deltaX) > minSwipeDistance) {
+            // Don't navigate if user is reading (speech is on)
             if (this.isDailyVerse) {
-                this.showToast('⚠️ Swipe not available for daily verse');
-                return;
+                return; // Don't allow swipe on daily verse
             }
-            
-            const shlokaView = document.getElementById('shlokaView');
             
             if (deltaX > 0) {
                 // Swiped right - go to previous verse
-                if (this.currentShloka && this.currentShloka.verse > 1) {
-                    shlokaView.classList.add('swiping-right');
-                    setTimeout(() => {
-                        shlokaView.classList.remove('swiping-right');
-                        this.previousVerse();
-                    }, 300);
-                } else {
-                    this.showToast('⚠️ Already at first verse');
-                }
+                this.previousVerse();
             } else {
                 // Swiped left - go to next verse
-                shlokaView.classList.add('swiping-left');
-                setTimeout(() => {
-                    shlokaView.classList.remove('swiping-left');
-                    this.nextVerse();
-                }, 300);
+                this.nextVerse();
             }
         }
     }
