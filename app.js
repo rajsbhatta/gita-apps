@@ -28,6 +28,7 @@ class GitaApp {
         await this.initDB();
         await this.loadChapters();
         this.setupEventListeners();
+        this.setupSwipeNavigation();
         this.setupInstallPrompt();
         this.applyTheme();
         await this.showDailyShloka();
@@ -154,6 +155,51 @@ class GitaApp {
                 this.stopReading();
             }
         });    
+    }
+
+    // Swipe Navigation Setup
+    setupSwipeNavigation() {
+        let touchStartX = 0;
+        let touchEndX = 0;
+        let touchStartY = 0;
+        let touchEndY = 0;
+        
+        const shlokaView = document.getElementById('shlokaView');
+        
+        if (!shlokaView) return;
+        
+        shlokaView.addEventListener('touchstart', (e) => {
+            touchStartX = e.changedTouches[0].screenX;
+            touchStartY = e.changedTouches[0].screenY;
+        }, { passive: true });
+        
+        shlokaView.addEventListener('touchend', (e) => {
+            touchEndX = e.changedTouches[0].screenX;
+            touchEndY = e.changedTouches[0].screenY;
+            this.handleSwipe(touchStartX, touchEndX, touchStartY, touchEndY);
+        }, { passive: true });
+    }
+    
+    handleSwipe(startX, endX, startY, endY) {
+        const deltaX = endX - startX;
+        const deltaY = endY - startY;
+        const minSwipeDistance = 50; // Minimum distance for a swipe
+        
+        // Check if horizontal swipe is dominant (not vertical scroll)
+        if (Math.abs(deltaX) > Math.abs(deltaY) && Math.abs(deltaX) > minSwipeDistance) {
+            // Don't navigate if user is reading (speech is on)
+            if (this.isDailyVerse) {
+                return; // Don't allow swipe on daily verse
+            }
+            
+            if (deltaX > 0) {
+                // Swiped right - go to previous verse
+                this.previousVerse();
+            } else {
+                // Swiped left - go to next verse
+                this.nextVerse();
+            }
+        }
     }
 
     // Helper function to convert \n to <br>
@@ -974,6 +1020,10 @@ class GitaApp {
                 ${navigationButtons}
             </div>
         `;
+        // Re-enable swipe navigation after content loads
+        setTimeout(() => {
+            this.setupSwipeNavigation();
+        }, 100);
     }
 
     previousVerse() {
