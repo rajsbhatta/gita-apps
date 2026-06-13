@@ -1,0 +1,22 @@
+{
+  "title": "Privacy Policy",
+  "subtitle": "Bhagavad Gita App",
+  "sections": [
+    {
+      "heading": "Data Collection",
+      "content": "This app does not collect, store, or transmit any personal user data to external servers.\n\nAll data is stored locally on your device:\n- Your reading progress\n- Your bookmarks\n- Your theme and language preferences\n- Your reading speed settings\n\nNone of this data leaves your device."
+    },
+    {
+      "heading": "Permissions",
+      "content": "The app requests minimal permissions:\n- Internet: For loading chapter data on first use\n- Local Storage: For saving your progress and preferences\n\nNo camera, microphone, or location access is required or used."
+    },
+    {
+      "heading": "Third-Party Services",
+      "content": "This app does not use:\n- Analytics or tracking\n- Advertisements\n- Social media integration\n- Cloud sync services\n\nYour data stays private and offline."
+    },
+    {
+      "heading": "Contact",
+      "content": "For any privacy concerns, please contact us at saurabh.appilyyours@gmail.com"
+    }
+  ]
+}
