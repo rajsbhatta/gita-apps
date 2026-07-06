@@ -79,6 +79,7 @@
             <li><button onclick="app.showStatistics(); app.toggleSidebar();">📊 Statistics</button></li>
             <li><button onclick="app.showReadingPlans(); app.toggleSidebar();">📚 Reading Plans</button></li>
             <li><button onclick="app.showChallenges(); app.toggleSidebar();">🏆 Challenges</button></li>
+            <li><button onclick="app.showVerseCardCreator(); app.toggleSidebar();">🎨 Verse Cards</button></li>
             <li><button onclick="app.showReadingSettings(); app.toggleSidebar();">🔊 Reading Settings</button></li>
             <li><button onclick="app.showAbout(); app.toggleSidebar();">ℹ️ About</button></li>
         </ul>
@@ -314,6 +315,89 @@
         <h2>🏆 Challenges & Badges</h2>
         <div id="challengesContent" class="challenges-container">
             <div class="loading">Loading challenges...</div>
+        </div>
+    </div>
+
+    <!-- Verse Card Creator View -->
+    <div id="verseCardView" class="view">
+        <button class="back-btn" onclick="app.goHome()">← Back</button>
+        <h2>🎨 Create Verse Card</h2>
+        <div id="verseCardContent" class="verse-card-container">
+            <div class="card-creator">
+                <div class="card-preview-section">
+                    <div class="card-preview" id="cardPreview">
+                        <div class="preview-content">
+                            <p class="preview-ref">Chapter 2, Verse 47</p>
+                            <p class="preview-verse">कर्मण्येवाधिकारस्ते मा फलेषु कदाचन</p>
+                            <p class="preview-translation">"You have the right to work only, but never to its fruits."</p>
+                        </div>
+                    </div>
+                    <div class="card-actions">
+                        <button class="action-btn" onclick="app.downloadVerseCard()">📥 Download Card</button>
+                        <button class="action-btn" onclick="app.shareVerseCard()">📤 Share Card</button>
+                    </div>
+                </div>
+    
+                <div class="card-settings">
+                    <h3>Customize Card</h3>
+                    
+                    <div class="setting-group">
+                        <label>📝 Font Family</label>
+                        <select id="fontFamily" onchange="app.updateCardPreview()">
+                            <option value="'Segoe UI', sans-serif">Modern (Default)</option>
+                            <option value="Georgia, serif">Classic (Georgia)</option>
+                            <option value="'Times New Roman', serif">Traditional</option>
+                            <option value="'Courier New', monospace">Code</option>
+                            <option value="'Comic Sans MS', cursive">Fun</option>
+                            <option value="'Arial Black', sans-serif">Bold</option>
+                        </select>
+                    </div>
+    
+                    <div class="setting-group">
+                        <label>📏 Font Size</label>
+                        <div class="slider-group">
+                            <input type="range" id="fontSize" min="10" max="32" value="18" onchange="app.updateCardPreview()">
+                            <span id="fontSizeValue">18px</span>
+                        </div>
+                    </div>
+    
+                    <div class="setting-group">
+                        <label>🎨 Background Color</label>
+                        <input type="color" id="bgColor" value="#1a1a2e" onchange="app.updateCardPreview()">
+                    </div>
+    
+                    <div class="setting-group">
+                        <label>📝 Text Color</label>
+                        <input type="color" id="textColor" value="#ffffff" onchange="app.updateCardPreview()">
+                    </div>
+    
+                    <div class="setting-group">
+                        <label>✨ Accent Color</label>
+                        <input type="color" id="accentColor" value="#FF9933" onchange="app.updateCardPreview()">
+                    </div>
+    
+                    <div class="setting-group">
+                        <label>🖼️ Background Image</label>
+                        <div class="image-options">
+                            <button class="img-btn" onclick="app.setBackgroundImage('gradient1')">Gradient 1</button>
+                            <button class="img-btn" onclick="app.setBackgroundImage('gradient2')">Gradient 2</button>
+                            <button class="img-btn" onclick="app.setBackgroundImage('mandala')">Mandala</button>
+                            <button class="img-btn" onclick="app.setBackgroundImage('lotus')">Lotus</button>
+                            <button class="img-btn" onclick="app.setBackgroundImage('none')">None</button>
+                        </div>
+                    </div>
+    
+                    <div class="setting-group">
+                        <label>📐 Card Style</label>
+                        <select id="cardStyle" onchange="app.updateCardPreview()">
+                            <option value="minimal">Minimal</option>
+                            <option value="bordered">Bordered</option>
+                            <option value="shadow">Shadow</option>
+                            <option value="gradient">Gradient Border</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     
