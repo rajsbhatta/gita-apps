@@ -1863,3 +1863,158 @@ class GitaApp {
 // Initialize app
 const app = new GitaApp();
 window.addEventListener('DOMContentLoaded', () => app.init());
+
+// ===== VERSE CARD CREATOR =====
+cardBackgroundImage = 'none';
+
+async showVerseCardCreator() {
+    this.showView('verseCard');
+    
+    if (!this.currentShloka) {
+        document.getElementById('verseCardContent').innerHTML = `
+            <p class="empty-message">Please select a verse first to create a card</p>
+        `;
+        return;
+    }
+    
+    this.updateCardPreview();
+}
+
+updateCardPreview() {
+    const preview = document.getElementById('cardPreview');
+    const fontSize = document.getElementById('fontSize').value;
+    const fontFamily = document.getElementById('fontFamily').value;
+    const bgColor = document.getElementById('bgColor').value;
+    const textColor = document.getElementById('textColor').value;
+    const accentColor = document.getElementById('accentColor').value;
+    const cardStyle = document.getElementById('cardStyle').value;
+    
+    // Update font size display
+    document.getElementById('fontSizeValue').textContent = fontSize + 'px';
+    
+    // Build background style
+    let backgroundStyle = `background-color: ${bgColor};`;
+    
+    if (this.cardBackgroundImage === 'gradient1') {
+        backgroundStyle = `background: linear-gradient(135deg, ${bgColor} 0%, ${accentColor} 100%);`;
+    } else if (this.cardBackgroundImage === 'gradient2') {
+        backgroundStyle = `background: linear-gradient(45deg, #0f3460 0%, #1a1a2e 100%);`;
+    } else if (this.cardBackgroundImage === 'mandala') {
+        backgroundStyle = `background: radial-gradient(circle, ${bgColor} 0%, #000 100%);`;
+    } else if (this.cardBackgroundImage === 'lotus') {
+        backgroundStyle = `background: conic-gradient(from 0deg, ${bgColor}, ${accentColor}, ${bgColor});`;
+    }
+    
+    // Build border style
+    let borderStyle = '';
+    if (cardStyle === 'bordered') {
+        borderStyle = `border: 3px solid ${accentColor};`;
+    } else if (cardStyle === 'shadow') {
+        borderStyle = `box-shadow: 0 10px 30px rgba(0,0,0,0.5), inset 0 1px 0 rgba(255,255,255,0.1);`;
+    } else if (cardStyle === 'gradient') {
+        borderStyle = `border: 3px solid ${accentColor}; box-shadow: 0 0 20px ${accentColor}40;`;
+    }
+    
+    preview.style.cssText = `
+        ${backgroundStyle}
+        ${borderStyle}
+        padding: 40px;
+        border-radius: 16px;
+        text-align: center;
+        min-height: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: ${fontFamily};
+    `;
+    
+    const content = preview.querySelector('.preview-content');
+    if (content) {
+        content.style.cssText = `
+            color: ${textColor};
+        `;
+        
+        const refElement = content.querySelector('.preview-ref');
+        if (refElement) {
+            refElement.style.cssText = `
+                color: ${accentColor};
+                font-size: ${parseInt(fontSize) * 0.6}px;
+                margin-bottom: 20px;
+            `;
+        }
+        
+        const verseElement = content.querySelector('.preview-verse');
+        if (verseElement) {
+            verseElement.style.cssText = `
+                font-size: ${parseInt(fontSize) * 1.2}px;
+                margin-bottom: 20px;
+                font-weight: 600;
+            `;
+        }
+        
+        const translationElement = content.querySelector('.preview-translation');
+        if (translationElement) {
+            translationElement.style.cssText = `
+                font-size: ${parseInt(fontSize)}px;
+                color: ${textColor};
+                font-style: italic;
+            `;
+        }
+    }
+}
+
+setBackgroundImage(type) {
+    this.cardBackgroundImage = type;
+    this.updateCardPreview();
+}
+
+async downloadVerseCard() {
+    if (!this.currentShloka) {
+        this.showToast('Please select a verse first');
+        return;
+    }
+    
+    const preview = document.getElementById('cardPreview');
+    const canvas = await html2canvas(preview, {
+        backgroundColor: null,
+        scale: 2
+    });
+    
+    const link = document.createElement('a');
+    link.href = canvas.toDataURL('image/png');
+    link.download = `verse-${this.currentShloka.chapter}-${this.currentShloka.verse}.png`;
+    link.click();
+    
+    this.showToast('📥 Card downloaded!');
+}
+
+async shareVerseCard() {
+    if (!this.currentShloka) {
+        this.showToast('Please select a verse first');
+        return;
+    }
+    
+    const preview = document.getElementById('cardPreview');
+    
+    try {
+        const canvas = await html2canvas(preview, {
+            backgroundColor: null,
+            scale: 2
+        });
+        
+        canvas.toBlob(async (blob) => {
+            if (navigator.share && navigator.canShare({ files: [new File([blob], 'verse-card.png', { type: 'image/png' })] })) {
+                const file = new File([blob], 'verse-card.png', { type: 'image/png' });
+                navigator.share({
+                    files: [file],
+                    title: 'Bhagavad Gita Verse Card'
+                });
+            } else {
+                this.showToast('Share not available on this device');
+            }
+        });
+    } catch (error) {
+        console.error('Error sharing card:', error);
+        this.showToast('❌ Error sharing card');
+    }
+}
