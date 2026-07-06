@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhagavad Gita - Daily Verse Widget</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding: 10px;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .widget-container {
+            width: 100%;
+            max-width: 400px;
+            background: linear-gradient(135deg, #0f3460 0%, #1a1a2e 100%);
+            border-radius: 16px;
+            padding: 20px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+            border: 2px solid #FF9933;
+            cursor: pointer;
+            transition: transform 0.3s;
+        }
+
+        .widget-container:hover {
+            transform: scale(1.02);
+        }
+
+        .widget-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid rgba(255, 153, 51, 0.3);
+        }
+
+        .widget-title {
+            font-size: 16px;
+            font-weight: bold;
+            color: #FF9933;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .widget-date {
+            font-size: 12px;
+            color: #aaa;
+        }
+
+        .widget-content {
+            margin: 15px 0;
+        }
+
+        .verse-ref {
+            font-size: 14px;
+            color: #FF9933;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        .verse-sanskrit {
+            font-size: 16px;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin-bottom: 15px;
+            font-style: italic;
+        }
+
+        .verse-translation {
+            font-size: 14px;
+            color: #eee;
+            line-height: 1.5;
+            font-style: italic;
+            border-left: 3px solid #FF9933;
+            padding-left: 12px;
+        }
+
+        .widget-footer {
+            margin-top: 15px;
+            padding-top: 10px;
+            border-top: 1px solid rgba(255, 153, 51, 0.2);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .widget-action {
+            font-size: 24px;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+
+        .widget-action:hover {
+            transform: scale(1.2);
+        }
+
+        .loading {
+            text-align: center;
+            color: #aaa;
+            padding: 30px 20px;
+        }
+
+        .spinner {
+            border: 3px solid #333;
+            border-top: 3px solid #FF9933;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 10px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="widget-container" onclick="openApp()">
+        <div class="widget-header">
+            <div class="widget-title">
+                <span>📖</span>
+                <span>Today's Verse</span>
+            </div>
+            <div class="widget-date" id="widgetDate"></div>
+        </div>
+
+        <div class="widget-content" id="widgetContent">
+            <div class="loading">
+                <div class="spinner"></div>
+                <p>Loading verse...</p>
+            </div>
+        </div>
+
+        <div class="widget-footer">
+            <span class="widget-action" onclick="openPreviousVerse(event)">⬅️</span>
+            <span class="widget-action" onclick="openAppFull(event)">🔗</span>
+            <span class="widget-action" onclick="shareVerse(event)">📤</span>
+        </div>
+    </div>
+
+    <script>
+        let currentChapter = 1;
+        let currentVerse = 1;
+        let chapters = [];
+
+        async function initWidget() {
+            await loadChapters();
+            await loadDailyVerse();
+            updateDate();
+        }
+
+        async function loadChapters() {
+            try {
+                const response = await fetch('data/chapters.json');
+                chapters = await response.json();
+            } catch (error) {
+                console.error('Error loading chapters:', error);
+            }
+        }
+
+        async function loadDailyVerse() {
+            try {
+                const today = new Date();
+                const dayOfYear = Math.floor((today - new Date(today.getFullYear(), 0, 0)) / 86400000);
+                
+                currentChapter = (dayOfYear % 18) + 1;
+                const chapter = await fetchChapter(currentChapter);
+                
+                if (!chapter || !chapter.shlokas) return;
+                
+                currentVerse = (dayOfYear % chapter.shlokas.length) + 1;
+                const shloka = chapter.shlokas.find(s => s.verse === currentVerse);
+                
+                if (shloka) {
+                    displayVerse(shloka);
+                }
+            } catch (error) {
+                console.error('Error loading daily verse:', error);
+            }
+        }
+
+        async function fetchChapter(chapterNum) {
+            try {
+                const response = await fetch(`data/chapters/chapter-${chapterNum}.json`);
+                if (!response.ok) return null;
+                return await response.json();
+            } catch (error) {
+                console.error('Error fetching chapter:', error);
+                return null;
+            }
+        }
+
+        function displayVerse(shloka) {
+            const content = document.getElementById('widgetContent');
+            content.innerHTML = `
+                <div class="verse-ref">Chapter ${currentChapter}, Verse ${currentVerse}</div>
+                <div class="verse-sanskrit">${shloka.sanskrit.replace(/\n/g, '<br>')}</div>
+                <div class="verse-translation">"${shloka.translation}"</div>
+            `;
+        }
+
+        function updateDate() {
+            const options = { weekday: 'short', month: 'short', day: 'numeric' };
+            const dateStr = new Date().toLocaleDateString('en-US', options);
+            document.getElementById('widgetDate').textContent = dateStr;
+        }
+
+        function openApp() {
+            window.location.href = `index.html?chapter=${currentChapter}&verse=${currentVerse}`;
+        }
+
+        function openAppFull(event) {
+            event.stopPropagation();
+            openApp();
+        }
+
+        async function openPreviousVerse(event) {
+            event.stopPropagation();
+            
+            if (currentVerse > 1) {
+                currentVerse--;
+            } else if (currentChapter > 1) {
+                currentChapter--;
+                const chapter = await fetchChapter(currentChapter);
+                if (chapter && chapter.shlokas) {
+                    currentVerse = chapter.shlokas.length;
+                }
+            }
+            
+            const chapter = await fetchChapter(currentChapter);
+            if (chapter) {
+                const shloka = chapter.shlokas.find(s => s.verse === currentVerse);
+                if (shloka) {
+                    displayVerse(shloka);
+                }
+            }
+        }
+
+        async function shareVerse(event) {
+            event.stopPropagation();
+            
+            const chapter = await fetchChapter(currentChapter);
+            if (chapter) {
+                const shloka = chapter.shlokas.find(s => s.verse === currentVerse);
+                if (shloka) {
+                    const text = `📖 Bhagavad Gita - Chapter ${currentChapter}, Verse ${currentVerse}\n\n"${shloka.translation}"\n\nRead more: https://gita.org`;
+                    
+                    if (navigator.share) {
+                        navigator.share({ title: 'Bhagavad Gita', text });
+                    } else {
+                        navigator.clipboard.writeText(text);
+                        alert('Verse copied to clipboard!');
+                    }
+                }
+            }
+        }
+
+        initWidget();
+    </script>
+</body>
+</html>
