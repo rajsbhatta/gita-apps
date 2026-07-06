@@ -1,4 +1,4 @@
-// Bhagavad Gita PWA - Main Application
+// Bhagavad Gita PWA - Main Application with Enhanced Features
 class GitaApp {
     constructor() {
         this.db = null;
@@ -22,6 +22,14 @@ class GitaApp {
             readTranslation: true,
             readExplanation: true
         };
+        // New features
+        this.bookmarkNotes = JSON.parse(localStorage.getItem('bookmarkNotes') || '{}');
+        this.readingStats = JSON.parse(localStorage.getItem('readingStats') || '{"versesRead":0,"totalReadTime":0,"currentStreak":0,"lastReadDate":null,"readingHistory":[]}');
+        this.activeReadingPlan = localStorage.getItem('activeReadingPlan') || null;
+        this.readingPlans = JSON.parse(localStorage.getItem('readingPlans') || '{}');
+        this.challenges = JSON.parse(localStorage.getItem('challenges') || '{"completed":[],"inProgress":[]}');
+        this.currentNoteChapter = null;
+        this.currentNoteVerse = null;
     }
 
     async init() {
@@ -34,6 +42,9 @@ class GitaApp {
         await this.showDailyShloka();
         this.showLastRead();
         this.updatePersonaIcon();
+        this.initializeReadingPlans();
+        this.initializeChallenges();
+        this.scheduleNotifications();
     }
 
     async initDB() {
@@ -59,22 +70,18 @@ class GitaApp {
     }
 
     setupEventListeners() {
-        // Menu toggle
         document.getElementById('menuBtn').addEventListener('click', () => {
             this.toggleSidebar();
         });
 
-        // Theme toggle
         document.getElementById('themeToggle').addEventListener('click', () => {
             this.toggleTheme();
         });
 
-        // Refresh button - shows confirmation
         document.getElementById('refreshBtn').addEventListener('click', () => {
             this.showRefreshConfirmation();
         });
 
-        // Install button
         const installBtn = document.getElementById('installBtn');
         if (installBtn) {
             installBtn.addEventListener('click', () => {
@@ -82,7 +89,6 @@ class GitaApp {
             });
         }
 
-        // Persona dropdown
         const personaBtn = document.getElementById('personaBtn');
         const personaDropdown = document.getElementById('personaDropdown');
 
@@ -91,14 +97,12 @@ class GitaApp {
             personaDropdown.classList.toggle('show');
         });
 
-        // Close dropdown when clicking outside
         document.addEventListener('click', (e) => {
             if (!e.target.closest('.persona-selector')) {
                 personaDropdown.classList.remove('show');
             }
         });
 
-        // Persona option clicks
         document.querySelectorAll('.persona-option').forEach(option => {
             option.addEventListener('click', (e) => {
                 const persona = option.dataset.persona;
@@ -107,7 +111,6 @@ class GitaApp {
             });
         });
 
-        // Search input
         const searchInput = document.getElementById('searchInput');
         searchInput.addEventListener('keypress', (e) => {
             if (e.key === 'Enter') {
@@ -115,12 +118,9 @@ class GitaApp {
             }
         });
 
-        // Expandable action buttons
         document.querySelectorAll('.expand-btn').forEach(btn => {
             btn.addEventListener('click', (e) => {
                 const action = btn.dataset.action;
-                
-                // Expand animation
                 btn.classList.add('expanded');
                 
                 setTimeout(() => {
@@ -135,29 +135,19 @@ class GitaApp {
             });
         });
 
-        // Click outside modal to close
         document.getElementById('personaModal').addEventListener('click', (e) => {
             if (e.target.id === 'personaModal') {
                 this.closePersonaModal();
             }
         });
 
-        // Stop speech when user navigates using browser back/forward
-        window.addEventListener('popstate', () => {
-            if (this.isSpeaking) {
-                this.stopReading();
+        document.getElementById('noteModal').addEventListener('click', (e) => {
+            if (e.target.id === 'noteModal') {
+                this.closeNoteModal();
             }
         });
-
-        // Stop speech when page visibility changes (tab switch, minimize)
-        document.addEventListener('visibilitychange', () => {
-            if (document.hidden && this.isSpeaking) {
-                this.stopReading();
-            }
-        });    
     }
 
-    // Swipe Navigation Setup
     setupSwipeNavigation() {
         let touchStartX = 0;
         let touchEndX = 0;
@@ -180,35 +170,50 @@ class GitaApp {
         }, { passive: true });
     }
 
-    handleSwipe(startX, endX, startY, endY) {
+    async handleSwipe(startX, endX, startY, endY) {
         const deltaX = endX - startX;
         const deltaY = endY - startY;
-        const minSwipeDistance = 80; // Minimum distance for a swipe
+        const minSwipeDistance = 50;
         
-        // Check if horizontal swipe is dominant (not vertical scroll)
         if (Math.abs(deltaX) > Math.abs(deltaY) && Math.abs(deltaX) > minSwipeDistance) {
-            // Don't navigate if user is reading (speech is on)
             if (this.isDailyVerse) {
-                return; // Don't allow swipe on daily verse
+                this.showToast('⚠️ Swipe not available for daily verse');
+                return;
             }
             
+            if (!this.currentShloka) return;
+            
+            const shlokaView = document.getElementById('shlokaView');
+            const { chapter, verse } = this.currentShloka;
+            const currentChapter = await this.loadChapter(chapter);
+            
+            if (!currentChapter) return;
+            
             if (deltaX > 0) {
-                // Swiped right - go to previous verse
-                this.previousVerse();
+                if (verse > 1) {
+                    shlokaView.classList.add('swiping-right');
+                    setTimeout(() => {
+                        shlokaView.classList.remove('swiping-right');
+                        this.previousVerse();
+                    }, 300);
+                } else {
+                    this.showToast('✅ You are at the first verse of this chapter');
+                }
             } else {
-                // Swiped left - go to next verse
-                this.nextVerse();
+                if (verse < currentChapter.shlokas.length) {
+                    shlokaView.classList.add('swiping-left');
+                    setTimeout(() => {
+                        shlokaView.classList.remove('swiping-left');
+                        this.nextVerse();
+                    }, 300);
+                } else {
+                    this.showToast('✅ You have reached the last verse of this chapter');
+                }
             }
         }
     }
 
-    // Helper function to convert \n to <br>
-    formatText(text) {
-        if (!text) return '';
-        return text.replace(/\n/g, '<br>');
-    }
-
-    // Text-to-Speech functions
+    // Text-to-Speech Functions
     toggleReadAloud(text) {
         if (this.isSpeaking) {
             this.stopReading();
@@ -218,29 +223,23 @@ class GitaApp {
     }
 
     startReading(text) {
-        // Stop any ongoing speech
         this.speechSynthesis.cancel();
-    
-        // Remove HTML tags
         const cleanText = text.replace(/<br>/g, '. ').replace(/<[^>]*>/g, '');
         const utterance = new SpeechSynthesisUtterance(cleanText);
-    
-        // Use selected voice or try to find Hindi/English voice
+        
         const voices = this.speechSynthesis.getVoices();
-    
+        
         if (this.selectedVoice) {
             const voice = voices.find(v => v.name === this.selectedVoice);
             if (voice) {
                 utterance.voice = voice;
             }
         } else {
-            // Try Hindi for Sanskrit, then English
             const hindiVoice = voices.find(voice => voice.lang.startsWith('hi'));
             const englishVoice = voices.find(voice => voice.lang.startsWith('en'));
             utterance.voice = hindiVoice || englishVoice || voices[0];
         }
-    
-        // Apply user preferences
+        
         utterance.rate = this.readingSpeed;
         utterance.pitch = 1.0;
         
@@ -255,7 +254,6 @@ class GitaApp {
         };
         
         utterance.onerror = (event) => {
-            // Don't show error if user intentionally stopped
             if (event.error !== 'canceled' && event.error !== 'interrupted') {
                 this.showToast('❌ Unable to read text');
             }
@@ -287,21 +285,22 @@ class GitaApp {
         }
     }
 
-    // Get clean readable text for speech based on preferences
+    formatText(text) {
+        if (!text) return '';
+        return text.replace(/\n/g, '<br>');
+    }
+
     getReadableText(shloka) {
         let text = '';
         
-        // Add Sanskrit if enabled
         if (this.readingPreferences.readSanskrit && shloka.sanskrit) {
             text += shloka.sanskrit + '. ';
         }
         
-        // Add Translation if enabled
         if (this.readingPreferences.readTranslation && shloka.translation) {
             text += shloka.translation + '. ';
         }
         
-        // Add Modern Explanation if enabled
         if (this.readingPreferences.readExplanation) {
             const modernText = this.getModernExplanation(shloka);
             if (modernText) {
@@ -309,7 +308,6 @@ class GitaApp {
             }
         }
         
-        // Escape backticks for template literal
         return text.replace(/`/g, '\\`').replace(/\n/g, '. ');
     }
 
@@ -322,14 +320,12 @@ class GitaApp {
         }
 
         window.addEventListener('beforeinstallprompt', (e) => {
-            console.log('beforeinstallprompt fired');
             e.preventDefault();
             this.deferredPrompt = e;
             this.showInstallButton();
         });
 
         window.addEventListener('appinstalled', () => {
-            console.log('PWA installed successfully');
             this.isInstalled = true;
             this.deferredPrompt = null;
             this.hideInstallButton();
@@ -343,8 +339,6 @@ class GitaApp {
 
     async installApp() {
         if (!this.deferredPrompt) {
-            console.log('Install prompt not available');
-            
             if (this.isIOSDevice()) {
                 this.showIOSInstallInstructions();
             } else {
@@ -354,15 +348,11 @@ class GitaApp {
         }
 
         this.deferredPrompt.prompt();
-
         const { outcome } = await this.deferredPrompt.userChoice;
-        console.log(`User response: ${outcome}`);
 
         if (outcome === 'accepted') {
-            console.log('User accepted the install');
             this.showToast('📥 Installing app...');
         } else {
-            console.log('User dismissed the install');
             this.showToast('Installation cancelled');
         }
 
@@ -438,9 +428,11 @@ class GitaApp {
     toggleSidebar() {
         const sidebar = document.getElementById('sidebar');
         const overlay = document.getElementById('overlay');
+        
         if (!sidebar.classList.contains('active') && this.isSpeaking) {
             this.stopReading();
         }
+        
         sidebar.classList.toggle('active');
         overlay.classList.toggle('active');
     }
@@ -519,6 +511,7 @@ class GitaApp {
         if (this.isSpeaking) {
             this.stopReading();
         }
+
         document.querySelectorAll('.view').forEach(view => {
             view.classList.remove('active');
         });
@@ -581,125 +574,6 @@ class GitaApp {
             console.error('Error loading about:', error);
             container.innerHTML = '<p class="error-message">Unable to load about. Please try again.</p>';
         }
-    }
-
-    // Reading Settings
-    async showReadingSettings() {
-        this.showView('readingSettings');
-        
-        // Load voices
-        await this.loadVoices();
-        
-        // Set current speed
-        const speedRange = document.getElementById('speedRange');
-        const speedValue = document.getElementById('speedValue');
-        if (speedRange && speedValue) {
-            speedRange.value = this.readingSpeed;
-            speedValue.textContent = this.readingSpeed + 'x';
-        }
-        
-        // Set reading preferences
-        document.getElementById('readSanskrit').checked = this.readingPreferences.readSanskrit;
-        document.getElementById('readTranslation').checked = this.readingPreferences.readTranslation;
-        document.getElementById('readExplanation').checked = this.readingPreferences.readExplanation;
-    }
-    
-    async loadVoices() {
-        return new Promise((resolve) => {
-            let voices = this.speechSynthesis.getVoices();
-            
-            if (voices.length > 0) {
-                this.populateVoiceList(voices);
-                resolve();
-            } else {
-                // Chrome loads voices asynchronously
-                this.speechSynthesis.onvoiceschanged = () => {
-                    voices = this.speechSynthesis.getVoices();
-                    this.populateVoiceList(voices);
-                    resolve();
-                };
-            }
-        });
-    }
-    
-    populateVoiceList(voices) {
-        const voiceSelect = document.getElementById('voiceSelect');
-        if (!voiceSelect) return;
-        
-        voiceSelect.innerHTML = '<option value="">Default Voice</option>';
-        
-        // Group voices by language
-        const hindiVoices = voices.filter(v => v.lang.startsWith('hi'));
-        const englishVoices = voices.filter(v => v.lang.startsWith('en'));
-        const otherVoices = voices.filter(v => !v.lang.startsWith('hi') && !v.lang.startsWith('en'));
-        
-        const addVoiceGroup = (groupVoices, label) => {
-            if (groupVoices.length > 0) {
-                const optgroup = document.createElement('optgroup');
-                optgroup.label = label;
-                groupVoices.forEach(voice => {
-                    const option = document.createElement('option');
-                    option.value = voice.name;
-                    option.textContent = `${voice.name} (${voice.lang})`;
-                    if (voice.name === this.selectedVoice) {
-                        option.selected = true;
-                    }
-                    optgroup.appendChild(option);
-                });
-                voiceSelect.appendChild(optgroup);
-            }
-        };
-        
-        addVoiceGroup(hindiVoices, 'Hindi Voices');
-        addVoiceGroup(englishVoices, 'English Voices');
-        addVoiceGroup(otherVoices, 'Other Languages');
-    }
-    
-    saveVoicePreference() {
-        const voiceSelect = document.getElementById('voiceSelect');
-        if (voiceSelect) {
-            this.selectedVoice = voiceSelect.value || null;
-            localStorage.setItem('selectedVoice', this.selectedVoice || '');
-            this.showToast('✅ Voice preference saved');
-        }
-    }
-    
-    updateSpeedDisplay(value) {
-        const speedValue = document.getElementById('speedValue');
-        if (speedValue) {
-            speedValue.textContent = parseFloat(value).toFixed(1) + 'x';
-        }
-    }
-    
-    saveSpeedPreference(value) {
-        this.readingSpeed = parseFloat(value);
-        localStorage.setItem('readingSpeed', this.readingSpeed);
-        this.showToast('✅ Speed preference saved');
-    }
-    
-    setSpeed(speed) {
-        const speedRange = document.getElementById('speedRange');
-        const speedValue = document.getElementById('speedValue');
-        if (speedRange && speedValue) {
-            speedRange.value = speed;
-            speedValue.textContent = speed + 'x';
-            this.saveSpeedPreference(speed);
-        }
-    }
-    
-    saveReadingPreferences() {
-        this.readingPreferences = {
-            readSanskrit: document.getElementById('readSanskrit').checked,
-            readTranslation: document.getElementById('readTranslation').checked,
-            readExplanation: document.getElementById('readExplanation').checked
-        };
-        localStorage.setItem('readingPreferences', JSON.stringify(this.readingPreferences));
-        this.showToast('✅ Reading preferences saved');
-    }
-    
-    testVoice() {
-        const testText = "This is a test of your reading settings. Sanskrit: ॐ नमः शिवाय। Translation: Om Namah Shivaya. Explanation: This is a sacred mantra.";
-        this.toggleReadAloud(testText);
     }
 
     // Persona Management
@@ -802,7 +676,7 @@ class GitaApp {
         return titles[this.flavor] || '📱 Modern Explanation';
     }
 
-    // Daily Shloka - COMPACT VERSION with newline fix
+    // Daily Shloka
     async showDailyShloka() {
         const container = document.getElementById('dailyShloka');
         
@@ -828,7 +702,6 @@ class GitaApp {
             
             this.dailyShlokaInfo = { chapter: chapterNum, verse: verseNum };
             
-            // Compact version - shorter Sanskrit preview
             const sanskritPreview = shloka.sanskrit.length > 80 
                 ? shloka.sanskrit.substring(0, 80) + '...' 
                 : shloka.sanskrit;
@@ -851,7 +724,7 @@ class GitaApp {
         }
     }
 
-    // Last Read Progress - COMPACT VERSION
+    // Last Read Progress
     showLastRead() {
         if (!this.lastRead) {
             document.getElementById('continueReading').style.display = 'none';
@@ -880,6 +753,9 @@ class GitaApp {
     saveLastRead(chapter, verse, chapterTitle) {
         this.lastRead = { chapter, verse, chapterTitle };
         localStorage.setItem('lastRead', JSON.stringify(this.lastRead));
+        
+        // Update reading stats
+        this.updateReadingStats(chapter, verse);
     }
 
     // Chapters
@@ -929,7 +805,7 @@ class GitaApp {
         `;
     }
 
-    // showShloka with newline fixes for all fields
+    // Show Shloka with all features
     async showShloka(chapterNum, verseNum, isDailyVerse = false) {
         this.showView('shloka');
         const container = document.getElementById('shlokaDetail');
@@ -955,6 +831,7 @@ class GitaApp {
         }
 
         const isBookmarked = this.isBookmarked(chapterNum, verseNum);
+        const bookmarkNote = this.getBookmarkNote(chapterNum, verseNum);
 
         const navigationButtons = !isDailyVerse ? `
             <div style="margin-top: 1.5rem; display: flex; gap: 1rem; justify-content: space-between;">
@@ -1005,22 +882,41 @@ class GitaApp {
                     </div>
                 ` : ''}
 
+                ${bookmarkNote ? `
+                    <div class="bookmark-note">
+                        <div class="section-title">📝 Your Note</div>
+                        <div class="note-content">${this.formatText(bookmarkNote.text)}</div>
+                        ${bookmarkNote.tags.length > 0 ? `
+                            <div class="note-tags">
+                                ${bookmarkNote.tags.map(tag => `<span class="tag">#${tag}</span>`).join('')}
+                            </div>
+                        ` : ''}
+                        <button class="edit-note-btn" onclick="app.editBookmarkNote(${chapterNum}, ${verseNum})">✏️ Edit Note</button>
+                    </div>
+                ` : ''}
+
                 <div style="margin-top: 2rem; display: flex; gap: 1rem; flex-wrap: wrap;">
                     <button class="bookmark-btn ${isBookmarked ? 'bookmarked' : ''}" 
                             onclick="app.toggleBookmark(${chapterNum}, ${verseNum})">
                         ${isBookmarked ? '⭐ Bookmarked' : '☆ Bookmark'}
                     </button>
+                    ${isBookmarked ? `
+                        <button class="note-btn" onclick="app.openNoteModal(${chapterNum}, ${verseNum})">
+                            ${bookmarkNote ? '✏️ Edit Note' : '📝 Add Note'}
+                        </button>
+                    ` : ''}
                     <button id="readAloudBtn" class="read-aloud-btn" onclick="app.toggleReadAloud(\`${this.getReadableText(shloka)}\`)">
                         🔊 Read Aloud
                     </button>
-                    <button class="share-btn" onclick="app.shareShloka(${chapterNum}, ${verseNum})">
+                    <button class="share-btn" onclick="app.shareShloka(${chapterNum}, ${verseNum}, '${shloka.translation}')">
                         📤 Share
                     </button>
                 </div>
+
                 ${navigationButtons}
             </div>
         `;
-        // Re-enable swipe navigation after content loads
+
         setTimeout(() => {
             this.setupSwipeNavigation();
         }, 100);
@@ -1028,28 +924,48 @@ class GitaApp {
 
     previousVerse() {
         if (!this.currentShloka || this.isDailyVerse) return;
+        
         if (this.isSpeaking) {
             this.stopReading();
         }
+        
         const { chapter, verse } = this.currentShloka;
-        if (verse > 1) {
-            this.showShloka(chapter, verse - 1, false);
+        
+        if (verse <= 1) {
+            this.showToast('✅ You are at the first verse of this chapter');
+            return;
         }
+        
+        this.showShloka(chapter, verse - 1, false);
     }
 
     nextVerse() {
         if (!this.currentShloka || this.isDailyVerse) return;
+        
         if (this.isSpeaking) {
             this.stopReading();
         }
+        
         const { chapter, verse } = this.currentShloka;
-        this.showShloka(chapter, verse + 1, false);
+        
+        // Check if at last verse
+        this.loadChapter(chapter).then(currentChapter => {
+            if (!currentChapter) return;
+            
+            if (verse >= currentChapter.shlokas.length) {
+                this.showToast('✅ You have reached the last verse of this chapter');
+                return;
+            }
+            
+            this.showShloka(chapter, verse + 1, false);
+        });
     }
 
     goBackFromShloka() {
         if (this.isSpeaking) {
             this.stopReading();
         }
+        
         if (this.isDailyVerse) {
             this.goHome();
         } else if (this.currentChapter) {
@@ -1059,13 +975,14 @@ class GitaApp {
         }
     }
 
-    // Bookmarks
+    // Bookmarks with Notes
     toggleBookmark(chapterNum, verseNum) {
         const bookmarks = this.getBookmarks();
         const key = `${chapterNum}-${verseNum}`;
         
         if (bookmarks[key]) {
             delete bookmarks[key];
+            delete this.bookmarkNotes[key];
             this.showToast('Bookmark removed');
         } else {
             bookmarks[key] = {
@@ -1077,6 +994,7 @@ class GitaApp {
         }
         
         localStorage.setItem('bookmarks', JSON.stringify(bookmarks));
+        localStorage.setItem('bookmarkNotes', JSON.stringify(this.bookmarkNotes));
         
         if (this.currentShloka) {
             this.showShloka(chapterNum, verseNum, this.isDailyVerse);
@@ -1090,6 +1008,69 @@ class GitaApp {
 
     getBookmarks() {
         return JSON.parse(localStorage.getItem('bookmarks') || '{}');
+    }
+
+    // Bookmark Notes
+    openNoteModal(chapterNum, verseNum) {
+        this.currentNoteChapter = chapterNum;
+        this.currentNoteVerse = verseNum;
+        
+        const existingNote = this.getBookmarkNote(chapterNum, verseNum);
+        const noteText = document.getElementById('noteText');
+        const noteTags = document.getElementById('noteTags');
+        
+        if (existingNote) {
+            noteText.value = existingNote.text;
+            noteTags.value = existingNote.tags.join(', ');
+        } else {
+            noteText.value = '';
+            noteTags.value = '';
+        }
+        
+        document.getElementById('noteModal').classList.add('show');
+    }
+
+    closeNoteModal() {
+        document.getElementById('noteModal').classList.remove('show');
+        this.currentNoteChapter = null;
+        this.currentNoteVerse = null;
+    }
+
+    saveNote() {
+        const noteText = document.getElementById('noteText').value.trim();
+        const noteTags = document.getElementById('noteTags').value
+            .split(',')
+            .map(tag => tag.trim().toLowerCase())
+            .filter(tag => tag.length > 0);
+        
+        if (!noteText) {
+            this.showToast('Please enter a note');
+            return;
+        }
+        
+        const key = `${this.currentNoteChapter}-${this.currentNoteVerse}`;
+        this.bookmarkNotes[key] = {
+            text: noteText,
+            tags: noteTags,
+            dateAdded: new Date().toISOString()
+        };
+        
+        localStorage.setItem('bookmarkNotes', JSON.stringify(this.bookmarkNotes));
+        this.showToast('📝 Note saved!');
+        this.closeNoteModal();
+        
+        if (this.currentShloka) {
+            this.showShloka(this.currentNoteChapter, this.currentNoteVerse, this.isDailyVerse);
+        }
+    }
+
+    getBookmarkNote(chapterNum, verseNum) {
+        const key = `${chapterNum}-${verseNum}`;
+        return this.bookmarkNotes[key] || null;
+    }
+
+    editBookmarkNote(chapterNum, verseNum) {
+        this.openNoteModal(chapterNum, verseNum);
     }
 
     async showBookmarks() {
@@ -1113,6 +1094,8 @@ class GitaApp {
             const shloka = chapter.shlokas.find(s => s.verse === bm.verse);
             if (!shloka) return '';
             
+            const note = this.getBookmarkNote(bm.chapter, bm.verse);
+            
             return `
                 <div class="bookmark-item" onclick="app.showShloka(${bm.chapter}, ${bm.verse}, false)">
                     <div class="bookmark-header">
@@ -1120,6 +1103,7 @@ class GitaApp {
                         <button class="remove-bookmark" onclick="event.stopPropagation(); app.toggleBookmark(${bm.chapter}, ${bm.verse}); app.showBookmarks();">×</button>
                     </div>
                     <div class="bookmark-preview">${shloka.sanskrit.substring(0, 100).replace(/\n/g, ' ')}...</div>
+                    ${note ? `<div class="bookmark-note-preview">📝 ${note.text.substring(0, 50)}...</div>` : ''}
                 </div>
             `;
         }));
@@ -1127,16 +1111,21 @@ class GitaApp {
         container.innerHTML = bookmarkItems.join('');
     }
 
-    shareShloka(chapterNum, verseNum) {
-        const url = window.location.href;
-        const text = `Check out Chapter ${chapterNum}, Verse ${verseNum} from the Bhagavad Gita`;
+    shareShloka(chapterNum, verseNum, translation) {
+        const url = 'https://gita.org'; // Placeholder URL
+        const verseLink = `https://gita.org/chapter/${chapterNum}/verse/${verseNum}`;
+        
+        const shareText = `📖 Bhagavad Gita - Chapter ${chapterNum}, Verse ${verseNum}\n\n"${translation}"\n\n🔗 Read more: ${verseLink}`;
         
         if (navigator.share) {
-            navigator.share({ title: 'Bhagavad Gita', text, url })
-                .catch(err => console.log('Share failed', err));
+            navigator.share({ 
+                title: 'Bhagavad Gita', 
+                text: shareText,
+                url: url
+            }).catch(err => console.log('Share failed', err));
         } else {
-            navigator.clipboard.writeText(`${text}\n${url}`);
-            this.showToast('📋 Link copied to clipboard');
+            navigator.clipboard.writeText(shareText);
+            this.showToast('📋 Verse and link copied to clipboard!');
         }
     }
 
@@ -1195,7 +1184,557 @@ class GitaApp {
         `).join('');
     }
 
-    // Refresh Confirmation
+    // ===== READING STATISTICS =====
+    updateReadingStats(chapter, verse) {
+        const today = new Date().toDateString();
+        
+        // Increment verses read
+        this.readingStats.versesRead = (this.readingStats.versesRead || 0) + 1;
+        
+        // Update reading history
+        if (!this.readingStats.readingHistory) {
+            this.readingStats.readingHistory = [];
+        }
+        
+        const todayEntry = this.readingStats.readingHistory.find(entry => entry.date === today);
+        if (todayEntry) {
+            todayEntry.count += 1;
+        } else {
+            this.readingStats.readingHistory.push({ date: today, count: 1 });
+        }
+        
+        // Update streak
+        const lastReadDate = this.readingStats.lastReadDate ? new Date(this.readingStats.lastReadDate) : null;
+        const currentDate = new Date();
+        
+        if (lastReadDate) {
+            const daysDifference = Math.floor((currentDate - lastReadDate) / (1000 * 60 * 60 * 24));
+            if (daysDifference === 0) {
+                // Same day, no change to streak
+            } else if (daysDifference === 1) {
+                this.readingStats.currentStreak = (this.readingStats.currentStreak || 0) + 1;
+            } else {
+                this.readingStats.currentStreak = 1;
+            }
+        } else {
+            this.readingStats.currentStreak = 1;
+        }
+        
+        this.readingStats.lastReadDate = currentDate.toISOString();
+        
+        localStorage.setItem('readingStats', JSON.stringify(this.readingStats));
+        this.checkChallengeProgress();
+    }
+
+    async showStatistics() {
+        this.showView('statistics');
+        const container = document.getElementById('statisticsContent');
+        
+        const stats = this.readingStats;
+        const totalChapters = this.chapters.length;
+        const readPercentage = Math.round((stats.versesRead / 700) * 100); // Gita has ~700 verses
+        
+        let longestStreak = 0;
+        let currentStreakCount = 0;
+        let streakDays = [];
+        
+        if (stats.readingHistory && stats.readingHistory.length > 0) {
+            stats.readingHistory.forEach(entry => {
+                currentStreakCount += entry.count;
+            });
+            
+            const sortedHistory = [...stats.readingHistory].sort((a, b) => new Date(a.date) - new Date(b.date));
+            let tempStreak = 1;
+            for (let i = 1; i < sortedHistory.length; i++) {
+                const prevDate = new Date(sortedHistory[i-1].date);
+                const currDate = new Date(sortedHistory[i].date);
+                const dayDiff = Math.floor((currDate - prevDate) / (1000 * 60 * 60 * 24));
+                
+                if (dayDiff === 1) {
+                    tempStreak++;
+                } else {
+                    longestStreak = Math.max(longestStreak, tempStreak);
+                    tempStreak = 1;
+                }
+            }
+            longestStreak = Math.max(longestStreak, tempStreak);
+        }
+        
+        container.innerHTML = `
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon">📖</div>
+                    <div class="stat-label">Verses Read</div>
+                    <div class="stat-value">${stats.versesRead || 0}</div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-icon">🔥</div>
+                    <div class="stat-label">Current Streak</div>
+                    <div class="stat-value">${stats.currentStreak || 0} days</div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-icon">⚡</div>
+                    <div class="stat-label">Longest Streak</div>
+                    <div class="stat-value">${longestStreak} days</div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-icon">⭐</div>
+                    <div class="stat-label">Bookmarks</div>
+                    <div class="stat-value">${Object.keys(this.getBookmarks()).length}</div>
+                </div>
+            </div>
+            
+            <div class="stats-progress">
+                <h3>Progress Through Gita</h3>
+                <div class="progress-bar">
+                    <div class="progress-fill" style="width: ${readPercentage}%"></div>
+                </div>
+                <p class="progress-text">${readPercentage}% complete (${stats.versesRead || 0}/700 verses)</p>
+            </div>
+            
+            <div class="reading-history">
+                <h3>📅 Reading Activity (Last 7 Days)</h3>
+                <div class="history-list">
+                    ${stats.readingHistory && stats.readingHistory.length > 0 ? 
+                        stats.readingHistory.slice(-7).reverse().map(entry => `
+                            <div class="history-item">
+                                <span class="history-date">${new Date(entry.date).toLocaleDateString()}</span>
+                                <span class="history-count">${entry.count} verse${entry.count > 1 ? 's' : ''}</span>
+                            </div>
+                        `).join('') : 
+                        '<p class="empty-message">No reading history yet. Start reading to track your progress!</p>'
+                    }
+                </div>
+            </div>
+        `;
+    }
+
+    // ===== READING PLANS =====
+    initializeReadingPlans() {
+        const defaultPlans = {
+            'gita-18days': {
+                id: 'gita-18days',
+                name: 'Complete Gita in 18 Days',
+                description: 'Read one chapter per day',
+                duration: 18,
+                totalVerses: 700,
+                chapters: Array.from({length: 18}, (_, i) => ({
+                    chapter: i + 1,
+                    versesToRead: Math.ceil(700 / 18)
+                })),
+                completed: false
+            },
+            'weekly-wisdom': {
+                id: 'weekly-wisdom',
+                name: 'Weekly Wisdom',
+                description: '7 verses per week',
+                duration: 100,
+                totalVerses: 700,
+                chapters: Array.from({length: 100}, (_, i) => ({
+                    week: i + 1,
+                    versesToRead: 7
+                })),
+                completed: false
+            }
+        };
+        
+        if (Object.keys(this.readingPlans).length === 0) {
+            this.readingPlans = defaultPlans;
+            localStorage.setItem('readingPlans', JSON.stringify(this.readingPlans));
+        }
+    }
+
+    async showReadingPlans() {
+        this.showView('readingPlans');
+        const container = document.getElementById('readingPlansContent');
+        
+        container.innerHTML = `
+            <div class="plans-list">
+                ${Object.values(this.readingPlans).map(plan => `
+                    <div class="plan-card">
+                        <div class="plan-header">
+                            <h3>${plan.name}</h3>
+                            <p class="plan-description">${plan.description}</p>
+                        </div>
+                        <div class="plan-details">
+                            <span class="plan-duration">⏱️ ${plan.duration} days</span>
+                            <span class="plan-verses">📖 ${plan.totalVerses} verses</span>
+                        </div>
+                        <div class="plan-actions">
+                            ${this.activeReadingPlan === plan.id ? 
+                                `<button class="plan-btn active" disabled>✅ Active</button>` :
+                                `<button class="plan-btn" onclick="app.startReadingPlan('${plan.id}')">Start</button>`
+                            }
+                        </div>
+                    </div>
+                `).join('')}
+            </div>
+        `;
+    }
+
+    startReadingPlan(planId) {
+        this.activeReadingPlan = planId;
+        localStorage.setItem('activeReadingPlan', planId);
+        this.showToast(`✅ Started "${this.readingPlans[planId].name}"`);
+        this.showReadingPlans();
+    }
+
+    // ===== CHALLENGES & BADGES =====
+    initializeChallenges() {
+        const defaultChallenges = [
+            {
+                id: 'first-verse',
+                name: 'First Verse',
+                description: 'Read your first verse',
+                badge: '🌟',
+                condition: () => this.readingStats.versesRead >= 1,
+                reward: 10
+            },
+            {
+                id: 'ten-verses',
+                name: 'Verse Seeker',
+                description: 'Read 10 verses',
+                badge: '📚',
+                condition: () => this.readingStats.versesRead >= 10,
+                reward: 20
+            },
+            {
+                id: 'fifty-verses',
+                name: 'Wisdom Collector',
+                description: 'Read 50 verses',
+                badge: '🧠',
+                condition: () => this.readingStats.versesRead >= 50,
+                reward: 50
+            },
+            {
+                id: 'chapter-complete',
+                name: 'Chapter Master',
+                description: 'Complete a full chapter',
+                badge: '👑',
+                condition: () => this.readingStats.versesRead >= 47,
+                reward: 100
+            },
+            {
+                id: 'full-gita',
+                name: 'Gita Master',
+                description: 'Read all 700 verses',
+                badge: '🏆',
+                condition: () => this.readingStats.versesRead >= 700,
+                reward: 500
+            },
+            {
+                id: 'seven-day-streak',
+                name: 'Dedicated Reader',
+                description: 'Read for 7 consecutive days',
+                badge: '🔥',
+                condition: () => this.readingStats.currentStreak >= 7,
+                reward: 75
+            },
+            {
+                id: 'bookmarks-10',
+                name: 'Bookmark Master',
+                description: 'Bookmark 10 verses',
+                badge: '⭐',
+                condition: () => Object.keys(this.getBookmarks()).length >= 10,
+                reward: 30
+            },
+            {
+                id: 'note-taker',
+                name: 'Note Taker',
+                description: 'Add a note to a bookmark',
+                badge: '📝',
+                condition: () => Object.keys(this.bookmarkNotes).length >= 1,
+                reward: 15
+            }
+        ];
+        
+        defaultChallenges.forEach(challenge => {
+            if (!this.challenges.completed.includes(challenge.id) && !this.challenges.inProgress.includes(challenge.id)) {
+                this.challenges.inProgress.push(challenge.id);
+            }
+        });
+        
+        localStorage.setItem('challenges', JSON.stringify(this.challenges));
+    }
+
+    checkChallengeProgress() {
+        const allChallenges = [
+            {
+                id: 'first-verse',
+                condition: () => this.readingStats.versesRead >= 1
+            },
+            {
+                id: 'ten-verses',
+                condition: () => this.readingStats.versesRead >= 10
+            },
+            {
+                id: 'fifty-verses',
+                condition: () => this.readingStats.versesRead >= 50
+            },
+            {
+                id: 'chapter-complete',
+                condition: () => this.readingStats.versesRead >= 47
+            },
+            {
+                id: 'full-gita',
+                condition: () => this.readingStats.versesRead >= 700
+            },
+            {
+                id: 'seven-day-streak',
+                condition: () => this.readingStats.currentStreak >= 7
+            },
+            {
+                id: 'bookmarks-10',
+                condition: () => Object.keys(this.getBookmarks()).length >= 10
+            },
+            {
+                id: 'note-taker',
+                condition: () => Object.keys(this.bookmarkNotes).length >= 1
+            }
+        ];
+        
+        allChallenges.forEach(challenge => {
+            if (!this.challenges.completed.includes(challenge.id) && challenge.condition()) {
+                this.challenges.completed.push(challenge.id);
+                const idx = this.challenges.inProgress.indexOf(challenge.id);
+                if (idx > -1) {
+                    this.challenges.inProgress.splice(idx, 1);
+                }
+                this.showToast(`🎉 Challenge completed: ${challenge.id}`);
+            }
+        });
+        
+        localStorage.setItem('challenges', JSON.stringify(this.challenges));
+    }
+
+    async showChallenges() {
+        this.showView('challenges');
+        const container = document.getElementById('challengesContent');
+        
+        const challengeData = [
+            { id: 'first-verse', name: 'First Verse', badge: '🌟', desc: 'Read your first verse' },
+            { id: 'ten-verses', name: 'Verse Seeker', badge: '📚', desc: 'Read 10 verses' },
+            { id: 'fifty-verses', name: 'Wisdom Collector', badge: '🧠', desc: 'Read 50 verses' },
+            { id: 'chapter-complete', name: 'Chapter Master', badge: '👑', desc: 'Complete a full chapter' },
+            { id: 'full-gita', name: 'Gita Master', badge: '🏆', desc: 'Read all 700 verses' },
+            { id: 'seven-day-streak', name: 'Dedicated Reader', badge: '🔥', desc: 'Read for 7 consecutive days' },
+            { id: 'bookmarks-10', name: 'Bookmark Master', badge: '⭐', desc: 'Bookmark 10 verses' },
+            { id: 'note-taker', name: 'Note Taker', badge: '📝', desc: 'Add a note to a bookmark' }
+        ];
+        
+        container.innerHTML = `
+            <div class="challenges-list">
+                <div class="challenges-section">
+                    <h3>✅ Completed Challenges</h3>
+                    <div class="challenges-grid">
+                        ${challengeData
+                            .filter(c => this.challenges.completed.includes(c.id))
+                            .map(c => `
+                                <div class="challenge-card completed">
+                                    <div class="challenge-badge">${c.badge}</div>
+                                    <div class="challenge-name">${c.name}</div>
+                                    <div class="challenge-desc">${c.desc}</div>
+                                    <div class="challenge-status">✅ Completed</div>
+                                </div>
+                            `).join('') || '<p class="empty-message">No challenges completed yet</p>'
+                        }
+                    </div>
+                </div>
+                
+                <div class="challenges-section">
+                    <h3>🎯 In Progress</h3>
+                    <div class="challenges-grid">
+                        ${challengeData
+                            .filter(c => this.challenges.inProgress.includes(c.id))
+                            .map(c => `
+                                <div class="challenge-card">
+                                    <div class="challenge-badge">${c.badge}</div>
+                                    <div class="challenge-name">${c.name}</div>
+                                    <div class="challenge-desc">${c.desc}</div>
+                                    <div class="challenge-status">🔄 In Progress</div>
+                                </div>
+                            `).join('')}
+                    </div>
+                </div>
+            </div>
+        `;
+    }
+
+    // ===== NOTIFICATIONS =====
+    scheduleNotifications() {
+        if (!('Notification' in window)) {
+            console.log('This browser does not support notifications');
+            return;
+        }
+        
+        if (Notification.permission === 'granted') {
+            this.setupDailyNotification();
+        } else if (Notification.permission !== 'denied') {
+            Notification.requestPermission().then(permission => {
+                if (permission === 'granted') {
+                    this.setupDailyNotification();
+                }
+            });
+        }
+    }
+
+    setupDailyNotification() {
+        const notificationTime = 8; // 8 AM
+        const now = new Date();
+        const scheduledTime = new Date(now.getFullYear(), now.getMonth(), now.getDate(), notificationTime, 0, 0);
+        
+        if (now > scheduledTime) {
+            scheduledTime.setDate(scheduledTime.getDate() + 1);
+        }
+        
+        const timeUntilNotification = scheduledTime - now;
+        
+        setTimeout(() => {
+            this.sendDailyNotification();
+            setInterval(() => {
+                this.sendDailyNotification();
+            }, 24 * 60 * 60 * 1000);
+        }, timeUntilNotification);
+    }
+
+    async sendDailyNotification() {
+        if (this.dailyShlokaInfo) {
+            const chapter = await this.loadChapter(this.dailyShlokaInfo.chapter);
+            const shloka = chapter.shlokas.find(s => s.verse === this.dailyShlokaInfo.verse);
+            
+            if (shloka) {
+                const notification = new Notification('📖 Today\'s Verse - Bhagavad Gita', {
+                    body: shloka.translation.substring(0, 100) + '...',
+                    icon: 'icon-192.png',
+                    badge: 'icon-monochrome.png'
+                });
+                
+                notification.onclick = () => {
+                    window.focus();
+                    this.showShloka(this.dailyShlokaInfo.chapter, this.dailyShlokaInfo.verse, true);
+                };
+            }
+        }
+    }
+
+    // Reading Settings
+    async showReadingSettings() {
+        this.showView('readingSettings');
+        
+        await this.loadVoices();
+        
+        const speedRange = document.getElementById('speedRange');
+        const speedValue = document.getElementById('speedValue');
+        if (speedRange && speedValue) {
+            speedRange.value = this.readingSpeed;
+            speedValue.textContent = this.readingSpeed + 'x';
+        }
+        
+        document.getElementById('readSanskrit').checked = this.readingPreferences.readSanskrit;
+        document.getElementById('readTranslation').checked = this.readingPreferences.readTranslation;
+        document.getElementById('readExplanation').checked = this.readingPreferences.readExplanation;
+    }
+
+    async loadVoices() {
+        return new Promise((resolve) => {
+            let voices = this.speechSynthesis.getVoices();
+            
+            if (voices.length > 0) {
+                this.populateVoiceList(voices);
+                resolve();
+            } else {
+                this.speechSynthesis.onvoiceschanged = () => {
+                    voices = this.speechSynthesis.getVoices();
+                    this.populateVoiceList(voices);
+                    resolve();
+                };
+            }
+        });
+    }
+
+    populateVoiceList(voices) {
+        const voiceSelect = document.getElementById('voiceSelect');
+        if (!voiceSelect) return;
+        
+        voiceSelect.innerHTML = '<option value="">Default Voice</option>';
+        
+        const hindiVoices = voices.filter(v => v.lang.startsWith('hi'));
+        const englishVoices = voices.filter(v => v.lang.startsWith('en'));
+        const otherVoices = voices.filter(v => !v.lang.startsWith('hi') && !v.lang.startsWith('en'));
+        
+        const addVoiceGroup = (groupVoices, label) => {
+            if (groupVoices.length > 0) {
+                const optgroup = document.createElement('optgroup');
+                optgroup.label = label;
+                groupVoices.forEach(voice => {
+                    const option = document.createElement('option');
+                    option.value = voice.name;
+                    option.textContent = `${voice.name} (${voice.lang})`;
+                    if (voice.name === this.selectedVoice) {
+                        option.selected = true;
+                    }
+                    optgroup.appendChild(option);
+                });
+                voiceSelect.appendChild(optgroup);
+            }
+        };
+        
+        addVoiceGroup(hindiVoices, 'Hindi Voices');
+        addVoiceGroup(englishVoices, 'English Voices');
+        addVoiceGroup(otherVoices, 'Other Languages');
+    }
+
+    saveVoicePreference() {
+        const voiceSelect = document.getElementById('voiceSelect');
+        if (voiceSelect) {
+            this.selectedVoice = voiceSelect.value || null;
+            localStorage.setItem('selectedVoice', this.selectedVoice || '');
+            this.showToast('✅ Voice preference saved');
+        }
+    }
+
+    updateSpeedDisplay(value) {
+        const speedValue = document.getElementById('speedValue');
+        if (speedValue) {
+            speedValue.textContent = parseFloat(value).toFixed(1) + 'x';
+        }
+    }
+
+    saveSpeedPreference(value) {
+        this.readingSpeed = parseFloat(value);
+        localStorage.setItem('readingSpeed', this.readingSpeed);
+        this.showToast('✅ Speed preference saved');
+    }
+
+    setSpeed(speed) {
+        const speedRange = document.getElementById('speedRange');
+        const speedValue = document.getElementById('speedValue');
+        if (speedRange && speedValue) {
+            speedRange.value = speed;
+            speedValue.textContent = speed + 'x';
+            this.saveSpeedPreference(speed);
+        }
+    }
+
+    saveReadingPreferences() {
+        this.readingPreferences = {
+            readSanskrit: document.getElementById('readSanskrit').checked,
+            readTranslation: document.getElementById('readTranslation').checked,
+            readExplanation: document.getElementById('readExplanation').checked
+        };
+        localStorage.setItem('readingPreferences', JSON.stringify(this.readingPreferences));
+        this.showToast('✅ Reading preferences saved');
+    }
+
+    testVoice() {
+        const testText = "This is a test of your reading settings. Sanskrit: ॐ नमः शिवाय। Translation: Om Namah Shivaya. Explanation: This is a sacred mantra.";
+        this.toggleReadAloud(testText);
+    }
+
+    // Refresh Data
     showRefreshConfirmation() {
         const modalBody = document.getElementById('personaModalBody');
         modalBody.innerHTML = `
@@ -1207,7 +1746,9 @@ class GitaApp {
                 </p>
                 <ul class="warning-list">
                     <li>📖 Continue Reading progress</li>
-                    <li>⭐ All bookmarks</li>
+                    <li>⭐ All bookmarks & notes</li>
+                    <li>📊 Statistics & reading history</li>
+                    <li>🎯 Challenges & reading plans</li>
                     <li>💾 Cached chapters</li>
                 </ul>
                 <p class="warning-note">
@@ -1250,7 +1791,6 @@ class GitaApp {
         document.getElementById('personaModal').classList.remove('show');
     }
 
-    // Refresh Data
     async refreshData() {
         const refreshBtn = document.getElementById('refreshBtn');
         const refreshIcon = refreshBtn.querySelector('.refresh-icon');
