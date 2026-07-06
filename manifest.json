@@ -1,26 +1,91 @@
 {
-  "name": "Bhagavad Gita - Modern Guide",
+  "name": "Bhagavad Gita",
   "short_name": "Gita",
-  "description": "The Bhagavad Gita with Sanskrit text, English translation, and modern explanations for millennials and Gen Z",
-  "start_url": "./",
-  "scope": "./",
+  "description": "Read the Bhagavad Gita with Sanskrit, Transliteration, Translation & Modern Explanations",
+  "start_url": "/gita-apps/",
   "display": "standalone",
   "background_color": "#1a1a2e",
-  "theme_color": "#1a1a2e",
+  "theme_color": "#FF9933",
   "orientation": "portrait-primary",
+  "scope": "/gita-apps/",
   "icons": [
     {
-      "src": "./icon-192.png",
+      "src": "icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
     },
     {
-      "src": "./icon-512.png",
+      "src": "icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
+    },
+    {
+      "src": "icon-monochrome.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "monochrome"
     }
   ],
-  "categories": ["education", "lifestyle", "books"]
+  "categories": ["education", "books"],
+  "widgets": [
+    {
+      "name": "Today's Verse",
+      "short_name": "Verse",
+      "description": "Shows today's verse from Bhagavad Gita",
+      "tag": "gita_daily_verse",
+      "screenshots": [
+        {
+          "src": "icon-192.png",
+          "sizes": "192x192",
+          "form_factor": "narrow"
+        }
+      ],
+      "data": {
+        "url": "/gita-apps/widget.html"
+      }
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Today's Verse",
+      "short_name": "Today",
+      "description": "View today's verse",
+      "url": "/gita-apps/index.html?view=daily",
+      "icons": [
+        {
+          "src": "icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Browse Chapters",
+      "short_name": "Chapters",
+      "description": "Browse all chapters",
+      "url": "/gita-apps/index.html?view=chapters",
+      "icons": [
+        {
+          "src": "icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "My Bookmarks",
+      "short_name": "Bookmarks",
+      "description": "View your bookmarks",
+      "url": "/gita-apps/index.html?view=bookmarks",
+      "icons": [
+        {
+          "src": "icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    }
+  ]
 }
