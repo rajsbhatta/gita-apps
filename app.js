@@ -1112,10 +1112,10 @@ class GitaApp {
     }
 
     shareShloka(chapterNum, verseNum, translation) {
-        const url = 'https://bit.ly/sb-gita'; // Placeholder URL
+        const url = 'https://bit.ly/sb-gita'; // URL
         const verseLink = `https://bit.ly/sb-gita/chapter/${chapterNum}/verse/${verseNum}`;
         
-        const shareText = `📖 Bhagavad Gita - Chapter ${chapterNum}, Verse ${verseNum}\n\n"${translation}"\n\n🔗 Read more: ${verseLink}`;
+        const shareText = `📖 Bhagavad Gita - Chapter ${chapterNum}, Verse ${verseNum}\n\n"${translation}"\n\n🔗 Read more: `;
         
         if (navigator.share) {
             navigator.share({ 
