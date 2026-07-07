@@ -990,7 +990,7 @@ body {
 /* ===== READING PLANS GRID ===== */
 .plans-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
     gap: 1.2rem;
     margin-bottom: 3rem;
 }
