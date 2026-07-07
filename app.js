@@ -12,7 +12,7 @@ class GitaApp {
         this.pendingPersona = null;
         this.deferredPrompt = null;
         this.isInstalled = false;
-        this.isDailyVerse = false;
+        this.isDaily = false;
         this.speechSynthesis = window.speechSynthesis;
         this.isSpeaking = false;
         this.readingSpeed = parseFloat(localStorage.getItem('readingSpeed')) || 0.9;
@@ -1186,33 +1186,51 @@ class GitaApp {
 
     // ===== VERSE CARD CREATOR =====
     cardBackgroundImage = 'none';
+    cardCreatorData = {
+        chapter: null,
+        verse: null,
+        shloka: null
+    };
     
-    async showVerseCardCreator() {
-        this.showView('verseCard');
+    async showVerseCardCreator(chapterNum, verseNum) {
+        // Store the verse data
+        this.cardCreatorData.chapter = chapterNum;
+        this.cardCreatorData.verse = verseNum;
         
-        if (!this.currentShloka) {
-            document.getElementById('verseCardContent').innerHTML = `
-                <p class="empty-message">Please select a verse first to create a card</p>
-            `;
+        // Load the chapter and get the verse
+        const chapter = await this.loadChapter(chapterNum);
+        if (!chapter) {
+            this.showToast('Error loading verse');
             return;
         }
         
-        // Load the current verse and update preview
-        const chapter = await this.loadChapter(this.currentShloka.chapter);
-        if (!chapter) return;
+        const shloka = chapter.shlokas.find(s => s.verse === verseNum);
+        if (!shloka) {
+            this.showToast('Verse not found');
+            return;
+        }
         
-        const shloka = chapter.shlokas.find(s => s.verse === this.currentShloka.verse);
-        if (!shloka) return;
+        this.cardCreatorData.shloka = shloka;
         
-        // Update the preview with actual verse data
+        // Show the modal
+        document.getElementById('cardCreatorModal').classList.add('show');
+        
+        // Update preview
+        this.updateCardPreviewContent(shloka, chapterNum, verseNum);
+        this.updateCardPreview();
+    }
+    
+    closeCardCreator() {
+        document.getElementById('cardCreatorModal').classList.remove('show');
+    }
+    
+    updateCardPreviewContent(shloka, chapterNum, verseNum) {
         const previewContent = document.querySelector('.preview-content');
         previewContent.innerHTML = `
-            <p class="preview-ref">Chapter ${this.currentShloka.chapter}, Verse ${this.currentShloka.verse}</p>
+            <p class="preview-ref">Chapter ${chapterNum}, Verse ${verseNum}</p>
             <p class="preview-verse">${shloka.sanskrit.replace(/\n/g, '<br>')}</p>
             <p class="preview-translation">"${shloka.translation}"</p>
         `;
-        
-        this.updateCardPreview();
     }
     
     updateCardPreview() {
@@ -1225,7 +1243,7 @@ class GitaApp {
         const cardStyle = document.getElementById('cardStyle').value;
         
         // Update font size display
-        document.getElementById('fontSizeValue').textContent = fontSize + 'px';
+        document.getElementById('fontSizeValue').textContent = fontSize;
         
         // Build background style
         let backgroundStyle = `background-color: ${bgColor};`;
@@ -1275,6 +1293,8 @@ class GitaApp {
                     color: ${accentColor};
                     font-size: ${parseInt(fontSize) * 0.6}px;
                     margin-bottom: 20px;
+                    text-transform: uppercase;
+                    letter-spacing: 2px;
                 `;
             }
             
@@ -1293,9 +1313,31 @@ class GitaApp {
                     font-size: ${parseInt(fontSize)}px;
                     color: ${textColor};
                     font-style: italic;
+                    line-height: 1.6;
                 `;
             }
         }
+    }
+    
+    setColor(type, color) {
+        if (type === 'bg') {
+            document.getElementById('bgColor').value = color;
+        } else if (type === 'text') {
+            document.getElementById('textColor').value = color;
+        } else if (type === 'accent') {
+            document.getElementById('accentColor').value = color;
+        }
+        this.updateCardPreview();
+    }
+    
+    setFont(font) {
+        document.getElementById('fontFamily').value = `'${font}', sans-serif`;
+        this.updateCardPreview();
+    }
+    
+    setCardStyle(style) {
+        document.getElementById('cardStyle').value = style;
+        this.updateCardPreview();
     }
     
     setBackgroundImage(type) {
@@ -1303,8 +1345,74 @@ class GitaApp {
         this.updateCardPreview();
     }
     
+    applyPreset(preset) {
+        const presets = {
+            spiritual: {
+                bgColor: '#1a1a2e',
+                textColor: '#ffffff',
+                accentColor: '#FF9933',
+                fontSize: '20',
+                fontFamily: "'Georgia', serif",
+                cardStyle: 'gradient',
+                backgroundImage: 'mandala'
+            },
+            modern: {
+                bgColor: '#ffffff',
+                textColor: '#1a1a2e',
+                accentColor: '#3498db',
+                fontSize: '18',
+                fontFamily: "'Segoe UI', sans-serif",
+                cardStyle: 'shadow',
+                backgroundImage: 'gradient1'
+            },
+            classic: {
+                bgColor: '#2c3e50',
+                textColor: '#ecf0f1',
+                accentColor: '#e74c3c',
+                fontSize: '19',
+                fontFamily: "'Times New Roman', serif",
+                cardStyle: 'bordered',
+                backgroundImage: 'none'
+            },
+            minimal: {
+                bgColor: '#000000',
+                textColor: '#ffffff',
+                accentColor: '#FFD700',
+                fontSize: '18',
+                fontFamily: "'Arial Black', sans-serif",
+                cardStyle: 'minimal',
+                backgroundImage: 'none'
+            }
+        };
+        
+        const p = presets[preset];
+        document.getElementById('bgColor').value = p.bgColor;
+        document.getElementById('textColor').value = p.textColor;
+        document.getElementById('accentColor').value = p.accentColor;
+        document.getElementById('fontSize').value = p.fontSize;
+        document.getElementById('fontFamily').value = p.fontFamily;
+        document.getElementById('cardStyle').value = p.cardStyle;
+        this.cardBackgroundImage = p.backgroundImage;
+        
+        this.updateCardPreview();
+        this.showToast(`✅ Applied ${preset} preset`);
+    }
+    
+    resetCardSettings() {
+        document.getElementById('bgColor').value = '#1a1a2e';
+        document.getElementById('textColor').value = '#ffffff';
+        document.getElementById('accentColor').value = '#FF9933';
+        document.getElementById('fontSize').value = '18';
+        document.getElementById('fontFamily').value = "'Segoe UI', sans-serif";
+        document.getElementById('cardStyle').value = 'minimal';
+        this.cardBackgroundImage = 'none';
+        
+        this.updateCardPreview();
+        this.showToast('↻ Reset to defaults');
+    }
+    
     async downloadVerseCard() {
-        if (!this.currentShloka) {
+        if (!this.cardCreatorData.shloka) {
             this.showToast('Please select a verse first');
             return;
         }
@@ -1317,14 +1425,14 @@ class GitaApp {
         
         const link = document.createElement('a');
         link.href = canvas.toDataURL('image/png');
-        link.download = `verse-${this.currentShloka.chapter}-${this.currentShloka.verse}.png`;
+        link.download = `verse-${this.cardCreatorData.chapter}-${this.cardCreatorData.verse}.png`;
         link.click();
         
         this.showToast('📥 Card downloaded!');
     }
     
     async shareVerseCard() {
-        if (!this.currentShloka) {
+        if (!this.cardCreatorData.shloka) {
             this.showToast('Please select a verse first');
             return;
         }
@@ -1345,12 +1453,12 @@ class GitaApp {
                         title: 'Bhagavad Gita Verse Card'
                     });
                 } else {
-                    this.showToast('Share not available on this device');
+                    this.showToast('📋 Download the card to share');
                 }
             });
         } catch (error) {
             console.error('Error sharing card:', error);
-            this.showToast('❌ Error sharing card');
+            this.showToast('❌ Error creating card');
         }
     }
 
