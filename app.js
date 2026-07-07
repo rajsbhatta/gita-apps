@@ -1197,6 +1197,21 @@ class GitaApp {
             return;
         }
         
+        // Load the current verse and update preview
+        const chapter = await this.loadChapter(this.currentShloka.chapter);
+        if (!chapter) return;
+        
+        const shloka = chapter.shlokas.find(s => s.verse === this.currentShloka.verse);
+        if (!shloka) return;
+        
+        // Update the preview with actual verse data
+        const previewContent = document.querySelector('.preview-content');
+        previewContent.innerHTML = `
+            <p class="preview-ref">Chapter ${this.currentShloka.chapter}, Verse ${this.currentShloka.verse}</p>
+            <p class="preview-verse">${shloka.sanskrit.replace(/\n/g, '<br>')}</p>
+            <p class="preview-translation">"${shloka.translation}"</p>
+        `;
+        
         this.updateCardPreview();
     }
     
