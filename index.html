@@ -78,8 +78,7 @@
             <li><button onclick="app.showBookmarks(); app.toggleSidebar();">⭐ My Bookmarks</button></li>
             <li><button onclick="app.showSearch(); app.toggleSidebar();">🔍 Search</button></li>
             <li><button onclick="app.showStatistics(); app.toggleSidebar();">📊 Statistics</button></li>
-            <li><button onclick="app.showReadingPlans(); app.toggleSidebar();">📚 Reading Plans</button></li>
-            <li><button onclick="app.showChallenges(); app.toggleSidebar();">🏆 Challenges</button></li>
+            <li><button onclick="app.showReadingPlans(); app.toggleSidebar();">📚 Plans & Challenges</button></li>
             <li><button onclick="app.showReadingSettings(); app.toggleSidebar();">🔊 Reading Settings</button></li>
             <li><button onclick="app.showAbout(); app.toggleSidebar();">ℹ️ About</button></li>
         </ul>
@@ -300,21 +299,27 @@
         </div>
     </div>
     
-    <!-- Reading Plans View -->
+    <!-- Reading Plans & Challenges View -->
     <div id="readingPlansView" class="view">
         <button class="back-btn" onclick="app.goHome()">← Back</button>
-        <h2>📚 Reading Plans</h2>
-        <div id="readingPlansContent" class="plans-container">
+        <h2>📚 Reading Plans & 🏆 Challenges</h2>
+        
+        <!-- Reading Plans Section -->
+        <div class="section-header">
+            <h3>📚 Choose Your Reading Plan</h3>
+            <p class="section-subtitle">Select a plan that fits your pace</p>
+        </div>
+        <div id="readingPlansContent" class="plans-grid">
             <div class="loading">Loading reading plans...</div>
         </div>
-    </div>
     
-    <!-- Challenges View -->
-    <div id="challengesView" class="view">
-        <button class="back-btn" onclick="app.goHome()">← Back</button>
-        <h2>🏆 Challenges & Badges</h2>
-        <div id="challengesContent" class="challenges-container">
-            <div class="loading">Loading challenges...</div>
+        <!-- Badges Section -->
+        <div class="section-header" style="margin-top: 3rem;">
+            <h3>🏆 Your Achievements</h3>
+            <p class="section-subtitle">Badges you've earned and challenges ahead</p>
+        </div>
+        <div id="challengesContent" class="badges-container">
+            <div class="loading">Loading badges...</div>
         </div>
     </div>
 
