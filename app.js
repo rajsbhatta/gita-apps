@@ -1597,29 +1597,77 @@ class GitaApp {
     // ===== READING PLANS =====
     initializeReadingPlans() {
         const defaultPlans = {
-            'gita-18days': {
-                id: 'gita-18days',
-                name: 'Complete Gita in 18 Days',
-                description: 'Read one chapter per day',
-                duration: 18,
+            'one-verse-daily': {
+                id: 'one-verse-daily',
+                name: '1 Verse Daily',
+                description: 'One verse every day',
+                emoji: '📖',
+                duration: 700,
                 totalVerses: 700,
-                chapters: Array.from({length: 18}, (_, i) => ({
-                    chapter: i + 1,
-                    versesToRead: Math.ceil(700 / 18)
-                })),
-                completed: false
+                dailyVersesRequired: 1,
+                completed: false,
+                difficulty: 'Easy',
+                color: '#3498db'
             },
-            'weekly-wisdom': {
-                id: 'weekly-wisdom',
+            'seven-verses-weekly': {
+                id: 'seven-verses-weekly',
                 name: 'Weekly Wisdom',
                 description: '7 verses per week',
+                emoji: '📚',
                 duration: 100,
                 totalVerses: 700,
-                chapters: Array.from({length: 100}, (_, i) => ({
-                    week: i + 1,
-                    versesToRead: 7
-                })),
-                completed: false
+                dailyVersesRequired: 1,
+                completed: false,
+                difficulty: 'Easy',
+                color: '#2ecc71'
+            },
+            'one-chapter-weekly': {
+                id: 'one-chapter-weekly',
+                name: 'Chapter a Week',
+                description: 'Complete one chapter weekly',
+                emoji: '📕',
+                duration: 18,
+                totalVerses: 700,
+                dailyVersesRequired: 39,
+                completed: false,
+                difficulty: 'Medium',
+                color: '#f39c12'
+            },
+            'gita-18days': {
+                id: 'gita-18days',
+                name: 'Complete in 18 Days',
+                description: 'One chapter daily',
+                emoji: '⚡',
+                duration: 18,
+                totalVerses: 700,
+                dailyVersesRequired: 39,
+                completed: false,
+                difficulty: 'Hard',
+                color: '#e74c3c'
+            },
+            'intensive-week': {
+                id: 'intensive-week',
+                name: 'Intensive Week',
+                description: '100 verses in 7 days',
+                emoji: '🔥',
+                duration: 7,
+                totalVerses: 100,
+                dailyVersesRequired: 14,
+                completed: false,
+                difficulty: 'Expert',
+                color: '#c0392b'
+            },
+            'one-chapter-monthly': {
+                id: 'one-chapter-monthly',
+                name: 'Monthly Journey',
+                description: 'One chapter every month',
+                emoji: '🌙',
+                duration: 18,
+                totalVerses: 700,
+                dailyVersesRequired: 1,
+                completed: false,
+                difficulty: 'Very Easy',
+                color: '#9b59b6'
             }
         };
         
@@ -1634,20 +1682,27 @@ class GitaApp {
         const container = document.getElementById('readingPlansContent');
         
         container.innerHTML = `
-            <div class="plans-list">
+            <div class="plans-grid">
                 ${Object.values(this.readingPlans).map(plan => `
                     <div class="plan-card">
-                        <div class="plan-header">
-                            <h3>${plan.name}</h3>
-                            <p class="plan-description">${plan.description}</p>
-                        </div>
-                        <div class="plan-details">
-                            <span class="plan-duration">⏱️ ${plan.duration} days</span>
-                            <span class="plan-verses">📖 ${plan.totalVerses} verses</span>
+                        <div class="plan-emoji">${plan.emoji}</div>
+                        <h4 class="plan-name">${plan.name}</h4>
+                        <p class="plan-description">${plan.description}</p>
+                        <div class="plan-meta">
+                            <span class="meta-item">
+                                <span class="meta-label">Duration</span>
+                                <span class="meta-value">${plan.duration} days</span>
+                            </span>
+                            <span class="meta-item">
+                                <span class="meta-label">Difficulty</span>
+                                <span class="meta-difficulty" style="background-color: ${plan.color}20; color: ${plan.color};">
+                                    ${plan.difficulty}
+                                </span>
+                            </span>
                         </div>
                         <div class="plan-actions">
                             ${this.activeReadingPlan === plan.id ? 
-                                `<button class="plan-btn active" disabled>✅ Active</button>` :
+                                `<button class="plan-btn active">✅ Active</button>` :
                                 `<button class="plan-btn" onclick="app.startReadingPlan('${plan.id}')">Start</button>`
                             }
                         </div>
@@ -1655,6 +1710,9 @@ class GitaApp {
                 `).join('')}
             </div>
         `;
+    
+        // Load badges below
+        this.loadBadges();
     }
 
     startReadingPlan(planId) {
@@ -1793,56 +1851,71 @@ class GitaApp {
     }
 
     async showChallenges() {
-        this.showView('challenges');
+        this.showView('readingPlans');
+        document.getElementById('readingPlansContent').innerHTML = '';
+        this.loadBadges();
+    }
+    
+    async loadBadges() {
         const container = document.getElementById('challengesContent');
         
         const challengeData = [
-            { id: 'first-verse', name: 'First Verse', badge: '🌟', desc: 'Read your first verse' },
-            { id: 'ten-verses', name: 'Verse Seeker', badge: '📚', desc: 'Read 10 verses' },
-            { id: 'fifty-verses', name: 'Wisdom Collector', badge: '🧠', desc: 'Read 50 verses' },
-            { id: 'chapter-complete', name: 'Chapter Master', badge: '👑', desc: 'Complete a full chapter' },
-            { id: 'full-gita', name: 'Gita Master', badge: '🏆', desc: 'Read all 700 verses' },
-            { id: 'seven-day-streak', name: 'Dedicated Reader', badge: '🔥', desc: 'Read for 7 consecutive days' },
-            { id: 'bookmarks-10', name: 'Bookmark Master', badge: '⭐', desc: 'Bookmark 10 verses' },
-            { id: 'note-taker', name: 'Note Taker', badge: '📝', desc: 'Add a note to a bookmark' }
+            { id: 'first-verse', name: 'First Verse', badge: '🌟', desc: 'Read your first verse', points: 10 },
+            { id: 'ten-verses', name: 'Verse Seeker', badge: '📚', desc: 'Read 10 verses', points: 20 },
+            { id: 'fifty-verses', name: 'Wisdom Collector', badge: '🧠', desc: 'Read 50 verses', points: 50 },
+            { id: 'chapter-complete', name: 'Chapter Master', badge: '👑', desc: 'Complete a chapter', points: 100 },
+            { id: 'full-gita', name: 'Gita Master', badge: '🏆', desc: 'Read all 700 verses', points: 500 },
+            { id: 'seven-day-streak', name: 'Dedicated', badge: '🔥', desc: '7 day streak', points: 75 },
+            { id: 'bookmarks-10', name: 'Bookmarker', badge: '⭐', desc: '10 bookmarks', points: 30 },
+            { id: 'note-taker', name: 'Note Taker', badge: '📝', desc: 'Add a note', points: 15 }
         ];
         
-        container.innerHTML = `
-            <div class="challenges-list">
-                <div class="challenges-section">
-                    <h3>✅ Completed Challenges</h3>
-                    <div class="challenges-grid">
-                        ${challengeData
-                            .filter(c => this.challenges.completed.includes(c.id))
-                            .map(c => `
-                                <div class="challenge-card completed">
-                                    <div class="challenge-badge">${c.badge}</div>
-                                    <div class="challenge-name">${c.name}</div>
-                                    <div class="challenge-desc">${c.desc}</div>
-                                    <div class="challenge-status">✅ Completed</div>
-                                </div>
-                            `).join('') || '<p class="empty-message">No challenges completed yet</p>'
-                        }
+        const completedBadges = challengeData.filter(c => this.challenges.completed.includes(c.id));
+        const inProgressBadges = challengeData.filter(c => this.challenges.inProgress.includes(c.id));
+        
+        let html = '';
+        
+        // Completed Badges
+        if (completedBadges.length > 0) {
+            html += `
+                <div class="badges-group">
+                    <h4 class="badges-group-title">✅ Completed</h4>
+                    <div class="badges-grid">
+                        ${completedBadges.map(b => `
+                            <div class="badge-item completed" title="${b.desc}">
+                                <div class="badge-emoji">${b.badge}</div>
+                                <div class="badge-name">${b.name}</div>
+                                <div class="badge-points">+${b.points} pts</div>
+                            </div>
+                        `).join('')}
                     </div>
                 </div>
-                
-                <div class="challenges-section">
-                    <h3>🎯 In Progress</h3>
-                    <div class="challenges-grid">
-                        ${challengeData
-                            .filter(c => this.challenges.inProgress.includes(c.id))
-                            .map(c => `
-                                <div class="challenge-card">
-                                    <div class="challenge-badge">${c.badge}</div>
-                                    <div class="challenge-name">${c.name}</div>
-                                    <div class="challenge-desc">${c.desc}</div>
-                                    <div class="challenge-status">🔄 In Progress</div>
-                                </div>
-                            `).join('')}
+            `;
+        }
+        
+        // In Progress Badges
+        if (inProgressBadges.length > 0) {
+            html += `
+                <div class="badges-group">
+                    <h4 class="badges-group-title">🎯 In Progress</h4>
+                    <div class="badges-grid">
+                        ${inProgressBadges.map(b => `
+                            <div class="badge-item" title="${b.desc}">
+                                <div class="badge-emoji">${b.badge}</div>
+                                <div class="badge-name">${b.name}</div>
+                                <div class="badge-points">+${b.points} pts</div>
+                            </div>
+                        `).join('')}
                     </div>
                 </div>
-            </div>
-        `;
+            `;
+        }
+        
+        if (html === '') {
+            html = '<p class="empty-message">Complete challenges to earn badges! 🎉</p>';
+        }
+        
+        container.innerHTML = html;
     }
 
     // ===== NOTIFICATIONS =====
