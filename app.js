@@ -908,6 +908,9 @@ class GitaApp {
                     <button id="readAloudBtn" class="read-aloud-btn" onclick="app.toggleReadAloud(\`${this.getReadableText(shloka)}\`)">
                         🔊 Read Aloud
                     </button>
+                    <button class="card-btn" onclick="app.showVerseCardCreator(${chapterNum}, ${verseNum})">
+                        🎨 Create Card
+                    </button>
                     <button class="share-btn" onclick="app.shareShloka(${chapterNum}, ${verseNum}, '${shloka.translation}')">
                         📤 Share
                     </button>
