@@ -323,152 +323,25 @@
         </div>
     </div>
 
-    <!-- Verse Card Creator Modal -->
+    <!-- Verse Card Modal -->
     <div id="cardCreatorModal" class="card-modal">
         <div class="card-modal-content">
             <button class="modal-close" onclick="app.closeCardCreator()">✕</button>
             
-            <div class="card-creator-layout">
-                <!-- Preview Section -->
-                <div class="preview-section">
-                    <h3>Preview</h3>
-                    <div class="card-preview" id="cardPreview">
-                        <div class="preview-content">
-                            <p class="preview-ref">Chapter 2, Verse 47</p>
-                            <p class="preview-verse">कर्मण्येवाधिकारस्ते</p>
-                            <p class="preview-translation">"You have the right to work only, but never to its fruits."</p>
-                        </div>
-                    </div>
-                    <div class="preview-actions">
-                        <button class="primary-btn" onclick="app.downloadVerseCard()">📥 Download</button>
-                        <button class="secondary-btn" onclick="app.shareVerseCard()">📤 Share</button>
+            <div class="card-modal-simple">
+                <h3>📸 Verse Card</h3>
+                
+                <div class="card-preview" id="cardPreview">
+                    <div class="preview-content">
+                        <p class="preview-ref">Chapter 2, Verse 47</p>
+                        <p class="preview-verse">कर्मण्येवाधिकारस्ते</p>
+                        <p class="preview-translation">"You have the right to work only, but never to its fruits."</p>
                     </div>
                 </div>
-    
-                <!-- Customization Section -->
-                <div class="customization-section">
-                    <h3>Customize</h3>
-                    
-                    <!-- Quick Presets -->
-                    <div class="setting-group">
-                        <label>⚡ Quick Presets</label>
-                        <div class="preset-buttons">
-                            <button class="preset-btn" onclick="app.applyPreset('spiritual')">🧘 Spiritual</button>
-                            <button class="preset-btn" onclick="app.applyPreset('modern')">✨ Modern</button>
-                            <button class="preset-btn" onclick="app.applyPreset('classic')">📖 Classic</button>
-                            <button class="preset-btn" onclick="app.applyPreset('minimal')">⚪ Minimal</button>
-                        </div>
-                    </div>
-    
-                    <hr class="divider">
-    
-                    <!-- Colors Section -->
-                    <div class="colors-section">
-                        <h4>🎨 Colors</h4>
-                        
-                        <div class="color-group">
-                            <label>Background</label>
-                            <div class="color-picker-group">
-                                <input type="color" id="bgColor" value="#1a1a2e" onchange="app.updateCardPreview()">
-                                <div class="color-swatches">
-                                    <div class="swatch" onclick="app.setColor('bg', '#1a1a2e')" style="background: #1a1a2e;" title="Dark Blue"></div>
-                                    <div class="swatch" onclick="app.setColor('bg', '#0f3460')" style="background: #0f3460;" title="Navy"></div>
-                                    <div class="swatch" onclick="app.setColor('bg', '#1a1a1a')" style="background: #1a1a1a;" title="Black"></div>
-                                    <div class="swatch" onclick="app.setColor('bg', '#2c3e50')" style="background: #2c3e50;" title="Charcoal"></div>
-                                    <div class="swatch" onclick="app.setColor('bg', '#ffffff')" style="background: #ffffff; border: 1px solid #ccc;" title="White"></div>
-                                </div>
-                            </div>
-                        </div>
-    
-                        <div class="color-group">
-                            <label>Text</label>
-                            <div class="color-picker-group">
-                                <input type="color" id="textColor" value="#ffffff" onchange="app.updateCardPreview()">
-                                <div class="color-swatches">
-                                    <div class="swatch" onclick="app.setColor('text', '#ffffff')" style="background: #ffffff; border: 1px solid #ccc;" title="White"></div>
-                                    <div class="swatch" onclick="app.setColor('text', '#ecf0f1')" style="background: #ecf0f1; border: 1px solid #ccc;" title="Light Gray"></div>
-                                    <div class="swatch" onclick="app.setColor('text', '#bdc3c7')" style="background: #bdc3c7; border: 1px solid #999;" title="Gray"></div>
-                                    <div class="swatch" onclick="app.setColor('text', '#1a1a1a')" style="background: #1a1a1a;" title="Dark"></div>
-                                </div>
-                            </div>
-                        </div>
-    
-                        <div class="color-group">
-                            <label>Accent</label>
-                            <div class="color-picker-group">
-                                <input type="color" id="accentColor" value="#FF9933" onchange="app.updateCardPreview()">
-                                <div class="color-swatches">
-                                    <div class="swatch" onclick="app.setColor('accent', '#FF9933')" style="background: #FF9933;" title="Orange"></div>
-                                    <div class="swatch" onclick="app.setColor('accent', '#3498db')" style="background: #3498db;" title="Blue"></div>
-                                    <div class="swatch" onclick="app.setColor('accent', '#e74c3c')" style="background: #e74c3c;" title="Red"></div>
-                                    <div class="swatch" onclick="app.setColor('accent', '#2ecc71')" style="background: #2ecc71;" title="Green"></div>
-                                    <div class="swatch" onclick="app.setColor('accent', '#9b59b6')" style="background: #9b59b6;" title="Purple"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-    
-                    <hr class="divider">
-    
-                    <!-- Typography Section -->
-                    <div class="typography-section">
-                        <h4>🔤 Typography</h4>
-                        
-                        <div class="setting-group">
-                            <label>Font Family</label>
-                            <div class="font-options">
-                                <button class="font-btn" onclick="app.setFont('Segoe UI')">Modern</button>
-                                <button class="font-btn" onclick="app.setFont('Georgia')">Classic</button>
-                                <button class="font-btn" onclick="app.setFont('Times New Roman')">Traditional</button>
-                                <button class="font-btn" onclick="app.setFont('Arial Black')">Bold</button>
-                            </div>
-                        </div>
-    
-                        <div class="setting-group">
-                            <label>Font Size: <span id="fontSizeValue">18</span>px</label>
-                            <input type="range" id="fontSize" min="12" max="32" value="18" onchange="app.updateCardPreview()">
-                        </div>
-                    </div>
-    
-                    <hr class="divider">
-    
-                    <!-- Style Section -->
-                    <div class="style-section">
-                        <h4>🎭 Style</h4>
-                        
-                        <div class="setting-group">
-                            <label>Background Pattern</label>
-                            <div class="pattern-buttons">
-                                <button class="pattern-btn" onclick="app.setBackgroundImage('none')">None</button>
-                                <button class="pattern-btn" onclick="app.setBackgroundImage('gradient1')">Gradient</button>
-                                <button class="pattern-btn" onclick="app.setBackgroundImage('mandala')">Mandala</button>
-                                <button class="pattern-btn" onclick="app.setBackgroundImage('lotus')">Lotus</button>
-                            </div>
-                        </div>
-    
-                        <div class="setting-group">
-                            <label>Card Border</label>
-                            <div class="border-buttons">
-                                <button class="border-btn" onclick="app.setCardStyle('minimal')" title="Minimal">
-                                    <div class="border-preview" style="border: none;"></div>
-                                </button>
-                                <button class="border-btn" onclick="app.setCardStyle('bordered')" title="Bordered">
-                                    <div class="border-preview" style="border: 2px solid #FF9933;"></div>
-                                </button>
-                                <button class="border-btn" onclick="app.setCardStyle('shadow')" title="Shadow">
-                                    <div class="border-preview" style="box-shadow: 0 4px 12px rgba(0,0,0,0.4);"></div>
-                                </button>
-                                <button class="border-btn" onclick="app.setCardStyle('gradient')" title="Glowing">
-                                    <div class="border-preview" style="border: 2px solid #FF9933; box-shadow: 0 0 15px #FF9933;"></div>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-    
-                    <hr class="divider">
-    
-                    <!-- Reset Button -->
-                    <button class="reset-btn" onclick="app.resetCardSettings()">↻ Reset to Default</button>
+                
+                <div class="card-modal-actions">
+                    <button class="primary-btn" onclick="app.downloadVerseCard()">📥 Download</button>
+                    <button class="secondary-btn" onclick="app.shareVerseCard()">📤 Share</button>
                 </div>
             </div>
         </div>
