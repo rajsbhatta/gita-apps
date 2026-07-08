@@ -65,12 +65,9 @@
         </div>
     </header>
 
-    <!-- Sidebar Menu -->
-    <nav id="sidebar" class="sidebar">
-        <div class="sidebar-header">
-            <h2>Menu</h2>
-            <button class="close-btn" onclick="app.toggleSidebar()">×</button>
-        </div>
+    <!-- Sidebar -->
+    <div id="sidebar" class="sidebar">
+        <button class="close-btn" onclick="app.toggleSidebar()">✕</button>
         <ul class="menu-list">
             <li><button onclick="app.goHome(); app.toggleSidebar();">🏠 Home</button></li>
             <li><button onclick="app.showIntroduction(); app.toggleSidebar();">📜 Introduction</button></li>
@@ -82,9 +79,8 @@
             <li><button onclick="app.showReadingSettings(); app.toggleSidebar();">🔊 Reading Settings</button></li>
             <li><button onclick="app.showAbout(); app.toggleSidebar();">ℹ️ About</button></li>
         </ul>
-    </nav>
-
-    <!-- Overlay for sidebar -->
+    </div>
+    
     <div id="overlay" class="overlay" onclick="app.toggleSidebar()"></div>
 
     <!-- Main Content -->
