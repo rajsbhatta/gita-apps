@@ -1196,11 +1196,9 @@ class GitaApp {
     };
     
     async showVerseCardCreator(chapterNum, verseNum) {
-        // Store the verse data
         this.cardCreatorData.chapter = chapterNum;
         this.cardCreatorData.verse = verseNum;
         
-        // Load the chapter and get the verse
         const chapter = await this.loadChapter(chapterNum);
         if (!chapter) {
             this.showToast('Error loading verse');
@@ -1215,12 +1213,15 @@ class GitaApp {
         
         this.cardCreatorData.shloka = shloka;
         
-        // Show the modal
         document.getElementById('cardCreatorModal').classList.add('show');
         
-        // Update preview
-        this.updateCardPreviewContent(shloka, chapterNum, verseNum);
-        this.updateCardPreview();
+        const previewContent = document.querySelector('.preview-content');
+        previewContent.innerHTML = `
+            <p class="preview-ref">Chapter ${chapterNum}, Verse ${verseNum}</p>
+            <p class="preview-verse">${shloka.sanskrit.replace(/\n/g, '<br>')}</p>
+            <p class="preview-translation">"${shloka.translation}"</p>
+            <p class="card-footer">|| श्रीमद्भगवद्गीता || Shrimad Bhagavad Gita ||</p>
+        `;
     }
     
     closeCardCreator() {
