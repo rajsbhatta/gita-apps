@@ -238,32 +238,61 @@ class GitaApp {
         const voices = window.speechSynthesis.getVoices();
         if (voices.length > 0) {
             if (this.selectedVoice === 'vyasa') {
-                // Male voice
-                const maleVoice = voices.find(v => 
-                    (v.lang === 'en-IN' && v.name.includes('Male')) ||
-                    (v.lang === 'en-IN' && (v.name.includes('Wavenet') || v.name.includes('Neural'))) ||
-                    v.name.includes('Google US English') ||
-                    v.name.includes('Daniel') ||
-                    v.name.includes('Aaron') ||
-                    (v.lang === 'en-US' && (v.name.includes('Male') || v.name.includes('male')))
+                // Male voice - try different strategies
+                let maleVoice = null;
+                
+                // Try 1: Indian English male
+                maleVoice = voices.find(v => v.lang.startsWith('en-IN') && v.name.includes('Male'));
+                
+                // Try 2: Google Wavenet male
+                if (!maleVoice) maleVoice = voices.find(v => v.name.includes('Wavenet-B') || v.name.includes('Wavenet-C') || v.name.includes('Wavenet-D'));
+                
+                // Try 3: Specific masculine names
+                if (!maleVoice) maleVoice = voices.find(v => 
+                    v.name.includes('Microsoft David') ||
+                    v.name.includes('David') ||
+                    v.name.includes('Mark') ||
+                    v.name.includes('George') ||
+                    v.name.includes('Gordon')
                 );
+                
+                // Try 4: US English voices
+                if (!maleVoice) maleVoice = voices.find(v => v.lang.startsWith('en-US') && v.name.includes('Male'));
+                
+                // Try 5: Any male-tagged voice
+                if (!maleVoice) maleVoice = voices.find(v => v.name.toLowerCase().includes('male'));
+                
                 if (maleVoice) utterance.voice = maleVoice;
             } else {
-                // Female voice
-                const femaleVoice = voices.find(v => 
-                    (v.lang === 'en-IN' && v.name.includes('Female')) ||
-                    (v.lang === 'en-IN' && (v.name.includes('Wavenet') || v.name.includes('Neural'))) ||
-                    v.name.includes('Google US English') ||
+                // Female voice - try different strategies
+                let femaleVoice = null;
+                
+                // Try 1: Indian English female
+                femaleVoice = voices.find(v => v.lang.startsWith('en-IN') && v.name.includes('Female'));
+                
+                // Try 2: Google Wavenet female
+                if (!femaleVoice) femaleVoice = voices.find(v => v.name.includes('Wavenet-A') || v.name.includes('Wavenet-E') || v.name.includes('Wavenet-F'));
+                
+                // Try 3: Specific feminine names
+                if (!femaleVoice) femaleVoice = voices.find(v => 
+                    v.name.includes('Microsoft Zira') ||
+                    v.name.includes('Zira') ||
                     v.name.includes('Victoria') ||
-                    v.name.includes('Samantha') ||
-                    (v.lang === 'en-US' && (v.name.includes('Female') || v.name.includes('female')))
+                    v.name.includes('Karen')
                 );
+                
+                // Try 4: US English voices
+                if (!femaleVoice) femaleVoice = voices.find(v => v.lang.startsWith('en-US') && v.name.includes('Female'));
+                
+                // Try 5: Any female-tagged voice
+                if (!femaleVoice) femaleVoice = voices.find(v => v.name.toLowerCase().includes('female'));
+                
                 if (femaleVoice) utterance.voice = femaleVoice;
             }
         }
         
         utterance.rate = this.readingSpeed;
-        utterance.pitch = this.selectedVoice === 'vyasa' ? 0.5 : 1.5;
+        utterance.pitch = this.selectedVoice === 'vyasa' ? 0.3 : 1.6;
         utterance.volume = 1;
         
         utterance.onend = () => {
@@ -2055,36 +2084,61 @@ class GitaApp {
             const voices = window.speechSynthesis.getVoices();
             if (voices.length > 0) {
                 if (this.selectedVoice === 'vyasa') {
-                    // Male voice - prefer Indian English, then US English
-                    const maleVoice = voices.find(v => 
-                        // US English male voices
-                        v.name.includes('Google US English') ||
-                        v.name.includes('Daniel') ||
-                        v.name.includes('Aaron') ||
-                        v.name.includes('Arthur') ||
-                        (v.lang === 'en-US' && (v.name.includes('Male') || v.name.includes('male')))
+                    // Male voice - try different strategies
+                    let maleVoice = null;
+                    
+                    // Try 1: Indian English male
+                    maleVoice = voices.find(v => v.lang.startsWith('en-IN') && v.name.includes('Male'));
+                    
+                    // Try 2: Google Wavenet male
+                    if (!maleVoice) maleVoice = voices.find(v => v.name.includes('Wavenet-B') || v.name.includes('Wavenet-C') || v.name.includes('Wavenet-D'));
+                    
+                    // Try 3: Specific masculine names
+                    if (!maleVoice) maleVoice = voices.find(v => 
+                        v.name.includes('Microsoft David') ||
+                        v.name.includes('David') ||
+                        v.name.includes('Mark') ||
+                        v.name.includes('George') ||
+                        v.name.includes('Gordon')
                     );
+                    
+                    // Try 4: US English voices
+                    if (!maleVoice) maleVoice = voices.find(v => v.lang.startsWith('en-US') && v.name.includes('Male'));
+                    
+                    // Try 5: Any male-tagged voice
+                    if (!maleVoice) maleVoice = voices.find(v => v.name.toLowerCase().includes('male'));
+                    
                     if (maleVoice) utterance.voice = maleVoice;
                 } else {
-                    // Female voice - prefer Indian English, then US English
-                    const femaleVoice = voices.find(v => 
-                        // Indian English female voices
-                        (v.lang === 'en-IN' && v.name.includes('Female')) ||
-                        (v.lang === 'en-IN' && (v.name.includes('Wavenet') || v.name.includes('Neural'))) ||
-                        // US English female voices
-                        v.name.includes('Google US English') ||
+                    // Female voice - try different strategies
+                    let femaleVoice = null;
+                    
+                    // Try 1: Indian English female
+                    femaleVoice = voices.find(v => v.lang.startsWith('en-IN') && v.name.includes('Female'));
+                    
+                    // Try 2: Google Wavenet female
+                    if (!femaleVoice) femaleVoice = voices.find(v => v.name.includes('Wavenet-A') || v.name.includes('Wavenet-E') || v.name.includes('Wavenet-F'));
+                    
+                    // Try 3: Specific feminine names
+                    if (!femaleVoice) femaleVoice = voices.find(v => 
+                        v.name.includes('Microsoft Zira') ||
+                        v.name.includes('Zira') ||
                         v.name.includes('Victoria') ||
-                        v.name.includes('Samantha') ||
-                        v.name.includes('Moira') ||
-                        (v.lang === 'en-US' && (v.name.includes('Female') || v.name.includes('female')))
+                        v.name.includes('Karen')
                     );
+                    
+                    // Try 4: US English voices
+                    if (!femaleVoice) femaleVoice = voices.find(v => v.lang.startsWith('en-US') && v.name.includes('Female'));
+                    
+                    // Try 5: Any female-tagged voice
+                    if (!femaleVoice) femaleVoice = voices.find(v => v.name.toLowerCase().includes('female'));
+                    
                     if (femaleVoice) utterance.voice = femaleVoice;
                 }
             }
             
             utterance.rate = parseFloat(document.getElementById('speedRange').value);
-            // VYASA (Male) = Deep voice, GARGI (Female) = High voice
-            utterance.pitch = this.selectedVoice === 'vyasa' ? 0.8 : 1.2;
+            utterance.pitch = this.selectedVoice === 'vyasa' ? 0.3 : 1.6;
             utterance.volume = 1;
             
             window.speechSynthesis.speak(utterance);
