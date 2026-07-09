@@ -1710,7 +1710,7 @@ class GitaApp {
                     <h4 class="badges-group-title">✅ Completed</h4>
                     <div class="badges-grid">
                         ${completedBadges.map(b => `
-                            <div class="badge-item completed" title="${b.desc}">
+                            <div class="badge-item completed" title="${b.desc}" onclick="app.showBadgeShare('${b.badge}', '${b.name}', '${b.desc}', ${b.points})">
                                 <div class="badge-emoji">${b.badge}</div>
                                 <div class="badge-name">${b.name}</div>
                                 <div class="badge-points">+${b.points} pts</div>
@@ -1728,7 +1728,7 @@ class GitaApp {
                     <h4 class="badges-group-title">🎯 In Progress</h4>
                     <div class="badges-grid">
                         ${inProgressBadges.map(b => `
-                            <div class="badge-item" title="${b.desc}">
+                            <div class="badge-item" title="${b.desc}" onclick="app.showBadgeShare('${b.badge}', '${b.name}', '${b.desc}', ${b.points})">
                                 <div class="badge-emoji">${b.badge}</div>
                                 <div class="badge-name">${b.name}</div>
                                 <div class="badge-points">+${b.points} pts</div>
@@ -1744,6 +1744,65 @@ class GitaApp {
         }
         
         container.innerHTML = html;
+    }
+
+    // ===== BADGE SHARING =====
+    showBadgeShare(emoji, name, desc, points) {
+        document.getElementById('badgeShareEmoji').textContent = emoji;
+        document.getElementById('badgeShareName').textContent = name;
+        document.getElementById('badgeShareDesc').textContent = desc;
+        document.getElementById('badgeSharePoints').textContent = `+${points} points`;
+        document.getElementById('badgeShareModal').classList.add('show');
+    }
+    
+    closeBadgeShare() {
+        document.getElementById('badgeShareModal').classList.remove('show');
+    }
+    
+    async downloadBadgeImage() {
+        const badgeCard = document.getElementById('badgeShareCard');
+        try {
+            const canvas = await html2canvas(badgeCard, {
+                backgroundColor: null,
+                scale: 2
+            });
+            
+            const link = document.createElement('a');
+            link.href = canvas.toDataURL('image/png');
+            link.download = `gita-badge-${document.getElementById('badgeShareName').textContent.replace(/\s+/g, '-').toLowerCase()}.png`;
+            link.click();
+            
+            this.showToast('📥 Badge downloaded!');
+        } catch (error) {
+            console.error('Error downloading badge:', error);
+            this.showToast('❌ Error downloading badge');
+        }
+    }
+    
+    async shareBadgeImage() {
+        const badgeCard = document.getElementById('badgeShareCard');
+        try {
+            const canvas = await html2canvas(badgeCard, {
+                backgroundColor: null,
+                scale: 2
+            });
+            
+            canvas.toBlob(async (blob) => {
+                if (navigator.share && navigator.canShare({ files: [new File([blob], 'badge.png', { type: 'image/png' })] })) {
+                    const file = new File([blob], 'badge.png', { type: 'image/png' });
+                    navigator.share({
+                        files: [file],
+                        title: 'My Bhagavad Gita Achievement',
+                        text: 'I just earned a badge! Download the Bhagavad Gita app: https://bit.ly/sb-gita'
+                    });
+                } else {
+                    this.showToast('📋 Download and share manually');
+                }
+            });
+        } catch (error) {
+            console.error('Error sharing badge:', error);
+            this.showToast('❌ Error sharing badge');
+        }
     }
 
     // ===== NOTIFICATIONS =====
