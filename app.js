@@ -1991,9 +1991,6 @@ class GitaApp {
                 if (this.selectedVoice === 'vyasa') {
                     // Male voice - prefer Indian English, then US English
                     const maleVoice = voices.find(v => 
-                        // Indian English male voices
-                        (v.lang === 'en-IN' && v.name.includes('Male')) ||
-                        (v.lang === 'en-IN' && (v.name.includes('Wavenet') || v.name.includes('Neural'))) ||
                         // US English male voices
                         v.name.includes('Google US English') ||
                         v.name.includes('Daniel') ||
