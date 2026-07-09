@@ -361,6 +361,30 @@
         </div>
     </div>
 
+    <!-- Badge Share Modal -->
+    <div id="badgeShareModal" class="card-modal">
+        <div class="card-modal-content">
+            <button class="modal-close" onclick="app.closeBadgeShare()">✕</button>
+            
+            <div class="card-modal-simple">
+                <h3>🏆 Achievement Unlocked</h3>
+                
+                <div class="badge-share-card" id="badgeShareCard">
+                    <div class="badge-share-emoji" id="badgeShareEmoji">🌟</div>
+                    <div class="badge-share-name" id="badgeShareName">First Verse</div>
+                    <div class="badge-share-desc" id="badgeShareDesc">Read your first verse</div>
+                    <div class="badge-share-points" id="badgeSharePoints">+10 points</div>
+                    <div class="badge-share-footer">Get your own badge at https://bit.ly/sb-gita</div>
+                </div>
+                
+                <div class="card-modal-actions">
+                    <button class="primary-btn" onclick="app.downloadBadgeImage()">📥 Download</button>
+                    <button class="secondary-btn" onclick="app.shareBadgeImage()">📤 Share</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="app.js"></script>
     <script>
         if ('serviceWorker' in navigator) {
