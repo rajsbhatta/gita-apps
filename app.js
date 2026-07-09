@@ -243,11 +243,11 @@ class GitaApp {
                 
                 // Try 1: Indian English male
                 maleVoice = voices.find(v => v.lang.startsWith('en-IN') && v.name.includes('Male'));
-                
-                // Try 2: Google Wavenet male
-                if (!maleVoice) maleVoice = voices.find(v => v.name.includes('Wavenet-B') || v.name.includes('Wavenet-C') || v.name.includes('Wavenet-D'));
-                
-                // Try 3: Specific masculine names
+ 
+                // Try 2: US English voices
+                if (!maleVoice) maleVoice = voices.find(v => v.lang.startsWith('en-US') && v.name.includes('Male'));
+            
+               // Try 3: Specific masculine names
                 if (!maleVoice) maleVoice = voices.find(v => 
                     v.name.includes('Microsoft David') ||
                     v.name.includes('David') ||
@@ -255,11 +255,8 @@ class GitaApp {
                     v.name.includes('George') ||
                     v.name.includes('Gordon')
                 );
-                
-                // Try 4: US English voices
-                if (!maleVoice) maleVoice = voices.find(v => v.lang.startsWith('en-US') && v.name.includes('Male'));
-                
-                // Try 5: Any male-tagged voice
+                    
+                // Try 4: Any male-tagged voice
                 if (!maleVoice) maleVoice = voices.find(v => v.name.toLowerCase().includes('male'));
                 
                 if (maleVoice) utterance.voice = maleVoice;
