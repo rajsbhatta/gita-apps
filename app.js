@@ -1,4 +1,4 @@
-// Bhagavad Gita PWA - Main Application with Enhanced Features
+// Bhagavad Gita PWA - Main Application
 class GitaApp {
     constructor() {
         this.db = null;
