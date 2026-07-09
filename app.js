@@ -1866,8 +1866,6 @@ class GitaApp {
     async showReadingSettings() {
         this.showView('readingSettings');
         
-        await this.loadVoices();
-        
         const speedRange = document.getElementById('speedRange');
         const speedValue = document.getElementById('speedValue');
         if (speedRange && speedValue) {
@@ -1878,6 +1876,9 @@ class GitaApp {
         document.getElementById('readSanskrit').checked = this.readingPreferences.readSanskrit;
         document.getElementById('readTranslation').checked = this.readingPreferences.readTranslation;
         document.getElementById('readExplanation').checked = this.readingPreferences.readExplanation;
+        
+        // Initialize voice selection
+        this.initializeVoiceSettings();
     }
 
     async loadVoices() {
@@ -1972,8 +1973,59 @@ class GitaApp {
     }
 
     testVoice() {
-        const testText = "This is a test of your reading settings. Sanskrit: ॐ नमः शिवाय। Translation: Om Namah Shivaya. Explanation: This is a sacred mantra.";
-        this.toggleReadAloud(testText);
+        const voiceName = this.selectedVoice === 'vyasa' ? 'Vyasa' : 'Gargi';
+        const greeting = this.selectedVoice === 'vyasa' 
+            ? `Namaste. I am Vyasa, the ancient sage. Welcome to explore the eternal teachings of the Bhagavad Gita. Let us begin our journey together.`
+            : `Namaste. I am Gargi, the revered scholar. Welcome to the wisdom of the Bhagavad Gita. Let us explore its profound teachings together.`;
+        
+        // Use Web Speech API
+        if ('speechSynthesis' in window) {
+            // Cancel any ongoing speech
+            window.speechSynthesis.cancel();
+            
+            const utterance = new SpeechSynthesisUtterance(greeting);
+            
+            // Select voice based on choice
+            const voices = window.speechSynthesis.getVoices();
+            if (voices.length > 0) {
+                if (this.selectedVoice === 'vyasa') {
+                    // Try to find a male voice
+                    const maleVoice = voices.find(v => v.name.includes('Male') || v.name.includes('man') || v.name.includes('Google UK English Male'));
+                    if (maleVoice) utterance.voice = maleVoice;
+                } else {
+                    // Try to find a female voice
+                    const femaleVoice = voices.find(v => v.name.includes('Female') || v.name.includes('woman') || v.name.includes('Google UK English Female'));
+                    if (femaleVoice) utterance.voice = femaleVoice;
+                }
+            }
+            
+            utterance.rate = parseFloat(document.getElementById('speedRange').value);
+            utterance.pitch = this.selectedVoice === 'vyasa' ? 0.8 : 1.2;
+            utterance.volume = 1;
+            
+            window.speechSynthesis.speak(utterance);
+            this.showToast(`🔊 Testing ${voiceName}'s voice...`);
+        } else {
+            this.showToast('❌ Speech synthesis not supported');
+        }
+    }
+
+    // ===== READING SETTINGS - VOICE SELECTION =====
+    selectVoice(voice) {
+        this.selectedVoice = voice;
+        localStorage.setItem('selectedVoice', voice);
+        
+        // Update UI
+        document.getElementById('voice-vyasa').classList.toggle('active', voice === 'vyasa');
+        document.getElementById('voice-gargi').classList.toggle('active', voice === 'gargi');
+        document.getElementById('voiceNameDisplay').textContent = voice === 'vyasa' ? 'Vyasa' : 'Gargi';
+        
+        this.showToast(`✅ Voice changed to ${voice === 'vyasa' ? 'Vyasa' : 'Gargi'}`);
+    }
+    
+    initializeVoiceSettings() {
+        const savedVoice = localStorage.getItem('selectedVoice') || 'vyasa';
+        this.selectVoice(savedVoice);
     }
 
     // Refresh Data
