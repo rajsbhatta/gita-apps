@@ -1989,32 +1989,39 @@ class GitaApp {
             const voices = window.speechSynthesis.getVoices();
             if (voices.length > 0) {
                 if (this.selectedVoice === 'vyasa') {
-                    // Try to find a male voice
+                    // Male voice - prefer Indian English, then US English
                     const maleVoice = voices.find(v => 
-                        v.name.includes('Male') || 
-                        v.name.includes('man') || 
-                        v.name.includes('Google UK English Male') ||
+                        // Indian English male voices
+                        (v.lang === 'en-IN' && v.name.includes('Male')) ||
+                        (v.lang === 'en-IN' && (v.name.includes('Wavenet') || v.name.includes('Neural'))) ||
+                        // US English male voices
+                        v.name.includes('Google US English') ||
                         v.name.includes('Daniel') ||
                         v.name.includes('Aaron') ||
-                        v.name.includes('Arthur')
+                        v.name.includes('Arthur') ||
+                        (v.lang === 'en-US' && (v.name.includes('Male') || v.name.includes('male')))
                     );
                     if (maleVoice) utterance.voice = maleVoice;
                 } else {
-                    // Try to find a female voice
+                    // Female voice - prefer Indian English, then US English
                     const femaleVoice = voices.find(v => 
-                        v.name.includes('Female') || 
-                        v.name.includes('woman') || 
-                        v.name.includes('Google UK English Female') ||
+                        // Indian English female voices
+                        (v.lang === 'en-IN' && v.name.includes('Female')) ||
+                        (v.lang === 'en-IN' && (v.name.includes('Wavenet') || v.name.includes('Neural'))) ||
+                        // US English female voices
+                        v.name.includes('Google US English') ||
                         v.name.includes('Victoria') ||
                         v.name.includes('Samantha') ||
-                        v.name.includes('Moira')
+                        v.name.includes('Moira') ||
+                        (v.lang === 'en-US' && (v.name.includes('Female') || v.name.includes('female')))
                     );
                     if (femaleVoice) utterance.voice = femaleVoice;
                 }
             }
             
             utterance.rate = parseFloat(document.getElementById('speedRange').value);
-            utterance.pitch = this.selectedVoice === 'vyasa' ? 0.4 : 1.8;  // Changed: 0.8 → 0.4, 1.2 → 1.8
+            // VYASA (Male) = Deep voice, GARGI (Female) = High voice
+            utterance.pitch = this.selectedVoice === 'vyasa' ? 0.5 : 1.5;
             utterance.volume = 1;
             
             window.speechSynthesis.speak(utterance);
@@ -2023,7 +2030,7 @@ class GitaApp {
             this.showToast('❌ Speech synthesis not supported');
         }
     }
-
+    
     // ===== READING SETTINGS - VOICE SELECTION =====
     selectVoice(voice) {
         this.selectedVoice = voice;
