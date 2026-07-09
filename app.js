@@ -1990,17 +1990,31 @@ class GitaApp {
             if (voices.length > 0) {
                 if (this.selectedVoice === 'vyasa') {
                     // Try to find a male voice
-                    const maleVoice = voices.find(v => v.name.includes('Male') || v.name.includes('man') || v.name.includes('Google UK English Male'));
+                    const maleVoice = voices.find(v => 
+                        v.name.includes('Male') || 
+                        v.name.includes('man') || 
+                        v.name.includes('Google UK English Male') ||
+                        v.name.includes('Daniel') ||
+                        v.name.includes('Aaron') ||
+                        v.name.includes('Arthur')
+                    );
                     if (maleVoice) utterance.voice = maleVoice;
                 } else {
                     // Try to find a female voice
-                    const femaleVoice = voices.find(v => v.name.includes('Female') || v.name.includes('woman') || v.name.includes('Google UK English Female'));
+                    const femaleVoice = voices.find(v => 
+                        v.name.includes('Female') || 
+                        v.name.includes('woman') || 
+                        v.name.includes('Google UK English Female') ||
+                        v.name.includes('Victoria') ||
+                        v.name.includes('Samantha') ||
+                        v.name.includes('Moira')
+                    );
                     if (femaleVoice) utterance.voice = femaleVoice;
                 }
             }
             
             utterance.rate = parseFloat(document.getElementById('speedRange').value);
-            utterance.pitch = this.selectedVoice === 'vyasa' ? 0.8 : 1.2;
+            utterance.pitch = this.selectedVoice === 'vyasa' ? 0.4 : 1.8;  // Changed: 0.8 → 0.4, 1.2 → 1.8
             utterance.volume = 1;
             
             window.speechSynthesis.speak(utterance);
