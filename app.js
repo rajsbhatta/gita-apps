@@ -2021,7 +2021,7 @@ class GitaApp {
             
             utterance.rate = parseFloat(document.getElementById('speedRange').value);
             // VYASA (Male) = Deep voice, GARGI (Female) = High voice
-            utterance.pitch = this.selectedVoice === 'vyasa' ? 0.5 : 1.5;
+            utterance.pitch = this.selectedVoice === 'vyasa' ? 0.8 : 1.2;
             utterance.volume = 1;
             
             window.speechSynthesis.speak(utterance);
