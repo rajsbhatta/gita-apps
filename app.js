@@ -1728,7 +1728,7 @@ class GitaApp {
                     <h4 class="badges-group-title">🎯 In Progress</h4>
                     <div class="badges-grid">
                         ${inProgressBadges.map(b => `
-                            <div class="badge-item" title="${b.desc}" onclick="app.showBadgeShare('${b.badge}', '${b.name}', '${b.desc}', ${b.points})">
+                            <div class="badge-item" title="${b.desc}" style="cursor: default; opacity: 0.6;">
                                 <div class="badge-emoji">${b.badge}</div>
                                 <div class="badge-name">${b.name}</div>
                                 <div class="badge-points">+${b.points} pts</div>
