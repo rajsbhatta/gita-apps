@@ -219,16 +219,32 @@
             <button class="back-btn" onclick="app.goHome()">← Back</button>
             <h2>🔊 Reading Settings</h2>
             <div id="readingSettingsContent" class="settings-container">
-                <div class="setting-section">
-                    <h3>Voice Selection</h3>
-                    <p class="setting-description">Choose which voice to use for reading</p>
-                    <select id="voiceSelect" class="voice-select" onchange="app.saveVoicePreference()">
-                        <option value="">Loading voices...</option>
-                    </select>
+                
+                <!-- Voice Selection Section -->
+                <div class="setting-section voice-selection-section">
+                    <h3>🎤 Choose Your Voice</h3>
+                    <p class="setting-description">Select who will recite the teachings</p>
+                    
+                    <div class="voice-cards">
+                        <div class="voice-card" id="voice-vyasa" onclick="app.selectVoice('vyasa')">
+                            <div class="voice-icon male-sage">🧔‍♂️</div>
+                            <div class="voice-name">Vyasa</div>
+                            <div class="voice-type">Male Voice</div>
+                        </div>
+                        
+                        <div class="voice-card" id="voice-gargi" onclick="app.selectVoice('gargi')">
+                            <div class="voice-icon female-lady">👩</div>
+                            <div class="voice-name">Gargi</div>
+                            <div class="voice-type">Female Voice</div>
+                        </div>
+                    </div>
                 </div>
         
+                <hr class="divider">
+        
+                <!-- Reading Speed Section -->
                 <div class="setting-section">
-                    <h3>Reading Speed</h3>
+                    <h3>⚡ Reading Speed</h3>
                     <p class="setting-description">Adjust how fast the text is read</p>
                     <div class="speed-control">
                         <input type="range" id="speedRange" min="0.5" max="2" step="0.1" value="0.9" 
@@ -244,8 +260,11 @@
                     </div>
                 </div>
         
+                <hr class="divider">
+        
+                <!-- What to Read Section -->
                 <div class="setting-section">
-                    <h3>What to Read</h3>
+                    <h3>📖 What to Read</h3>
                     <p class="setting-description">Choose which parts to read aloud</p>
                     <div class="reading-options">
                         <label class="checkbox-label">
@@ -263,13 +282,17 @@
                     </div>
                 </div>
         
+                <hr class="divider">
+        
+                <!-- Test Voice Section -->
                 <div class="setting-section">
-                    <h3>Test Voice</h3>
-                    <p class="setting-description">Try your current settings</p>
+                    <h3>🎧 Test Voice</h3>
+                    <p class="setting-description">Hear your chosen voice</p>
                     <button class="test-voice-btn" onclick="app.testVoice()">
-                        🔊 Test Voice Settings
+                        🔊 Test <span id="voiceNameDisplay">Vyasa</span>'s Voice
                     </button>
                 </div>
+        
             </div>
         </div>
     </main>
