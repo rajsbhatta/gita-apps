@@ -214,12 +214,70 @@ class GitaApp {
     }
 
     // Text-to-Speech Functions
-    toggleReadAloud(text) {
-        if (this.isSpeaking) {
-            this.stopReading();
-        } else {
-            this.startReading(text);
+    async toggleReadAloud(text) {
+        if (!('speechSynthesis' in window)) {
+            this.showToast('❌ Speech synthesis not supported');
+            return;
         }
+        
+        const btn = document.getElementById('readAloudBtn');
+        
+        if (window.speechSynthesis.speaking) {
+            window.speechSynthesis.cancel();
+            btn?.classList.remove('reading');
+            return;
+        }
+        
+        if (!text) return;
+        
+        btn?.classList.add('reading');
+        
+        const utterance = new SpeechSynthesisUtterance(text);
+        
+        // Use the selected voice (Vyasa or Gargi)
+        const voices = window.speechSynthesis.getVoices();
+        if (voices.length > 0) {
+            if (this.selectedVoice === 'vyasa') {
+                // Male voice
+                const maleVoice = voices.find(v => 
+                    (v.lang === 'en-IN' && v.name.includes('Male')) ||
+                    (v.lang === 'en-IN' && (v.name.includes('Wavenet') || v.name.includes('Neural'))) ||
+                    v.name.includes('Google US English') ||
+                    v.name.includes('Daniel') ||
+                    v.name.includes('Aaron') ||
+                    (v.lang === 'en-US' && (v.name.includes('Male') || v.name.includes('male')))
+                );
+                if (maleVoice) utterance.voice = maleVoice;
+            } else {
+                // Female voice
+                const femaleVoice = voices.find(v => 
+                    (v.lang === 'en-IN' && v.name.includes('Female')) ||
+                    (v.lang === 'en-IN' && (v.name.includes('Wavenet') || v.name.includes('Neural'))) ||
+                    v.name.includes('Google US English') ||
+                    v.name.includes('Victoria') ||
+                    v.name.includes('Samantha') ||
+                    (v.lang === 'en-US' && (v.name.includes('Female') || v.name.includes('female')))
+                );
+                if (femaleVoice) utterance.voice = femaleVoice;
+            }
+        }
+        
+        utterance.rate = this.readingSpeed;
+        utterance.pitch = this.selectedVoice === 'vyasa' ? 0.5 : 1.5;
+        utterance.volume = 1;
+        
+        utterance.onend = () => {
+            btn?.classList.remove('reading');
+        };
+        
+        utterance.onerror = (event) => {
+            if (event.error !== 'interrupted' && event.error !== 'canceled') {
+                this.showToast('❌ Error reading text');
+            }
+            btn?.classList.remove('reading');
+        };
+        
+        window.speechSynthesis.speak(utterance);
     }
 
     startReading(text) {
@@ -508,16 +566,24 @@ class GitaApp {
     }
 
     showView(viewName) {
-        if (this.isSpeaking) {
-            this.stopReading();
+        // Cancel any ongoing speech
+        window.speechSynthesis.cancel();
+        const readAloudBtn = document.getElementById('readAloudBtn');
+        if (readAloudBtn) {
+            readAloudBtn.classList.remove('reading');
         }
-
+        
+        // Hide all views
         document.querySelectorAll('.view').forEach(view => {
             view.classList.remove('active');
         });
-        document.getElementById(viewName + 'View').classList.add('active');
-        this.currentView = viewName;
-        window.scrollTo(0, 0);
+        
+        // Show selected view
+        const view = document.getElementById(viewName + 'View');
+        if (view) {
+            view.classList.add('active');
+            window.scrollTo(0, 0);
+        }
     }
 
     goHome() {
