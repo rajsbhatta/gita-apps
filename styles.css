@@ -1340,25 +1340,82 @@ body {
 }
 
 /* Reading Settings */
-.voice-select {
-    width: 100%;
-    padding: 0.8rem;
-    background: var(--bg-secondary);
-    border: 2px solid var(--bg);
-    border-radius: 8px;
-    color: var(--text);
-    font-size: 1rem;
+
+/* ===== VOICE SELECTION ===== */
+.voice-selection-section {
+    padding: 2rem;
+}
+
+.voice-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+
+.voice-card {
+    background: var(--bg);
+    border: 2px solid var(--bg-secondary);
+    border-radius: 12px;
+    padding: 1.8rem 1.3rem;
+    text-align: center;
     cursor: pointer;
+    transition: all 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
 }
 
-.voice-select:focus {
-    outline: none;
+.voice-card:hover {
     border-color: var(--accent);
+    background: var(--bg-secondary);
+    transform: translateY(-4px);
 }
 
-.voice-select option {
+.voice-card.active {
     background: var(--bg-secondary);
+    border-color: var(--accent);
+    box-shadow: 0 8px 20px rgba(255, 153, 51, 0.2);
+}
+
+.voice-icon {
+    font-size: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    background: var(--bg-secondary);
+    border-radius: 50%;
+    transition: all 0.3s;
+}
+
+.voice-card:hover .voice-icon,
+.voice-card.active .voice-icon {
+    background: rgba(255, 153, 51, 0.15);
+    transform: scale(1.08);
+}
+
+.voice-name {
     color: var(--text);
+    font-size: 1.15rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.voice-type {
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+}
+
+.voice-card.active .voice-name {
+    color: var(--accent);
+}
+
+.divider {
+    border: none;
+    border-top: 1px solid var(--bg);
+    margin: 0;
 }
 
 .speed-control {
@@ -1927,6 +1984,17 @@ body {
     
     .badge-share-desc {
         font-size: 0.9rem;
+    }
+
+    .voice-cards {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    
+    .voice-icon {
+        font-size: 3rem;
+        width: 60px;
+        height: 60px;
     }
 }
 
